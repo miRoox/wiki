@@ -1,0 +1,14 @@
+caption: 无效字符
+created: 20190924124048109
+creator: miRoox
+modified: 20190924125634469
+modifier: miRoox
+tags: TeX类别码
+title: TeX无效字符
+type: text/vnd.tiddlywiki
+
+TeX遇到它会跳过，并打印如下错误信息
+
+```
+! Text line contains an invalid character.
+```

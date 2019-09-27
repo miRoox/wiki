@@ -1,0 +1,12 @@
+caption: CellsToTeX
+created: 20190926094903919
+creator: miRoox
+modified: 20190926095011014
+modifier: miRoox
+tags: Mathematica个人常用工具包
+title: MathematicaCellsToTeX
+type: text/vnd.tiddlywiki
+
+将[[Mathematica]]单元转换为[[TeX]]，保留格式。
+
+链接： https://github.com/jkuczm/MathematicaCellsToTeX

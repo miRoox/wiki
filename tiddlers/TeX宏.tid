@@ -1,0 +1,16 @@
+caption: 宏
+created: 20190924075328713
+creator: miRoox
+modified: 20190927015415485
+modifier: miRoox
+tags: TeX基础
+title: TeX宏
+type: text/vnd.tiddlywiki
+
+! 宏
+
+宏（macro）：通过`\def` 、`\edef` 及其兄弟姐妹定义的东西。
+
+宏可以看作是原语的封装，通过进一步展开实现其功能。
+
+包括以`\`开头的命令（[[控制序列|TeX控制序列]]）和[[活动字符|TeX活动字符]]。

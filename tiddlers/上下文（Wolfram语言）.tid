@@ -1,0 +1,91 @@
+caption: 上下文
+created: 20190924012405654
+creator: miRoox
+modified: 20190924012941310
+modifier: miRoox
+tags: Wolfram语言（Mathematica）
+title: 上下文（Wolfram语言）
+type: text/vnd.tiddlywiki
+
+! 上下文
+
+顾名思义，上下文可以看作一段程序执行的语境，它影响符号的含义。
+
+Wolfram语言中任何符号的全名都包括两个部分：上下文和短名。
+全名的典型形式是``context`short``。
+其中，符号`` ` ``在Wolfram语言中被称为上下文标记，它是符号全名的一部分，在使用时又有些类似文件系统中的路径分隔符`/`或`\`。
+
+正如我们在命令行环境下键入程序不需要完整的路径，系统会自动在`PATH`环境变量指定的路径中搜索，在Wolfram语言中的如果只键入符号短名的话，系统首先会在`$ContextPath`指定的上下文中搜索，如果在既有上下文中找不到该符号，才会在当前上下文中创建一个以此为短名的新符号。
+
+上下文的应用通常和程序包联系在一起，以减少不同程序包间可能的符号冲突。因而在Wolfram语言中有两组典型的方式来开启一个上下文环境：
+一组是``Begin["context`"]``和`End[]`；
+另一组是``BeginPackage["context`"]``和`EndPackage[]`。
+下面的代码简单演示了两者对上下文环境的作用
+
+```mathematica
+Print["0:", $Context, "|", $ContextPath]
+BeginPackage["test`"];
+    Print["1:", $Context, "|", $ContextPath]
+    Begin["test1`"];
+        Print["2:", $Context, "|", $ContextPath]
+    End[];
+    Print["3:", $Context, "|", $ContextPath]
+    Begin["`test2`"];
+        Print["4:", $Context, "|", $ContextPath]
+    End[];
+    Print["5:", $Context, "|", $ContextPath]
+EndPackage[];
+Print["6:", $Context, "|", $ContextPath]
+```
+
+```
+0:Cell$$nnnn`|{Cell$$nnnn`,System`}
+
+1:test`|{test`,System`}
+
+2:test1`|{test`,System`}
+
+3:test`|{test`,System`}
+
+4:test`test2`|{test`,System`}
+
+5:test`|{test`,System`}
+
+6:Cell$$nnnn`|{test`,Cell$$nnnn`,System`}
+```
+
+可以看到，`Begin`-`End`所产生的作用比较纯粹，就是在其作用的范围内改变当前上下文`$Context`，而对`$ContextPath`毫无影响。相对地，`BeginPackage`-`EndPackage`则有几项副作用，它除了在作用范围内改变`$Context`和`$ContextPath`外，在使用`EndPackage[]`离开其作用范围时不仅将`$Context`和`$ContextPath`复原，而且会将还原前的上下文添加到`$ContextPath`中，从而方便我们直接使用导入包中的符号。
+
+在实际的程序包开发中，这两种结构一般都会用到。比如在Mathematica自带示例程序包`ExampleData/Collatz.m`中有如下代码
+
+```mathematica
+BeginPackage["Collatz`"]
+
+Collatz::usage =
+        "Collatz[n] gives a list of the iterates in the 3n+1 problem,
+        starting from n. The conjecture is that this sequence always
+        terminates."
+
+Begin["`Private`"]
+
+Collatz[1] := {1}
+
+Collatz[n_Integer]  := Prepend[Collatz[3 n + 1], n] /; OddQ[n] && n > 0
+
+Collatz[n_Integer] := Prepend[Collatz[n/2], n] /; EvenQ[n] && n > 0
+
+End[ ]
+
+EndPackage[ ]
+```
+
+这个例子中我们可以看到一个程序包典型的上下文结构安排。
+`BeginPackage`-`EndPackage`主要用于引入接口性质的符号，而具体实现部分则往往置于`Begin`-`End`结构中以尽可能避免符号污染。
+
+!!! 参见
+
+* [[上下文|http://reference.wolfram.com/language/tutorial/Contexts.html]]
+* [[上下文和程序包|http://reference.wolfram.com/language/tutorial/ContextsAndPackages.html]]
+* [[建立 Wolfram 语言程序包|http://reference.wolfram.com/language/tutorial/SettingUpWolframLanguagePackages.html]]
+* [[对不同的笔记本自动使用独立的上下文环境|http://reference.wolfram.com/language/workflow/AutomaticallyUseSeparateContextsForDifferentNotebooks.html]]
+* [[处理符号名称遮盖的问题|http://reference.wolfram.com/language/workflow/HandleShadowingOfSymbolNames.html]]

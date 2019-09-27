@@ -1,0 +1,12 @@
+caption: LaTeX
+created: 20190924023054632
+creator: miRoox
+modified: 20190927020538384
+modifier: miRoox
+tags: TeX格式
+title: LaTeX
+type: text/vnd.tiddlywiki
+
+! $$\LaTeX$$
+
+[ext[高德纳|http://www-cs-faculty.stanford.edu/~knuth/]]十年磨一剑最终推出的[[TeX|plain TeX]]，尽管号称“排版神器”，但作者对字体、字号、对齐，甚至断行分页算法等方方面面都要了解，也只有神人才能驾驭得了。上世纪 80 年代，同样身为计算机科学家的 Leslie Lamport 教授开发出了 $$\LaTeX$$（''La''mport ''$$\TeX$$''），隐藏了一些排版细节，成为了一套结构化的文档语言。

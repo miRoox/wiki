@@ -1,0 +1,18 @@
+caption: MPM
+created: 20190926091818797
+creator: miRoox
+modified: 20190926092212930
+modifier: miRoox
+tags: 框架-库-工具包 Mathematica个人常用工具包
+title: MPM
+type: text/vnd.tiddlywiki
+
+一个包管理器的封装，方便从GitHub上安装别的包。
+
+安装：
+
+```mathematica
+Import["https://raw.githubusercontent.com/kubapod/mpm/master/install.m"]
+```
+
+链接： https://github.com/kubaPod/MPM

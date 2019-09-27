@@ -1,0 +1,17 @@
+caption: 格式
+created: 20190926135502830
+creator: miRoox
+list: [[plain TeX]] AMS-TeX LaTeX ConTeXt TeXinfo
+modified: 20190927015812168
+modifier: miRoox
+tags: TeX
+title: TeX格式
+type: text/vnd.tiddlywiki
+
+! 格式
+
+$$\TeX$$ 是一个//宏语言//。当你制作了一些特别基础的[[宏|TeX宏]]，那么你可以将其发布为一个''格式（format）''。通常被编译成fmt格式。
+
+常见的格式：
+
+{{{[tag<currentTiddler>]}}}

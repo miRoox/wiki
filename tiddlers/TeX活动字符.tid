@@ -1,0 +1,20 @@
+caption: 活动字符
+created: 20190924122458753
+creator: miRoox
+modified: 20190927024825504
+modifier: miRoox
+tags: TeX类别码
+title: TeX活动字符
+type: text/vnd.tiddlywiki
+
+活动字符本身就是一个[[宏|TeX宏]]。
+
+如：[[plain TeX]]在进行[[类别码|TeX类别码]]设置``\catcode`\~=13``之后，分别给出了以下定义
+
+```tex
+\def~{\penalty10000\ }
+\def\~#1{{\accent"7E #1}}
+```
+
+在第一个定义中， `~`被当成了一个宏，其功能相当于`\nobreakspace`；
+而在第二个定义中，受转义符影响，`~`被当成第12类字符（其它字符）。

@@ -1,0 +1,15 @@
+caption: Trott-Strzebonski技巧
+created: 20190923151400555
+creator: miRoox
+modified: 20190924072251213
+modifier: miRoox
+tags: Wolfram语言（Mathematica）
+title: Trott-Strzebonski技巧
+type: text/vnd.tiddlywiki
+
+! 替换时就地计算
+
+!!! 外部链接
+
+* [ext[Replacement inside held expression - Mathematica Stack Exchange|https://mathematica.stackexchange.com/questions/29317/replacement-inside-held-expression]]
+* [ext[Working with Unevaluated Expressions - 1999 Mathematica Developer Conference|https://library.wolfram.com/infocenter/Conferences/377/]]

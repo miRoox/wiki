@@ -1,0 +1,11 @@
+created: 20190926152954201
+creator: miRoox
+modified: 20190926154404293
+modifier: miRoox
+tags: TeX格式
+title: TeXinfo
+type: text/vnd.tiddlywiki
+
+!! TeXinfo
+
+FSF（Free Software Foundation）编写的一种格式，TeXinfo是[[Linux]]等系统下的标准文档系统，该种格式能够生成多种输出格式（如.pdf 文档和.html 文档）

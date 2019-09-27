@@ -1,0 +1,22 @@
+caption: 控制序列
+created: 20190924075641891
+creator: miRoox
+modified: 20190926095735449
+modifier: miRoox
+tags: TeX基础
+title: TeX控制序列
+type: text/vnd.tiddlywiki
+
+! 控制序列
+
+控制序列（control sequence, cs）：所有以 `\` 开头的东西：
+
+* 控制符号：`\` 后紧跟着一个非字母字符（包括`\`），这种控制序列含有两个字符。
+* 控制字：以 `\` 开头，后面紧跟一串字母。
+
+!!! 参见
+
+* [[TeX原语]]
+* [[TeX宏]]
+* [[TeX类别码]]
+* [[TeX转义符]]
