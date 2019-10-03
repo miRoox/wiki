@@ -2,7 +2,7 @@ caption: Wolfram 语言
 created: 20190918114653828
 creator: miRoox
 list: 表达式（Wolfram语言） 计算控制（Wolfram语言） 模式与规则（Wolfram语言） 作用域（Wolfram语言） 上下文（Wolfram语言） 动态（Wolfram语言） 排版（Wolfram语言） Trott-Strzebonski技巧 Villegas-Gayley技巧
-modified: 20190924061905631
+modified: 20191002111727049
 modifier: miRoox
 tags: 计算机语言
 title: Wolfram语言（Mathematica）
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 
 {{{[tag<currentTiddler>]}}}
 
-!!! 外部链接
+!! 外部链接
 
 * [[Wolfram 语言参考资料中心|https://reference.wolfram.com/language/]]
 * [["How to" 分类主题|https://reference.wolfram.com/language/guide/HowToTopics]]

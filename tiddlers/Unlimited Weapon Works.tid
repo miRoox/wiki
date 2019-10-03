@@ -1,0 +1,179 @@
+caption: 所有物体类型关联
+created: 20190930031719873
+creator: miRoox
+modified: 20191002112416043
+modifier: miRoox
+tags: 待完善 [[红警2 Mod 技术]]
+title: Unlimited Weapon Works
+type: text/vnd.tiddlywiki
+
+! 所有物体类型关联
+
+转载自 [ext[红警DIY论坛|http://bbs.ra2diy.com/forum.php?mod=viewthread&tid=2343&extra=page%3D1&page=1]]
+
+---
+
+<font color="black">黑线<br>
+</font><font color="black">单位→武器</font><font color="red"><br>
+</font>单位开火，无甚可说<br>
+
+<font color="black">单位→动画<br>
+</font>单位死亡的爆炸动画，对于新手而言不是武器<br>
+建筑的工作动画，可以作为碎片武器的跳板<br>
+
+<font color="black">武器→伤害<br>
+</font>普通的武器攻击，无甚可说<br>
+
+<font color="black">弹头→动画<br>
+</font>弹头动画，无甚可说<br>
+
+---
+
+<font color="red">红线<br>
+</font><font color="red">武器→粒子<br>
+</font>调用粒子系统的武器，关键代码<br>
+`IsRailgun=true`<br>
+或`UseFireParticles=yes`<br>
+或`UseSparkParticles=yes`<br>
+以及`AttachedParticleSystem=`粒子系统名<br>
+
+<font color="red">动画→粒子<br>
+</font>在ART中添加<br>
+`SpawnsParticle=`粒子名<br>
+`NumParticles=`数字<br>
+
+<font color="red">弹头→碎片<br>
+</font>在弹头里添加<br>
+`MinDebris=`数字<br>
+`MaxDebris=`数字（默认的SHP碎片，metallic）<br>
+<br>
+如果要调用VXL碎片，则加入如下代码<br>
+`DebrisTypes=`VXL碎片名<br>
+`DebrisMaximums=`数字 （这句不影响碎片数目，但是没有这句就会IE）<br>
+同时，因为碎片本身其实是一种动画，故可以直接在`AnimList`里写上碎片名。<br>
+
+<font color="red">动画→伤害<br>
+</font>在ART里添加`Damage`，每帧都造成如此的伤害<br>
+如果想让动画到处移动，使用`IsFlamingGuy`.具体到`[FLAMEGUY]`动画里抄好了。<br>
+由于动画伤害的产生是每帧都进行的，绕过此障碍的方法是主动画无伤害，使用动画<font color="darkslategray">→动画产生另一单帧动画挂载伤害。<br>
+</font><br>
+<font color="red">动画→弹头<br>
+</font>NPext环境下的`Warhead`，只计算比例和粒子，弹头动画在此弹头用于另一动画时无效<br>
+
+<font color="red">粒子→伤害<br>
+</font>在`Gas`或`Fire`型粒子里写`Damage`和`Warhead`，`Smoke`型粒子无法添加伤害<br>
+
+<font color="red">武器→动画<br>
+</font>`Anim=`动画名，武器的开火动画，对于新手来说不存在考虑进武器的意义,只有中手才会使用它作为跳板。特征是追随单位移动，可以挂载伤害和粒子，可以用trailer代码挂碎片和其他动画<br>
+
+<font color="red">抛射体→武器<br>
+</font>`Airburst=yes`，`AirburstWeapon=`武器名，NPext环境下`Cluster=`数字<br>
+或<br>
+`ShrapnelWeapon=`武器名<br>
+`ShrapnelCount=`数字<br>
+
+<font color="red">碎片→弹头</font><font color="red"><br>
+</font>碎片里写弹头的主要意义是控制伤害和调用粒子系统<br>
+
+<font color="red">单位→overlay</font><br>
+<font color="black">最基本的形式就是围墙。围墙看似是建筑但是在art里有一句`ToOverlay`，即是变成围墙覆盖物。</font><br>
+<font color="black">
+
+---
+
+<font color="lime">绿线<br>
+</font><font color="lime">抛射体→碎片<br>
+</font>`Trailer=`动画或碎片名，`TrailerSeperation=`数字，`TrailerAnim=`动画或碎片名，`SpawnDelay=`数字<br>
+
+<font color="lime">抛射体→动画<br>
+</font>`Trailer=`动画或碎片名，`TrailerSeperation=`数字，`TrailerAnim=`动画或碎片名，`SpawnDelay=`数字<br>
+
+动画可以作为抛射体，发射出去后可以播放<br>
+在ART中添加<br>
+`AnimLow=`数字<br>
+`AnimHigh=`数字<br>
+`AnimRate=`数字<br>
+`AnimPalette=yes`<br>
+
+<font color="lime">碎片→伤害<br>
+</font>`Damage`，`Warhead`<br>
+
+<font color="lime">碎片→动画<br>
+</font>Trailer的4句，以及`ExpireAnim=`动画或碎片名，如果强制碎片`Next`为动画，此动画将被碎片化<br>
+
+<font color="lime">动画→碎片<br>
+</font>trailer的4句<br>
+
+<font color="lime">动画→单位(只能变步兵)<br>
+</font>NP说明书中的新基因突变，`MakeInfantry`和`AnimToInfantry`<br>
+
+<font color="lime">粒子→动画<br>
+</font>粒子并不能真的作为动画，而是作为视觉效果<br>
+
+<font color="lime">单位→碎片<br>
+</font>单位爆炸产生VXL碎片<br>
+VXL碎片中`ShareSource=`VXL单位名<br>
+单位中`DebrisTypes=`VXL碎片名<br>
+`DebrisMaximums=`数字<br>
+`DebrisMinimums=`数字<br>
+`DebrisAnims=`SHP碎片类型<br>
+
+飞行器类单位也可以使用trailer的4句代码，就是掉碎片，播放尾烟动画<br>
+<br>
+<font color="lime">弹头→粒子<br>
+</font>弹头中`Particle=`粒子系统名<br>
+
+<font color="black"><font color="lime">单位→地形</font></font><br>
+<font color="black"><font color="black">在建筑里加入`ToTile`，填地形名，如`Water01`，`Green01`，注意如果想让此物在水面建造的话需要`LaserFencePost=yes`。因为过于冷僻，而且无法计入UWW系统，在图上不予表现</font></font><br>
+<font color="black"><br>
+<font color="#00ff00">Overlay→粒子</font></font><br>
+BarrelParticle=，填粒子系统的名字，用于带有`Explodes=yes`的overlay被引爆时播放，可以仅仅是视觉效果也可以是带有伤害的毒气粒子<br>
+
+<font color="#00ff00">Overlay→伤害</font><br>
+<font color="black">伤害数值`AmmoCrateDamage=`，伤害弹头锁定为`C4Warhead=`后填写的弹头</font><br>
+
+<font color="#00ff00">Overlay→动画</font><br>
+`BarrelExplode=`，爆炸动画<br>
+`OreTwinkle=`，矿石闪光动画以及配套的`OreTwinkleChance`<br>
+
+<font color="#00ff00">碎片→Overlay</font><br>
+`TiberiumSpawnType=`，这是仅仅用于碎片的代码。`ToOverlay`仅适合建筑物。<br>
+<font color="black">并不一定填写矿石overlay。理论上此物可以填写一切overlaytypes里注册的物体。值得注意的是并不仅仅产生moder指定的overlay类型，会按照某内置规则（内容不详）产生就近的若干种不同overlay。所以最好复制若干个，注册在一起，这样就可以刷出“同类”overlay了。<br>
+</font>
+
+---
+
+<font color="blue">蓝线</font><br>
+粒子的`NextParticle`<br>
+动画的`Next`和trailer<br>
+
+SHP碎片的Next和<br>
+`Spawns=`SHP碎片名<br>
+`SpawnCount=`数字<br>
+
+---
+
+那么，这图表的使用方式？<br>
+比如单位<font color="black">→</font>动画<font color="lime">→</font>碎片<font color="lime">→</font>伤害，罗根炸弹<br>
+单位<font color="black">→</font>武器<font color="black">→</font>抛射体<font color="red">→</font>武器<font color="black">→</font>伤害，多重弹头<br>
+单位<font color="black">→</font>武器<font color="black">→</font>弹头<font color="black">→</font>动画<font color="lime">→</font>碎片<font color="lime">→</font>伤害，酸雨武器<br>
+
+---
+
+如果说有什么“mod秘籍”，那么就是这张玩意了。黑线表示入门者了解的系统，红线表示一般水平了解的水平，绿线为冷门知识，蓝线表示可以自我增殖
+为了方便，粒子和粒子系统都写为粒子，在运用上还是有所区分
+另注：碎片和动画其实是同质的，但是性能还是有所不同。一般能用SHP动画的地方就能用碎片
+注2：碎片最基本的特征是Bouncer=yes，碎片引用的方法基本只有trailer四句。很多时候你需要许多步跳板来达到最终目的
+
+---
+
+!! 详解说明
+
+这是高阶效果的实现方式线路图。这个体系已经不是新手期代码意思都不懂的阶段了，所以本文并不适合新手阅读。从“熟练”的中手进入高手期，你已经开始创造出原版不存在的特效。这时候，创意的重要性才体现出来。此外，即使你看过本文，如果你没有大量的亲身实践经验，无法了解此图谱中各个部件的特征，（如开火动画跟随单位，碎片分散的大体形状呈方形）则本文的思路对你是没有意义的。这些实践经验是中手成长的必要条件。
+
+创作新特效的第一步是“效果想象”。在现有的基础上，设想一个创意的视觉效果。注意，仅仅是视觉效果。例如“铁锤的吸血光束”，就是“发出一道电磁波，吸取敌人生命值”
+第二步，效果拆解。将想象中的效果拆分成多个用mod术语描述的基础原理。很显然，基础原理是不存在“吸血”的。于是，上述的视效可以拆解为“武器使用电磁波特效，给敌人正伤害并同时给自己带来负伤害”。
+第三步，代码思路设计。参考关联图，可得开火动画引起伤害，武器攻击本身引起伤害。将开火动画分配负伤害作用于自己，常规伤害作用于敌人，即可。这一步最最困难，如果对各部件特征的巧用毫无概念，是不可能设计出思路的。
+
+最后，根据代码设计写出具体代码。
+可见，到了这个地步，必须完全将自己的思维和普通玩家区分开。必须所见一切皆原理。而且，创作之前，代码系统已经架构好，最后只不过是把代码写出来能用而已。

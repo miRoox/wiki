@@ -1,10 +1,14 @@
 caption: HTML
 created: 20190918115236515
 creator: miRoox
-modified: 20190918152902377
+modified: 20191002112443270
 modifier: miRoox
-tags: 计算机语言
+tags: 待完善 计算机语言
 title: HTML
 type: text/vnd.tiddlywiki
 
 ! HTML
+
+!! 外部链接
+
+* [ext[HTML - Mozilla MDN|https://developer.mozilla.org/zh-CN/docs/Web/HTML]]

@@ -1,0 +1,12 @@
+caption: 参数传递行为
+created: 20191002054053763
+creator: miRoox
+modified: 20191002054451192
+modifier: miRoox
+tags: Julia函数
+title: Julia函数参数传递行为
+type: text/vnd.tiddlywiki
+
+!! 参数传递行为
+
+Julia 函数参数遵循有时称为 “pass-by-sharing” 的约定，这意味着变量在被传递给函数时其值并不会被复制。函数参数本身充当新的变量绑定（指向变量值的新地址），它们所指向的值与所传递变量的值完全相同。调用者可以看到对函数内可变值（如数组）的修改。这与 [[Scheme]]，大多数 Lisps，[[Python]]，[[Ruby]] 和 [[Perl]] 以及其他动态语言中的行为相同。

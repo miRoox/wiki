@@ -2,7 +2,7 @@ caption: C++
 created: 20190918114448532
 creator: miRoox
 list: C++语法 C++标准库 C++惯用法
-modified: 20190924025212447
+modified: 20191002111709152
 modifier: miRoox
 tags: 计算机语言
 title: C++
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 
 {{{[tag<currentTiddler>]}}}
 
-!!! 外部链接
+!! 外部链接
 
 * [[C++ 参考手册 - cppreference.com|https://zh.cppreference.com/w/cpp]]
 * [[C++ 核心方针|http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines]]
