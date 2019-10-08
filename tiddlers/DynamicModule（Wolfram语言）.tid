@@ -1,0 +1,59 @@
+caption: DynamicModule
+created: 20190923125930050
+creator: miRoox
+modified: 20191003131812011
+modifier: miRoox
+tags: 作用域（Wolfram语言）
+title: DynamicModule（Wolfram语言）
+type: text/vnd.tiddlywiki
+
+!! `DynamicModule`
+
+`DynamicModule` 虽然名字里有个 Dynamic ，但同 [[Block|Block（Wolfram语言）]] 的[[动态作用域]]无关，
+而是与Wolfram语言中一套主要基于 `Dynamic` 的[[动态|动态（Wolfram语言）]]交互功能相关联。
+实际上，它和 `Module` 类似，也建立变量的词法作用域，但两者又有不同：
+如果说 `Module` 将变量局域在一个''时间段''的话，那么 `DynamicModule` 将变量局域在其输出的一个''空间区域''上。
+而为了实现这一点，`Module` 对变量的局域化发生在//内核//中，而 `DynamicModule` 对变量的局域化发生在//前端//。
+
+由于局域化发生在前端，`DynamicModule` 对计算的处理也更为复杂，大致可以概括为求值、排版、渲染三个阶段：
+
+# 求值：<div>
+
+`DynamicModule` 虽然具有属性 `HoldAll`，但它并不仅仅是保持参数不变，而是会对参数进行受控的计算：
+这一步的计算是对主体进行求值，并将求值对局部变量的修改结果记录到初始值和 `DynamicModuleValues` 当中。
+</div>
+# 排版：<div>
+
+排版是指在内核中进行的表达式到框符的变换，这个阶段主要进行的是 `DynamicModule` 到 `DynamicModuleBox` 的变换。同时，还伴随着对变量的重命名，以方便前端控制其后续的作用域。
+</div>
+# 渲染：<div>
+
+当 `DynamicModuleBox` 第一次在前端渲染显示，它的 `Initialization` 初始化才发生。同 `Dynamic` 一样，只有它在显示到屏幕上的时候才会初始化，而如果处在关闭的单元或者被分号抑制了输出，那么就初始化就不会发生。
+</div>
+
+下面代码的输出演示了 `DynamicModule` 运算的阶段次序：
+
+```mathematica
+start=AbsoluteTime[];
+log[label_] := Echo[Row[{AbsoluteTime[]-start, " ", label}]]
+
+DynamicModule[{var=log["initial variable value"]},
+  (
+    log["content"];
+    log["more content"];
+    Dynamic[log["dynamic content"]]
+  ),
+  Initialization:>log["initialization"]
+]
+```
+
+!!! 参见
+
+* [[动态（Wolfram语言）]]
+* [[排版（Wolfram语言）]]
+* [[Module（Wolfram语言）]]
+
+!!! 外部链接
+
+* [[动态简介|http://reference.wolfram.com/language/tutorial/IntroductionToDynamic.html]]
+* [[高级动态功能|http://reference.wolfram.com/language/tutorial/AdvancedDynamicFunctionality.html]]

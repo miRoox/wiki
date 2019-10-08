@@ -1,0 +1,12 @@
+caption: XeTeX
+created: 20190926153804039
+creator: miRoox
+modified: 20190926153850464
+modifier: miRoox
+tags: TeX引擎
+title: XeTeX
+type: text/vnd.tiddlywiki
+
+!! XeTeX
+
+[[e-TeX]] 的另一个分支扩展。它原生支持 [[Unicode]]，并且和 [[LuaTeX]] 一样，支持直接调用系统里的字体。

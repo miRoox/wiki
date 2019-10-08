@@ -1,0 +1,17 @@
+caption: 引擎
+created: 20190924075227969
+creator: miRoox
+list: [[Knuth TeX]] e-TeX pdfTeX LuaTeX XeTeX
+modified: 20190926154151545
+modifier: miRoox
+tags: TeX
+title: TeX引擎
+type: text/vnd.tiddlywiki
+
+! 引擎
+
+与通常用的编程语言的编译器相对应，$$\TeX$$ 的“编译器”的真名叫做''TeX 引擎''。
+
+常见的有：
+
+{{{[tag<currentTiddler>]}}}

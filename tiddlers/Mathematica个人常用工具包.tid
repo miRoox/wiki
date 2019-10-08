@@ -1,0 +1,19 @@
+caption: 个人常用工具包
+created: 20190926091635795
+creator: miRoox
+modified: 20190926095049189
+modifier: miRoox
+tags: Mathematica
+title: Mathematica个人常用工具包
+type: text/vnd.tiddlywiki
+
+! Mathematica个人常用工具包
+
+* [[MirooxUtils]]
+* [[MPM]]
+* [[ForScience|MMA-ForScience]]
+* [[Rubi]]
+* [[BTools|mathematica-BTools]]
+* [[MaTeX]]
+* [[MathematicaCellsToTeX]]
+* [[Prototypes|Prototypes（Mathematica包）]]

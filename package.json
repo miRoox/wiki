@@ -1,0 +1,25 @@
+{
+  "name": "miroox-wiki",
+  "version": "0.0.0",
+  "description": "Personal wiki",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "tiddlywiki --build index && mv output/index.html .",
+    "start": "tiddlywiki --server 7777",
+    "test": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miRoox/wiki.git"
+  },
+  "author": "miroox <miroox@outlook.com> (https://miroox.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "tiddlywiki": "^5.1.21"
+  },
+  "bugs": {
+    "url": "https://github.com/miRoox/wiki/issues"
+  },
+  "homepage": "https://github.com/miRoox/wiki#readme"
+}

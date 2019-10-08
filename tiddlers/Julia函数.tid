@@ -1,0 +1,32 @@
+caption: 函数
+created: 20191001033154157
+creator: miRoox
+modified: 20191002054438200
+modifier: miRoox
+tags: Julia语法
+title: Julia函数
+type: text/vnd.tiddlywiki
+
+! 函数
+
+在 Julia 里，函数是一个将参数值元组映射到返回值的对象。Julia 的函数不是纯粹的数学函数，在某种意义上，函数可以改变并受程序的全局状态的影响。
+
+函数定义的两种方式：
+
+* 标准格式：<div>
+
+```julia
+function f(x,y)
+    x + y
+end
+```
+</div>
+* 赋值形式： <div>
+
+```julia
+f(x,y) = x + y
+```
+</div>
+
+{{Julia函数参数传递行为}}
+{{Julia运算符}}

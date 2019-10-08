@@ -1,0 +1,12 @@
+caption: MaTeX
+created: 20190926093236906
+creator: miRoox
+modified: 20190926095022411
+modifier: miRoox
+tags: 框架-库-工具包 Mathematica个人常用工具包
+title: MaTeX
+type: text/vnd.tiddlywiki
+
+在[[Mathematica]]中创建[[LaTeX|TeX]]标签。
+
+链接： https://github.com/szhorvat/MaTeX

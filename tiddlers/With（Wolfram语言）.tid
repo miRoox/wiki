@@ -1,0 +1,49 @@
+caption: With
+created: 20190923091531282
+creator: miRoox
+modified: 20190924072719757
+modifier: miRoox
+tags: 作用域（Wolfram语言）
+title: With（Wolfram语言）
+type: text/vnd.tiddlywiki
+
+!! `With`
+
+`With` 的目的是实现局部常量，但它实质上不过是一个替换罢了。
+在大多数情况下
+
+```mathematica
+With[{x = x0, y = y0}, expr]
+```
+
+等价于
+
+```mathematica
+Unevaluated[expr] /. {HoldPattern[x] -> x0, HoldPattern[y] -> y0}
+```
+
+可以看到，`With`实质并不会创建变量，相反，在替换的过程中往往还会减少变量。这个性质往往非常有用。
+比如，它可以把值插入到保持（held）表达式中。
+
+借助 `With` 实现[[闭包]]：
+
+```mathematica
+Table[With[{i=i}, i+#&], {i, 5}]
+```
+注意前面提到//大多数情况//下，`With` 可以等价于一个替换。但既然它的目的在于建立词法作用域，当存在潜在的词法命名冲突时，它同单纯的替换还是有区别的：
+
+```mathematica
+With[{y=x+a}, Function[{x}, x+y]]
+(*输出：Function[{x$}, x$+(a+x)]*)
+Unevaluated[Function[{x}, x+y]]/.{HoldPattern[y]->x+a}
+(*输出：Function[{x}, x+(a+x)]*)
+```
+
+!!! 参见
+
+* [[计算控制（Wolfram语言）]]
+
+!!! 外部链接
+
+* [[局部常量|http://reference.wolfram.com/language/tutorial/LocalConstants.html]]
+* [[纯函数和规则中的变量|http://reference.wolfram.com/language/tutorial/VariablesInPureFunctionsAndRules.html]]

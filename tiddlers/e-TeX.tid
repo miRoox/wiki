@@ -1,0 +1,10 @@
+caption: e-TeX
+created: 20190926141203405
+creator: miRoox
+modified: 20190926141225119
+modifier: miRoox
+tags: TeX引擎
+title: e-TeX
+type: text/vnd.tiddlywiki
+
+e-TeX 是目前事实上的「标准」TeX。尽管它名字中的「e」表示的是「extended」。几乎所有的后续的 TeX 编译器都是在 e-TeX 基础上开发的。

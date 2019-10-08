@@ -1,0 +1,10 @@
+caption: 换行&回车
+created: 20190924124844710
+creator: miRoox
+modified: 20190924125609234
+modifier: miRoox
+tags: TeX类别码
+title: TeX回车
+type: text/vnd.tiddlywiki
+
+TeX读入文件''之后''，每行均以 `CR`（回车符）结尾。

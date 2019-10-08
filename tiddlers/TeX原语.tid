@@ -1,0 +1,14 @@
+caption: 原语
+created: 20190924074104091
+creator: miRoox
+modified: 20190924075313005
+modifier: miRoox
+tags: TeX基础
+title: TeX原语
+type: text/vnd.tiddlywiki
+
+! 原语
+
+原语（primitive）：[[引擎|TeX引擎]]所提供的命令。
+是宏语言的基础，就如同其它语言的关键字一般。
+例如：`\def`、`\let`、`\if`等

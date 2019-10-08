@@ -1,0 +1,10 @@
+caption: 转义符
+created: 20190924125055813
+creator: miRoox
+modified: 20190924125602440
+modifier: miRoox
+tags: TeX类别码
+title: TeX转义符
+type: text/vnd.tiddlywiki
+
+转义符`\`开启一个[[控制序列|TeX控制序列]]。

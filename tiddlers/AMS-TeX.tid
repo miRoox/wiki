@@ -1,0 +1,12 @@
+caption: AMS-TeX
+created: 20190926153141783
+creator: miRoox
+modified: 20190926154333466
+modifier: miRoox
+tags: TeX格式
+title: AMS-TeX
+type: text/vnd.tiddlywiki
+
+!! AMS-TeX
+
+美国数学学会制作的格式，现已转为支持[[plain TeX]]和[[LaTeX]]两种格式，这种格式除了约定了一些特定的排版规则外，还额外提供了一些数学字体。

@@ -1,0 +1,24 @@
+caption: Wolfram 语言
+created: 20190918114653828
+creator: miRoox
+list: 表达式（Wolfram语言） 计算控制（Wolfram语言） 模式与规则（Wolfram语言） 作用域（Wolfram语言） 上下文（Wolfram语言） 动态（Wolfram语言） 排版（Wolfram语言） Trott-Strzebonski技巧 Villegas-Gayley技巧
+modified: 20191002111727049
+modifier: miRoox
+tags: 计算机语言
+title: Wolfram语言（Mathematica）
+type: text/vnd.tiddlywiki
+
+! Wolfram 语言
+
+{{{[tag<currentTiddler>]}}}
+
+!! 外部链接
+
+* [[Wolfram 语言参考资料中心|https://reference.wolfram.com/language/]]
+* [["How to" 分类主题|https://reference.wolfram.com/language/guide/HowToTopics]]
+* [[虚拟全书|https://reference.wolfram.com/language/tutorial/VirtualBookOverview]]
+* [[Wolfram 语言：快速编程入门|http://www.wolfram.com/language/fast-introduction-for-programmers/zh/]]
+* [[Mathematica 和 Wolfram 语言：面向数学学习的快速入门指南|http://www.wolfram.com/language/fast-introduction-for-math-students/zh/]]
+* [[Wolfram 语言入门|http://www.wolfram.com/language/elementary-introduction/]]
+* [[Mathematica Tutorial - b3m2a1|https://mresources.github.io/tutorial/]]
+* [[Mathematica programming:  an advanced introduction|http://www.mathprogramming-intro.org/book/Book.html]]

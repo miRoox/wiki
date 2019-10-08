@@ -1,0 +1,22 @@
+created: 20181002131215403
+modified: 20190903094711346
+tags: [[WebServer API]]
+title: WebServer API: Get All Tiddlers
+type: text/vnd.tiddlywiki
+
+Gets an array of all raw non-system tiddlers, excluding the ''text'' field.
+
+```
+GET /recipes/default/tiddlers.json
+```
+
+Parameters:
+
+* none
+
+Response:
+
+
+* 200 OK
+*> `Content-Type: application/json`
+*> Body: array of all non-system tiddlers in [[TiddlyWeb JSON tiddler format]] 

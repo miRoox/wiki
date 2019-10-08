@@ -1,0 +1,10 @@
+caption: 可忽略字符
+created: 20190924123941742
+creator: miRoox
+modified: 20190924125615102
+modifier: miRoox
+tags: TeX类别码
+title: TeX可忽略字符
+type: text/vnd.tiddlywiki
+
+TeX 遇到它后将直接跳过，就仿佛它不在那里一样
