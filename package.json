@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "build": "tiddlywiki --build index && mv output/index.html .",
-    "start": "tiddlywiki --server 7777"
+    "start": "tiddlywiki --server 7777",
+    "test": "npm run build"
   },
   "repository": {
     "type": "git",
