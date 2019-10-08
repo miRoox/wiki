@@ -1,7 +1,7 @@
 caption: Mathematica
 created: 20190926091042715
 creator: miRoox
-modified: 20190926091352169
+modified: 20191003085550793
 modifier: miRoox
 tags: 开发工具 软件
 title: Mathematica
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 ! Mathematica
 
 Mathematica使用[[Wolfram语言|Wolfram语言（Mathematica）]]作为其编程语言。
+
+!! 外部链接
+
+* [ext[Wolfram Research 官网|https://www.wolfram.com/]]

@@ -1,7 +1,7 @@
 caption: DynamicModule
 created: 20190923125930050
 creator: miRoox
-modified: 20190924072643536
+modified: 20191003131812011
 modifier: miRoox
 tags: 作用域（Wolfram语言）
 title: DynamicModule（Wolfram语言）
@@ -15,7 +15,7 @@ type: text/vnd.tiddlywiki
 如果说 `Module` 将变量局域在一个''时间段''的话，那么 `DynamicModule` 将变量局域在其输出的一个''空间区域''上。
 而为了实现这一点，`Module` 对变量的局域化发生在//内核//中，而 `DynamicModule` 对变量的局域化发生在//前端//。
 
-由于局域化发生在前端，`DynamicModule` 对计算的处理也更为复杂，包含求值、排版、渲染三个阶段：
+由于局域化发生在前端，`DynamicModule` 对计算的处理也更为复杂，大致可以概括为求值、排版、渲染三个阶段：
 
 # 求值：<div>
 

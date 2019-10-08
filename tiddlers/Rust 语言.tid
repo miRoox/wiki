@@ -1,10 +1,19 @@
 caption: Rust
 created: 20190918114625308
 creator: miRoox
-modified: 20191002112606031
+modified: 20191006080815499
 modifier: miRoox
 tags: 待完善 计算机语言
 title: Rust 语言
 type: text/vnd.tiddlywiki
 
 ! Rust
+
+Rust 是一门注重安全（safety）、速度（speed）和并发（concurrency）的现代系统编程语言。
+
+!! 外部链接
+
+* [ext[Rust 中文官网|https://www.rust-lang.org/zh-CN/]]
+* [ext[Rust 程序设计语言|https://kaisery.github.io/trpl-zh-cn/]]
+* [ext[通过例子学 Rust|https://rustwiki.org/zh-CN/rust-by-example/]]
+* [ext[绅士地介绍 Rust|http://llever.com/gentle-intro/]]

@@ -1,7 +1,7 @@
 caption: Block
 created: 20190923091011027
 creator: miRoox
-modified: 20190924072451415
+modified: 20191003131625527
 modifier: miRoox
 tags: 作用域（Wolfram语言）
 title: Block（Wolfram语言）
@@ -30,7 +30,9 @@ Block[{i = a}, i + m]
 比如下面的代码可以直接追踪出求根过程中的步骤
 
 ```mathematica
-FindRoot[x^2 - 2, {x, 1},  EvaluationMonitor :> Print["x=", x, " Bias:", Abs[x^2 - 2]]]
+FindRoot[x^2 - 2, {x, 1}, 
+  EvaluationMonitor :> Print["x=", x, " Bias:", Abs[x^2 - 2]]
+]
 ```
 
 !!! 外部链接
