@@ -10,6 +10,9 @@
         "tiddlywiki/vanilla",
         "tiddlywiki/snowwhite"
     ],
+    "config": {
+		"retain-original-tiddler-path": true
+	},
     "build": {
         "index": [
             "--rendertiddler",
