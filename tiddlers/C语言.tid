@@ -2,7 +2,7 @@ caption: C
 created: 20190918114340405
 creator: miRoox
 list: C语法 C标准库
-modified: 20190924025507781
+modified: 20191009075142272
 modifier: miRoox
 tags: 计算机语言
 title: C语言
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 ! C语言
 
-{{{[tag<currentTiddler>]}}}
+<<list-links "[tag<currentTiddler>]">>
 
 !!! 外部链接
 

@@ -2,7 +2,7 @@ caption: 宏包
 created: 20190926095150664
 creator: miRoox
 list: Beamer BibTeX BibLaTeX [[PGF & TikZ]]
-modified: 20190927015524337
+modified: 20191009080554458
 modifier: miRoox
 tags: TeX
 title: TeX宏包
@@ -10,4 +10,4 @@ type: text/vnd.tiddlywiki
 
 ! 宏包
 
-{{{[tag<currentTiddler>]}}}
+<<list-links "[tag<currentTiddler>]">>
