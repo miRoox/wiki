@@ -2,7 +2,7 @@ caption: 哲学
 created: 20190918112657203
 creator: miRoox
 list: 哲学家 哲学史 科学哲学
-modified: 20190927064613686
+modified: 20191009075257042
 modifier: miRoox
 tags: TableOfContents
 title: 哲学（分类）
@@ -10,4 +10,4 @@ type: text/vnd.tiddlywiki
 
 ! 哲学
 
-{{{[tag<currentTiddler>]}}}
+<<list-links "[tag<currentTiddler>]">>

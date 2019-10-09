@@ -2,7 +2,7 @@ caption: C++
 created: 20190918114448532
 creator: miRoox
 list: C++语法 C++标准库 C++惯用法
-modified: 20191002111709152
+modified: 20191009075134034
 modifier: miRoox
 tags: 计算机语言
 title: C++
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 ! C++
 
-{{{[tag<currentTiddler>]}}}
+<<list-links "[tag<currentTiddler>]">>
 
 !! 外部链接
 

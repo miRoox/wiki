@@ -1,7 +1,7 @@
 caption: 人文艺术
 created: 20190918113436044
 creator: miRoox
-modified: 20190924022557349
+modified: 20191009075331360
 modifier: miRoox
 tags: TableOfContents
 title: 人文艺术（分类）
@@ -9,4 +9,4 @@ type: text/vnd.tiddlywiki
 
 ! 人文艺术
 
-{{{[tag<currentTiddler>]}}}
+<<list-links "[tag<currentTiddler>]">>

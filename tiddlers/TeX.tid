@@ -2,7 +2,7 @@ caption: TeX
 created: 20190918115034516
 creator: miRoox
 list: TeX基础 TeX格式 TeX引擎
-modified: 20191005022455453
+modified: 20191009075156314
 modifier: miRoox
 tags: 计算机语言
 title: TeX
@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 
 TeX 的名字是由大写的希腊字母“τεχ”组成。在希腊语中这个词的意思是“科技”和“艺术”，这也解释了它的发音。“T”和“E”就像在“technology”中的发音一样，而“x” 的发音类似于苏格兰语单词“loch”或德语单词“ach”中的“ch”，也类似于西班牙语中的“j”或俄语中的“kh”。TeX 标志为 $$\TeX$$ ，这三个字母相靠得很近，而且中间的那个 E 有点儿下沉。但在无格式文件中，就写为 TeX 。
 
-{{{[tag<currentTiddler>]}}}
+<<list-links "[tag<currentTiddler>]">>
 
 
 !! 外部链接
