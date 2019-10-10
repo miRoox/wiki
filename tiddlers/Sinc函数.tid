@@ -1,0 +1,19 @@
+caption: Sinc函数
+created: 20191010113726280
+modified: 20191010114006183
+tags: 函数
+title: Sinc函数
+type: text/vnd.tiddlywiki
+
+! Sinc函数
+
+$$
+\operatorname{sinc}(x)=\begin{cases}
+    \frac{\sin(x)}{x} & x\ne0 \\
+    1 & x=0\\
+\end{cases}
+$$
+
+!!! 参见
+
+* [[三角函数]]

@@ -1,7 +1,7 @@
 caption: 软件
 created: 20190926090543732
 creator: miRoox
-modified: 20190926091214297
+modified: 20191010120037685
 modifier: miRoox
 tags: 杂项（分类）
 title: 软件
@@ -9,4 +9,4 @@ type: text/vnd.tiddlywiki
 
 ! 软件
 
-{{{[tag<currentTiddler>]}}}
+<<list-links "[tag<currentTiddler>]">>
