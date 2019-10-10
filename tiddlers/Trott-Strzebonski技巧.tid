@@ -1,13 +1,15 @@
 caption: Trott-Strzebonski技巧
 created: 20190923151400555
 creator: miRoox
-modified: 20191002111917349
+modified: 20191010134446101
 modifier: miRoox
 tags: 待完善 Wolfram语言（Mathematica）
 title: Trott-Strzebonski技巧
 type: text/vnd.tiddlywiki
 
 ! 替换时就地计算
+
+利用[[作用域|作用域（Wolfram语言）]]中[[条件模式|条件模式（Wolfram语言）]]的特殊性，实现在替换保持表达式的使用能对替换的内容进行求值。
 
 !!! 外部链接
 
