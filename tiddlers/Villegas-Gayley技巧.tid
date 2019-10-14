@@ -1,7 +1,7 @@
 caption: Villegas-Gayley技巧
 created: 20190923151458824
 creator: miRoox
-modified: 20191010134218832
+modified: 20191014080241315
 modifier: miRoox
 tags: 待完善 Wolfram语言（Mathematica）
 title: Villegas-Gayley技巧
@@ -10,3 +10,17 @@ type: text/vnd.tiddlywiki
 ! 非侵入式重载
 
 通过[[条件模式|条件模式（Wolfram语言）]]在重写某些函数定义时保留原本的定义。尤其是，在新的定义内使用旧有定义。
+
+比如也许我今天突发奇想，要把内置的`Map`功能给换成``GeneralUtilities`MonitoredMap``的功能。显然直接``Map=GeneralUtilities`MonitoredMap``是不切实际的，因为``GeneralUtilities`MonitoredMap``的定义自身也依赖于`Map`，这样只会导致无限递归。
+而使用Villegas-Gayley技巧则可以避免这样的困境：
+
+```mathematica
+Needs["GeneralUtilities`"]
+BlockProtected[{Map},
+  Map[args__] /; ! TrueQ@$mapping := Block[
+      {$mapping = True},
+      MonitoredMap[args]
+    ]
+]
+```
+
