@@ -1,7 +1,7 @@
 caption: Trott-Strzebonski技巧
 created: 20190923151400555
 creator: miRoox
-modified: 20191010134446101
+modified: 20191014025537560
 modifier: miRoox
 tags: 待完善 Wolfram语言（Mathematica）
 title: Trott-Strzebonski技巧
@@ -9,7 +9,20 @@ type: text/vnd.tiddlywiki
 
 ! 替换时就地计算
 
-利用[[作用域|作用域（Wolfram语言）]]中[[条件模式|条件模式（Wolfram语言）]]的特殊性，实现在替换保持表达式的使用能对替换的内容进行求值。
+利用[[作用域|作用域（Wolfram语言）]]中[[条件模式|条件模式（Wolfram语言）]]的特殊性，实现在替换保持表达式的时候能对替换的内容进行求值。
+
+对比下面的结果
+
+```mathematica
+Replace[Hold[7], x_ :> x + x, {-1}]
+(*输出：Hold[7 + 7]*)
+Replace[Hold[7], x_ -> x + x, {-1}]
+(*输出：Hold[2 * 7]*)
+Replace[Hold[7], x_ :> Block[{}, x + x /; True], {-1}]
+(*输出：Hold[14]*)
+```
+
+最后一种即Trott-Strzebonski技巧。
 
 !!! 外部链接
 
