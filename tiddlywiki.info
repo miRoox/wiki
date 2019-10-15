@@ -4,7 +4,16 @@
         "tiddlywiki/tiddlyweb",
         "tiddlywiki/filesystem",
         "tiddlywiki/highlight",
-        "tiddlywiki/katex"
+        "tiddlywiki/katex",
+        "tiddlywiki/codemirror",
+        "tiddlywiki/codemirror-autocomplete",
+        "tiddlywiki/codemirror-closetag",
+        "tiddlywiki/codemirror-closebrackets",
+        "tiddlywiki/codemirror-search-replace",
+        "tiddlywiki/codemirror-mode-x-tiddlywiki",
+        "tiddlywiki/codemirror-mode-javascript",
+        "tiddlywiki/codemirror-mode-css",
+        "tiddlywiki/codemirror-mode-xml"
     ],
     "themes": [
         "tiddlywiki/vanilla",
