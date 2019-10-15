@@ -1,7 +1,7 @@
 caption: 傅里叶变换
 created: 20191010111430376
 creator: miRoox
-modified: 20191014143254432
+modified: 20191015111512469
 modifier: miRoox
 tags: 待完善 正交变换 积分变换
 title: 傅里叶变换
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 傅里叶变换$$\mathscr{F}: f\to{}F$$定义为：
 
 $$
-F(u)=\mathscr{F}[f(x)]=\int_{-\infty}^{+\infty} f(x)\exp(2\pi i u x)\,\mathrm{d}{x}
+F(u)=\mathscr{F}[f(x)]=\int_{-\infty}^{+\infty} f(x)\exp(-2\pi i u x)\,\mathrm{d}{x}
 $$
 
 !! 存在性
@@ -29,6 +29,21 @@ $$
 
 $$
 \mathscr{F}[af(x)+bg(x)]=a\mathscr{F}[f(x)]+b\mathscr{F}[g(x)]
+$$
+
+!!! 复合对称性
+
+$$
+\mathscr{F}\{\mathscr{F}[f(x)]\}=f(-x)
+$$
+
+!!! [[共轭|共轭（复数）]]对称性
+
+$$
+\begin{aligned}
+f^*(x)&\xrightleftharpoons[\mathscr{F}^{-1}]{\mathscr{F}}F^*(-u)\\
+f^*(-x)&\xrightleftharpoons[\mathscr{F}^{-1}]{\mathscr{F}}F^*(u)\\
+\end{aligned}
 $$
 
 !!! 尺度缩放性质
@@ -55,7 +70,27 @@ f(x)g(x)&\xrightleftharpoons[\mathscr{F}^{-1}]{\mathscr{F}}F(u)\ast G(u)
 \end{aligned}
 $$
 
+!!! [[相关|相关函数]]定理
+
+$$
+\mathscr{F}[R_{fg}(x)]=F^*(u)G(u)
+$$
+
+其中，$$R_{fg}(x)$$为函数$$f$$和$$g$$的互相关函数。
+
 !!! Parseval定理
+
+$$
+\int_{-\infty}^{+\infty}f(x)g^*(x)\,\mathrm{d}x=\int_{-\infty}^{+\infty}F(u)G^*(u)\,\mathrm{d}u
+$$
+
+特别地，取$$g=f$$，则有
+
+$$
+\int_{-\infty}^{+\infty}|f(x)|^2\,\mathrm{d}x=\int_{-\infty}^{+\infty}|F(u)|^2\,\mathrm{d}u
+$$
+
+意味着时频域能量守恒。
 
 !! 关系
 
@@ -68,6 +103,8 @@ $$
 !!! [[离散傅里叶变换]]
 
 !!! [[拉普拉斯变换]]
+
+!!! [[汉克尔变换]]
 
 !!! [[分数阶傅里叶变换]]
 

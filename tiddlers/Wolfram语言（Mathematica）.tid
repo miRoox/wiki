@@ -2,9 +2,9 @@ caption: Wolfram 语言
 created: 20190918114653828
 creator: miRoox
 list: 表达式（Wolfram语言） 计算控制（Wolfram语言） 模式与规则（Wolfram语言） 作用域（Wolfram语言） 上下文（Wolfram语言） 动态（Wolfram语言） 排版（Wolfram语言） Trott-Strzebonski技巧 Villegas-Gayley技巧
-modified: 20191009075210773
+modified: 20191015083239970
 modifier: miRoox
-tags: 计算机语言
+tags: 函数式语言 计算机语言
 title: Wolfram语言（Mathematica）
 type: text/vnd.tiddlywiki
 
