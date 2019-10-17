@@ -1,0 +1,17 @@
+caption: 暂存区→工作区
+created: 20191017073509064
+creator: miRoox
+modified: 20191017074147114
+modifier: miRoox
+tags: Git文件操作
+title: Git:暂存区->工作区
+type: text/vnd.tiddlywiki
+
+!!! [[暂存区|Git:暂存区]] → [[工作区|Git:工作区]]
+
+* 从暂存区取消待提交的文件到工作区
+** `git rm --cached 〈路径〉`
+*** 取消待提交的文件夹需要使用 `-r` 参数
+** `git reset 〈路径〉`
+* 从暂存区恢复文件到工作区
+** `git checkout 〈路径〉`

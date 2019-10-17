@@ -1,0 +1,19 @@
+caption: git merge
+created: 20191017085432480
+creator: miRoox
+modified: 20191017095616994
+modifier: miRoox
+tags: 待完善 Git合并修改
+title: git-merge
+type: text/vnd.tiddlywiki
+
+!! `git merge`
+
+!!! 非单线提交历史
+
+* 优点
+** 不同分支中的所有 commit 的校验和以及数字签名不变
+** 各自的提交历史被全部保留
+** 不会发生“''重写历史''”的行为
+* 缺点
+** 版本回退困难，难以追踪问题

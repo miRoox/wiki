@@ -1,0 +1,17 @@
+caption: 推送分支
+created: 20191017081908808
+creator: miRoox
+modified: 20191017083129228
+modifier: miRoox
+tags: Git分支操作
+title: Git推送分支
+type: text/vnd.tiddlywiki
+
+!!! 推送分支
+
+* 将当前分支推送到其上游分支
+** `git push`
+* 将指定本地分支推送到其上游分支
+** `git branch 〈远程仓库〉 〈本地分支〉`
+* 将本地 ref 推送到远程仓库中的分支
+** `git push 〈远程仓库〉 〈ref〉:〈分支〉`

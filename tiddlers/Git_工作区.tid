@@ -1,0 +1,15 @@
+caption: 工作区
+created: 20191017071615839
+creator: miRoox
+modified: 20191017074134638
+modifier: miRoox
+tags: Git仓库结构
+title: Git:工作区
+type: text/vnd.tiddlywiki
+
+!! 工作区（//working tree// ）
+
+本地已修改，但是''未进行标记''
+
+* 未被版本控制追踪的文件不在此列
+* 包含使用非 Git 的工具删除的文件

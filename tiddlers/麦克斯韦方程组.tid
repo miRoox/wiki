@@ -1,0 +1,41 @@
+created: 20191017020521813
+creator: miRoox
+modified: 20191017030233373
+modifier: miRoox
+tags: 电磁学
+title: 麦克斯韦方程组
+type: text/vnd.tiddlywiki
+
+!! 麦克斯韦方程组
+
+!!! 积分形式
+
+$$
+\def\dd{\mathrm{d}}
+\def\vb{\boldsymbol}
+
+\begin{aligned}
+\oiint\vb{D}\cdot\dd\vb{s}&=Q\\
+\oiint\vb{B}\cdot\dd\vb{s}&=0\\
+\oint\vb{E}\cdot\dd\vb{l}&=-\iint\frac{\partial\vb{B}}{\partial t}\dd\vb{s}\\
+\oint\vb{H}\cdot\dd\vb{l}&=I+\iint\frac{\partial\vb{D}}{\partial t}\dd\vb{s}
+\end{aligned}
+$$
+
+其中，$$\boldsymbol{D}$$是[[电位移矢量]]，$$\boldsymbol{B}$$是[[磁感应强度]]，$$\boldsymbol{E}$$是[[电场强度]]，$$\boldsymbol{H}$$是[[磁场强度]]，$$Q$$是闭合曲面包围的[[电荷量]]，$$I$$是闭合回路包围的[[传导电流]]。
+
+!!! 微分形式
+
+$$
+\def\vb{\boldsymbol}
+\def\vnabla{\vb{\nabla}}
+
+\begin{aligned}
+\vnabla\cdot\vb{D}&=\rho\\
+\vnabla\cdot\vb{B}&=0\\
+\vnabla\times\vb{E}&=-\frac{\partial\vb{B}}{\partial t}\\
+\vnabla\times\vb{H}&=\vb{j}+\frac{\partial\vb{D}}{\partial t}
+\end{aligned}
+$$
+
+其中，$$\boldsymbol{D}$$是[[电位移矢量]]，$$\boldsymbol{B}$$是[[磁感应强度]]，$$\boldsymbol{E}$$是[[电场强度]]，$$\boldsymbol{H}$$是[[磁场强度]]，$$\rho$$是[[电荷密度]]，$$\boldsymbol{j}$$是[[传导|传导电流]][[电流密度]]。

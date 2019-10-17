@@ -1,0 +1,19 @@
+caption: HEAD
+created: 20191017073910247
+creator: miRoox
+modified: 20191017084853188
+modifier: miRoox
+tags: Git仓库结构
+title: Git:HEAD
+type: text/vnd.tiddlywiki
+
+!! HEAD
+
+HEAD 是一个表示工作区内容基点的 ref
+
+* 如果 HEAD 指向某个本地分支
+** 进行 commit 或 reset 操作会令该分支指向新的 commit
+** 这种情况下我们说 HEAD 指向的分支为“''当前分支''”
+* 否则
+** 进行 commit 或 reset 操作不影响本地分支
+** 这种状态称为 //detached HEAD//

@@ -1,0 +1,16 @@
+caption: 创建分支
+created: 20191017081034016
+creator: miRoox
+modified: 20191017081412678
+modifier: miRoox
+tags: Git分支操作
+title: Git创建分支
+type: text/vnd.tiddlywiki
+
+!!! 创建分支
+
+* 以 [[HEAD|Git:HEAD]] 创建本地分支，并切换到新分支
+** `git checkout -b 〈新分支〉`
+*** 如果新分支已存在而要强制覆盖，使用 `-B` 参数
+* 以 [[HEAD|Git:HEAD]] 创建本地分支，但是不切换到新分支
+** `git branch 〈新分支〉`

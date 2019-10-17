@@ -1,0 +1,14 @@
+caption: 删除分支
+created: 20191017081434103
+creator: miRoox
+modified: 20191017081516986
+modifier: miRoox
+tags: Git分支操作
+title: Git删除分支
+type: text/vnd.tiddlywiki
+
+!!! 删除分支
+
+* 删除本地分支
+** `git branch -d 〈新分支〉`
+*** 如果分支未合并而要强制删除，使用 `-D` 参数
