@@ -1,0 +1,17 @@
+caption: 柯林斯公式
+created: 20191018030154516
+creator: miRoox
+modified: 20191018030543216
+modifier: miRoox
+tags: 物理光学
+title: Collins公式
+type: text/vnd.tiddlywiki
+
+! 柯林斯公式
+
+基于[[线性正则变换]]描述傍轴光学传播过程。
+
+
+!! 参考文献
+
+[1] COLLINS S A. Lens-System Diffraction Integral Written in Terms of Matrix Optics[J]. J. Opt. Soc. Am., 1970, 60(9): 1168–1177.

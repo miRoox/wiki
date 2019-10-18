@@ -1,0 +1,12 @@
+caption: 傅里叶单像素成像
+created: 20191018051317546
+creator: miRoox
+modified: 20191018062524107
+modifier: miRoox
+tags: 计算光学
+title: 傅里叶单像素成像
+type: text/vnd.tiddlywiki
+
+! 傅里叶单像素成像
+
+利用[[傅里叶变换]]的相移性质，通过[[结构光]]对物体进行相位调制，使测量直接对应到傅里叶域进行，同时利用傅里叶域信号的稀疏性减小测量次数。

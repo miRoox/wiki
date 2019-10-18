@@ -1,7 +1,7 @@
 caption: 傅里叶变换
 created: 20191010111430376
 creator: miRoox
-modified: 20191015111512469
+modified: 20191018062714186
 modifier: miRoox
 tags: 待完善 正交变换 积分变换
 title: 傅里叶变换
@@ -72,6 +72,8 @@ $$
 
 !!! [[相关|相关函数]]定理
 
+也叫维纳-辛钦定理
+
 $$
 \mathscr{F}[R_{fg}(x)]=F^*(u)G(u)
 $$
@@ -90,7 +92,7 @@ $$
 \int_{-\infty}^{+\infty}|f(x)|^2\,\mathrm{d}x=\int_{-\infty}^{+\infty}|F(u)|^2\,\mathrm{d}u
 $$
 
-意味着时频域能量守恒。
+意味着时域到频域能量守恒。
 
 !! 关系
 
