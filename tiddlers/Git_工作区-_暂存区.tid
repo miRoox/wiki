@@ -1,0 +1,16 @@
+caption: 工作区→暂存区
+created: 20191017073308089
+creator: miRoox
+modified: 20191017080652055
+modifier: miRoox
+tags: Git文件操作
+title: Git:工作区->暂存区
+type: text/vnd.tiddlywiki
+
+!!! [[工作区|Git:工作区]] → [[暂存区|Git:暂存区]]
+
+* 从工作区增加文件到暂存区（标记为待提交）
+** `git add 〈路径〉`
+*** 如果是被 [[.gitignore|gitignore文件]] 忽略的文件，使用 `-f` 强制添加
+** `git add -A 〈路径〉`
+*** 增加指定目录下的所有未被忽略的文件

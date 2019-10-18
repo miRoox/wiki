@@ -1,10 +1,12 @@
 caption: Beamer
 created: 20190924023149704
 creator: miRoox
-modified: 20191002112805855
+modified: 20191017062302244
 modifier: miRoox
 tags: 待完善 框架-库-工具包 TeX宏包
 title: Beamer
 type: text/vnd.tiddlywiki
 
 ! Beamer
+
+Beamer 是一个用于创建使用投影的演讲的LaTeX文档类，也能用来创建幻灯片。

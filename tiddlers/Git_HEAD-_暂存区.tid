@@ -1,0 +1,17 @@
+caption: HEAD→暂存区
+created: 20191017074430936
+creator: miRoox
+modified: 20191017074904928
+modifier: miRoox
+tags: Git文件操作
+title: Git:HEAD->暂存区
+type: text/vnd.tiddlywiki
+
+!!! [[HEAD|Git:HEAD]] → [[暂存区|Git:暂存区]]
+
+* 撤销最后的 commit，其中的修改进入暂存区
+** `git reset --soft HEAD~`
+* 撤销多个 commit
+** `git reset --soft HEAD~3`
+* 从 HEAD 恢复文件到暂存区''并丢弃''工作区中的修改
+** `git checkout HEAD 〈路径〉`

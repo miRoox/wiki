@@ -1,13 +1,19 @@
 caption: Git
 created: 20190924125715476
 creator: miRoox
-modified: 20191003115725318
+modified: 20191017112619963
 modifier: miRoox
-tags: 待完善 软件 开发工具
+tags: 开源软件 待完善 软件 开发工具
 title: Git
 type: text/vnd.tiddlywiki
 
 ! Git
+
+Git 是一种''分布式''版本控制系统：
+
+* 每个克隆的仓库都包含有整个仓库的所有数据
+* 任何修改先[[提交在本地|Git文件操作]]，再[[推送|Git推送分支]]到服务器
+* [[创建|Git创建分支]]和[[切换|Git切换分支]]分支、[[合并修改|Git合并修改]]相当方便而且快速
 
 !! 外部链接
 

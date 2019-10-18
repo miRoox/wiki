@@ -1,0 +1,27 @@
+caption: 仓库操作
+created: 20191017080827272
+creator: miRoox
+modified: 20191017112102593
+modifier: miRoox
+tags: Git命令
+title: Git仓库操作
+type: text/vnd.tiddlywiki
+
+!! 仓库操作
+
+!!! 更新本地仓库
+
+* 更新当前分支的上游仓库数据到本地
+** `git fetch`
+*** 使用 `-p` 参数清理上游已被删除的数据
+* 更新指定远程仓库上数据到本地
+** `git fetch 〈远程仓库〉`
+* 更新所有远程仓库上数据到本地
+** `git fetch --all`
+
+!!! 更新当前分支和对应的上游仓库
+
+* 更新当前分支的上游仓库，然后执行 [[git merge|git-merge]]
+** `git pull`
+* 更新当前分支的上游仓库，然后执行 [[git rebase|git-rebase]]
+** `git pull -r`

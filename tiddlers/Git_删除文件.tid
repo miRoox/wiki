@@ -1,0 +1,16 @@
+caption: 删除文件
+created: 20191017075429944
+creator: miRoox
+modified: 20191017075711987
+modifier: miRoox
+tags: Git文件操作
+title: Git:删除文件
+type: text/vnd.tiddlywiki
+
+!!! 删除文件
+
+* 删除[[工作区|Git:工作区]]和[[暂存区|Git:暂存区]]中的文件
+** `git rm 〈路径〉`
+*** 如果文件有未提交的修改，使用 `-f` 参数强制删除
+*** 删除文件夹需要使用 `-r` 参数
+*** 删除之后在暂存区中''标记为待删除''，仍然需要提交

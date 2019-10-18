@@ -1,0 +1,10 @@
+caption: 当前标签条目
+created: 20191017072045664
+creator: miRoox
+modified: 20191017074116783
+modifier: miRoox
+tags: $:/tags/TextEditor/Snippet
+title: Snippet:当前标签条目
+type: text/vnd.tiddlywiki
+
+<<list-links "[tag<currentTiddler>]">>

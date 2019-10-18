@@ -1,0 +1,13 @@
+caption: 暂存区→HEAD
+created: 20191017073821232
+creator: miRoox
+modified: 20191017074344075
+modifier: miRoox
+tags: Git文件操作
+title: Git:暂存区->HEAD
+type: text/vnd.tiddlywiki
+
+!!! [[暂存区|Git:暂存区]] → [[HEAD|Git:HEAD]]
+
+* 使用暂存区的文件创建 commit
+** `git commit`

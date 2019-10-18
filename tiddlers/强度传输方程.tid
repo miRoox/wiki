@@ -1,0 +1,14 @@
+caption: 强度传输方程
+created: 20191018050324317
+creator: miRoox
+modified: 20191018051007708
+modifier: miRoox
+tags: 待完善 物理光学 计算光学
+title: 强度传输方程
+type: text/vnd.tiddlywiki
+
+! 强度传输方程
+
+$$
+-k\frac{\partial I(x,y,z)}{\partial z}=\nabla\cdot\left[I(x,y,z)\nabla\varphi(x,y,z)\right]
+$$

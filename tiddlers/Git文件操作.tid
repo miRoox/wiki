@@ -1,0 +1,20 @@
+caption: 文件操作
+created: 20191017071312945
+creator: miRoox
+modified: 20191017075646301
+modifier: miRoox
+tags: Git命令
+title: Git文件操作
+type: text/vnd.tiddlywiki
+
+!! 文件操作
+
+[img[https://github.com/lhmouse/git-workflow-zh/raw/master/basic-command-reference.jpg]]
+
+{{Git:工作区->暂存区}}
+{{Git:暂存区->工作区}}
+{{Git:暂存区->HEAD}}
+{{Git:HEAD->暂存区}}
+{{Git:工作区->HEAD}}
+{{Git:HEAD->工作区}}
+{{Git:删除文件}}

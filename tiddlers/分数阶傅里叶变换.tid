@@ -1,10 +1,32 @@
 caption: 分数阶傅里叶变换
 created: 20191010111804832
 creator: miRoox
-modified: 20191013031356730
+modified: 20191017124117637
 modifier: miRoox
 tags: 待完善 傅里叶变换 正交变换 积分变换
 title: 分数阶傅里叶变换
 type: text/vnd.tiddlywiki
 
 ! 分数阶傅里叶变换
+
+分数阶傅里叶变换（fractional Fourier transform, FrFT）是[[傅里叶变换]]在时频域连续变换的推广，其在时频域的作用相当于一个旋转变换。
+
+!! 定义
+
+对参数$$\alpha\in\mathbb{R}$$，函数$$f$$的分数阶傅里叶变换$$\mathscr{F}_\alpha$$定义为
+
+$$
+(\mathscr{F}_\alpha f)(u)=\int_\mathbb{R}f(x)K_\alpha(x,u)\,\mathrm{d}x
+$$
+
+式中
+
+$$
+K_\alpha(x,u)=\begin{cases}
+\sqrt{\frac{1-i\cot\alpha}{2}}\exp\left[i\frac{\left(x^2+u^2\right)\cot\alpha-2xu\csc\alpha}{2}\right] &\alpha\ne n\pi\\
+\delta(u-x) &\alpha=2n\pi\\
+\delta(u+x) &\alpha=(2n-1)\pi
+\end{cases}
+$$
+
+其中，$$n\in\mathbb{Z}$$.
