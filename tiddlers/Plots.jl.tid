@@ -1,0 +1,13 @@
+created: 20191102061114823
+creator: miRoox
+modified: 20191102061644570
+modifier: miRoox
+tags: 待完善 框架-库-工具包 Julia程序包
+title: Plots.jl
+type: text/vnd.tiddlywiki
+
+绘图用的程序包封装，可以切换不同绘制后端。
+
+!! 外部链接
+
+* [[Plots文档|http://docs.juliaplots.org/latest/]]

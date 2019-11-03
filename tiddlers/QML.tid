@@ -1,0 +1,15 @@
+created: 20191102052351898
+creator: miRoox
+modified: 20191102061716852
+modifier: miRoox
+tags: 待完善 计算机语言
+title: QML
+type: text/vnd.tiddlywiki
+
+! QML
+
+[[Qt]]提供的用于描述用户界面的声明式语言，其语法类似于[[JSON]]。
+
+!! 外部链接
+
+* [[QML Applications|https://doc.qt.io/qt-5/qmlapplications.html]]

@@ -1,10 +1,14 @@
 caption: GS算法
 created: 20191018045916782
 creator: miRoox
-modified: 20191018050237726
+modified: 20191102060146033
 modifier: miRoox
 tags: 待完善 算法 相位恢复
 title: Gerchberg–Saxton算法
 type: text/vnd.tiddlywiki
 
 ! Gerchberg–Saxton算法
+
+!! 参考文献
+
+[1] R. W. Gerchberg and W. O. Saxton, A practical algorithm for the determination of phase from image and diffraction plane pictures[J]. Optik 1972, 35(2): 237-246.
