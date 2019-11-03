@@ -1,10 +1,16 @@
 caption: 杨-顾算法
 created: 20191018045948154
 creator: miRoox
-modified: 20191018050243541
+modified: 20191102060201883
 modifier: miRoox
 tags: 待完善 算法 相位恢复
 title: 杨-顾算法
 type: text/vnd.tiddlywiki
 
 ! 杨-顾算法
+
+!! 参考文献
+
+[1] 杨国桢,顾本源. 光学系统中振幅和相位的恢复问题. 物理学报, 1981, 30(3): 413.
+
+[2] G. Z. Yang, B. Z. Dong, B. Y. Gu, J. Y. Zhuang, and O. K. Ersoy. Gerchberg-Saxton and Yang-Gu algorithms for phase retrieval in a nonunitary transform system: a comparison[J]. Appl. Opt. 1994, 33(2): 209-218.
