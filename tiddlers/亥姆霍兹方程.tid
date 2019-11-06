@@ -1,0 +1,13 @@
+created: 20191106070443847
+creator: miRoox
+modified: 20191106070838365
+modifier: miRoox
+tags: 物理光学 电磁学
+title: 亥姆霍兹方程
+type: text/vnd.tiddlywiki
+
+! 亥姆霍兹方程
+
+$$
+\left(\nabla^2+k^2\right)U=0
+$$

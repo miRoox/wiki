@@ -1,0 +1,81 @@
+caption: ABCD矩阵
+created: 20191106044233596
+creator: miRoox
+modified: 20191106065217356
+modifier: miRoox
+tags: 待完善 几何光学
+title: 光线传播矩阵
+type: text/vnd.tiddlywiki
+
+! ABCD矩阵
+
+在只考虑[[子午光线]]，且满足[[傍轴近似]]的条件下，对光学系统对光线传播的作用
+
+$$
+\begin{bmatrix}
+    r_2\\ \hat{\theta}_2
+\end{bmatrix}=
+\begin{bmatrix}
+    A&B\\ C&D
+\end{bmatrix}
+\begin{bmatrix}
+    r_1\\ \hat{\theta}_1
+\end{bmatrix}
+$$
+
+注意，$$\hat{\theta}=n\theta$$表示介质中的//约化角// 。
+
+而矩阵
+$$
+\bf{M}=
+\begin{bmatrix}
+    A&B\\ C&D
+\end{bmatrix}
+$$
+叫做光线传播矩阵或者ABCD矩阵。
+
+[[Collins公式]]从[[积分变换|线性正则变换]]的角度表示了同样的东西。
+
+!! 典型系统的光线传播矩阵
+
+!!! 在自由空间中传播
+
+若介质折射率为$$n$$，传播距离为$$d$$，则
+$$
+\bf{M}=
+\begin{bmatrix}
+    1&\frac{d}{n}\\ 0&1
+\end{bmatrix}
+$$
+
+!!! 在平面界面上的折射
+
+$$
+\bf{M}=
+\begin{bmatrix}
+    1&0\\ 0&1
+\end{bmatrix}
+$$
+
+注意约化角不变
+
+!!! 在球面界面上的折射
+
+$$
+\bf{M}=
+\begin{bmatrix}
+    1&0\\ \frac{n_1-n_2}{R}&1
+\end{bmatrix}
+$$
+其中，$$n_1$$为入射介质折射率，$$n_2$$为出射介质折射率，$$R$$为球面曲率半径（凸面为正，凹面为负）
+
+!!! 穿过一个薄透镜
+
+透镜焦距为$$f$$，置于折射率为$$n_0$$的介质中
+$$
+\bf{M}=
+\begin{bmatrix}
+    1&0\\ \frac{n_0}{f}&1
+\end{bmatrix}
+$$
+
