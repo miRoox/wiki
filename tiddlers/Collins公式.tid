@@ -1,15 +1,15 @@
 caption: 柯林斯公式
 created: 20191018030154516
 creator: miRoox
-modified: 20191018030543216
+modified: 20191106053426989
 modifier: miRoox
-tags: 物理光学
+tags: 计算光学 物理光学
 title: Collins公式
 type: text/vnd.tiddlywiki
 
 ! 柯林斯公式
 
-基于[[线性正则变换]]描述傍轴光学传播过程。
+基于[[线性正则变换]]描述傍轴光学传播过程，可以看作[[光线传播矩阵]]的积分变换表示。
 
 
 !! 参考文献

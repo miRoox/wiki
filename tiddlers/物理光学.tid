@@ -1,10 +1,12 @@
 caption: 物理光学
 created: 20190923084118733
 creator: miRoox
-modified: 20191002112129977
+modified: 20191106071137059
 modifier: miRoox
 tags: 待完善 光学
 title: 物理光学
 type: text/vnd.tiddlywiki
 
 ! 物理光学
+
+从[[电磁波理论|电磁学]]和[[傅里叶分析|傅里叶变换]]两个角度，研究光的传播、干涉、衍射、偏振性质，以及光的信息处理。

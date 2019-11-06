@@ -1,10 +1,13 @@
 caption: 费马原理
 created: 20191017024648876
 creator: miRoox
-modified: 20191017030249572
+modified: 20191106072513111
 modifier: miRoox
 tags: 几何光学
 title: 费马原理
 type: text/vnd.tiddlywiki
 
 ! 费马原理
+
+光传播的路径是光程取极值的路径。
+这个极值可能是极大值、极小值，甚至是函数的拐点。 
