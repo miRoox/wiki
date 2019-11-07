@@ -1,10 +1,12 @@
 caption: 鬼成像
 created: 20191018051134467
 creator: miRoox
-modified: 20191018051203924
+modified: 20191107020811410
 modifier: miRoox
 tags: 待完善 计算光学
 title: 双光子纠缠鬼成像
 type: text/vnd.tiddlywiki
 
 ! 双光子纠缠鬼成像
+
+双光子鬼成像的原理是利用纠缠态光子对的空间信息相关性，来探测目标物体空间信息，从而重建物体图像。
