@@ -1,10 +1,24 @@
 caption: 拉东变换
 created: 20191012074929207
 creator: miRoox
-modified: 20191013031338256
+modified: 20191107135412429
 modifier: miRoox
 tags: 待完善 积分变换
 title: Radon变换
 type: text/vnd.tiddlywiki
 
 ! 拉东变换
+
+对于极坐标表示的函数$$f(R,\varphi)$$，其拉东变换为
+$$
+\newcommand{\dd}{\,\mathrm{d}}
+g(R,\varphi)=\int_{0}^{2\pi}\!\int_{0}^{\infty}f(r,\theta)\delta[r\cos(\varphi-\theta)-R]r\dd{r}\dd{\theta}
+$$
+
+如果原函数$$f(x,y)$$是直角坐标系下的表示，那么对应的拉东变换为
+$$
+\newcommand{\dd}{\,\mathrm{d}}
+g(R,\varphi)=\iint_{\mathbb{R}^2}f(x,y)\delta(R-x\cos\varphi-y\sin\varphi)\dd{x}\dd{y}
+$$
+
+!! 傅里叶切片定理
