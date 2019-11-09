@@ -1,0 +1,11 @@
+created: 20191109130435515
+creator: miRoox
+modified: 20191109130737105
+modifier: miRoox
+tags: 待完善 物理光学
+title: 衍射受限系统
+type: text/vnd.tiddlywiki
+
+! 衍射受限系统
+
+指不考虑系统的[[几何像差]]，而仅考虑系统的衍射限制的理想模型。亦即主要考察系统的[[光阑]]限制造成的衍射作用。

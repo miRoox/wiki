@@ -1,7 +1,7 @@
 caption: 拉东变换
 created: 20191012074929207
 creator: miRoox
-modified: 20191107135412429
+modified: 20191109110328562
 modifier: miRoox
 tags: 待完善 积分变换
 title: Radon变换
@@ -9,16 +9,24 @@ type: text/vnd.tiddlywiki
 
 ! 拉东变换
 
-对于极坐标表示的函数$$f(R,\varphi)$$，其拉东变换为
+对于函数$$f(x,y)$$，其拉东变换为
+$$
+\newcommand{\dd}{\,\mathrm{d}}
+g(R,\varphi)=\mathscr{R}[f(x,y)]=\iint_{\mathbb{R}^2}f(x,y)\delta(R-x\cos\varphi-y\sin\varphi)\dd{x}\dd{y}
+$$
+
+如果原函数$$f(r,\theta)$$是极坐标下的表示，那么对应的拉东变换为
 $$
 \newcommand{\dd}{\,\mathrm{d}}
 g(R,\varphi)=\int_{0}^{2\pi}\!\int_{0}^{\infty}f(r,\theta)\delta[r\cos(\varphi-\theta)-R]r\dd{r}\dd{\theta}
 $$
 
-如果原函数$$f(x,y)$$是直角坐标系下的表示，那么对应的拉东变换为
-$$
-\newcommand{\dd}{\,\mathrm{d}}
-g(R,\varphi)=\iint_{\mathbb{R}^2}f(x,y)\delta(R-x\cos\varphi-y\sin\varphi)\dd{x}\dd{y}
-$$
-
 !! 傅里叶切片定理
+
+也叫中心切片定理。
+
+对$$g(R,\varphi)=\mathscr{R}[f(x,y)]$$，对它在$$R$$方向做一维傅里叶变换
+$$
+\mathscr{F}_{R}[g(R,\varphi)]=F(\rho\cos\varphi,\rho\sin\varphi)
+$$
+其中，$$F(x,y)=\mathscr{F}[f(x,y)]$$为$$f(x,y)$$的二维傅里叶变换。
