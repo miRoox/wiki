@@ -1,9 +1,13 @@
 created: 20191106121346656
 creator: miRoox
-modified: 20191106121743840
+modified: 20191109130356069
 modifier: miRoox
 tags: 待完善 物理光学
 title: 相干传递函数
 type: text/vnd.tiddlywiki
 
 ! 相干传递函数
+
+即[[相干|相干性]]照明系统的[[传递函数]]。
+
+!! [[衍射受限系统]]的相干传递函数
