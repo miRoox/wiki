@@ -1,0 +1,16 @@
+created: 20191110044821040
+creator: miRoox
+modified: 20191110045236492
+modifier: miRoox
+tags: 待完善 物理光学
+title: 菲涅尔波带片
+type: text/vnd.tiddlywiki
+
+! 菲涅尔波带片
+
+既有汇聚透镜的作用，又有发散透镜的作用。
+
+其复振幅透过率可以写作
+$$
+t(r)=\frac{1}{2}\left[1+\cos\left(\frac{k}{2f}r^2\right)\right]\operatorname{circ}\left(\frac{r}{w}\right)
+$$
