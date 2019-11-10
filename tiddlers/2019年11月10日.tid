@@ -1,0 +1,30 @@
+created: 20191110002955443
+creator: miRoox
+modified: 20191110021701343
+modifier: miRoox
+tags: 组会 日志
+title: 2019年11月10日
+type: text/vnd.tiddlywiki
+
+# Foldscope: Origami-Based Paper Microscope
+# Pixel super-resolution using wavelength scanning
+#* 波长扫描
+#* 类似[[FPM|傅里叶叠层成像]]
+#* 考虑：不同波长的特性，比如，短波长测高频，长波长测低频
+# Optical transfer function engineering for a tunable 3D structured illumination microscope
+#* 三维结构光
+# Autofocusing imaging system based on laser ranging and a retina-like sample
+#* 自动聚焦：激光测距（主动式，粗调）+图像评估（被动式，精调）
+#* 图像评估方式：
+#** 视网膜特性仿生——中间采样密集，边缘采样稀释
+#** 作用：时间开销增长率小
+# Fully Convolutional Networks for Semantic Segmentation
+#* 全卷积网络
+#* 图像语义分割-像素分类
+# ... Kalmen filter
+#* 卡尔曼滤波评价串行相位恢复算法的
+# Novel Fourier-domain constraint for fast phase retrieval in coherent diffraction imaging
+#* 改进相位恢复的约束
+# A single-image retrieval method for edge illumination X-ray phase-constrast imaging: Application and noise analysis
+# Tunable output-frequency filter algorithm for imaging through scatterig media under LED illumination
+# Single-shot phase retrieval via Fourier ptychographic microscopy

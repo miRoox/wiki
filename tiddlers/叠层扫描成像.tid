@@ -1,7 +1,7 @@
 caption: 叠层扫描成像
 created: 20191018050711850
 creator: miRoox
-modified: 20191106113048076
+modified: 20191110074810945
 modifier: miRoox
 tags: 待完善 计算光学
 title: 叠层扫描成像
@@ -35,7 +35,7 @@ $$
 </div>
 # 逆衍射回目标面，得到下一次迭代的估计值<div>
 $$
-\psi_{g,n}(\bm{r},\bm{R})=\mathscr{F}^{-1}\left[\Psi_{g,n}(\bm{k},\bm{R})\right]
+\psi_{c,n}(\bm{r},\bm{R})=\mathscr{F}^{-1}\left[\Psi_{c,n}(\bm{k},\bm{R})\right]
 $$
 </div>
 # 更新目标的光场函数<div>
