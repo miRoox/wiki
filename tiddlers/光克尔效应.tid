@@ -1,0 +1,14 @@
+caption: 克尔效应
+created: 20191112130533356
+creator: miRoox
+modified: 20191112130620770
+modifier: miRoox
+tags: 待完善 非线性光学
+title: 光克尔效应
+type: text/vnd.tiddlywiki
+
+! 光克尔效应
+
+$$
+n(I)=n_0+n_2I
+$$
