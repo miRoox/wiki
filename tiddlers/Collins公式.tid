@@ -1,7 +1,7 @@
 caption: 柯林斯公式
 created: 20191018030154516
 creator: miRoox
-modified: 20191106053426989
+modified: 20191112135738629
 modifier: miRoox
 tags: 计算光学 物理光学
 title: Collins公式
@@ -10,6 +10,11 @@ type: text/vnd.tiddlywiki
 ! 柯林斯公式
 
 基于[[线性正则变换]]描述傍轴光学传播过程，可以看作[[光线传播矩阵]]的积分变换表示。
+
+$$
+E(x,y)=\frac{\exp(ikL)}{i\lambda C}\iint_{\mathbb{R}^2}E_0(x_0,y_0)\exp\left\{\frac{ik}{2B}\left[A\left(x_0^2+y_0^2\right)+D\left(x^2+y^2\right)-2(xx_0+yy_0)\right]\right\}\,\mathrm{d}x_0\mathrm{d}y_0
+$$
+其中，$$L$$为轴向光程。
 
 
 !! 参考文献
