@@ -1,0 +1,32 @@
+caption: 库仑定律
+created: 20191113073320353
+creator: miRoox
+modified: 20191113080928155
+modifier: miRoox
+tags: 待完善 电磁学
+title: 库仑定律
+type: text/vnd.tiddlywiki
+
+! 库仑定律
+
+真空中静止的点电荷$$q_1$$对另一个静止的点电荷$$q_2$$的作用力为
+
+$$
+\bm{F}=\frac{q_1q_2}{4\pi\varepsilon_0r^3}\bm{r}
+$$
+其中，$$r$$为$$q_1$$到$$q_2$$的径矢，$$\varepsilon_0$$是真空介电常数。
+
+!! 静电场的高斯定理
+
+根据库仑定律可以导出静电场的高斯定理，这一定律也是[[麦克斯韦方程组]]的一部分
+
+$$
+\newcommand{\dd}{\,\mathrm{d}}
+\begin{aligned}
+\oiint_{S}\bm{E}\cdot\dd\bm{S}
+&=\frac{1}{4\pi\varepsilon_0}\oiint_S\iiint_{V_{\infty}}\frac{\rho(\bm{r}')(\bm{r}-\bm{r}')}{|\bm{r}-\bm{r}'|^3}\dd{V'}\dd\bm{S}\\
+&=\frac{1}{4\pi\varepsilon_0}\iiint_{V_{\infty}}\rho(r')\dd{V'}\oiint_S\frac{\bm{R}\cdot \dd\bm{S}}{R^3}\\
+&=\frac{1}{\varepsilon_0}\iiint_{V_{S}}\rho(r')\dd{V'}
+\end{aligned}
+$$
+其中，$$\bm{R}=\bm{r}-\bm{r}'$$，$$V_S$$为曲面$$S$$包围的区域。

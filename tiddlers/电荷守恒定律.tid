@@ -1,0 +1,21 @@
+caption: 电荷守恒定律
+created: 20191113075048944
+creator: miRoox
+modified: 20191113081142976
+modifier: miRoox
+tags: 电磁学
+title: 电荷守恒定律
+type: text/vnd.tiddlywiki
+
+! 电荷守恒定律
+
+不论发生任何过程，一个系统的总电荷严格保持不变。
+
+这一原理也可以表示为连续性方程
+
+$$
+\newcommand{\dd}{\,\mathrm{d}}
+\oiint_S\bm{J}\cdot\dd\bm{S}=-\iiint_V\frac{\partial\rho}{\partial t}\dd{V}
+$$
+
+即流出区域表面的电流等于区域内电荷的减小率

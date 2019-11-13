@@ -1,0 +1,20 @@
+caption: 洛伦兹力
+created: 20191113082155959
+creator: miRoox
+modified: 20191113082405249
+modifier: miRoox
+tags: 待完善 电磁学
+title: 洛伦兹力
+type: text/vnd.tiddlywiki
+
+! 洛伦兹力
+
+$$
+\bm{f}=\rho\bm{E}+\bm{J}\times\bm{B}
+$$
+
+或者等价地
+
+$$
+\bm{F}=q\bm{E}+q\bm{v}\times\bm{B}
+$$
