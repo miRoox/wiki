@@ -1,0 +1,17 @@
+caption: 毕奥-萨伐尔定律
+created: 20191113081246070
+creator: miRoox
+modified: 20191113082100641
+modifier: miRoox
+tags: 待完善 电磁学
+title: Biot-Savart定律
+type: text/vnd.tiddlywiki
+
+! 毕奥-萨伐尔定律
+
+描述恒定电流激发磁场的规律。
+
+$$
+\bm{B}(\bm{x})=\frac{\mu_0}{4\pi}\iiint_V\frac{\bm{J}(\bm{x}')\times\bm{r}}{r^3}\,\mathrm{d}V
+$$
+其中，$$\bm{J}(\bm{x}')$$为源点$$\bm{x}'$$上的电流密度，$$r$$为$$\bm{x}'$$到场点$$\bm{x}$$的径矢，$$\mu_0$$为真空磁导率。
