@@ -1,0 +1,14 @@
+caption: 熵
+created: 20191114125642310
+creator: miRoox
+modified: 20191114125759664
+modifier: miRoox
+tags: 数字图像的属性参数
+title: 图像的熵
+type: text/vnd.tiddlywiki
+
+! 熵
+
+$$
+H=-\sum_{i=0}^{L-1}p_i\log_2p_i
+$$
