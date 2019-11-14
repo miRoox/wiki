@@ -1,0 +1,17 @@
+caption: 缩并
+created: 20191114115126229
+creator: miRoox
+modified: 20191114122728401
+modifier: miRoox
+tags: 张量的运算
+title: 张量的缩并
+type: text/vnd.tiddlywiki
+
+! 张量缩并
+
+对于一个二阶以上的张量$$a_{i_1,i_2,\cdots,i_\mu}\ (\mu\geq2)$$，任意选定它的两个下标，将这两个下标取相等值的那些分量抽出来并求和。
+
+例如选取第一个和最后一个分量对$$a_{i_1,i_2,\cdots,i_\mu}$$进行缩并，则
+$$
+c_{i_2,i_3,\cdots,i_{\mu-1}}=\sum_l a_{l,i_2,i_3,\cdots,i_{\mu-1},l}
+$$

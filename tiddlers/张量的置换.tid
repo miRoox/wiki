@@ -1,0 +1,12 @@
+caption: 置换
+created: 20191114122746460
+creator: miRoox
+modified: 20191114122941098
+modifier: miRoox
+tags: 待完善 张量的运算
+title: 张量的置换
+type: text/vnd.tiddlywiki
+
+! 指标置换
+
+将一个张量的任意两个下标位置互换。

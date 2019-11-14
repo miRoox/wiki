@@ -1,10 +1,15 @@
 caption: 数字图像处理
 created: 20191018062939481
 creator: miRoox
-modified: 20191018062954151
+list: 数字图像
+modified: 20191114123757864
 modifier: miRoox
-tags: 计算机（分类）
+tags: 待完善 计算机视觉
 title: 数字图像处理
 type: text/vnd.tiddlywiki
 
 ! 数字图像处理
+
+* 图像（预）处理：图像→图像
+* 图像分析：图像→特征、数据
+* 图像理解：特征、数据→抽象概念

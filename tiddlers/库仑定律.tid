@@ -1,7 +1,7 @@
 caption: 库仑定律
 created: 20191113073320353
 creator: miRoox
-modified: 20191113080928155
+modified: 20191114025726782
 modifier: miRoox
 tags: 待完善 电磁学
 title: 库仑定律
@@ -30,3 +30,8 @@ $$
 \end{aligned}
 $$
 其中，$$\bm{R}=\bm{r}-\bm{r}'$$，$$V_S$$为曲面$$S$$包围的区域。
+
+等价的微分形式：
+$$
+\nabla\cdot\bm{E}=\frac{\rho}{\varepsilon_0}
+$$

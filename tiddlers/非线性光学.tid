@@ -1,7 +1,7 @@
 caption: 非线性光学
 created: 20191112081812813
 creator: miRoox
-modified: 20191112081957588
+modified: 20191114123114310
 modifier: miRoox
 tags: 待完善 光学
 title: 非线性光学
@@ -9,4 +9,4 @@ type: text/vnd.tiddlywiki
 
 ! 非线性光学
 
-非线性光学现象是高阶极化现象。
+非线性光学现象是高阶[[极化|电介质的极化]]现象。
