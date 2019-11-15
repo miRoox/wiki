@@ -1,0 +1,28 @@
+caption: 高斯定理
+created: 20191115073149387
+creator: miRoox
+modified: 20191115073442022
+modifier: miRoox
+tags: 电磁学
+title: 静电场的高斯定理
+type: text/vnd.tiddlywiki
+
+! 高斯定理
+
+根据[[库仑定律]]可以导出静电场的高斯定理，这一定律也是[[麦克斯韦方程组]]的一部分
+
+$$
+\newcommand{\dd}{\,\mathrm{d}}
+\begin{aligned}
+\oiint_{S}\bm{E}\cdot\dd\bm{S}
+&=\frac{1}{4\pi\varepsilon_0}\oiint_S\iiint_{V_{\infty}}\frac{\rho(\bm{r}')(\bm{r}-\bm{r}')}{|\bm{r}-\bm{r}'|^3}\dd{V'}\dd\bm{S}\\
+&=\frac{1}{4\pi\varepsilon_0}\iiint_{V_{\infty}}\rho(r')\dd{V'}\oiint_S\frac{\bm{R}\cdot \dd\bm{S}}{R^3}\\
+&=\frac{1}{\varepsilon_0}\iiint_{V_{S}}\rho(r')\dd{V'}
+\end{aligned}
+$$
+其中，$$\bm{R}=\bm{r}-\bm{r}'$$，$$V_S$$为曲面$$S$$包围的区域。
+
+等价的微分形式：
+$$
+\nabla\cdot\bm{E}=\frac{\rho}{\varepsilon_0}
+$$

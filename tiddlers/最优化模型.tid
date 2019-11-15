@@ -1,0 +1,27 @@
+created: 20191115132359074
+creator: miRoox
+modified: 20191115133833356
+modifier: miRoox
+tags: 待完善 凸优化
+title: 最优化模型
+type: text/vnd.tiddlywiki
+
+! 最优化模型
+
+!! 最优化模型的一般形式
+
+$$
+(f S):\min_{x\in{}S}f(x)
+$$
+
+* $$f$$——目标函数
+* $$x$$——决策变量
+* $$S$$——约束集
+
+!! 全局最优解
+
+对$$x^*\in S$$，满足$$\forall x\in S, f(x^*)\le f(x)$$，则称$$x^*$$为优化问题$$(fS)$$的全局最优解（g.opt.）。
+
+!! 局部最优解
+
+对$$x^*\in S$$，满足$$\exists x^*\text{的一个邻域}N(x^*), \forall x\in S\cap N(x^*), f(x^*)\le f(x)$$，则称$$x^*$$为优化问题$$(fS)$$的局部最优解（l.opt.）。

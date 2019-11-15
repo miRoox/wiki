@@ -1,0 +1,20 @@
+caption: 相位共轭
+created: 20191115073607136
+creator: miRoox
+modified: 20191115075341963
+modifier: miRoox
+tags: 待完善 非线性光学
+title: 光学相位共轭
+type: text/vnd.tiddlywiki
+
+! 相位共轭
+
+多个激光束在介质中传播，可能互相传递相位信息，并使两束光的相位互成共轭关系。
+
+比如，在一块非线性介质上输入一束信号光$$\bm{E}_p$$，同时输入两束反向传播的功率较强的泵浦光$$\bm{E}_1,\bm{E}_2$$，就能在信号光的反方向产生一束频率相同，振幅与信号光共轭的新光，称为共轭光$$\bm{E}_c$$。二者关系可以表示为
+$$
+\begin{aligned}
+\bm{E}_p&=\bm{E}(\bm{r})\exp[i(kz-\omega t)]\\
+\bm{E}_c&=\bm{E}^*(\bm{r})\exp[i(-kz-\omega t)]
+\end{aligned}
+$$
