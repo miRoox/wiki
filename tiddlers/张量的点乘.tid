@@ -1,0 +1,34 @@
+caption: 点乘
+created: 20191115075653655
+creator: miRoox
+modified: 20191115081223139
+modifier: miRoox
+tags: 待完善 张量的运算
+title: 张量的点乘
+type: text/vnd.tiddlywiki
+
+! 点乘
+
+!! 点乘
+
+[[直积|张量的直积]]+一次[[缩并|张量的缩并]]
+
+$$
+(a\cdot{}b)_{i_1,i_2,\cdots,i_{\nu+\mu-2}}=a_{i_1,i_2,\cdots,i_{\nu-1},l}b_{l,i_{\nu},\cdots,i_{\nu+\mu-2}}
+$$
+
+!! 双点乘
+
+[[直积|张量的直积]]+两次[[缩并|张量的缩并]]
+
+$$
+(a\mathbin{:}b)_{i_1,i_2,\cdots,i_{\nu+\mu-4}}=a_{i_1,i_2,\cdots,i_{\nu-2},l_1,l_2}b_{l_2,l_1,i_{\nu-1},\cdots,i_{\nu+\mu-4}}
+$$
+
+!! 三点乘
+
+[[直积|张量的直积]]+三次[[缩并|张量的缩并]]
+
+$$
+(a\mathbin{\vdots{}}b)_{i_1,i_2,\cdots,i_{\nu+\mu-6}}=a_{i_1,i_2,\cdots,i_{\nu-3},l_1,l_2,l_3}b_{l_3,l_2,l_1,i_{\nu-1},\cdots,i_{\nu+\mu-6}}
+$$

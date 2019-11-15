@@ -1,0 +1,12 @@
+caption: 凸组合
+created: 20191115134245314
+creator: miRoox
+modified: 20191115134735753
+modifier: miRoox
+tags: 待完善 凸优化
+title: 凸组合
+type: text/vnd.tiddlywiki
+
+! 凸组合
+
+对$$x^{(1)},x^{(2)},\cdots,x^{(m)}\in\mathbb{R}^n$$以及$$\lambda_i\in\mathbb{R},\lambda_i>0,\sum_{i=1}^m\lambda_i=1$$，称$$\sum_{i=1}^n\lambda_ix^{(i)}$$为$$x^{(1)},x^{(2)},\cdots,x^{(m)}$$的凸组合。
