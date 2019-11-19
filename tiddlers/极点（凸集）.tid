@@ -1,0 +1,12 @@
+caption: 极点
+created: 20191119114015858
+creator: miRoox
+modified: 20191119121355559
+modifier: miRoox
+tags: 凸集 极点 待完善
+title: 极点（凸集）
+type: text/vnd.tiddlywiki
+
+! 极点
+
+设$$S\subset\Reals^n$$，非[[空|空集]]，[[凸集]]，对于$$\bm{x}\in S$$，若$$\bm{x}$$不能表示为$$S$$中另外两点的[[凸组合]]，则称$$\bm{x}$$是$$S$$的极点。

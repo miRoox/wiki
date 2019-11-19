@@ -1,7 +1,7 @@
 caption: 记忆效应
 created: 20191110082350280
 creator: miRoox
-modified: 20191110082738606
+modified: 20191119121412014
 modifier: miRoox
 tags: 待完善 物理光学
 title: 散斑的记忆效应
@@ -11,5 +11,5 @@ type: text/vnd.tiddlywiki
 
 散斑图像与入射角有关，即
 $$
-I(\theta)=\iint_{\mathbb{R}^2}O(\bm{r})S(\bm{r}-\theta d)\,\mathrm{d}^2\bm{r}=[O\ast S](\theta)
+I(\theta)=\iint_{\Reals^2}O(\bm{r})S(\bm{r}-\theta d)\,\mathrm{d}^2\bm{r}=[O\ast S](\theta)
 $$
