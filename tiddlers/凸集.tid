@@ -1,7 +1,7 @@
 caption: 凸集
 created: 20191115133844675
 creator: miRoox
-modified: 20191115135050837
+modified: 20191119121503096
 modifier: miRoox
 tags: 待完善 凸优化
 title: 凸集
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 ! 凸集
 
-对$$S\subseteq\mathbb{R}^n$$，若$$\forall x,y\in S,\forall\lambda\in(0,1), \lambda x+(1-\lambda)y\in S$$，则称$$S$$为凸集。
+对$$S\subseteq\Reals^n$$，若$$\forall \bm{x},\bm{y}\in S,\forall\lambda\in(0,1), \lambda \bm{x}+(1-\lambda)\bm{y}\in S$$，则称$$S$$为凸集。
 
 !! 凸集的性质
 

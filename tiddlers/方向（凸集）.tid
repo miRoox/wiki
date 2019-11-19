@@ -1,0 +1,11 @@
+created: 20191119114633595
+creator: miRoox
+modified: 20191119121233182
+modifier: miRoox
+tags: 方向 待完善 凸集
+title: 方向（凸集）
+type: text/vnd.tiddlywiki
+
+! 方向
+
+设$$S\subset\Reals^n$$为非[[空|空集]][[凸集]]，若$$\bm{d}\in\Reals^n, \bm{d}\ne\bm0$$，对$$\forall\bm{x}\in S, \forall \lambda>0, \bm{x}+\lambda\bm{d}\in S$$，则称$$\bm{d}$$为[[凸集]]$$S$$的方向。

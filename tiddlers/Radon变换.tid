@@ -1,7 +1,7 @@
 caption: 拉东变换
 created: 20191012074929207
 creator: miRoox
-modified: 20191109110328562
+modified: 20191119121720499
 modifier: miRoox
 tags: 待完善 积分变换
 title: Radon变换
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 对于函数$$f(x,y)$$，其拉东变换为
 $$
 \newcommand{\dd}{\,\mathrm{d}}
-g(R,\varphi)=\mathscr{R}[f(x,y)]=\iint_{\mathbb{R}^2}f(x,y)\delta(R-x\cos\varphi-y\sin\varphi)\dd{x}\dd{y}
+g(R,\varphi)=\mathscr{R}[f(x,y)]=\iint_{\Reals^2}f(x,y)\delta(R-x\cos\varphi-y\sin\varphi)\dd{x}\dd{y}
 $$
 
 如果原函数$$f(r,\theta)$$是极坐标下的表示，那么对应的拉东变换为

@@ -1,0 +1,12 @@
+caption: 极方向
+created: 20191119120100578
+creator: miRoox
+modified: 20191119122131048
+modifier: miRoox
+tags: 待完善 凸集
+title: 极方向
+type: text/vnd.tiddlywiki
+
+! 极方向
+
+对于[[凸集]]$$S$$中的[[方向|方向（凸集）]]$$d$$，若$$\exist \mu_1,\mu_2>0,\, \left[\bm{d}=\mu_1\bm{d}^{(1)}+\mu_2\bm{d}^{(2)}\Longrightarrow\left(\exist \alpha>0,\bm{d}^{(1)}=\alpha\bm{d}^{(2)}\right)\right]$$，则称$$\bm{d}$$为[[凸集]]$$S$$的极方向。

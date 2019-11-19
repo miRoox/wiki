@@ -1,7 +1,7 @@
 caption: 线性正则变换
 created: 20191010111856920
 creator: miRoox
-modified: 20191106053538939
+modified: 20191119121625538
 modifier: miRoox
 tags: 待完善 积分变换
 title: 线性正则变换
@@ -13,11 +13,11 @@ type: text/vnd.tiddlywiki
 
 !! 定义
 
-对于参数矩阵$$\bf{A}=\begin{bmatrix}a&b\\c&d\end{bmatrix}$$，满足$$a,b,c,d\in\mathbb{R},\,ad-bc=1$$，则函数$$f$$关于参数矩阵$$\bf{A}$$的线性正则变换定义为
+对于参数矩阵$$\bf{A}=\begin{bmatrix}a&b\\c&d\end{bmatrix}$$，满足$$a,b,c,d\in\Reals,\,ad-bc=1$$，则函数$$f$$关于参数矩阵$$\bf{A}$$的线性正则变换定义为
 
 $$
 (\mathscr{L}_{\bf{A}}f)(u)=\begin{cases}
-\displaystyle\int_{\mathbb{R}} f(x)K_{\bf{A}}(u,x)\,\mathrm{d}x &b\ne0\\
+\displaystyle\int_{\Reals} f(x)K_{\bf{A}}(u,x)\,\mathrm{d}x &b\ne0\\
 \sqrt{d}\exp\left(i\frac{cdu^2}{2}\right)f(du) &b=0
 \end{cases}
 $$

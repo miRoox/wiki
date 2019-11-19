@@ -1,0 +1,31 @@
+created: 20191118024329262
+creator: miRoox
+modified: 20191119121436619
+modifier: miRoox
+tags: 待完善 凸优化
+title: 凸函数
+type: text/vnd.tiddlywiki
+
+! 凸函数
+
+凸函数：设$$S\subseteq\Reals^n$$为[[凸集]]，$$f:S\to\Reals$$，若$$\forall \bm{x},\bm{y}\in S, \forall\lambda\in(0,1), f(\lambda \bm{x}+(1-\lambda)\bm{y})\le\lambda f(\bm{x})+(1-\lambda)f(\bm{y})$$，则称$$f(\bm{x})$$为$$S$$上的凸函数。
+
+严格凸函数：对凸函数的定义中的$$\le$$改为$$<$$即为严格凸。
+
+凹函数：若$$-f(\bm{x})$$为凸函数，则$$f(\bm{x})$$为凹函数。
+
+!! 性质
+
+!!! 凸函数的一阶特征
+
+若$$S\subset\Reals^n$$非[[空|空集]]、[[开|开集]]、[[凸|凸集]]，且$$f:S\to\Reals$$一阶连续可导，则：
+
+$$f$$在$$S$$上为凸函数 $$\iff$$ 
+$$\forall \bm{x},\bm{y}\in S, f(\bm{y})\ge f(\bm{x})+\nabla f(\bm{x}) (\bm{y}-\bm{x})$$
+
+!!! 凸函数的二阶特征
+
+若$$S\subset\Reals^n$$非[[空|空集]]、[[开|开集]]、[[凸|凸集]]，且$$f:S\to\Reals$$二阶连续可导，则：
+
+$$f$$在$$S$$上为凸函数 $$\iff$$ 
+$$\forall \bm{x}\in S,\nabla^2f(\bm{x})$$[[半正定|正定矩阵]]

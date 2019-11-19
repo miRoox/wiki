@@ -1,7 +1,7 @@
 caption: 分数阶傅里叶变换
 created: 20191010111804832
 creator: miRoox
-modified: 20191017124117637
+modified: 20191119121337322
 modifier: miRoox
 tags: 待完善 傅里叶变换 正交变换 积分变换
 title: 分数阶傅里叶变换
@@ -13,10 +13,10 @@ type: text/vnd.tiddlywiki
 
 !! 定义
 
-对参数$$\alpha\in\mathbb{R}$$，函数$$f$$的分数阶傅里叶变换$$\mathscr{F}_\alpha$$定义为
+对参数$$\alpha\in\Reals$$，函数$$f$$的分数阶傅里叶变换$$\mathscr{F}_\alpha$$定义为
 
 $$
-(\mathscr{F}_\alpha f)(u)=\int_\mathbb{R}f(x)K_\alpha(x,u)\,\mathrm{d}x
+(\mathscr{F}_\alpha f)(u)=\int_\Reals f(x)K_\alpha(x,u)\,\mathrm{d}x
 $$
 
 式中
@@ -29,4 +29,4 @@ K_\alpha(x,u)=\begin{cases}
 \end{cases}
 $$
 
-其中，$$n\in\mathbb{Z}$$.
+其中，$$n\in\Z$$.
