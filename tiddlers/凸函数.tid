@@ -1,0 +1,29 @@
+created: 20191118024329262
+modified: 20191118111343719
+tags: 待完善 凸优化
+title: 凸函数
+type: text/vnd.tiddlywiki
+
+! 凸函数
+
+凸函数：设$$S\subseteq\mathbb{R}^n$$为[[凸集]]，$$f:S\to\mathbb{R}$$，若$$\forall x,y\in S, \forall\lambda\in(0,1), f(\lambda x+(1-\lambda)y)\le\lambda f(x)+(1-\lambda)f(y)$$，则称$$f(x)$$为$$S$$上的凸函数。
+
+严格凸函数：对凸函数的定义中的$$\le$$改为$$<$$即为严格凸。
+
+凹函数：若$$-f(x)$$为凸函数，则$$f(x)$$为凹函数。
+
+!! 性质
+
+!!! 凸函数的一阶特征
+
+若$$S\subset\mathbb{R}^n$$非[[空|空集]]、[[开|开集]]、[[凸|凸集]]，且$$f:S\to\mathbb{R}$$一阶连续可导，则：
+
+$$f$$在$$S$$上为凸函数 $$\iff$$ 
+$$\forall x,y\in S, f(y)\ge f(x)+\nabla f(x) (y-x)$$
+
+!!! 凸函数的二阶特征
+
+若$$S\subset\mathbb{R}^n$$非[[空|空集]]、[[开|开集]]、[[凸|凸集]]，且$$f:S\to\mathbb{R}$$二阶连续可导，则：
+
+$$f$$在$$S$$上为凸函数 $$\iff$$ 
+$$\forall x\in S,\nabla^2f(x)$$[[半正定|正定矩阵]]
