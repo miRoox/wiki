@@ -1,0 +1,29 @@
+caption: 变量
+created: 20191120114046251
+creator: miRoox
+modified: 20191120115213605
+modifier: miRoox
+tags: Rust语法
+title: Rust变量
+type: text/vnd.tiddlywiki
+
+! 变量
+
+Rust通过`let`将值绑定到名称（变量）上。
+
+!! 隐藏
+
+我们可以定义一个与之前变量同名的新变量，而新变量会''隐藏''之前的变量。
+如：
+
+```rust
+fn main() {
+	let x = "Hello!".to_string();
+	let rx = &x;
+	let x = x.as_bytes();
+	println!("prev:{:?}, after:{:?}",*rx,x);
+}
+```
+
+隐藏并不改变原先的变量，只是创建了新变量并使之前的变量无法通过原来的名称访问了。
+

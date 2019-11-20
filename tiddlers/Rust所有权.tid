@@ -1,0 +1,16 @@
+caption: 所有权
+created: 20191120115657317
+creator: miRoox
+modified: 20191120120003836
+modifier: miRoox
+tags: 待完善 Rust语法
+title: Rust所有权
+type: text/vnd.tiddlywiki
+
+! 所有权
+
+所有权规则：
+
+# Rust 中的每一个值都有一个被称为其''所有者（owner）''的[[变量|Rust变量]]。
+# 值有且只有一个所有者。
+# 当所有者（[[变量|Rust变量]]）离开[[作用域|Rust作用域]]，这个值将被丢弃。

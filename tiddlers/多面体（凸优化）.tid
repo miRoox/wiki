@@ -1,12 +1,12 @@
 caption: 多面体
 created: 20191119112905292
 creator: miRoox
-modified: 20191119113650722
+modified: 20191120113741824
 modifier: miRoox
-tags: 待完善 凸优化
+tags: 凸集 待完善 凸优化
 title: 多面体（凸优化）
 type: text/vnd.tiddlywiki
 
 ! 多面体
 
-有限个半闭空间的交集。
+有限个半闭空间的交集。是一种特殊的[[凸集]]，常用于[[线性规划]]问题。

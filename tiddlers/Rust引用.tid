@@ -1,0 +1,14 @@
+caption: 引用
+created: 20191120120754986
+creator: miRoox
+modified: 20191120120953284
+modifier: miRoox
+tags: 待完善 Rust语法
+title: Rust引用
+type: text/vnd.tiddlywiki
+
+! 引用
+
+引用允许访问对象而''不获取''其[[所有权|Rust所有权]]。
+
+常将获取引用作为函数参数称为''借用（borrowing）''。正如现实生活中，如果一个人拥有某样东西，你可以从他那里借来。当你使用完毕，必须还回去。
