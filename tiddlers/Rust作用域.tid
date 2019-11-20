@@ -1,0 +1,12 @@
+caption: 作用域
+created: 20191120120013170
+creator: miRoox
+modified: 20191120120738442
+modifier: miRoox
+tags: 待完善 Rust语法
+title: Rust作用域
+type: text/vnd.tiddlywiki
+
+! 作用域
+
+作用域是一个项（item）在程序中有效的范围。

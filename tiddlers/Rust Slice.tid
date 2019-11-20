@@ -1,0 +1,12 @@
+caption: Slice
+created: 20191120121125793
+creator: miRoox
+modified: 20191120121322275
+modifier: miRoox
+tags: 待完善 Rust语法
+title: Rust Slice
+type: text/vnd.tiddlywiki
+
+! Slice
+
+slice 允许你[[引用|Rust引用]]集合中一段连续的元素序列，而不用[[引用|Rust引用]]整个集合。同样，slice也不获取对象的所有权
