@@ -1,0 +1,16 @@
+caption: 均值滤波
+created: 20191121083528456
+creator: miRoox
+modified: 20191121090955116
+modifier: miRoox
+tags: 待完善 算法 图像滤波
+title: 均值滤波
+type: text/vnd.tiddlywiki
+
+! 均值滤波
+
+特点：
+
+# 系数和为1
+# 中心对称
+# 窗口长度应小于信号周期

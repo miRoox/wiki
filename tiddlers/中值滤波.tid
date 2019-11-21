@@ -1,0 +1,16 @@
+caption: 中值滤波
+created: 20191121091131334
+creator: miRoox
+modified: 20191121091533370
+modifier: miRoox
+tags: 算法 待完善 图像滤波
+title: 中值滤波
+type: text/vnd.tiddlywiki
+
+! 中值滤波
+
+特点：
+
+# 适用于椒盐噪声
+# 窗口长度为$$2n+1$$时，信号周期应小于$$n$$
+# 如果信号时单调的，那么信号在模板窗口范围内都是单调的，才可以保持不变
