@@ -1,0 +1,16 @@
+caption: 拉普拉斯滤波
+created: 20191121090906382
+creator: miRoox
+modified: 20191121091127665
+modifier: miRoox
+tags: 算法 待完善 图像滤波
+title: Laplacian滤波
+type: text/vnd.tiddlywiki
+
+! 拉普拉斯滤波
+
+特点：
+
+# 系数和为0
+# 适用于斜坡边缘
+# 各向同性
