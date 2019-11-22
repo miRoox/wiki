@@ -1,0 +1,20 @@
+caption: 离散信号
+created: 20191122065546191
+creator: miRoox
+modified: 20191122072129949
+modifier: miRoox
+tags: 待完善 信号-系统-控制
+title: 离散信号
+type: text/vnd.tiddlywiki
+
+! 离散信号
+
+对[[连续信号]]进行周期采样。
+
+$$
+\left.x_a(t)\right|_{t=nT}=x_a(nT)=x(n)
+$$
+
+$$T$$即[[采样周期]]，$$f_s\equiv{}\frac{1}{T}$$为[[采样频率]]
+
+''注意''：和[[数字信号]]不同，这里的//离散//仅只时间上的离散。

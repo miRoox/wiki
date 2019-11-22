@@ -1,9 +1,9 @@
 caption: 拉东变换
 created: 20191012074929207
 creator: miRoox
-modified: 20191119121720499
+modified: 20191122085045617
 modifier: miRoox
-tags: 待完善 积分变换
+tags: 待完善 变换
 title: Radon变换
 type: text/vnd.tiddlywiki
 
@@ -25,8 +25,8 @@ $$
 
 也叫中心切片定理。
 
-对$$g(R,\varphi)=\mathscr{R}[f(x,y)]$$，对它在$$R$$方向做一维傅里叶变换
+对$$g(R,\varphi)=\mathscr{R}[f(x,y)]$$，对它在$$R$$方向做一维[[傅里叶变换]]
 $$
 \mathscr{F}_{R}[g(R,\varphi)]=F(\rho\cos\varphi,\rho\sin\varphi)
 $$
-其中，$$F(x,y)=\mathscr{F}[f(x,y)]$$为$$f(x,y)$$的二维傅里叶变换。
+其中，$$F(x,y)=\mathscr{F}[f(x,y)]$$为$$f(x,y)$$的二维[[傅里叶变换]]。

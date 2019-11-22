@@ -1,0 +1,14 @@
+caption: Z变换
+created: 20191122085322305
+creator: miRoox
+modified: 20191122085459670
+modifier: miRoox
+tags: 待完善 变换
+title: Z变换
+type: text/vnd.tiddlywiki
+
+! Z变换
+
+$$
+X(z)=\operatorname{ZT}[x(n)]=\sum_{n=-\infty}^{\infty}x(n)z^{-n}
+$$
