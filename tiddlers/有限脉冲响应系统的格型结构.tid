@@ -1,0 +1,29 @@
+created: 20191125131020663
+creator: miRoox
+modified: 20191125131537679
+modifier: miRoox
+tags: 待完善 有限脉冲响应系统
+title: 有限脉冲响应系统的格型结构
+type: text/vnd.tiddlywiki
+
+! 格型结构
+
+双端口网络
+
+第$$m$$级：
+
+$$
+\begin{cases}
+f_m(n)=f_{m-1}(n)+k_mg_{m-1}(n-1)\\
+g_m(n)=k_mf_{m-1}(n)+g_{m-1}(n-1)
+\end{cases}
+$$
+
+有：
+
+$$
+\begin{aligned}
+f_m(n)&=\sum_{k=0}^m\alpha_m(k)x(n-k)\\
+g_m(n)&=\sum_{k=0}^m\alpha_m(m-k)x(n-k)
+\end{aligned}
+$$

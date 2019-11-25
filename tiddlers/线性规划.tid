@@ -1,10 +1,38 @@
 caption: 线性规划
 created: 20191120113744989
 creator: miRoox
-modified: 20191120113801873
+modified: 20191125130042556
 modifier: miRoox
 tags: 待完善 运筹学
 title: 线性规划
 type: text/vnd.tiddlywiki
 
 ! 线性规划
+
+!! 线性规划的一般形式
+
+$$
+\begin{aligned}
+\max/\min{} & z=\sum_{j=1}^nc_jx_j\\
+\text{s.t.} &{}\sum_{j=1}^na_{i,j}x_j\le=\ge b_i\quad i=1,2,\cdots,m
+\end{aligned}
+$$
+
+!! 线性规划的[[标准形式|线性规划问题的标准化]]
+
+$$
+\begin{aligned}
+\max/\min{} & z=\sum_{j=1}^nc_jx_j\\
+\text{s.t.} &{}\begin{cases}
+\sum_{j=1}^na_{i,j}x_j = b_i &i=1,2,\cdots,m,b_i\ge0\\
+x_j\ge0 &j=1,2,\cdots,n
+\end{cases}
+\end{aligned}
+$$
+
+特点：
+
+# 目标求最大
+# 约束为等式
+# 决策变量非负
+# 右端项非负

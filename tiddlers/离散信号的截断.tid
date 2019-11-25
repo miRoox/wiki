@@ -1,0 +1,15 @@
+created: 20191125131654192
+creator: miRoox
+modified: 20191125132213121
+modifier: miRoox
+tags: 待完善 离散信号
+title: 离散信号的截断
+type: text/vnd.tiddlywiki
+
+! 截断（截短）
+
+将元素序列截为有限长：$$x(n)\to x_N(n)=x(n)w(n)$$，
+$$w(n)$$-[[窗函数]]
+
+* 从频率分辨率的角度看，[[窗函数]]主瓣宽度越小越好-[[矩形窗]]最佳
+* 从频谱泄露的角度看，[[窗函数]]旁瓣越小越好
