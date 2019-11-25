@@ -1,0 +1,29 @@
+caption: 标准化
+created: 20191125124405957
+creator: miRoox
+modified: 20191125130654230
+modifier: miRoox
+tags: 待完善 线性规划
+title: 线性规划问题的标准化
+type: text/vnd.tiddlywiki
+
+! 标准化
+
+将一般形式的[[线性规划]]问题转化为标准形式：
+
+# $$\min f\Rightarrow \max (-f)$$
+# 不等式约束：
+## 对某个约束$$\sum_{j=1}^na_{i,j}x_j\le b_i$$，引入''松弛变量''$$s_i=b_i-\sum_{j=1}^na_{i,j}x_j$$，则这一约束可以转化为$$
+\begin{cases}
+\sum_{j=1}^na_{i,j}x_j+s_i= b_i\\
+s_i\ge0
+\end{cases}
+$$
+## 对某个约束$$\sum_{j=1}^na_{i,j}x_j\ge b_i$$，引入剩余变量$$s_i=\sum_{j=1}^na_{i,j}x_j-b_i$$，则这一约束可以转化为$$
+\begin{cases}
+\sum_{j=1}^na_{i,j}x_j-s_i= b_i\\
+s_i\ge0
+\end{cases}
+$$
+# 变量符号无限制：若变量$$x_j$$没有符号约束时，可令$$x_j=x'_j-x''_j$$，并增加约束$$x'_j\ge0,x''_j\ge0$$
+# 右端项有负值：对该等式约束两端同时乘以$$-1$$
