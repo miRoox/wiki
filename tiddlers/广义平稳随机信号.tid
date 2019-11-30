@@ -1,0 +1,18 @@
+caption: 宽平稳随机信号
+created: 20191130064848880
+creator: miRoox
+modified: 20191130065149940
+modifier: miRoox
+tags: 待完善 随机信号
+title: 广义平稳随机信号
+type: text/vnd.tiddlywiki
+
+! 宽平稳随机信号
+
+满足
+
+# 均值与时间无关
+# 互相关只与时间差有关
+# 均方有限
+
+的[[随机信号]]。
