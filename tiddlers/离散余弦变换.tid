@@ -1,0 +1,23 @@
+caption: 离散余弦变换
+created: 20191128080243856
+creator: miRoox
+modified: 20191128080701268
+modifier: miRoox
+tags: 待完善 变换
+title: 离散余弦变换
+type: text/vnd.tiddlywiki
+
+! DCT
+
+一维离散余弦变换核为
+
+$$
+g(x,u)=C(u)\sqrt{\frac{2}{N}}\cos\frac{(2x+1)u\pi}{2N}
+$$
+式中，$$x/u=0,1,\cdots,N-1$$，
+$$
+C(u)=\begin{cases}
+\frac{1}{\sqrt{2}}&u=0\\
+1&\text{otherwise}
+\end{cases}
+$$

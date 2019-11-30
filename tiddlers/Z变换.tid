@@ -1,7 +1,7 @@
 caption: Z变换
 created: 20191122085322305
 creator: miRoox
-modified: 20191122085459670
+modified: 20191128081208564
 modifier: miRoox
 tags: 待完善 变换
 title: Z变换
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 $$
 X(z)=\operatorname{ZT}[x(n)]=\sum_{n=-\infty}^{\infty}x(n)z^{-n}
 $$
+
+实际就是[[Laurent级数]]
