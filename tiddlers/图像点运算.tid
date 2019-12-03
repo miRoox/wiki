@@ -1,0 +1,17 @@
+caption: 点运算
+created: 20191203134448929
+creator: miRoox
+modified: 20191203134939859
+modifier: miRoox
+tags: 图像变换 待完善 图像增强
+title: 图像点运算
+type: text/vnd.tiddlywiki
+
+! 点运算
+
+$$
+B(x,y)=f[A(x,y)]
+$$
+
+* 描述了灰度的映射关系
+* 点运算的形式：像素-像素

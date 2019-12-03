@@ -1,7 +1,7 @@
 caption: 代码托管
 created: 20191130103842789
 creator: miRoox
-modified: 20191130104828035
+modified: 20191203115702180
 modifier: miRoox
 tags: 待完善 在线资源
 title: 代码托管
@@ -14,4 +14,5 @@ type: text/vnd.tiddlywiki
 * [[BitBucket|https://bitbucket.org/]]
 * [[Gitee|https://gitee.com/]]
 * [[Coding.net|https://coding.net/]]
+* [[腾讯云开发者平台|https://dev.tencent.com/]]
 * [[SVNBucket|https://svnbucket.com/]]

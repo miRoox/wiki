@@ -1,10 +1,14 @@
 caption: .gitignore
 created: 20191017080706870
 creator: miRoox
-modified: 20191017080749857
+modified: 20191203123132131
 modifier: miRoox
 tags: 待完善 Git
 title: gitignore文件
 type: text/vnd.tiddlywiki
 
-!! `.gitignore`
+! `.gitignore`
+
+!! 外部链接
+
+* [[github/gitignore|https://github.com/github/gitignore]]

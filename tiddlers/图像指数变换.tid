@@ -1,0 +1,16 @@
+caption: 指数变换
+created: 20191203134742442
+creator: miRoox
+modified: 20191203134933560
+modifier: miRoox
+tags: 待完善 图像点运算
+title: 图像指数变换
+type: text/vnd.tiddlywiki
+
+!! 指数变换
+
+$$
+D_B=b^{c(D_A-a)}-1
+$$
+
+高灰度区给予较大的拉伸
