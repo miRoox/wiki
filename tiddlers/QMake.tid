@@ -1,0 +1,12 @@
+caption: QMake
+created: 20191205081227805
+creator: miRoox
+modified: 20191205081608206
+modifier: miRoox
+tags: 待完善 计算机语言
+title: QMake
+type: text/vnd.tiddlywiki
+
+! QMake
+
+QMake是[[Qt]]自带的构建管理工具，也是其所使用的语言。
