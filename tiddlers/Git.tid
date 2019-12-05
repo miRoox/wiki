@@ -2,15 +2,15 @@ caption: Git
 created: 20190924125715476
 creator: miRoox
 list: Git仓库结构 Git命令
-modified: 20191102061609021
+modified: 20191205081030707
 modifier: miRoox
-tags: 开源软件 待完善 软件 开发工具
+tags: 版本控制系统 开源软件 待完善 软件 开发工具
 title: Git
 type: text/vnd.tiddlywiki
 
 ! Git
 
-Git 是一种''分布式''版本控制系统：
+Git 是一种''分布式''[[版本控制系统]]：
 
 * 每个克隆的仓库都包含有整个仓库的所有数据
 * 任何修改先[[提交在本地|Git文件操作]]，再[[推送|Git推送分支]]到服务器
