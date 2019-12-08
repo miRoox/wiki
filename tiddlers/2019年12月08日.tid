@@ -1,0 +1,24 @@
+created: 20191208002639778
+creator: miRoox
+modified: 20191208031009993
+modifier: miRoox
+tags: 组会 日志
+title: 2019年12月08日
+type: text/vnd.tiddlywiki
+
+# A Novel Phase Unwrapping Method Based on Network Programming
+#* 原理：最小费用流问题/整数规划
+#* 传统方法：
+#** 枝切法：路径依赖的积分
+#** 最小二乘法：最小化均方标准差
+# High-resolution 3D refractive index microscopy of multiple-scattering sample from indensity images
+# Four channels multi-illumination single holographic exposure lenseless Fresnel (MISHELF) microscopy
+# Stripe artifact reduction for digital scanned structured illumination light sheet microscopy
+# Attention Dense-U-Net for Automatic Breast Mass Segmentation in Digital Mammogram
+# Resolution enhancement in digital holography by self-extrapolation of holograms
+# Semi-implicit relaxed Douglas-Rachford algorithm (sDR) for ptychography
+
+---
+
+* 软件开发，并行方式：层次划分，拆分界面和功能分工。
+
