@@ -1,0 +1,14 @@
+caption: 特性（Attribute）
+created: 20191209133806622
+creator: miRoox
+modified: 20191209134035545
+modifier: miRoox
+tags: 待完善 C#语法
+title: C# Attribute
+type: text/vnd.tiddlywiki
+
+! 特性
+
+特性（Attribute）是用于在运行时传递程序中各种元素（比如类、方法、结构、枚举、组件等）的行为信息的声明性标签。您可以通过使用特性向程序添加声明性信息。一个声明性标签是通过放置在它所应用的元素前面的方括号（`[ ]`）来描述的。
+
+特性（Attribute）用于添加元数据，如编译器指令和注释、描述、方法、类等其他信息。.Net 框架提供了两种类型的特性：预定义特性和自定义特性。

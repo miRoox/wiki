@@ -1,0 +1,12 @@
+caption: 委托（Delegate）
+created: 20191209134523778
+creator: miRoox
+modified: 20191209134701978
+modifier: miRoox
+tags: C#语法
+title: C# Delegate
+type: text/vnd.tiddlywiki
+
+! 委托
+
+''委托（Delegate）''类似于[[Qt中的信号-槽|Qt:信号-槽]]

@@ -1,0 +1,12 @@
+caption: 属性（Property）
+created: 20191209134242919
+creator: miRoox
+modified: 20191209134458100
+modifier: miRoox
+tags: C#语法
+title: C# Property
+type: text/vnd.tiddlywiki
+
+! 属性
+
+''属性（Property）''是[[类|C#类]]、[[结构|C#结构]]和[[接口|C#接口]]的命名成员。类或结构中的成员变量或方法称为''域（Field）''。属性是域的扩展，且可使用相同的语法来访问。它们使用 ''访问器（accessors）'' 让私有域的值可被读写或操作。
