@@ -1,0 +1,17 @@
+caption: 反射（Reflection）
+created: 20191209134015726
+creator: miRoox
+modified: 20191209134240099
+modifier: miRoox
+tags: 待完善 C#语法
+title: C# Reflection
+type: text/vnd.tiddlywiki
+
+! 反射
+
+反射（Reflection）有下列用途：
+
+* 它允许在运行时查看[[特性|C# Attribute]]信息。
+* 它允许审查集合中的各种类型，以及实例化这些类型。
+* 它允许延迟绑定的[[方法|C#方法]]和[[属性|C# Property]]。
+* 它允许在运行时创建新类型，然后使用这些类型执行一些任务。
