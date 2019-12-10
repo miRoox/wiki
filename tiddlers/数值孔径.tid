@@ -1,0 +1,13 @@
+created: 20191210083713183
+creator: miRoox
+modified: 20191210084224926
+modifier: miRoox
+tags: 待完善 几何光学
+title: 数值孔径
+type: text/vnd.tiddlywiki
+
+! 数值孔径
+
+$$
+NA=n_0\sin\theta
+$$
