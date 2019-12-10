@@ -1,0 +1,22 @@
+created: 20191210081120773
+creator: miRoox
+modified: 20191210084220003
+modifier: miRoox
+tags: 待完善 克尔效应
+title: 光学克尔效应
+type: text/vnd.tiddlywiki
+
+! 光学克尔效应
+
+$$
+\Delta n\propto I
+$$
+
+$$
+n=n_0+n_2 I
+$$
+
+光学克尔效应有两种典型的实现方式：
+
+* [[自相位调制光学克尔效应]]
+* [[交叉相位调制光学克尔效应]]
