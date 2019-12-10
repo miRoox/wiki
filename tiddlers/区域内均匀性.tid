@@ -1,0 +1,15 @@
+created: 20191210061730213
+creator: miRoox
+modified: 20191210063624695
+modifier: miRoox
+tags: 图像分割的评价 图像分割
+title: 区域内均匀性
+type: text/vnd.tiddlywiki
+
+! 区域内均匀性
+
+$$
+UM=1-\frac{1}{C}\sum_i\left\{\sum_{(x,y)\in R_i}\left[f(x,y)-\frac{1}{A_i}\sum_{(x,y)\in R_i}f(x,y)\right]^2\right\}
+$$
+
+$$C$$为归一化常数，$$A_i$$为区域$$R_i$$的面积。

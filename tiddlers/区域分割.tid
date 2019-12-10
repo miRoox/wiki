@@ -1,0 +1,21 @@
+created: 20191210060218820
+creator: miRoox
+modified: 20191210061055841
+modifier: miRoox
+tags: 待完善 图像分割
+title: 区域分割
+type: text/vnd.tiddlywiki
+
+! 区域分割
+
+区域：
+
+# $$R_i=R$$
+# $$R_j\cap R_i=\Phi, i\ne j$$
+
+分割方法
+
+# 区域分割
+# 区域增长
+# 区域分裂合并
+

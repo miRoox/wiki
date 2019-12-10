@@ -1,0 +1,15 @@
+created: 20191210063928923
+creator: miRoox
+modified: 20191210064553473
+modifier: miRoox
+tags: 待完善 聚类 图像分割
+title: K均值聚类
+type: text/vnd.tiddlywiki
+
+! K均值聚类
+
+目标：最小化
+
+$$
+E=\sum_{i=1}^M\sum_{x\in Q_i}g(x)
+$$

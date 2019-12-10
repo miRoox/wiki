@@ -1,0 +1,11 @@
+created: 20191210064349837
+creator: miRoox
+modified: 20191210072610350
+modifier: miRoox
+tags: 聚类 阈值分割 待完善 图像分割
+title: 判断分析法
+type: text/vnd.tiddlywiki
+
+! 判断分析法
+
+目标：类间方差最大，类内方差最小
