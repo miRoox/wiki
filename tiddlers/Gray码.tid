@@ -1,0 +1,16 @@
+created: 20191210072056968
+creator: miRoox
+modified: 20191210072230588
+modifier: miRoox
+tags: 编码 数据结构
+title: Gray码
+type: text/vnd.tiddlywiki
+
+! 格雷码
+
+$$
+g_i=\begin{cases}
+b_i&i=1\\
+b_{i+1}\xor b_i
+\end{cases}
+$$
