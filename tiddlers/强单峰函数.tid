@@ -1,0 +1,21 @@
+created: 20191211021158833
+creator: miRoox
+modified: 20191211022929900
+modifier: miRoox
+tags: 一维搜索
+title: 强单峰函数
+type: text/vnd.tiddlywiki
+
+! 强单峰
+
+函数$$\varphi:\R\to\R$$，$$[\alpha,\beta]$$为[[不确定区间]]，$$\lambda^*$$为$$\varphi$$在$$[\alpha,\beta]$$的最小值点。
+如果$$\forall \lambda_1,\lambda_2\in[\alpha,\beta],\lambda_1<\lambda_2$$满足
+
+# $$\lambda_2\le\lambda^*\Rightarrow\varphi(\lambda_1)>\varphi(\lambda_2)$$
+# $$\lambda_1\ge\lambda^*\Rightarrow\varphi(\lambda_1)<\varphi(\lambda_2)$$
+
+其实就是严格[[凸函数]]
+
+!! 单峰
+
+加上$$\varphi(\lambda_1)\ne\varphi(\lambda^*)\ne\varphi(\lambda_2)$$的条件，则为单峰
