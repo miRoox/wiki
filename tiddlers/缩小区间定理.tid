@@ -1,0 +1,15 @@
+created: 20191211022524191
+creator: miRoox
+modified: 20191211023417655
+modifier: miRoox
+tags: 缩小区间的精确一维搜索
+title: 缩小区间定理
+type: text/vnd.tiddlywiki
+
+! 缩小区间定理
+
+设函数$$\varphi:\R\to\R$$在[[不确定区间]]$$[\alpha,\beta]$$上[[单峰|强单峰函数]]。$$\lambda,\mu\in[\alpha,\beta]$$，且$$\lambda<\mu$$，那么：
+
+# 如果$$\varphi(\lambda)>\varphi(\mu)$$，则$$[\alpha,\lambda]$$可去。
+# 如果$$\varphi(\lambda)<\varphi(\mu)$$，则$$[\mu,\beta]$$可去。
+# 如果$$\varphi(\lambda)=\varphi(\mu)$$，则$$[\alpha,\lambda],[\mu,\beta]$$可去。

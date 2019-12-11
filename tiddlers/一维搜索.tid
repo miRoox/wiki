@@ -1,0 +1,16 @@
+created: 20191211020240721
+creator: miRoox
+modified: 20191211020721617
+modifier: miRoox
+tags: 待完善 运筹学
+title: 一维搜索
+type: text/vnd.tiddlywiki
+
+! 一维搜索
+
+$$
+\begin{cases}
+\min&&{} f(x^{(k)}+\lambda d^{(k)})=\phi(\lambda)\\
+\text{s.t.}&&{}\lambda\in[\alpha,\beta]
+\end{cases}
+$$

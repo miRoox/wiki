@@ -1,0 +1,21 @@
+created: 20191211033237089
+creator: miRoox
+modified: 20191211034354945
+modifier: miRoox
+tags: 待完善 一维搜索
+title: 不精确的一维搜索
+type: text/vnd.tiddlywiki
+
+! 不精确的一维搜索
+
+$$
+\min f(\bm{x}), f:\R^n\to\R
+$$
+
+在$$\bm{x}$$点取方向$$\bm{d}$$满足[[方向导数]]小于零。取$$\lambda$$满足
+
+# $$f(\bm{x}+\lambda\bm{d})\le f(\bm{x})+\alpha\lambda\nabla f(\bm{x})\bm{d}$$
+# $$\nabla f(\bm{x}+\lambda\bm{d})\bm{d}\ge\beta\nabla f(\bm{x})\bm{d}$$
+
+其中，$$\alpha\in(0,\frac{1}{2}),\beta\in(0,1)$$（常取$$\alpha=0.1,\beta=0.7$$）
+

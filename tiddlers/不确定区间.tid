@@ -1,0 +1,11 @@
+created: 20191211020834431
+creator: miRoox
+modified: 20191211021111788
+modifier: miRoox
+tags: 一维搜索
+title: 不确定区间
+type: text/vnd.tiddlywiki
+
+! 不确定区间
+
+$$\phi(\lambda)$$的最小值点$$\lambda^*\in[\alpha,\beta]$$，则$$[\alpha,\beta]$$即最小值点$$\lambda^*$$的不确定区间。

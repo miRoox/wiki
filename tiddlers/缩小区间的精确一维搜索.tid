@@ -1,0 +1,26 @@
+created: 20191211020736858
+creator: miRoox
+modified: 20191211033229296
+modifier: miRoox
+tags: 待完善 一维搜索
+title: 缩小区间的精确一维搜索
+type: text/vnd.tiddlywiki
+
+! 缩小区间的方法
+
+# 求不确定区间：求三点，满足函数值先减后增
+## 进退法：取$$\lambda_0$$，取步长$$\delta>0$$，取$$\lambda_1=\lambda_0+\delta$$
+### 若$$\varphi(\lambda_0)<\varphi(\lambda_1)$$，退，取$$\lambda_2=\lambda_0-2\delta$$，$$
+\begin{cases}
+\varphi(\lambda_2)>\varphi(\lambda_0),\text{终止：}[\alpha,\beta]=[\lambda_2,\lambda_1]\\
+\varphi(\lambda_2)>\varphi(\lambda_0),\lambda_0\Leftarrow\lambda_2,\lambda_1\Leftarrow\lambda_0,\delta\Leftarrow2\delta,\text{重复}
+\end{cases}
+$$
+### 若$$\varphi(\lambda_0)>\varphi(\lambda_1)$$，进
+# 求不确定区间内的最优解
+## 中点法（即[[二分法]]），要求函数一阶连续可微。
+## 黄金分割法（来自[[缩小区间定理]]），要求：
+##* 对称性：$$\lambda-\alpha=\beta-\mu$$
+##* 缩减比不变：$$\gamma=\frac{\text{保留区间长度}}{\text{原区间长度}}=\frac{\mu-\alpha}{\beta-\alpha}=\frac{\lambda-\alpha}{\mu-\alpha}$$
+## [[牛顿法]]，要求函数二阶连续可微。即利用[[牛顿法]]求其一阶导数的零点。
+## 插值法：三点插值得到二次函数
