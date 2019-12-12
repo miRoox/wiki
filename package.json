@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "tiddlywiki --build index && mv output/index.html .",
-    "start": "tiddlywiki --server 7777",
+    "start": "tiddlywiki --listen port=7777 anon-username=miRoox",
     "test": "npm run build"
   },
   "repository": {
