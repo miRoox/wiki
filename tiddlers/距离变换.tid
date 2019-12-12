@@ -1,0 +1,19 @@
+created: 20191212064536235
+creator: miRoox
+modified: 20191212065044306
+modifier: miRoox
+tags: 图像变换 形态学处理
+title: 距离变换
+type: text/vnd.tiddlywiki
+
+! 距离变换
+
+$$
+\begin{cases}
+g^{k+1}(x,y)=\begin{cases}
+\min[g^k(i,j),g^k(i,j-1)+1,g^k(i-1,j)+1,g^k(i+1,j)+1,g^k(i,j+1)]&f(x,y)=1\\
+0&f(x,y)=0
+\end{cases}\\
+g^0(x,y)=
+\end{cases}
+$$
