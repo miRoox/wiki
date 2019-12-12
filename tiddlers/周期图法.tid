@@ -1,0 +1,31 @@
+created: 20191212103520121
+creator: miRoox
+modified: 20191212121057441
+modifier: miRoox
+tags: 待完善 功率谱估计
+title: 周期图法
+type: text/vnd.tiddlywiki
+
+! 周期图法
+
+$$
+\newcommand{\euler}{\mathrm{e}}
+\begin{aligned}
+X_N(\euler^{\jmath\omega})=\sum_{n=0}^{N-1}x(n)\euler^{-\jmath\omega n}
+&\Rightarrow
+\hat{P}_{\text{PER}}(\omega)=\frac{1}{N}|X_N(\euler^{\jmath\omega})|^2\\
+X_N(k)=\sum_{n=0}^{N-1}x(n)\euler^{-\jmath\frac{2\pi}{N}kn}
+&\Rightarrow
+\hat{P}_{\text{PER}}(k)=\frac{1}{N}|X_N(k)|^2
+\end{aligned}
+$$
+
+!! 与[[自相关法|谱估计的自相关法]]的关系
+
+$$
+\hat{P}_{\text{BT}}(k)=\hat{P}_{\text{PER}}^{2N}(k)
+$$
+
+其中
+
+$$\hat{P}_{\text{PER}}^{2N}(k)$$表示将原数据填充$$0$$至长度为$$2N$$的数据按周期图法进行谱估计的结果。

@@ -1,0 +1,15 @@
+created: 20191212103219370
+creator: miRoox
+modified: 20191212103632632
+modifier: miRoox
+tags: 随机信号的参数估计 功率谱密度
+title: 功率谱估计
+type: text/vnd.tiddlywiki
+
+! 功率谱估计
+
+* 经典谱估计
+** [[周期图法]]
+** [[自相关法|谱估计的自相关法]]
+* 现代谱估计
+
