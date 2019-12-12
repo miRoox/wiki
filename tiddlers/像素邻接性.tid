@@ -1,0 +1,14 @@
+created: 20191212060038208
+creator: miRoox
+modified: 20191212060245787
+modifier: miRoox
+tags: 二值图属性 待完善 数字图像的属性参数
+title: 像素邻接性
+type: text/vnd.tiddlywiki
+
+! 邻接性
+
+* 4-连接
+* 8-连接
+
+0和1必须采用相反的连接方式。

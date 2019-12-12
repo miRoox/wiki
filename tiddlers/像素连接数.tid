@@ -1,0 +1,24 @@
+created: 20191212060718173
+creator: miRoox
+modified: 20191212062426742
+modifier: miRoox
+tags: 二值图属性 待完善 数字图像的属性参数
+title: 像素连接数
+type: text/vnd.tiddlywiki
+
+! 连接数
+
+| $$p_3$$ | $$p_2$$ | $$p_1$$ |
+| $$p_4$$ | !$$p$$ | $$p_0$$ |
+| $$p_5$$ | $$p_6$$ | $$p_7$$ |
+
+
+$$
+\begin{aligned}
+N^4_c(p)&=\sum_{k\in S}[B(p_k)-B(p_k)B(p_{k+1})B(p_{k+2})]\\
+N^8_c(p)&=\sum_{k\in S}[\bar{B}(p_k)-\bar{B}(p_k)\bar{B}(p_{k+1})\bar{B}(p_{k+2})]
+\end{aligned}
+$$
+其中，$$S=\{0,2,4,6\}$$
+
+表示去掉中心像素点后的连接成分数。
