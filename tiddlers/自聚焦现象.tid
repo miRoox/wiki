@@ -1,7 +1,7 @@
 caption: 自聚焦
 created: 20191112130625547
 creator: miRoox
-modified: 20191210084251839
+modified: 20191213083514542
 modifier: miRoox
 tags: 待完善 非线性光学
 title: 自聚焦现象
@@ -13,9 +13,13 @@ type: text/vnd.tiddlywiki
 
 当[[光学克尔效应]]满足$$n_2>0$$即可能发生自聚焦现象。
 
+自聚焦和衍射之间存在拮抗。
+
 !! [[数值孔径]]
 
 $$
 NA=n_0\sin\theta_s=\sqrt{n^2(0)-n^2(R)}=\sqrt{(n_0+\Delta n)^2-n_0^2}\approx\sqrt{2n_0\Delta n}
 $$
+
+!! 自聚焦的稳态理论
 
