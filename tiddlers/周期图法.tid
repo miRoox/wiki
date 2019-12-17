@@ -1,6 +1,6 @@
 created: 20191212103520121
 creator: miRoox
-modified: 20191212121057441
+modified: 20191217115912176
 modifier: miRoox
 tags: 待完善 功率谱估计
 title: 周期图法
@@ -19,6 +19,20 @@ X_N(k)=\sum_{n=0}^{N-1}x(n)\euler^{-\jmath\frac{2\pi}{N}kn}
 \hat{P}_{\text{PER}}(k)=\frac{1}{N}|X_N(k)|^2
 \end{aligned}
 $$
+
+!! 估计质量
+
+# 均值：<div>$$
+E[\hat{P}_{\text{PER}}(\omega)]=P(\omega)\ast \frac{1}{N}|D_0(\omega)|^2
+$$
+
+其中$$D_0(\omega)=\exp[-\jmath(N-1)/2]\sin(\omega N/2)\sin(\omega/2)$$<br/>
+
+从而可以保证渐进无偏估计
+</div>
+# 方差：
+## $$\lim_{N\to\infty}D[\hat{P}_{\text{PER}}(\omega)]=[P(\omega)]^2\ne0$$，非一致估计。
+## 若$$D_0(\omega)$$的主瓣宽度为$$B$$，在$$|\omega_1-\omega_2|>B$$的频率范围内，$$Cov[\hat{P}_{\text{PER}}(\omega_1),\hat{P}_{\text{PER}}(\omega_2)]=0$$，即$$\hat{P}_{\text{PER}}(\omega)$$在$$\omega_1$$和$$\omega_2$$处不相关。因此，估计谱的方差会随采样点数的增加而增加，亦即减小方差和提升频率分辨率之间是矛盾的。
 
 !! 与[[自相关法|谱估计的自相关法]]的关系
 
