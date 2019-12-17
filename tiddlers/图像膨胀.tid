@@ -1,10 +1,13 @@
 caption: 膨胀
 created: 20191212065152338
 creator: miRoox
-modified: 20191212071059849
+modified: 20191217060323987
 modifier: miRoox
 tags: 待完善 形态学处理
 title: 图像膨胀
 type: text/vnd.tiddlywiki
 
-! 膨胀 $$\oplus$$
+! 膨胀
+$$
+A\oplus B=\{z:(\hat{B})_z\cap A\ne\varnothing\}
+$$

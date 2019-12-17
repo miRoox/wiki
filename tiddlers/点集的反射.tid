@@ -1,0 +1,14 @@
+caption: 反射
+created: 20191217060436888
+creator: miRoox
+modified: 20191217060816965
+modifier: miRoox
+tags: 形态学处理
+title: 点集的反射
+type: text/vnd.tiddlywiki
+
+! 反射
+
+$$
+\hat{B}=\{w:w=-b,b\in B\}
+$$
