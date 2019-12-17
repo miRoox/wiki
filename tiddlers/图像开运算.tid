@@ -1,10 +1,14 @@
 caption: 开运算
 created: 20191212065234558
 creator: miRoox
-modified: 20191212065501731
+modified: 20191217061022454
 modifier: miRoox
 tags: 待完善 形态学处理
 title: 图像开运算
 type: text/vnd.tiddlywiki
 
 ! 开运算
+
+$$
+A\circ B=(A\ominus B)\oplus B
+$$

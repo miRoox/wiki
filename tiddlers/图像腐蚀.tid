@@ -1,10 +1,14 @@
 caption: 腐蚀
 created: 20191212065106196
 creator: miRoox
-modified: 20191212071041788
+modified: 20191217060140217
 modifier: miRoox
 tags: 待完善 形态学处理
 title: 图像腐蚀
 type: text/vnd.tiddlywiki
 
-! 腐蚀 $$\ominus$$
+! 腐蚀
+
+$$
+A\ominus B=\{z:(B)_z\subseteq A\}
+$$

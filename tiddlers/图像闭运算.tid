@@ -1,10 +1,14 @@
 caption: 闭运算
 created: 20191212065353355
 creator: miRoox
-modified: 20191212065418397
+modified: 20191217061128976
 modifier: miRoox
 tags: 待完善 形态学处理
 title: 图像闭运算
 type: text/vnd.tiddlywiki
 
 ! 闭运算
+
+$$
+A\bullet B=(A\oplus B)\ominus B
+$$
