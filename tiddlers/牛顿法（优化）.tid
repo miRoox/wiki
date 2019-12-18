@@ -1,0 +1,37 @@
+created: 20191218031633446
+creator: miRoox
+modified: 20191218034511792
+modifier: miRoox
+tags: 无约束最优化方法 待完善 牛顿法
+title: 牛顿法（优化）
+type: text/vnd.tiddlywiki
+
+! 牛顿法
+
+对$$f\in C^2$$，做[[泰勒展开]]
+
+$$
+\newcommand{\xk}{\bm x^{(k)}}
+f(\xk-\bm s)=f(\xk)+\nabla f(\xk)\bm s+\frac{1}{2}\bm s^{\mathsf{T}}\nabla^2 f(\xk)\bm s+o(\|s\|^2)
+$$
+
+取$$g_k(\bm s)=f(\bm x^{(k)})+\nabla f(\bm x^{(k)})\bm s+\frac{1}{2}\bm s^{\mathsf{T}}\nabla^2 f(\bm x^{(k)})\bm s$$，当$$\nabla^2 f(\bm x^{(k)})$$正定时，$$g_k(\bm s)$$存在唯一极值点$$\bm s^{(k)}$$，满足
+$$
+[\nabla^2 f(\bm x^{(k)})]s^{(k)}=-\nabla f(\bm x^{(k)})
+$$
+
+更新：$$x^{(k+1)}=x^{(k)}+s^{(k)}$$
+
+!! 缺点
+
+* 计算量大
+* 局部收敛
+* 正定如何保证
+
+!! 改进方法
+
+# 减小计算量直接修正（每组固定使用同一个Hesse矩阵）
+# 带[[一维搜索]]
+# Goldstein-price方法：以Hesse矩阵是否正定作为开关，选择[[不精确的一维搜索]]或者[[最速下降法]]
+# 强迫Hesse矩阵正定：对Hesse矩阵修正使之正定。
+
