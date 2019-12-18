@@ -1,0 +1,51 @@
+created: 20191218020430054
+creator: miRoox
+modified: 20191218031521137
+modifier: miRoox
+tags: 计算数学 待完善 无约束最优化方法
+title: 共轭梯度法
+type: text/vnd.tiddlywiki
+
+! 共轭梯度法
+
+
+考虑正定二次函数
+$$
+f(\bm{x})=\frac{1}{2}\langle \mathbf{A}\bm{x},\bm{x}\rangle-\langle \bm{b},\bm{x}\rangle
+$$
+
+$$
+f(\bm x+\lambda\bm d)=f(\bm x)+\frac{1}{2}\lambda^2\bm{d}^{\mathsf{T}}\mathbf{A}\bm{d}-\lambda\langle \bm{b}-\mathbf{A}\bm{x},\bm{d}\rangle
+$$
+
+!! 等价性定理
+
+$$
+\bm x^*\in\R^n, \mathbf A\bm x^*=\bm b\iff f(\bm x^*)=\min f(\bm x)
+$$
+
+既可以在低阶的时候将优化问题转化为线性方程求解，也可以在高阶的时候将线性方程问题转化为优化搜索问题。
+
+!! 二次函数的一维搜索
+
+$$
+\begin{aligned}
+&\min f(\bm x^{(k)}+\lambda \bm d^{(k)})\\
+\lambda_k&=\frac{\langle \bm r^{(k)},\bm d^{(k)}\rangle}{\langle \mathbf A\bm d^{(k)},\bm d^{(k)}\rangle}\\
+\bm r^{(k)}&=\bm b-\mathbf A\bm x^{(k)}\\
+\bm x^{(k+1)}&=\bm x^{(k)}+\lambda_k\bm d^{(k)}
+\end{aligned}
+$$
+
+!! 算法
+
+# [[最速下降法]]求最初的下降方向
+# 确定下一步搜索方向$$\bm d^{(k+1)}=\bm r^{(k+1)}+\beta_{k}\bm d^{(k+1)}$$（即以$$\bm r^{(k+1)}, \bm d^{(k+1)}$$为基底），满足与$$\bm d^{(k)}$$关于$$\mathbf A$$[[共轭|共轭方向]]。
+
+共轭梯度法具有二次终结性。
+
+!! 一般函数的情况
+
+* 将$$\bm r^{(k)}$$都更换为负梯度。
+* $$\min f(\bm x^{(k)}+\lambda \bm d^{(k)})$$使用[[一维搜索]]方法
+* $$\beta_k$$有多种可能的选择
