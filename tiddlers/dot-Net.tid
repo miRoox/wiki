@@ -1,10 +1,15 @@
 caption: .Net
 created: 20191205081703899
 creator: miRoox
-modified: 20191205081732696
+modified: 20191219092003297
 modifier: miRoox
 tags: 待完善 框架-库-工具包
 title: dot-Net
 type: text/vnd.tiddlywiki
 
 ! .Net
+
+!! 外部链接
+
+* [[.Net 文档|https://docs.microsoft.com/zh-cn/dotnet/]]
+* [[.NET API 浏览器|https://docs.microsoft.com/zh-cn/dotnet/api/]]
