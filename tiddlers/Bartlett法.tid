@@ -1,0 +1,13 @@
+created: 20191219104248142
+creator: miRoox
+modified: 20191219104627890
+modifier: miRoox
+tags: 待完善 功率谱估计
+title: Bartlett法
+type: text/vnd.tiddlywiki
+
+! Bartlett法
+
+作为[[周期图法]]的改进。
+
+将采用数据$$x_N(n)$$分为$$L$$段，每段长度为$$M$$，分别计算每段数据的功率谱，再取平均。

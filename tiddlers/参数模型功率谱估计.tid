@@ -1,0 +1,16 @@
+created: 20191219110720413
+creator: miRoox
+modified: 20191219113950945
+modifier: miRoox
+tags: 待完善 功率谱估计
+title: 参数模型功率谱估计
+type: text/vnd.tiddlywiki
+
+! 参数模型法
+
+根据信号$$x(n)$$的[[参数模型|随机信号的参数模型]]$$H(z)$$来估计$$x(n)$$的功率谱：
+
+$$
+\newcommand{\euler}{\mathrm{e}}
+P_x(\euler^{\jmath\omega})=P_{\text{白噪声}}(\euler^{\jmath\omega})|H(\euler^{\jmath\omega})|^2=\sigma_{\text{白噪声}}^2\frac{|B(\euler^{\jmath\omega})|^2}{|A(\euler^{\jmath\omega})|^2}
+$$
