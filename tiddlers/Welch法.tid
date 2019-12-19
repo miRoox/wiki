@@ -1,0 +1,14 @@
+created: 20191219104632922
+creator: miRoox
+modified: 20191219104938158
+modifier: miRoox
+tags: 待完善 功率谱估计
+title: Welch法
+type: text/vnd.tiddlywiki
+
+! Welch法
+
+在[[Bartlett法]]的基础上再进行改进：
+
+# 交叠分段
+# 允许使用不是矩形的窗函数
