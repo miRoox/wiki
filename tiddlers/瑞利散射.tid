@@ -1,0 +1,15 @@
+created: 20191220082555204
+creator: miRoox
+modified: 20191220083131645
+modifier: miRoox
+tags: 待完善 散射
+title: 瑞利散射
+type: text/vnd.tiddlywiki
+
+! 瑞利散射
+
+散射粒子的尺度远小于波长。
+
+$$
+I_s\propto\lambda^{-4}
+$$
