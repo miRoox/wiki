@@ -1,10 +1,28 @@
 caption: 受激幅射光散射
 created: 20191115073858961
 creator: miRoox
-modified: 20191115073925603
+modified: 20191220132431873
 modifier: miRoox
 tags: 待完善 非线性光学
 title: 受激幅射光散射
 type: text/vnd.tiddlywiki
 
 ! 受激幅射光散射
+
+$$
+\newcommand{\dd}{\mathrm{d}}
+\frac{\dd m_s}{\dd t}=Dm_L(m_s+1)
+$$
+
+* $$m_s\ll 1, m_s=m_s(0)+\frac{1}{c/n}Dm_Lz$$
+* $$m_s\gg 1, m_s=m_s(0)\exp(Gz)$$，其中$$G=\frac{Dm_L}{c/n}$$为增益系数
+
+特性：
+
+# 高增益
+# 方向性
+# 单色性
+# 脉宽压缩
+# 阈值性
+# 高阶散射特性
+# [[相位共轭|光学相位共轭]]特性
