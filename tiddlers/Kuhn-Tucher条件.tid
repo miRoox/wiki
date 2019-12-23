@@ -1,0 +1,69 @@
+created: 20191223000705574
+creator: miRoox
+modified: 20191223014846463
+modifier: miRoox
+tags: 待完善 约束最优化方法
+title: Kuhn-Tucher条件
+type: text/vnd.tiddlywiki
+
+! Kuhn-Tucher条件
+
+!! 等式约束
+
+$$
+(f\bm h)\left\{\begin{aligned}
+\min &f(\bm x)\\
+\text{s.t.}&\bm h(\bm x)=0
+\end{aligned}\right.
+$$
+
+$$
+\exists\bm v\in\R^n,\nabla f(\bm x^*)+\frac{\partial\bm h}{\partial\bm x}(\bm x^*)\bm v=\bm 0\tag{KT}
+$$
+
+见[[Lagrange乘子法]]
+
+!! 不等式约束
+
+$$
+(f\bm g\bm h)\left\{\begin{aligned}
+\min &\phantom{\{} f(\bm x)\\
+\text{s.t.}&\bm g(\bm x)\le 0
+\end{aligned}\right.
+$$
+
+记$$I=\{i:g_i(\bm x^*)=0\}$$称为$$\bm x^*$$处的紧约束集。
+
+$$\bm x^*\in S$$，$$I$$为$$\bm x^*$$处的紧约束集，设$$f(\bm x),g_i(\bm x)(i\in I)$$在$$\bm x^*$$处可微
+
+# 若$$g_i(x)(i\notin I)$$在$$\bm x^*$$处连续，$$\{\nabla g_i(\bm x^*):i\in I\}$$为无关组，若$$\bm x^*$$为$$(f\bm g)$$的局部最优解，则存在$$\mu_i\ge0,i\in I$$，满足$$
+\nabla f(\bm x^*)+\sum_{i\in I}\mu_i\nabla g_i(x^*)=0\tag{KT}
+$$
+# 若$$g_i(x)(i\notin I)$$在$$\bm x^*$$处可微，则$$
+\begin{aligned}
+\nabla f(\bm x^*)+\sum_{i=1}^m\mu_i\nabla g_i(\bm x^*)&=0\\
+\mu_i&\ge0,i=1,\cdots,m\\
+\sum_{i=1}^m\mu_i g_i(\bm x^*)&=0
+\end{aligned}\tag{KT}
+$$
+
+!! 一般约束
+
+$$
+(f\bm g\bm h)\left\{\begin{aligned}
+\min &\phantom{\{} f(\bm x)\\
+\text{s.t.}&\left\{\begin{aligned}
+\bm g(\bm x)\le 0\\
+\bm h(\bm x)=0
+\end{aligned}\right.
+\end{aligned}\right.
+$$
+
+综合等式和不等式的情况，其中等式约束一定是紧约束。
+
+!! 凸优化的情况
+
+凸优化：$$f,g_i$$为[[凸函数]]，$$\bm h$$为线性函数。
+
+若$$\bm x^*$$为$$(f\bm g\bm h)$$的(KT)点，则$$\bm x^*$$为问题的全局最优解。
+

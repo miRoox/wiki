@@ -1,0 +1,20 @@
+created: 20191223001048941
+creator: miRoox
+modified: 20191223004112004
+modifier: miRoox
+tags: 待完善 约束最优化方法
+title: Lagrange乘子法
+type: text/vnd.tiddlywiki
+
+! 拉格朗日乘子法
+
+$$
+(f\bm h)\left\{\begin{aligned}
+\min &f(\bm x)\\
+\text{s.t.}&\bm h(\bm x)=0
+\end{aligned}\right.
+$$
+
+构造乘子函数$$L(\bm x,\bm v)=f(\bm x)+\bm v^\mathsf{T}\bm h(\bm x)$$
+
+若$$\bm x^*$$为$$(f\bm h)$$的局部最优解，则$$\exists\bm v\in\R^n,\nabla f(\bm x^*)+\frac{\partial\bm h}{\partial\bm x}(\bm x^*)\bm v=\bm 0$$

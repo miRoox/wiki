@@ -1,0 +1,19 @@
+created: 20191223000300184
+creator: miRoox
+modified: 20191223004209102
+modifier: miRoox
+tags: 待完善 运筹学
+title: 约束最优化方法
+type: text/vnd.tiddlywiki
+
+! 约束最优化方法
+
+$$
+(f\bm g\bm h)\left\{\begin{aligned}
+\min &\phantom{\{} f(\bm x)\\
+\text{s.t.}&\left\{\begin{aligned}
+\bm g(\bm x)\le 0\\
+\bm h(\bm x)=0
+\end{aligned}\right.
+\end{aligned}\right.
+$$
