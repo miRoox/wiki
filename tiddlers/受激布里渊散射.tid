@@ -1,10 +1,20 @@
 caption: 受激布里渊散射
 created: 20191115073959401
 creator: miRoox
-modified: 20191220130638488
+modified: 20191224091958777
 modifier: miRoox
 tags: Brillouin散射 待完善 受激幅射光散射
 title: 受激布里渊散射
 type: text/vnd.tiddlywiki
 
 ! 受激布里渊散射
+
+由介质宏观长程波引起。
+
+密度变化→介电系数变化→光能变化
+
+电致伸缩导致介质密度变化：
+
+$$
+\frac{\partial^2\rho}{\partial t^2}-\Gamma\nabla^2\frac{\partial\rho}{\partial t}-v_b^2\nabla^2\rho=-\nabla\cdot\bm F
+$$
