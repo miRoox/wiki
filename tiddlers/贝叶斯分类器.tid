@@ -1,0 +1,14 @@
+created: 20191224055211130
+creator: miRoox
+modified: 20191224060314600
+modifier: miRoox
+tags: 待完善 图像识别
+title: 贝叶斯分类器
+type: text/vnd.tiddlywiki
+
+! 贝叶斯分类器
+
+[[决策函数]]：
+$$
+d_j(\bm x)=P(\bm x|\omega_j)P(\omega_j)
+$$

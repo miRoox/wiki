@@ -1,6 +1,6 @@
 created: 20191219060220395
 creator: miRoox
-modified: 20191219071731112
+modified: 20191224060258532
 modifier: miRoox
 tags: 待完善 图像识别
 title: 最小距离分类器
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 
 类似[[K均值聚类]]
 
+[[决策函数]]：
+$$
+d_j(\bm x)=\langle\bm x,\bm m_j\rangle-\frac{1}{2}\langle\bm m_j,\bm m_j\rangle
+$$

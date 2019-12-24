@@ -1,6 +1,6 @@
 created: 20191219064836821
 creator: miRoox
-modified: 20191219072454240
+modified: 20191224061532544
 modifier: miRoox
 tags: 待完善 人工神经网络
 title: 感知机
@@ -8,6 +8,7 @@ type: text/vnd.tiddlywiki
 
 ! 感知机
 
+[[决策函数]]：
 $$
-d(\bm x)=\bm w\cdot\bm x+\bm b
+\bm d(\bm x)=\bm w\cdot\bm x+\bm b
 $$
