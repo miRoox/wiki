@@ -1,0 +1,49 @@
+created: 20191224103857730
+creator: miRoox
+modified: 20191224111614775
+modifier: miRoox
+tags: 待完善 自回归模型
+title: Yule-Walker方程
+type: text/vnd.tiddlywiki
+
+!! 自回归模型的正则方程（Yule-Walker方程）
+
+$$
+\begin{aligned}
+r_x(m)&=-\sum_{k=1}^pa_kr_x(m-k)+r_{x,u}(m)\\
+&=\begin{cases}
+-\sum_{k=1}^pa_kr_x(m-k) & m>0\\
+-\sum_{k=1}^pa_kr_x(k)+\sigma_u^2 & m=0
+\end{cases}
+\end{aligned}
+$$
+
+矩阵形式：
+
+$$
+\begin{bmatrix}
+r_x(0) & r_x(1) & r_x(2) & \cdots & r_x(p)\\
+r_x(1) & r_x(0) & r_x(1) & \cdots & r_x(p-1)\\
+r_x(2) & r_x(1) & r_x(0) & \cdots & r_x(p-2)\\
+\vdots & \vdots & \vdots & \ddots & \vdots\\
+r_x(p) & r_x(p-1) & r_x(p-2) & \cdots & r_x(0)
+\end{bmatrix}
+\begin{bmatrix}
+1 \\ a_1 \\ a_2\\ \vdots \\ a_p
+\end{bmatrix}=
+\begin{bmatrix}
+\sigma^2 \\ 0 \\ 0 \\ \vdots \\ 0
+\end{bmatrix}
+$$
+
+!!! 关系
+
+对于同一个序列$$x(n)$$，相同阶数的：
+[[AR模型|自回归模型]]参数（Yule-Walker方程）$$\iff$$最佳前向[[线性预测器]]（[[Wiener-Hopf方程]]），亦即：
+$$
+\begin{aligned}
+a_k&=\alpha_k&k=1,2,\cdots,p\\
+\rho_{\rm{min}}&=\sigma^2
+\end{aligned}
+$$
+

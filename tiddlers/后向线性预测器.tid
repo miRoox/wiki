@@ -1,0 +1,12 @@
+caption: 后向预测器
+created: 20191224121326405
+creator: miRoox
+modified: 20191224123317135
+modifier: miRoox
+tags: 待完善 线性预测器
+title: 后向线性预测器
+type: text/vnd.tiddlywiki
+
+! 后向预测器
+
+估计值由后$$p$$个测量值的线性组合确定。

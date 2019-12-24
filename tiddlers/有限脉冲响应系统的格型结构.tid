@@ -1,6 +1,6 @@
 created: 20191125131020663
 creator: miRoox
-modified: 20191125131537679
+modified: 20191224123258303
 modifier: miRoox
 tags: 待完善 有限脉冲响应系统
 title: 有限脉冲响应系统的格型结构
@@ -27,3 +27,5 @@ f_m(n)&=\sum_{k=0}^m\alpha_m(k)x(n-k)\\
 g_m(n)&=\sum_{k=0}^m\alpha_m(m-k)x(n-k)
 \end{aligned}
 $$
+
+即分别对应[[前向线性预测器]]和[[后向线性预测器]]

@@ -1,6 +1,7 @@
+caption: AR模型
 created: 20191219114027477
 creator: miRoox
-modified: 20191219121213636
+modified: 20191224103917084
 modifier: miRoox
 tags: 待完善 随机信号的参数模型
 title: 自回归模型
@@ -13,17 +14,3 @@ $$b_1,b_2,\cdots,b_q$$全为零，即$$B(z)=1$$。全极点模型，只与现在
 $$
 x(n)=-\sum_{k=1}^pa_kx(n-k)+u(n)
 $$
-
-!! 正则方程（Yule-Walker方程）
-
-$$
-\begin{aligned}
-\Gamma_x(m)&=-\sum_{k=1}^pa_k\Gamma_x(m-k)+\Gamma_{x,u}(m)\\
-&=\begin{cases}
--\sum_{k=1}^pa_k\Gamma_x(m-k) & m>0\\
--\sum_{k=1}^pa_k\Gamma_x(k)+\sigma_u^2 & m=0
-\end{cases}
-\end{aligned}
-$$
-
-改写为矩阵形式：

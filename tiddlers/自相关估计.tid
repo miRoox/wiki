@@ -1,0 +1,56 @@
+created: 20191224115533981
+creator: miRoox
+modified: 20191224115630334
+modifier: miRoox
+tags: 待完善 随机信号的参数估计
+title: 自相关估计
+type: text/vnd.tiddlywiki
+
+! 自相关估计
+
+$$x_N(n)=x(n)d_0(n)$$ —— $$d_0(n)$$为矩形窗。
+
+$$
+\begin{aligned}
+\hat{r}(m)&=\frac{1}{N}\sum_{n=0}^{N-1}x_N(n)x_N(n+m)\\
+&=\frac{1}{N}\sum_{n=0}^{N-1-|m|}x(n)x(n+m)
+\end{aligned}
+$$
+
+其中，$$m$$可取$$-(N-1)\sim(N-1)$$
+
+$$
+\begin{aligned}
+E[\hat{r}(m)]&=E\left[\frac{1}{N}\sum_{n=0}^{N-1-|m|}x(n)x(n+m)\right]\\
+&=\frac{1}{N}\sum_{n=0}^{N-1-|m|}E[x(n)x(n+m)]\\
+&=\left(1-\frac{|m|}{N}\right)r(m)
+\end{aligned}
+$$
+
+当$$m$$固定，$$\lim_{N\to\infty}E[\hat{r}(m)]=E[r(m)]$$；
+$$\lim_{n\to\infty}\operatorname{Var}[\hat{r}(m)]=0$$。即为渐进[[一致估计]]
+
+!! 快速算法
+
+$$
+\begin{aligned}
+\sum_{m=-(N-1)}^{N-1}\hat{r}(m)\exp(-\jmath\omega m)
+&=\sum_{m=-(N-1)}^{N-1}\frac{1}{N}\sum_{n=0}^{N-1}x_N(n)x_N(n+m)\exp(-\jmath\omega m)\\
+&=\frac{1}{N}\sum_{n=0}^{N-1}x_{2N}(n)\sum_{m=-(N-1)}^{N-1}x_{2N}(n+m)\exp(-\jmath\omega m)\\
+&=\frac{1}{N}\sum_{n=0}^{N-1}x_{2N}(n)\sum_{l=0}^{2N-1}x_{2N}(l)\exp[-\jmath\omega (l-n)]\\
+&=\frac{1}{N}\sum_{n=0}^{N-1}x_{2N}(n)\exp(\jmath\omega n)\sum_{l=0}^{2N-1}x_{2N}(l)\exp(-\jmath\omega l)\\
+&=\frac{1}{N}|X_{2N}(\mathrm{e}^{\jmath\omega})|^2
+\end{aligned}
+$$
+
+其中，
+$$
+x_{2N}(n)=\begin{cases}
+x_N(n)&0\le n\le N-1\\
+0&N-1\le n\le 2N-1
+\end{cases}
+$$
+
+$$
+x_N(n)\xrightarrow{补N个0}x_{2N}(n)\xrightarrow{\operatorname{FFT}}\frac{1}{N}|X_{2N}(k)|^2\xrightarrow{\operatorname{IFFT}}\hat{r}_0(m)
+$$

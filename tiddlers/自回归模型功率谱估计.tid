@@ -1,0 +1,21 @@
+caption: AR模型谱估计
+created: 20191224115145651
+creator: miRoox
+modified: 20191224120847638
+modifier: miRoox
+tags: 待完善 参数模型功率谱估计
+title: 自回归模型功率谱估计
+type: text/vnd.tiddlywiki
+
+! AR模型谱估计
+
+根据[[自回归模型]]估计功率谱
+
+$$
+x_N(n)\xrightarrow{\href{/#%E8%87%AA%E7%9B%B8%E5%85%B3%E4%BC%B0%E8%AE%A1}{自相关估计}}r_x(m)\xrightarrow{\href{/#Yule-Walker%E6%96%B9%E7%A8%8B}{Yule-Walker方程}}\hat a_1,\hat a_2,\cdots,\hat a_p,\hat\rho\rightarrow\hat P_{\text{AR}}(\mathrm{e}^{\jmath\omega})
+$$
+
+$$
+\hat P_{\text{AR}}(\mathrm{e}^{\jmath\omega})=
+\frac{\hat\rho}{\left|1+\sum_{k=1}^p\hat a_k\mathrm{e}^{-\jmath\omega k}\right|^2}
+$$
