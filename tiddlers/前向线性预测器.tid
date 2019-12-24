@@ -1,0 +1,27 @@
+caption: 前向预测器
+created: 20191224121210574
+creator: miRoox
+modified: 20191224124615552
+modifier: miRoox
+tags: 待完善 线性预测器
+title: 前向线性预测器
+type: text/vnd.tiddlywiki
+
+!! 前向预测器
+
+估计值由前$$p$$个测量值的线性组合确定。
+
+$$
+\hat{x}(n)=-\sum_{k=1}^p\alpha_k x(n-k)
+$$
+
+则估计误差$$e(n)=x(n)-\hat{x}(n)$$。
+
+!!! 最佳预测器
+
+要使均方误差最小化$$\min E[|e(n)|^2]$$，应使估计误差序列$$e(n)$$与信号$$x(n-p), \cdots, x(n-1)$$正交，即
+$$
+E[x(n-m)e(n)]=0\iff r_x(m)+\sum_{k=1}^p\alpha_kr_x(m-k)=0
+$$
+
+由此可以得到[[Wiener-Hopf方程]]

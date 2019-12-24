@@ -1,10 +1,14 @@
 caption: 线性最小均方误差估计
 created: 20191207111447782
 creator: miRoox
-modified: 20191207111519237
+modified: 20191224104908772
 modifier: miRoox
 tags: 随机信号的参数估计
 title: 线性最小均方误差估计
 type: text/vnd.tiddlywiki
 
 ! 线性最小均方误差估计
+
+$$
+\operatorname{MSE}[\hat\theta]=E[|\theta-\hat\theta|^2]
+$$
