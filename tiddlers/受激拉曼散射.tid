@@ -1,7 +1,7 @@
 caption: 受激拉曼散射
 created: 20191115073934272
 creator: miRoox
-modified: 20191220134458888
+modified: 20191224091300285
 modifier: miRoox
 tags: Raman散射 待完善 受激幅射光散射
 title: 受激拉曼散射
@@ -9,30 +9,48 @@ type: text/vnd.tiddlywiki
 
 ! 受激拉曼散射
 
+!! 光谱特性
+
 * 斯托克斯光：$$\omega_s=\omega_p-\omega_v$$
-* 反斯托克斯光：$$\omega_s=\omega_p+\omega_v$$
+* 反斯托克斯光：$$\omega_a=\omega_p+\omega_v$$
+
+受激拉曼散射相比自发[[拉曼散射|Raman散射]]，在光谱上呈现许多高阶的散射谱线。
+
+!! 光子图像
+
+能量/动量守恒：
+
+$$
+\begin{aligned}
+\omega_s&=\omega_p-\omega_v\\
+\omega_a&=\omega_p+\omega_v\\
+\bm k_s&=\bm k_p-\bm k_v\\
+\bm k_a&=\bm k_p+\bm k_v
+\end{aligned}
+$$
+
+相位匹配：
+
+$$
+\Delta\bm k=2\bm k_p-\bm ks-\bm k_a=0
+$$
 
 !! 经典理论
 
-四波耦合过程：
+见[[经典理论|受激拉曼散射的经典理论]]
 
-$$
-\newcommand{\dd}{\mathrm{d}}
-\frac{\dd E_s(z)}{\dd z}=\imath\frac{\omega_s}{2\varepsilon_0n_sc}P^{(3)}(z)
-$$
+受激拉曼散射的频移量$$\Delta\omega=\omega_v$$为介质内光学波固有频率，与入射光无关。
 
-其中
-$$
-P^{(3)}(z)=6\varepsilon_0\chi_R^{(3)}(\omega_s;\omega_p,-\omega_p,\omega_s)|E_p|^2E_s
-$$
-$$
-\chi_R^{(3)}=\underbrace{\chi_R^{(3)\prime}}_{\text{折射率变化}}+\underbrace{\imath\chi_R^{(3)\prime\prime}}_{\text{吸收率变化}}
-$$
+!! 实验
 
-由于我们在这里关心的是吸收变化，因此忽略极化率的实部，可以解得
+要求：
 
-$$
-E_s(z)=E_s(0)\exp\left(\frac{1}{2}gI_pz\right)
-$$
+# 介质对泵浦光与激发的散射光高度透明
+# 具有较长的散射截面
+# 能承受较高入射泵浦光光强
 
-其中$$g=-\frac{12\omega_s}{\varepsilon_0c^2n_pn_s}\chi_R^{(3)\prime\prime}(\omega_s)$$为增益系数。
+装置类型：
+
+# 单次行波放大型
+# 拉曼共振腔型
+# 激光与拉曼共用谐振腔型

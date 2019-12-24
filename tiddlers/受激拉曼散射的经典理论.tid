@@ -1,0 +1,40 @@
+caption: 经典理论
+created: 20191224084134729
+creator: miRoox
+modified: 20191224091618087
+modifier: miRoox
+tags: 待完善 受激拉曼散射
+title: 受激拉曼散射的经典理论
+type: text/vnd.tiddlywiki
+
+!! 经典理论
+
+四波耦合过程：
+
+$$
+\newcommand{\dd}{\mathrm{d}}
+\frac{\dd E_s(z)}{\dd z}=\imath\frac{\omega_s}{2\varepsilon_0n_sc}P^{(3)}(z)
+$$
+
+其中
+$$
+P^{(3)}(z)=6\varepsilon_0\chi_R^{(3)}(\omega_s;\omega_p,-\omega_p,\omega_s)|E_p|^2E_s
+$$
+$$
+\chi_R^{(3)}=\underbrace{\chi_R^{(3)\prime}}_{\text{折射率变化}}+\underbrace{\imath\chi_R^{(3)\prime\prime}}_{\text{吸收率变化}}
+$$
+
+由于我们在这里关心的是吸收变化，因此忽略极化率的实部，可以解得
+
+$$
+E_s(z)=E_s(0)\exp\left(\frac{1}{2}gI_pz\right)
+$$
+
+其中$$g=-\frac{12\omega_s}{\varepsilon_0c^2n_pn_s}\chi_R^{(3)\prime\prime}(\omega_s)$$为增益系数。
+
+!!! 极化率
+
+考虑分子偶极子受迫振动模型
+$$
+\frac{\partial^2 q(t)}{\partial t^2}+2\gamma\frac{\partial q(t)}{\partial t}+\omega_v^2q(t)=\frac{F(z,t)}{m}
+$$
