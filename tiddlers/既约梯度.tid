@@ -1,0 +1,43 @@
+created: 20191225030621058
+creator: miRoox
+modified: 20191225033530270
+modifier: miRoox
+tags: 待完善 既约梯度法
+title: 既约梯度
+type: text/vnd.tiddlywiki
+
+! 既约梯度
+
+考虑[[线性约束问题]]$$(f\mathbf A\bm b)$$
+
+在[[单纯形法]]里我们知道，如果假设：
+
+# $$\mathbf A$$的任意$$m$$列线性无关
+# $$\forall \bm x\in S$$，都存在$$m$$个大于0的分量
+
+那么，我们可以进行分解$$\mathbf A=\begin{pmatrix}\mathbf B& \mathbf N\end{pmatrix}$$，使$$\bm x=\begin{pmatrix}\bm x_B\\ \bm x_N\end{pmatrix}$$，
+
+$$
+\bm x_B=\mathbf B^{-1}\bm b-\mathbf B^{-1}\mathbf N\bm x_N
+$$
+
+可得目标函数
+
+$$
+f(\bm x)=f(\mathbf B^{-1}\bm b-\mathbf B^{-1}\mathbf N\bm x_N,\bm x_N)\triangleq g(\bm x_N)
+$$
+
+因此，$$g(\bm x_N)$$的梯度$$\bm r_N=\nabla g(\bm x_N)$$称为$$f$$在$$\bm x$$处对应于基矩阵$$\mathbf B$$的''既约梯度''。
+
+如果令
+$$
+\nabla f(\bm x)=\begin{pmatrix}
+\nabla_B f(\bm x)\\ \nabla_N f(\bm x)
+\end{pmatrix}
+$$
+
+再根据复合函数的求导法则，可得
+$$
+\newcommand{\tr}{^\mathsf{T}}
+\bm r_N=-\mathbf N\tr \left(\mathbf B^{-1}\right)\tr\nabla_B f(\bm x)+\nabla_N f(\bm x)
+$$

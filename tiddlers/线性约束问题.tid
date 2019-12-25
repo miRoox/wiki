@@ -1,0 +1,19 @@
+created: 20191225033432757
+creator: miRoox
+modified: 20191225033729336
+modifier: miRoox
+tags: 约束最优化方法
+title: 线性约束问题
+type: text/vnd.tiddlywiki
+
+! 线性约束问题
+
+$$
+(f\mathbf A\bm b)\left\{\begin{aligned}
+\min &\phantom{\{} f(\bm x)\\
+\text{s.t.}&\left\{\begin{aligned}
+\mathbf A\bm x&=\bm b\\
+\bm x&\ge\bm 0
+\end{aligned}\right.
+\end{aligned}\right.
+$$
