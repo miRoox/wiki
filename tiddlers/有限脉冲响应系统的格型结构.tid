@@ -1,12 +1,13 @@
+caption: 格型结构
 created: 20191125131020663
 creator: miRoox
-modified: 20191224123258303
+modified: 20191226105348899
 modifier: miRoox
 tags: 待完善 有限脉冲响应系统
 title: 有限脉冲响应系统的格型结构
 type: text/vnd.tiddlywiki
 
-! 格型结构
+! 格型(Lattice)结构
 
 双端口网络
 
@@ -29,3 +30,7 @@ g_m(n)&=\sum_{k=0}^m\alpha_m(m-k)x(n-k)
 $$
 
 即分别对应[[前向线性预测器]]和[[后向线性预测器]]
+
+!! 从[[直接型结构|有限脉冲响应系统的直接型结构]]转换
+
+见[[有限脉冲响应系统的直接型结构向格型结构的转换]]。

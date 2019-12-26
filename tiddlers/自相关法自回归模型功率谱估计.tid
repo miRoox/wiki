@@ -1,0 +1,23 @@
+caption: 自相关法
+created: 20191226115417129
+creator: miRoox
+modified: 20191226115547005
+modifier: miRoox
+tags: 待完善 自回归模型功率谱估计
+title: 自相关法自回归模型功率谱估计
+type: text/vnd.tiddlywiki
+
+! 自相关法
+
+$$
+x_N(n)\xrightarrow{\href{/#%E8%87%AA%E7%9B%B8%E5%85%B3%E4%BC%B0%E8%AE%A1}{自相关估计}}r_x(m)\xrightarrow[Levinson-Durbin算法]{\href{/#Yule-Walker%E6%96%B9%E7%A8%8B}{Yule-Walker方程}}\hat a_1,\hat a_2,\cdots,\hat a_p,\hat\rho_{\rm min}\rightarrow\hat P_{\text{AR}}(\mathrm{e}^{\jmath\omega})
+$$
+
+$$
+\rho_{\rm min}=\sum_{n=0}^{N-1+p}|e_p(n)|^2
+$$
+
+$$
+\hat P_{\text{AR}}(\mathrm{e}^{\jmath\omega})=
+\frac{\hat\rho_{\rm min}}{\left|1+\sum_{k=1}^p\hat a_k\mathrm{e}^{-\jmath\omega k}\right|^2}
+$$

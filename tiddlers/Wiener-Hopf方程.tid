@@ -1,6 +1,6 @@
 created: 20191224105243480
 creator: miRoox
-modified: 20191224124341056
+modified: 20191226113735431
 modifier: miRoox
 tags: 待完善 线性预测器
 title: Wiener-Hopf方程
@@ -14,3 +14,7 @@ r_x(m)&=-\sum_{k=1}^p\alpha_kr_x(m-k)\quad m=1,2,\cdots,p\\
 \rho_{\rm{min}}&=r_x(0)+\sum_{k=1}^p\alpha_kr_x(k)
 \end{aligned}
 $$
+
+!! 快速求解算法
+
+见[[Levinson-Durbin算法]]。
