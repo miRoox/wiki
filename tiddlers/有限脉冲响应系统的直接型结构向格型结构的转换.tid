@@ -1,0 +1,15 @@
+created: 20191226104848329
+creator: miRoox
+modified: 20191226123229440
+modifier: miRoox
+tags: 待完善
+title: 有限脉冲响应系统的直接型结构向格型结构的转换
+type: text/vnd.tiddlywiki
+
+! [[直接型结构|有限脉冲响应系统的直接型结构]]向[[格型结构|有限脉冲响应系统的格型结构]]的转换
+
+$$
+\alpha_M(i)\to k_i\quad,i=1,2,\cdots,M
+$$
+
+

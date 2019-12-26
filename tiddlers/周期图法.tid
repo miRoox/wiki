@@ -1,8 +1,8 @@
 created: 20191212103520121
 creator: miRoox
-modified: 20191219105044745
+modified: 20191226120635595
 modifier: miRoox
-tags: 待完善 功率谱估计
+tags: 经典功率谱估计 待完善 功率谱估计
 title: 周期图法
 type: text/vnd.tiddlywiki
 
@@ -34,7 +34,7 @@ $$
 ## $$\lim_{N\to\infty}D[\hat{P}_{\text{PER}}(\omega)]=[P(\omega)]^2\ne0$$，非一致估计。
 ## 若$$D_0(\omega)$$的主瓣宽度为$$B$$，在$$|\omega_1-\omega_2|>B$$的频率范围内，$$Cov[\hat{P}_{\text{PER}}(\omega_1),\hat{P}_{\text{PER}}(\omega_2)]=0$$，即$$\hat{P}_{\text{PER}}(\omega)$$在$$\omega_1$$和$$\omega_2$$处不相关。因此，估计谱的方差会随采样点数的增加而增加，亦即减小方差和提升频率分辨率之间是矛盾的。
 
-!! 与[[自相关法|谱估计的自相关法]]的关系
+!! 与[[自相关法|经典功率谱估计的自相关法]]的关系
 
 $$
 \hat{P}_{\text{BT}}(k)=\hat{P}_{\text{PER}}^{2N}(k)
@@ -48,5 +48,5 @@ $$\hat{P}_{\text{PER}}^{2N}(k)$$表示将原数据填充$$0$$至长度为$$2N$$�
 
 改进方差性质
 
-# 平滑：[[自相关法|谱估计的自相关法]]
+# 平滑：[[自相关法|经典功率谱估计的自相关法]]
 # 平均：[[Bartlett法]]、[[Welch法]]

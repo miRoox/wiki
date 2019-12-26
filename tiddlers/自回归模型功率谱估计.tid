@@ -1,7 +1,7 @@
 caption: AR模型谱估计
 created: 20191224115145651
 creator: miRoox
-modified: 20191224120847638
+modified: 20191226122906868
 modifier: miRoox
 tags: 待完善 参数模型功率谱估计
 title: 自回归模型功率谱估计
@@ -9,13 +9,20 @@ type: text/vnd.tiddlywiki
 
 ! AR模型谱估计
 
-根据[[自回归模型]]估计功率谱
+根据[[自回归模型]]估计功率谱。
 
-$$
-x_N(n)\xrightarrow{\href{/#%E8%87%AA%E7%9B%B8%E5%85%B3%E4%BC%B0%E8%AE%A1}{自相关估计}}r_x(m)\xrightarrow{\href{/#Yule-Walker%E6%96%B9%E7%A8%8B}{Yule-Walker方程}}\hat a_1,\hat a_2,\cdots,\hat a_p,\hat\rho\rightarrow\hat P_{\text{AR}}(\mathrm{e}^{\jmath\omega})
-$$
+<<list-links "[tag<currentTiddler>]">>
 
-$$
-\hat P_{\text{AR}}(\mathrm{e}^{\jmath\omega})=
-\frac{\hat\rho}{\left|1+\sum_{k=1}^p\hat a_k\mathrm{e}^{-\jmath\omega k}\right|^2}
-$$
+!! AR谱的性质
+
+# 平滑特性（有理函数）
+# 分辨率高于[[经典功率谱估计]]
+# 匹配性质（跟随谱峰）：<div>
+\frac{1}{2\pi}\
+</div>
+# 统计特性：数据量增加→信噪比减小
+# 稳定性：<div>
+纯正弦类信号导致自相关矩阵奇异，系统不稳定
+</div>
+# [[Wold分解定理]]
+# 建模特性：对自相关和功率谱进行匹配——二阶特性建模

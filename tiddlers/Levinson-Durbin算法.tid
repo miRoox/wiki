@@ -1,14 +1,14 @@
 created: 20191224110506999
 creator: miRoox
-modified: 20191224123634633
+modified: 20191226113806392
 modifier: miRoox
-tags: 待完善 线性预测器
+tags: Wiener-Hopf方程 待完善
 title: Levinson-Durbin算法
 type: text/vnd.tiddlywiki
 
 ! Levinson-Durbin快速算法
 
-求[[前向线性预测器]]的（最小均方误差意义下的）最佳参数
+求[[前向线性预测器]]的（最小均方误差意义下的）最佳参数（[[Wiener-Hopf方程]]）
 
 基本思路：
 
