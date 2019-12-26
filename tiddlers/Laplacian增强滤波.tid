@@ -1,0 +1,19 @@
+created: 20191226062332405
+creator: miRoox
+modified: 20191226062927113
+modifier: miRoox
+tags: 待完善 图像滤波 图像增强
+title: Laplacian增强滤波
+type: text/vnd.tiddlywiki
+
+! 拉普拉斯增强滤波
+
+$$
+\begin{bmatrix}
+0 & -1 & 0\\
+-1 & 5 & -1\\
+0 & -1 & 0
+\end{bmatrix}
+$$
+
+相比[[Laplacian滤波]]，其系数和为1。
