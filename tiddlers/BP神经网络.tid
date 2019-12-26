@@ -1,0 +1,16 @@
+created: 20191226054737578
+creator: miRoox
+modified: 20191226054955410
+modifier: miRoox
+tags: 待完善 人工神经网络
+title: BP神经网络
+type: text/vnd.tiddlywiki
+
+! BP神经网络
+
+# 知识信息分布储存在神经元中
+# 可以处理带噪声，不完整的数据集
+# 决策速度快
+
+# 参数可能陷入局部最优
+# 训练速度满足

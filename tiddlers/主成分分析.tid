@@ -1,7 +1,7 @@
 caption: 主成分分析
 created: 20191205092112166
 creator: miRoox
-modified: 20191205093754509
+modified: 20191226063836521
 modifier: miRoox
 tags: 待完善 图像变换
 title: 主成分分析
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 ! 主成分分析（PCA）
 
 统计意义上，最佳逼近
+
+也是[[Karhunen-Loève变换]]
