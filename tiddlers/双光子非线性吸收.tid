@@ -1,0 +1,11 @@
+created: 20191227131756578
+creator: miRoox
+modified: 20191227133458494
+modifier: miRoox
+tags: 待完善 非线性光吸收
+title: 双光子非线性吸收
+type: text/vnd.tiddlywiki
+
+! 双光子非线性吸收
+
+两种频率的入射光带来的非线性吸收效应。用能级理论刻画可以认为是$$\hbar\omega_1+\hbar\omega_2\ge\Delta E$$
