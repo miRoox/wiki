@@ -1,0 +1,66 @@
+caption: 维纳滤波器
+created: 20191228020420478
+creator: miRoox
+modified: 20191228033328717
+modifier: miRoox
+tags: 待完善 现代滤波器
+title: Wiener滤波器
+type: text/vnd.tiddlywiki
+
+! 维纳滤波器
+
+!! 线性最小均方误差滤波
+
+$$
+x(n)=s(n)+w(n)\xrightarrow{H(z)}y(n)
+$$
+
+$$x(n)$$：观测值；$$s(n)$$有用信号；$$w(n)$$噪声信号。
+$$y(n)$$：对$$s(n)$$的估计。
+$$d(n)$$：期望输入；
+$$e(n)=d(n)-y(n)$$：误差。
+
+对比：[[线性预测器]]——估计下一个值；滤波——估计当前值。
+
+$$
+y(n)=x(n)\ast h(n)=\sum_{k=0}^{\infty}h(k)x(n-k)
+$$
+
+均方误差
+$$
+\begin{aligned}
+\varepsilon&=E[e^2(n)]=E[(d(n)-y(n))^2]\\
+&=E[d^2(n)]-2E[d(n)y(n)]+E[y^2(n)]\\
+&=r_d(0)-2\sum_{k=0}^{\infty}h(k)r_{dx}(k)+\sum_{k=0}^{\infty}\sum_{m=0}^{\infty}h(k)h(m)r_x(m-k)
+\end{aligned}
+$$
+
+要获得$$\min\varepsilon$$，则需要$$\frac{\partial\varepsilon}{\partial h(k)}=0$$，可得[[Wiener-Hopf方程]]
+$$
+\sum_{m=0}^{\infty}h_{\rm opt}(m)r_x(m-k)=r_{dx}(k),\quad k=0,1,\cdots
+$$
+
+带入可得
+$$
+\varepsilon_{\rm min}=r_d(0)-\sum_{k=0}^{\infty}h_{\rm opt}(k)r_{dx}(k)
+$$
+
+!! FIR维纳滤波器
+
+考虑有限($$M$$)阶的情况：
+$$\bm{h}=[h(0),\cdots,h(M-1)]^\mathsf{T},\bm{h}_{\rm opt}=[h_{\rm opt}(0),\cdots,h_{\rm opt}(M-1)]^\mathsf{T},\bm{r}_{dx}=[r_{dx}(0),\cdots,r_{dx}(M-1)]^\mathsf{T}$$，$$\mathbf{R}_x$$自相关矩阵。
+则
+$$
+\newcommand{\tr}{^{\mathsf{T}}}
+\begin{gathered}
+\mathbf{R}_x\bm{h}_{\rm opt}=\bm{r}_{dx}\\
+\varepsilon=r_d(0)-2\bm{r}_{dx}\tr\bm{h}+\bm{h}\tr\mathbf{R}_x\bm{h}\\
+\varepsilon_{\rm min}=r_d(0)-\bm{r}_{dx}\tr\bm{h}_{\rm opt}=r_d(0)-\bm{r}_{dx}\tr\mathbf{R}_x^{-1}\bm{r}_{dx}
+\end{gathered}
+$$
+
+!! 局限性
+
+# $$x(n)$$要求平稳
+# $$r_{dx}$$未知、时变的话
+
