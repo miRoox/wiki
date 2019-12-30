@@ -1,0 +1,19 @@
+created: 20191230003844763
+creator: miRoox
+modified: 20191230010055072
+modifier: miRoox
+tags: 待完善 约束最优化方法
+title: 罚函数法
+type: text/vnd.tiddlywiki
+
+! 罚函数法
+
+引入罚函数$$\alpha(x)$$将[[约束最优化|约束最优化方法]]问题转化为[[无约束最优化|无约束最优化方法]]问题$$\min f(x)+\alpha(x)$$
+
+理想的罚函数为
+$$
+\alpha(x)=\begin{cases}
+0 &\bm{x}\in S\\
++\infty & \bm x\notin S
+\end{cases}
+$$
