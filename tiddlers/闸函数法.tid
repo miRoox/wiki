@@ -1,0 +1,11 @@
+created: 20191230013320000
+creator: miRoox
+modified: 20191230013435706
+modifier: miRoox
+tags: 待完善 约束最优化方法
+title: 闸函数法
+type: text/vnd.tiddlywiki
+
+! 闸函数法
+
+把惩罚加在约束集的边界。

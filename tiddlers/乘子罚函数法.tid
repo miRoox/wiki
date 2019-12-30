@@ -1,0 +1,11 @@
+created: 20191230013724488
+creator: miRoox
+modified: 20191230013928375
+modifier: miRoox
+tags: 待完善 约束最优化方法
+title: 乘子罚函数法
+type: text/vnd.tiddlywiki
+
+! 乘子罚函数法
+
+结合了[[Lagrange乘子法]]和[[罚函数法]]
