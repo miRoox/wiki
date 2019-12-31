@@ -1,0 +1,14 @@
+caption: 饱和吸收
+created: 20191231084339546
+creator: miRoox
+modified: 20191231115314468
+modifier: miRoox
+tags: 待完善 非线性光吸收
+title: 饱和光吸收
+type: text/vnd.tiddlywiki
+
+! 饱和吸收
+
+$$
+\alpha(I)=\frac{\alpha_0}{1+\frac{I}{I_L}}
+$$
