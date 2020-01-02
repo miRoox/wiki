@@ -1,0 +1,22 @@
+caption: FIR维纳滤波器
+created: 20200102103612184
+creator: miRoox
+modified: 20200102103735329
+modifier: miRoox
+tags: 待完善 Wiener滤波器
+title: 有限脉冲响应Wiener滤波器
+type: text/vnd.tiddlywiki
+
+!! FIR维纳滤波器
+
+考虑有限($$M$$)阶的情况：
+$$\bm{h}=[h(0),\cdots,h(M-1)]^\mathsf{T},\bm{h}_{\rm opt}=[h_{\rm opt}(0),\cdots,h_{\rm opt}(M-1)]^\mathsf{T},\bm{r}_{dx}=[r_{dx}(0),\cdots,r_{dx}(M-1)]^\mathsf{T}$$，$$\mathbf{R}_x$$自相关矩阵。
+则
+$$
+\newcommand{\tr}{^{\mathsf{T}}}
+\begin{gathered}
+\mathbf{R}_x\bm{h}_{\rm opt}=\bm{r}_{dx}\\
+\varepsilon=r_d(0)-2\bm{r}_{dx}\tr\bm{h}+\bm{h}\tr\mathbf{R}_x\bm{h}\\
+\varepsilon_{\rm min}=r_d(0)-\bm{r}_{dx}\tr\bm{h}_{\rm opt}=r_d(0)-\bm{r}_{dx}\tr\mathbf{R}_x^{-1}\bm{r}_{dx}
+\end{gathered}
+$$
