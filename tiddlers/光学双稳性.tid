@@ -1,7 +1,7 @@
 caption: 光学双稳性
 created: 20191115074034341
 creator: miRoox
-modified: 20191231084903261
+modified: 20200103072322115
 modifier: miRoox
 tags: 待完善 非线性光学
 title: 光学双稳性
@@ -9,4 +9,8 @@ type: text/vnd.tiddlywiki
 
 ! 光学双稳性
 
-双稳器件：有两种稳定的输出状态。
+[[光学双稳器件]]：有两种稳定的输出状态。
+
+!! 应用
+
+* [[光学触发器]]
