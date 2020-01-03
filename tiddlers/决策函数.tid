@@ -1,6 +1,6 @@
 created: 20191224060352184
 creator: miRoox
-modified: 20191224061147047
+modified: 20200103133039443
 modifier: miRoox
 tags: 模式识别 机器学习 待完善
 title: 决策函数
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 
 ! 决策函数
 
-假设对一模式已抽取$$d$$个特征，表示为$$\bm x=(x_1,x_2,\cdots,x_d)$$，对于[[模式识别]]问题，要判断$$x$$属于$$\omega_1,\omega_2,\cdots,\omega_W$$中的哪一类，可以依据如下属性来选择各类$$\omega_i$$对应的决策函数$$d_i$$，满足，如果模式$$\bm x$$属于类$$\omega_i$$，则
+假设对一模式已抽取$$d$$个特征，表示为$$\bm x=(x_1,x_2,\dots,x_d)$$，对于[[模式识别]]问题，要判断$$x$$属于$$\omega_1,\omega_2,\dots,\omega_W$$中的哪一类，可以依据如下属性来选择各类$$\omega_i$$对应的决策函数$$d_i$$，满足，如果模式$$\bm x$$属于类$$\omega_i$$，则
 $$
 d_i(\bm x)> d_j(\bm x),\quad j\ne i
 $$

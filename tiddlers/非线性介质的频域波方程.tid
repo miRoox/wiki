@@ -1,0 +1,58 @@
+created: 20200103113536246
+creator: miRoox
+modified: 20200103122425533
+modifier: miRoox
+tags: 待完善 非线性介质的波动方程
+title: 非线性介质的频域波方程
+type: text/vnd.tiddlywiki
+
+!! 非线性介质的频域波方程
+
+!!! 各向异性非线性介质的频域波方程
+
+考虑无吸收的情况$$\sigma=0$$，根据[[傅里叶变换]]可以从[[时域波方程|非线性介质的时域波方程]]得到
+
+$$
+\nabla\times\nabla\times\bm E(\bm k,\omega)+\mu_0\omega^2\varepsilon\cdot\bm E(\bm k,\omega)=-\mu_0\omega^2\bm P_{NL}(\bm k',\omega)
+$$
+
+!!! 各向同性非线性介质的频域波方程
+
+根据$$n=\sqrt{\varepsilon/\varepsilon_0},k_0=\omega/c,k=k_0n$$，可得
+$$
+-\nabla^2\bm E(\bm k,\omega)+k^2\bm E(\bm k,\omega)=-\frac{k_0^2}{\varepsilon_0}\bm P_{NL}(\bm k',\omega)
+$$
+
+考虑一个单色平面波光场沿$$z$$方向传播，且振幅''不随''时间变化，并将振幅和相位因子分开
+$$
+\begin{aligned}
+\bm E(\bm k,\omega)&=\bm E(z,\omega)\exp[\imath(kz-\omega t)]\\
+\bm P_{NL}(\bm k',\omega)&=\bm P_{NL}(z,\omega)\exp[\imath(k'z-\omega t)]
+\end{aligned}
+$$
+依然有
+$$
+\nabla^2\bm E=\left[\left(\frac{\partial^2}{\partial z^2}+\imath2k\frac{\partial}{\partial z}-k^2\right)|\bm E(z,t)|\right]\exp[\imath(kz-\omega t)]
+$$
+
+假设光电场强度满足如下的空间慢变振幅近似条件
+$$
+\left|\frac{\partial^2\bm E(z,t)}{\partial z^2}\right|\ll\left|k\frac{\partial\bm E(z,t)}{\partial z}\right|
+$$
+
+那么略去二阶导数项，得到
+$$
+\frac{\partial\bm E(z,\omega)}{\partial t}=\frac{\imath\omega}{2\varepsilon_0cn}\bm P_{NL}(z,\omega)\exp[\imath\Delta kz]\tag{频域波}
+$$
+其中，$$\Delta\bm k=\bm k'-\bm k$$。
+
+上式即在各向同性、均匀、无损耗的非线性介质中，慢变振幅近似的单色平面光波沿$$z$$方向传播的频域波方程。
+
+用这个非线性耦合波方程可以解决多波混频的非线性光学问题。
+一般的，对于一个$$n$$阶的非线性极化效应，可以列出$$n+1$$个对应不同频率的非线性耦合波方程，联立求解即可得到这些光场间能量互相转换的规律。
+
+若介质存在吸收$$\sigma\ne0$$，同样可以得到慢变振幅近似下的频域波方程
+$$
+\frac{\partial\bm E(z,\omega)}{\partial t}+\frac{\alpha}{2}\bm E(z,\omega)=\frac{\imath\omega}{2\varepsilon_0cn}\bm P_{NL}(z,\omega)\exp[\imath\Delta kz]
+$$
+其中，$$\alpha=\mu_0\sigma_C/n$$为介质的线性吸收系数。

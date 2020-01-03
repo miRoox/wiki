@@ -1,6 +1,6 @@
 created: 20191115135132272
 creator: miRoox
-modified: 20191119132827709
+modified: 20200103083630111
 modifier: miRoox
 tags: 待完善 非线性光学
 title: 非线性介质的波动方程
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 ! 非线性介质的波动方程
 
 简单起见，考虑非磁性材料，忽略介质中的自由电荷，但保留电导率的影响（刻画介质中的衰减）。
-可以得到简化的麦克斯韦方程组
+可以得到简化的[[麦克斯韦方程组]]
 
 $$
 \begin{aligned}
