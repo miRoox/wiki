@@ -1,10 +1,12 @@
 caption: 光孤子
 created: 20191112130959997
 creator: miRoox
-modified: 20191112131018841
+modified: 20200103081724532
 modifier: miRoox
 tags: 待完善 非线性光学
 title: 光孤子
 type: text/vnd.tiddlywiki
 
 ! 光孤子
+
+一般发生在[[自聚焦|自聚焦现象]]的汇聚作用与[[衍射]]的发散作用平衡时，产生一束宽度不变的细丝。

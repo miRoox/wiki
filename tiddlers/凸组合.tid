@@ -1,7 +1,7 @@
 caption: 凸组合
 created: 20191115134245314
 creator: miRoox
-modified: 20191119121541007
+modified: 20200103133006578
 modifier: miRoox
 tags: 待完善 凸优化
 title: 凸组合
@@ -9,4 +9,4 @@ type: text/vnd.tiddlywiki
 
 ! 凸组合
 
-对$$\bm{x}^{(1)},\bm{x}^{(2)},\cdots,\bm{x}^{(m)}\in\Reals^n$$以及$$\lambda_i\in\Reals,\lambda_i>0,\sum_{i=1}^m\lambda_i=1$$，称$$\sum_{i=1}^n\lambda_i\bm{x}^{(i)}$$为$$\bm{x}^{(1)},\bm{x}^{(2)},\cdots,\bm{x}^{(m)}$$的凸组合。
+对$$\bm{x}^{(1)},\bm{x}^{(2)},\dots,\bm{x}^{(m)}\in\Reals^n$$以及$$\lambda_i\in\Reals,\lambda_i>0,\sum_{i=1}^m\lambda_i=1$$，称$$\sum_{i=1}^n\lambda_i\bm{x}^{(i)}$$为$$\bm{x}^{(1)},\bm{x}^{(2)},\dots,\bm{x}^{(m)}$$的凸组合。

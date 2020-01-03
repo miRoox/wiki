@@ -1,0 +1,25 @@
+caption: 简并因子
+created: 20200103133605135
+creator: miRoox
+modified: 20200103140214733
+modifier: miRoox
+tags: 待完善 非线性介质的极化强度与极化率
+title: 极化强度的简并因子
+type: text/vnd.tiddlywiki
+
+! 简并因子
+
+入射光场由一系列频率为$$\omega_1,\omega_2,\dots,\omega_n$$的单色平面波组成。光电场强度通常是一个复数，通常写做该复数与它的共轭$$(c.c)$$之和。
+因此，总光电场强度
+$$
+\bm E(\bm r,t)=\sum_i\bm E(\omega_i)\exp[-\imath(\omega_it-\bm k_i\cdot\bm r)]+c.c.
+$$
+
+假如存在$$m$$个相同频率，考虑到极化率的对称性和频率简并的情况，$$n$$阶极化强度应该乘以一个简并因子$$D$$
+$$
+\bm P^{(n)}(\omega)=D\varepsilon_0\bm\chi^{(n)}(\omega;\omega_1,\omega_2,\cdots,\omega_n)\mathbin{\vdots\atop\vdots}\bm E_1(\omega_1)\bm E_2(\omega_2)\cdots\bm E_n(\omega_n)
+$$
+其中
+$$
+D=A^{n-m}_{n}=\frac{n!}{m!}
+$$

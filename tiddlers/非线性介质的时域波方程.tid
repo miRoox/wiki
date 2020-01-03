@@ -1,0 +1,52 @@
+created: 20200103084134181
+creator: miRoox
+modified: 20200103121623494
+modifier: miRoox
+tags: 待完善 非线性介质的波动方程
+title: 非线性介质的时域波方程
+type: text/vnd.tiddlywiki
+
+!! 非线性介质的时域波方程
+
+!!! 各向异性非线性介质的时域波方程
+
+$$
+\nabla\times\nabla\times\bm E+\mu_0\sigma\frac{\partial\bm E}{\partial t}+\mu_0\frac{\partial^2(\varepsilon\cdot\bm E)}{\partial t^2}=-\mu_0\frac{\partial^2\bm P_{NL}}{\partial t^2}
+$$
+
+!!! 各向同性非线性介质的时域波方程
+
+忽略吸收$$\sigma=0$$，并根据$$n=\sqrt{\varepsilon/\varepsilon_0},c^2=1/(\mu_0\varepsilon)$$，可得
+$$
+-\nabla^2\bm E+\frac{n^2}{c^2}\frac{\partial^2\bm E}{\partial t^2}=\frac{1}{\varepsilon_0c^2}\frac{\partial^2\bm P_{NL}}{\partial t^2}
+$$
+
+简单起见，假设一个单色平面波光场沿$$z$$方向传播，并将振幅和相位因子分开
+$$
+\begin{aligned}
+\bm E&=\bm E(z,t)\exp[\imath(kz-\omega t)]\\
+\bm P_{NL}&=\bm P_{NL}(z,t)\exp[\imath(k'z-\omega t)]
+\end{aligned}
+$$
+则有
+$$
+\begin{aligned}
+\nabla^2\bm E&=\left[\left(\frac{\partial^2}{\partial z^2}+\imath2k\frac{\partial}{\partial z}-k^2\right)|\bm E(z,t)|\right]\exp[\imath(kz-\omega t)]\\
+\frac{\partial^2}{\partial t^2}\bm E&=\left[\left(\frac{\partial^2}{\partial t^2}-\imath2\omega\frac{\partial}{\partial t}-\omega^2\right)|\bm E(z,t)|\right]\exp[\imath(kz-\omega t)]\\
+\frac{\partial^2}{\partial t^2}\bm P_{NL}&\approx-\omega^2|\bm P_{NL}(z,t)|\exp[\imath(k'z-\omega t)]
+\end{aligned}
+$$
+
+假设光电场强度在波长量级的空间距离和光频率量级的时间范围内的变化幅度充分小，满足如下的慢变振幅近似条件
+$$
+\begin{aligned}
+\left|\frac{\partial^2\bm E(z,t)}{\partial z^2}\right|&\ll\left|k\frac{\partial\bm E(z,t)}{\partial z}\right|\\
+\left|\frac{\partial^2\bm E(z,t)}{\partial t^2}\right|&\ll\left|\omega\frac{\partial\bm E(z,t)}{\partial t}\right|
+\end{aligned}
+$$
+
+那么略去二阶导数项，并由$$k=\omega n/c,v=c/n$$得到
+$$
+\frac{\partial\bm E(z,t)}{\partial z}+\frac{1}{v}\frac{\partial\bm E(z,t)}{\partial t}=\frac{\imath\omega}{2\varepsilon_0cn}\bm P_{NL}(z,t)\exp[\imath\Delta kz]\tag{时域波}
+$$
+其中，$$\Delta\bm k=\bm k'-\bm k$$。
