@@ -1,0 +1,22 @@
+created: 20200103063802987
+creator: miRoox
+modified: 20200103071618257
+modifier: miRoox
+tags: 待完善 光学双稳器件
+title: 吸收型法布里－珀罗标准具光学双稳器件
+type: text/vnd.tiddlywiki
+
+! 吸收型F-P标准具光学双稳器件
+
+由充满[[饱和吸收|饱和光吸收]]介质的[[F-P标准具|Fabry-Pérot标准具]]构成。
+
+$$
+\frac{I_I}{TI_c}=\frac{I_T}{TI_c}\left(1+\frac{k_0}{1+I_T/(TI_c)}\right)^2
+$$
+
+即入射光强$$I_I$$是输出光强$$I_T$$的三次函数，可能存在拐点和负斜率，因此具有[[光学双稳性]]。
+
+这一阈值条件为
+$$
+k_0\equiv\frac{R\alpha_0L}{1-R}>8
+$$

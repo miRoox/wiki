@@ -1,0 +1,13 @@
+created: 20200103072750786
+creator: miRoox
+modified: 20200103073339432
+modifier: miRoox
+tags: 待完善 光学双稳性的不稳定性
+title: McCall不稳定性
+type: text/vnd.tiddlywiki
+
+!! McCall不稳定性——双反馈不稳定性
+
+复现脉动
+
+两个反馈器件提供正负不同的反馈，由于它们的时间常数不同，导致在一个时刻只有一种反馈起主导作用，周期交替，造成输出光强时起时伏的复现脉动现象。

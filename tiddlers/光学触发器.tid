@@ -1,0 +1,11 @@
+created: 20200103072322700
+creator: miRoox
+modified: 20200103072605083
+modifier: miRoox
+tags: 待完善 光学双稳性
+title: 光学触发器
+type: text/vnd.tiddlywiki
+
+! 光学触发器
+
+利用[[光学双稳器件]]的滞回性质，实现状态的保持。
