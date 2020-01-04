@@ -1,0 +1,14 @@
+created: 20200104140721969
+creator: miRoox
+modified: 20200104140753044
+modifier: miRoox
+tags: 凸函数
+title: 凸函数的一阶特征
+type: text/vnd.tiddlywiki
+
+!! 凸函数的一阶特征
+
+若$$S\subset\Reals^n$$非[[空|空集]]、[[开|开集]]、[[凸|凸集]]，且$$f:S\to\Reals$$一阶连续可导，则：
+
+$$f$$在$$S$$上为凸函数 $$\iff$$ 
+$$\forall \bm{x},\bm{y}\in S, f(\bm{y})\ge f(\bm{x})+\nabla f(\bm{x}) (\bm{y}-\bm{x})$$
