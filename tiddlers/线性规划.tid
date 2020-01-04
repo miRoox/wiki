@@ -1,7 +1,7 @@
 caption: 线性规划
 created: 20191120113744989
 creator: miRoox
-modified: 20191207111647736
+modified: 20200104131305361
 modifier: miRoox
 tags: 计算数学 待完善 运筹学
 title: 线性规划
@@ -22,7 +22,7 @@ $$
 
 $$
 \begin{aligned}
-\max/\min{} & z=\sum_{j=1}^nc_jx_j\\
+\max{} & z=\sum_{j=1}^nc_jx_j\\
 \text{s.t.} &{}\begin{cases}
 \sum_{j=1}^na_{i,j}x_j = b_i &i=1,2,\cdots,m,b_i\ge0\\
 x_j\ge0 &j=1,2,\cdots,n

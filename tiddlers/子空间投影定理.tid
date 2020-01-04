@@ -1,0 +1,18 @@
+created: 20200104131642712
+creator: miRoox
+modified: 20200104135722613
+modifier: miRoox
+tags: 待完善 线性子空间
+title: 子空间投影定理
+type: text/vnd.tiddlywiki
+
+! 子空间投影定理
+
+设$$L$$为$$\R^n$$的[[子空间|线性子空间]]，那么$$\forall \bm z\in\R^n,\exists\text{唯一}\bm x\in L,\bm y\in L^{\perp},$$使$$\bm z=\bm x+\bm y$$，且$$\bm x$$为问题
+$$
+\left\{\begin{gathered}
+\min \|\bm z-\bm u\|\\
+\text{s.t.}\quad \bm u\in L
+\end{gathered}\right.
+$$
+的唯一解，而问题的最优值为$$\|\bm y\|$$.

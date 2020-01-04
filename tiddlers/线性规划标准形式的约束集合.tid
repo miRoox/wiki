@@ -1,0 +1,13 @@
+created: 20200104141042026
+creator: miRoox
+modified: 20200104141229940
+modifier: miRoox
+tags: 多面体（凸优化） 凸集 线性规划
+title: 线性规划标准形式的约束集合
+type: text/vnd.tiddlywiki
+
+! 线性规划标准形式的约束集合
+
+$$
+S=\{\bm x:\mathbf A\bm x=\bm b,\bm x\ge\bm0\}
+$$

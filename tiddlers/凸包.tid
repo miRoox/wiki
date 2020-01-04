@@ -1,0 +1,11 @@
+created: 20200104140006434
+creator: miRoox
+modified: 20200104140424940
+modifier: miRoox
+tags: 凸分析 待完善 凸优化
+title: 凸包
+type: text/vnd.tiddlywiki
+
+! 凸包
+
+由$$S\in\R^n$$的所有有限点的[[凸组合]]构成的集合为$$S$$的凸包，记为$$\operatorname{cov}(S)$$。
