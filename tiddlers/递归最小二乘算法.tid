@@ -1,0 +1,91 @@
+created: 20200104002146667
+creator: miRoox
+modified: 20200104022714494
+modifier: miRoox
+tags: 待完善 自适应滤波器
+title: 递归最小二乘算法
+type: text/vnd.tiddlywiki
+
+! RLS算法
+
+不同于[[最小均方算法]]，考虑一段时间内误差能量构成目标函数$$\varepsilon_M=\sum_{n=l_1}^{l_2}e^2(n)$$
+
+仍然用长度为$$M$$的滤波器，$$\bm X(l)=[x(l),x(l-1),\dots,x(l-M+1)]$$为$$l$$时刻自适应滤波器的数据向量（假设$$\forall n<0,x(n)=0$$），那么第$$n$$次迭代的$$l$$时刻的误差
+$$
+e^{(n)}(l)=d(l)-y^{(n)}(l)=d(l)-\langle\bm h^{(n)},\bm X(l)\rangle
+$$
+
+考虑加权的平方误差
+$$
+\varepsilon_M=\sum_{l=0}^n\rho^{n-l}\left|e^{(n)}(l)\right|^2
+$$
+其中，$$\rho$$为加权系数，$$0<\rho<1$$，刻画误差目标的边际递减效应。
+
+要使$$\varepsilon_M$$最小，即$$\frac{\partial\varepsilon_M}{\partial\bm h^{(n)}}=0$$，可得
+$$
+\sum_{l=0}^n\rho^{n-l}\bm X(l) d(l)=\bm h^{(n)}\sum_{l=0}^n\rho^{n-l}\bm X(l)\bm X^\mathsf{T}(l)
+$$
+
+令
+$$
+\begin{aligned}
+\mathbf R^{(n)}&=\sum_{l=0}^n\rho^{n-l}\bm X(l)\bm X^\mathsf{T}(l)&{加权自相关矩阵}\\
+\bm D^{(n)}&=\sum_{l=0}^n\rho^{n-l}\bm X(l) d(l)&{加权互相关向量}
+\end{aligned}
+$$
+即
+$$
+\mathbf R^{(n)}\bm h^{(n)}=\bm D^{(n)}
+$$
+
+为了避免直接求逆，考虑递归表示
+$$
+\begin{aligned}
+\mathbf R^{(n)}&=\rho\mathbf R^{(n-1)}+\bm X(n)\bm X^{\mathsf{T}}(n)\\
+\bm D^{(n)}&=\rho\bm D^{(n-1)}+\bm X(n)d(n)
+\end{aligned}
+$$
+利用矩阵逆的一个引理，可以得到
+$$
+(\mathbf R^{(n)})^{-1}=\frac{1}{\rho}\left[(\mathbf R^{(n-1)})^{-1}-\frac{(\mathbf R^{(n)})^{-1}\bm X(n)\bm X^{\mathsf{T}}(n)(\mathbf R^{(n)})^{-1}}{\rho+\bm X^{\mathsf{T}}(n)(\mathbf R^{(n)})^{-1}\bm X(n)} \right]
+$$
+即$$(\mathbf R^{(n)})^{-1}$$可由之前的低阶矩阵递推得到。
+
+定义Kalman增益向量
+$$
+\bm K^{(n)}=\frac{(\mathbf R^{(n)})^{-1}\bm X(n)}{\rho+\bm X^{\mathsf{T}}(n)(\mathbf R^{(n)})^{-1}\bm X(n)}
+$$
+那么
+$$
+(\mathbf R^{(n)})^{-1}=\frac{1}{\rho}\left[(\mathbf R^{(n-1)})^{-1}-\bm K^{(n)}\bm X^{\mathsf{T}}(n)(\mathbf R^{(n)})^{-1} \right]
+$$
+又可以推出
+$$
+\bm K^{(n)}=(\mathbf R^{(n)})^{-1}\bm X(n)
+$$
+
+可以求解$$\bm h^{(n)}$$:
+$$
+\begin{aligned}
+\bm h^{(n)}
+&=(\mathbf R^{(n)})^{-1}\bm D^{(n)}\\
+&=(\mathbf R^{(n)})^{-1}\left[\rho\bm D^{(n-1)}+\bm X(n)d(n)\right]\\
+&=\left[(\mathbf R^{(n-1)})^{-1}-\bm K^{(n)}\bm X^{\mathsf{T}}(n)(\mathbf R^{(n)})^{-1} \right]\bm D^{(n-1)}+(\mathbf R^{(n)})^{-1}\bm X(n)d(n)\\
+&=\bm h^{(n-1)}-\bm K^{(n)}\bm X^{\mathsf{T}}(n)\bm h^{(n-1)}+\bm K^{(n)}d(n)\\
+&=\bm h^{(n-1)}+\bm K^{(n)}e^{(n)}(n-1)
+\end{aligned}
+$$
+
+!! 递推步骤
+
+# 输入信号$$x(n),d(n)$$，初始值$$(\mathbf R^{(n-1)})^{-1}=\delta^{-1}\mathbf I_M$$，其中$$\delta$$为小正数
+# 计算$$\bm K^{(n)}$$（按定义式）
+# 计算误差$$e^{(n)}(n-1)=d(n-1)-\langle\bm h^{(n)},\bm X(n-1)\rangle$$
+# 系数更新$$\bm h^{(n)}=\bm h^{(n-1)}+\bm K^{(n)}e^{(n)}(n-1)$$
+# 更新自相关矩阵$$(\mathbf R^{(n)})^{-1}$$，回到2
+
+!! 性能
+
+# 总是收敛，收敛速度快于[[LMS算法|最小均方算法]]，不存在超量
+# 对舍入误差敏感，其来源主要在于$$(\mathbf R^{(n)})^{-1}$$递推
+# 计算量为$$O(M^2)$$（使用[[格型结构|有限脉冲响应系统的格型结构]]可以改进为$$O(M)$$级）
