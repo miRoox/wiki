@@ -1,6 +1,6 @@
 created: 20200102111355364
 creator: miRoox
-modified: 20200102120130489
+modified: 20200104023225518
 modifier: miRoox
 tags: 待完善 自适应滤波器
 title: 最小均方算法
@@ -10,21 +10,23 @@ type: text/vnd.tiddlywiki
 
 !! 基本思想
 
-根据[[最速下降法]]，求均方误差的最小化，迭代
+根据[[最速下降法]]，求均方误差$$E[e^2(n)]$$最小化，迭代
 $$
 \begin{aligned}
-\bm h^{(n+1)}&=\bm h^{(n)}-\frac{1}{2}\nabla_{\bm h^{(n)}}E[(e^{(n)})^2]\mu(n)\\
+\bm h^{(n+1)}&=\bm h^{(n)}-\frac{1}{2}\nabla_{\bm h^{(n)}}E[e^2(n)]\mu(n)\\
 &=[\mathbf I-\mu^{(n)}\mathbf R_x]\bm h^{(n)}+\mu^{(n)}\bm r_{dx}
 \end{aligned}
 $$
 
 !! LMS算法
 
-考虑到实际计算均方误差无法实现，因此用瞬时平方误差$$(e^{(n)})^2$$代替均方误差$$E[(e^{(n)})^2(m)]$$用来估计下降方向。
+考虑到实际计算均方误差无法实现，因此用瞬时平方误差$$(e^{(n)})^2$$代替均方误差$$E[e^2(n)]$$用来估计下降方向。
+
+注意：在这里$$n$$既是迭代序号，也是时间序号，即$$e^{(n)}=e(n)$$
 
 由误差序列
 $$
-e^{(n)}=d^{(n)}-\sum_{k=0}^{M-1}h^{(n)}
+e^{(n)}=d^{(n)}-\sum_{k=0}^{M-1}h^{(n)}(k)x(n-k)=d^{(n)}-\langle\bm h^{(n)},\bm X(n)\rangle
 $$
 
 !! 性能
