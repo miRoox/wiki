@@ -1,0 +1,11 @@
+created: 20200104071834644
+creator: miRoox
+modified: 20200104071954926
+modifier: miRoox
+tags: 信号
+title: 连续信号
+type: text/vnd.tiddlywiki
+
+! 连续信号
+
+所讨论的时间间隔内，除若干不连续点外，对于任意时间值都可以给出确定函数值。

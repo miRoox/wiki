@@ -1,7 +1,7 @@
 caption: 白噪声
 created: 20191206132348341
 creator: miRoox
-modified: 20191219114948281
+modified: 20200104085206242
 modifier: miRoox
 tags: 待完善 随机信号
 title: 白噪声信号
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 ! 白噪声
 
 其[[功率谱密度]]在整个频带范围内恒定。
+
+均值为0，方差为$$\sigma^2$$，自相关$$r_x(m)=\sigma^2\delta(m)$$

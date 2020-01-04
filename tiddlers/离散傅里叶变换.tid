@@ -1,7 +1,7 @@
 caption: 离散傅里叶变换
 created: 20191014132558541
 creator: miRoox
-modified: 20191122090216460
+modified: 20200104075433546
 modifier: miRoox
 tags: 正交变换 傅里叶变换 待完善
 title: 离散傅里叶变换
@@ -20,5 +20,5 @@ $$
 
 $$
 \newcommand{\euler}{\mathrm{e}}
-X(k)=\operatorname{DFT}[x(n)]=\sum_{n=0}^{N-1}x(n)\euler^{\jmath\frac{2\pi}{N}k},\quad k=0,1,\cdots,N-1
+X(k)=\operatorname{DFT}[x(n)]=\sum_{n=0}^{N-1}x(n)\euler^{\jmath\frac{2\pi}{N}k},\quad k=0,1,\dots,N-1
 $$

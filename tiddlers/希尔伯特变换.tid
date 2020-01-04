@@ -1,10 +1,14 @@
 caption: 希尔伯特变换
 created: 20191015090012708
 creator: miRoox
-modified: 20191122085045597
+modified: 20200104083848561
 modifier: miRoox
 tags: 待完善 变换
 title: 希尔伯特变换
 type: text/vnd.tiddlywiki
 
 ! 希尔伯特变换
+
+$$
+\mathscr{H}[f(t)]=\operatorname{P.V.}\int_{-\infty}^{\infty}\frac{f(\tau)}{t-\tau}\mathrm{d}\tau
+$$

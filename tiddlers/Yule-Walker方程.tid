@@ -1,6 +1,6 @@
 created: 20191224103857730
 creator: miRoox
-modified: 20191224111614775
+modified: 20200104075738675
 modifier: miRoox
 tags: 待完善 自回归模型
 title: Yule-Walker方程
@@ -42,7 +42,7 @@ $$
 [[AR模型|自回归模型]]参数（Yule-Walker方程）$$\iff$$最佳前向[[线性预测器]]（[[Wiener-Hopf方程]]），亦即：
 $$
 \begin{aligned}
-a_k&=\alpha_k&k=1,2,\cdots,p\\
+a_k&=\alpha_k&k=1,2,\dots,p\\
 \rho_{\rm{min}}&=\sigma^2
 \end{aligned}
 $$

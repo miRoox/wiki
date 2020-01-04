@@ -1,7 +1,7 @@
 caption: 维纳滤波器
 created: 20191228020420478
 creator: miRoox
-modified: 20200102103611966
+modified: 20200104075724278
 modifier: miRoox
 tags: 待完善 现代滤波器
 title: Wiener滤波器
@@ -37,7 +37,7 @@ $$
 
 要获得$$\min\varepsilon$$，则需要$$\frac{\partial\varepsilon}{\partial h(k)}=0$$，可得[[Wiener-Hopf方程]]
 $$
-\sum_{m=0}^{\infty}h_{\rm opt}(m)r_x(m-k)=r_{dx}(k),\quad k=0,1,\cdots
+\sum_{m=0}^{\infty}h_{\rm opt}(m)r_x(m-k)=r_{dx}(k),\quad k=0,1,\dots
 $$
 
 带入可得

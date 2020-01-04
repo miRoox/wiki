@@ -1,10 +1,22 @@
 caption: 线性系统
 created: 20191018023322027
 creator: miRoox
-modified: 20191018023340937
+modified: 20200104072935492
 modifier: miRoox
 tags: 待完善 系统
 title: 线性系统
 type: text/vnd.tiddlywiki
 
 ! 线性系统
+
+若
+$$
+\begin{aligned}
+y_1(t)&=T[x_1(t)]\\
+y_2(t)&=T[x_2(t)]
+\end{aligned}
+$$
+则
+$$
+T[ax_1(t)+bx_2(t)]=ay_1(t)+by_2(t)
+$$

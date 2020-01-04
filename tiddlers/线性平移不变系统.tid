@@ -1,10 +1,14 @@
 caption: 线性平移不变系统
 created: 20191018023503868
 creator: miRoox
-modified: 20191018023534824
+modified: 20200104084547434
 modifier: miRoox
 tags: 待完善 系统
 title: 线性平移不变系统
 type: text/vnd.tiddlywiki
 
 ! 线性平移不变系统
+
+既是[[线性系统]]，又是[[平移不变系统]]
+
+线性平移不变系统可以通过信号与[[单位脉冲响应]]的卷积描述。
