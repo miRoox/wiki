@@ -1,7 +1,7 @@
 caption: Burg法
 created: 20191224120914291
 creator: miRoox
-modified: 20191226122815277
+modified: 20200104075600634
 modifier: miRoox
 tags: 自回归模型功率谱估计 待完善
 title: Burg法自回归模型功率谱估计
@@ -34,9 +34,9 @@ $$
 !! 算法
 
 * $$\rho_0=r_x(0)=\frac{1}{N}\sum_{n=0}^{N-1}|x(n)|^2$$
-* ''for'' $$m=1,2,\cdots,p$$
+* ''for'' $$m=1,2,\dots,p$$
 ** $$a_m(m)=k_m=\frac{-2\sum_{n=m}^{N-1}e^f_{m-1}(n)e^b_{m-1}(n-1)}{\sum_{n=m}^{N-1}|e^f_{m-1}(n)|^2+\sum_{n=m}^{N-1}|e^b_{m-1}(n)|^2}$$
-** ''for'' $$k=1,2,\cdots,m-1$$
+** ''for'' $$k=1,2,\dots,m-1$$
 *** $$a_m(k)=a_{m-1}(k)+k_ma_{m-1}(m-k)$$
 ** $$\rho_m=(1-k_m^2)/\rho_{m-1}$$
 

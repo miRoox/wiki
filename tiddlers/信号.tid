@@ -1,0 +1,24 @@
+created: 20200104071257905
+creator: miRoox
+modified: 20200104071731057
+modifier: miRoox
+tags: 信号-系统-控制
+title: 信号
+type: text/vnd.tiddlywiki
+
+! 信号
+
+消息的运载工具和表现形式。
+
+!! 分类
+
+随机和确定
+
+* [[确定信号]]
+* [[随机信号]]
+
+离散和连续
+
+* [[离散信号]]
+* [[连续信号]]
+* [[数字信号]]

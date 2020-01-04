@@ -1,7 +1,7 @@
 caption: 线性最小均方误差估计
 created: 20191207111447782
 creator: miRoox
-modified: 20191224104908772
+modified: 20200104115536697
 modifier: miRoox
 tags: 随机信号的参数估计
 title: 线性最小均方误差估计
@@ -9,6 +9,54 @@ type: text/vnd.tiddlywiki
 
 ! 线性最小均方误差估计
 
+!! 信号估计
+
+考虑随机信号可以用之前信号值的线性组合进行估计（[[线性预测器]]）
 $$
-\operatorname{MSE}[\hat\theta]=E[|\theta-\hat\theta|^2]
+\hat x(n)=-\sum_{k=1}^m\alpha_kx(n-k)
+$$
+而误差序列$$e(n)=x(n)-\hat x(n),\operatorname{MSE}[\hat x(n)]=E[e^2(n)]$$
+
+要最小化MSE，即$$
+\frac{\partial\operatorname{MSE}[\hat x(n)]}{\partial\alpha_k}=0
+$$
+而
+$$
+\begin{aligned}
+\frac{\partial\operatorname{MSE}[\hat x(n)]}{\partial\alpha_k}
+&=\frac{\partial E[e^2(n)]}{\partial\alpha_k}\\
+&=E\left[\frac{\partial e^2(n)}{\partial\alpha_k}\right]\\
+&=2E\left[e(n)\frac{\partial e(n)}{\partial\alpha_k}\right]\\
+&=2E[e(n)x(n-k)]
+\end{aligned}
+$$
+
+即$$E[e(n)x(n-k)]=r_{ex}(k)=0$$，$$e(n)$$与$$x(n-k)$$正交。
+
+!! 参数估计
+
+给定随机信号$$x(n)$$的$$N$$个值$$x(0),x(1),\dots,x(N-1)$$，用这$$N$$个值来估计$$x(n)$$的一个参数$$\theta$$，并且$$\hat\theta$$可以通过下述线性方程进行估计
+$$
+\hat\theta=-\sum_{n=0}^{N-1}\beta_nx(n)=-\bm\beta^{\mathsf{H}}\bm X
+$$
+
+$$
+\begin{aligned}
+\operatorname{MSE}[\hat\theta]&=E[|\theta-\hat\theta|^2]\\
+&=E[(\theta+\bm\beta^{\mathsf{H}}\bm X)(\theta+\bm\beta^{\mathsf{H}}\bm X)^{\mathsf{H}}]\\
+&=\sigma_{\theta}^2+\bm r_{\theta x}^{\mathsf{H}}\bm\beta+\bm\beta^{\mathsf{H}}\bm r_{\theta x}+\bm\beta^{\mathsf{H}}\mathbf{C}_{x}\bm\beta
+\end{aligned}
+$$
+
+令$$\frac{\partial\operatorname{MSE}[\hat\theta]}{\partial\bm\beta}=0$$，可得
+$$
+\begin{aligned}
+\hat{\bm\beta}&=\mathbf{C}_x^{-1}\bm r_{\theta x}\\
+\operatorname{MSE}[\hat\theta]_{\rm min}&=\sigma_\theta^2+\bm r_{\theta x}^{\mathsf{H}}\hat{\bm\beta}
+\end{aligned}
+$$
+
+这里同样有最小均方误差的正交原理
+$$
+E[\bm X(\theta-\hat\theta)]=0
 $$

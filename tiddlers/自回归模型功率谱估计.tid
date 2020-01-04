@@ -1,7 +1,8 @@
 caption: AR模型谱估计
 created: 20191224115145651
 creator: miRoox
-modified: 20191226122906868
+list: 自相关法自回归模型功率谱估计 Burg法自回归模型功率谱估计
+modified: 20200104121525095
 modifier: miRoox
 tags: 待完善 参数模型功率谱估计
 title: 自回归模型功率谱估计
@@ -18,7 +19,9 @@ type: text/vnd.tiddlywiki
 # 平滑特性（有理函数）
 # 分辨率高于[[经典功率谱估计]]
 # 匹配性质（跟随谱峰）：<div>
-\frac{1}{2\pi}\
+$$
+\frac{1}{2\pi}\int_{-\pi}^\pi\frac{P_x(\mathrm{e}^{\jmath\omega})}{P_{AR}(\mathrm{e}^{\jmath\omega})}\mathrm{d}\omega=1
+$$
 </div>
 # 统计特性：数据量增加→信噪比减小
 # 稳定性：<div>

@@ -1,7 +1,7 @@
 caption: 功率谱密度
 created: 20191130065739680
 creator: miRoox
-modified: 20191130065856743
+modified: 20200104090738171
 modifier: miRoox
 tags: 待完善 信号-系统-控制
 title: 功率谱密度
@@ -11,3 +11,16 @@ type: text/vnd.tiddlywiki
 
 时间平均+集总平均
 
+$$
+P_x(\mathrm{e}^{\jmath\omega})=\lim_{M\to\infty}E_i\left[\frac{1}{2M+1}\left|\sum_{n=-M}^Mx(n,i)\mathrm{e}^{-\jmath\omega n}\right|^2\right]
+$$
+
+等价的，由维纳-辛钦定理可以得到
+$$
+P_x(\mathrm{e}^{\jmath\omega})=\sum_{m=-\infty}^\infty r_x(m)\mathrm{e}^{-\jmath\omega n}
+$$
+
+!! 性质
+
+# $$P_x(\mathrm{e}^{\jmath\omega})$$为正的实函数，因此丢失了相位信息
+# 若$$x(n)$$为实函数，那么$$P_x(\mathrm{e}^{\jmath\omega})$$为偶函数

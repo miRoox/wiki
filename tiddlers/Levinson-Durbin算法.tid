@@ -1,6 +1,6 @@
 created: 20191224110506999
 creator: miRoox
-modified: 20191226113806392
+modified: 20200104075637719
 modifier: miRoox
 tags: Wiener-Hopf方程 待完善
 title: Levinson-Durbin算法
@@ -18,9 +18,9 @@ type: text/vnd.tiddlywiki
 算法：
 
 * 初始条件：$$r_x(0)=\rho_0$$
-* ''for'' $$m=1,2,\cdots,p$$
+* ''for'' $$m=1,2,\dots,p$$
 ** $$k_m=\alpha_m(m)=\left.-\left[\sum_{k=1}^{m-1}\alpha_{m-1}(k)r_x(m-k)+r_x(m)\right]\middle/\rho_{m-1}\right.$$
-** ''for'' $$k=1,2,\cdots,m-1$$
+** ''for'' $$k=1,2,\dots,m-1$$
 *** $$\alpha_m(k)=\alpha_{m-1}(k)+k_m\alpha_{m-1}(m-k)$$
 ** $$\rho_m=(1-k_m^2)\rho_{m-1}$$
 
