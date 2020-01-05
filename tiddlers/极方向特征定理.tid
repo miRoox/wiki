@@ -1,10 +1,23 @@
 caption: 极方向特征定理
 created: 20191120132326198
 creator: miRoox
-modified: 20191120132401374
+modified: 20200105073012705
 modifier: miRoox
 tags: 线性规划 待完善 凸优化
 title: 极方向特征定理
 type: text/vnd.tiddlywiki
 
 ! [[极方向]]特征定理
+
+考虑[[线性规划标准形式的约束集合]]$$S$$，$$\operatorname{rank}(\mathbf{A}_{m\times n})=m,\bm b\in\R^m$$：
+
+# $$\bm d\in\R^n,\bm d\ne0$$是$$S$$的[[方向|方向（凸集）]]$$\iff$$ $$\mathbf A\bm d=\bm0,\bm d\ge\bm0$$
+# $$\bm d\in\R^n,\bm d\ne0$$是$$S$$的[[极方向]]$$\iff$$ 存在经过列向量交换后的分解$$\mathbf{A}=\begin{pmatrix}\mathbf B&\mathbf N\end{pmatrix}$$，其中$$\mathbf B$$为$$m\times m$$非奇异矩阵，对$$\mathbf N$$中的某一列$$\bm a_j$$,$$\mathbf B^{-1}\bm a_j\le\bm0$$，存在$$\alpha\ge0$$，使分量进行响应交换后
+$$
+\bm d=\alpha\begin{pmatrix}-\mathbf B^{-1}\bm a_j\\\bm e_j\end{pmatrix}
+$$
+其中$$\bm e_j$$为一个$$n-m$$维的单位向量，对整个$$\bm d$$来说，其第$$j$$个分量是1，其余分量是0。
+
+!! 推论
+
+# 多面体$$S$$至多只有有限个极方向

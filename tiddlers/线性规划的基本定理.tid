@@ -1,0 +1,11 @@
+created: 20200105084104380
+creator: miRoox
+modified: 20200105084223237
+modifier: miRoox
+tags: 线性规划
+title: 线性规划的基本定理
+type: text/vnd.tiddlywiki
+
+! 线性规划的基本定理
+
+线性规划的[[基本可行解|线性规划的基本可行解]]就是可行域的[[极点|极点（凸集）]]
