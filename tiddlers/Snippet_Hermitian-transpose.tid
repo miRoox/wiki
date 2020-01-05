@@ -1,0 +1,10 @@
+caption: 厄米转置
+created: 20200105025515028
+creator: miRoox
+modified: 20200105025611519
+modifier: miRoox
+tags: $:/tags/KaTeX/Snippet
+title: Snippet:Hermitian-transpose
+type: text/vnd.tiddlywiki
+
+^{\mathsf{H}}
