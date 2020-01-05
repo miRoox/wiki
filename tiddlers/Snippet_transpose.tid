@@ -1,0 +1,10 @@
+caption: 转置
+created: 20200105025218839
+creator: miRoox
+modified: 20200105025449799
+modifier: miRoox
+tags: $:/tags/KaTeX/Snippet
+title: Snippet:transpose
+type: text/vnd.tiddlywiki
+
+^{\mathsf{T}}
