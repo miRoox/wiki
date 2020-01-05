@@ -1,0 +1,18 @@
+caption: 可行解与基本可行解
+created: 20200105083000992
+creator: miRoox
+modified: 20200105084301007
+modifier: miRoox
+tags: 待完善 线性规划
+title: 线性规划的基本可行解
+type: text/vnd.tiddlywiki
+
+!! 可行解与基本可行解
+
+对线性规划问题，若$$\mathbf B$$为一个[[基|线性规划的基]]，令所有非基变量为0，可以得到
+$$
+\bm x=\begin{pmatrix}\bm x_B\\ \bm x_N\end{pmatrix}
+=\begin{pmatrix}\mathbf B^{-1}\bm b\\ \bm0\end{pmatrix}
+$$
+
+这个解称为一个''基本解''；若得到的基变量值均非负（$$\bm x_B\ge\bm0$$），则称为''基本可行解''，同时称$$\mathbf B$$为''可行基''。

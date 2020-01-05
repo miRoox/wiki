@@ -1,0 +1,16 @@
+created: 20200105080206848
+creator: miRoox
+modified: 20200105084821517
+modifier: miRoox
+tags: 待完善 线性规划
+title: 线性规划解的存在性
+type: text/vnd.tiddlywiki
+
+! 解的存在性定理
+
+问题(LP)，设$$\operatorname{rank}(\mathbf A)=m$$，[[多面体|多面体（凸集）]]$$S$$非空。设$$\bm x^{(1)},\dots,\bm x^{(k)}$$为$$S$$的[[极点|极点（凸集）]]，$$\bm d^{(1)},\dots,\bm d^{(l)}$$为$$S$$的[[极方向]]。那么：
+
+# 问题(LP)存在最优解的充要条件为$$
+\bm c^{\mathsf{T}}\bm d^{(j)}\le0,j=1,\dots,l
+$$
+# 如果问题(LP)存在最优解，则存在极点为最优解

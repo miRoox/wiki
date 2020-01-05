@@ -1,7 +1,7 @@
 caption: 极点特征定理
 created: 20191120132217597
 creator: miRoox
-modified: 20200105031503386
+modified: 20200105090054386
 modifier: miRoox
 tags: 线性规划 待完善 凸优化
 title: 极点特征定理
@@ -9,11 +9,12 @@ type: text/vnd.tiddlywiki
 
 ! [[极点|极点（凸集）]]特征定理
 
-考虑[[线性规划标准形式的约束集合]]$$S$$，$$\operatorname{rank}(\mathbf{A}_{m\times n})=m,\bm b\in\R^m$$：点$$\bm x\in S$$是极点$$\iff$$经列交换存在$$\mathbf{A}$$的分解$$\mathbf{A}=\begin{pmatrix}\mathbf B&\mathbf N\end{pmatrix}$$，其中$$\mathbf B$$为$$m\times m$$非奇异矩阵，相应有分量变换后的分解$$\bm x=\begin{pmatrix}\bm x_B\\\bm x_N\end{pmatrix}$$，且$$\bm x_N=\bm0,\bm x_B=\mathbf{B}^{-1}\bm b\ge\bm0$$
+考虑[[线性规划标准形式的约束集合]]$$S$$，$$\operatorname{rank}(\mathbf{A}_{m\times n})=m,\bm b\in\R^m$$：
+点$$\bm x\in S$$是极点$$\iff$$经列交换存在$$\mathbf{A}$$的分解$$\mathbf{A}=\begin{pmatrix}\mathbf B&\mathbf N\end{pmatrix}$$，其中$$\mathbf B$$为$$m\times m$$非奇异矩阵，相应有分量变换后的分解$$\bm x=\begin{pmatrix}\bm x_B\\\bm x_N\end{pmatrix}$$，且$$\bm x_N=\bm0,\bm x_B=\mathbf{B}^{-1}\bm b\ge\bm0$$
 
 !! 证明
 
-''充分性''$$\Leftarrow$$：
+!!! ''充分性''$$\Leftarrow$$
 
 显然$$\bm x\in S$$，假设$$\exists \bm x^{(1)},\bm x^{(2)}\in S,\lambda\in(0,1),\bm x=\lambda\bm x^{(1)}+(1-\lambda)\bm x^{(2)}$$
 
@@ -28,13 +29,21 @@ $$
 
 由于$$\bm x_N^{(1)},\bm x_N^{(2)}\ge\bm0$$，故只能$$\bm x_N^{(1)}=\bm x_N^{(2)}=\bm0$$。又由$$\mathbf A\bm x^{(1)}=\mathbf B\bm x_B^{(1)}+\mathbf N\bm x_N^{(2)}=\bm b$$得$$\bm x^{(1)}=\mathbf B^{-1}\bm b$$同理$$\bm x^{(2)}=\mathbf B^{-1}\bm b$$。故必有$$\bm x=\bm x^{(1)}=\bm x^{(2)}$$，因此$$\bm x$$为[[极点|极点（凸集）]]。
 
-''必要性''$$\Rightarrow$$：
+!!! ''必要性''$$\Rightarrow$$
 
-$$\bm x$$是极点，不失一般性，设$$\bm x=(x_1,x_2,\dots,x_k,0,\dots,0),x_i\ge0(i=1,2,\dots,k)$$，设$$\mathbf A=(\bm a_1,\bm a_2,\dots,\bm a_n)$$，$$\bm a_i\in\R^m$$为$$\mathbf A$$的列向量
+$$\bm x$$是[[极点|极点（凸集）]]，不失一般性，设$$\bm x=(x_1,x_2,\dots,x_k,0,\dots,0),x_i\ge0(i=1,2,\dots,k)$$，设$$\mathbf A=(\bm a_1,\bm a_2,\dots,\bm a_n)$$，$$\bm a_i\in\R^m$$为$$\mathbf A$$的列向量
 
-可以证明$$(\bm a_1,\bm a_2,\dots,\bm a_k)$$线性无关：
+可以证明$$\bm a_1,\bm a_2,\dots,\bm a_k$$线性无关：
+
+倘若$$\bm a_1,\bm a_2,\dots,\bm a_k$$线性相关，即$$\exists\lambda_1,\dots,\lambda_k$$不全为零，满足$$\sum_{i=1}^k\lambda_i\bm a_i=\bm0$$。
+
+构造$$n$$维向量$$\bm\alpha=(\lambda_1,\dots,\lambda_k,0,\dots,0)^{\mathsf{T}}$$，取$$\bm x^{(1)}=\bm x+\mu\bm\alpha,\bm x^{(2)}=\bm x-\mu\bm\alpha,\mu=\min\left\{\frac{x_i}{|\lambda_i|}:\lambda_i\ne0\right\}$$，由$$\mathbf A\bm\alpha=\bm0$$以及$$\bm x^{(1)},\bm x^{(2)}\ge\bm0$$可得$$\bm x^{(1)},\bm x^{(2)}\in S,\bm x^{(1)}\ne\bm x^{(2)}$$，这与$$\bm x$$是极点矛盾，故$$\bm a_1,\bm a_2,\dots,\bm a_k$$线性无关。
+
+进一步的，$$k\le m$$。
+若$$k=m$$，即取$$\mathbf B=(\bm a_1,\dots,\bm a_m)$$；
+若$$k<m$$，由于$$\operatorname{rank}(\mathbf{A})=m$$，必定可以在$$\mathbf A$$中另外的$$n-k$$列中选取$$m-k$$列与$$\bm a_1,\bm a_2,\dots,\bm a_k$$一同构成$$\mathbf B=(\bm a_1,\bm a_2,\dots,\bm a_k,\bm a_{k+1},\dots,\bm a_m)$$。显然$$\mathbf B$$非奇异，$$\bm x_N=\bm0$$。再根据$$\mathbf A\bm x=\mathbf B\bm x_B+\mathbf N\bm x_N=\bm b$$显然有$$\bm x_B=\mathbf B^{-1}\bm b\ge\bm0$$。
 
 !! 推论
 
 # 在与上述相同的假设下，$$\bm x\in S$$是极点$$\iff$$$$\bm x$$的正分量所对应的$$\mathbf A^{\mathsf{T}}$$的列向量线性无关。
-# 多面体至多只有有限个极点
+# 多面体$$S$$至多只有有限个极点

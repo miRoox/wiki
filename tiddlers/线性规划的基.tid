@@ -1,0 +1,19 @@
+caption: 基
+created: 20200105082205561
+creator: miRoox
+modified: 20200105082747785
+modifier: miRoox
+tags: 待完善 线性规划
+title: 线性规划的基
+type: text/vnd.tiddlywiki
+
+! 基
+
+在[[线性规划标准形式的约束集合]]中，若$$\mathbf B$$是矩阵$$\mathbf A$$的一个非奇异的$$m\times m$$的子矩阵，则称$$B$$为线性规划的一个''基''。
+
+$$
+\begin{pmatrix}\mathbf B & \mathbf N\end{pmatrix}
+\begin{pmatrix}\bm x_B\\ \bm x_N\end{pmatrix}=\bm b
+$$
+
+称对应于$$\mathbf B$$的变量$$\bm x_B$$为''基变量''；而其它变量$$\bm x_N$$称为''非基变量''。
