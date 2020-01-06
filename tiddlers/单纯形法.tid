@@ -1,8 +1,8 @@
 created: 20191125124725858
 creator: miRoox
-modified: 20200105114802636
+modified: 20200106112754472
 modifier: miRoox
-tags: 待完善 线性规划
+tags: 算法 待完善 线性规划
 title: 单纯形法
 type: text/vnd.tiddlywiki
 
@@ -14,16 +14,16 @@ type: text/vnd.tiddlywiki
 
 # 取得一个初始的可行基$$\mathbf B$$，相应的[[基本可行解|线性规划的基本可行解]]$$\bm x=\begin{pmatrix}\bm x_B\\ \bm x_N\end{pmatrix} =\begin{pmatrix}\mathbf B^{-1}\bm b\\ \bm0\end{pmatrix}$$，以及当前目标函数值$$z=\bm c_B^{\mathsf{T}}\bm x_B=\bm c_B^{\mathsf{T}}\mathbf B^{-1}\bm b$$
 # 考察检验数$$\bm\sigma_N^{\mathsf{T}}=\bm c_N^{\mathsf{T}}-\bm c_B^{\mathsf{T}}\mathbf B^{-1}\bm b$$
-## 若$$\bm\sigma_N\le\bm0$$，则当前已经达到最优基，当前极点即最优解，结束。
-## 否则，选取一个$$\sigma_k>0$$（可以选择$$\sigma_k=\max\{\sigma_j:\sigma_j>0\}$$），记<div>
+#* 若$$\bm\sigma_N\le\bm0$$，则当前已经达到最优基，当前极点即最优解，结束。
+#* 否则，选取一个$$\sigma_k>0$$（可以选择$$\sigma_k=\max\{\sigma_j:\sigma_j>0\}$$），记<div>
 $$
 \bm d=\begin{pmatrix}\bm d_B\\ \bm d_N\end{pmatrix}=\begin{pmatrix}-\mathbf B^{-1}\bm a_k\\\bm e_k\end{pmatrix}
 $$
 如果使相应的非基变量$$x_k$$由当前值$$0$$开始增加，其余非基变量保持不变，则目标函数严格增大。
 </div>
 # 当$$x_k$$开始增加时，由$$\bm x_B=\mathbf B^{-1}\bm b-\mathbf B^{-1}\mathbf N\bm x_N$$可知，当前各基变量的值也要随之变化：
-## 如果$$\mathbf B^{-1}\bm a_k\le\bm0$$，由[[线性规划的最优性定理]]可知该问题无有界解，计算结束。
-## 否则，即存在$$(\mathbf B^{-1}\bm a_k)_i>0$$：设$$\mathbf B^{-1}\bm b>\bm0$$，令<div>
+#* 如果$$\mathbf B^{-1}\bm a_k\le\bm0$$，由[[线性规划的最优性定理]]可知该问题无有界解，计算结束。
+#* 否则，即存在$$(\mathbf B^{-1}\bm a_k)_i>0$$：设$$\mathbf B^{-1}\bm b>\bm0$$，令<div>
 $$
 \theta=\min\left\{\frac{(\mathbf B^{-1}\bm b)_i}{(\mathbf B^{-1}\bm a_k)_i}:(\mathbf B^{-1}\bm a_k)_i>\bm0\right\}\coloneqq\frac{(\mathbf B^{-1}\bm b)_r}{(\mathbf B^{-1}\bm a_k)_r}
 $$
