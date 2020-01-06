@@ -1,7 +1,7 @@
 caption: 对偶规划
 created: 20191204085852738
 creator: miRoox
-modified: 20200106022628677
+modified: 20200106112206760
 modifier: miRoox
 tags: 待完善 线性规划
 title: 线性规划的对偶问题
@@ -25,3 +25,9 @@ $$
 \end{aligned}\right.
 \end{gathered}
 $$
+
+!! 规则
+
+* $$\max\,\le\quad\leftrightarrow\quad\min\,\ge$$（必须先统一）
+* $$\bm c\quad\leftrightarrow\quad\bm b$$
+* $$=\quad\leftrightarrow\quad\text{无正负约束}$$

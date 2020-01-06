@@ -1,7 +1,7 @@
 caption: 对偶定理
 created: 20200106024617613
 creator: miRoox
-modified: 20200106025912262
+modified: 20200106054027800
 modifier: miRoox
 tags: 待完善 线性规划的对偶问题
 title: 线性规划的对偶定理
@@ -9,9 +9,6 @@ type: text/vnd.tiddlywiki
 
 ! 对偶定理
 
-# 若$$\bm x$$和$$\bm y$$分别为原规划和[[对偶规划|线性规划的对偶问题]]的[[可行解|线性规划的基本可行解]]，则<div>
-$$
-\bm c^{\mathsf{T}}\bm x\le\bm b^{\mathsf{T}}\bm y
-$$
-</div>
+# 若$$\bm x$$和$$\bm y$$分别为原规划和[[对偶规划|线性规划的对偶问题]]的[[可行解|线性规划的基本可行解]]，则$$\bm c^{\mathsf{T}}\bm x\le\bm b^{\mathsf{T}}\bm y$$
+# 若$$\bm x^*,\bm y^*$$分别为原规划和[[对偶规划|线性规划的对偶问题]]的[[可行解|线性规划的基本可行解]]，当$$\bm c^{\mathsf{T}}\bm x^*=\bm b^{\mathsf{T}}\bm y^*$$时，$$\bm x^*,\bm y^*$$分别为两个问题的最优解。
 # 若原规划有最优解，则[[对偶规划|线性规划的对偶问题]]也有最优解，反之亦然，且两者的目标函数值相等。

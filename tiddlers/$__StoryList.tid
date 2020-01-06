@@ -1,7 +1,7 @@
-created: 20200106020406644
+created: 20200106051720612
 creator: miRoox
-list: 线性规划 线性规划的对偶问题 对偶单纯形法 线性规划的对偶定理 About 目录
-modified: 20200106031349630
+list: 无约束的最优性条件 共轭梯度法 最速下降法 缩小区间的精确一维搜索 一维搜索 线性规划的灵敏度分析 线性规划 线性规划问题的标准化 线性规划的对偶定理 线性规划的基本可行解 对偶单纯形法 线性规划的对偶问题 单纯形法
+modified: 20200106134308133
 modifier: miRoox
 title: $:/StoryList
 type: text/vnd.tiddlywiki
