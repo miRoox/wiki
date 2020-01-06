@@ -1,0 +1,27 @@
+caption: 对偶规划
+created: 20191204085852738
+creator: miRoox
+modified: 20200106022628677
+modifier: miRoox
+tags: 待完善 线性规划
+title: 线性规划的对偶问题
+type: text/vnd.tiddlywiki
+
+! 对偶规划
+
+!! 对称形式的对偶问题
+
+$$
+\begin{gathered}
+(P)\left\{\begin{aligned}
+\max&& z&=\bm c^{\mathsf{T}}\bm x\\
+\text{s.t.}&& \mathbf A\bm x&\le\bm b\\
+&&\bm x&\ge\bm0_{n}
+\end{aligned}\right.\\
+(D)\left\{\begin{aligned}
+\min && f&=\bm b^{\mathsf{T}}\bm y\\
+\text{s.t.}&& \mathbf A^{\mathsf{T}}\bm y&\ge\bm c\\
+&&\bm y&\ge\bm0_{m}
+\end{aligned}\right.
+\end{gathered}
+$$
