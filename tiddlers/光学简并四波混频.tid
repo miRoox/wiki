@@ -1,10 +1,18 @@
 caption: 简并四波混频
 created: 20191206131125118
 creator: miRoox
-modified: 20200103082810406
+modified: 20200107091107375
 modifier: miRoox
 tags: 被动非线性光学效应 待完善 光学四波耦合过程
 title: 光学简并四波混频
 type: text/vnd.tiddlywiki
 
 ! 简并四波混频
+
+$$
+\begin{gathered}
+\omega_1=\omega_2=\omega_3=\omega_4=\omega\\
+\omega=\omega-\omega+\omega
+\end{gathered}
+$$
+

@@ -1,10 +1,22 @@
 caption: 相位匹配
 created: 20191127133729775
 creator: miRoox
-modified: 20191127133754437
+modified: 20200107082254651
 modifier: miRoox
 tags: 待完善 光学二次谐波
 title: 光学二次谐波的相位匹配问题
 type: text/vnd.tiddlywiki
 
 !! 相位匹配
+
+改变晶体光折射率$$n_e$$来满足相位匹配条件$$\Delta k=0$$：
+
+|单轴晶体的相位匹配|c
+| 晶体种类 | 第一类相位匹配 |<| 第二类相位匹配 |<|h
+|~| 偏振性质 | 相位匹配条件| 偏振性质 | 相位匹配条件 |h
+| 负单轴晶体 | o+o→e | $$n_o^{\omega}=n_e^{2\omega}$$ | o+e→e | $$\frac{1}{2}(n_e^\omega+n_o^\omega)=n_e^{2\omega}$$ |
+| 正单轴晶体 | e+e→o | $$n_e^{\omega}=n_o^{2\omega}$$ | o+e→o | $$\frac{1}{2}(n_e^\omega+n_o^\omega)=n_o^{2\omega}$$ |
+
+
+* 角度相位匹配：调节晶体光轴和入射光波矢间的夹角$$\theta$$，改变e光折射率
+* 温度相位匹配：改变晶体温度来改变e光折射率

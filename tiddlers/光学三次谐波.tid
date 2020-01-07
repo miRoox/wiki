@@ -1,10 +1,17 @@
 caption: 三次谐波
 created: 20191206130947559
 creator: miRoox
-modified: 20200103082738870
+modified: 20200107090543794
 modifier: miRoox
 tags: 被动非线性光学效应 待完善 光学四波耦合过程
 title: 光学三次谐波
 type: text/vnd.tiddlywiki
 
 ! 光学三次谐波
+
+假设：小信号近似
+
+耦合波方程
+$$
+\frac{\partial E_{3\omega}(z)}{\partial z}=\imath\frac{3\omega}{2cn_{3\omega}}\chi^{(3)}(3\omega;\omega,\omega,\omega)E_{\omega}^3(z)\exp(-\imath\Delta kz)
+$$

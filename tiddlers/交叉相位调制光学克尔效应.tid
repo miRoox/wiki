@@ -1,7 +1,7 @@
 caption: 交叉相位调制光学克尔效应
 created: 20191210082250068
 creator: miRoox
-modified: 20200103081050703
+modified: 20200107102448647
 modifier: miRoox
 tags: 待完善 光学克尔效应
 title: 交叉相位调制光学克尔效应
@@ -11,4 +11,11 @@ type: text/vnd.tiddlywiki
 
 用[[泵浦光]]产生光克尔效应，使介质折射率发生变化，并实现对信号光的相位调制。泵浦光频率一般选择在介质的高吸收区，而信号光一般选择在介质的透明区。
 
-
+泵浦光频率$$\omega'$$，信号光频率$$\omega$$。
+只考虑线性和三阶非线性极化率
+$$
+\begin{aligned}
+\bm P(\omega)&=\bm P^{(1)}+\bm P^{(3)}\\
+&=\varepsilon_0\chi^{(1)\prime}\bm E(\omega)+6\varepsilon_0\chi^{(3)\prime}(\omega;\omega',-\omega',\omega)|\bm E(\omega)|^2\bm E(\omega)
+\end{aligned}
+$$

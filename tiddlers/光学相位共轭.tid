@@ -1,7 +1,7 @@
 caption: 相位共轭
 created: 20191115073607136
 creator: miRoox
-modified: 20200103082749758
+modified: 20200107095438483
 modifier: miRoox
 tags: 被动非线性光学效应 待完善 非线性光学
 title: 光学相位共轭
@@ -23,4 +23,7 @@ $$
 \end{aligned}
 $$
 
+!! 应用
 
+* 补偿相位畸变
+* 非线性极化率测量

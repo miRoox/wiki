@@ -1,0 +1,19 @@
+caption: K-K关系
+created: 20200107064545125
+creator: miRoox
+modified: 20200107065317078
+modifier: miRoox
+tags: 电介质的极化 待完善
+title: Kramers-Kronig色散关系
+type: text/vnd.tiddlywiki
+
+! K-K关系
+
+极化率$$\chi(\omega)$$是频率的函数，通常可以表示为
+$$
+\chi(\omega)=\chi'(\omega)+\imath\chi''(\omega)
+$$
+
+线性极化率的实部和虚部之间互为[[希尔伯特变换]]，这一关系被称为''Kramers-Kronig色散关系''
+
+只有部分[[非线性光学]]过程满足该关系：[[二次谐波|光学二次谐波]]、[[三次谐波|光学三次谐波]]、[[交叉相位调制光学克尔效应]]等

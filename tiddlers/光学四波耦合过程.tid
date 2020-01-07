@@ -1,7 +1,7 @@
 caption: 光学四波耦合过程
 created: 20191206130713087
 creator: miRoox
-modified: 20191206130946676
+modified: 20200107090055235
 modifier: miRoox
 tags: 待完善 非线性光学
 title: 光学四波耦合过程
@@ -10,3 +10,30 @@ type: text/vnd.tiddlywiki
 ! 光学四波耦合过程
 
 三阶非线性光学效应，其响应通常比[[二阶效应|光学三波耦合过程]]还有小若干个数量级。
+
+!! 基本理论
+
+考虑三束入射光束
+
+$$
+\bm E=\bm E_1\exp(-\imath\omega_1t)+\bm E_2\exp(-\imath\omega_2t)+\bm E_3\exp(-\imath\omega_3t)+c.c.
+$$
+
+各向同性介质的三阶非线性极化强度为
+$$
+\bm P^{(3)}(t)=\varepsilon_0\chi^{(3)}|\bm E(t)|^2\bm E(t)
+$$
+代入后可以得到
+$$
+\bm P^{(3)}(t)=\sum_i\bm P^{(3)}(\omega_i)\exp(-\imath\omega_it)+c.c.
+$$
+其中
+$$
+\bm P^{(3)}(\omega_i)=D\varepsilon_0\chi^{(3)}(\omega_i)\bm E(\omega_1)\bm E(\omega_2)\bm E(\omega_3)
+$$
+
+!! 延伸
+
+* [[光学三次谐波]]
+* [[光学四波混频]]
+* [[光学简并四波混频]]

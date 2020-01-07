@@ -1,10 +1,37 @@
 caption: 基波高消耗
 created: 20191127133628224
 creator: miRoox
-modified: 20191127133721202
+modified: 20200107080328953
 modifier: miRoox
 tags: 待完善 光学二次谐波
 title: 光学二次谐波的基波高消耗情况
 type: text/vnd.tiddlywiki
 
 !! 基波高消耗
+
+基频振幅不能看作常量。但只考虑满足相位匹配$$\Delta k=0$$的情况，此时要求$$n_1=n_2=n_3=n$$。
+
+$$
+\begin{aligned}
+\frac{\partial E_1(z)}{\partial z}&=\imath\frac{2\omega d}{cn}E_1^*(z)E_2(z)\\
+\frac{\partial E_3(z)}{\partial z}&=\imath\frac{2\omega d}{cn}|E_1(z)|^2
+\end{aligned}
+$$
+其中，基频光有简并因子$$D=2$$，$$d=\left.\chi^{(2)}\middle/2\right.$$称为倍频系数。
+
+可以解得
+$$
+\begin{aligned}
+|E_3(z)|&=|E_1(0)|\tanh(z/L_{SHG})\\
+|E_1(z)|&=|E_1(0)|\operatorname{sech}(z/L_{SHG})
+\end{aligned}
+$$
+其中，$$L_{SHG}$$被称为有效倍频长度
+$$
+L_{SHG}=\left[\frac{2\omega d}{cn}|E_1(0)|\right]^{-1}
+$$
+
+倍频转换效率
+$$
+\eta=\frac{P_3(L)}{P_1(0)}=\frac{n_{2\omega}}{n_\omega}\tanh^2\frac{L}{L_{SHG}}
+$$
