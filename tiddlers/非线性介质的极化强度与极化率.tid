@@ -1,6 +1,6 @@
 created: 20200103123239889
 creator: miRoox
-modified: 20200103140027025
+modified: 20200107125933629
 modifier: miRoox
 tags: 待完善 非线性介质的极化理论
 title: 非线性介质的极化强度与极化率
@@ -23,7 +23,7 @@ $$
 \begin{aligned}
 \bm P^{(2)}(\omega)&=\varepsilon_0\bm\chi^{(2)}(\omega;\omega_1,\omega_2)\mathbin{:}\bm E_1(\omega_1)\bm E_2(\omega_2)\\
 &\vdots\\
-\bm P^{(n)}(\omega)&=\varepsilon_0\bm\chi^{(n)}(\omega;\omega_1,\omega_2,\cdots,\omega_n)\mathbin{\vdots\atop\vdots}\bm E_1(\omega_1)\bm E_2(\omega_2)\cdots\bm E_n(\omega_n)
+\bm P^{(n)}(\omega)&=\varepsilon_0\bm\chi^{(n)}(\omega;\omega_1,\omega_2,\dots,\omega_n)\mathbin{\vdots\atop\vdots}\bm E_1(\omega_1)\bm E_2(\omega_2)\cdots\bm E_n(\omega_n)
 \end{aligned}
 $$
 其中，$$\omega_1,\omega_2,\dots,\omega_n$$为入射场的频率，$$\omega$$为极化场的频率。根据能量守恒，有$$\omega=\omega_1+\omega_2+\cdots+\omega_n$$。

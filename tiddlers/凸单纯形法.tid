@@ -1,6 +1,6 @@
 created: 20191230000448933
 creator: miRoox
-modified: 20200107013249325
+modified: 20200107111116217
 modifier: miRoox
 tags: 待完善 约束最优化方法
 title: 凸单纯形法
@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 ! 凸单纯形法
 
 对[[线性约束问题]]，[[单纯形法]]的推广。
+
+基本步骤与[[既约梯度法]]相似，唯一不同的是搜索方向的选取。凸单纯形法对$$d_N$$只保留绝对值最大的一个分量为$$1$$或$$-1$$，其余分量都取$$0$$。
 
 $$S=\{\bm x:\mathbf A\bm x=\bm b,\bm x\ge\bm 0\},\mathbf A=\begin{pmatrix}\mathbf B&\mathbf N\end{pmatrix},\bm x=\begin{pmatrix}\bm x_B\\ \bm x_B\end{pmatrix},\bm x_B>\bm 0$$,$$\bm r_N$$为[[既约梯度]]。
 $$
@@ -28,7 +30,7 @@ d_j=\begin{cases}
 $$
 ** 若$$\alpha<\beta$$，设$$\beta=x_tr_t$$，则$$
 d_j=\begin{cases}
--1&j=i\\
+-1&j=t\\
 0&\text{otherwise}
 \end{cases}
 $$

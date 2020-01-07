@@ -1,19 +1,46 @@
 created: 20191230003844763
 creator: miRoox
-modified: 20191230010055072
+modified: 20200107112451750
 modifier: miRoox
 tags: 待完善 约束最优化方法
 title: 罚函数法
 type: text/vnd.tiddlywiki
 
-! 罚函数法
+! 罚函数法（外点法）
 
-引入罚函数$$\alpha(x)$$将[[约束最优化|约束最优化方法]]问题转化为[[无约束最优化|无约束最优化方法]]问题$$\min f(x)+\alpha(x)$$
+引入罚函数$$\alpha(x)$$将[[约束最优化|约束最优化方法]]问题转化为[[无约束最优化|无约束最优化方法]]问题$$\min f(x)+\mu\alpha(x),\mu>0$$
 
 理想的罚函数为
 $$
-\alpha(x)=\begin{cases}
+\alpha(\bm x)=\begin{cases}
 0 &\bm{x}\in S\\
 +\infty & \bm x\notin S
 \end{cases}
 $$
+
+罚函数的构造为
+$$
+\alpha(\bm x)=\sum_{i=1}^{m}\phi(g_i(\bm x))+\sum_{j=1}^l\psi(h_j(\bm x))
+$$
+其中
+$$
+\begin{aligned}
+\phi(\lambda)\begin{cases}
+>0&\lambda>0\\
+=0&\lambda\le0
+\end{cases}\\
+\psi(\lambda)\begin{cases}
+>0&\lambda\ne0\\
+=0&\lambda=0
+\end{cases}
+\end{aligned}
+$$
+
+实践上，辅助函数的典型取法为
+$$
+\begin{aligned}
+\phi(\lambda)&=[\max\{0,\lambda\}]^p\\
+\psi(\lambda)&=|\lambda|^p
+\end{aligned}
+$$
+其中，$$p$$为正整数
