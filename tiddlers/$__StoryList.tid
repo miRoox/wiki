@@ -1,7 +1,7 @@
-created: 20200106051720612
+created: 20200107011329948
 creator: miRoox
-list: 无约束的最优性条件 共轭梯度法 最速下降法 缩小区间的精确一维搜索 一维搜索 线性规划的灵敏度分析 线性规划 线性规划问题的标准化 线性规划的对偶定理 线性规划的基本可行解 对偶单纯形法 线性规划的对偶问题 单纯形法
-modified: 20200106134308133
+list: 既约梯度法 既约梯度 Kuhn-Tucher条件 约束最优化方法
+modified: 20200107023138192
 modifier: miRoox
 title: $:/StoryList
 type: text/vnd.tiddlywiki

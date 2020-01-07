@@ -1,6 +1,6 @@
 created: 20191230013320000
 creator: miRoox
-modified: 20191230013435706
+modified: 20200107013833317
 modifier: miRoox
 tags: 待完善 约束最优化方法
 title: 闸函数法
@@ -8,4 +8,12 @@ type: text/vnd.tiddlywiki
 
 ! 闸函数法
 
-把惩罚加在约束集的边界。
+与[[罚函数法]]类似，但把惩罚加在约束集的边界。
+
+理想的闸函数为
+$$
+\beta(\bm x)=\begin{cases}
+0&\bm x\in S\\
++\infty&\bm x\in\partial S
+\end{cases}
+$$
