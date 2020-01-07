@@ -1,10 +1,12 @@
 caption: 光学参量放大
 created: 20191130065612545
 creator: miRoox
-modified: 20200103082731140
+modified: 20200107085019673
 modifier: miRoox
 tags: 被动非线性光学效应 待完善 光学三波耦合过程
 title: 光学参量放大
 type: text/vnd.tiddlywiki
 
 ! 光学参量放大
+
+和[[差频|光学差频]]原理一样，但看待的角度变为信号光的放大，差频光被当作闲频光。

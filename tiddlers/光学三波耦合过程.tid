@@ -1,7 +1,7 @@
 caption: 光学三波耦合过程
 created: 20191122082522882
 creator: miRoox
-modified: 20191122083938985
+modified: 20200107095528323
 modifier: miRoox
 tags: 待完善 非线性光学
 title: 光学三波耦合过程
@@ -16,9 +16,38 @@ type: text/vnd.tiddlywiki
 考虑两束入射光束
 
 $$
-\bm{E}=\bm{E}_1\exp(-\imath\omega_1t)+\bm{E}_2\exp(-\imath\omega_2t)+\text{c.c.}
+\bm E=\bm E_1\exp(-\imath\omega_1t)+\bm E_2\exp(-\imath\omega_2t)+c.c.
+$$
+
+对于''非中心对称''的各向同性介质，二阶非线性极化强度为
+$$
+\bm P^{(2)}(t)=\varepsilon_0\chi^{(2)}|\bm E(t)|\bm E(t)
+$$
+代入后可以得到
+$$
+\bm P^{(2)}(t)=\sum_i\bm P^{(2)}(\omega_i)\exp(-\imath\omega_it)+c.c.
+$$
+其中
+$$
+\bm P^{(2)}(\omega_i)=D\varepsilon_0\chi^{(2)}(\omega_i)\bm E(\omega_1)\bm E(\omega_2)
+$$
+
+!!! 二阶非线性光学效应的近似描述
+
+假设：介质远离共振区，忽略吸收损耗，慢变近似，电位移和电场强度的方向夹角充分小
+
+得到耦合波方程（[[频域波方程|非线性介质的频域波方程]]）
+$$
+\begin{aligned}
+\frac{\partial E_1(z)}{\partial z}&=\imath\frac{D\omega_1}{2cn_1}\chi^{(2)}(\omega_1;-\omega_2,\omega_3)E_2^*(z)E_3(z)\exp(-\imath\Delta kz)\\
+\frac{\partial E_2(z)}{\partial z}&=\imath\frac{D\omega_2}{2cn_2}\chi^{(2)}(\omega_2;\omega_3,-\omega_1)E_3^*(z)E_1(z)\exp(-\imath\Delta kz)\\
+\frac{\partial E_3(z)}{\partial z}&=\imath\frac{D\omega_3}{2cn_3}\chi^{(2)}(\omega_3;\omega_1,\omega_2)E_1^*(z)E_2(z)\exp(-\imath\Delta kz)
+\end{aligned}
 $$
 
 !! 延伸
 
 * [[光学二次谐波]]即入射光基频相同的情况
+* [[光学和频]]
+* [[光学差频]]
+* [[光学参量放大]]

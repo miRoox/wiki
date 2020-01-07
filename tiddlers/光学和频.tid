@@ -1,10 +1,38 @@
 caption: 和频
 created: 20191130065512824
 creator: miRoox
-modified: 20200103082703959
+modified: 20200107084527969
 modifier: miRoox
 tags: 被动非线性光学效应 待完善 光学三波耦合过程
 title: 光学和频
 type: text/vnd.tiddlywiki
 
 ! 和频
+
+$$
+\omega_3=\omega_1+\omega_2
+$$
+
+假设：泵浦光$$\omega_2$$足够大，传播过程中振幅几乎不变；满足相位匹配条件
+
+耦合波方程
+$$
+\begin{aligned}
+\frac{\partial A_1(z)}{\partial z}&=\imath g_{SF}A_3(z)\\
+\frac{\partial A_3(z)}{\partial z}&=\imath g_{SF}A_1(z)
+\end{aligned}
+$$
+其中，$$A_i(z)=\sqrt{\frac{n_i}{\omega_i}}E_i(z),g_{SF}=\frac{4\chi^{(2)}}{c}\sqrt{\frac{\omega_1\omega_3}{n_1n_3}}E_2(0)$$(和频增益系数)
+
+解得
+$$
+\begin{aligned}
+A_3(z)&=\imath A_1(0)\sin(g_{SF}z)\\
+A_1(z)&=\imath A_1(0)\cos(g_{SF}z)
+\end{aligned}
+$$
+
+和频转换效率
+$$
+\eta=\frac{I_3(L)}{I_1(0)}=\frac{\omega_3}{\omega_1}\sin^2(g_{SF}L)
+$$

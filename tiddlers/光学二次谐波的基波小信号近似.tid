@@ -1,7 +1,7 @@
 caption: 基波小信号近似
 created: 20191127133450615
 creator: miRoox
-modified: 20191127133624710
+modified: 20200107074341432
 modifier: miRoox
 tags: 待完善 光学二次谐波
 title: 光学二次谐波的基波小信号近似
@@ -10,3 +10,24 @@ type: text/vnd.tiddlywiki
 !! 基波小信号近似
 
 假设入射光通过非线性介质振幅几乎不变。
+即$$E_2(z)\approx E_1(z)\approx E_1(0)$$
+
+从而有
+$$
+\begin{aligned}
+\frac{\partial E_1(z)}{\partial z}&=0\\
+\frac{\partial E_2(z)}{\partial z}&=0\\
+\frac{\partial E_3(z)}{\partial z}&=\imath\frac{2\omega}{2cn_3}\chi^{(2)}(2\omega;\omega,\omega)|E_1(0)|^2\exp(-\imath\Delta kz)
+\end{aligned}
+$$
+
+解得
+$$
+E_3(L)=-\frac{\omega\chi^{(2)}}{cn_3\Delta k}|E_1(0)|^2[\exp(-i\Delta kL)-1]
+$$
+
+光学倍频效率
+$$
+\eta=\frac{P_3(L)}{P_1(0)}=\frac{8\omega^2d^2L^2}{\varepsilon_0n_{2\omega}n_{\omega}^2c^3}\frac{P_1(0)}{S}\operatorname{sinc}\left(\frac{\Delta kL}{2}\right)
+$$
+其中，$$d=\left.\chi^{(2)}\middle/2\right.$$称为倍频系数，$$S$$为输入基频光束的横截面积。

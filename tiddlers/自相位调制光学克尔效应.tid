@@ -1,7 +1,7 @@
 caption: 自相位调制光学克尔效应
 created: 20191210082222581
 creator: miRoox
-modified: 20200103080605993
+modified: 20200107102503871
 modifier: miRoox
 tags: 待完善 光学克尔效应
 title: 自相位调制光学克尔效应
@@ -10,3 +10,16 @@ type: text/vnd.tiddlywiki
 ! 自相位调制光学克尔效应
 
 由信号光本身的光强产生光克尔效应，使介质折射率发生变化，从而调制信号光本身的相位。
+
+只考虑线性和三阶非线性极化率
+$$
+\begin{aligned}
+\bm P(\omega)&=\bm P^{(1)}+\bm P^{(3)}\\
+&=\varepsilon_0\chi^{(1)\prime}\bm E(\omega)+3\varepsilon_0\chi^{(3)\prime}(\omega;\omega,-\omega,\omega)|\bm E(\omega)|^2\bm E(\omega)
+\end{aligned}
+$$
+
+$$
+n=n_0\sqrt{1+\frac{3\chi^{(3)\prime}}{n_0^2}|\bm E(\omega)|^2}
+\approx n_0+\frac{3\chi^{(3)\prime}}{n_0}|\bm E(\omega)|^2
+$$

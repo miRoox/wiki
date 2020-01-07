@@ -1,10 +1,18 @@
 caption: 四波混频
 created: 20191206131104174
 creator: miRoox
-modified: 20200103082804195
+modified: 20200107090916492
 modifier: miRoox
 tags: 被动非线性光学效应 待完善 光学四波耦合过程
 title: 光学四波混频
 type: text/vnd.tiddlywiki
 
 ! 四波混频
+
+假设：满足相位共轭
+
+
+耦合波方程
+$$
+\frac{\partial E_{\omega_4}(z)}{\partial z}=\imath\frac{3\omega_4}{2cn_4}\chi^{(3)}(\omega_4;\omega_1,\omega_2,\omega_3)E_1(z)E_2(z)E_3(z)\exp(-\imath\Delta kz)
+$$

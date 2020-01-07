@@ -1,7 +1,7 @@
 caption: 二次谐波
 created: 20191126140446223
 creator: miRoox
-modified: 20200103082653589
+modified: 20200107082450755
 modifier: miRoox
 tags: 被动非线性光学效应 待完善 光学三波耦合过程
 title: 光学二次谐波
@@ -9,4 +9,14 @@ type: text/vnd.tiddlywiki
 
 ! 光学二次谐波
 
+$$
+\omega_1=\omega_2=\omega,\omega_3=2\omega
+$$
+
 <<list-links "[tag<currentTiddler>]">>
+
+!! 实验装置
+
+* 单过程式
+* 外腔式
+* 内腔式
