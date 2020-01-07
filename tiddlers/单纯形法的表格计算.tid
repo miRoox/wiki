@@ -1,10 +1,58 @@
 caption: 表格计算
 created: 20191127133209750
 creator: miRoox
-modified: 20200106060920925
+modified: 20200107135737008
 modifier: miRoox
 tags: 待完善 单纯形法
 title: 单纯形法的表格计算
 type: text/vnd.tiddlywiki
 
 ! [[单纯形法]]的表格计算
+
+考虑全为不等式约束的[[线性规划]]问题
+$$
+\begin{aligned}
+\max{} & z=\sum_{j=1}^nc_jx_j\\
+\text{s.t.} &{}\begin{cases}
+\sum_{j=1}^na_{i,j}x_j \le b_i &i=1,2,\dots,m,b_i\ge0\\
+x_j\ge0 &j=1,2,\dots,n
+\end{cases}
+\end{aligned}
+$$
+
+加入松弛变量，化为标准形式
+$$
+\begin{aligned}
+\max{} & z=\sum_{j=1}^nc_jx_j\\
+\text{s.t.} &{}\begin{cases}
+\sum_{j=1}^na_{i,j}x_j+x_{j+i} = b_i &i=1,2,\dots,m,b_i\ge0\\
+x_j\ge0 &j=1,2,\dots,n+m
+\end{cases}
+\end{aligned}
+$$
+
+显然，$$x_{n+1},x_{n+2},\dots,x_{n+m}$$对应的基矩阵是单位阵，得到一个基本可行解为
+$$
+\bm x=(\underbrace{0,\dots,0}_{n\text{个}},b_1,b_2,\dots,b_m)
+$$
+构造如下初始单纯形表
+
+| 单纯形表 |c
+| !$$\bm c_B$$ | !$$\bm x_B$$ | !$$\bm b$$ | !$$c_1$$ | !$$c_2$$ | !$$\cdots$$ | !$$c_n$$ | !$$c_{n+1}$$ | !$$c_{n+2}$$ | !$$\cdots$$ | !$$c_{n+m}$$ | !$$\bm\theta$$ |
+|~|~|~| !$$x_1$$ | !$$x_2$$ | !$$\cdots$$ | !$$x_n$$ | !$$x_{n+1}$$ | !$$x_{n+2}$$ | !$$\cdots$$ | !$$x_{n+m}$$ |~|
+| !$$c_{n+1}$$ | !$$x_{n+1}$$ | !$$b_1$$ | $$a_{1,1}$$ | $$a_{1,2}$$ | $$\cdots$$ | $$a_{1,n}$$ | $$1$$ | $$0$$ | $$\cdots$$ | $$0$$ | !$$\theta_1$$ |
+| !$$c_{n+2}$$ | !$$x_{n+2}$$ | !$$b_2$$ | $$a_{2,1}$$ | $$a_{2,2}$$ | $$\cdots$$ | $$a_{2,n}$$ | $$0$$ | $$1$$ | $$\cdots$$ | $$0$$ | !$$\theta_2$$ |
+| !$$\vdots$$ | !$$\vdots$$ | !$$\vdots$$ | $$\vdots$$ | $$\vdots$$ | $$\ddots$$ | $$\vdots$$ | $$\vdots$$ | $$\vdots$$ | $$\ddots$$ | $$\vdots$$ | !$$\vdots$$ |
+| !$$c_{n+m}$$ | !$$x_{n+m}$$ | !$$b_m$$ | $$a_{m,1}$$ | $$a_{m,2}$$ | $$\cdots$$ | $$a_{m,n}$$ | $$0$$ | $$0$$ | $$\cdots$$ | $$1$$ | !$$\theta_m$$ |
+| ! $$-z$$ |<| !$$-z'$$ | !$$\sigma_1$$ | !$$\sigma_2$$ | !$$\cdots$$ | !$$\sigma_n$$ | !$$0$$ | !$$0$$ | !$$\cdots$$ | !$$0$$ | |
+
+其中$$z'=\sum_{i=1}^mc_{n+i}b_i,\sigma_j=c_j-\sum_{i=1}^mc_{n+i}a_{i,j}$$为检验数。
+
+确定了进基变量$$x_k$$后，
+$$
+\theta_i=\begin{cases}
+\frac{b_i}{a_{i,k}}&a_{i,k}>0\\
+\infty&\text{otherwsie}
+\end{cases}
+$$
+

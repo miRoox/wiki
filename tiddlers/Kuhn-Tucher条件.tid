@@ -1,6 +1,6 @@
 created: 20191223000705574
 creator: miRoox
-modified: 20191225020445254
+modified: 20200107130113433
 modifier: miRoox
 tags: 待完善 约束最优化方法
 title: Kuhn-Tucher条件
@@ -42,7 +42,7 @@ $$
 # 若$$g_i(x)(i\notin I)$$在$$\bm x^*$$处可微，则$$
 \begin{aligned}
 \nabla f(\bm x^*)+\sum_{i=1}^m\mu_i\nabla g_i(\bm x^*)&=0\\
-\mu_i&\ge0,i=1,\cdots,m\\
+\mu_i&\ge0,i=1,\dots,m\\
 \sum_{i=1}^m\mu_i g_i(\bm x^*)&=0
 \end{aligned}\tag{KT}
 $$

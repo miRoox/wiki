@@ -1,14 +1,15 @@
 created: 20191230013320000
 creator: miRoox
-modified: 20200107013833317
+modified: 20200107120938874
 modifier: miRoox
 tags: 待完善 约束最优化方法
 title: 闸函数法
 type: text/vnd.tiddlywiki
 
-! 闸函数法
+! 闸函数法（内点法）
 
-与[[罚函数法]]类似，但把惩罚加在约束集的边界。
+闸函数法适用于不等式约束问题。
+与[[罚函数法]]类似，但它把惩罚加在约束集的边界。
 
 理想的闸函数为
 $$
@@ -17,3 +18,16 @@ $$
 +\infty&\bm x\in\partial S
 \end{cases}
 $$
+
+$$
+\beta(\bm x)=\sum_{i=1}^m\phi(g_i(\bm x))
+$$
+其中
+$$
+\phi(\lambda)\begin{cases}
+\ge0&\lambda<0\\
+\to+\infty&\lambda\to0^-
+\end{cases}
+$$
+
+实践上常取$$\phi(\lambda)=-\frac{1}{\lambda}$$或$$\phi(\lambda)=|\ln(-\lambda)|$$
