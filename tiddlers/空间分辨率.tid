@@ -1,10 +1,12 @@
 caption: 空间分辨率
 created: 20191114125133469
 creator: miRoox
-modified: 20191114125153822
+modified: 20200108134705351
 modifier: miRoox
-tags: 待完善 数字图像的属性参数
+tags: 分辨率 待完善 数字图像的属性参数
 title: 空间分辨率
 type: text/vnd.tiddlywiki
 
 ! 空间分辨率
+
+''空间分辨率''是图像中可辨别的最小细节的度量。最典型的度量方式为__单位距离的线对数__或者__单位距离的像素数__。

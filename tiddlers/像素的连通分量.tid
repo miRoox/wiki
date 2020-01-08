@@ -1,0 +1,14 @@
+caption: 连通分量
+created: 20200108140111073
+creator: miRoox
+modified: 20200108141506023
+modifier: miRoox
+tags: 待完善 像素属性
+title: 像素的连通分量
+type: text/vnd.tiddlywiki
+
+! 连通分量
+
+$$S$$是图像的一个像素子集。对$$S$$的任一像素$$p$$，$$S$$中连通到该像素的所有像素构成的集合称为$$S$$的''连通分量''。
+
+如果$$S$$仅有一个连通分量，则称$$S$$为''连通集''
