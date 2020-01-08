@@ -1,0 +1,19 @@
+caption: 时间自相位调制
+created: 20200108085751186
+creator: miRoox
+modified: 20200108104326111
+modifier: miRoox
+tags: 待完善 自聚焦的自相位调制
+title: 自聚焦的时间自相位调制
+type: text/vnd.tiddlywiki
+
+!! 时间自相位调制
+
+由于输入脉冲光随时间变化导致光的相位也随之变化，从而导致光的频率也发生周期性变化，并使输出光的频谱增宽。
+
+光束通过长为$$L$$的自聚焦细丝，引起的相位变化为
+$$
+\Delta\phi(t)=\frac{\omega}{c}\Delta n(t)L=\frac{\omega}{c}\bar n_2|E(t)|^2L
+$$
+
+相位变化导致频率移动，从而增宽频谱。

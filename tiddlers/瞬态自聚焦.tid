@@ -1,0 +1,11 @@
+created: 20200108083306338
+creator: miRoox
+modified: 20200108085547165
+modifier: miRoox
+tags: 待完善 自聚焦
+title: 瞬态自聚焦
+type: text/vnd.tiddlywiki
+
+! 瞬态自聚焦
+
+当激光脉宽比介质折射率变化响应时间更短的时候，介质折射率变化$$\Delta n$$对光束的作用有一定延迟时间，使其波面变为喇叭形。

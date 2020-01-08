@@ -1,0 +1,14 @@
+created: 20200108064410322
+creator: miRoox
+modified: 20200108064627588
+modifier: miRoox
+tags: 待完善 非线性光折射
+title: 自散焦
+type: text/vnd.tiddlywiki
+
+! 自散焦
+
+光束在透明介质中传播时，有自身引起的非线性效应导致光束散焦。
+
+当[[光学克尔效应]]满足$$n_2<0$$即可能发生自散焦现象。
+
