@@ -1,0 +1,17 @@
+caption: 表现形式
+created: 20191114123727436
+creator: miRoox
+modified: 20200108133611367
+modifier: miRoox
+tags: 待完善 数字图像处理
+title: 图像的表现形式
+type: text/vnd.tiddlywiki
+
+! 图像的表现形式
+
+* 二值图像
+* 灰度图像
+* 彩色图像
+* 光谱图象（遥感图像）：多光谱
+* 立体图像：左右视点构成的图像对
+* 动态图像

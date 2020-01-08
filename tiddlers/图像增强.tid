@@ -1,7 +1,7 @@
 caption: 图像增强
 created: 20191114123332565
 creator: miRoox
-modified: 20191226063250464
+modified: 20200108142348892
 modifier: miRoox
 tags: 待完善 数字图像处理
 title: 图像增强
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 图像增强是一个较为宽泛的概念，没有唯一确定的标准。
 
-* 增强[[对比度]]
+* 增强[[对比度|图像对比度]]
 ** [[图像点运算]]
 ** [[直方图均衡化]]
 ** [[图像局部统计增强]]
