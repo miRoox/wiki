@@ -1,0 +1,17 @@
+caption: 开孔结构
+created: 20200108124736198
+creator: miRoox
+modified: 20200108130405429
+modifier: miRoox
+tags: 待完善 Z扫描测量法
+title: Z扫描测量的开孔结构
+type: text/vnd.tiddlywiki
+
+!! 开孔结构
+
+测量[[非线性吸收|非线性光吸收]]率
+
+随着样品朝$$+z$$方向运动，透射率曲线：
+
+* [[饱和光吸收]]：峰
+* [[反饱和光吸收]]：谷

@@ -1,6 +1,6 @@
 created: 20200103064353576
 creator: miRoox
-modified: 20200103064420572
+modified: 20200108124103247
 modifier: miRoox
 tags: 待完善 物理光学
 title: 干涉仪
@@ -8,3 +8,4 @@ type: text/vnd.tiddlywiki
 
 ! 干涉仪
 
+<<list-links "[tag<currentTiddler>]">>

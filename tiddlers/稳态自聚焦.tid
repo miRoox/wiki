@@ -1,0 +1,61 @@
+created: 20200108062907102
+creator: miRoox
+modified: 20200108080808517
+modifier: miRoox
+tags: 待完善 自聚焦
+title: 稳态自聚焦
+type: text/vnd.tiddlywiki
+
+! 稳态自聚焦
+
+如果介质的响应时间远小于入射光的脉冲宽度，此时自聚焦可以采用稳态的方式处理。
+
+!! 自聚焦的稳态理论
+
+假设：不计损耗，各向同性，[[克尔|光学克尔效应]]介质
+
+波动方程：
+$$
+\nabla_{\perp}^2\bm E+\frac{\partial^2\bm E}{\partial z^2}-\frac{n_0^2}{c^2}\frac{\partial^2\bm E}{\partial t^2}=\frac{2\Delta n}{n_0}\frac{n_0^2}{c^2}\frac{\partial^2\bm E}{\partial t^2}
+$$
+
+假设$$\bm E(z,t)$$是沿着$$z$$方向传播，频率为$$\omega$$的单色平面波
+$$
+\bm E(z,t)=\tilde{\bm E}(z,t)\exp[-\imath(\omega t-kz)]
+$$
+其中，$$\tilde{\bm E}$$是$$z$$的缓变函数，$$k=k_0n_0=n_0\omega/c$$
+
+方程变为
+$$
+\nabla_{\perp}^2\tilde{\bm E}+2\imath k\frac{\partial\tilde{\bm E}}{\partial t}=-2k^2\frac{\Delta n}{n_0}\tilde{\bm E}
+$$
+
+一般的，光束并非平面波。引入相位函数$$S(r,x)$$刻画实际波面
+$$
+\tilde{\bm E}=\bm E_0\exp[\imath kS(r,x)]
+$$
+
+方程进一步分解为两个耦合方程
+$$
+\begin{gathered}
+\frac{\partial\bm E_0^2}{\partial t}+\nabla_\perp\cdot(\bm E_0^2\nabla_\perp S)=0\\
+\frac{\partial S}{\partial t}+\frac{1}{2}(\nabla_\perp S)^2=\frac{\nabla_\perp^2\bm E_0}{2k^2\bm E_0}+\frac{\Delta n}{n_0}
+\end{gathered}
+$$
+
+在傍轴条件下得到近似解
+$$
+\begin{aligned}
+\bm E_0(r,z)&=\bm E_{0m}\frac{a_0}{a(z)}\exp\left[-\frac{r^2}{2a(z)}\right]\\
+S(r,z)&=\frac{r^2}{2R(z)}+\phi(z)
+\end{aligned}
+$$
+其中，$$a(z)$$为光束半径，$$R(z)$$为波面半径。
+
+进一步的，根据非线性折射率的关系，可以近似解得
+$$
+\frac{a^2(z)}{a_0^2}=(1-2B)\frac{z^2}{k^2a_0^4}+\left(1+\frac{z}{R_0} \right)^2
+$$
+其中，$$B=\frac{\Delta n/n_0}{1/(k^2a_0^2)}=\frac{\theta_s^2}{2\theta_d^2}$$（见[[自聚焦与衍射|自聚焦与衍射之间的拮抗]]），$$R_0=R(0)$$。
+
+据此也可以得到，当入射光为平面波时（$$R_0=\infty$$），如果$$B=1/2$$即$$\theta_s=\theta_d/2$$，那么自聚焦的汇聚作用与衍射的发散作用达到平衡。即[[自聚焦与衍射之间的拮抗]]中的平衡条件。

@@ -1,0 +1,24 @@
+created: 20200108081151083
+creator: miRoox
+modified: 20200108083148178
+modifier: miRoox
+tags: 待完善 自聚焦
+title: 准稳态自聚焦
+type: text/vnd.tiddlywiki
+
+! 准稳态自聚焦
+
+和[[稳态自聚焦]]类似，但准稳态条件下，不能完全忽略振幅随时间的变化，保留振幅对时间的一阶导数，即
+$$
+\nabla_{\perp}^2\bm E+2\imath k\left(\frac{\partial }{\partial z}+\frac{1}{v}\frac{\partial }{\partial t}\right){\bm E}=-2k^2\frac{\Delta n}{n_0}{\bm E}
+$$
+其中$$v=\frac{\partial\omega}{\partial k}$$为[[群速度]]
+
+做变量替换$$E'(z,t')=E(z,t'+z/v)$$即可得到和[[稳态自聚焦]]一样形式的波动方程。但由于变量替换，得到的自聚焦焦点会随时间移动。
+
+在平面波入射的情况下，自聚焦焦距
+$$
+z_f(z,t)=\frac{ka_0^2}{\sqrt{P(z,t-z/v)/P_c-1}}
+$$
+
+[img[Quasi-stationary-self-focusing.png]]

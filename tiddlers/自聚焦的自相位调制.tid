@@ -1,0 +1,16 @@
+created: 20200108085735423
+creator: miRoox
+modified: 20200108104554615
+modifier: miRoox
+tags: 待完善
+title: 自聚焦的自相位调制
+type: text/vnd.tiddlywiki
+
+! 自聚焦的自相位调制
+
+$$
+\Delta\omega=-\frac{\partial\Delta\phi}{\partial t}
+$$
+
+* [[时间自相位调制|自聚焦的时间自相位调制]]
+* [[空间自相位调制|自聚焦的空间自相位调制]]
