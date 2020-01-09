@@ -1,6 +1,6 @@
 created: 20191224055211130
 creator: miRoox
-modified: 20191224060314600
+modified: 20200109062648944
 modifier: miRoox
 tags: 待完善 图像识别
 title: 贝叶斯分类器
@@ -11,4 +11,9 @@ type: text/vnd.tiddlywiki
 [[决策函数]]：
 $$
 d_j(\bm x)=P(\bm x|\omega_j)P(\omega_j)
+$$
+
+高斯模式，0-1损失函数下对应的决策函数
+$$
+d_j(\bm x)=\ln P(s_j)-frac{1}{2}\ln|\mathbf C_j|-\frac{1}{2}(\bm x-\bm m_j)^{\mathsf{T}}\mathbf C_j^{-1}(\bm x-\bm m_j)
 $$

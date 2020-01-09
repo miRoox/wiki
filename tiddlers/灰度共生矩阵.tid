@@ -1,6 +1,6 @@
 created: 20191217070618283
 creator: miRoox
-modified: 20191217070650732
+modified: 20200109061957117
 modifier: miRoox
 tags: 图像纹理描述 图像特征描述
 title: 灰度共生矩阵
@@ -8,3 +8,4 @@ type: text/vnd.tiddlywiki
 
 ! 灰度共生矩阵
 
+对于一个有$$L$$个可能灰度的图像，矩阵$$G_{L\times L}$$的每个元素$$g_{i,j}$$是灰度为$$z_i$$和$$z_j$$的像素出现在图像中某种指定的相对位置处的次数。矩阵$$G$$即为''灰度共生矩阵''。

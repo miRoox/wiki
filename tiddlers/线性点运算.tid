@@ -1,0 +1,13 @@
+created: 20200109012424213
+creator: miRoox
+modified: 20200109013215307
+modifier: miRoox
+tags: 待完善 图像点运算
+title: 线性点运算
+type: text/vnd.tiddlywiki
+
+! 线性点运算
+
+$$
+D_B=f(D_A)=aD_A+b
+$$

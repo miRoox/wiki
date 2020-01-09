@@ -1,0 +1,13 @@
+caption: 局部统计特征增强
+created: 20191203135224713
+creator: miRoox
+modified: 20200109023605759
+modifier: miRoox
+tags: 待完善 图像增强
+title: 图像局部统计特征增强
+type: text/vnd.tiddlywiki
+
+! 局部统计特征增强
+
+* 均值是平均灰度的度量
+* 方差是[[图像对比度]]的度量

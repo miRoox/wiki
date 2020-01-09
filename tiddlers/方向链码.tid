@@ -1,6 +1,6 @@
 created: 20191217061842637
 creator: miRoox
-modified: 20191217065120874
+modified: 20200109061325076
 modifier: miRoox
 tags: 图像特征描述 图像区域特征 待完善
 title: 方向链码
@@ -8,3 +8,6 @@ type: text/vnd.tiddlywiki
 
 ! 方向链码
 
+每个线段的方向使用一种数字编号编码。
+
+8-链码：右开始逆时针：0~7
