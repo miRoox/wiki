@@ -1,7 +1,7 @@
 caption: 闭孔结构
 created: 20200108124701223
 creator: miRoox
-modified: 20200108130139998
+modified: 20200109104750074
 modifier: miRoox
 tags: 待完善 Z扫描测量法
 title: Z扫描测量的闭孔结构
@@ -11,7 +11,13 @@ type: text/vnd.tiddlywiki
 
 测量[[非线性折射|非线性光折射]]率
 
-随着样品朝$$+z$$方向运动，透射率曲线：
+随着样品朝$$+z$$方向运动，透射率曲线$$T(z)$$：
 
 * [[自聚焦]]：先谷后峰
 * [[自散焦]]：先峰后谷
+
+测量实验曲线峰谷间的差值$$\Delta T$$即可计算出非线性折射率$$\Delta n$$。
+当孔充分小时
+$$
+\Delta n\approx\frac{\Delta T}{0.406kL_{\rm eff}}
+$$
