@@ -1,7 +1,7 @@
 caption: 极点特征定理
 created: 20191120132217597
 creator: miRoox
-modified: 20200105090054386
+modified: 20200109101718158
 modifier: miRoox
 tags: 线性规划 待完善 凸优化
 title: 极点特征定理
@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 
 !! 证明
 
-!!! ''充分性''$$\Leftarrow$$
+!!! ''充分性''$$\impliedby$$
 
 显然$$\bm x\in S$$，假设$$\exists \bm x^{(1)},\bm x^{(2)}\in S,\lambda\in(0,1),\bm x=\lambda\bm x^{(1)}+(1-\lambda)\bm x^{(2)}$$
 
@@ -29,7 +29,7 @@ $$
 
 由于$$\bm x_N^{(1)},\bm x_N^{(2)}\ge\bm0$$，故只能$$\bm x_N^{(1)}=\bm x_N^{(2)}=\bm0$$。又由$$\mathbf A\bm x^{(1)}=\mathbf B\bm x_B^{(1)}+\mathbf N\bm x_N^{(2)}=\bm b$$得$$\bm x^{(1)}=\mathbf B^{-1}\bm b$$同理$$\bm x^{(2)}=\mathbf B^{-1}\bm b$$。故必有$$\bm x=\bm x^{(1)}=\bm x^{(2)}$$，因此$$\bm x$$为[[极点|极点（凸集）]]。
 
-!!! ''必要性''$$\Rightarrow$$
+!!! ''必要性''$$\implies$$
 
 $$\bm x$$是[[极点|极点（凸集）]]，不失一般性，设$$\bm x=(x_1,x_2,\dots,x_k,0,\dots,0),x_i\ge0(i=1,2,\dots,k)$$，设$$\mathbf A=(\bm a_1,\bm a_2,\dots,\bm a_n)$$，$$\bm a_i\in\R^m$$为$$\mathbf A$$的列向量
 
