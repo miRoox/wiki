@@ -1,7 +1,7 @@
 caption: 同态滤波
 created: 20191203124145072
 creator: miRoox
-modified: 20191203133709100
+modified: 20200109050943659
 modifier: miRoox
 tags: 待完善 图像滤波
 title: 同态滤波
@@ -19,3 +19,11 @@ $$
 照射分量的频谱处在低频区域，反射分量的频谱处在高频区域。如果能够找到一种滤波器，减少照射分量的贡献，增加发射分量的贡献，那么图像会得到增强。
 
 通过取对数将照射分量和反射分量线性分离，再在频域进行滤波。
+
+$$
+f(x,y)\Rightarrow\ln\Rightarrow\mathscr{F}\Rightarrow H(u,v)\Rightarrow\mathscr{F}^{-1}\Rightarrow\exp
+$$
+
+$$
+H(u,v)=(\gamma_H-\gamma_L)\left[1-\exp\left(-c\frac{\rho^2(u,v)}{\rho_0^2}\right)\right]+\gamma_L
+$$

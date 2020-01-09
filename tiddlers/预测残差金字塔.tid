@@ -1,10 +1,19 @@
 caption: 拉普拉斯金字塔
 created: 20191203134005224
 creator: miRoox
-modified: 20191205090044773
+modified: 20200109054516947
 modifier: miRoox
 tags: 待完善 金字塔变换
 title: 预测残差金字塔
 type: text/vnd.tiddlywiki
 
 !! 拉普拉斯金字塔
+
+分解：
+
+$$
+\begin{cases}
+LP_N=G_N&k=N\\
+LP_k=G_k-G^*_{k+1}&k=0,1,\dots,N-1
+\end{cases}
+$$
