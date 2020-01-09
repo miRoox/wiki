@@ -1,7 +1,7 @@
 caption: 受激布里渊散射
 created: 20191115073959401
 creator: miRoox
-modified: 20200103082253954
+modified: 20200109133331561
 modifier: miRoox
 tags: 主动非线性光学效应 Brillouin散射 待完善 受激幅射光散射
 title: 受激布里渊散射
@@ -18,3 +18,7 @@ type: text/vnd.tiddlywiki
 $$
 \frac{\partial^2\rho}{\partial t^2}-\Gamma\nabla^2\frac{\partial\rho}{\partial t}-v_b^2\nabla^2\rho=-\nabla\cdot\bm F
 $$
+
+__TBD__
+
+斯托克斯光在介质中是反向增长的。

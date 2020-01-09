@@ -1,6 +1,6 @@
 created: 20191227131756578
 creator: miRoox
-modified: 20200103081948888
+modified: 20200109134204414
 modifier: miRoox
 tags: 主动非线性光学效应 待完善 非线性光吸收
 title: 双光子非线性吸收
@@ -8,4 +8,4 @@ type: text/vnd.tiddlywiki
 
 ! 双光子非线性吸收
 
-两种频率的入射光带来的非线性吸收效应。用能级理论刻画可以认为是$$\hbar\omega_1+\hbar\omega_2\ge\Delta E$$
+两种频率的入射光带来的非线性吸收效应，两个频率的光同时被吸收。用能级理论刻画可以认为是$$\hbar\omega_1+\hbar\omega_2\ge\Delta E$$

@@ -1,7 +1,7 @@
 caption: 反饱和吸收
 created: 20191231115059616
 creator: miRoox
-modified: 20200103081958186
+modified: 20200109134912393
 modifier: miRoox
 tags: 主动非线性光学效应 待完善 非线性光吸收
 title: 反饱和光吸收
@@ -9,3 +9,6 @@ type: text/vnd.tiddlywiki
 
 ! 反饱和吸收
 
+$$
+\alpha(I)=\alpha_0\left[\frac{1+\left(\frac{\sigma_T}{\sigma_0}\right)\frac{I}{I_c}}{1+\frac{I}{I_c}} \right]
+$$
