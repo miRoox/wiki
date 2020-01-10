@@ -1,7 +1,7 @@
 caption: 直接型结构
 created: 20191125130837241
 creator: miRoox
-modified: 20191125131006259
+modified: 20200110085956863
 modifier: miRoox
 tags: 待完善 有限脉冲响应系统
 title: 有限脉冲响应系统的直接型结构
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 $$
 y(n)=\sum_{i=0}^Mb_ix(n-i)
 $$
+
+[img width=512 [FIR-system-direct.svg]]

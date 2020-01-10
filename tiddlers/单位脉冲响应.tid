@@ -1,9 +1,11 @@
 created: 20191109125858499
 creator: miRoox
-modified: 20191109125915695
+modified: 20200110072123026
 modifier: miRoox
 tags: 待完善 信号-系统-控制
 title: 单位脉冲响应
 type: text/vnd.tiddlywiki
 
 ! 单位脉冲响应
+
+由[[单位脉冲|狄拉克δ函数]]激励系统输出的响应信号。
