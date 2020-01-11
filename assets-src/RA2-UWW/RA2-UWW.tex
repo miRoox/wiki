@@ -1,0 +1,48 @@
+% !TEX encoding = UTF-8
+\documentclass[tikz]{standalone}
+\usepackage{ctex}
+\usepackage{tikz}
+\usepackage{tkz-graph}
+
+\begin{document}
+
+\begin{tikzpicture}[font=\small]
+    \SetGraphUnit{5}
+    \GraphInit[vstyle=Empty]
+    \SetUpEdge[style={->}]
+    \Vertices{circle}{单位,武器,抛射体,弹头,伤害,碎片,动画,粒子,Overlay}
+    \Loop[color=blue,dist=3cm,dir=SO](粒子)
+    \Loop[color=blue,dist=3cm,dir=SOWE](动画)
+    \Loop[color=blue,dist=3cm,dir=WE](碎片)
+    \Edge[color=black](单位)(武器)
+    \Edge[color=black,style={->,bend left=5}](单位)(动画)
+    \Edge[color=black](武器)(伤害)
+    \Edge[color=black,style={->,bend left=5}](武器)(抛射体)
+    \Edge[color=black](武器)(弹头)
+    \Edge[color=black,style={->,bend left=5}](弹头)(动画)
+    \Edge[color=red](武器)(粒子)
+    \Edge[color=red,style={->,bend left=5}](动画)(粒子)
+    \Edge[color=red,style={->,bend left=5}](弹头)(碎片)
+    \Edge[color=red](武器)(伤害)
+    \Edge[color=red,style={->,bend left=5}](动画)(弹头)
+    \Edge[color=red](粒子)(伤害)
+    \Edge[color=red](武器)(动画)
+    \Edge[color=red,style={->,bend left=5}](抛射体)(武器)
+    \Edge[color=red,style={->,bend left=5}](碎片)(弹头)
+    \Edge[color=red](单位)(Overlay)
+    \Edge[color=green](抛射体)(碎片)
+    \Edge[color=green](抛射体)(动画)
+    \Edge[color=green](碎片)(伤害)
+    \Edge[color=green](碎片)(动画)
+    \Edge[color=green](动画)(碎片)
+    \Edge[color=green,style={->,bend left=5}](动画)(单位)
+    \Edge[color=green,style={->,bend left=5}](粒子)(动画)
+    \Edge[color=green](单位)(碎片)
+    \Edge[color=green](弹头)(粒子)
+    \Edge[color=green](Overlay)(粒子)
+    \Edge[color=green](Overlay)(伤害)
+    \Edge[color=green](Overlay)(动画)
+    \Edge[color=green](碎片)(Overlay)
+\end{tikzpicture}
+
+\end{document}
