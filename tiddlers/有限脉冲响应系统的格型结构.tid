@@ -1,7 +1,7 @@
 caption: 格型结构
 created: 20191125131020663
 creator: miRoox
-modified: 20191226105348899
+modified: 20200111093501854
 modifier: miRoox
 tags: 待完善 有限脉冲响应系统
 title: 有限脉冲响应系统的格型结构
@@ -11,7 +11,11 @@ type: text/vnd.tiddlywiki
 
 双端口网络
 
+[img width=640 [FIR-system-lattice.svg]]
+
 第$$m$$级：
+
+[img width=384 [FIR-system-lattice-single.svg]]
 
 $$
 \begin{cases}
