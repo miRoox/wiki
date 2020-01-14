@@ -1,7 +1,7 @@
 caption: MPM
 created: 20190926091818797
 creator: miRoox
-modified: 20190926092212930
+modified: 20200114072753003
 modifier: miRoox
 tags: 框架-库-工具包 Mathematica个人常用工具包
 title: MPM
@@ -16,3 +16,5 @@ Import["https://raw.githubusercontent.com/kubapod/mpm/master/install.m"]
 ```
 
 链接： https://github.com/kubaPod/MPM
+
+另见：[[GitHubInstall|https://resources.wolframcloud.com/FunctionRepository/resources/GitHubInstall]]
