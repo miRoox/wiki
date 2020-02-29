@@ -1,0 +1,12 @@
+caption: 泛型
+created: 20200229145003026
+creator: miRoox
+modified: 20200229145215127
+modifier: miRoox
+tags: 待完善 Rust语法
+title: Rust泛型
+type: text/vnd.tiddlywiki
+
+! 泛型
+
+''泛型（generics）''是具体类型或其他属性的抽象替代。我们可以表达泛型的属性，比如他们的行为或如何与其他泛型相关联，而不需要在编写和编译代码时知道他们在这里实际上代表什么。
