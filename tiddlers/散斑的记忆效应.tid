@@ -1,7 +1,7 @@
 caption: 记忆效应
 created: 20191110082350280
 creator: miRoox
-modified: 20191119121412014
+modified: 20200301120743504
 modifier: miRoox
 tags: 待完善 物理光学
 title: 散斑的记忆效应
@@ -13,3 +13,12 @@ type: text/vnd.tiddlywiki
 $$
 I(\theta)=\iint_{\Reals^2}O(\bm{r})S(\bm{r}-\theta d)\,\mathrm{d}^2\bm{r}=[O\ast S](\theta)
 $$
+
+能保持光学记忆效应的入射角度范围
+$$
+\Delta\theta=\frac{\lambda}{2\pi d}
+$$
+
+!! 平移光学记忆效应
+
+正交异性散射介质。
