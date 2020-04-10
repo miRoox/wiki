@@ -1,0 +1,14 @@
+caption: 机器视觉
+created: 20200410060732198
+creator: miRoox
+modified: 20200410130652191
+modifier: miRoox
+tags: 工程技术（分类）
+title: 机器视觉
+type: text/vnd.tiddlywiki
+
+! 机器视觉
+
+偏重于[[计算机视觉]]技术工程化，能够自动获取和分析特定的图像，以控制相应的行为。
+
+<<list-links "[tag<currentTiddler>]">>
