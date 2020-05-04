@@ -1,0 +1,13 @@
+created: 20200504134116255
+creator: miRoox
+modified: 20200504134244314
+modifier: miRoox
+tags: 待完善 机器视觉
+title: 摄像机
+type: text/vnd.tiddlywiki
+
+! 摄像机
+
+固态摄像机采用一种全固化的器件，其光敏元件的作用是：依光电效应原理，把光辐射的能量转化为电信号（图像）
+
+<<list-links "[tag<currentTiddler>]">>
