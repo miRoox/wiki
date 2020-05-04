@@ -1,0 +1,21 @@
+created: 20200504151018978
+creator: miRoox
+modified: 20200504151035783
+modifier: miRoox
+tags: 待完善 CCD图像读出方式 CCD摄像机
+title: 帧转移式CCD
+type: text/vnd.tiddlywiki
+
+!!! 帧转移（Frame Transfer） 式
+
+* 在器件上划分感光区和存储区。
+* 感光区电荷先转移到存储区，然后再逐行向串行寄存器移动。
+
+优点：
+
+* 保证单位像素上的感光面积。
+* 保证了拍摄速度。
+
+缺点：
+
+* 必须有两个面积相同的感光区和存储区，制造成本较高。

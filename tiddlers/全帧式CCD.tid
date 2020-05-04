@@ -1,0 +1,25 @@
+created: 20200504150624645
+creator: miRoox
+modified: 20200504151004211
+modifier: miRoox
+tags: 待完善 CCD图像读出方式 CCD摄像机
+title: 全帧式CCD
+type: text/vnd.tiddlywiki
+
+!!! 全帧（Full Frame）式
+
+* 感光元件产生电信号
+* 电荷转移到串行寄存器
+* 放大、模数转换、数字信息
+
+优点：
+
+* 动态范围宽
+* 信噪比高
+* 分辨率高
+* 一般用于高端CCD成像
+
+缺点：
+
+* 成像速度慢
+* 必须借助机械快门控制曝光

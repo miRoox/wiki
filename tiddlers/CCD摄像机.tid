@@ -1,0 +1,22 @@
+caption: CCD
+created: 20200504134326026
+creator: miRoox
+modified: 20200504151015749
+modifier: miRoox
+tags: 待完善 摄像机
+title: CCD摄像机
+type: text/vnd.tiddlywiki
+
+! CCD
+
+CCD(Charge Coupled Device)， “电荷耦合器件”
+
+!! 图像记录方式
+
+# 光电转换：CCD感光部分，就是一个由金属-氧化物-半导体组成的电容器。这一装置能够完成光电转换。
+# 电荷储存：当向CCD单元电极施加正电压时，会产生能储存电荷的势阱。随着电荷的不断注入，势阱会不断变浅，直至饱和。
+# 电荷转移：当一个CCD芯片感光完毕后，每个像素所转换的电荷包，就按照一定的顺序转移出CCD感光区域，为下一次感光释放空间。
+
+!! 图像读出方式
+
+<<list-links "[tag[CCD图像读出方式]]">>
