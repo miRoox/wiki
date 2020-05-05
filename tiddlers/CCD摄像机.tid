@@ -1,7 +1,7 @@
 caption: CCD
 created: 20200504134326026
 creator: miRoox
-modified: 20200504151015749
+modified: 20200505124112669
 modifier: miRoox
 tags: 待完善 摄像机
 title: CCD摄像机
@@ -20,3 +20,18 @@ CCD(Charge Coupled Device)， “电荷耦合器件”
 !! 图像读出方式
 
 <<list-links "[tag[CCD图像读出方式]]">>
+
+!! CCD参数
+
+CCD的尺寸通常指成像面对角线长度。
+
+$$
+\begin{aligned}
+R&=2P\\
+M&=\frac{L}{FOV}\\
+R_{\text{obj}}&=\frac{R}{M}=\frac{2P\cdot FOV}{L}
+\end{aligned}
+$$
+
+其中,
+$$R(\mu m)$$-分辨率，$$P(\mu m)$$-像元大小，$$FOV(mm)$$-水平视场，$$L(mm)$$-芯片长边，$$R_{\text{obj}}(\mu m)$$-对物体的分辨率。
