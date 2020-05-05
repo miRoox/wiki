@@ -1,0 +1,12 @@
+caption: GemICam
+created: 20200505134652996
+creator: miRoox
+modified: 20200505134830526
+modifier: miRoox
+tags: 摄像机输出接口 待完善
+title: GemICam
+type: text/vnd.tiddlywiki
+
+! GemICam
+
+[[Halcon]]开发的通用软件API层，可访问、控制任何相机

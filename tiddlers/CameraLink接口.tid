@@ -1,0 +1,12 @@
+caption: CameraLink
+created: 20200505131939059
+creator: miRoox
+modified: 20200505133126645
+modifier: miRoox
+tags: 摄像机输出接口 待完善
+title: CameraLink接口
+type: text/vnd.tiddlywiki
+
+! CameraLink
+
+传输率高，可达5.4Gb/s@85MHz，通讯采用LVDS（Low Voltage differential Signaling）格式，最远距离10米

@@ -1,0 +1,18 @@
+created: 20200505075719651
+creator: miRoox
+modified: 20200505075802178
+modifier: miRoox
+tags: 待完善 CCD摄像机
+title: 线阵CCD
+type: text/vnd.tiddlywiki
+
+! 线阵CCD
+
+工作原理：扫描
+
+系统要求：单方向相对运动
+
+优点：分辨率高、速度快、成本低
+             （5K，8K像素）
+
+缺点：要求高、感光差

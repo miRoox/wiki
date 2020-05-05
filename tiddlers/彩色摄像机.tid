@@ -1,0 +1,12 @@
+created: 20200505150944831
+creator: miRoox
+modified: 20200505151102455
+modifier: miRoox
+tags: 待完善 摄像机
+title: 彩色摄像机
+type: text/vnd.tiddlywiki
+
+! 彩色摄像机
+
+* 单芯片摄像机：Bayer滤镜阵列
+* 三芯片摄像机：分光镜+滤光片
