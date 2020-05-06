@@ -1,0 +1,11 @@
+created: 20200506133029124
+creator: miRoox
+modified: 20200506134350888
+modifier: miRoox
+tags: 摄像机噪声 噪声 待完善
+title: 复位噪声
+type: text/vnd.tiddlywiki
+
+! 复位噪声
+
+读出电荷后，不能完全复位，通过双采样可以去除

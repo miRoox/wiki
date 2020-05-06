@@ -1,6 +1,6 @@
 created: 20200504134116255
 creator: miRoox
-modified: 20200505131936054
+modified: 20200506135038275
 modifier: miRoox
 tags: 待完善 机器视觉
 title: 摄像机
@@ -15,3 +15,9 @@ type: text/vnd.tiddlywiki
 !! 摄像机输出接口
 
 <<list-links "[tag[摄像机输出接口]]">>
+
+!! 摄像机性能
+
+噪声：
+
+<<list-links "[tag[摄像机噪声]]">>

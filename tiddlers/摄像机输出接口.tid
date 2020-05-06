@@ -1,0 +1,25 @@
+created: 20200506134803309
+creator: miRoox
+modified: 20200506135003319
+modifier: miRoox
+tags: 待完善 摄像机
+title: 摄像机输出接口
+type: text/vnd.tiddlywiki
+
+! 输出接口
+
+模拟Analog输出
+
+* PAL：720*576像素，25帧/秒，625扫描行
+* NTSC：720*486像素，30帧/秒，525扫描行
+* 简单可靠，成本低，分辨率低，噪声大，成像质量差
+
+数字Digital输出
+
+* [[CameraLink|CameraLink接口]]：传输率高，可达5.4Gb/s@85MHz，通讯采用LVDS（Low Voltage differential Signaling）格式，最远距离10米
+* [[IEEE1394（FireWare）]]:标准接口，400Mb/s，800Mb/s
+* USB2.0/3.0/3.1： 标准接口，480Mb/s，5Gb/s，10Gb/s，即插即用
+* Gigabit Ethernet： 标准接口1Gb/s，10Gb/s，远距离传输，即插即用
+* CoaXPress（CXP）：新接口标准，6.25Gb/s，传输距离50米，可采 用多线缆传输，线缆数不受限制， 单根传输600MB/s。
+* [[GemICam]]  HALCON开发的通用软件API层，可访问、控制任何相机
+
