@@ -1,0 +1,22 @@
+created: 20200802032046298
+creator: miRoox
+modified: 20200802033116087
+modifier: miRoox
+tags: 组会 日志
+title: 2020年08月02日
+type: text/vnd.tiddlywiki
+
+# Enhanced Phase Retrieval Metho Based on Random Phase Modulation
+# Sharpness-statistics-based auto-focusing algorithm for optical ptychography
+# Attention by Selection: A Deep Selective Attention Approach to Breast Cancer Classification
+# Interference probe ptychography for computational amplitude and phase microscopy
+# Optimization of sampling pattern and the design of Fourier ptychographic illuminator
+# Expansion of the FOV in speckle autocorrelation imaging by spatial filtering
+
+---
+
+构造满足将一维信号以此方式变换到二维信号的系统
+$$
+g(x,y)=\left(f \left(x+\frac{y}{2}\right)\right) \left(f^* \left(x-\frac{y}{2}\right)\right)
+$$
+从而可以使用二维信号的一维傅里叶变换实现一维信号的[[Wigner分布|Wigner-Ville分布]]
