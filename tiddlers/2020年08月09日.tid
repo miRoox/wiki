@@ -1,0 +1,23 @@
+created: 20200809023917780
+creator: miRoox
+modified: 20200809032245135
+modifier: miRoox
+tags: 组会 日志
+title: 2020年08月09日
+type: text/vnd.tiddlywiki
+
+# Synthetic aperture-based on-chip microscopy
+# Adaptive Learning knowledge Networks for Few-Shot Learning
+# Coded coherent diffraction imaging with reduced binary modulations and low-dynamic-range detection
+# Resolution-enhanced Fourier ptychographic microscopy based on high-numerical-aperture illuminations
+# Digital image correlation with improved efficiency by pixel selection
+# Non-invasive single-shot recovery of point-spread function of a memory effect based scattering imaging system
+# Resolution enhancement in digital holography be self-extrapolation of holograms
+
+---
+
+对于
+$$
+g(x,y)=f \left(x+\frac{y}{2}\right)f^* \left(x-\frac{y}{2}\right)
+$$
+考虑全息（干涉）/联合变换相关器。
