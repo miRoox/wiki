@@ -1,7 +1,7 @@
 caption: 叠层扫描成像
 created: 20191018050711850
 creator: miRoox
-modified: 20191110074810945
+modified: 20200920115102552
 modifier: miRoox
 tags: 待完善 计算光学
 title: 叠层扫描成像
@@ -60,5 +60,5 @@ $$\alpha$$和$$\beta$$为需要合理选择的参数
 
 !! 参考文献
 
-[1] RODENBURG J M, FAULKNER H M L. A phase retrieval algorithm for shifting illumination[J]. Applied Physics Letters, 2004, 85(20): 4795.
-[1] 姚玉东, 刘诚, 潘兴臣, 等. PIE成像方法技术现状及发展趋势[J]. 中国激光, 2016, 43(6): 0609001.
+# RODENBURG J M, FAULKNER H M L. A phase retrieval algorithm for shifting illumination[J]. Applied Physics Letters, 2004, 85(20): 4795.
+# 姚玉东, 刘诚, 潘兴臣, 等. PIE成像方法技术现状及发展趋势[J]. 中国激光, 2016, 43(6): 0609001.
