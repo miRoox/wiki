@@ -1,0 +1,35 @@
+created: 20200920082949644
+creator: miRoox
+modified: 20200920123053272
+modifier: miRoox
+tags: 组会 日志
+title: 2020年09月20日
+type: text/vnd.tiddlywiki
+
+# Fast and robust Fourier domain-based classification for on-chip lens-free flow cytometry
+# Maskless imaging of dense samples using pixel super-resolution based multi-height lensfree on-chip microscopy
+# Holographic pixel super-resolution in portable lensless on-chip microscopy using a fiber-optic array
+# Deep learning virtual colorful lens-free on-chip microscopy
+# Study on the method of measuring LIBS ablation by the extended depth of field imaging microscope three-dimensional reconstruction
+# 高光照环境适应性的车道图像增强算法研究
+# Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
+# TDD-net: a tiny defect detection network for printed circuit boards
+# Superresolution imaging via ptychography
+# Learning complex scattering media for optical encryption
+# System calibration method for Fourier ptychographic microscopy
+# Compressed sensing spectral domain optical coherence tomography with a hardware sparse-sampled camera
+# Infrared small target detection in heavy sky scene clutter based on sparse representation
+# Intelligent Lighting Control for LED Follow Spotlights Based on Machine Vision
+# Versatile optical microscopy using a reconfigurable hemispherical digital condenser
+# Multialgorithm Fusion Image Processing for High Speed Railway Dropper Failure–Defect Detection
+# Proposal generation method for object detection in infrared image
+# Color Balance and Fusion for Underwater Image Enhancement
+
+---
+
+考虑更高效的[[PIE|叠层扫描成像]]自动聚焦搜索方式：
+
+* 牛顿法等[[优化|运筹学]]方法取代扫描法
+* 每次只用叠层扫描的一部分数据计算目标（锐度）函数
+
+参考：[[关于轴向距离误差对PIE成像质量影响的研究|https://doi.org/10.3788/AOS201434.1011003]]
