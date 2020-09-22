@@ -1,0 +1,15 @@
+caption: 标签派发
+created: 20200922114209136
+creator: miRoox
+modified: 20200922123552758
+modifier: miRoox
+tags: C++惯用法
+title: 标签派发（C++）
+type: text/vnd.tiddlywiki
+
+将空类型作为标签以调整重载策略。
+
+典型：
+
+* [[迭代器|C++迭代器]]算法选择
+* 基于[[类型特性|C++类型特性]]选择

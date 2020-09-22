@@ -1,0 +1,53 @@
+caption: SFINAE
+created: 20200922104626765
+creator: miRoox
+modified: 20200922113307192
+modifier: miRoox
+tags: C++惯用法 C++语法 替换失败不是错误
+title: 替换失败不是错误
+type: text/vnd.tiddlywiki
+
+! “替换失败不是错误” (Substitution Failure Is Not An Error)
+
+在函数模板的重载决议中应用此规则：当将模板形参替换为显式指定的类型或推导的类型失败时，从重载集中丢弃这个特化，而非导致编译失败。
+
+对函数模板形参进行两次替换（由模板实参所替代）：
+
+* 显式指定的模板实参在模板实参推导之前替换
+* 推导的实参和从默认项获得的实参在模板实参推导之后替换
+
+!! 典型用法
+
+!!! 将条件放在模板末尾的类型参数的默认值上
+
+e.g.
+
+```cpp
+class Buffer {
+public:
+    void append(char c, size_t n);
+    template<typename Iter, 
+        typename = typename std::enable_if<
+            !std::is_integral<Iter>::value>::type>
+    void append(Iter bp, Iter ep);
+}
+```
+
+!!! 将条件放在模板末尾具有整数默认值的类型参数上
+
+e.g.
+
+```cpp
+class Buffer {
+public:
+    void append(char c, size_t n);
+    template<typename Iter, 
+        typename std::enable_if<
+            !std::is_integral<Iter>::value,int>::type> = 0
+    void append(Iter bp, Iter ep);
+}
+```
+
+!! 参见
+
+* [[std::enable_if]]
