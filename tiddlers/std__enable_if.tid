@@ -1,0 +1,39 @@
+created: 20200922110216216
+creator: miRoox
+modified: 20200922114104470
+modifier: miRoox
+tags: C++类型支持库
+title: std::enable_if
+type: text/vnd.tiddlywiki
+
+```cpp
+template< bool B, class T = void >
+struct enable_if;
+```
+
+(C++11起)
+
+若 `B` 为 `true`，则存在成员类型 `type` 为 `T`；否则不存在这个成员。
+
+典型实现：
+
+```cpp
+template<bool B, class T = void>
+struct enable_if {};
+ 
+template<class T>
+struct enable_if<true, T> { typedef T type; };
+```
+
+!! 辅助类型
+
+(C++14起)
+
+```cpp
+template< bool B, class T = void >
+using enable_if_t = typename enable_if<B,T>::type;
+```
+
+!! 参见
+
+* [[SFINAE|替换失败不是错误]]
