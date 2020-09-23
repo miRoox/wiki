@@ -1,0 +1,12 @@
+caption: 类型特性
+created: 20200923152258175
+creator: miRoox
+modified: 20200923152355858
+modifier: miRoox
+tags: C++类型支持库
+title: C++类型特性
+type: text/vnd.tiddlywiki
+
+! 类型特性
+
+类型特性定义一个编译时基于模板的结构，以查询或修改类型的属性。

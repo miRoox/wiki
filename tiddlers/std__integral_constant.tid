@@ -1,8 +1,8 @@
 created: 20200922114835041
 creator: miRoox
-modified: 20200922123434234
+modified: 20200923152608583
 modifier: miRoox
-tags: C++类型支持库
+tags: C++类型特性 C++类型支持库
 title: std::integral_constant
 type: text/vnd.tiddlywiki
 
@@ -11,7 +11,7 @@ template< class T, T v >
 struct integral_constant;
 ```
 
-`std::integral_constant` 包装特定类型的静态常量。它是 [[C++类型特性]]的基类。
+`std::integral_constant` 包装特定类型的静态常量。它是[[C++类型特性]]的基类。
 
 成员类型：
 
@@ -38,9 +38,9 @@ template <bool B>
 using bool_constant = integral_constant<bool, B>;
 ```
 
-```
+```cpp
 typedef std::integral_constant<bool, true> true_type
 typedef std::integral_constant<bool, false> false_type
 ```
 
-
+''注''：在[[类型特性|C++类型特性]]中，名为 `is_xxx<>` 的类模板往往继承自 `std::integral_constant<bool, value>` ，从而可以用于[[标签派发|标签派发（C++）]]。

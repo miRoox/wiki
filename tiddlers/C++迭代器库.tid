@@ -1,0 +1,12 @@
+caption: 迭代器库
+created: 20200923145745636
+creator: miRoox
+modified: 20200923145959500
+modifier: miRoox
+tags: C++标准库
+title: C++迭代器库
+type: text/vnd.tiddlywiki
+
+! 迭代器库
+
+迭代器库提供了[[迭代器|C++迭代器]]的定义，同时还提供了迭代器特征、适配器及相关的工具函数。

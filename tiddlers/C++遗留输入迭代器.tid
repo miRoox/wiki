@@ -1,0 +1,14 @@
+caption: 遗留输入迭代器
+created: 20200923144512166
+creator: miRoox
+modified: 20200923145004059
+modifier: miRoox
+tags: C++具名要求 C++迭代器
+title: C++遗留输入迭代器
+type: text/vnd.tiddlywiki
+
+! 遗留输入迭代器 (LegacyInputIterator)
+
+遗留输入迭代器是能从所指向元素进行读取的[[遗留迭代器|C++遗留迭代器]]。遗留输入迭代器仅保证单趟算法的有效性：一旦自增遗留输入迭代器 `i`，则所有其先前值的副本都可能失效。
+
+!! 要求

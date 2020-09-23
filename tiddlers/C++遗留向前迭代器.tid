@@ -1,0 +1,16 @@
+caption: 遗留向前迭代器
+created: 20200923144722256
+creator: miRoox
+modified: 20200923144955914
+modifier: miRoox
+tags: C++具名要求 C++迭代器
+title: C++遗留向前迭代器
+type: text/vnd.tiddlywiki
+
+! 遗留向前迭代器 (LegacyForwardIterator)
+
+遗留向前迭代器是能从所指向的元素读取数据的[[遗留迭代器|C++遗留迭代器]] 。
+
+不同于[[遗留输入迭代器|C++]]和[[遗留输出迭代器|C++遗留输出迭代器]]，它可被用于多趟算法。
+
+!! 要求

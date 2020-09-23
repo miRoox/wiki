@@ -1,0 +1,14 @@
+caption: 遗留输出迭代器
+created: 20200923145555924
+creator: miRoox
+modified: 20200923145701314
+modifier: miRoox
+tags: C++具名要求 C++迭代器
+title: C++遗留输出迭代器
+type: text/vnd.tiddlywiki
+
+! 遗留输出迭代器 (LegacyOutputIterator)
+
+遗留输出迭代器是能写入所指向元素的[[遗留迭代器|C++遗留迭代器]]。
+
+!! 要求

@@ -1,0 +1,16 @@
+caption: 遗留随机访问迭代器
+created: 20200923145151525
+creator: miRoox
+modified: 20200923145325143
+modifier: miRoox
+tags: C++具名要求 C++迭代器
+title: C++遗留随机访问迭代器
+type: text/vnd.tiddlywiki
+
+! 遗留随机访问迭代器 (LegacyRandomAccessIterator)
+
+遗留随机访问迭代器是能在常数时间内移动到指向任何元素的[[遗留双向迭代器|C++遗留双向迭代器]] 。
+
+指向[[数组|C++数组]]元素的[[指针|C++指针]]满足所有遗留随机访问迭代器的要求。
+
+!! 要求
