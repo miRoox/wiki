@@ -1,0 +1,29 @@
+created: 20200923150023325
+creator: miRoox
+modified: 20200923150557071
+modifier: miRoox
+tags: C++迭代器
+title: C++迭代器标签
+type: text/vnd.tiddlywiki
+
+! [[迭代器|C++迭代器]]标签
+
+定义于头文件 `<iterator>`
+
+```cpp
+struct input_iterator_tag { };
+struct output_iterator_tag { };
+struct forward_iterator_tag : public input_iterator_tag { };
+struct bidirectional_iterator_tag : public forward_iterator_tag { };
+struct random_access_iterator_tag : public bidirectional_iterator_tag { };
+struct contiguous_iterator_tag: public random_access_iterator_tag { }; // C++20 起
+```
+
+顾名思义，迭代器分类标签可以用以标示某个迭代器的分类，可以根据这一分类所要求的特性来选择最优算法。
+
+每个迭代器类型 `It` 都有对应的 `std::iterator_traits<It>::iterator_category` 类型别名，即几种类型之一。
+
+!! 参见
+
+* [[标签派发|标签派发（C++）]]
+* [[std::iterator_traits]]

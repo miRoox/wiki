@@ -1,0 +1,18 @@
+caption: 遗留连续迭代器
+created: 20200923145354901
+creator: miRoox
+modified: 20200923145504910
+modifier: miRoox
+tags: C++具名要求 C++迭代器
+title: C++遗留连续迭代器
+type: text/vnd.tiddlywiki
+
+! 遗留连续迭代器 (LegacyContiguousIterator)
+
+C++17引入。
+
+遗留连续迭代器是[[遗留迭代器|C++遗留迭代器]]，其所指向的逻辑相邻元素也在内存中物理上相邻。
+
+指向[[数组|C++数组]]元素的[[指针|C++指针]]满足所有遗留连续迭代器的要求。
+
+!! 要求

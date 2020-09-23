@@ -1,7 +1,7 @@
 caption: 标签派发
 created: 20200922114209136
 creator: miRoox
-modified: 20200922123552758
+modified: 20200923151358154
 modifier: miRoox
 tags: C++惯用法
 title: 标签派发（C++）
@@ -11,5 +11,5 @@ type: text/vnd.tiddlywiki
 
 典型：
 
-* [[迭代器|C++迭代器]]算法选择
-* 基于[[类型特性|C++类型特性]]选择
+* [[迭代器|C++迭代器]]算法选择（利用[[迭代器标签|C++迭代器标签]]）
+* 基于[[类型特性|C++类型特性]]选择（利用[[std::integral_constant]]）

@@ -1,0 +1,14 @@
+caption: 遗留迭代器
+created: 20200923143913548
+creator: miRoox
+modified: 20200923145041296
+modifier: miRoox
+tags: C++具名要求 C++迭代器
+title: C++遗留迭代器
+type: text/vnd.tiddlywiki
+
+! 遗留迭代器 (LegacyIterator)
+
+遗留[[迭代器|C++迭代器]] (LegacyIterator) 概念描述可以用来标识和遍历容器中的元素的类型。
+
+!! 要求

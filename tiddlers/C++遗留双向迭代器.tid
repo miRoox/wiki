@@ -1,0 +1,14 @@
+caption: 遗留双向迭代器
+created: 20200923144936532
+creator: miRoox
+modified: 20200923145149278
+modifier: miRoox
+tags: C++具名要求 C++迭代器
+title: C++遗留双向迭代器
+type: text/vnd.tiddlywiki
+
+! 遗留双向迭代器 (LegacyBidirectionalIterator)
+
+遗留双向迭代器是能双向移动（即自增与自减）的[[遗留向前迭代器|遗留向前迭代器]]。
+
+!! 要求
