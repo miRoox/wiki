@@ -1,0 +1,30 @@
+created: 20200927051655604
+creator: miRoox
+modified: 20200927111309690
+modifier: miRoox
+tags: 组会 日志
+title: 2020年09月27日
+type: text/vnd.tiddlywiki
+
+# 关于轴向距离误差对PIE成像质量影响的研究
+#* 轴向距离误差 → 横向位置误差
+#* 问题：不光存在横向的位置偏移，还存在光斑的形变。
+# Correction of axial position uncertainty and systematic detector errors in ptychographic diffraction imaging
+
+----
+
+# Handheld Multi-Frame Super-Resolution
+# Fast autofocusing in digital holography using the magnitude differential
+# Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+# Reconstruction method of a ptychographic dataset with unknown positions
+# Comparative Analysis ofWarp Function for Digital Image Correlation-Based Accurate Single-Shot 3D Shape Measurement
+# Efficient illumination angle self-calibration in Fourier ptychography
+# Digital holographic phase imaging based on phase iteratively enhanced compressive sensing
+# Robust Visual Tracking and Vehicle Classification via Sparse Representation
+# Fast Edge-Preserving PatchMatch for Large Displacement Optical Flow
+# Blind position detection for large field-of-view scattering imaging
+# Dynamic 3D shape measurement by iterative phase shifting algorithms and colored fringe patterns
+# Fast gradational reconstruction for Fourier ptychographic microscopy
+# Apodized coherent transfer function constraint for partially coherent Fourier ptychographic microscopy
+# Image Super-Resolution Via Sparse Representation
+# Camera calibration by using fringe patterns and 2D phase-difference pulse detection
