@@ -1,0 +1,56 @@
+created: 20201017031642011
+creator: miRoox
+modified: 20201102034501593
+modifier: miRoox
+tags: 框架-库-工具包 PMAC
+title: PMAC-PcommServer库
+type: text/vnd.tiddlywiki
+
+! PcommServer库
+
+!! `PmacDeviceClass` 常用方法
+
+!!! `SelectDevice()`
+
+选择 PMAC 设备。这会打开一个设备配置对话框，来添加、移除、配置已注册的 PMAC 设备，并可以改变设备的属性。
+
+```csharp
+void SelectDevice(
+    int hWindow,            // 设备配置对话框的父窗体句柄
+    out int pDeviceNumber,  // 输出选择的设备编号
+    out bool pbSuccess      // 指示是否成功
+);
+```
+
+!!! `Open()`
+
+通过 PMAC 的驱动程序打开一个设备信道。
+
+```csharp
+void Open(
+    int dwDevice,       // 设备编号
+    out bool pbSuccess  // 指示是否成功
+);
+```
+
+!!! `Close()`
+
+关闭一个设备信道。
+
+```csharp
+void Close(
+    int dwDevice // 设备编号
+);
+```
+
+!!! `GetResponseEx()`
+
+```csharp
+virtual public void GetResponseEx(
+    int dwDevice,       // 设备编号
+    string question,    // 命令字符串，如 "#1j+"
+    bool bAddLF,        // 是否在多行命令间添加换行符
+    out string pAnswer, // PMCA 回应的字符串
+    out int pstatus     // 状态字（高位记录了调用的状态，低位保存了 PMAC 返回的字符数）
+);
+```
