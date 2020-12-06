@@ -1,0 +1,28 @@
+created: 20201206125600885
+creator: miRoox
+modified: 20201206130904280
+modifier: miRoox
+tags: 日志 组会
+title: 2020年12月06日
+type: text/vnd.tiddlywiki
+
+# Sharpness-statistics-based auto-focusing algorithm for optical ptychography
+#* 两步定位：
+#*# 单个衍射斑，选取少量裁剪区域，进行粗定位
+#*# 使用全部衍射斑，3次ePIE迭代，多种评价函数，进行精定位
+
+---
+
+# 基于正弦相位编码的相机离焦标定
+# Rethinking attention-gated U-shaped network for microdefect detection of display panel
+# Frequency-domain diagonal extension imaging
+# Random Positional Deviations Correction for Each LED via ePIE in Fourier Ptychographic Microscopy
+# Real-time part-based visual tracking via adaptive correlation filters
+# 3D shape, deformation, and vibration measurements using infrared Kinect sensors and digital image correlation
+# Characterization of the angular memory effect of scattered light in biological tissues
+# Expansion of the FOV in speckle autocorrelation imaging by spatial filtering
+# Fast 3D form measurement using a tunable lens profiler based on imaging with LED illumination
+# An efficient Fourier ptychographic microscopy method based on optimized pattern of LED angle illumination
+# Discriminative Scale Space Tracking
+# Machine vision intelligence for product defect inspection based on deep learning and Hough transform
+# Accurate feature detection for out-of-focus camera calibration
