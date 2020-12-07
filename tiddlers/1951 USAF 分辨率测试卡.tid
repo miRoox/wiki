@@ -1,0 +1,18 @@
+created: 20201207141844290
+creator: miRoox
+modified: 20201207143843174
+modifier: miRoox
+tags: 分辨率测试 工程光学
+title: 1951 USAF 分辨率测试卡
+type: text/vnd.tiddlywiki
+
+1951 USAF [[分辨率]]测试图（ 1951 USAF resolution test chart）是符合 MIL-STD-150A 标准的分辨率测试图案，由美国空军于1951年创建。
+
+它包含多组线对。测试时以成像系统无法辩明的最大短线组为其分辨能力极限。
+
+分辨率计算公式：
+$$
+{\text{Resolution (lp/mm)}}=2^{{{\text{Group}}+({\text{element}}-1)/6}}
+$$
+
+四周部分用于检测边缘分辨率。
