@@ -5,6 +5,7 @@
         "tiddlywiki/filesystem",
         "tiddlywiki/highlight",
         "tiddlywiki/katex",
+        "tiddlywiki/markdown",
         "tiddlywiki/codemirror",
         "tiddlywiki/codemirror-autocomplete",
         "tiddlywiki/codemirror-closetag",
