@@ -1,10 +1,8 @@
 caption: 分析规则语言
 created: 20210314121422089
 creator: miRoox
-modified: 20210314122104763
+modified: 20210314123412343
 modifier: miRoox
 tags: 计算机语言
 title: 新冠病毒核酸快速检测平台的分析规则语言
-type: text/vnd.tiddlywiki
-
-这是''新冠病毒核酸快速检测平台''内置的DSL，用于根据原始数据分析得到判定结果。
+type: text/x-markdown
