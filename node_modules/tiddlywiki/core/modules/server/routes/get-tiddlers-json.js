@@ -3,7 +3,7 @@ title: $:/core/modules/server/routes/get-tiddlers-json.js
 type: application/javascript
 module-type: route
 
-GET /recipes/default/tiddlers/tiddlers.json?filter=<filter>
+GET /recipes/default/tiddlers.json?filter=<filter>
 
 \*/
 (function() {
@@ -20,13 +20,16 @@ exports.path = /^\/recipes\/default\/tiddlers.json$/;
 
 exports.handler = function(request,response,state) {
 	var filter = state.queryParameters.filter || DEFAULT_FILTER;
-	if($tw.wiki.getTiddlerText("$:/config/Server/AllowAllExternalFilters") !== "yes") {
-		if($tw.wiki.getTiddlerText("$:/config/Server/ExternalFilters/" + filter) !== "yes") {
-			console.log("Blocked attempt to GET /recipes/default/tiddlers/tiddlers.json with filter: " + filter);
+	if(state.wiki.getTiddlerText("$:/config/Server/AllowAllExternalFilters") !== "yes") {
+		if(state.wiki.getTiddlerText("$:/config/Server/ExternalFilters/" + filter) !== "yes") {
+			console.log("Blocked attempt to GET /recipes/default/tiddlers.json with filter: " + filter);
 			response.writeHead(403);
 			response.end();
 			return;
 		}
+	}
+	if(state.wiki.getTiddlerText("$:/config/SyncSystemTiddlersFromServer") === "no") {
+		filter += "+[!is[system]]";
 	}
 	var excludeFields = (state.queryParameters.exclude || "text").split(","),
 		titles = state.wiki.filterTiddlers(filter);
