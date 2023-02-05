@@ -5,6 +5,7 @@ modified: 20191002054444104
 modifier: miRoox
 tags: Julia语法
 title: Julia变量
+tmap.id: 1d973289-5fac-42c2-8ce3-7f68883d9102
 type: text/vnd.tiddlywiki
 
 Julia 语言中，变量是与某个值相关联（或绑定）的名字。你可以用它来保存一个值（例如某些计算得到的结果），供之后的代码使用。

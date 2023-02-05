@@ -5,6 +5,7 @@ modified: 20191017095632745
 modifier: miRoox
 tags: 待完善 Git合并修改
 title: git-cherry-pick
+tmap.id: 568f6e60-0848-4010-967f-facc01a2c1b7
 type: text/vnd.tiddlywiki
 
 !! `git cherry-pick`

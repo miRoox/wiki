@@ -1,0 +1,11 @@
+title: $:/plugins/felixhayashi/tiddlymap/dialogFooter/ok
+
+\whitespace trim
+\rules except wikilink
+
+<$button tooltip="Confirm dialog">OK
+
+  <!-- trigger dialog callback -->
+  <$action-setfield $tiddler=<<result>> text="1" />
+                       
+</$button>

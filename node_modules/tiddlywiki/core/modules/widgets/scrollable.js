@@ -16,26 +16,6 @@ var Widget = require("$:/core/modules/widgets/widget.js").widget;
 
 var ScrollableWidget = function(parseTreeNode,options) {
 	this.initialise(parseTreeNode,options);
-	this.scaleFactor = 1;
-	this.addEventListeners([
-		{type: "tm-scroll", handler: "handleScrollEvent"}
-	]);
-	if($tw.browser) {
-		this.requestAnimationFrame = window.requestAnimationFrame ||
-			window.webkitRequestAnimationFrame ||
-			window.mozRequestAnimationFrame ||
-			function(callback) {
-				return window.setTimeout(callback, 1000/60);
-			};
-		this.cancelAnimationFrame = window.cancelAnimationFrame ||
-			window.webkitCancelAnimationFrame ||
-			window.webkitCancelRequestAnimationFrame ||
-			window.mozCancelAnimationFrame ||
-			window.mozCancelRequestAnimationFrame ||
-			function(id) {
-				window.clearTimeout(id);
-			};
-	}
 };
 
 /*
@@ -58,10 +38,14 @@ ScrollableWidget.prototype.handleScrollEvent = function(event) {
 	if(this.outerDomNode.scrollWidth <= this.outerDomNode.offsetWidth && this.outerDomNode.scrollHeight <= this.outerDomNode.offsetHeight && this.fallthrough === "yes") {
 		return true;
 	}
+	var options = {};
+	if($tw.utils.hop(event.paramObject,"animationDuration")) {
+		options.animationDuration = event.paramObject.animationDuration;
+	}
 	if(event.paramObject && event.paramObject.selector) {
-		this.scrollSelectorIntoView(null,event.paramObject.selector);
+		this.scrollSelectorIntoView(null,event.paramObject.selector,null,options);
 	} else {
-		this.scrollIntoView(event.target);			
+		this.scrollIntoView(event.target,null,options);
 	}
 	return false; // Handled event
 };
@@ -69,9 +53,9 @@ ScrollableWidget.prototype.handleScrollEvent = function(event) {
 /*
 Scroll an element into view
 */
-ScrollableWidget.prototype.scrollIntoView = function(element) {
-	var duration = $tw.utils.getAnimationDuration(),
-	srcWindow = element ? element.ownerDocument.defaultView : window;
+ScrollableWidget.prototype.scrollIntoView = function(element,callback,options) {
+	var duration = $tw.utils.hop(options,"animationDuration") ? parseInt(options.animationDuration) : $tw.utils.getAnimationDuration(),
+		srcWindow = element ? element.ownerDocument.defaultView : window;
 	this.cancelScroll();
 	this.startTime = Date.now();
 	var scrollPosition = {
@@ -117,7 +101,7 @@ ScrollableWidget.prototype.scrollIntoView = function(element) {
 			if(duration <= 0) {
 				t = 1;
 			} else {
-				t = ((Date.now()) - self.startTime) / duration;	
+				t = ((Date.now()) - self.startTime) / duration;
 			}
 			if(t >= 1) {
 				self.cancelScroll();
@@ -134,11 +118,11 @@ ScrollableWidget.prototype.scrollIntoView = function(element) {
 	}
 };
 
-ScrollableWidget.prototype.scrollSelectorIntoView = function(baseElement,selector,callback) {
+ScrollableWidget.prototype.scrollSelectorIntoView = function(baseElement,selector,callback,options) {
 	baseElement = baseElement || document.body;
 	var element = baseElement.querySelector(selector);
 	if(element) {
-		this.scrollIntoView(element,callback);		
+		this.scrollIntoView(element,callback,options);
 	}
 };
 
@@ -147,6 +131,26 @@ Render this widget into the DOM
 */
 ScrollableWidget.prototype.render = function(parent,nextSibling) {
 	var self = this;
+	this.scaleFactor = 1;
+	this.addEventListeners([
+		{type: "tm-scroll", handler: "handleScrollEvent"}
+	]);
+	if($tw.browser) {
+		this.requestAnimationFrame = window.requestAnimationFrame ||
+			window.webkitRequestAnimationFrame ||
+			window.mozRequestAnimationFrame ||
+			function(callback) {
+				return window.setTimeout(callback, 1000/60);
+			};
+		this.cancelAnimationFrame = window.cancelAnimationFrame ||
+			window.webkitCancelAnimationFrame ||
+			window.webkitCancelRequestAnimationFrame ||
+			window.mozCancelAnimationFrame ||
+			window.mozCancelRequestAnimationFrame ||
+			function(id) {
+				window.clearTimeout(id);
+			};
+	}
 	// Remember parent
 	this.parentDomNode = parent;
 	// Compute attributes and execute state

@@ -5,6 +5,7 @@ modified: 20190924125609234
 modifier: miRoox
 tags: TeX类别码
 title: TeX回车
+tmap.id: 084ac2c4-374c-40c0-81c2-c9293e7b6ab2
 type: text/vnd.tiddlywiki
 
 TeX读入文件''之后''，每行均以 `CR`（回车符）结尾。

@@ -5,6 +5,7 @@ modified: 20190924053651248
 modifier: miRoox
 tags: C++惯用法
 title: 指向实现的指针
+tmap.id: 59011c92-11bb-4e1b-921a-fdd4e2a3bd82
 type: text/vnd.tiddlywiki
 
 ! 指向实现的指针（PImpl）
