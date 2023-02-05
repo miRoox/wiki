@@ -1,0 +1,8 @@
+created: 20230205073932258
+description: Anim=动画名，武器的开火动画，对于新手来说不存在考虑进武器的意义,只有中手才会使用它作为跳板。特征是追随单位移动，可以挂载伤害和粒子，可以用trailer代码挂碎片和其他动画
+modified: 20230205145321594
+modifier: miRoox
+show-label: false
+style: {"color":{"color":"rgba(255,3,0,1)"}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:武器-动画
+type: text/vnd.tiddlywiki

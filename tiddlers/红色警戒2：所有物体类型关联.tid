@@ -1,10 +1,10 @@
 caption: 所有物体类型关联
 created: 20190930031719873
 creator: miRoox
-modified: 20200111074559737
+modified: 20230205145701691
 modifier: miRoox
-tags: 待完善 [[红警2 Mod 技术]]
-title: Unlimited Weapon Works
+tags: 待完善 红色警戒2
+title: 红色警戒2：所有物体类型关联
 tmap.id: 0092fac4-9a63-4b93-8a07-f0fad6c79df0
 type: text/vnd.tiddlywiki
 
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 
 转载自 [ext[红警DIY论坛|http://bbs.ra2diy.com/forum.php?mod=viewthread&tid=2343&extra=page%3D1&page=1]]
 
-[img[RA2-UWW.svg]]
+<$tmap view="RA2UWW" height="500px" ></$tmap>
 
 ---
 

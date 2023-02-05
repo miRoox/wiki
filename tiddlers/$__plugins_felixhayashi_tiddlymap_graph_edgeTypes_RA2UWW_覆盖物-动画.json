@@ -1,0 +1,13 @@
+[
+    {
+        "title": "$:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:覆盖物-动画",
+        "text": "",
+        "modified": "20230205144642565",
+        "created": "20230205075747158",
+        "modifier": "miRoox",
+        "type": "text/vnd.tiddlywiki",
+        "description": "BarrelExplode=，爆炸动画\nOreTwinkle=，矿石闪光动画以及配套的OreTwinkleChance",
+        "style": "{\"color\":{\"color\":\"rgba(0,255,32,1)\"}}",
+        "show-label": "false"
+    }
+]

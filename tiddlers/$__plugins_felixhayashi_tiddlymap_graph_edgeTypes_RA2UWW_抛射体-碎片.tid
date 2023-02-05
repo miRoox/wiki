@@ -1,0 +1,8 @@
+created: 20230205075207469
+description: Trailer=动画或碎片名，TrailerSeperation=数字，TrailerAnim=动画或碎片名，SpawnDelay=数字
+modified: 20230205075903458
+modifier: miRoox
+show-label: false
+style: {"color":{"color":"rgba(0,255,8,1)"}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:抛射体-碎片
+type: text/vnd.tiddlywiki

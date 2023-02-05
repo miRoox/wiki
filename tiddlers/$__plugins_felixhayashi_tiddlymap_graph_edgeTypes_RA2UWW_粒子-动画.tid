@@ -1,0 +1,8 @@
+created: 20230205075424243
+description: 粒子并不能真的作为动画，而是作为视觉效果
+modified: 20230205144408286
+modifier: miRoox
+show-label: false
+style: {"dashes":true,"color":{"color":"rgba(0,255,6,1)"}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:粒子-动画
+type: text/vnd.tiddlywiki

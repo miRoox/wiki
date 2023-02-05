@@ -1,0 +1,13 @@
+caption: 动画
+created: 20230205060828303
+creator: miRoox
+modified: 20230205060852485
+modifier: miRoox
+tags: 红色警戒2：物体类型 待完善
+title: 红色警戒2：动画
+tmap.edges: {"d8eca894-801c-45f0-aeed-df7c88d38722":{"to":"5cbd07ed-7044-4dfa-a6df-f6e360c5dcf0","type":"RA2UWW:动画-粒子"},"4ea6bc54-011b-4f59-9af3-1a92cd723d95":{"to":"822554da-c18c-4ed9-94f8-408d15d82428","type":"RA2UWW:动画-伤害"},"e5ffee80-2a72-4e54-82aa-9f11f7cd4fcc":{"to":"e9da1f4e-38ad-4956-92b3-d655d03d6d06","type":"RA2UWW:动画-弹头"},"3465a0df-745f-40a2-a9fe-7a4901b41d4a":{"to":"13a75dc8-1dcf-4535-a486-a6760a937290","type":"RA2UWW:动画-碎片"},"4fd2203f-d2a3-4153-8f95-0aac6689019b":{"to":"c69ae910-e8b5-4342-a61b-b9949ed40d9b","type":"RA2UWW:动画-单位"},"baa22736-5b06-42eb-9413-b500d1fba61a":{"to":"0f88522b-03aa-4b19-b07f-6f557527a09f","type":"RA2UWW:动画-动画"}}
+tmap.id: 0f88522b-03aa-4b19-b07f-6f557527a09f
+tmap.style: {}
+type: text/vnd.tiddlywiki
+
+!  动画

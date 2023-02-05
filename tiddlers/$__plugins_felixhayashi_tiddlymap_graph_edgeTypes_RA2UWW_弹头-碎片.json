@@ -1,0 +1,13 @@
+[
+    {
+        "title": "$:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:弹头-碎片",
+        "text": "",
+        "modified": "20230205074255211",
+        "created": "20230205073732342",
+        "modifier": "miRoox",
+        "type": "text/vnd.tiddlywiki",
+        "description": "在弹头里添加\nMinDebris=数字\nMaxDebris=数字（默认的SHP碎片，metallic）\n\n如果要调用VXL碎片，则加入如下代码\nDebrisTypes=VXL碎片名\nDebrisMaximums=数字 （这句不影响碎片数目，但是没有这句就会IE）\n\n同时，因为碎片本身其实是一种动画，故可以直接在AnimList里写上碎片名。",
+        "style": "{\"color\":{\"color\":\"rgba(255,106,107,1)\"}}",
+        "show-label": "false"
+    }
+]

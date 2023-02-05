@@ -1,0 +1,8 @@
+created: 20230205075324197
+description: Trailer=动画或碎片名，TrailerSeperation=数字，TrailerAnim=动画或碎片名，SpawnDelay=数字
+modified: 20230205144250215
+modifier: miRoox
+show-label: false
+style: {"color":{"color":"rgba(0,255,9,1)"}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:动画-碎片
+type: text/vnd.tiddlywiki

@@ -1,0 +1,8 @@
+created: 20230205075723429
+description: 伤害数值AmmoCrateDamage=，伤害弹头锁定为C4Warhead=后填写的弹头
+modified: 20230205144619371
+modifier: miRoox
+show-label: false
+style: {"color":{"color":"rgba(0,255,21,1)"}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:覆盖物-伤害
+type: text/vnd.tiddlywiki
