@@ -1,0 +1,13 @@
+[
+    {
+        "title": "$:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:单位-动画",
+        "text": "",
+        "modified": "20230205073300978",
+        "created": "20230205072503176",
+        "modifier": "miRoox",
+        "type": "text/vnd.tiddlywiki",
+        "description": "单位死亡的爆炸动画，对于新手而言不是武器；\n建筑的工作动画，可以作为碎片武器的跳板。",
+        "style": "{\"color\":{\"color\":\"rgba(0,0,0,1)\"}}",
+        "show-label": "false"
+    }
+]

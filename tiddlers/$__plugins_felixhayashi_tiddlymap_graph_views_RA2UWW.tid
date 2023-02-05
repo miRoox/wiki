@@ -1,0 +1,11 @@
+config.edge_type_namespace: RA2UWW
+config.raster: 50
+config.vis: {"nodes":{"shape":"box","physics":false}}
+created: 20230205073127555
+creator: miRoox
+id: 33de5a42-feca-4ba9-bae7-184eea4e516e
+isview: true
+modified: 20230205073127555
+modifier: miRoox
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/RA2UWW
+type: text/vnd.tiddlywiki

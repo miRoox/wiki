@@ -1,0 +1,13 @@
+[
+    {
+        "title": "$:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:抛射体-动画",
+        "text": "",
+        "modified": "20230205144100532",
+        "created": "20230205075229252",
+        "modifier": "miRoox",
+        "type": "text/vnd.tiddlywiki",
+        "description": "Trailer=动画或碎片名，TrailerSeperation=数字，TrailerAnim=动画或碎片名，SpawnDelay=数字\n\n动画可以作为抛射体，发射出去后可以播放\n在ART中添加\nAnimLow=数字\nAnimHigh=数字\nAnimRate=数字\nAnimPalette=yes",
+        "style": "{\"color\":{\"color\":\"rgba(0,255,18,1)\"}}",
+        "show-label": "false"
+    }
+]

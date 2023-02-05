@@ -1,0 +1,8 @@
+created: 20230205075304986
+description: Trailer的4句，以及ExpireAnim=动画或碎片名，如果强制碎片next为动画，此动画将被碎片化
+modified: 20230205144217145
+modifier: miRoox
+show-label: false
+style: {"color":{"color":"rgba(0,255,6,1)"}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:碎片-动画
+type: text/vnd.tiddlywiki

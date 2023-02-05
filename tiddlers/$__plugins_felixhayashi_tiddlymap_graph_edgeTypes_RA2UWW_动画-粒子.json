@@ -1,0 +1,13 @@
+[
+    {
+        "title": "$:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:动画-粒子",
+        "text": "",
+        "modified": "20230205145211500",
+        "created": "20230205073658073",
+        "modifier": "miRoox",
+        "type": "text/vnd.tiddlywiki",
+        "description": "在ART中添加\nSpawnsParticle=粒子名\nNumParticles=数字",
+        "style": "{\"color\":{\"color\":\"rgba(255,9,7,1)\"}}",
+        "show-label": "false"
+    }
+]

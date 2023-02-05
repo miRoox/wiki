@@ -1,0 +1,8 @@
+created: 20230205075641972
+description: 在建筑里加入ToTile，填地形名，如Water01，Green01，注意如果想让此物在水面建造的话需要LaserFencePost=yes。
+modified: 20230205144530914
+modifier: miRoox
+show-label: false
+style: {"color":{"color":"rgba(0,255,9,1)"}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:单位-地形
+type: text/vnd.tiddlywiki

@@ -1,0 +1,8 @@
+created: 20230205073849638
+description: NPext环境下的Warhead，只计算比例和粒子，弹头动画在此弹头用于另一动画时无效
+modified: 20230205074433165
+modifier: miRoox
+show-label: false
+style: {"color":{"color":"rgba(255,107,112,1)"}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:动画-弹头
+type: text/vnd.tiddlywiki

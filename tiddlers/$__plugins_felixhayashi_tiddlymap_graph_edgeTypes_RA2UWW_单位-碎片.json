@@ -1,0 +1,13 @@
+[
+    {
+        "title": "$:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:单位-碎片",
+        "text": "",
+        "modified": "20230205144440004",
+        "created": "20230205075437033",
+        "modifier": "miRoox",
+        "type": "text/vnd.tiddlywiki",
+        "description": "单位爆炸产生VXL碎片\nVXL碎片中ShareSource=VXL单位名\n单位中DebrisTypes=VXL碎片名\nDebrisMaximums=数字\nDebrisMinimums=数字\nDebrisAnims=SHP碎片类型\n\n飞行器类单位也可以使用trailer的4句代码，就是掉碎片，播放尾烟动画",
+        "style": "{\"color\":{\"color\":\"rgba(0,255,14,1)\"}}",
+        "show-label": "false"
+    }
+]

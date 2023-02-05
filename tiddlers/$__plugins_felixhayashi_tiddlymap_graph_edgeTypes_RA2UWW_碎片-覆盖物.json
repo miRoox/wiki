@@ -1,0 +1,13 @@
+[
+    {
+        "title": "$:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:碎片-覆盖物",
+        "text": "",
+        "modified": "20230205144710605",
+        "created": "20230205075802538",
+        "modifier": "miRoox",
+        "type": "text/vnd.tiddlywiki",
+        "description": "TiberiumSpawnType=，这是仅仅用于碎片的代码。ToOverlay仅适合建筑物。\n并不一定填写矿石overlay。理论上此物可以填写一切overlaytypes里注册的物体。值得注意的是并不仅仅产生moder指定的overlay类型，会按照某内置规则（内容不详）产生就近的若干种不同overlay。所以最好复制若干个，注册在一起，这样就可以刷出“同类”overlay了。",
+        "style": "{\"color\":{\"color\":\"rgba(0,255,13,1)\"}}",
+        "show-label": "false"
+    }
+]

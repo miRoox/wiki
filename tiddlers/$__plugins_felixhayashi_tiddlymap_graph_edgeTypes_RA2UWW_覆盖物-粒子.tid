@@ -1,0 +1,8 @@
+created: 20230205075711235
+description: BarrelParticle=，填粒子系统的名字，用于带有Explodes=yes的overlay被引爆时播放，可以仅仅是视觉效果也可以是带有伤害的毒气粒子
+modified: 20230205144556421
+modifier: miRoox
+show-label: false
+style: {"color":{"color":"rgba(0,255,22,1)"}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:覆盖物-粒子
+type: text/vnd.tiddlywiki
