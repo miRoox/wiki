@@ -5,6 +5,7 @@ modified: 20190924125602440
 modifier: miRoox
 tags: TeX类别码
 title: TeX转义符
+tmap.id: caa2dff0-b928-4b11-ad84-b1e06fa7d92a
 type: text/vnd.tiddlywiki
 
 转义符`\`开启一个[[控制序列|TeX控制序列]]。

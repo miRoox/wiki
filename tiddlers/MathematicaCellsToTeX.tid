@@ -5,6 +5,7 @@ modified: 20190926095011014
 modifier: miRoox
 tags: Mathematica个人常用工具包
 title: MathematicaCellsToTeX
+tmap.id: 12ee7409-fcf1-4654-9421-b4c4d6e1b8b8
 type: text/vnd.tiddlywiki
 
 将[[Mathematica]]单元转换为[[TeX]]，保留格式。

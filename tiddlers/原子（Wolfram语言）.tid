@@ -5,6 +5,7 @@ modified: 20190926133051916
 modifier: miRoox
 tags: 表达式（Wolfram语言）
 title: 原子（Wolfram语言）
+tmap.id: 2ddef673-5d50-4abd-a501-24bdf835b689
 type: text/vnd.tiddlywiki
 
 原子，顾名思义就是组成[[表达式|表达式（Wolfram语言）]]的最小成分，原子大致可按照以下方法分类：

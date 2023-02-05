@@ -5,6 +5,7 @@ modified: 20190924125615102
 modifier: miRoox
 tags: TeX类别码
 title: TeX可忽略字符
+tmap.id: 5b534d8c-fb3b-4541-89a4-75aa5fb9832c
 type: text/vnd.tiddlywiki
 
 TeX 遇到它后将直接跳过，就仿佛它不在那里一样

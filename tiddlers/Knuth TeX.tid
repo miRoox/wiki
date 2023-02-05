@@ -5,6 +5,7 @@ modified: 20190927020612249
 modifier: miRoox
 tags: TeX引擎
 title: Knuth TeX
+tmap.id: 60dedce7-2cad-4d65-bbc9-d0a3a87d7a03
 type: text/vnd.tiddlywiki
 
 [ext[高德纳|http://www-cs-faculty.stanford.edu/~knuth/]]的原版TeX引擎，现在你基本已经找不到它了。

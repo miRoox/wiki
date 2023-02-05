@@ -5,6 +5,7 @@ modified: 20200923145004059
 modifier: miRoox
 tags: C++具名要求 C++迭代器
 title: C++遗留输入迭代器
+tmap.id: 4db803ab-1001-4588-9ca6-2c15a7bb3ea4
 type: text/vnd.tiddlywiki
 
 ! 遗留输入迭代器 (LegacyInputIterator)

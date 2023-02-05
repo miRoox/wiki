@@ -5,6 +5,7 @@ modified: 20200923151358154
 modifier: miRoox
 tags: C++惯用法
 title: 标签派发（C++）
+tmap.id: d5170a20-eedd-431b-99ba-b13d482ed4ff
 type: text/vnd.tiddlywiki
 
 将空类型作为标签以调整重载策略。

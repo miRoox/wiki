@@ -5,6 +5,7 @@ modified: 20190924125634469
 modifier: miRoox
 tags: TeX类别码
 title: TeX无效字符
+tmap.id: 6c9f48ac-c289-42e7-a91f-a5790310cbef
 type: text/vnd.tiddlywiki
 
 TeX遇到它会跳过，并打印如下错误信息

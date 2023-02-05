@@ -5,6 +5,7 @@ modified: 20190924052156034
 modifier: miRoox
 tags: C++惯用法
 title: 资源获取即初始化
+tmap.id: 2af8fc90-ba81-4bca-8936-1b6207287ed4
 type: text/vnd.tiddlywiki
 
 ! 资源获取即初始化（RAII）

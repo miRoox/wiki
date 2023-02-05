@@ -4,6 +4,7 @@ modified: 20191217055244670
 modifier: miRoox
 tags: 待完善 形态学处理
 title: 凸化
+tmap.id: 9e5a15e6-edd0-490c-8e8f-ac5b694f564c
 type: text/vnd.tiddlywiki
 
 凸包：包含一个连通域的最小[[凸集]]

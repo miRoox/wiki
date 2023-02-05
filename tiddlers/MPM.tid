@@ -5,6 +5,7 @@ modified: 20200114072753003
 modifier: miRoox
 tags: 框架-库-工具包 Mathematica个人常用工具包
 title: MPM
+tmap.id: a9ddd0b2-b7ee-4fac-bec2-725f545adedf
 type: text/vnd.tiddlywiki
 
 一个包管理器的封装，方便从GitHub上安装别的包。

@@ -1,0 +1,11 @@
+title: $:/plugins/felixhayashi/tiddlymap/dialogFooter/ok_cancel
+
+\whitespace trim
+\rules except wikilink
+
+<$transclude tiddler="$:/plugins/felixhayashi/tiddlymap/dialogFooter/ok" mode="inline" />
+&#32;
+<$button tooltip="Close dialog without saving">Cancel
+  <!-- trigger dialog callback -->
+  <$action-setfield $tiddler=<<result>> text="" />
+</$button>
