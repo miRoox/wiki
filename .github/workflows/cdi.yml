@@ -1,7 +1,8 @@
 name: Build & Deploy
 on:
+  workflow_dispatch:
   push:
-    branches: [main]
+    branches: [master]
     paths-ignore:
       - README.md
       - LICENSE
