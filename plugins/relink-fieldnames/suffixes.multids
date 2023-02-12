@@ -1,0 +1,6 @@
+title: $:/config/flibbles/relink/suffixes/
+
+contains: fieldname
+days: fieldname
+field: fieldname
+regexp: fieldname
