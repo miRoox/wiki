@@ -1,0 +1,13 @@
+title: $:/config/flibbles/relink/operators/
+
+each: fieldname
+eachday: fieldname
+fields: fieldnamelist
+get: fieldname
+has: fieldname
+listed: fieldname
+nsort: fieldname
+nsortcs: fieldname
+sort: fieldname
+sortan: fieldname
+sortcs: fieldname
