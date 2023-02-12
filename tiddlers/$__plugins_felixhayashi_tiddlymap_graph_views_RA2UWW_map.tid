@@ -52,8 +52,8 @@ type: text/vnd.tiddlywiki
  },
  "822554da-c18c-4ed9-94f8-408d15d82428": {
   "label": "伤害",
-  "x": -250,
-  "y": 0
+  "x": -200,
+  "y": -50
  },
  "392879fb-f82a-4b22-aaa0-bd102b059d3c": {
   "label": "地形",

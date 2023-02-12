@@ -1,0 +1,10 @@
+created: 20230212092001334
+creator: miRoox
+modified: 20230212111318913
+modifier: miRoox
+tags: $:/tags/Macro
+title: internal:macro definitions
+tmap.id: b2fc29f0-44fd-4569-aab3-051ea37d0889
+type: text/vnd.tiddlywiki
+
+\define plink(name) <$link to={{{[get[link-prefix]]+[addsuffix[$name$]]}}}>$name$</$link>
