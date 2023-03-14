@@ -2,9 +2,9 @@ caption: 所有物体类型关联
 created: 20190930031719873
 creator: miRoox
 link-prefix: 红色警戒2：
-modified: 20230212140202083
+modified: 20230213144208467
 modifier: miRoox
-tags: 待完善 红色警戒2 转载
+tags: 待完善 红色警戒2 转载 ModerKenosis
 title: 红色警戒2：所有物体类型关联
 tmap.id: 0092fac4-9a63-4b93-8a07-f0fad6c79df0
 type: text/vnd.tiddlywiki
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 ! 所有物体类型关联
 
 转载自 [ext[红警DIY论坛|http://bbs.ra2diy.com/forum.php?mod=viewthread&tid=2343&extra=page%3D1&page=1]]
+
+原作者：[[ModerKenosis]]
 
 <$tmap view="RA2UWW" height="500px" ></$tmap>
 
@@ -130,7 +132,7 @@ Trailer的4句，以及`ExpireAnim=`动画或碎片名，如果强制碎片`Next
 
 trailer的4句
 
-!!! <font color="lime"><<plink 动画>>→<<plink 单位>>(只能变步兵)</font>
+!!! <font color="lime"><<plink 动画>>→<<plink 单位>>(只能变<<plink 步兵>>)</font>
 
 NP说明书中的新基因突变，`MakeInfantry`和`AnimToInfantry`
 
