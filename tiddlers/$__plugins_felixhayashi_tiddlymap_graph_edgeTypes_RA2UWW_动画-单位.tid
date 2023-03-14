@@ -1,7 +1,8 @@
 created: 20230205075344880
 description: 步兵：NP说明书中的新基因突变，MakeInfantry和AnimToInfantry
-modified: 20230205144318767
+modified: 20230213144037020
 modifier: miRoox
 show-label: false
+style: {"color":{"color":"rgba(25,255,0,1)"}}
 title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/RA2UWW:动画-单位
 type: text/vnd.tiddlywiki
