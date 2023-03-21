@@ -1,0 +1,22 @@
+caption: 原子
+created: 20190926121650494
+creator: miRoox
+modified: 20230316080441986
+modifier: miRoox
+tags: Wolfram语言：表达式
+title: Wolfram语言：原子
+tmap.id: 2ddef673-5d50-4abd-a501-24bdf835b689
+type: text/vnd.tiddlywiki
+
+原子，顾名思义就是组成[[表达式|Wolfram语言：表达式]]的最小成分，原子大致可按照以下方法分类：
+
+* 数字：
+** `Real` 实数
+** `Integer` 整数
+** `Rational` 有理数
+** `Complex` 复数
+* `Symbol` 符号
+* `String` 字符串
+* 其它（图像、音频等对象）
+
+在现实世界中，原子构筑起大千世界；在Wolfram语言中，原子组成所有的[[普通表达式|Wolfram语言：普通表达式]]。

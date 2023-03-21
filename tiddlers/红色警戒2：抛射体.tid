@@ -1,9 +1,9 @@
 caption: 抛射体
 created: 20230205060604243
 creator: miRoox
-modified: 20230205060625734
+modified: 20230316103711656
 modifier: miRoox
-tags: 红色警戒2：物体类型 待完善
+tags: 红色警戒2：物体类型 TODO
 title: 红色警戒2：抛射体
 tmap.edges: {"96b73a44-7eb4-4c8f-a6c9-72b32b591956":{"to":"b0a165a6-6f84-433b-bfc5-4f324c649a8f","type":"RA2UWW:抛射体-武器"},"3936885e-4cd8-4151-aef9-4818bf9c3583":{"to":"13a75dc8-1dcf-4535-a486-a6760a937290","type":"RA2UWW:抛射体-碎片"},"38086c04-6702-4775-aa48-52a9780c9e3d":{"to":"0f88522b-03aa-4b19-b07f-6f557527a09f","type":"RA2UWW:抛射体-动画"}}
 tmap.id: efc1d76a-d96d-49a3-a54b-f3cc735740ad

@@ -1,8 +1,8 @@
 created: 20190929112829175
 creator: miRoox
-modified: 20190929112931052
+modified: 20230320151702852
 modifier: miRoox
-tags: 待完善 哲学学派
+tags: TODO 哲学学派
 title: 怀疑主义
 tmap.id: 1698ddf1-6dda-4140-9da9-d625c1acc6c3
 type: text/vnd.tiddlywiki
@@ -15,4 +15,4 @@ type: text/vnd.tiddlywiki
 # 演绎不能证明它们的前提（演绎的前提归根结底来源于归纳）
 # 互相冲突的意见具有同样好的理由
 
-不存在任何确定性的知识。
+不存在任何''确定性''的知识。

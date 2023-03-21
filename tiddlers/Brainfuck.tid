@@ -1,18 +1,20 @@
 caption: Brainfuck
 created: 20191004004617322
-modified: 20191005022951769
-tags: 计算机语言
+creator: miRoox
+modified: 20230320130241786
+modifier: miRoox
+tags: 计算机语言 Esolang
 title: Brainfuck
 tmap.id: 6c68dbfb-00d2-4449-88cf-efab03a9184d
 type: text/vnd.tiddlywiki
 
 ! Brainfuck
 
-Brainfuck，是一种极小化的计算机语言，它是由Urban Müller在1993年创建的。由于fuck在英语中是脏话，这种语言有时被称为brainf*ck或brainf***，甚至被简称为BF。
+Brainfuck，是一种极小化的[[计算机语言]]，它是由Urban Müller在1993年创建的。由于fuck在英语中是脏话，这种语言有时被称为brainf*ck或brainf***，甚至被简称为BF。
 
 !! 概述
 
-Müller的目标是创建一种简单的、可以用最小的编译器来实现的、符合图灵完全思想的编程语言。这种语言由八种运算符构成，为Amiga机器编写的编译器（第二版）只有240个字节大小。
+Müller的目标是创建一种简单的、可以用最小的编译器来实现的、符合[[图灵完备]]思想的编程语言。这种语言由八种运算符构成，为Amiga机器编写的编译器（第二版）只有240个字节大小。
 就象它的名字所暗示的，brainfuck程序很难读懂。尽管如此，brainfuck图灵机一样可以完成任何计算任务。虽然brainfuck的计算方式如此与众不同，但它确实能够正确运行。
 
 这种语言基于一个简单的机器模型，除了指令，这个机器还包括：一个以字节为单位、被初始化为零的数组、一个指向该数组的指针（初始时指向数组的第一个字节）、以及用于输入输出的两个字节流。

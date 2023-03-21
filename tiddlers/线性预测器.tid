@@ -2,9 +2,9 @@ caption: 线性预测器
 created: 20191125131549704
 creator: miRoox
 list: 前向线性预测器 后向线性预测器
-modified: 20191228020415054
+modified: 20230316103711662
 modifier: miRoox
-tags: 现代滤波器 待完善
+tags: 现代滤波器 TODO
 title: 线性预测器
 tmap.id: 929080c0-d0d4-4635-a75c-be96697c4c8d
 type: text/vnd.tiddlywiki

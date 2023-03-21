@@ -1,0 +1,13 @@
+caption: 单一仓库
+created: 20230321150759094
+creator: miRoox
+modified: 20230321151144435
+modifier: miRoox
+tags: 版本控制 软件工程 TODO
+title: 版本控制：单一仓库
+tmap.id: 80f79a6f-9ed1-422c-83ce-63f8d5a9e287
+type: text/vnd.tiddlywiki
+
+! 单一仓库（Monorepo）
+
+单一仓库是一种软件开发策略，让若干项目的代码储存在同一[[代码仓库|版本控制：仓库]]中

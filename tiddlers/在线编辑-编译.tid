@@ -1,9 +1,9 @@
 caption: 在线编辑/编译
 created: 20191117074001251
 creator: miRoox
-modified: 20191130103619862
+modified: 20230316103711663
 modifier: miRoox
-tags: 待完善 在线工具
+tags: TODO 在线工具
 title: 在线编辑-编译
 tmap.id: f4f5ea9f-4c0b-4bb1-a1df-2de480bf4873
 type: text/vnd.tiddlywiki
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 * [[[Wandbox]三へ( へ՞ਊ ՞)へ ﾊｯﾊｯ|https://wandbox.org/]]
 
 * [[Try Jupyter|https://jupyter.org/try]] - 在线[[Jupyter Notebook]]
-* [[Wolfram Cloud|https://www.open.wolframcloud.com/]] - 在线[[Wolfram语言|Wolfram语言（Mathematica）]]
+* [[Wolfram Cloud|https://www.open.wolframcloud.com/]] - 在线[[Wolfram语言|Wolfram语言]]
 
 * [[Epub Builder|http://sqqihao.github.io/EPubBuilder/src/index.html]] - 在线EPub编辑
 * [[Tables Generator|http://www.tablesgenerator.com/]] - 可视化表格编辑导出多种代码

@@ -1,0 +1,15 @@
+caption: 框架
+created: 20230316102112873
+creator: miRoox
+modified: 20230321131725995
+modifier: miRoox
+tags: 计算机科学与工程 分类
+title: 程序框架
+tmap.id: 44ae614d-d930-4512-87ec-5004ec282b2a
+type: text/vnd.tiddlywiki
+
+! 框架（Framework）
+
+程序框架往往是一系列[[程序库]]的集合，甚至涉及多种[[计算机语言]]。
+
+<<list-links "[tag<currentTiddler>]">>

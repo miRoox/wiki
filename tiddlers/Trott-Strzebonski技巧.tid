@@ -1,16 +1,16 @@
 caption: Trott-Strzebonski技巧
 created: 20190923151400555
 creator: miRoox
-modified: 20191014025537560
+modified: 20230320144515825
 modifier: miRoox
-tags: 待完善 Wolfram语言（Mathematica）
+tags: Wolfram语言惯用法
 title: Trott-Strzebonski技巧
 tmap.id: 95462263-18c8-46a4-bafe-a65a35b16c4c
 type: text/vnd.tiddlywiki
 
 ! 替换时就地计算
 
-利用[[作用域|作用域（Wolfram语言）]]中[[条件模式|条件模式（Wolfram语言）]]的特殊性，实现在替换保持表达式的时候能对替换的内容进行求值。
+利用[[作用域|Wolfram语言：作用域]]中[[条件模式|条件模式（Wolfram语言）]]的特殊性，实现在替换保持表达式的时候能对替换的内容进行求值。
 
 对比下面的结果
 

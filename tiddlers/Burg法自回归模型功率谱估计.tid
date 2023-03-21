@@ -1,9 +1,9 @@
 caption: Burg法
 created: 20191224120914291
 creator: miRoox
-modified: 20200104075600634
+modified: 20230316103711664
 modifier: miRoox
-tags: 自回归模型功率谱估计 待完善
+tags: 自回归模型功率谱估计 TODO
 title: Burg法自回归模型功率谱估计
 tmap.id: 89af2d55-bc8d-4c0e-b52c-cea496679e8a
 type: text/vnd.tiddlywiki

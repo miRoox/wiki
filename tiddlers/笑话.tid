@@ -1,13 +1,15 @@
 caption: 笑话
 created: 20190918152550852
 creator: miRoox
-modified: 20191009075351359
+modified: 20230316082749301
 modifier: miRoox
-tags: 文娱（分类）
+tags: 文娱
 title: 笑话
 tmap.id: 27a02a25-07c6-467c-be97-64200b119355
 type: text/vnd.tiddlywiki
 
 ! 笑话
+
+收录一些经典笑话
 
 <<list-links "[tag<currentTiddler>]">>

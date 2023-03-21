@@ -1,0 +1,28 @@
+caption: 万物皆式
+created: 20190923084710269
+creator: miRoox
+modified: 20230316080441987
+modifier: miRoox
+tags: Wolfram语言
+title: Wolfram语言：表达式
+tmap.id: 6f629c94-1f73-4ee2-90da-3899f1fc2aa1
+type: text/vnd.tiddlywiki
+
+! 万物皆式
+
+<<<
+Everything is an expression.
+<<<
+
+在Wolfram语言中，所有东西都被当作''表达式''看待，无论是数学公式、列表、图形，乃至代码、控件……
+尽管它们在形式上看起来有所不同，但Wolfram语言统一以''表达式''这一方式表示和处理它们。
+
+表达式的一个典型例子是 `f[x,y]`。你可以用 `f[x,y]` 表示一个数学函数 $$f(x,y)$$ 。这个函数名是 `f`，这个函数有两个自变量 `x` 和 `y`。
+
+一般的，表达式可以粗略地分为两种：[[原子|Wolfram语言：原子]]和[[普通表达式|Wolfram语言：普通表达式]]。
+
+{{Wolfram语言：原子}}
+
+{{Wolfram语言：普通表达式}}
+
+在万物皆表达式的指导思想下，Wolfram语言中的计算实质上是对表达式按[[规则|Wolfram语言：模式与规则]]进行变换，从而不计算的表达式也就可以看做是对数据或者对象的描述。因此，在Wolfram语言中，代码和数据并没有本质性的区别，两者可以借助[[计算控制|Wolfram语言：计算控制]]等方式进行转换，语言具有高度的[[同像性]]。

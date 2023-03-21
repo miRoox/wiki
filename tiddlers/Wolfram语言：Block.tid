@@ -1,0 +1,42 @@
+caption: Block
+created: 20190923091011027
+creator: miRoox
+modified: 20230316080522813
+modifier: miRoox
+tags: Wolfram语言：作用域
+title: Wolfram语言：Block
+tmap.id: af7b4c3e-40d1-4870-8c86-d56fd1c061f2
+type: text/vnd.tiddlywiki
+
+!! `Block`
+
+与 `Module` 不同，`Block` 提供变量的动态定界。它不产生新的变量，只是在作用域内临时地修改变量的值。
+
+在 [[Module|Wolfram语言：Module]] 中使用的例子用`Block`进行改写的话
+
+```mathematica
+m = i^2;
+Block[{i = a}, i + m]
+(*输出：a+Sin[a]*)
+```
+
+基于这种特性，`Block` 经常被用在将副作用局域化的场合。比如：局部地进行深度递归，局部地清除值，局部地修改绘图主题等。
+
+动态作用域虽然很便利，但“成也动态作用域败也动态作用域”，它所带来副作用往往不是显然的，更容易引入一些潜在的错误。
+
+另一点值得注意的是，
+像 `Table`、`Plot` 之类的函数在运算时使用与 `Block` 相同的方式局部化变量的值。这意味着使用这些函数时必须同使用 `Block` 一样小心。
+
+另一方面，这个特性在使用`EvaluationMonitor`之类的监视器时会带来很大的方便。
+比如下面的代码可以直接追踪出求根过程中的步骤
+
+```mathematica
+FindRoot[x^2 - 2, {x, 1}, 
+  EvaluationMonitor :> Print["x=", x, " Bias:", Abs[x^2 - 2]]
+]
+```
+
+!!! 外部链接
+
+* [[块与模块的比较|http://reference.wolfram.com/language/tutorial/BlocksComparedWithModules.html]]
+* [[块和局部值|http://reference.wolfram.com/language/tutorial/BlocksAndLocalValues.html]]
