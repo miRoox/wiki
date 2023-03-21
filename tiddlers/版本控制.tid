@@ -1,0 +1,12 @@
+created: 20230321144732337
+creator: miRoox
+modified: 20230321145144304
+modifier: miRoox
+tags: 软件工程
+title: 版本控制
+tmap.id: dcfa3255-0b24-48a4-ae68-683b035f55c7
+type: text/vnd.tiddlywiki
+
+! 版本控制（Version control）
+
+版本控制是维护工程蓝图的标准做法，能追踪工程蓝图从诞生一直到定案的过程。此外，版本控制也是一种[[软件工程]]技巧，借此能在软件开发的过程中，确保由不同人所编辑的同一程序文件都得到同步。

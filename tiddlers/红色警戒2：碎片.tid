@@ -1,9 +1,9 @@
 caption: 碎片
 created: 20230205070500399
 creator: miRoox
-modified: 20230205070535596
+modified: 20230316103711657
 modifier: miRoox
-tags: 红色警戒2：物体类型 待完善
+tags: 红色警戒2：物体类型 TODO
 title: 红色警戒2：碎片
 tmap.edges: {"a6536086-9883-4ec9-9f8f-d64224ec81ec":{"to":"e9da1f4e-38ad-4956-92b3-d655d03d6d06","type":"RA2UWW:碎片-弹头"},"66dd95a1-dbb7-46d3-8d44-9dc238a1a424":{"to":"822554da-c18c-4ed9-94f8-408d15d82428","type":"RA2UWW:碎片-伤害"},"142ca417-53bc-4eae-b89b-47ec8513088c":{"to":"0f88522b-03aa-4b19-b07f-6f557527a09f","type":"RA2UWW:碎片-动画"},"28c81fa8-c075-4b95-8a62-b4422d9075d0":{"to":"deb7d5ac-da7f-41b9-b45d-90023b41f7bb","type":"RA2UWW:碎片-覆盖物"},"fb3a31f6-3da9-4c06-a287-0e3edd319cd7":{"to":"13a75dc8-1dcf-4535-a486-a6760a937290","type":"RA2UWW:碎片-碎片"}}
 tmap.id: 13a75dc8-1dcf-4535-a486-a6760a937290

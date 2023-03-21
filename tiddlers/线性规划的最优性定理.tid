@@ -1,15 +1,15 @@
 created: 20200105084310469
 creator: miRoox
-modified: 20200105085538479
+modified: 20230321132927398
 modifier: miRoox
-tags: 待完善 线性规划
+tags: TODO 线性规划
 title: 线性规划的最优性定理
 tmap.id: 1f03945a-3ad6-4cc6-8d3c-80f44e023711
 type: text/vnd.tiddlywiki
 
 ! 最优性定理
 
-对问题(LP)，$$S\ne\empty,\operatorname{rank}(\mathbf A)=m$$，$$\bm x^*$$为$$S$$的一个极点。不妨设有分解$$\mathbf{A}=\begin{pmatrix}\mathbf B&\mathbf N\end{pmatrix},\bm c=\begin{pmatrix}\bm c_B\\\bm c_N\end{pmatrix},\bm x^*=\begin{pmatrix}\bm x_B^*\\\bm x_N^*\end{pmatrix},\bm x_B^*=\mathbf B^{-1}\bm b\ge\bm0,\bm x_N^*=\bm0$$，那么：
+对问题[[(LP)|线性规划]]，$$S\ne\empty,\operatorname{rank}(\mathbf A)=m$$，$$\bm x^*$$为$$S$$的一个极点。不妨设有分解$$\mathbf{A}=\begin{pmatrix}\mathbf B&\mathbf N\end{pmatrix},\bm c=\begin{pmatrix}\bm c_B\\\bm c_N\end{pmatrix},\bm x^*=\begin{pmatrix}\bm x_B^*\\\bm x_N^*\end{pmatrix},\bm x_B^*=\mathbf B^{-1}\bm b\ge\bm0,\bm x_N^*=\bm0$$，那么：
 
 # 如果$$\bm c_N^{\mathsf{T}}-\bm c_B^{\mathsf{T}}\mathbf B^{-1}\mathbf N\le\bm0$$，则$$\bm x^*$$为最优解
 # 如果存在属于$$\mathbf N$$的指标分量$$j$$，使$$c_j-\bm c_B^{\mathsf{T}}\mathbf B^{-1}\bm a_j>0$$，且$$\mathbf B^{-1}\bm a_j\le0$$，则问题(LP)无有界解。

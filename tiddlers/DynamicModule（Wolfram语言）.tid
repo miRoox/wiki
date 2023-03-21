@@ -1,17 +1,17 @@
 caption: DynamicModule
 created: 20190923125930050
 creator: miRoox
-modified: 20191003131812011
+modified: 20230316080739636
 modifier: miRoox
-tags: 作用域（Wolfram语言）
+tags: Wolfram语言：作用域
 title: DynamicModule（Wolfram语言）
 tmap.id: 5478824e-b290-4dd9-98e1-c1851a0397bd
 type: text/vnd.tiddlywiki
 
 !! `DynamicModule`
 
-`DynamicModule` 虽然名字里有个 Dynamic ，但同 [[Block|Block（Wolfram语言）]] 的[[动态作用域]]无关，
-而是与Wolfram语言中一套主要基于 `Dynamic` 的[[动态|动态（Wolfram语言）]]交互功能相关联。
+`DynamicModule` 虽然名字里有个 Dynamic ，但同 [[Block|Wolfram语言：Block]] 的[[动态作用域]]无关，
+而是与Wolfram语言中一套主要基于 `Dynamic` 的[[动态|Wolfram语言：动态]]交互功能相关联。
 实际上，它和 `Module` 类似，也建立变量的词法作用域，但两者又有不同：
 如果说 `Module` 将变量局域在一个''时间段''的话，那么 `DynamicModule` 将变量局域在其输出的一个''空间区域''上。
 而为了实现这一点，`Module` 对变量的局域化发生在//内核//中，而 `DynamicModule` 对变量的局域化发生在//前端//。
@@ -50,9 +50,9 @@ DynamicModule[{var=log["initial variable value"]},
 
 !!! 参见
 
-* [[动态（Wolfram语言）]]
-* [[排版（Wolfram语言）]]
-* [[Module（Wolfram语言）]]
+* [[Wolfram语言：动态]]
+* [[Wolfram语言：排版]]
+* [[Wolfram语言：Module]]
 
 !!! 外部链接
 

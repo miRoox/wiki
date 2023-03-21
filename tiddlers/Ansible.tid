@@ -1,0 +1,12 @@
+created: 20230316091334553
+creator: miRoox
+modified: 20230321041030891
+modifier: miRoox
+tags: 软件 配置管理 TODO
+title: Ansible
+tmap.id: 43202434-cf8b-4ef5-a4c4-2ffc63670073
+type: text/vnd.tiddlywiki
+
+! Ansible
+
+Ansible 是一套用于[[应用程序部署|软件部署]]和[[配置管理]]的软件。

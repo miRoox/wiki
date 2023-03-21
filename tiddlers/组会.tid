@@ -1,11 +1,11 @@
 caption: 组会日志
 created: 20191103010932586
 creator: miRoox
-modified: 20191103012702217
+modified: 20230321080619828
 modifier: miRoox
-tags: 杂项（分类）
+tags: 分类 工作
 title: 组会
 tmap.id: 3527540b-3d16-426d-965e-316f2b39a599
 type: text/vnd.tiddlywiki
 
-<<list-links "[tag[组会]sort[title]]">>
+<<list-links "[tag[组会]tag[日志]!sort[title]]">>

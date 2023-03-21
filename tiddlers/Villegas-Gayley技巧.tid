@@ -1,16 +1,16 @@
 caption: Villegas-Gayley技巧
 created: 20190923151458824
 creator: miRoox
-modified: 20191015112025092
+modified: 20230316103711667
 modifier: miRoox
-tags: 待完善 Wolfram语言（Mathematica）
+tags: TODO Wolfram语言惯用法
 title: Villegas-Gayley技巧
 tmap.id: cc7982b4-d6c1-4e84-bd4e-d2844bae54f4
 type: text/vnd.tiddlywiki
 
 ! 非侵入式重载
 
-通过[[条件模式|条件模式（Wolfram语言）]]在重写某些函数定义时保留原本的定义。尤其是，在新的定义内使用旧有定义。
+通过[[条件模式|Wolfram语言：条件模式]]在重写某些函数定义时保留原本的定义。尤其是，在新的定义内使用旧有定义。
 
 比如也许我今天突发奇想，要把内置的`Map`功能给换成``GeneralUtilities`MonitoredMap``的功能。显然，直接令
 
@@ -31,5 +31,5 @@ BlockProtected[{Map},
 ]
 ```
 
-这里我们用一个新的（更特殊的）模式覆盖了原本的定义，同时，利用`Block`局部改变条件模式依赖的参数使我们在定义内部能沿用`Map`原本的定义。
+这里我们用一个新的（更特殊的）模式覆盖了原本的定义，同时，利用[[Block|Wolfram语言：Block]]局部改变条件模式依赖的参数使我们在定义内部能沿用`Map`原本的定义。
 

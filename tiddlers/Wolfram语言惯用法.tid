@@ -1,0 +1,13 @@
+caption: 惯用法
+created: 20230316080801577
+creator: miRoox
+modified: 20230316080850746
+modifier: miRoox
+tags: Wolfram语言
+title: Wolfram语言惯用法
+tmap.id: 1698aadc-5482-4de0-8700-409279e9eeb4
+type: text/vnd.tiddlywiki
+
+! 惯用法
+
+<<list-links "[tag<currentTiddler>]">>

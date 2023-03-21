@@ -1,9 +1,9 @@
 caption: 覆盖物
 created: 20230205060648837
 creator: miRoox
-modified: 20230205060738271
+modified: 20230316103711657
 modifier: miRoox
-tags: 红色警戒2：物体类型 待完善
+tags: 红色警戒2：物体类型 TODO
 title: 红色警戒2：Overlay
 tmap.edges: {"237ed88c-8cfa-481b-9c00-e458f83261a6":{"to":"5cbd07ed-7044-4dfa-a6df-f6e360c5dcf0","type":"RA2UWW:覆盖物-粒子"},"e4d4199e-0184-438b-9801-4120ce68c0c4":{"to":"822554da-c18c-4ed9-94f8-408d15d82428","type":"RA2UWW:覆盖物-伤害"},"81f0d1cb-4b26-4ddd-a2d4-d62eca006101":{"to":"0f88522b-03aa-4b19-b07f-6f557527a09f","type":"RA2UWW:覆盖物-动画"}}
 tmap.id: deb7d5ac-da7f-41b9-b45d-90023b41f7bb

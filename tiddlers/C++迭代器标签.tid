@@ -1,6 +1,6 @@
 created: 20200923150023325
 creator: miRoox
-modified: 20200923150557071
+modified: 20230316092128323
 modifier: miRoox
 tags: C++迭代器
 title: C++迭代器标签
@@ -26,5 +26,5 @@ struct contiguous_iterator_tag: public random_access_iterator_tag { }; // C++20 
 
 !! 参见
 
-* [[标签派发|标签派发（C++）]]
+* [[标签派发|标签派发]]
 * [[std::iterator_traits]]

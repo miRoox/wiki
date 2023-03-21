@@ -1,9 +1,9 @@
 caption: 协方差法
 created: 20191226115608896
 creator: miRoox
-modified: 20191226115646347
+modified: 20230316103711662
 modifier: miRoox
-tags: 待完善 自回归模型功率谱估计
+tags: TODO 自回归模型功率谱估计
 title: 协方差法自回归模型功率谱估计
 tmap.id: f41fb464-b40a-410b-ab43-39cf0ca5e336
 type: text/vnd.tiddlywiki
