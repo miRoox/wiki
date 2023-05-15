@@ -1,0 +1,13 @@
+caption: role
+created: 20230514084320853
+creator: miRoox
+modified: 20230514085137977
+modifier: miRoox
+tags: Ansible TODO
+title: Ansible role
+tmap.id: 62c85ae1-9711-4f5c-b064-35ca5d99e0c0
+type: text/vnd.tiddlywiki
+
+! role
+
+role 即可以复用的 task 片段，可以通过 `import_role` 来导入。
