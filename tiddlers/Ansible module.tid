@@ -1,6 +1,7 @@
+caption: module
 created: 20230320140925505
 creator: miRoox
-modified: 20230320141001623
+modified: 20230514092137129
 modifier: miRoox
 tags: Ansible TODO
 title: Ansible module
@@ -9,3 +10,8 @@ type: text/vnd.tiddlywiki
 
 ! 模块（module）
 
+module 是 [[Ansible playbook]] 中 task 的基本单元。可以通过 `ansible` 命令行工具来直接调用，也可以通过 [[playbook|Ansible playbook]] 或者 [[role|Ansible role]] 来引用。
+
+* ''原语''：原语实际上并不是模块，只是遵循和模块相似的语法来使用的 task 单元。因此也不能被 `ansible` 命令行工具直接使用。
+* ''普通模块''：普通模块直接是可以直接在目标机器上执行的脚本。遵循一定的convention 来获取参数和返回信息。普通模块的功能通常比较单纯，不需要和控制节点进行传参以外的交互。
+* ''Action 模块''：Action 模块虽然表现为模块，但实际的实现是通过 [[Action 插件|Ansible Action 插件]]来实现的
