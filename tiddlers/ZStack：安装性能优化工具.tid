@@ -1,0 +1,28 @@
+caption: 安装vm-tools
+created: 20230618025854095
+creator: miRoox
+modified: 20230618072900428
+modifier: miRoox
+tags: 2023年05月05日 ZStack
+title: ZStack：安装性能优化工具
+tmap.id: de2e2a03-15a9-4221-9a03-c8fb4e711332
+type: text/vnd.tiddlywiki
+
+!! 旧版本
+
+```sh
+curl http://169.254.169.254/vm-tools.sh -o vm-tools.sh && bash -x ./vm-tools.sh
+```
+
+!! 新版本
+
+ISO安装之后，root
+
+```sh
+mkdir /mnt/cdrom
+mount /dev/cdrom /mnt/cdrom
+cd /mnt/cdrom/
+bash ./zs-tools-install.sh
+cd -
+umount /mnt/cdrom
+```

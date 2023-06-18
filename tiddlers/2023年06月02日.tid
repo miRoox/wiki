@@ -1,0 +1,31 @@
+created: 20230618095054770
+creator: miRoox
+modified: 20230618095451105
+modifier: miRoox
+tags: 日志 工作日志
+title: 2023年06月02日
+tmap.id: a2110d03-49a7-4541-9e4b-a4bcc27e8ece
+type: text/vnd.tiddlywiki
+
+!! 双管理节点
+
+{{ZStack搭建双管理节点HA环境}}
+
+!! 新人nightly分析
+
+[[当前nightly运行原理介绍|http://confluence.zstack.io/pages/viewpage.action?pageId=138314512]]
+
+feature 完成前会在对应分支跑nightly
+
+tms - 定义nightly测试集
+
+日志服务器（172.20.1.101）
+
+cube_host: 真机 环境目前只有一套：172.19.1.35 172.19.1.36 172.19.1.40
+
+http://minio.zstack.io:9002/buckets 上查看 最新build结果 mirror/zstack_cube_2.3.0/ 需要 all-in-one.tar 才可以部署cube host
+workaround如果254上对应build id的image还没ready，可以修改镜像名称中的id作为一种workaround，因为这个id的镜像实际上并不包含对应的bin包，而是根据名称中的id去查找bin
+
+nightly enable: tms: dita
+
+检查nightly job运行状态：devops页面-测试系统-Nightly运行情况-找到对应plan-查看详情-查询表单中找到异常job列表，没有说明目前还没有什么问题
