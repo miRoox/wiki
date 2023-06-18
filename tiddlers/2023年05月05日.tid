@@ -1,0 +1,53 @@
+created: 20230618022021967
+creator: miRoox
+modified: 20230618072900430
+modifier: miRoox
+tags: 日志 工作日志
+title: 2023年05月05日
+tmap.id: c476ce6f-5d58-46f4-8d6b-ce7740febf0b
+type: text/vnd.tiddlywiki
+
+! 云轴（[[ZStack]]）入职第二天
+
+!! 新人入门必看
+
+# QA新人入职流程必看 http://confluence.zstack.io/pages/viewpage.action?pageId=107947401
+# 新人熟悉fullcase进度表：每日下班前需要更新进度 http://confluence.zstack.io/pages/viewpage.action?pageId=133570028 http://confluence.zstack.io/pages/viewpage.action?pageId=114646022 http://confluence.zstack.io/pages/viewpage.action?pageId=133570028
+# 相关资源链接
+## 部门培训 link: http://confluence.zstack.io/pages/viewpage.action?pageId=107947406
+## Fullcae 下载地址： http://confluence.zstack.io/display/ZSTAC/Full+Test+case
+## 如何第一次使用172.20.0.10环境来创建测试环境：现在使用的是（http://test-cloud.zstack.io:5000/ 环境，大体流程不变）http://confluence.zstack.io/pages/viewpage.action?pageId=82187532
+## 公司内部资源： http://confluence.zstack.io/pages/viewpage.action?pageId=42599347
+## 搭建各种存储: http://confluence.zstack.io/pages/viewpage.action?pageId=67174764
+## 申请测试license:   http://172.20.16.194:7000/
+## 生产环境使用规范：  http://confluence.zstack.io/pages/viewpage.action?pageId=107938599
+## VPC路由器镜像下载地址： http://storage.zstack.io/mirror/vyos117_linux_master/ http://storage.zstack.io/mirror/vyos117_linux_master/
+## VMWare路由器镜像下载地址： http://storage.zstack.io/mirror/vyos117_vmware_master/
+## VCenter 地址： 目前可以添加 7.x 版本  172.21.253.251；使用方法和生产环境一样，这个要求完成之后，自己创建的vm 要彻底删除。如环境不能用，可以问问田野或者杨乐维最新的vcenter服务信息
+## 数据库升级失败相关解决方法 ：http://confluence.zstack.io/pages/viewpage.action?pageId=90743152 http://confluence.zstack.io/pages/viewpage.action?pageId=6160751
+# 常见问题记录：
+## 大家发现的bug 尽量发到群里，如果遇到相同的问题，方便后面同事排查问题。
+## 新的公司测试生产环境集群：http://test-cloud.zstack.io:5000/dashboard
+##* 创建vm 规范：一定要自己的名字开头，拼音汉字都行.  http://confluence.zstack.io/pages/viewpage.action?pageId=107938599
+##* vm的生命周期： 创建那天起，30天后自动删除。
+##* 创建vm范围： 熟悉ZStack  搭建的管理节点，计算节点，存储节点，其他vm 不准在这个环境创建使用。
+## 所谓的公网地址解释：
+### 在0.10创建vm 使用公有地址，这个前提是需要在vm中配置IP地址，因为公有网络没有 DHCP 服务，这个需要向田野 申请172.20网段的IP.
+### 如果在0.10使用的是vpc网络创建的vm,  IT发的网络段就是可访问的公网，不过这个测试有两种情况
+#### 在linux 虚拟机中使用curl命令测试一些服务
+#### 在0.10 创建一个windows的vm 使用vpc网络，在这个windows上 访问你的MN 或者网络服务，
+## 常见问题记录：http://confluence.zstack.io/pages/viewpage.action?pageId=82187127
+# 如何报bug:
+## 报后端Bug:
+##* 报后端的BUG时（IP就是192.168.200.100）
+##* `zstack-ctl configured_collect_log`       收集log
+##* 粘链的logs:http://192.168.200.100/mirror/logs/ZSTAC-17866/
+##* 贴UUID
+
+!! 安装vm-tools
+
+{{ZStack：安装性能优化工具}}
+
+!! ZStack 环境更新
+
+{{ZStack 环境更新}}
