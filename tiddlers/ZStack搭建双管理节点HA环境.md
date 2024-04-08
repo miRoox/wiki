@@ -1,12 +1,12 @@
 [搭建双管理节点HA环境](http://confluence.zstack.io/pages/viewpage.action?pageId=129855064)
 
-node1: 172.20.10.147（主管理节点）
-node2: 172.20.10.205
-vip：172.20.89.141（找网管预先分配的IP）
+* node1: `172.20.10.147`（主管理节点）
+* node2: `172.20.10.205`
+* vip：`172.20.89.141`（找网管预先分配的IP）
 
 注意2个管理节点的版本必须一致！如果node1是老版本，建议先升级跟node2同一版本再行安装
 
-### 配置网桥
+### 配置[网桥](#网桥)
 
 node1:
 
@@ -24,7 +24,7 @@ node2
 
 使用工具配置免密，以下两个节点都要：
 
-部署 zstack_tools.tar.gz
+部署 `zstack_tools.tar.gz`
 
 ```sh
 wget http://minio.zstack.io:9001/download/nightly/mc -O mc && chmod +x mc && mv mc /usr/bin/
