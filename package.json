@@ -16,7 +16,7 @@
   "author": "miroox <miroox@outlook.com> (https://miroox.github.io/)",
   "license": "MIT",
   "dependencies": {
-    "tiddlywiki": "^5.1.21"
+    "tiddlywiki": "^5.2.2"
   },
   "bugs": {
     "url": "https://github.com/miRoox/wiki/issues"
