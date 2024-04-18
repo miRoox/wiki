@@ -1,0 +1,32 @@
+created: 20240417025324129
+creator: miRoox
+modified: 20240417050721646
+modifier: miRoox
+tags: Git
+title: git filter-repo
+tmap.id: 71078e66-7e72-4d08-a047-3b2f950bab76
+type: text/vnd.tiddlywiki
+
+! [[git-filter-repo|https://github.com/newren/git-filter-repo]]
+
+重写git历史的工具
+
+!! 常用方法
+
+分析历史
+
+```sh
+git filter-repo --analyze
+```
+
+清理大于50M的文件：
+
+```sh
+git filter-repo --strip-blobs-bigger-than 50M
+```
+
+清理指定文件（多个文件用多个path指定）
+
+```sh
+git filter-repo --path path/to/big/file1.m4v --path path/to/big/file2.m4v --invert-paths
+```
