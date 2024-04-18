@@ -1,0 +1,44 @@
+created: 20240417082945413
+creator: miRoox
+modified: 20240417083032041
+modifier: miRoox
+tags: FIO
+title: FIO典型性能测试方法
+tmap.id: 6084a1b1-2c78-4aa3-b5b1-72f1ecafc92a
+type: text/vnd.tiddlywiki
+
+随机写IOPS:
+
+```sh
+fio -direct=1 -iodepth=128 -rw=randwrite -ioengine=libaio -bs=4k -size=50G -numjobs=1 -runtime=300 -group_reporting -filename=/dev/vdb -name=randwrite_iops
+```
+
+随机读IOPS：
+
+```sh
+fio -direct=1 -iodepth=128 -rw=randread -ioengine=libaio -bs=4k -size=50G -numjobs=1 -runtime=300 -group_reporting -filename=/dev/vdb -name=randread_iops
+```
+
+随机写时延：
+
+```sh
+fio -direct=1 -iodepth=1 -rw=randwrite -ioengine=libaio -bs=4k -size=50G -numjobs=1 -group_reporting  -filename=/dev/vdb -name=randwrite_latency -runtime=300
+```
+
+随机读时延：
+
+```sh
+fio -direct=1 -iodepth=1 -rw=randread -ioengine=libaio -bs=4k -size=50G -numjobs=1 -group_reporting -filename=/dev/vdb -name=randread_latency -runtime=300
+```
+
+顺序写吞吐量：
+
+```sh
+fio -direct=1 -iodepth=64 -rw=write -ioengine=libaio -bs=1024k -size=50G -numjobs=4 -runtime=300 -group_reporting -filename=/dev/vdb -name=write_throughput
+```
+
+顺序读吞吐量：
+
+```sh
+fio -direct=1 -iodepth=64 -rw=read -ioengine=libaio -bs=1024k -size=50G -numjobs=4 -runtime=300 -group_reporting -filename=/dev/vdb -name=read_throughput
+```
