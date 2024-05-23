@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "tiddlywiki --build index && mv output/index.html .",
-    "start": "tiddlywiki --listen port=7777 anon-username=miRoox",
+    "start": "cross-env-shell tiddlywiki --listen port=7777 username=miRoox password=$WIKIPW readers=(anon) writers=(authenticated) admin=miRoox",
     "test": "npm run build"
   },
   "repository": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/miRoox/wiki/issues"
   },
-  "homepage": "https://github.com/miRoox/wiki#readme"
+  "homepage": "https://github.com/miRoox/wiki#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
 }
