@@ -1,0 +1,26 @@
+created: 20240523110939972
+creator: miRoox
+modified: 20240523112431426
+modifier: miRoox
+tags: ZStack
+title: ZStack日志
+tmap.id: 42f1cec9-033c-4cca-aa62-d3b689500c56
+type: text/vnd.tiddlywiki
+
+相关日志记录地址：
+
+| ! 类型 | !日志路径 | !所在服务器 |
+| 管理节点日志 | `~zstack/apache-tomcat/logs/management-server.log` | 管理节点 |
+| 管理节点UI日志 | `~zstack/apache-tomcat/logs/zstack-ui.log` | 管理节点 |
+| 控制台代理日志 | `/var/log/zstack/zstack-console-proxy.log` | 管理节点 |
+| 管理节点部署日志 | `/var/log/zstack/deploy.log` | 管理节点 |
+| shell历史记录 | `/var/log/history.d/history` | 管理节点/计算节点 |
+| kvmagent日志 | `/var/log/zstack/zstack-kvmagent.log` | 计算节点 |
+| libvirt日志 | `/var/log/libvirt/libvirt.log` | 计算节点 |
+| vm qemu日志 | `/var/log/libvirt/qemu/${vm_uuid}.log` | 计算节点 |
+| 系统基本日志 | `/var/log/messages` | 所有 |
+| 镜像仓库日志 | `/var/log/zstack/zstack-store/zstore.log` | 镜像仓库 |
+| Ceph 主存储日志 | `/var/log/zstack/ceph-primarystorage.log` | Ceph 监控节点 |
+| Ceph 备份存储日志 | `/var/log/zstack/ceph-backupstorage.log` | Ceph 监控节点 |
+| VPC路由器的日志 | `/home/vyos/zvr/zvr.log` | VPC路由器 |
+

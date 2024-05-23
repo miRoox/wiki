@@ -1,0 +1,113 @@
+created: 20240521035545050
+creator: miRoox
+modified: 20240521052355044
+modifier: miRoox
+tags: Clash HowTos systemd
+title: 将Clash作为systemd服务
+tmap.id: 6a5dfc00-eb0b-4a8a-8154-f107c7970424
+type: text/vnd.tiddlywiki
+
+[[Clash]]执行程序放在`/usr/bin/clash`
+
+写一个转换日志给[[journald]]的[[Python]]程序：
+
+```py
+#!/bin/python3
+
+import logging
+import re
+import shlex
+import sys
+import signal
+from subprocess import Popen, PIPE, STDOUT
+from systemd.journal import JournalHandler
+
+logger = logging.getLogger('clash')
+logger.propagate = False
+logger.addHandler(JournalHandler(SYSLOG_IDENTIFIER='clash'))
+logger.setLevel(logging.DEBUG)
+
+LINE_PATTERN = re.compile(r'level=(\w+)\s+msg="(.+)"')
+
+def process_line(line: str):
+    m = re.search(LINE_PATTERN, str(line))
+    if m:
+        level = m.group(1)
+        msg = m.group(2)
+        match level:
+            case 'debug':
+                level = logging.DEBUG
+            case 'info':
+                level = logging.INFO
+            case 'warning'|'warn':
+                level = logging.WARNING
+            case 'error'|'err':
+                level = logging.ERROR
+            case 'fatal'|'critical':
+                level = logging.CRITICAL
+            case _:
+                level = logging.NOTSET
+        logger.log(level, msg)
+    else:
+        logger.debug(line)
+
+def main():
+    cmd = ['/usr/bin/clash']
+    cmd.extend(sys.argv[1:])
+    logger.debug(' '.join(map(shlex.quote, cmd)))
+    ps = Popen(cmd, stdout=PIPE, stderr=STDOUT)
+    try:
+        def forward_signal(signum, frame):
+            ps.send_signal(signum)
+        for s in [signal.SIGTERM, signal.SIGINT, signal.SIGABRT]:
+            signal.signal(s, forward_signal)
+        while ps.poll() is None:
+            line = ps.stdout.readline().decode('utf-8').strip()
+            if line:
+                process_line(line)
+        return ps.returncode
+    finally:
+        for s in [signal.SIGTERM, signal.SIGINT, signal.SIGABRT]:
+            signal.signal(s, signal.Handlers.SIG_DFL)
+        if ps.stdout:
+            ps.stdout.close()
+        if ps.stderr:
+            ps.stderr.close()
+
+if __name__ == '__main__':
+    exit(main())
+```
+
+同样放到`/usr/bin/clash.py`
+
+clash配置可能经常要改，出于方便，放在`/root/clash`下
+
+`/etc/systemd/system/clash.service`:
+
+```ini
+[Unit]
+Description=Clash
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/bin/clash.py -d /root/clash/
+ExecStop=/bin/kill -- $MAINPID
+TimeoutStopSec=5
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
+
+注：目录根据自己的实际情况改一下
+
+service文件放到`/etc/systemd/system/clash.service`，然后更新，启用启动服务
+
+```sh
+sudo systemctl daemon-reload
+sudo systemctl enable clash.service
+sudo systemctl start clash.service
+```
