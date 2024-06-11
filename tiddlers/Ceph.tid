@@ -1,12 +1,12 @@
 created: 20240419053024490
 creator: miRoox
-modified: 20240419053146513
+modified: 20240610084433794
 modifier: miRoox
 tags: 分布式存储 软件 开源软件
 title: Ceph
 tmap.id: fa23f9ef-87c3-4641-b5a8-c0d1e2f5c34e
 type: text/vnd.tiddlywiki
 
-Ceph是一个开源的分布式存储系统，旨在提供高性能、高可靠性和可扩展性的存储解决方案。Ceph存储集群由多个组件组成，包括Ceph Monitor、Ceph OSD（Object Storage Daemon）和Ceph Manager。Ceph通过RADOS（可靠自动分布式对象存储）来管理数据存储和复制，同时提供对象存储、块存储和文件存储的功能。Ceph的设计使得它能够在大规模集群中运行，并支持动态扩展和容错能力。
+Ceph是一个开源的[[分布式存储]]系统，旨在提供高性能、高可靠性和可扩展性的存储解决方案。Ceph存储集群由多个组件组成，包括Ceph Monitor、Ceph OSD（Object Storage Daemon）和Ceph Manager。Ceph通过RADOS（可靠自动分布式对象存储）来管理数据存储和复制，同时提供对象存储、块存储和文件存储的功能。Ceph的设计使得它能够在大规模集群中运行，并支持动态扩展和容错能力。
 
 Ceph的存储集群可以通过不同的接口进行访问，包括RESTful接口、块存储接口和POSIX接口。通过librados API，用户可以直接与Ceph存储集群中的Ceph Monitor和Ceph OSD Daemon进行交互。librados API提供了C、Python、Java等语言的绑定，使开发者能够创建自己的接口与Ceph存储集群进行通信。
