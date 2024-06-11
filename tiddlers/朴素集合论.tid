@@ -1,10 +1,10 @@
 created: 20240610105503949
 creator: miRoox
-modified: 20240610105716467
+modified: 20240611114908630
 modifier: miRoox
 tags: 集合论
 title: 朴素集合论
 tmap.id: f221d768-07e5-4aab-b640-403b0c68883f
 type: text/vnd.tiddlywiki
 
-在朴素集合论中，[[集合]]是指由许多对象组成，有明确定义的搜集（collection）。这些对象称为集合的''元素''或是''成员''。对象可以是数字、人、其他组合等。
+在朴素集合论中，[[集合]]是指由许多对象组成，有''明确定义''的搜集（collection）。这些对象称为集合的''元素''或是''成员''。对象可以是数字、人、其他组合等。
