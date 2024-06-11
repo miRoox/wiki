@@ -1,0 +1,18 @@
+created: 20240611114929656
+creator: miRoox
+modified: 20240611133307521
+modifier: miRoox
+tags: 集合
+title: 幂集
+tmap.id: 1eaac18a-1d58-4cb0-94d2-38ef59f74e33
+type: text/vnd.tiddlywiki
+
+集合的幂集（power set），定义为由该集合全部[[子集]]为元素构成的集合。
+
+给定集合$$S$$，其幂集$$\mathcal{P}(S)$$（或作$$2^{S}$$）以符号表示即
+$$
+\mathcal{P}(S)=\{U:U\subseteq S\}
+$$
+
+在[[公理化集合论]]（例如[[ZFC集合论|策梅洛-弗兰克尔集合论]]）中，[[幂集公理]]假定了任何集合的幂集均存在。
+$$\mathcal{P}(S)$$的任何子集合$$\mathcal{F}$$称为$$S$$上的集族。
