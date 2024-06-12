@@ -1,0 +1,22 @@
+caption: 关系
+created: 20240612023858279
+creator: miRoox
+modified: 20240612035857771
+modifier: miRoox
+tags: 集合论
+title: 二元关系
+tmap.id: 44632ead-6f45-4ddb-9e3b-e384e1b21a41
+type: text/vnd.tiddlywiki
+
+数学上，二元关系（Binary relation，或简称''关系''）用于讨论两种对象的联系。
+
+对集合$$A,B$$，其二元关系$$R$$定义为三[[元组]]$$R=(A,B,G(R))$$，其中$$G(R)\subseteq A\times B$$（[[笛卡尔积]]的[[子集]]）称为$$R$$的''图''。若$$(x,y)\in G(R)$$，则称$$x$$和$$y$$具有关系$$R$$，记作$$x R y$$或者$$R(x,y)$$
+
+特别的，当$$A=B$$时，称$$R$$为$$A$$上的二元关系。
+
+但经常地，我们把关系与其图等价起来，即若$$R\subseteq A\times B$$，称$$R$$为$$A$$到$$b$$的二元关系。或者相似地，将$$(x,y)\in G(R)$$简记作$$(x,y)\in R$$。
+
+!! 典型的二元关系：
+
+* [[等价关系]]
+* [[偏序关系]]

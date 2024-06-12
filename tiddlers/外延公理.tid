@@ -1,0 +1,22 @@
+created: 20240612141101893
+creator: miRoox
+modified: 20240612141730295
+modifier: miRoox
+tags: 策梅洛-弗兰克尔集合论 公理化集合论
+title: 外延公理
+tmap.id: b55a608b-da43-4fa7-adc1-8ff24baa417d
+type: text/vnd.tiddlywiki
+
+外延公理（Axiom of extensionality）
+
+$$
+\forall A,\forall B:A=B\iff (\forall x:x\in A\iff x\in B)
+$$
+
+!! 	其它陈述
+
+!!! 在没有等号的谓词逻辑中
+
+$$
+\forall A,\forall B:(\forall x:x\in A\iff x\in B)\implies (\forall C:A\in C\iff B\in C)
+$$

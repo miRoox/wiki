@@ -1,0 +1,10 @@
+created: 20240612035654092
+creator: miRoox
+modified: 20240612120049690
+modifier: miRoox
+tags: 二元关系
+title: 全域关系
+tmap.id: f39992af-c15d-4c0b-a7ee-9a787d8bb27a
+type: text/vnd.tiddlywiki
+
+对于[[集合]]$$A$$，图为[[笛卡尔积]]$$A\times A$$全集的[[二元关系]]被称为''全域关系''。

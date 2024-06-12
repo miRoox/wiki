@@ -1,0 +1,29 @@
+created: 20240612021842863
+creator: miRoox
+modified: 20240612023533303
+modifier: miRoox
+tags: 二元关系
+title: 偏序关系
+tmap.id: 006ce120-c9e2-4056-934b-07a88f9db15c
+type: text/vnd.tiddlywiki
+
+
+!! 非严格偏序/自反偏序
+
+给定[[集合]]$$S$$，$$\preceq$$是$$S$$上的[[二元关系]]，且满足
+
+* [[自反性|自反关系]]：$$\forall x\in S, x\preceq x$$
+* [[反对称性|反对称关系]]：$$\forall x,y\in S, x\preceq y \land y\preceq x$$则$$x=y$$
+* [[传递性|传递关系]]：$$\forall x,y,z\in S, x\preceq y \land y\preceq z$$则$$x\preceq z$$
+
+则称$$\preceq$$是$$S$$上的一个''非严格偏序''或''自反偏序''。
+
+!! 严格偏序/反自反偏序
+
+给定[[集合]]$$S$$，$$\prec$$是$$S$$上的[[二元关系]]，且满足
+
+* 反[[自反性|自反关系]]：$$\forall x\in S, x\nprec x$$
+* [[非对称性|非对称关系]]：$$\forall x,y\in S, x\prec y$$则$$y\nprec x$$
+* [[传递性|传递关系]]：$$\forall x,y,z\in S, x\prec y \land y\prec z$$则$$x\prec z$$
+
+则称$$\prec$$是$$S$$上的一个''严格偏序''或''反自反偏序''。
