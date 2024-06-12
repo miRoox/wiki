@@ -1,0 +1,17 @@
+created: 20240612024620860
+creator: miRoox
+modified: 20240612031904296
+modifier: miRoox
+tags: 二元关系
+title: 等价关系
+tmap.id: dd101062-1f77-448e-a91f-2f65d1fb123a
+type: text/vnd.tiddlywiki
+
+
+给定[[集合]]$$S$$，$$\sim$$是$$S$$上的[[二元关系]]，且满足
+
+* [[自反性|自反关系]]：$$\forall x\in S, x\sim x$$
+* [[对称性|对称关系]]：$$\forall x,y\in S, x\sim y$$则$$y\sim x$$
+* [[传递性|传递关系]]：$$\forall x,y,z\in S, x\sim y \land y\sim z$$则$$x\sim z$$
+
+则称$$\sim$$是$$S$$上的一个'等价关系''。

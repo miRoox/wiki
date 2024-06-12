@@ -1,0 +1,12 @@
+created: 20240612121819511
+creator: miRoox
+modified: 20240612123940584
+modifier: miRoox
+tags: 集合的势 等价关系
+title: 等势
+tmap.id: 5a677d3c-66f7-47e9-ac07-70cc901b1894
+type: text/vnd.tiddlywiki
+
+如果存在着从集合$$A$$到集合$$B$$的[[双射]]，那么集合$$A$$与集合$$B$$等势，记为$$A\sim B$$。
+
+显然，等势是一个[[等价关系]]。

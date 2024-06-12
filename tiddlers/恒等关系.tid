@@ -1,0 +1,12 @@
+created: 20240612034744777
+creator: miRoox
+modified: 20240612035138012
+modifier: miRoox
+tags: 二元关系 等价关系
+title: 恒等关系
+tmap.id: f92583ff-62d8-46bd-81b4-26e6467cd9ec
+type: text/vnd.tiddlywiki
+
+对于[[集合]]$$A$$，（具有图）$$I_A=\{(x,x):x\in A\}$$的[[二元关系]]称作$$A$$上的''恒等关系''。
+
+显然，恒等关系是一种[[等价关系]]。
