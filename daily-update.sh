@@ -11,6 +11,10 @@ set -e
 
 cd "$(dirname "$0")"
 
+git pull --ff-only
 git add tiddlers
-git commit -m "Update on $(date --utc -I) from $(hostname)"
-git push
+if git commit -m "Update on $(date --utc -I) from $(hostname)"; then
+    git push
+else
+    echo "No updates today"
+fi
