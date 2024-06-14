@@ -10,11 +10,14 @@
 set -e
 
 cd "$(dirname "$0")"
+FOLDER=tiddlers
 
 git pull --ff-only
-git add tiddlers
-if git commit -m "Update on $(date --utc -I) from $(hostname)"; then
-    git push
-else
+if git diff --exit-code "$FOLDER"; then
     echo "No updates today"
+else
+    git add "$FOLDER"
+    git commit -m "Update on $(date --utc -I) from $(hostname)"
+    git push
 fi
+ 
