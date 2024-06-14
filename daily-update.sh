@@ -20,4 +20,3 @@ else
     git commit -m "Update on $(date --utc -I) from $(hostname)"
     git push
 fi
- 
