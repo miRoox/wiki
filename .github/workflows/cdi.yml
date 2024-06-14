@@ -7,6 +7,12 @@ on:
       - README.md
       - LICENSE
       - .gitignore
+  pull_request:
+    branches: [master]
+    paths-ignore:
+      - README.md
+      - LICENSE
+      - .gitignore
 permissions:
   contents: write
 jobs:
@@ -22,6 +28,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - name: Deploy
+        if: github.event_name != 'pull_request' 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: .
