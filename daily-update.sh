@@ -15,7 +15,7 @@ FOLDER=tiddlers
 git pull --ff-only
 if git diff --exit-code "$FOLDER"; then
     git add "$FOLDER"
-    git commit -m "Update on $(date --utc -I) from $(hostname)"
+    git commit --no-gpg-sign -m "Update on $(date --utc -I) from $(hostname)"
     git push
 else
     echo "No updates today"
