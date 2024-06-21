@@ -1,6 +1,6 @@
 created: 20240612141101893
 creator: miRoox
-modified: 20240612141730295
+modified: 20240621142100122
 modifier: miRoox
 tags: 策梅洛-弗兰克尔集合论 公理化集合论
 title: 外延公理
@@ -15,7 +15,7 @@ $$
 
 !! 	其它陈述
 
-!!! 在没有等号的谓词逻辑中
+!!! 在没有等号的[[谓词逻辑]]中
 
 $$
 \forall A,\forall B:(\forall x:x\in A\iff x\in B)\implies (\forall C:A\in C\iff B\in C)
