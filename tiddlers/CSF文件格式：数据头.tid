@@ -1,0 +1,22 @@
+created: 20240624130711996
+creator: miRoox
+link-prefix: CSF文件格式：
+modified: 20240624141850717
+modifier: miRoox
+tags: CSF文件格式
+title: CSF文件格式：数据头
+tmap.id: 789db4a7-fc36-49de-88fd-bd31075a387a
+type: text/vnd.tiddlywiki
+
+
+CSF文件的头部（header）有`0x18`个字节长。
+
+它以如下方式构成
+
+|!偏移量 | !类型 | !描述 | !详情 |
+|0x00|`char[4]`| `FSC` CSF文件的头部标识符  |如果这里不是`FSC`，游戏将不会加载这个文件。 |
+|0x04|`DWORD`|  CSF格式的版本号 |[[红警2|红色警戒2]]、尤里的复仇、将军、绝命时刻以及BFME系列使用版本3。 <br> 救世传说(NOx)使用版本2。 <br> 这些版本间实际有什么差别是未知的。 <br> 感谢Siberian GRemlin提供了这些信息。 [ext[见此|http://www.ppmsite.com/forum/viewtopic.php?p=130667#130667]] |
+|0x08|`DWORD`| 标签数  |这个字符串表中全部<<plink 标签>>的数目。 |
+|0x0C|`DWORD`| 字符串数 |这个字符串表中全部<<plink 字符串对>>的数目。 |
+|0x10|`DWORD`| （未使用） |这个部分不会被游戏所使用，这意味着它是没有用的。如果需要，你可以在其中存储一个额外的信息标记，来让你的程序使用它（假如你想写一个程序来读取CSF文件）。 |
+|0x14|`DWORD`| 语言  | 参见<<plink 语言>> |

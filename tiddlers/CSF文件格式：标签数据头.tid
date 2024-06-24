@@ -1,0 +1,21 @@
+created: 20240624135328783
+creator: miRoox
+link-prefix: CSF文件格式：
+modified: 20240624143436551
+modifier: miRoox
+tags: CSF文件格式 CSF文件格式：标签
+title: CSF文件格式：标签数据头
+tmap.id: 60536980-12f8-44e3-977e-1ae4ca993b96
+type: text/vnd.tiddlywiki
+
+每个<<plink 标签>>的数据始于一个标签数据头，它以如下方式构成：
+
+|!偏移量 | !类型 | !描述 | !详情 |
+|0x00|`char[4]`| `LBL`  标签标识符 | 如果这里不是`LBL` ，游戏将无法将后面的数据识别为标签数据，并且会读取后面的4字节。 |
+|0x04|`DWORD`| 字符串对的数目 | 这是与这个标签关联的<<plink 字符串对>>的数目。通常为1。 |
+|0x08|`DWORD`| 标签名长度(LabelNameLength) | 此值保存后面的标签名称的大小。 |
+|0x0C|`char[LabelNameLength]`| 标签名 | 一个长度为偏移量为0x08的`DWORD`的 ''非''[[空终止字符串]]。如果长度超过的话，剩下部分的会被截去。 |
+
+标签名可以视为[[主键]]，对应Rules文件中的[[UIName]]。
+
+空格、制表符、换行符会从标签名中格式化出去，因此他们不能被使用。
