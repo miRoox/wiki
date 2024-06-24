@@ -1,0 +1,16 @@
+created: 20240624141419048
+creator: miRoox
+modified: 20240624145330803
+modifier: miRoox
+tags: 逻辑运算 一元运算 布尔代数
+title: 逻辑非
+tmap.id: 4a5daa0c-181c-4c11-8838-05d68b87cb5e
+type: text/vnd.tiddlywiki
+
+''逻辑非''是[[布尔代数]]中一种[[一元运算]]。它的运算结果是将运算元的[[真值]]取反。
+
+命题$$A$$的''非''可以有几种写法：
+
+* $$\bar{A}$$
+* $$\lnot {A}$$
+* ~$${A}$$

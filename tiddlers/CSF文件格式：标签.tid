@@ -1,0 +1,26 @@
+created: 20240624132841918
+creator: miRoox
+link-prefix: CSF文件格式：
+modified: 20240624142456519
+modifier: miRoox
+tags: CSF文件格式
+title: CSF文件格式：标签
+tmap.id: 33fa22c5-b7e5-4575-8c83-1ef24f83da38
+type: text/vnd.tiddlywiki
+
+在<<plink 数据头>>之后，跟着标签(Labels)数据。
+
+标签可以视为字符串表中的条目。
+
+具体地，每个标签数据包含两部分：
+
+* [[数据头|CSF文件格式：标签数据头]]描述的基本元数据和名称
+* <<plink 字符串对>>表示标签对应的值
+
+!!! 数据头
+
+{{CSF文件格式：标签数据头}}
+
+!!! 值
+
+{{CSF文件格式：字符串对}}

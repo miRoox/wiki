@@ -1,0 +1,22 @@
+created: 20240624131339936
+creator: miRoox
+modified: 20240624131447162
+modifier: miRoox
+tags: CSF文件格式
+title: CSF文件格式：语言
+tmap.id: c9bf269a-62ca-4f83-b92a-554fc2bca3e6
+type: text/vnd.tiddlywiki
+
+语言（`DWORD`类型）可以具有以下值（其他值将被识别为“未知”）：
+
+* 0 = 英语（美国）
+* 1 = 英语（英国）
+* 2 = 德语
+* 3 = 法语
+* 4 = 西班牙语
+* 5 = 意大利语
+* 6 = 日语
+* 7 = 无意义(Jabberwockie)
+* 8 = 韩语
+* 9 = 汉语
+* >9  = 未知
