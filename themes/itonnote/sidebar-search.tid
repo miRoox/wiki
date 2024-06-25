@@ -1,0 +1,11 @@
+title: $:/themes/linonetwo/itonnote/sidebar-search
+tags: $:/tags/Stylesheet
+
+<$reveal state="$:/config/themes/itonnote/sidebar-search" type="match" text="hide">
+
+/** 隐藏没用的侧边栏的搜索栏按钮 */
+.tc-sidebar-search > p > div > span > button {
+	display: none;
+}
+
+</$reveal>
