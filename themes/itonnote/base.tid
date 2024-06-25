@@ -1,0 +1,531 @@
+title: $:/themes/linonetwo/itonnote/base
+tags: $:/tags/Stylesheet
+type: text/vnd.tiddlywiki
+
+/*
+** Start with the vanilla theme and normalize CSS reset, and then belay some of its effects
+*/
+
+{{$:/themes/tiddlywiki/vanilla/base}}
+
+<$importvariables filter="[[$:/themes/tiddlywiki/vanilla/base]]">
+
+/** fix native tw table overflow, should not affect other table widget wrapped within div */
+.tc-tiddler-body > table {
+  display: block;
+  overflow: auto;
+}
+.tc-tiddler-body > table tbody {
+  display: table;
+  width: 100%;
+}
+
+/**
+  代码样式
+*/
+
+p > code, li > code, code[data-slate-leaf=true] {
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+  background: <<colour code-background>>;
+}
+
+.hljs {
+  background-color: <<colour page-background>>;
+  border: none;
+  box-shadow: <<colour sidebar-foreground-shadow>>;
+}
+
+pre {
+  word-break: break-all;
+}
+
+div.cm-code-block-line, div.latex {
+  background: <<colour button-background>>;
+}
+div.cm-code-block-line:hover, div.latex:hover {
+  background: <<colour button-background-hover>>;
+}
+
+/**
+  卡片、编辑器和背景样式
+*/
+
+/** 给卡片加上阴影 */
+.tc-tiddler-frame {
+  box-shadow: <<colour sidebar-foreground-shadow>>;
+}
+
+/** 使用了5.3.3之后的条件快捷语法 */
+
+<% if [[$:/themes/tiddlywiki/vanilla/options/stickytitles]get[text]match[yes]] %>
+div.tc-tiddler-title {
+  background: <<colour tiddler-title-background>>;
+  backdrop-filter: blur(10px);
+  z-index: 900;
+  position: sticky;
+}
+<% else %>
+div.tc-tiddler-title {
+  background: <<colour tiddler-title-background>>;
+}
+<% endif %>
+
+div.tc-tiddler-title {
+  background: <<colour tiddler-title-background>>;
+}
+/** 编辑器工具栏 */
+.tc-editor-toolbar {
+  background: <<colour tiddler-editor-background>>;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  z-index: 890;
+}
+.tc-tiddler-preview {
+  overflow: unset;
+}
+.tc-block-dropdown {
+  z-index: 1001;
+}
+
+/** 去掉编辑模式下的很多边框 */
+/** 去掉预览的边框，除了左边框 */
+.tc-tiddler-preview-preview {
+  border: none;
+  padding-left: 10px;
+  border-left: 1px solid <<colour tiddler-editor-border>>;
+}
+/** 去掉代码编辑器的边框和底色，为所见即所得编辑做准备 */
+.CodeMirror {
+  border: none !important;
+  background-color: unset !important;
+}
+/** 去掉所有其它文本编辑框的边框 */
+.tc-tiddler-frame input.tc-edit-texteditor {
+  border: none;
+  background: unset;
+}
+/** 去掉标题下面的 tag 栏的边框 */
+.tc-edit-tags {
+  border: none;
+  border-bottom: 1px solid <<colour tiddler-editor-border>>;
+  padding: 4px 8px 4px 8px;
+}
+
+/** 让预览状态下的属性编辑框不那么夺目 */
+.tc-tiddler-view-frame .tc-edit-field {
+  background-color: unset !important;
+}
+
+/**
+	自定义字体
+*/
+* {
+  font-variant-ligatures: contextual;
+  font-display: swap;
+}
+
+/* Only use fira code in code block */
+code { font-family: 'Fira Code VF', monospace; }
+
+/**
+  按钮样式
+*/
+
+/** 除了工具栏上的按钮以外，其它按钮, 允许用 .no-itonnote-button-overwrite 取消覆盖
+  .tlui-button 是 tldraw 白板的
+ */
+button {
+  color: <<colour button-foreground>>;
+  padding: 5px 10px;
+	margin: 2px;
+  border-radius: 5px;
+  border: <<colour button-border>>;
+  cursor: pointer;
+  /** hover动画 */
+  transition: background-color 0.2s;
+}
+button:hover {
+	background-color: <<colour button-background-hover>>;
+}
+
+button svg {
+	fill: <<colour tab-foreground>>;
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+/** 收合栏，修复由于 button:not(.tc-tab-selected) 带来的样式。没法在那边 not ，因为 not 列表太长会导致优先级过高 */
+button.tc-fold-banner {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  width: 23px;
+  text-align: center;
+  margin-left: -35px;
+  top: 6px;
+  bottom: 6px;
+}
+button.tc-unfold-banner {
+  position: unset;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  width: 100%;
+  width: calc(100% + 2px);
+  text-align: center;
+  border-top: 2px solid #f8f8f8;
+  margin-top: 4px;
+}
+
+
+/** Tab 上的按钮 */
+.tc-tab-buttons > button {
+	border-radius: 0px;
+}
+.tc-tab-buttons button:not(.tc-tab-selected) {
+	fill: none;
+	background-color: <<colour tab-background>>;
+	color: <<colour tab-foreground>>;
+	border: none;
+  border-radius: 0px;
+}
+.tc-tab-buttons button:not(.tc-tab-selected):hover {
+	background-color: <<colour button-background-hover>>;
+}
+.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
+	border: none;
+	border-bottom: 2px solid silver;
+  border-radius: 0px;
+}
+.tc-tab-buttons button.tc-tab-selected {
+	border: none;
+	border-bottom: 2px solid silver;
+	background-color: #f4f4f4;
+  border-radius: 0px;
+}
+
+/** 标签 */
+button.tc-tag-label, span.tc-tag-label {
+  border-radius: 3px;
+  background-color: <<colour tag-background>>;
+  color: <<colour foreground>>;
+  /** hover动画 */
+  transition: background-color 0.2s;
+  /** 适配长标题作为标签的情况 */
+  white-space: normal;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+button.tc-tag-label, span.tc-tag-label:hover {
+  background-color: <<colour tag-background-hover>>;
+}
+
+/**
+  链接样式
+*/
+
+a.tc-tiddlylink, a.tc-tiddlylink:hover {
+  padding: 2px;
+  padding-bottom: 0;
+  white-space: normal;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  line-height: 1.3;
+  color: <<colour tiddler-link-foreground>>;
+  border-bottom: <<colour tiddler-link-underline>>;
+  text-decoration: none;
+  /** hover动画 */
+  transition: background 120ms ease-in 0s;
+}
+a.tc-tiddlylink:hover {
+  background-color: <<colour page-background>>;
+  color: <<colour tiddler-link-foreground>>;
+}
+
+a.tc-tiddlylink-external, a.tc-tiddlylink-external:visited {
+	padding: 2px;
+  padding-bottom: 0px;
+	border-bottom: <<colour external-link-underline>>;
+	text-decoration: none;
+  box-decoration-break: clone;
+  font-weight: bold;
+  color: <<external-link-foreground>>;
+}
+
+a.tc-tiddlylink-external:hover {
+  background-color: <<colour external-link-background-hover>>;
+  background-image: <<colour external-link-background-clip-image>>;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/** 预览状态标签下拉列表里的链接 */
+.tc-drop-down a.tc-tiddlylink:hover {
+  background-color: <<colour page-background>>;
+  color: <<colour tiddler-link-foreground>>;
+}
+/** 编辑器标签下拉列表当前鼠标悬浮状态的颜色 */
+.tc-block-dropdown a {
+  transition: background-color 0.2s;
+}
+.tc-block-dropdown a:hover {
+  background-color: <<colour dropdown-background>>;
+}
+
+/** 带链接的 Kookma badge，为了适应彩色背景，需要把链接默认蓝色背景色去掉，变成白色，与主题无关 */
+.dbadge a,.dbadge a:hover {
+  color: white !important;
+  border: unset;
+  -webkit-text-fill-color: unset !important;
+  font-weight: unset;
+  text-decoration: none;
+}
+
+a.tc-tiddlylink.tc-tiddlylink-resolves.tc-plugin-info.tc-popup-handle.tc-popup-absolute:hover {
+	background-color: <<colour modal-border>>;
+}
+
+/**
+	侧边栏
+*/
+
+.tc-page-controls {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tc-site-title {
+	font-size: 1.75em;
+}
+
+.tc-sidebar-scrollable {
+	overscroll-behavior: contain;
+	overflow: -moz-scrollbars-none;
+}
+.tc-sidebar-scrollable::-webkit-scrollbar {
+	width: 0 !important
+}
+
+/** 顶栏 */
+.tc-topbar {
+  z-index: 1001;
+}
+
+@media (min-width: <<sidebarbreakpoint>>) {
+	.tc-sidebar-scrollable {
+	  padding: 40px 10px 0px 15px;
+	}
+}
+
+@media (max-width: <<sidebarbreakpoint>>) {
+	.tc-sidebar-header {
+	  margin-top: 20px;
+    /** fix mobile left side still have width after close */
+    padding-left: 0;
+    padding-right: 0;
+	}
+  .tc-sidebar-header > .tc-reveal {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /** solve collision with tc-sidebar-scrollable in mobile */
+  .tc-topbar {
+    z-index: 1002;
+  }
+}
+
+
+/** 标题 */
+
+.tc-site-subtitle {
+  margin-top: 5px;
+}
+
+/**
+	卡片流展示优化
+*/
+@media (max-width: <<sidebarbreakpoint>>) {
+	.tc-story-river {
+	  padding-top: 42px;
+	}
+}
+
+/**
+	宽屏时隐藏顶部 MenuBar
+*/
+
+@media (min-width: <<sidebarbreakpoint>>) {
+	nav.tc-menubar {
+	display: none !important;
+	}
+}
+
+/**
+  去除按钮、搜索框选中时的蓝框
+*/
+button:focus, button:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+[placeholder]{
+  text-overflow:ellipsis;
+}
+::placeholder{
+  text-overflow:ellipsis;
+}
+input[type=search] {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+* {
+  outline: none;
+  outline-color: none;
+  -webkit-font-smoothing: antialiased;
+}
+*:focus {
+  outline: none;
+}
+/** 去除输入框默认的边框 */
+textarea, input[type=text], input[type=search], input[type=""], input:not([type]) {
+  border: 2px solid <<colour tiddler-editor-border>>;
+  background: <<colour page-background>>;
+}
+
+/*
+** TW-Locator and Bi-Link list
+*/
+.tc-table-of-contents {
+  max-width: 100%;
+  max-height: 200vh;
+  overflow: auto;
+}
+.tc-table-of-contents::-webkit-scrollbar {
+  display: none;
+}
+
+/**
+* Code Mirror
+*/
+.cm-code-block-line {
+  background-color: transparent;
+}
+
+/**
+* Hide toolbar buttons if not hover
+* Disable this effect on mobile, otherwise it will be hard to find the button
+* From tb_demo_onhover-toolbar-styles
+*/
+@media (min-width: <<sidebarbreakpoint>>) {
+  .tc-tiddler-frame .tc-titlebar button {
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+  }
+  .tc-tiddler-frame:hover .tc-titlebar button {
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+}
+
+/** fix https://github.com/Jermolene/TiddlyWiki5/discussions/5821 */
+video::-webkit-media-controls-timeline {
+  width: 200px;
+}
+
+@media (min-width: <<sidebarbreakpoint>>) {
+  div.tc-page-container .tc-sidebar-scrollable {
+    width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}};
+    padding-left: 2em;
+  }
+}
+<$reveal type="match" state="$:/state/sidebar" text="no">
+  div.tc-page-container .tc-sidebar-scrollable {
+    /**
+      * Compage-control-below-pagepletely hide sidebar dom node when sidebar is not opened.
+      * To fix sometimes it is still 20px width after close. 
+      */
+    display: none;
+  }
+</$reveal>
+/** Sidebar on mobile, make it sidebar instead of top bar */
+@media (max-width: <<sidebarbreakpoint>>) {
+  .tc-sidebar-scrollable {
+    height: 100vh;
+    /** show storyflow on the side, showing this is a sidebar, not the front-page */
+    max-width: 90vw;
+    z-index: 1001;
+    position: fixed;
+    overflow: auto;
+    overflow: overlay;
+    top: 0;
+    background: <<colour page-background>>;
+  }
+  /** make close sidebar button bigger */
+  .tc-topbar.tc-topbar-right > button.tc-hide-sidebar-btn,button.tc-show-sidebar-btn {
+    width: 2em;
+    height: 2em;
+    box-sizing: content-box;
+    border-bottom-right-radius: 50%;
+  }
+  /** move sidebar close button to top right */
+  span.tc-topbar.tc-topbar-right {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+  }
+  span.tc-topbar.tc-topbar-right > button.tc-hide-sidebar-btn {
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(3px);
+    /** make close side bar button a long vertical bar */
+    border-radius: 0px;
+    height: 100vh;
+  }
+  span.tc-topbar.tc-topbar-right > button.tc-show-sidebar-btn {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(3px);
+    <$reveal type="match" state="$:/info/tidgi-mobile" text="yes">
+      /** fix android status bar cover the tc-show-sidebar-btn */
+      height: 4em;
+    </$reveal>
+  }
+  span.tc-topbar.tc-topbar-right > button.tc-show-sidebar-btn > svg.tc-image-chevron-left.tc-image-button, span.tc-topbar.tc-topbar-right > button.tc-hide-sidebar-btn > svg.tc-image-chevron-right.tc-image-button {
+    transform: rotate(180deg);
+  }
+  /** make opened-tiddlers-bar move right to not be cover by show-sidebar-btn */
+  section.story-backdrop .opened-tiddlers-bar-container div.opened-tiddlers-bar.tc-tab-buttons {
+    margin-left: calc(8px * 2 + 32px);
+    <$reveal type="match" state="$:/info/tidgi-mobile" text="yes">
+      /** fix android status bar cover the opened-tiddlers-bar */
+      margin-top: 30px;
+    </$reveal>
+  }
+}
+/** fix z-index */
+.tc-modal-wrapper {
+  z-index: 1400;
+}
+
+/** fix long badge on mobile */
+.dbadge > span {
+  white-space: initial;
+}
+
+</$importvariables>
