@@ -1,7 +1,7 @@
 created: 20240624140326941
 creator: miRoox
 link-prefix: CSF文件格式：
-modified: 20240624144842103
+modified: 20240624150313167
 modifier: miRoox
 tags: CSF文件格式 CSF文件格式：标签
 title: CSF文件格式：字符串对
@@ -21,7 +21,7 @@ type: text/vnd.tiddlywiki
 
 !!!! 将Value解码
 
-一个C++的示例：
+一个[[C++]]的示例：
 
 ```cpp
 int ValueDataLength = ValueLength << 1;

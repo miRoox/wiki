@@ -1,0 +1,38 @@
+created: 20240625040749777
+creator: miRoox
+modified: 20240625041704545
+modifier: miRoox
+tags: CSF文件格式
+title: CSF文件格式：示例
+tmap.id: 9a7d7d11-9df6-4b9f-a44a-9ebd6d4de1d5
+type: text/vnd.tiddlywiki
+
+基于标签分块展示。
+
+解码前：
+
+|<span style="background:#ff0000bf;">\x20\x46\x53\x43</span><span style="background:#bfbfbfbf;">\x03\x00\x00\x00</span><span style="background:#bf00ffbf;">\x5b\x0f\x00\x00</span><span style="background:#7f00ffbf;">\x5b\x0f\x00\x00</span><span style="background:#9f9f9fbf;">\x00\x00\x00\x00</span><span style="background:#6f6f6fbf;">\x00\x00\x00\x00</span> |
+|<span style="background:#ff7f00bf;">\x20\x4c\x42\x4c</span><span style="background:#0000ffbf;">\x01\x00\x00\x00</span><span style="background:#ff00ffbf;">\x0c\x00\x00\x00</span><span style="background:#e5e500bf;">\x4d\x53\x47\x3a\x50\x69\x6e\x67\x49\x6e\x66\x6f</span> |
+|<span style="background:#007fffbf;">\x20\x52\x54\x53</span><span style="background:#00ffffbf;">\x0b\x00\x00\x00</span><span style="background:#00ef00bf;">\xaf\xff\x96\xff\x91\xff\x98\xff\xdf\xff\xc2\xff\xdf\xff\xda\xff\x9b\xff\x92\xff\x8c\xff</span> |
+|<span style="background:#ff7f00bf;">\x20\x4c\x42\x4c</span><span style="background:#0000ffbf;">\x01\x00\x00\x00</span><span style="background:#ff00ffbf;">\x0c\x00\x00\x00</span><span style="background:#e5e500bf;">\x4d\x53\x47\x3a\x43\x72\x69\x74\x69\x63\x61\x6c</span> |
+|<span style="background:#007fffbf;">\x20\x52\x54\x53</span><span style="background:#00ffffbf;">\x04\x00\x00\x00</span><span style="background:#00ef00bf;">\x0b\x7e\x82\xab\xac\x9d\x04\xae</span> |
+| … |
+|<span style="background:#ff7f00bf;">\x20\x4c\x42\x4c</span><span style="background:#0000ffbf;">\x01\x00\x00\x00</span><span style="background:#ff00ffbf;">\x0b\x00\x00\x00</span><span style="background:#e5e500bf;">\x56\x4f\x58\x3a\x63\x65\x76\x61\x30\x30\x31</span> |
+|<span style="background:#00bfffbf;">\x57\x52\x54\x53</span><span style="background:#00ffffbf;">\x0c\x00\x00\x00</span><span style="background:#00ef00bf;">\x99\x74\xb5\xab\xe5\x00\x59\xb0\xb4\x92\xcf\xad\xc7\x97\xc6\xa0\x2e\xac\xfb\xa3\x6a\xb1\xfd\xcf</span><span style="background:#5500ffbf;">\x08\x00\x00\x00</span><span style="background:#99cc00bf;">\x63\x65\x76\x61\x30\x30\x31\x63</span> |
+| … |
+|<span style="background:#ff7f00bf;">\x20\x4c\x42\x4c</span><span style="background:#0000ffbf;">\x01\x00\x00\x00</span><span style="background:#ff00ffbf;">\x0e\x00\x00\x00</span><span style="background:#e5e500bf;">\x4e\x61\x6d\x65\x3a\x53\x6f\x76\x46\x69\x6e\x61\x6c\x65</span> |
+|<span style="background:#007fffbf;">\x20\x52\x54\x53</span><span style="background:#00ffffbf;">\x04\x00\x00\x00</span><span style="background:#00ef00bf;">\x30\x7d\xab\x7f\x37\x81\xc5\xa8</span> |
+
+解码后：
+
+|<span style="background:#ff0000bf;"> FSC</span><span style="background:#bfbfbfbf;">[3]</span><span style="background:#bf00ffbf;">[3931]</span><span style="background:#7f00ffbf;">[3931]</span><span style="background:#9f9f9fbf;">[0]</span><span style="background:#6f6f6fbf;">[0]</span> |
+|<span style="background:#ff7f00bf;"> LBL</span><span style="background:#0000ffbf;">[1]</span><span style="background:#ff00ffbf;">[12]</span><span style="background:#e5e500bf;">MSG:PingInfo</span> |
+|<span style="background:#007fffbf;"> RTS</span><span style="background:#00ffffbf;">[11]</span><span style="background:#00ef00bf;">Ping = %dms</span> |
+|<span style="background:#ff7f00bf;"> LBL</span><span style="background:#0000ffbf;">[1]</span><span style="background:#ff00ffbf;">[12]</span><span style="background:#e5e500bf;">MSG:Critical</span> |
+|<span style="background:#007fffbf;"> RTS</span><span style="background:#00ffffbf;">[4]</span><span style="background:#00ef00bf;">致命打击</span> |
+| … |
+|<span style="background:#ff7f00bf;"> LBL</span><span style="background:#0000ffbf;">[1]</span><span style="background:#ff00ffbf;">[11]</span><span style="background:#e5e500bf;">VOX:ceva001</span> |
+|<span style="background:#00bfffbf;">WRTS</span><span style="background:#00ffffbf;">[12]</span><span style="background:#00ef00bf;">警告：侦测到核弹发射井。</span><span style="background:#5500ffbf;">[8]</span><span style="background:#99cc00bf;">ceva001c</span> |
+| … |
+|<span style="background:#ff7f00bf;"> LBL</span><span style="background:#0000ffbf;">[1]</span><span style="background:#ff00ffbf;">[14]</span><span style="background:#e5e500bf;">Name:SovFinale</span> |
+|<span style="background:#007fffbf;"> RTS</span><span style="background:#00ffffbf;">[4]</span><span style="background:#00ef00bf;">苏联终场</span> |

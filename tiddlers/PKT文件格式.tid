@@ -1,0 +1,43 @@
+created: 20240625025530504
+creator: miRoox
+modified: 20240625030337874
+modifier: miRoox
+tags: 红色警戒2 文件格式 文本文件 INI文件
+title: PKT文件格式
+tmap.id: a433bf7f-b7be-4616-9752-987da9c75f7e
+type: text/vnd.tiddlywiki
+
+它是控制当有扩展地图包时，什么地图将出现在遭遇战的各种模式中。其基本的设置类似于[[rules文件]]中的载具列表，里面有地图的列表以及各个地图的细节内容。
+
+
+首先是`[MultiMaps]`部分。
+
+例如：
+
+```ini
+[MultiMaps] 
+1=SOMEMAP1 
+2=SOMEMAP2 
+3=SOMEMAP3 
+……
+```
+
+然后是对地图的定义。
+
+例如：
+
+```ini
+[SOMEMAP1] 
+Description=DESC:SOMEMAP1 
+CD=0,1,2 
+MinPlayers=2 
+MaxPlayers=2 
+GameMode=standard, meatgrind 
+```
+
+* `[SOMEMAP1]`是地图文件的名字。
+* `Description= `是[[CSF|CSF文件格式]]中对应的[[标签|CSF文件格式：标签]]名。
+* `CD= `指定哪个盘需要在地图里播放。（实际上已经废弃了）
+* `MinPlayers= `决定这个地图的最少玩家数。不应小于2
+* `MaxPlayers= `决定这个地图的最多玩家数，不能大于8。
+* `GameMode= `决定可以使用的游戏模式，模式参考`mpmodes(md).ini`。
