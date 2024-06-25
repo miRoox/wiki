@@ -1,9 +1,9 @@
 caption: 启动脚本
 created: 20240625061106993
 creator: miRoox
-modified: 20240625061207597
+modified: 20240625120341357
 modifier: miRoox
-tags: Tiddlywiki internal
+tags: Tiddlywiki $internal
 title: start.js
 tmap.id: ee2c32e6-603d-454b-ba49-788d460b3232
 type: application/javascript
