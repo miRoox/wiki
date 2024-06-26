@@ -1,0 +1,25 @@
+created: 20171029100542623
+creator: miRoox
+list-after: $:/core/ui/EditTemplate/title
+modified: 20240626125308111
+modifier: miRoox
+tags: $:/tags/EditTemplate $internal
+title: $:/EditTemplate/ContributionBanner
+type: text/vnd.tiddlywiki
+
+\define makeGitHubLink()
+https://github.com/miRoox/wiki/edit/master/tiddlers/$(githubLink)$
+\end
+\define innerMakeGitHubLink(linkText)
+<$set name="githubLink" value={{$:/config/OriginalTiddlerPaths##$(draftOfTiddler)$}}>
+<a href=<<makeGitHubLink>> class="tc-tiddlylink-external" target="_blank" rel="noopener noreferrer">$linkText$</a>
+</$set>
+\end
+\define outerMakeGitHubLink(linkText)
+<$set name="draftOfTiddler" value={{$(currentTiddler)$!!draft.of}}>
+<<innerMakeGitHubLink "$linkText$">>
+</$set>
+\end
+<div class="tc-improvement-banner">
+{{$:/core/images/star-filled}} 你可以帮我改进这个条目吗？ 了解如何去编辑 <<outerMakeGitHubLink "GitHub 上的这个条目">>
+</div>
