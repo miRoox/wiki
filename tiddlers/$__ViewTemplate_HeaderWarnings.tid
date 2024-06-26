@@ -1,7 +1,7 @@
 created: 20240626124849372
 creator: miRoox
 list-before: $:/core/ui/ViewTemplate/body
-modified: 20240626140345583
+modified: 20240626145448517
 modifier: miRoox
 tags: $internal $:/tags/ViewTemplate
 title: $:/ViewTemplate/HeaderWarnings
@@ -9,6 +9,10 @@ type: text/vnd.tiddlywiki
 
 <% if [all[current]tag[$internal]] %>
   <<warningtext 内部条目，请谨慎编辑！>>
+<% endif %>
+
+<% if [all[current]tag[TODO]] %>
+  <<warningtext 该条目未完成，内容可能不完整或存在错误。>>
 <% endif %>
 
 <% if [all[current]tag[时效限制条目]] %>
