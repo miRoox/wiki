@@ -1,0 +1,14 @@
+.warning-banner {
+  background-color: #fff3cd; /* 浅黄色背景 */
+  border: 1px solid #ffeeba; /* 黄色边框 */
+  border-radius: 5px; /* 圆角 */
+  padding: 10px; /* 内边距 */
+  margin-bottom: 10px; /* 外边距 */
+  display: flex;
+  align-items: center;
+}
+
+.warning-icon {
+  font-size: 1.5em;
+  margin-right: 10px;
+}

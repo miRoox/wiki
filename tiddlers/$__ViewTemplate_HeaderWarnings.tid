@@ -1,0 +1,16 @@
+created: 20240626124849372
+creator: miRoox
+list-before: $:/core/ui/ViewTemplate/body
+modified: 20240626140345583
+modifier: miRoox
+tags: $internal $:/tags/ViewTemplate
+title: $:/ViewTemplate/HeaderWarnings
+type: text/vnd.tiddlywiki
+
+<% if [all[current]tag[$internal]] %>
+  <<warningtext 内部条目，请谨慎编辑！>>
+<% endif %>
+
+<% if [all[current]tag[时效限制条目]] %>
+  <<warningtext 该条目具有明显的时效性限制，可能由于更新不及时而存在错误。>>
+<% endif %>

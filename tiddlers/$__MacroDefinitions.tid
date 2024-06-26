@@ -1,0 +1,16 @@
+created: 20230212092001334
+creator: miRoox
+modified: 20240626130217445
+modifier: miRoox
+tags: $:/tags/Macro $internal
+title: $:/MacroDefinitions
+tmap.id: b2fc29f0-44fd-4569-aab3-051ea37d0889
+type: text/vnd.tiddlywiki
+
+\define plink(name) <$link to={{{[all[current]get[link-prefix]]+[addsuffix[$name$]]}}}>$name$</$link>
+\define warningtext(text)
+<div class="warning-banner">
+  <span class="warning-icon">⚠️</span> 
+  <span class="warning-text"> $text$</span>
+</div>
+\end

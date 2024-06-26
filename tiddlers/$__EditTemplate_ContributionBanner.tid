@@ -1,8 +1,10 @@
 created: 20171029100542623
+creator: miRoox
 list-after: $:/core/ui/EditTemplate/title
-modified: 20191009091944395
-tags: $:/tags/EditTemplate
-title: $:/ContributionBanner
+modified: 20240626125308111
+modifier: miRoox
+tags: $:/tags/EditTemplate $internal
+title: $:/EditTemplate/ContributionBanner
 type: text/vnd.tiddlywiki
 
 \define makeGitHubLink()
