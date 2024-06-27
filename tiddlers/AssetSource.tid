@@ -1,0 +1,34 @@
+caption: 资源源码
+created: 20240627061720117
+creator: miRoox
+modified: 20240627065740031
+modifier: miRoox
+title: AssetSource
+tmap.id: ac433da8-d0e0-48a8-9ad9-82292edf79de
+type: text/vnd.tiddlywiki
+
+资源源码对应关系：
+
+<table>
+<thead>
+<th>
+源码
+</th>
+<th>
+生成物
+</th>
+</thead>
+<tbody>
+<$list filter="[tag[AssetSource]]">
+<tr>
+<td>
+<$link/>
+</td>
+<td>
+<$link to={{!!asset}}>{{!!asset}}</$link>
+
+</td>
+</tr>
+</$list>
+</tbody>
+</table>

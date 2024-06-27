@@ -1,3 +1,5 @@
+% TeX-engine: pdftex
+
 \documentclass[tikz]{standalone}
 \usepackage{tikz}
 \usetikzlibrary{decorations.markings}
