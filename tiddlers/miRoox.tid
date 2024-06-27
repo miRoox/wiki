@@ -2,7 +2,7 @@ caption: Yong-an Lu
 color: #00aaff
 created: 20190926103757903
 creator: miRoox
-modified: 20240626054351834
+modified: 20240627091356678
 modifier: miRoox
 tags: 人物
 title: miRoox
@@ -11,7 +11,13 @@ type: text/vnd.tiddlywiki
 
 ''我''
 
-[img[avatar.jpg]]
+[img width=256 [avatar.jpg]]
+
+!! 个人资料
+
+| !生日 | 1997.2.17 |
+| !性别 | ♂🔜♀ |
+| !故乡 | 湖南衡阳 |
 
 !! Contact
 
