@@ -1,13 +1,13 @@
 created: 20240612141101893
 creator: miRoox
-modified: 20240622143940104
+modified: 20240628060911089
 modifier: miRoox
 tags: 策梅洛-弗兰克尔集合论 公理化集合论
 title: 外延公理
 tmap.id: b55a608b-da43-4fa7-adc1-8ff24baa417d
 type: text/vnd.tiddlywiki
 
-外延公理（Axiom of extensionality）定义了[[集合]]之间的[[恒等关系]]。
+''外延公理''（Axiom of extensionality）定义了[[集合]]之间的[[恒等关系]]。
 
 $$
 \forall A,\forall B:A=B\iff (\forall x:x\in A\iff x\in B)

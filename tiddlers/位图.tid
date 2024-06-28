@@ -1,0 +1,12 @@
+created: 20240628081730961
+creator: miRoox
+modified: 20240628081933400
+modifier: miRoox
+tags: 数字图像处理 TODO 图像
+title: 位图
+tmap.id: fb08c55c-a1e0-4e3d-a16c-1312410653ef
+type: text/vnd.tiddlywiki
+
+''位图''（Bitmap），是使用[[像素]][[数组]](Pixel-array/Dot-matrix点阵)来表示的[[图像]]。
+
+位图的像素都分配有特定的位置和[[颜色]]值。
