@@ -2,9 +2,9 @@ caption: 目录
 color: #fff480
 created: 20190917032522795
 creator: miRoox
-list: 数学 自然科学 工程技术 计算机科学与工程 语言 哲学 人文艺术 文娱 日常生活
+list: 数学 自然科学 工程技术 计算机科学与工程 语言 哲学 社会科学 人文艺术 文娱 日常生活
 list-after: $:/core/ui/SideBar/Open
-modified: 20240626110016205
+modified: 20240628131215092
 modifier: miRoox
 tags: $:/tags/SideBar $internal
 title: TableOfContents
