@@ -1,7 +1,7 @@
 caption: 资源源码
 created: 20240627061720117
 creator: miRoox
-modified: 20240627065740031
+modified: 20240702133131070
 modifier: miRoox
 title: AssetSource
 tmap.id: ac433da8-d0e0-48a8-9ad9-82292edf79de
@@ -25,8 +25,7 @@ type: text/vnd.tiddlywiki
 <$link/>
 </td>
 <td>
-<$link to={{!!asset}}>{{!!asset}}</$link>
-
+<$link to={{!!asset}}/>
 </td>
 </tr>
 </$list>

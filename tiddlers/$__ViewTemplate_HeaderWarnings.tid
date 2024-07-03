@@ -1,9 +1,9 @@
 created: 20240626124849372
 creator: miRoox
 list-before: $:/core/ui/ViewTemplate/body
-modified: 20240626145448517
+modified: 20240702142435159
 modifier: miRoox
-tags: $internal $:/tags/ViewTemplate
+tags: $:/internal $:/tags/ViewTemplate
 title: $:/ViewTemplate/HeaderWarnings
 type: text/vnd.tiddlywiki
 
