@@ -1,0 +1,12 @@
+created: 20240702131518070
+creator: miRoox
+list-after: 
+modified: 20240702142435159
+modifier: miRoox
+tags: $:/internal $:/tags/ViewTemplate/Subtitle
+title: $:/subtitle/author
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state="!!author" tag="span" text="">
+原作者：<$link to={{!!author}}/>
+</$reveal>

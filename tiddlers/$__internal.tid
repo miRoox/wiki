@@ -1,0 +1,15 @@
+caption: 内部实现
+color: #787878
+created: 20240625120303184
+creator: miRoox
+list-after: 
+modified: 20240702142511282
+modifier: miRoox
+tags: 分类
+title: $:/internal
+tmap.id: 87196357-bbce-4258-89a7-be6cff577d82
+type: text/vnd.tiddlywiki
+
+本[[Tiddlywiki]]内部实现加料。
+
+<<list-links "[tag<currentTiddler>]">>
