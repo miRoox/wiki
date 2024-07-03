@@ -1,6 +1,6 @@
 created: 20230213142914563
 creator: miRoox
-modified: 20230316080002587
+modified: 20240703025037605
 modifier: miRoox
 tags: 人物
 title: 戴一
@@ -10,3 +10,7 @@ type: text/vnd.tiddlywiki
 !! Contact
 
 * 微博：[[就是戴一|https://weibo.com/u/2755950824]]
+
+!! 文章
+
+<<list-links "[field:author<currentTiddler>]">>

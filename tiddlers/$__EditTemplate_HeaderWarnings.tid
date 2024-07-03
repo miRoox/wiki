@@ -1,0 +1,12 @@
+created: 20240703023715213
+creator: miRoox
+list-before: $:/core/ui/EditTemplate/body
+modified: 20240703023935222
+modifier: miRoox
+tags: $:/internal $:/tags/EditTemplate
+title: $:/EditTemplate/HeaderWarnings
+type: text/vnd.tiddlywiki
+
+<% if [all[current]tag[$:/internal]] %>
+  <<warningtext 内部条目，请谨慎编辑！>>
+<% endif %>
