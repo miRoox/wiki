@@ -1,0 +1,14 @@
+created: 20240704082313784
+creator: miRoox
+modified: 20240704085312120
+modifier: miRoox
+tags: 静态分析 程序分析
+title: 莱斯定理
+tmap.id: fac42314-f50b-46e8-97fe-ebcf06f301f7
+type: text/vnd.tiddlywiki
+
+[[递归可枚举语言]]的任何''非平凡''的性质，都是[[不可判定]]的。
+
+* 递归可枚举：[[图灵完备]] - 不完备的[[领域特定语言]]
+* 非平凡：动态运行时性质 - 语言子集
+* 不可判定 - 允许漏报/误报
