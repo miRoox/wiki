@@ -1,0 +1,10 @@
+created: 20240704082224270
+creator: miRoox
+modified: 20240704084629570
+modifier: miRoox
+tags: TODO 程序分析
+title: 静态分析
+tmap.id: 9909a7a2-d371-4e04-9475-8cf9a8a925cc
+type: text/vnd.tiddlywiki
+
+在''不执行程序''的情况下对程序进行[[分析|程序分析]]，以了解程序的程序的行为并确定它是否满足某些属性。

@@ -1,11 +1,11 @@
 caption: 编程语言理论
 created: 20190923153311232
 creator: miRoox
-modified: 20230321132443080
+modified: 20240704084425090
 modifier: miRoox
 tags: TODO 计算机科学与工程 分类 计算机科学
 title: 编程语言理论
 tmap.id: a04dfd85-00cf-44f6-9541-81ce5138badd
 type: text/vnd.tiddlywiki
 
-! 编程语言理论
+''编程语言理论''（Programming language theory）是[[计算机科学]]的一个分支，研究[[编程语言]]的设计、实现、分析、描述和分类及其各自的特点。它属于计算机科学，既依赖又影响着[[数学]]、[[软件工程]]、[[语言学]]，甚至[[认知科学]]。

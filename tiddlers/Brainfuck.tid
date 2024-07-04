@@ -1,9 +1,9 @@
 caption: Brainfuck
 created: 20191004004617322
 creator: miRoox
-modified: 20230320130241786
+modified: 20240704090545684
 modifier: miRoox
-tags: 计算机语言 Esolang
+tags: 计算机语言 Esolang 编程语言
 title: Brainfuck
 tmap.id: 6c68dbfb-00d2-4449-88cf-efab03a9184d
 type: text/vnd.tiddlywiki
@@ -21,7 +21,7 @@ Müller的目标是创建一种简单的、可以用最小的编译器来实现�
 
 下面是这八种状态的描述，其中每个状态由一个字符标识：
 
-| 字符 | 含义 |h
+| !字符 | !含义 |
 | `>` |指针加一 |
 | `<` |指针减一 |
 | `+` |指针指向的字节的值加一 |
