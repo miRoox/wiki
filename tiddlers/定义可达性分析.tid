@@ -1,6 +1,6 @@
 created: 20240704082521332
 creator: miRoox
-modified: 20240704084157582
+modified: 20240705093126523
 modifier: miRoox
 tags: 数据流分析 TODO 算法
 title: 定义可达性分析
@@ -17,3 +17,10 @@ type: text/vnd.tiddlywiki
 
 !! 定义可达性分析算法
 
+* $$\operatorname{OUT}[entry]\gets{}\emptyset{}$$
+* `for each` 基本块 $$B/entry$$
+** $$\operatorname{OUT}[B]\gets{}\emptyset$$
+* `while` 任意 $$\operatorname{OUT}$$ 发生改变
+** `for each` 基本块 $$B/entry$$
+*** $$\operatorname{IN}[B]\gets{}\bigcup_{P \text{前趋于} B}\operatorname{OUT}[P]$$
+*** $$\operatorname{OUT}[B]\gets{}\mathrm{gen}_B\cup(\operatorname{IN}[B]-kill_B)$$
