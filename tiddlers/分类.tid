@@ -2,7 +2,7 @@ color: #fff79e
 created: 20230321072346971
 creator: miRoox
 list-after: 
-modified: 20240625110151991
+modified: 20240706043509376
 modifier: miRoox
 tags: TableOfContents 分类
 title: 分类
@@ -11,4 +11,4 @@ type: text/vnd.tiddlywiki
 
 ! 分类
 
-<<list-links "[tag<currentTiddler>]">>
+<<list-links "[tag<currentTiddler>!is[draft]]">>
