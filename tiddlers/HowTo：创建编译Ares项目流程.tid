@@ -1,0 +1,12 @@
+created: 20240714040638797
+creator: miRoox
+modified: 20240714072153217
+modifier: miRoox
+tags: 尤里的复仇：Ares TODO HowTos
+title: HowTo：创建编译Ares项目流程
+tmap.id: 7c309e5f-7f71-4287-92da-a51caabc4321
+type: text/vnd.tiddlywiki
+
+[[Ares|尤里的复仇：Ares]]项目
+
+# 创建空项目并取消勾选”为解决方案创建目录”
