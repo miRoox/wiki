@@ -9,8 +9,8 @@
 
 set -e
 
-cd "$(dirname "$0")"
-FOLDER=.
+cd "$(git rev-parse --show-toplevel)"
+FOLDER=tiddlers
 
 git pull --ff-only
 if git diff --exit-code "$FOLDER"; then
