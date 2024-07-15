@@ -1,0 +1,35 @@
+created: 20240714040638797
+creator: miRoox
+modified: 20240715145854872
+modifier: miRoox
+tags: 尤里的复仇：Ares TODO HowTos
+title: 创建编译Ares项目流程
+tmap.id: 7c309e5f-7f71-4287-92da-a51caabc4321
+type: text/vnd.tiddlywiki
+
+[[Ares|尤里的复仇：Ares]]项目
+
+# 获取Ares和YRpp源码：
+#* Ares：https://github.com/Ares-Developers/Ares
+#* YRpp：https://github.com/Ares-Developers/YRpp
+# 创建空项目并取消勾选”为解决方案创建目录”
+# 将相关文件移动到''项目根目录''下并包括到项目内：
+#* 在”解决方案资源管理器窗口”里找到并按下”显示所有文件”图标以显示。
+#* 将Ares和YRpp的文件夹包括到项目内
+#* 注意在这之后要去掉后缀为`.cxx`的文件 因为它们不能通过编译
+# 活动配置改成：Release/x86(Win32)
+# 调整配置（''Debug''和''Release''的配置都需要修改）：项目属性页->配置属性
+#* 常规->配置类型 改为 ''动态库(.dll)''
+#* VC++目录->包含目录里''添加''YRpp目录：`$(ProjectDir)YRpp`
+#* C/C++
+#** 预处理器->预处理器定义里添加`
+WIN32
+NOMINMAX
+_WINDOWS
+`
+#** 代码生成 中''禁用安全检查''
+#** 代码生成 中''启用C++异常''改为''否''
+#** 输出文件->对象文件名 中''添加''`%(RelativeDir)`
+#** 在 命令行->其它选项 中添加`/utf-8`指定编码为[[UTF-8]]
+#** (可选)在 命令行->其它选项 中添加` /wd4100 /wd4731 /wd4740  /we4035 /we4715`
+#* 在 链接器->输入->附加依赖项 中添加 `dbghelp.lib`
