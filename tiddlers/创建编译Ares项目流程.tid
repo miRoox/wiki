@@ -1,6 +1,6 @@
 created: 20240714040638797
 creator: miRoox
-modified: 20240715145854872
+modified: 20240716031330798
 modifier: miRoox
 tags: 尤里的复仇：Ares TODO HowTos
 title: 创建编译Ares项目流程
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 [[Ares|尤里的复仇：Ares]]项目
 
-# 获取Ares和YRpp源码：
+# 获取Ares和YRpp源码，并切换道一致的分支：
 #* Ares：https://github.com/Ares-Developers/Ares
 #* YRpp：https://github.com/Ares-Developers/YRpp
 # 创建空项目并取消勾选”为解决方案创建目录”
@@ -31,5 +31,5 @@ _WINDOWS
 #** 代码生成 中''启用C++异常''改为''否''
 #** 输出文件->对象文件名 中''添加''`%(RelativeDir)`
 #** 在 命令行->其它选项 中添加`/utf-8`指定编码为[[UTF-8]]
-#** (可选)在 命令行->其它选项 中添加` /wd4100 /wd4731 /wd4740  /we4035 /we4715`
+#** (//可选//)在 命令行->其它选项 中添加` /wd4100 /wd4731 /wd4740  /we4035 /we4715`
 #* 在 链接器->输入->附加依赖项 中添加 `dbghelp.lib`
