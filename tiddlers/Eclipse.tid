@@ -1,0 +1,12 @@
+created: 20240723043736742
+creator: miRoox
+modified: 20240723053551526
+modifier: miRoox
+tags: 开发工具 TODO 集成开发环境
+title: Eclipse
+tmap.id: 6382d00e-f9fe-4a50-8efe-c6a101ca3c36
+type: text/vnd.tiddlywiki
+
+''Eclipse''是一款跨平台开源[[集成开发环境]]。最初主要用来[[Java]]语言开发，目前亦有人通过插件使其作为[[C++]]、[[Python]]等其他语言的开发工具。
+
+Eclipse的本身只是一个框架平台，但是众多插件的支持，使得Eclipse拥有较佳的灵活性，所以许多软件开发商以Eclipse为框架开发自己的IDE。
