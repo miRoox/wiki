@@ -1,0 +1,11 @@
+caption: 注音
+created: 20240723090536404
+creator: miRoox
+modified: 20240723090644232
+modifier: miRoox
+tags: $:/tags/TextEditor/Snippet $:/internal
+title: Snippet: ruby
+tmap.id: fd8b394f-5caa-4033-863d-d74826cfe626
+type: text/vnd.tiddlywiki
+
+<ruby>字<rp>(</rp><rt>yīn</rt><rp>)</rp></ruby>

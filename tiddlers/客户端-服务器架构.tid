@@ -1,0 +1,10 @@
+created: 20240723090505156
+creator: miRoox
+modified: 20240723090759745
+modifier: miRoox
+tags: TODO 软件工程
+title: 客户端-服务器架构
+tmap.id: ec82d714-bb3a-48b6-b5d4-9fe5520d12e5
+type: text/vnd.tiddlywiki
+
+''客户端-服务器架构''（Client-server model），也称''C/S''架构、主<ruby>从<rp>(</rp><rt>zòng</rt><rp>)</rp></ruby>式架构，是一种将[[客户端]]与[[服务器]]分割开来的软件架构。

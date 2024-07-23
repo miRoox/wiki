@@ -1,0 +1,20 @@
+created: 20240723053918637
+creator: miRoox
+modified: 20240723091214234
+modifier: miRoox
+tags: 软件工程
+title: 富客户端平台
+tmap.id: ace267d4-25a7-4225-9000-5ac7325de247
+type: text/vnd.tiddlywiki
+
+''富客户端平台''（Rich Client Platform, ''RCP''），指的是一种[[C/S|客户端-服务器架构]]应用软件的公用基础结构实现，其Rich概念是相对于[[B/S|浏览器-服务器架构]]应用软件的（Thin Client）浏览器而言的，有时也称之为胖客户端（Fat Client）或者传统客户端（Traditional Client）。
+
+它通常包含以下组件：
+
+* 一个微核生命周期管理容器
+* 一个模块或插件框架
+* 一个轻便的控件工具包（包括按钮（Button），表单元素（Form Element），树（Tree），表格（Table/Grid），菜单（Menu），工具条（ToolBar）等）
+* 一个文件缓存，文本处理，文本编辑器（用于IDE项目）
+* 一个工作台（包括入口（Portal），页面（Page），视图（View），透视图（Perspective），向导（Wizard），窗口（Frame）等）
+* 一个数据绑定机制
+* 一个软件更新管理装置

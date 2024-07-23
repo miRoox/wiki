@@ -1,11 +1,10 @@
-caption: PoC
 created: 20240418060447461
 creator: miRoox
-modified: 20240418060601677
+modified: 20240723054101328
 modifier: miRoox
 tags: 软件工程
 title: 概念验证
 tmap.id: cd1fae62-7ed7-4285-ab8e-35a5c5ea1fb8
 type: text/vnd.tiddlywiki
 
-PoC是指"概念验证"（Proof of Concept）的缩写。在计算机领域中，POC通常指的是一个概念验证的演示，用于证明某项技术、方法或想法的可行性。
+''PoC''是指"概念验证"（Proof of Concept）的缩写。在计算机领域中，POC通常指的是一个概念验证的演示，用于证明某项技术、方法或想法的可行性。

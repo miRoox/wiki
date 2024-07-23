@@ -1,0 +1,12 @@
+created: 20240723091540556
+creator: miRoox
+modified: 20240723091732213
+modifier: miRoox
+tags: 软件工程
+title: 浏览器-服务器架构
+tmap.id: 9bd8612e-37c0-48a7-9f71-e6d5a795f427
+type: text/vnd.tiddlywiki
+
+''浏览器-服务器架构''（Browser-server model），简称''B/S''架构，与[[客户端-服务器架构]]不同，其客户端不需要安装专门的软件，只需要浏览器即可。
+
+B/S结构简化了客户端的工作，它是随着Internet技术兴起而产生的，对C/S技术的改进，但该结构下服务器端的工作较重，对服务器的性能要求更高。

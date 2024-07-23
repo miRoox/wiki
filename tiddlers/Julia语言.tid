@@ -2,7 +2,7 @@ caption: Julia
 created: 20190918114733044
 creator: miRoox
 list: Julia语法
-modified: 20240704090330426
+modified: 20240723054358732
 modifier: miRoox
 tags: 科学计算 计算机语言 编程语言
 title: Julia语言
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 ! Julia
 
-Julia 语言是一门灵活的动态语言，适合用于[[科学计算]]和[[数值计算]]，并且性能可与传统的[[静态类型语言]]媲美。
+Julia 语言是一门灵活的[[动态语言]]，适合用于[[科学计算]]和[[数值计算]]，并且性能可与传统的[[静态类型语言]]媲美。
 
 !! 外部链接
 

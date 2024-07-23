@@ -1,9 +1,9 @@
 caption: 当前标签条目
 created: 20191017072045664
 creator: miRoox
-modified: 20191017074116783
+modified: 20240723091053453
 modifier: miRoox
-tags: $:/tags/TextEditor/Snippet
+tags: $:/tags/TextEditor/Snippet $:/internal
 title: Snippet:当前标签条目
 tmap.id: cc7a9ee9-2882-4488-a6c6-0ad5f93df3b0
 type: text/vnd.tiddlywiki
