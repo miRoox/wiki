@@ -1,15 +1,16 @@
 caption: Mathematica
 created: 20190926091042715
 creator: miRoox
-modified: 20230316074157124
+modified: 20240724123626634
 modifier: miRoox
-tags: 科学计算 开发工具 软件
+tags: 科学计算 开发工具 软件 计算机代数系统
 title: Mathematica
 tmap.id: 77ade56f-64c0-48ea-9a0e-d672a28b0af5
 type: text/vnd.tiddlywiki
 
 ! Mathematica
 
+''Wolfram Mathematica'' 是一款[[科学计算]][[软件]]，广泛使用于科学、工程、[[数学]]、计算等领域。
 Mathematica使用[[Wolfram语言|Wolfram语言]]作为其编程语言。
 
 !! 外部链接

@@ -1,0 +1,12 @@
+created: 20240724125330354
+creator: miRoox
+modified: 20240724141905737
+modifier: miRoox
+tags: 软件工程 软件接口
+title: 应用二进制接口
+tmap.id: 0a67fec4-11b7-47b1-8a13-5837e47c7aa3
+type: text/vnd.tiddlywiki
+
+''应用二进制接口''（application binary interface，''ABI''）定义了[[机器代码]]如何访问[[数据结构]]与运算程序，此处所定义的接口相当低端且依赖于[[硬件]]。而类似概念的[[API|应用程序接口]]则在源代码定义这些，则较为高阶，并不直接相依于硬件，通常会是人类可阅读的代码。
+
+ABI常见的形态有[[调用约定]]、[[名字修饰]]。
