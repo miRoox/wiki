@@ -1,0 +1,10 @@
+created: 20240724124640645
+creator: miRoox
+modified: 20240724125021449
+modifier: miRoox
+tags: 软件工程 软件接口
+title: 应用程序接口
+tmap.id: f3cd0003-0f11-4075-bb11-ec469538b83a
+type: text/vnd.tiddlywiki
+
+''应用程序接口''（application programming interface， ''API''）是一种计算接口，它定义多个软件中介之间的交互，以及可以进行的调用（call）或请求（request）的种类，如何进行调用或发出请求，应使用的数据格式，应遵循的惯例等。还可以提供扩展机制，以便用户可以通过各种方式对现有功能进行不同程度的扩展。一个API可以是完全定制的，针对某个组件的，也可以是基于行业标准设计的以确保互操作性。通过信息隐藏，API实现了[[模块化编程]]，从而允许用户实现独立地使用接口。

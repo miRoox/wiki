@@ -1,0 +1,10 @@
+created: 20240724124217583
+creator: miRoox
+modified: 20240724141734884
+modifier: miRoox
+tags: TODO 软件开发工具包 Java
+title: Java Development Kit
+tmap.id: 9b4d1b1c-114d-49dc-a5df-0370fd6520f6
+type: text/vnd.tiddlywiki
+
+作为[[Java]]语言的[[SDK|软件开发工具包]]，普通用户并不需要安装JDK来运行Java程序，而只需要安装[[JRE]]（Java Runtime Environment）。而程序开发者必须安装JDK来编译、调试程序。
