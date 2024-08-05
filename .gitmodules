@@ -1,0 +1,3 @@
+[submodule "wikilabs-pugins"]
+	path = wikilabs-pugins
+	url = git@github.com:wikilabs/plugins.git
