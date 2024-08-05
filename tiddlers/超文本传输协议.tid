@@ -1,9 +1,11 @@
+aliases: HTTP
+caption: HTTP
 created: 20230520134920746
 creator: miRoox
-modified: 20230520135058025
+modified: 20240805142916896
 modifier: miRoox
-tags: 计算机网络
-title: HTTP
+tags: 计算机网络 协议
+title: 超文本传输协议
 tmap.id: 7d64b439-c444-4a8e-813d-833d92b40b86
 type: text/vnd.tiddlywiki
 
