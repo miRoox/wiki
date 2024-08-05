@@ -1,0 +1,14 @@
+title: $:/plugins/wikilabs/thin-scrollbars/history
+
+V 0.1.2 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 0.1.1 - 2022-03-27
+
+* update to TW v5.2.2
+
+V 0.1.0 - 2021-01-05
+
+* initial release

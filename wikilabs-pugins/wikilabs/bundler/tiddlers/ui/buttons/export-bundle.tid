@@ -1,0 +1,12 @@
+caption: {{$:/core/images/export-button}} {{$:/language/Buttons/ExportTiddler/Caption}}
+created: 20170601135455476
+description: export bundle
+modified: 20170609084521882
+title: $:/plugins/wikilabs/bundler/ui/Buttons/export-bundle
+type: text/vnd.tiddlywiki
+
+\define makeExportFilter()
+[enlist{$(currentTiddler)$}]
+\end
+
+<span class="tc-small-gap-right"><$macrocall $name="exportButton" exportFilter=<<makeExportFilter>> lingoBase="$:/language/Buttons/ExportTiddler/" baseFilename=<<currentTiddler>>/></span>

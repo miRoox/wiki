@@ -1,0 +1,21 @@
+created: 20230103230023478
+modified: 20230103230115806
+tags: 
+title: $:/plugin/wikilabs/ui/ViewTemplate/body/filters
+type: text/vnd.tiddlywiki
+
+<$transclude />
+
+---
+
+Description: {{!!description}}
+
+Filter: <code>{{!!filter}}</code>
+
+<details> <summary>Filter Results: <$count filter={{!!filter}}/> </summary>
+<div>
+Open the tiddler InfoArea {{$:/core/images/info-button|1em}} for full functionality.
+
+<$macrocall $name="list-links" filter={{!!filter}} emptyMessage="--- no results ---"/>
+</div>
+</details>

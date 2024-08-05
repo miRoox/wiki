@@ -1,0 +1,26 @@
+caption: Sidebar Tiddler Links
+created: 20220825005920939
+modified: 20220903092544393
+search-term: sidebar tab background selected border divider foreground tiddler link hover
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/sidebar-tiddler-link-foreground-hover
+type: text/vnd.tiddlywiki
+
+''Be aware:'' 
+
+The last 2 elements `sidebar-tiddler-link-foreground` and `sidebar-tiddler-link-foreground-hover` are listed here, because they are prefixed `sidebar-`. At the moment there is no other way to show them. (TODO)
+
+The test-area below is scrollable.
+
+<style>
+.xx-sidebar-tabs .tc-tab-buttons button:nth-of-type(4),
+.xx-sidebar-tabs .tc-tab-buttons button:nth-of-type(5) {
+  display:none
+}
+</style>
+
+<$linkcatcher>
+<div class="xx-sidebar-tabs" style="height:200px; overflow:auto; border: 1px solid gray; padding: 0 1em;">
+{{$:/core/ui/SideBarSegments/tabs}}
+</div>
+</$linkcatcher>

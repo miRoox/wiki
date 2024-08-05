@@ -1,0 +1,32 @@
+caption: Tabs
+created: 20220825013206625
+modified: 20220903092441701
+search-term: tab background selected border divider foreground
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/tab-foreground-selected
+type: text/vnd.tiddlywiki
+
+The area below is a scrollable
+
+<$linkcatcher>
+<div style="height:130px; overflow:auto; border: 1px solid gray; padding: 1em;">
+<<tabs "SampleTabOne SampleTabTwo SampleTabThree SampleTabFour" "SampleTabOne" "$:/state/tab1">>
+</div>
+</$linkcatcher>
+
+The following example shows a tabbed-TOC example.
+
+* Use it, to test the ''mouse hover function''
+** The selected toc-tab uses `<<colour background>>` so it cannot be defined here
+** The :hover class uses `background: <<colour tab-border>>;`
+*** So background and `tab-background` and `tab-border` need to be slightly different to get a hover effect
+
+<$linkcatcher>
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="previewTabbedToc"
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>
+</$linkcatcher>

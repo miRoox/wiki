@@ -1,0 +1,65 @@
+created: 20221003090255582
+modified: 20221109105649733
+tags: $:/tags/MacroXXX DEPRECATED
+title: $:/core/macros/colour-picker-resolved
+type: text/vnd.tiddlywiki
+
+<!-- see FieldsWidget for template -->
+\define getTooltip() $colourValue$ -- $resolvedColour$
+
+\define macroPrefix() <<colour
+\define macroSuffix() >>
+
+\define inputActions()
+<$action-setfield $tiddler=<<tiddler>> $index=<<index>> $value=<<value>> />
+\end
+
+\define changeActions()
+<$action-setfield $tiddler=<<tiddler>> $index=<<index>> $value=<<value>> />
+\end
+
+\define resolveColourActions()
+<$wikify name="resolvedColour" text="""<$macrocall $name=<<__resolver__>> tiddler=<<__palette__>> index=<<__colourName__>> />""" output=text mode=inline>
+	<$action-setfield $tiddler=<<resolved-temp-tiddler>> $index=<<__colourName__>> $value=<<resolvedColour>> />
+</$wikify>
+\end
+
+\define colour-picker-resolved(palette colourName class resolver:"resolveColourMacro" liveUpdate:"yes")
+\whitespace trim
+	<$colour tiddler=<<__palette__>> 
+		index=<<__colourName__>> 
+		liveUpdate=<<__liveUpdate__>>
+		class=<<__class__>> 
+
+		default="/temp/"
+		
+		tooltipTemplate=<<tooltipTemplate>> 
+		
+		macroPrefix=<<macroPrefix>>
+		macroSuffix=<<macroSuffix>>
+		
+		$input=<<inputActions>>
+		$change=<<changeActions>>
+		resolveColourActions=<<resolveColourActions>>
+	/>
+\end
+
+\define resolveColourMacro(tiddler index)
+\whitespace trim
+<$set name=colourResolved value={{{ [<__tiddler__>getindex<__index__>] }}}>
+	<$list filter="[<colourResolved>!prefix<macroPrefix>]" variable="ignore">
+		<$text text=<<colourResolved>>/>
+	</$list>
+	<$list filter="[<colourResolved>prefix<macroPrefix>]" variable="ignore">
+		<$set name=index filter={{{ [<colourResolved>removeprefix<macroPrefix>removesuffix<macroSuffix>] }}}>
+			<!-- $text text=<<index>>/> / -->
+			<$macrocall $name="resolveColourMacro" tiddler=<<__tiddler__>> index=<<index>>/>
+		</$set>
+	</$list>
+</$set>
+\end
+
+\define resolveRgbMacro()
+<!-- ToDo -->
+\end
+

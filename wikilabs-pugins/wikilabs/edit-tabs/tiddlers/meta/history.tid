@@ -1,0 +1,61 @@
+title: $:/plugins/wikilabs/edit-tabs/history
+
+V 3.0.2 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 3.0.1 - 2024-04-18
+
+* Settings are now in $:/ControlPanel -> ''Settings'' -> ''WikiLabs'' tab
+
+V 3.0.0 - 2023-12-28
+
+* Deprecated -> Use: https://wikilabs.github.io/editions/link-to-tabs/ instead
+
+V 3.0.0 - 2020-03-27
+
+* Update edition to TW v5.2.2
+* ''Important'': Changed license to Attribution-NonCommercial-ShareAlike -- [[CC-BY-NC-SA|$:/plugins/wikilabs/edit-tabs/license]]
+
+
+V 2.0.1 - 2020-12-25
+
+* update license
+
+V 2.0.0 - 2020.12.05
+
+* Update $:/core/macros/tabs to V5.1.23
+
+V 1.1.1 - 2020.01.19
+
+* Update license link/text
+
+V 1.1.0 - 2019-08
+
+* Change minimum core version to `>=5.1.15`
+
+V1.0.0 - 2019-07-14
+
+* Add new option: Initially hide link
+** Transition time from hidden to visible is adjustable
+* Added: "Reset to Default" button
+* Show Edit Button if edit mode is active
+
+This version has feature parity with link-to-tabs plugin from same date!
+
+V0.2.0 - 2019-01-17
+
+* remove the experimental flag
+
+V0.2.0-experimental - 2018-02-13
+
+* initial release
+* forked from link-to-tabs V0.1.1
+* add new "auto-edit" configuration for tab-links
+* auto-edit is only active for non-shadow tiddlers `[!is[shadow]]`
+* contains a temporary fix for a <$action-sendmessage widget parameter passing problem
+** This fix should be deactivated in the future.
+
+also see: https://wikilabs.github.io/editions/edit-tabs/#History
+also see: https://wikilabs.github.io/editions/link-to-tabs/#History

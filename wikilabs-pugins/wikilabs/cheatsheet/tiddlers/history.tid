@@ -1,0 +1,31 @@
+title: $:/plugins/wikilabs/cheatsheet/history
+
+V 1.1.2 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 1.1.1 2023.10.07
+
+* Add basic documentation
+* Add TranscludeWidget link to Symobl table
+* Removed the `{{$:/Cheatsheet PlainText}}` from list and quote examples
+* Improved rendered text positioning
+* More top/bottom space for table Headings
+
+V 1.1.0 2023.10.06
+
+* Add info about brackets and useage links
+
+V 1.0.0 2023.10.03
+
+* fix custom widget syntax
+* improve links to tiddlywiki.com documentation
+
+V 0.1.1 2023.05.05
+
+* fix type in bold formatting docs
+
+V 0.1.0 2023.05.02
+
+* initial release

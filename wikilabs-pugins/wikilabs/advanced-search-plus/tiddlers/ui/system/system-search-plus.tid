@@ -1,0 +1,40 @@
+title: $:/plugins/wikilabs/advanced-search-plus/system-search-plus
+
+\define new-tiddler-input() $:/temp/asp/input/system
+
+\define add-tab-actions()
+<$let input-tiddler={{{ "$:/search-flt/" "inp/" [<new-tiddler-input>get[text]] +[join[]] }}}
+		search-title={{{ "$:/search-flt/" [<new-tiddler-input>get[text]] +[join[]] }}}>
+	<$action-deletetiddler $tiddler="$:/state/expandMe/$:/plugins/wikilabs/advanced-search-plus/system-search-plus"/>
+	<$action-setfield $tiddler="$:/state/tab-54561037" text=<<search-title>> />
+	<$action-setfield $tiddler="$:/state/tab--1498284803" text=<<search-title>> />
+	<$action-setfield $tiddler=<<input-tiddler>> text={{$:/temp/advancedsearch}} />
+	<$action-setfield $tiddler=<<search-title>>
+		caption={{{ [<new-tiddler-input>get[text]] }}}
+		hint={{{ [<currentTab>get[hint]] }}}
+		input-title=<<search-title>>
+		input-tiddler=<<input-tiddler>>
+		text={{$:/plugins/wikilabs/advanced-search-plus/SystemSearchTemplate}}
+		tags="$:/tags/AdvancedSearchPlus"
+		icon="$:/plugins/wikilabs/advanced-search-plus/system-search.svg"
+	/>
+	<$action-deletetiddler $tiddler=<<new-tiddler-input>>/>
+</$let>
+\end
+
+\whitespace trim
+<div class="tc-search tc-advanced-search">
+<$keyboard actions=<<add-tab-actions>> key="ctrl-enter">
+	<$edit-text field="text" tag="input" class="wikilabs-full-width tc-tiny-gap-right"
+		tiddler=<<new-tiddler-input>>
+		placeholder="caption"
+		focus="yes"/>
+</$keyboard>
+<$button class={{{ [{$:/config/Toolbar/ButtonClass}trim[]] }}} tooltip={{$:/language/Buttons/Clear/Caption}} >
+	<$action-deletetiddler $tiddler=<<new-tiddler-input>>/>
+	<$transclude tiddler="$:/core/images/cancel-button" />
+</$button>
+<$button actions=<<add-tab-actions>> class={{{ [{$:/config/Toolbar/ButtonClass}trim[]] }}} tooltip={{$:/language/Buttons/NewTiddler/Caption}} >
+	<$transclude tiddler="$:/core/images/done-button" />
+</$button>
+</div>

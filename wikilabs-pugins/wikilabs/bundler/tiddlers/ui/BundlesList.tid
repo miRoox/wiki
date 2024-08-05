@@ -1,0 +1,41 @@
+title: $:/plugins/wikilabs/bundler/ui/BundlesList
+type: text/vnd.tiddlywiki
+
+\import [[$:/plugins/wikilabs/bundler/ui/BundlesFiltered]]
+
+\function nl() [charcode[10]]
+
+\whitespace trim
+
+<div class="wltc-small-gap-bottom">
+	<$let text={{{ [enlist{$:/StoryList!!list}format:titlelist[]join<nl>] }}}>
+		<$button tooltip="Create a New Bundle Tiddler">
+			<$action-sendmessage $message="tm-new-tiddler"
+				title="new.bundle"
+				tags="$:/tags/Bundle"
+				code-body="yes"
+				text=<<text>>
+			/>
+			New Bundle
+		</$button>
+	</$let>
+	<$edit-text tag=input placeholder="Filter List" tiddler="$:/temp/bundle/listFilter" class="tc-tiny-gap-left"/>
+	<$button class="tc-small-gap-left tc-btn-invisible tc-btn-icon">
+		{{$:/core/images/close-button}}
+		<$action-deletetiddler $tiddler="$:/temp/bundle/listFilter" />
+	</$button>
+</div>
+<div class="wltc-small-gap-top">
+	<$list filter="[tag[$:/tags/Bundle]] :filter[search:title{$:/temp/bundle/listFilter}]">
+		<div>
+			<$macrocall $name="dragBundleIcon" visible={{{ [[$:/config/wikilabs/enableDragListButton]get[text]trim[]else[yes]] }}} />
+			<$list filter={{{ [{$:/config/wikilabs/enableExportListButton}trim[]match[no]then[]else[yes]] }}} variable="ignore">
+				{{||$:/plugins/wikilabs/bundler/ui/Buttons/export-bundle}}
+			</$list>
+			<$macrocall $name="test-list" btnText=<<get-info>>/>
+			<$link to=<<currentTiddler>> tooltip=<<get-tooltip>> >
+				<<caption-or-title>>
+			</$link>
+		</div>
+	</$list>
+</div>

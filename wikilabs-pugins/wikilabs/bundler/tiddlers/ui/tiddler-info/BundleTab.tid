@@ -1,0 +1,32 @@
+caption: Bundle
+created: 20210125174531652
+modified: 20230202122808788
+tags: $:/tags/TiddlerInfo
+title: $:/plugins/wikilabs/ui/TiddlerInfo/BundleTab
+type: text/vnd.tiddlywiki
+
+\import [[$:/plugins/wikilabs/bundler/ui/BundlesFiltered]]
+
+Be careful - Make backups!
+
+<hr class="wltc-muted-forground">
+
+<$list filter="[all[current]contains:tags[$:/tags/Bundle]]">
+<<dragBundleButton>>
+</$list>
+<$list filter="[all[current]contains:tags[$:/tags/Filter]]" >
+<<dragFilteredButton>>
+</$list> ... Drag this link to a different wiki to import the bundle + all defined tiddlers
+
+<hr class="wltc-muted-forground">
+
+<$list filter="[all[current]contains:tags[$:/tags/Bundle]]">
+{{||$:/plugins/wikilabs/bundler/ui/Buttons/export-bundle}} <<get-info>> tiddlers! -- <<test-list>> -- <<open-list>> -- <<open-list-below>>
+<hr class="wltc-muted-forground">
+{{||$:/plugins/wikilabs/ui/TiddlerInfo/listTemplate}}
+</$list>
+<$list filter="[all[current]contains:tags[$:/tags/Filter]]" >
+{{||$:/plugins/wikilabs/bundler/ui/Buttons/export-bundle-filter}} <<count-filter>> tiddlers! <<test-filter-text>> -- <<open-filter-list>> -- <<open-filter-below>>
+<hr class="wltc-muted-forground">
+{{||$:/plugins/wikilabs/ui/TiddlerInfo/listFilteredTemplate}}
+</$list>

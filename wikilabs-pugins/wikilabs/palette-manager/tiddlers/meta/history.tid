@@ -1,0 +1,97 @@
+title: $:/plugins/wikilabs/palette-manager/history
+
+V 1.0.1 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 1.0.0 - 2024.04.18
+
+* Settings are now in $:/ControlPanel -> ''Settings'' -> ''WikiLabs'' tab
+* Update version number to 1.0.0 from 0.11.1 (no new functions added)
+
+V 0.11.1 - 2024.01.27
+
+* add tabbed-toc-expandable preview to $:/palettes/preview/tab-foreground-selected tiddler
+* improve doc text in several other preview tiddlers
+
+V 0.11.0 - 2024.01.17
+
+* Change the license: $:/plugins/wikilabs/palette-manager/license
+
+V 0.10.1 - 2024.01.17
+
+* Bugfix release: $:/ControlPanel -> $:/PaletteManager checkbox formatting problem
+
+V 0.10.0 - 2024.01.16
+
+* The PaletteManager does ''not'' need a browser restart anymore
+** "Cudos" go to Eric Shulman / TiddlyTools
+
+* Previews can be hidden now (default is visible)
+
+* Make the "search field" compatible with TiddlyTools PaletteManager
+** Both palette managers can be used at the same time
+
+* It can now properly preview settings eg: rgba(0,200,0,0.7)
+* TT-PM can use the previews
+* WL-PM can use the X11 Colour settings and the custom colour picker
+
+V 0.9.2 - 2024.01.14
+
+* Improve vertical readability in preview editor
+
+V 0.9.0 - 2024.01.12
+
+* Big jump in the version number, because the functionality was stable for a long time now
+
+* The plugin uses $:/plugins/wikilabs/palette-manager/styles now
+** This style tiddler also contains some TODOs to improve vanilla/base
+** base/vanilla theme tiddler has been removed from the plugin. So it's not overwritten anymore
+** $:/_tw5.com-styles has been removed from the plugin. So it's not overwritten anymore
+*** Problems previewing the "Big Green Download" button has been fixed upstream
+
+* improve serch help text
+* Improve vertical separation in preview editor
+* Improve help text in 17 preview tiddlers
+
+V 0.2.0 - 2022.11.16
+
+* Docs refactoring and improvements
+* Cherrypick changes from master vanilla/base CSS
+* remove second search tab 
+* add `@@highlighted text@@` preview
+
+V 0.1.0 - 2022.11.02
+
+* New EditColourWidget
+** New docs and examples for EditColourWidget
+
+* New "colour-picker-resolved Macro"
+** New docs and examples for "colour-picker-resolved Macro"
+** The macro and the widget belong together
+** The macro is responsible to "resolve" different color-mode macros
+
+
+V 0.0.4 - 2022.09.04
+
+* add search to palette manager
+* add search-terms to preview tiddlers
+* add focus button to preview heading for easier search grouping. It uses the first search-term element
+* palette manager is now a scrollable, to avoid jumpy scroll behaviour on search 
+* <<colour search is possible
+
+V 0.0.3 - 2022.09.01
+
+* Improve workflow if palette is cloned
+* Implement undo function if origin-field exists
+* Preview text is now clickable and opens the preview tiddler
+* Add "activate" button to palette title (needed for clone workflow)
+** needs to be in the title if tiddler is folded
+* Preview elements are in a separate tiddler now, which improves hackability
+
+V 0.0.2 - 2022.08.30
+
+This plugin is intended to be included into the TW core. It's a temporary plugin that will hopefully go away in the future.
+
+* initial release

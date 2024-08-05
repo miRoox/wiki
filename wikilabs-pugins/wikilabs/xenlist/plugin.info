@@ -1,0 +1,10 @@
+{
+	"title": "$:/plugins/wikilabs/xenlist",
+	"name": "xenlist",
+	"description": "New enlist operator that understands comments and filter syntax",
+	"author": "pmario",
+	"core-version": ">=5.1.14",
+	"version": "0.0.2",
+	"list": "readme license history",
+	"stability": "STABILITY_1_EXPERIMENTAL"
+}

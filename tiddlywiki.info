@@ -14,7 +14,8 @@
         "tiddlywiki/codemirror-mode-x-tiddlywiki",
         "tiddlywiki/codemirror-mode-javascript",
         "tiddlywiki/codemirror-mode-css",
-        "tiddlywiki/codemirror-mode-xml"
+        "tiddlywiki/codemirror-mode-xml",
+        "wikilabs/uni-link"
     ],
     "themes": [
         "tiddlywiki/vanilla",

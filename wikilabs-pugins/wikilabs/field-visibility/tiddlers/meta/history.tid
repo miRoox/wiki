@@ -1,0 +1,23 @@
+title: $:/plugins/wikilabs/field-visibility/history
+
+V 1.0.1 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 1.0.0 - 2024-04-18
+
+* Settings are now in $:/ControlPanel -> ''Settings'' -> ''WikiLabs'' tab
+
+V 0.2.0 - 2023-05-05
+
+* fix intro button state tiddlers to TW v5.2.27
+
+V 0.1.0 - 2022-03-27
+
+* plugin now creates a new tab in the tiddler info area instead of modifying the core tab
+* ''Important'': Changed license to Attribution-NonCommercial-ShareAlike -- [[CC-BY-NC-SA|$:/plugins/wikilabs/field-visibility/license]]
+
+V 0.0.1
+
+* Initial release tested down to TODO

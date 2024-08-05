@@ -1,0 +1,259 @@
+created: 20220831132430521
+modified: 20221005105747807
+title: $:/PaletteManager
+type: text/vnd.tiddlywiki
+
+<!-- TiddlyTools Palette Manager compatibility settings https://tiddlytools.com/#TiddlyTools%2FPalettes%2FManager -->
+<!-- Important -- The following elements have to be the same as set in TiddlyTools Palette Manager -->
+\define popup() $:/state/popup/TiddlyTools/PaletteManager
+\define find()  $(popup)$/find
+
+<!-- custom resolved colour picker -->
+\define pick()  $(popup)$/pick
+\define X11Colors() TiddlyTools/Settings/Colors/X11
+<!-- END TT compatibility -->
+
+<!-- Show / Hide Previews -->
+\define previews() $:/temp/pm/showpreviews
+
+\define lingo-base() $:/language/ControlPanel/Palette/
+
+\define describePaletteColour(colour)
+<$transclude tiddler="$:/language/Docs/PaletteColours/$colour$"><$text text="$colour$"/></$transclude>
+\end
+
+\define edit-colour-placeholder()
+edit $(colourName)$
+\end
+\define colour-tooltip(showhide) $showhide$ editor for $(newColourName)$
+
+\define resolve-colour(macrocall)
+\import $:/core/macros/utils
+\whitespace trim
+<$wikify name="name" text="""$macrocall$""">
+<<name>>
+</$wikify>
+\end
+
+<!-- Show alternative color swatch if <<colour xx>> macro is used -->
+\define show-colour-macro-editor()
+<$list filter="[<currentTiddler>getindex<colourName>removeprefix[<<]removesuffix[>>]] [<currentTiddler>getindex<colourName>removeprefix[<$]removesuffix[/>]]" variable="ignore">
+	<$set name="state" value={{{ [[$:/state/palettemanager/]addsuffix<currentTiddler>addsuffix[/]addsuffix<colourName>] }}}>
+		<$wikify name="newColourName" text="""<$macrocall $name="resolve-colour" macrocall={{{ [<currentTiddler>getindex<colourName>] }}}/>""">
+			<$reveal state=<<state>> type="nomatch" text="show">
+				<$button tooltip=<<colour-tooltip show>> aria-label=<<colour-tooltip show>> class="tc-btn-invisible" set=<<state>> setTo="show">
+					{{$:/core/images/down-arrow}}<span class="tc-tiny-gap-left"><$text text=<<newColourName>>/></span>
+				</$button>
+			</$reveal>
+			<br y>
+			<$reveal state=<<state>> type="match" text="show">
+				<$button tooltip=<<colour-tooltip hide>> aria-label=<<colour-tooltip show>> class="tc-btn-invisible" actions="""<$action-deletetiddler $tiddler=<<state>>/>""">
+					{{$:/core/images/up-arrow}}<span class="tc-tiny-gap-left"><$text text=<<newColourName>>/></span>
+				</$button>
+			</$reveal>
+			<$reveal class="tc-palette-manager-colour-macro" tag="div" state=<<state>> type="match" text="show">
+				<$set name="colourName" value=<<newColourName>>>
+					<<palette-manager-colour-row-segment>>
+					<br z>
+				</$set>
+			</$reveal>
+		</$wikify>
+	</$set>
+</$list>
+\end
+
+\define delete-colour-index-actions() <$action-setfield $index=<<colourName>>/>
+
+\define reset-colour-index-actions()
+<$action-setfield $index=<<colourName>> $value={{{ [{!!origin}getindex<colourName>] }}} />
+\end
+
+\define palette-manager-colour-row-segment()
+\import [[$:/snippets/currpalettepreview]]
+\whitespace trim
+<$edit-text index=<<colourName>> tag="input" type="text" placeholder=<<edit-colour-placeholder>> default="" class="tc-palette-manager-text-input"/>
+<br x>
+
+<!-- <$macrocall $name="colour-picker-resolved" palette=<<currentTiddler>> colourName=<<colourName>> class="tc-palette-manager-colour-input" /> -->
+<<palette-manager-colour-row-pick>>
+
+<span style="float:right;">
+<$let originColour={{{ [{!!origin}getindex<colourName>] }}} currentColour={{{ [all[current]getindex<colourName>] }}} resetDisabled={{{ [all[current]!has[origin]then[yes]] :else[<originColour>match<currentColour>then[yes]else[no]] }}} >
+	<$button tooltip={{{ [{$:/language/ControlPanel/Palette/Editor/Reset/Caption}addsuffix[ to: ]addsuffix<originColour>] }}} 
+				aria-label={{$:/language/ControlPanel/Palette/Editor/Reset/Caption}} 
+				class="tc-btn-invisible" 
+				actions=<<reset-colour-index-actions>>
+				disabled=<<resetDisabled>> >
+		{{$:/core/images/refresh-button}}
+	</$button>
+	<$list filter="[<resetDisabled>match[no]]" variable="ignore">
+		<$let currentTiddler={{!!origin}} colour=<<colourName>> >
+			<div class="tc-palette-editor tc-float-right"><<swatch x:"swatchColour">></div>
+		</$let>
+	</$list>
+</$let>
+</span>
+<div>
+<<show-colour-macro-editor>>
+</div>
+\end
+
+<!-- The following macro is borrowed from TiddlyTools PalettesManager from Eric Shulman with his permission -->
+<!-- So "praise and glory" goes to him ;) -->
+<!-- TT-PM: https://tiddlytools.com/#TiddlyTools%2FPalettes%2FManager:TiddlyTools%2FPalettes%2FManager version from 19. Feb. 2023 -->
+<!-- TT-X11 Configurations: https://tiddlytools.com/#TiddlyTools%2FSettings%2FColors%2FX11 -->
+<!-- Using this macro allows us to import PM without a browser reload -->
+\define palette-manager-colour-row-pick()
+\define hex()  ^#[A-Fa-f0-9]{3}$
+\define hexa() ^#[A-Fa-f0-9]{8}$
+<$eventcatcher $focusin="<<palette-manager-colour-row-save-undo>>"> <!-- WL-PM does not need this "session" undo macro -->
+<!-- GET PALETTE COLOR -->
+<$let colourValue={{{ [<currentTiddler>getindex<colourName>] }}}>
+<!-- RESOLVE MACRO OR WIDGET -->
+<$wikify name=resolvedValue text=<<colourValue>>> <$let colourValue={{{ [<colourValue>prefix[#]then<colourValue>else<resolvedValue>] }}}>
+<!-- MATCH X11 NAMES (CASE INSENSITIVE) -->
+<$let lower={{{ [<colourValue>lowercase[]] }}} colourValue={{{ [<X11Colors>indexes[]] :filter[lowercase[]match<lower>] :map[<X11Colors>getindex<currentTiddler>] +[!match[]else<colourValue>] }}}>
+<!-- EXPAND #RGB to #RRGGBB -->
+<$let colourValue={{{ [<colourValue>regexp<hex>split[]!match[#]] :map[<currentTiddler>addsuffix<currentTiddler>] +[join[]!match[]addprefix[#]else<colourValue>] }}}>
+<!-- TRUNCATE #RRGGBBAA (IGNORE ALPHA CHANNEL) -->
+<$let colourValue={{{ [<colourValue>regexp<hexa>split[]first[7]join[]] ~[<colourValue>] }}}>
+<!-- CONVERT RGB(r,g,b) OR RGBA(r,g,b,a) TO #RRGGBB (IGNORE ALPHA CHANNEL) -->
+<$let dec={{{ [<colourValue>lowercase[]prefix[rgb]split[(]nth[2]trim[)]split[,]first[3]join[ ]] }}}
+	   hi={{{ [enlist:raw<dec>divide[16]]    :map[[0123456789ABCDEF]split[]zth<currentTiddler>] +[join[ ]] }}}
+       lo={{{ [enlist:raw<dec>remainder[16]] :map[[0123456789ABCDEF]split[]zth<currentTiddler>] +[join[ ]] }}}
+		r={{{ [enlist:raw<hi>nth[1]] =[enlist:raw<lo>nth[1]] +[join[]] }}}
+        g={{{ [enlist:raw<hi>nth[2]] =[enlist:raw<lo>nth[2]] +[join[]] }}}
+        b={{{ [enlist:raw<hi>nth[3]] =[enlist:raw<lo>nth[3]] +[join[]] }}}
+	colourValue={{{ [<r>] =[<g>] =[<b>] +[join[]!match[]addprefix[#]else<colourValue>] }}}>
+<span title='pick color for "$(colourName)$"'>
+<$eventcatcher $change="<$action-setfield $tiddler=<<currentTiddler>> $index=<<colourName>> $value={{{ [<pick>getindex<colourName>] }}}/><$action-deletetiddler $tiddler=<<pick>>/>">
+<$edit-text tiddler=<<pick>> index=<<colourName>> tag=input class="tc-palette-manager-colour-input $(colourName)$" type="color" default=<<colourValue>>/>
+\end
+
+\define palette-manager-colour-row()
+\whitespace trim
+<tr>
+<td class="tc-pm-key-cell">
+	<span style="float:right;">
+		<$button tooltip={{$:/language/ControlPanel/Palette/Editor/Delete/Hint}} aria-label={{$:/language/ControlPanel/Palette/Editor/Delete/Hint}} class="tc-btn-invisible" actions=<<delete-colour-index-actions>>>
+			{{$:/core/images/delete-button}}
+		</$button>
+	</span>
+	''<$macrocall $name="describePaletteColour" colour=<<colourName>>/>''<br/>
+	<$macrocall $name="colourName" $output="text/plain"/>
+</td>
+<td class="tc-pm-colour-cell">
+	<<palette-manager-colour-row-segment>>
+</td>
+</tr>
+<$list filter="[<previews>!has[text]then[yes]]" variable="show_previews">{{||$:/PaletteManager/preview}}</$list>
+\end
+
+<!-- first list filter .. decide if colours with macro values are returned -->
+
+\define activateShortList() [{$(find)$}prefix[<<]then<useValue>else<getColour>]
+\define getColour() [{$:/palette}indexes[]search:title{$(find)$}]
+\define useValue() [{$:/palette}indexes[]] :filter[{$:/palette}getindex<currentTiddler>prefix{$(find)$}]
+
+\define activateLongList() [match[yes]then<longList>]
+\define longList() [all[shadows+tiddlers]tag[$:/tags/Palette]indexes[]search{$(find)$}]
+
+\define palette-manager-table()
+\whitespace trim
+<table class="tc-pm-table">
+<tbody>
+<$let colorList={{{ [{$:/state/palettemanager/showexternal}] :cascade[<activateLongList>append<activateShortList>] }}}>
+		<$list filter="[subfilter<colorList>]" variable="colourName">
+			<<palette-manager-colour-row>>
+		</$list>
+</$let>
+</tbody>
+</table>
+\end
+
+\define countResults()
+<$let colorList={{{ [{$:/state/palettemanager/showexternal}] :cascade[<activateLongList>append<activateShortList>] }}}
+		counter={{{[subfilter<colorList>count[]]}}}>
+		<<counter>>
+</$let>
+\end
+
+\define cloneActions()
+<$action-createtiddler 
+	$basetitle={{{ [[$:/palettes/]addsuffix<now "YYYY-0MM-0DD 0hh:0mm:0ss">] }}}
+	$template={{$:/palette}}
+		origin={{$:/palette}}
+		name={{{ [{$:/palette}get[name]addsuffix<now " YYYY-0MM-0DD 0hh:0mm:0ss">] }}}>
+	<$action-sendmessage $message="tm-edit-tiddler" $param=<<createTiddler-title>>/>
+</$action-createtiddler>
+\end
+
+\define clearSearch()
+<$action-deletetiddler $tiddler=<<find>>/>
+\end
+
+\define open-tiddler-in-window()
+<$button actions=<<activateTiddlerWindow>> class="tc-btn-invisible tc-tiddlylink">
+Open the Palette Manager in a ''new window''
+</$button>
+\end
+
+\define activateTiddlerWindow()
+<$action-sendmessage $message="tm-open-window"
+	$param="$:/PaletteManager" windowTitle="Palette Editor -- Side by Side View"
+	width="800" height="600" />
+\end
+
+\whitespace trim
+
+<$set name="currentTiddler" value={{$:/palette}}>
+
+<<lingo "Editor/Prompt">>: 
+	<$link to={{$:/palette}} class="tc-small-gap-left">
+		<$text text={{{ [all[current]get[name]] }}}/> 
+	</$link>
+	<span class="tc-small-gap">
+		<$text text={{{ [all[current]get[description]] }}}/>
+	</span>
+	<!-- This text and button is shown, when a shadow palette -- has been changed -- by the user -->
+	<$list filter="[all[current]is[shadow]is[tiddler]]" variable="listItem">
+		''<<lingo "Editor/Prompt/Modified">>''
+		<$button class="tc-small-gap-left" message="tm-delete-tiddler" param={{$:/palette}}>
+			<<lingo "Editor/Reset/Caption">>
+		</$button>
+	</$list><br>
+
+<$button actions=<<cloneActions>> >
+	<<lingo "Editor/Clone/Caption">>
+</$button> <span class="tc-small-gap-left"><$text text={{{ [all[current]get[name]] }}}/></span>
+
+Origin:
+<$link  class="tc-small-gap" to={{!!origin}}>
+	<$let tv-wikilinks="no">
+		{{!!origin}}
+	</$let>
+</$link>
+<!-- This text is shown, when the shadow palette referenced as origin -- has been changed -- by the user -->
+<$list filter="[{!!origin}is[shadow]is[tiddler]]" variable="listItem">
+	''<<lingo "Editor/Prompt/Modified">>''
+</$list>
+
+<!-- This text will be shown, as long as the palette is an unchanged shadow tiddler -->
+<$list filter="[all[current]is[shadow]!is[tiddler]]" variable="listItem">
+	''<<lingo "Editor/Clone/Prompt">>''
+</$list>
+
+<$checkbox tiddler="$:/state/palettemanager/showexternal" field="text" checked="yes" unchecked="no">
+	<span class="tc-small-gap-left"><<lingo "Editor/Names/External/Show">></span>
+</$checkbox><br>
+<$checkbox tiddler=<<previews>> field="text" default="yes" checked="yes" unchecked="no" checkactions="<$action-deletetiddler $tiddler=<<previews>>/>">
+	<span class="tc-small-gap-left">Show previews</span>
+</$checkbox> 
+
+<<open-tiddler-in-window>>
+
+Search: <$edit-text tiddler=<<find>> tag="input" placeholder="colour name eg: alert" default="" class="tc-palette-manager-text-input tc-small-gap"/> -- <<countResults>>--<$button actions=<<clearSearch>> class="tc-btn-invisible tc-small-gap-left">{{$:/core/images/close-button}}</$button>
+
+<$scrollable class="tc-palette-editor-scrollable">
+<<palette-manager-table>>
+</$scrollable>

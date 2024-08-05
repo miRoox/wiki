@@ -1,0 +1,19 @@
+title: $:/plugins/wikilabs/speciallinks/history
+
+V 0.1.1 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 0.1.0 - 2022.03.27
+
+* update to TW v5.2.2
+* ''Important'': Changed license to Attribution-NonCommercial-ShareAlike -- [[CC-BY-NC-SA|$:/plugins/wikilabs/speciallinks/license]]
+
+V 0.0.2 - 2020.12.25
+
+* update license
+
+V 0.0.1 - 2020-02-25
+
+* initial release

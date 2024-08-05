@@ -1,0 +1,73 @@
+title: $:/plugins/wikilabs/palette-manager/styles
+tags: $:/tags/Stylesheet
+list-after: 
+
+/* used for "activate" button if palette-tiddler is viewed */
+.tc-title-button {
+	font-size: initial;
+}
+
+/* Hack: to show $:/PaletteManager as a single tiddler */
+
+[data-tiddler-title="$:/PaletteManager"] table {
+	width: 100%;
+}
+
+/*
+** Palette swatches
+*/
+
+/* Don't show those buttons in color-picker dropdown */
+.tc-drop-down .tc-handle-palette-button {
+	display: none;
+}
+
+.tc-palette-editor-scrollable {
+	height: 80vh;
+	position: relative;
+	border: 1px solid <<colour "tiddler-editor-border">>;
+	padding: 0 1em;
+}
+
+.tc-palette-editor-scrollable .tc-preview-title,
+.tc-palette-editor-scrollable .tc-preview-cell,
+.tc-palette-editor-scrollable .tc-preview-empty-cell,
+.tc-palette-editor-scrollable .tc-palette-preview-empty-row,
+.tc-palette-editor-scrollable .tc-pm-key-cell,
+.tc-palette-editor-scrollable .tc-pm-colour-cell,
+.tc-palette-editor-scrollable .tc-pm-table {
+	border: none;
+}
+
+/* separate the different elements */
+.tc-palette-editor-scrollable .tc-preview-cell {
+	padding-bottom: 1em;
+	border-bottom: 6px double <<colour "primary">>;
+}
+
+.tc-palette-editor-scrollable .tc-pm-key-cell,
+.tc-palette-editor-scrollable .tc-pm-colour-cell {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid <<colour "tiddler-editor-border">>;
+}
+
+.tc-palette-editor-scrollable .tc-pm-example th,
+.tc-palette-editor-scrollable .tc-pm-example td {
+	padding-top: 3px;
+}
+
+.tc-palette-editor .tc-swatch {
+	width: 1.2em;
+	height: 1.2em;
+}
+
+input[type=text].tc-palette-manager-text-input {
+	width: 75%;
+}
+
+input[type=color].tc-palette-manager-colour-input {
+	width: 75%;
+	padding: 0;
+}
+

@@ -1,0 +1,33 @@
+title: $:/plugins/wikilabs/palette-manager/readme
+tags: $:/tags/ControlPanel/WikiLabs
+caption: Palette Manager
+
+!! Video
+
+Youtube will start collecting user-info, if you play the video!
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/20mQwPuMv6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+!! Feedback
+
+Feedback will be welcome at: [[to get feedback at Talk-TiddlyWiki|https://talk.tiddlywiki.org/t/palette-manager-feature-complete-preview/5095]]
+
+! Overview
+
+This plugin is an ''preview'' plugin, that should be implemented into the TW core in the future.
+
+* You can open it using the [[$:/PaletteManager]] ... where the previews look a bit different as if you open it with the 
+* $:/ControlPanel --> Appearence --> Palette -> <kbd>show editor</kbd> button
+
+! Important
+
+This plugin overwrites and adds the following system tiddlers:
+
+|Shadow Tiddler |Reason to change it atm |h
+|$:/PaletteManager |This is needed to get the new UI as shown in the image below |
+
+|New |Description |h
+|$:/PaletteManager/preview |Contains the whole preview code, which is `\import`ed to $:/PaletteManager |
+|$:/plugins/wikilabs/palette-manager/styles |Some specific adjustments needed - The goal is to implement most of them in vanilla/base |
+
+The full list of plugin tiddlers can be seen at: $:/plugins/wikilabs/palette-manager -> content tab

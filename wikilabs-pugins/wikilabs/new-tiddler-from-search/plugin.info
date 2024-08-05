@@ -1,0 +1,10 @@
+{
+	"title": "$:/plugins/wikilabs/new-tiddler-from-search",
+	"name": "New Tiddler from Search",
+	"description": "Extends the search interface",
+	"author": "Mario Pietsch",
+	"core-version": ">=5.1.6",
+	"version": "1.0.3",
+	"list": "readme license history",
+	"stability": "STABILITY_2_STABLE"
+}

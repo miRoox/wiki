@@ -1,0 +1,32 @@
+title: $:/plugins/wikilabs/pragma-comment/readme
+
+! Deprecated
+
+A similar function is part of the TW core since V5.2.0 See: https://tiddlywiki.com/#HTML%20in%20WikiText : Pragma Comments
+
+! Pragma Comment
+
+The following lines will not create a parse-tree element and it will not interrupt the "pragma parser". So comments can be placed outside of macro definitions, which is much faster during macro execution.
+
+```
+\\ comment comes here till the end of the line
+\\ comments like this are fast since they are ignored and the result is cached!
+
+\define test()
+\\ This comment is as slow as the next line
+<!-- HTML comment -->
+\end
+
+\\ The whole definition is deactivated. .... Works well for a few lines of code!
+\\define test()
+\\end
+
+\\ if you have big junks of code, it's easier to rename the macro eg: testXXXX() as shown below!
+\define testXXXX()
+x
+x
+x
+\end
+```
+
+

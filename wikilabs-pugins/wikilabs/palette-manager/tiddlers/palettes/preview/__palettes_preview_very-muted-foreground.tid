@@ -1,0 +1,24 @@
+caption: Very Muted
+created: 20220825150410478
+modified: 20220902171508706
+search-term: very muted foreground
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/very-muted-foreground
+type: text/vnd.tiddlywiki
+
+
+This setting can be tested when you import something into the wiki and the import is blocked, or the tiddler already exists.
+''But'' it's used as a ''background'' setting there :/
+
+TODO- check for `tc-tiddler-help`
+
+```
+.tc-tiddler-help a.tc-tiddlylink {
+	color: <<colour very-muted-foreground>>;
+}
+
+.tc-import-table .tc-row-disabled {
+	background: <<colour very-muted-foreground>>10;
+	opacity: 0.8;
+}
+```

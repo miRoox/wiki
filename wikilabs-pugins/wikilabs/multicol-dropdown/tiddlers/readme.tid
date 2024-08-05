@@ -1,0 +1,10 @@
+title: $:/plugins/wikilabs/multicol-dropdown/readme
+
+! Overview
+
+* This plugin changes most dropdown dialogs into multi column dialogs, with CSS only.
+* This plugin is handy, if you have eg: ''a lot of tags''
+
+! Important
+
+This plugin does ''not'' change any core templates!

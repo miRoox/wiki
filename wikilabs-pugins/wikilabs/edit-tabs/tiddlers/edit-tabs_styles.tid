@@ -1,0 +1,43 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/wikilabs/edit-tabs/styles
+
+<pre>
+
+.wltc-edit-tab {
+  display: {{$:/plugins/wikilabs/edit-tabs/config!!show-all-links}};
+  position: relative;
+  top: -1em;
+  left: -1.3em;
+  font-size: 0.7em;
+  opacity: {{$:/plugins/wikilabs/edit-tabs/config!!initial-opacity}};
+  margin-right: -1em;
+}
+
+.wltc-edit-tab svg{
+  width: 1.4em;
+  height: 1.4em;
+}
+
+.wltc-edit-tab:hover {
+  opacity: 1;
+  transition:opacity {{$:/plugins/wikilabs/edit-tabs/config!!transition}}s;
+  transition-timing-function: cubic-bezier(1,-0.06,.39,.89);
+}
+
+.tc-tab-selected + .wltc-edit-tab {
+  display: {{$:/plugins/wikilabs/edit-tabs/config!!show-single-link}};
+}
+
+.tc-vertical > .wltc-edit-tab {
+  top: -1.9em;
+  left: 0;
+  height: 0;
+  float: right;
+}
+
+.tc-search-results .wltc-edit-tab a {
+  display: contents;
+  padding: 0;
+}
+
+</pre>

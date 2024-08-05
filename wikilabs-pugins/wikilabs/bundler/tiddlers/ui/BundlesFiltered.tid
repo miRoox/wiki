@@ -1,0 +1,164 @@
+title: $:/plugins/wikilabs/bundler/ui/BundlesFiltered
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+
+\define filter-exist() [subfilter{$(currentTiddler)$}] +[has[title]]
+\define filter-list() [subfilter{$(currentTiddler)$}!prefix[--- ]]
+\define get-info() <$count filter=<<filter-exist>> />/<$count filter=<<filter-list>> />
+\define count-filter() <$count filter={{$(currentTiddler)$!!filter}} />
+
+\procedure caption-or-title()
+<$set name="tv-wikilinks" value="no">
+	<$transclude field="caption">
+		<$view field="title"/>
+	</$transclude>
+</$set>
+\end
+
+\procedure get-filter-tooltip()
+<$list filter="[all[current]has[caption]]">Title: <<currentTiddler>>
+</$list><<count-filter>> tiddlers will be exported
+\end
+
+\procedure get-tooltip()
+<$list filter="[all[current]has[caption]]">Title: <<currentTiddler>>
+</$list><$count filter=<<filter-exist>> />, out of <$count filter=<<filter-list>> /> tiddlers will be exported.
+Check for typos!
+\end
+
+\procedure act-go-advanced-search-filter()
+
+<$list filter="[<modifier>match[ctrl]]" variable="ignore">
+	<<setFilteredStoryList>>
+</$list>
+
+<$list filter="[<modifier>match[normal]]" variable="ignore">
+	<!-- states for default TW and Advanced Search Plus Plugin -->
+	<$let filter={{{ [all[shadows+tiddlers]tag[$:/tags/AdvancedSearchPlus]limit[1]then[$:/plugins/wikilabs/ui/AdvancedSearchPlus/Filter]else[$:/core/ui/AdvancedSearch/Filter]] }}}>
+	<$action-setfield $tiddler="$:/state/tab--1498284803" $value=<<filter>>/>
+	<$action-setfield $tiddler="$:/state/tab-1610021602" $value=<<filter>>/>
+	<$action-setfield $tiddler="$:/temp/advancedsearch" $value={{!!filter}}/>
+	<$action-setfield $tiddler="$:/temp/advancedsearch/input" $value={{!!filter}}/>
+	</$let>
+</$list
+\end
+
+<!-- Advanced Search Tests -->
+\procedure test-filter()
+<$button to="$:/AdvancedSearch" actions=<<act-go-advanced-search-filter>> class="tc-btn-boxed tc-small-gap-right" tooltip="Test the filter" style="cursor:help">
+	<<count-filter>>
+</$button>
+\end
+
+\procedure test-filter-text()
+<$button to="$:/AdvancedSearch" actions=<<act-go-advanced-search-filter>> class="tc-btn-boxed" tooltip="Test the filter">
+	Open in ~AdvancedSearch
+</$button>
+\end
+
+<!-- Filtered Story List -->
+\function filteredTitleList() [<extraTiddler>] [subfilter{!!filter}] +[format:titlelist[]join[ ]]
+
+\procedure setFilteredStoryList()
+<$action-setfield $tiddler="$:/StoryList" $field=list $value=<<filteredTitleList>> />
+\end
+
+\procedure open-filter-below()
+<$let extraTiddler=<<currentTiddler>> >
+	<$button to=<<currentTiddler>> actions=<<setFilteredStoryList>> class="tc-btn-boxed tc-small-gap-right" tooltip="Open filtered list below">
+		Open Filter Below
+	</$button>
+</$let>
+\end
+
+\procedure open-filter-list()
+<$button to=<<currentTiddler>> actions=<<setFilteredStoryList>> class="tc-btn-boxed tc-small-gap-right" tooltip="Open filtered list in story river">
+	Open Filtered List
+</$button>
+\end
+
+<!-- List Actions -->
+\procedure act-go-advanced-search-list()
+<$list filter="[<modifier>match[ctrl]]" variable="ignore">
+	<<setStoryList>>
+</$list>
+<$list filter="[<modifier>match[ctrl-shift]]" variable="ignore">
+	<$let extraTiddler=<<currentTiddler>> >
+		<<setStoryList>>
+	</$let>
+</$list>
+<$list filter="[<modifier>match[normal]]" variable="ignore">
+	<!-- states for default TW and Advanced Search Plus Plugin -->>
+	<$let filter={{{ [all[shadows+tiddlers]tag[$:/tags/AdvancedSearchPlus]limit[1]then[$:/plugins/wikilabs/ui/AdvancedSearchPlus/Filter]else[$:/core/ui/AdvancedSearch/Filter]] }}}>
+		<$action-setfield $tiddler="$:/state/tab--1498284803" $value=<<filter>>/>
+		<$action-setfield $tiddler="$:/state/tab-1610021602" $value=<<filter>>/>
+		<$action-setfield $tiddler="$:/temp/advancedsearch" $value={{{[all[current]get[text]search-replace:g:regexp[(.*)],[$1 ]]}}}/>
+		<$action-setfield $tiddler="$:/temp/advancedsearch/input" $value={{{[all[current]get[text]search-replace:g:regexp[(.*)],[$1 ]]}}}/>
+	</$let>
+</$list>
+\end
+
+\procedure test-list(btnText:"Open in ~AdvancedSearch")
+<$button to="$:/AdvancedSearch" actions=<<act-go-advanced-search-list>> class="tc-btn-boxed tc-small-gap-right" tooltip="Test the filter in advanced search" style="cursor:help">
+	<<btnText>>
+</$button>
+\end
+
+<!-- Story Functions -->
+
+\function titleList() [<extraTiddler>] [all[current]get[text]enlist-input[]!prefix[---]] +[format:titlelist[]join[ ]]
+
+\procedure setStoryList()
+<$action-setfield $tiddler="$:/StoryList" $field=list $value=<<titleList>> />
+\end
+
+\procedure open-list(btnText:"Open in Story")
+<$button actions=<<setStoryList>> class="tc-btn-boxed tc-small-gap-right" tooltip="Open the list in the story river">
+	<<btnText>>
+</$button>
+\end
+
+\procedure open-list-below(btnText:"Open List Below")
+<$let extraTiddler=<<currentTiddler>> >
+<$button to=<<currentTiddler>> actions=<<setStoryList>> class="tc-btn-boxed tc-small-gap-right" tooltip="Open the list below this tiddler">
+	<<btnText>>
+</$button>
+</$let>
+\end
+
+\procedure open-info-area(btnText:"Show More Info")
+<$button actions=<<openInfoArea>> class="tc-btn-boxed tc-small-gap-right" tooltip="Show more info about filtered bundle">
+	<<btnText>>
+</$button>
+\end
+
+<div class="wltc-small-gap-bottom">
+	<$button tooltip="Create a New Filtered Bundle Tiddler">
+	<$action-sendmessage $message="tm-new-tiddler"
+		title="new-filtered.bundle"
+		tags="$:/tags/Filter"
+		description="provide a meaningful description to display in AdvancedSearch: Filter!"
+		filter="adjust this filter: [list[$:/StoryList]]"
+		text="<pre>{{!!filter}}</pre>"
+	/>
+		Filter Bundle
+	</$button>
+	<$edit-text tag=input placeholder="Filter List" tiddler="$:/temp/bundle/filteredFilter" class="tc-tiny-gap-left"/>
+	<$button class="tc-small-gap-left  tc-btn-invisible tc-btn-icon">
+		{{$:/core/images/close-button}}
+		<$action-deletetiddler $tiddler="$:/temp/bundle/filteredFilter" />
+	</$button>
+</div>
+<$list
+	filter="[tag[$:/tags/Filter]] :filter[search:title{$:/temp/bundle/filteredFilter}]">
+		<$link to=<<currentTiddler>> tooltip=<<get-filter-tooltip>> >
+
+		<$macrocall $name="dragFilteredIcon" visible={{{ [[$:/config/wikilabs/enableDragFilterButton]get[text]trim[]else[yes]] }}} />
+		<$list filter={{{ [{$:/config/wikilabs/enableExportFilterButton}trim[]match[no]then[]else[yes]] }}} variable="ignore">
+			{{||$:/plugins/wikilabs/bundler/ui/Buttons/export-bundle-filter}}
+		</$list>
+		<<test-filter>>
+		<<caption-or-title>>
+	</$link>
+</$list>

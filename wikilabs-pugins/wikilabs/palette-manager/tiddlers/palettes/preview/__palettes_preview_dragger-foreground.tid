@@ -1,0 +1,19 @@
+caption: Dragger
+created: 20220824141830974
+modified: 20220902165413156
+search-term: dragger background foreground
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/dragger-foreground
+type: text/vnd.tiddlywiki
+
+It seems the following classes are defined in vanilla/base but are ''never used''
+
+```
+.tc-tiddler-dragger-inner {
+...
+	color: <<colour dragger-foreground>>;
+...
+	background-color: <<colour dragger-background>>;
+... 
+}
+```

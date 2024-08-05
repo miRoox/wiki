@@ -1,0 +1,11 @@
+caption: Toolbar Delete
+created: 20220825144114937
+modified: 20220902171304753
+search-term: toolbar delete button
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/toolbar-delete-button
+type: text/vnd.tiddlywiki
+
+<span class="tc-tiddler-controls tc-titlebar" style="float:initial;">
+<$button class="tc-btn-invisible">{{$:/core/images/delete-button}}</$button>
+</span>

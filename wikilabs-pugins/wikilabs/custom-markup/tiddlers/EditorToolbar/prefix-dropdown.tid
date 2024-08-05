@@ -1,0 +1,94 @@
+title: $:/plugins/wikilabs/custom-markup/EditorToolbar/prefix-dropdown
+
+\define getConfigName() $:/plugins/wikilabs/custom-markup/icons/glyphs/$(__name__)$
+
+\define selectID()
+<$action-createtiddler $basetitle="$:/config/wikilabs/custom-markup/icons/glyphs/active" $overwrite="yes" $template=<<getConfigName>> />
+\end
+\define selectActions()
+<$action-createtiddler $basetitle="$:/config/edit/linePrefix" $overwrite="yes" 
+		text={{{ [<linePrefix>get[text]] }}}
+		name="""$(linePrefix)$""" 
+		id={{{ [{$:/config/wikilabs/custom-markup/icons/glyphs/active##glyph}] ~[[´]] }}}
+/>
+<$action-sendmessage $message="tm-copy-to-clipboard" $param={{{ [{$:/config/edit/linePrefix!!text}] }}}/>
+<$action-sendmessage $message="tm-notify" $param="$:/plugins/wikilabs/custom-markup/EditorToolbar/notify/id-prepared"/>
+<$action-deletetiddler $tiddler=<<dropdown-state>> />
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="toggle-tick"
+	character={{{ [[$:/config/edit/linePrefix]get[text]] }}}
+	count="1"
+	force={{{ [{$:/config/edit/linePrefix/force}] ~[[no]] }}}
+/>
+\end
+
+\define idSelector()
+<$tiddler tiddler="$:/config/edit/linePrefix">
+	<$wl-radio field="id" value="›" actions=<<selectID>> name="single"> `›` </$wl-radio>|
+	<$wl-radio field="id" value="´" actions=<<selectID>> name="tick"> `´` </$wl-radio>|
+	<$wl-radio field="id" value="°" actions=<<selectID>> name="degree"> `°` </$wl-radio>|
+	<$wl-radio field="id" value="»" actions=<<selectID>> name="angle"> `»` </$wl-radio>|
+	<$wl-radio field="id" value="≈" actions=<<selectID>> name="approx"> `≈` </$wl-radio>|
+	<$wl-radio field="id" value="¶" actions=<<selectID>> name="pilcrow"> `¶` </$wl-radio>|
+</$tiddler>
+<$checkbox tiddler="$:/config/edit/linePrefix/force" 
+	field=text 
+	checked="yes" unchecked="no" default="no" > Use empty lines
+</$checkbox>
+\end
+
+\define preview-type-button()
+<$button tag="a" class="wltc-snippet-block" actions=<<selectActions>> >
+
+	<$transclude tiddler=<<linePrefix>> field="caption" mode="inline">
+
+		<$view tiddler=<<linePrefix>> field="title" mode="inline"/>
+
+	</$transclude>
+
+	<$reveal tag="span" stateTitle="$:/config/edit/linePrefix" stateField=name type="match" text=<<linePrefix>> default="XXXXX">
+
+		<$entity entity="&nbsp;"/>
+
+		<$entity entity="&#x2713;"/>
+
+	</$reveal>
+
+</$button>
+\end
+
+Select glyph -- <$macrocall $name=idSelector />
+
+---
+
+<$transclude tiddler="$:/plugins/wikilabs/custom-markup/EditorToolbar/prefix-dropdown/snippet-selector">
+
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/WL/Snippet/LinePrefix]!has[draft.of]sort[title]]" variable="linePrefix">
+
+<<preview-type-button>>
+
+</$list>
+
+---
+
+<$button tag="a" class="wltc-snippet-block">
+
+<$action-sendmessage
+	$message="tm-new-tiddler"
+	tags="$:/tags/WL/Snippet/LinePrefix"
+	caption="New Line Prefix"
+	text=""
+/>
+
+<$action-deletetiddler $tiddler=<<dropdown-state>> />
+
+<em>
+
+<$text text="Add a new configuration!"/>
+
+</em>
+
+</$button>
+
+</$transclude>

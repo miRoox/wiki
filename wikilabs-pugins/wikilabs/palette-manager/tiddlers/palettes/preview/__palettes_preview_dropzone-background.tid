@@ -1,0 +1,15 @@
+caption: Dropzone
+created: 20220824185614075
+modified: 20220902165631771
+search-term: dropzone background
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/dropzone-background
+type: text/vnd.tiddlywiki
+
+To test this setting you need to ''drag and drop'' elements in the ''Right Sidebar -> Open tab''
+
+''Open Sidebar''
+
+<div class="tc-sidebar-lists">
+{{$:/core/ui/SideBar/Open}}
+<div>

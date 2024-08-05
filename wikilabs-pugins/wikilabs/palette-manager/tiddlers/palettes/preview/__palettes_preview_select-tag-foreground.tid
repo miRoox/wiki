@@ -1,0 +1,18 @@
+caption: Select
+created: 20220824231600724
+modified: 20220902170111059
+search-term: select tag background foreground
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/select-tag-foreground
+type: text/vnd.tiddlywiki
+
+\define text() Lorem ipsum ''dolor sit amet'', consectetur adipisicing elit
+
+This element inherits option colour and background settings from parents or if undefined uses native browser settings.
+It seems the background colour is not used atm. TODO check that
+
+<$select tiddler="$:/temp/palette/test" >
+<option value=<<text>> >aaaaaaaaaaaaa</option>
+<option value=<<text>> >bbbbbbbbbbb</option>
+<option value=<<text>> >ccccccccccccc</option>
+</$select>

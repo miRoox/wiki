@@ -1,0 +1,22 @@
+caption: Sidebar Buttons
+created: 20220824233321748
+modified: 20220902170209010
+search-term: sidebar button foreground
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/sidebar-button-foreground
+type: text/vnd.tiddlywiki
+
+\define config-title()
+$:/config/PageControlButtons/Visibility/$(listItem)$
+\end
+
+<$let tv-config-toolbar-icons="yes" tv-config-toolbar-text="yes" tv-config-toolbar-class="" preview-button="$:/core/ui/Buttons/palette">
+
+<div class="tc-sidebar-lists">
+<div style="position:relative;" class={{{ [<listItem>encodeuricomponent[]addprefix[tc-btn-]] }}}>
+
+<$transclude tiddler=<<preview-button>>/> 
+</div>
+</div>
+
+</$let>

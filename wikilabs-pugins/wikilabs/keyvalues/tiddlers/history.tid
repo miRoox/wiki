@@ -1,0 +1,36 @@
+title: $:/plugins/wikilabs/keyvalues/history
+
+
+V 2.2.1 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 2.2.0 - 2022-03-27
+
+* update to TW v5.2.2
+* ''Important'': Changed license to Attribution-NonCommercial-ShareAlike -- [[CC-BY-NC-SA|$:/plugins/wikilabs/keyvalues/license]]
+
+V 2.1.0 - 2021-02-22
+
+* Fix for space ` ` use: `&nbsp;`
+* Add `<space>` after the colon for ''default separator'' `: `
+* Add for colon `:` use: `&#58;`
+* Add new filter flag: useBoth + docs
+
+V 2.0.1 - 2020-12-25
+
+* update license
+
+V 1.0.0 - 2020.12.09
+
+* Publish the plugin + docs
+
+V 0.1.1 - 2020.01.19
+
+* Update license link/text
+
+V 0.1.0 - beta 2019.11.13
+
+* initial release
+** name: keyvalues

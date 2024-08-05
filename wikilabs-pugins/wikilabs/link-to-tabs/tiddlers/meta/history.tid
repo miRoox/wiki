@@ -1,0 +1,67 @@
+title: $:/plugins/wikilabs/link-to-tabs/history
+
+V 3.0.1 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 3.0.0 - 2023-12-28
+
+* The ''edit-tabs'' plugin will be ''deprecated'' and be replaced by link-to-tabs
+* There are 2 new settings now
+** Clicking a tab-link opens ''non-system'' tiddlers in edit mode
+** Clicking a tab-link opens ''every existing'' tiddler in edit mode
+
+* New "settings" tab in the plugin
+* New "settings" tab in the ''$:/ControlPanel -> Settings -> WikiLabs'' tab
+
+V 2.4.0 - 2023-12-28
+
+* Update tabs-macro to TW v5.3.3
+
+V 2.3.0 - 2023-07-17
+
+* Updateto TW v5.3.0
+* Tabs in ControlPanel -> Plugins -> Plugin Info area work now.
+** Except the "contents" tab, since it's a "virtual" one.
+
+V 2.2.0 - 2022-03-27
+
+* update to TW v5.2.2
+* ''Important'': Changed license to Attribution-NonCommercial-ShareAlike -- [[CC-BY-NC-SA|$:/plugins/wikilabs/link-to-tabs/license]]
+
+V 2.1.0 - 2022-02-17
+
+* New $:/core/macros/tabs
+* much more hackable and added dynamic tabs
+** tabs can have a `condition` field now.
+
+V 2.0.1 - 2020-12-25
+
+* update license
+
+V 2.0.0 - 2020.12.05
+
+* Update $:/core/macros/tabs to V5.1.23
+
+V 1.1.1 - 2020.01.19
+
+* Update license link/text
+
+V 1.1.0 - 2019.07.14
+
+* Add new option: Initially hide link
+** Transition time from hidden to visible is adjustable
+* Added: "Reset to Default" button
+
+V 1.0.1 - 2019.02.18
+
+* link-to-tabs works in drop-down elements now.
+
+V 1.0.0 - 2019.02.14
+
+* Use core tabs-macro from TW 5.1.19
+
+V <1.0.0
+
+* Use core tabs-macro from TW 5.1.15

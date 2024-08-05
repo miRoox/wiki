@@ -1,0 +1,16 @@
+caption: Static Alert
+created: 20220825012735305
+modified: 20220902170619921
+search-term: static alert foreground
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/static-alert-foreground
+type: text/vnd.tiddlywiki
+
+<style>
+.tc-static-alert,
+.tc-static-alert-inner {
+  position: initial;
+}
+</style>
+<div class="tc-static-alert"><div class="tc-static-alert-inner">This page is part of a static HTML representation of the ~TiddlyWiki at https://tiddlywiki.com/</div></div>
+

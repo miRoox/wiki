@@ -1,0 +1,24 @@
+created: 20170201173552575
+modified: 20170201214003877
+tags: $:/tags/Stylesheet
+title: $:/plugins/wikilabs/tocP/Stylesheet
+type: text/css
+
+.tc-tabbed-table-of-contents .wltc-btn-new-child {
+  display: none;
+}
+
+.tocp .tc-tiddlylink {
+  color: green;
+}
+
+/* needed if streams headings are shown */
+
+.tc-toc-caption h1,
+.tc-toc-caption h2,
+.tc-toc-caption h3,
+.tc-toc-caption h4,
+.tc-toc-caption h5,
+.tc-toc-caption h6 {
+  display: inline-block;
+}

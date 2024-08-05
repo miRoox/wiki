@@ -1,0 +1,23 @@
+title: $:/plugins/wikilabs/trails/history
+
+V 1.1.1 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 1.1.0 - 2024-04-22
+
+* Backport trails down to TW  >= v5.2.1
+
+V 1.0.0 - 2024-04-18
+
+* Settings are now in $:/ControlPanel -> ''Settings'' -> ''WikiLabs'' tab
+
+V 0.9.1 - 2024-04-13
+
+* fix template for tiddlywiki.com
+* automatically activate trails if the plugin is imported at tiddlywiki.com
+
+V 0.9.0 - 2023-07-17
+
+* Initial release

@@ -1,0 +1,11 @@
+caption: External Link
+created: 20220824185755901
+modified: 20220826140246076
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/external-link-foreground-visited
+type: text/vnd.tiddlywiki
+search-term: external link background hover visited foreground
+
+Most of the settings use native browser defaults atm. So links can depend on browser and OS native settings
+
+https://tiddlywiki.com --- hover is possible

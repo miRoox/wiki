@@ -1,0 +1,70 @@
+title: $:/plugins/wikilabs/advanced-search-plus/history
+
+V 1.0.1 - 2024-07-03
+
+* Make OK, Cancel buttons accept: $:/config/Toolbar/ButtonClass
+* adjust spacings
+
+V 1.0.1 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 1.0.0 - 2024-04-18
+
+* Settings are now in $:/ControlPanel -> ''Settings'' -> ''WikiLabs'' tab
+
+V 0.6.0 - 2023-01-01
+
+* This version starts to overwrite $:/core/ui/ControlPanel/Basics
+* Catch navigateTo link from $:/core/ui/ControlPanel/Basics
+* set tiddler: $:/state/tab--1498284803 to "$:/plugins/wikilabs/ui/AdvancedSearchPlus/Filter
+** This allows the eg: "Number of overridden shadow tiddlers" to change the AdvancedSearch Tab in the right way
+* compatible with v5.2.7
+
+V 0.5.0 - 2023-01-30
+
+* add language-hint to tab icon and caption
+* clear the caption temp tiddler when enter is cliced
+* fix close `<<expandMe>>` state, when enter is clicked
+* use most core advanced search tiddlers instead of overwriting them
+* add keyboard ctrl-alt left/right
+
+V 0.4.0 - 2023-01-01
+
+* add CTRL-Enter to create a new search tab
+* fix standard search-template to work with latest TW version
+* fix automatic tab-switching problems
+* improved code readabilty
+* improved new search-tab UI
+* update copyright info
+* new shadow search icon
+* update to TW version v5.2.5
+
+V 0.3.0 - 2022-03-27
+
+* Update to TW version v5.2.2
+* remove tiddler info button from view template
+* change license to CC-BY-NC-SA
+
+V 0.2.0 - 2021-03-07
+
+* make plugin compatible with TW V5.1.23
+* make plugin compatible with field-search plugin V0.3.0
+
+V 0.1.2 - 2020-12-25
+
+* update license
+
+V 0.1.1 - 2020.01.19
+
+* Update license link/text
+
+V 0.1.0 - beta 2019.01.06
+
+* fix wikify problems with TW 5.1.19
+
+V 0.0.2 - beta
+
+* initial release
+** name: advanced-search-plus

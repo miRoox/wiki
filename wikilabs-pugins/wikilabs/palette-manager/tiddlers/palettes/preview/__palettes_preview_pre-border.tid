@@ -1,0 +1,18 @@
+caption: Pre
+created: 20220824230802380
+modified: 20220902170023941
+search-term: pre background border
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/pre-border
+type: text/vnd.tiddlywiki
+
+```
+Lorem ipsum ''dolor sit amet'', 
+consectetur adipisicing elit
+```
+
+<<<.tc-big-quote
+@@white-space:normal;
+''The ~TiddlyWiki is the best software I've ever found for organising my ideas.''
+@@
+<<<

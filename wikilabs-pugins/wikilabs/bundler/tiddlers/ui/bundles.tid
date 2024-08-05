@@ -1,0 +1,23 @@
+caption: Bundles
+created: 20170601134806876
+modified: 20170609084521847
+tags: $:/tags/SideBar
+title: $:/plugins/wikilabs/bundler/ui/Bundles
+type: text/vnd.tiddlywiki
+
+<$link to="$:/plugins/wikilabs/bundler/ui/ControlPanel/bundler-config" class="wltc-options-button" >{{$:/core/images/options-button}}</$link>
+{{$:/plugins/wikilabs/bundler/ui/BundlesList}}
+
+---
+
+<$reveal type="match" state="$:/config/wikilabs/enableBundles" text="enabled">
+
+{{$:/plugins/wikilabs/bundler/ui/BundlesFiltered}}
+
+</$reveal>
+
+<$reveal type="nomatch" state="$:/config/wikilabs/enableBundles" text="enabled">
+
+[[Enable Filtered Bundles|$:/plugins/wikilabs/bundler/ui/ControlPanel/bundler-config]]
+
+</$reveal>

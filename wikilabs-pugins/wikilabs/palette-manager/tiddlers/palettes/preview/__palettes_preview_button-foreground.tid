@@ -1,0 +1,23 @@
+caption: Button
+created: 20220824121449584
+modified: 20220902165107323
+search-term: button background border foreground
+tags: $:/tags/palette/preview
+title: $:/palettes/preview/button-foreground
+type: text/vnd.tiddlywiki
+
+\define config-title()
+$:/config/PageControlButtons/Visibility/$(listItem)$
+\end
+
+''Important:'' By default TW shows the browser "native" button settings. This setting can be different, depending on the browser and OS you use. 
+
+<$let tv-config-toolbar-icons="yes" tv-config-toolbar-text="yes" tv-config-toolbar-class="" preview-button="$:/core/ui/Buttons/palette">
+
+<div style="position:relative;" class={{{ [<listItem>encodeuricomponent[]addprefix[tc-btn-]] }}}>
+
+<$transclude tiddler=<<preview-button>>/> <i class="tc-muted"><$transclude tiddler=<<preview-button>> field="description"/></i>
+
+</div>
+
+</$let>

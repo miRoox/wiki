@@ -1,0 +1,19 @@
+title: $:/plugins/wikilabs/pragma-comment/history
+
+V 0.1.2 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 0.1.1-DEPRECATED - 2022.03.27
+
+* removed from landing page
+* add DEPRECATED to version number
+
+V 0.1.1 - 2020.10.06
+
+* Deprecated since there is a similar function in the core
+
+V 0.1.0 - 2020.12.25
+
+* Initial release

@@ -1,0 +1,152 @@
+title: $:/plugins/wikilabs/uni-link/history
+
+V 3.0.2 - 2024-05-23
+
+* Add stability badges
+** The development status of a plugin: deprecated, experimental, stable, or legacy
+
+V 3.0.1 - 2024-04-18
+
+* Settings are now in $:/ControlPanel -> ''Settings'' -> ''WikiLabs'' tab
+
+V 3.0.0 - 2024-04-08
+
+* ''This version needs TW v5.3.0 or higher''
+* Add new trie based indexers to uni-link plugin
+* Alias double definition output is more readable now
+* Aliases and alias-backlinks search in shadows now too
+
+* Add filter operator: `[[aliasname]aliassource[]]`
+** Input is the alias name
+** Output is the tiddler title, that defines the alias
+
+V 2.4.1 - 2023-11-10
+
+* fix unilink stylesheet name
+
+V 2.4.0 - 2023-04-08
+
+* improve alias backlink handling
+
+V 2.3.0 - 2022-11-24
+
+* Fix problem with alias that contain round braces `()` eg: `[[aqua (water)]]`
+* Use `<<__name__>>` instead of `$name$`
+* Add `\witespace trim` to improve readability
+
+V 2.2.0 - 2022-03-27
+
+* update to TW v5.2.2
+* ''Important'': Changed license to Attribution-NonCommercial-ShareAlike -- [[CC-BY-NC-SA|$:/plugins/wikilabs/uni-link/license]]
+
+V 2.1.0 - 2021.03.16
+
+* add `[[tiddler title case insensitve|??]]` ... will show the text, but search for a case insensitve title.
+* fix uni-link-macro default title styling
+* renamed and moved some tiddlers
+
+V 2.0.1 - 2020.12.25
+
+* update license
+
+V 2.0.0 - 2020.06.11
+
+* Compatible with ~TiddlyWiki >= V5.1.22
+* Fix a "backlinking" problem introduced with TW V5.1.22
+** Adjusted uni-link "backlinker" to use new indexer `.extractLinks()` function
+* More info can be found in the [[readme|$:/plugins/wikilabs/uni-link/readme]]
+
+--------------
+
+Compatible with ~TiddlyWiki <= V5.1.21
+
+V 1.2.1 - 2020.05.22
+
+* Fix a compatibility problem with relink plugin, reported by flibbles.
+
+V 1.2.0 - 2020.03.26
+
+* Make uni-link plugin compatible with relink-plugin from flibbles
+** see: https://github.com/flibbles/tw5-relink
+
+V 1.1.2 - 2020.03.16
+
+* Fix issue #44 problem with backlink cases sensitivity
+
+V 1.1.1 - 2020.01.19
+
+* Update license link/text
+
+V 1.1.0 - 2019.08.13
+
+* Fixed problem introduced with TW V 5.1.20 link-widget core changes
+
+V 1.0.0 - 2019.02.09
+
+* Add `[[alias|?t]]`, `[[alias|?c]]` and `[[alias|?s]]`, that show the tiddler ''title'', ''caption'' and ''subtitle'' field as the link text
+* Add `[[alias|?my-field]]` shows the content of the field named: `my-filed` as the link text
+* Add a new editor toolbar button, which opens an alias search menue. 
+** Default keyboard shortcut is to Ctrl-Space
+
+``Incompatible changes``
+
+* There is a new $:/ControlPanel setting, that defines the default behaviour of the uni-link macro ''globally''. 
+* uni-link now only shows the tiddler title, ''or'' the caption ''or'' the subtitle field. 
+* If you need different behaviour, you'll need to use the alias mechanism!
+
+V 0.3.4 - 2018.09.09
+
+* Add "aliasify" button to tiddler editor toolbar
+* Add ctrl-k to activate "aliasify"
+
+V 0.3.3 - 2018.08.06
+
+* fix [[issue 19|https://github.com/wikilabs/plugins/issues/19]] Alias References behaviour
+
+V 0.3.2 - 2018.02.02
+
+* new Undefined Aliases Sidebar tab under More: Aliases
+* `[[?]aliasbacklinks[]sort[title]]` shows a list of tiddlers that contain undefined alias links
+
+V 0.3.1 - 2018.01.31
+
+* fixed: [[CamelCase]] or [[$:/system]] tiddler "double linking"
+* [[NaturaL sElEcTiOn|?]] .. is a valid alias now. Same problem as above!
+
+V 0.3.0 - 2018.01.27
+
+* add: styling possibility for missing aliases
+* improve: history and copyright
+
+V 0.2.1 - 2018.01.27
+
+* fix: uni-link creates an unused a-element
+
+V 0.2.0 - 2017.12.15
+
+* added: [[alias|?]] link syntax
+** using aka-makros for tiddler alias handling
+
+* added: Alias backlinks
+** open the tiddler (i)nfo area: References
+
+* added filter operators:
+** is[alias] ... extends the core is operator see: https://tiddlywiki.com/#is Operator
+** all[aliases] ... extends the core all operator see: https://tiddlywiki.com/#all Operator
+
+* added: Right-Sidebar: More tab: "Aliases"
+** Sorted by Alias
+** Sorted by Tiddler Title
+
+* added: uni-link $:/ControlPanel setting
+* added: different colors for title, caption, subtitle and alias links
+
+V0.1.0 - 2017.07.25
+
+* fix "backlink" and "missing" issue
+
+V0.0.1 - 2017.07.23
+
+* initial release
+
+also see: https://wikilabs.github.io/editions/uni-link/#History

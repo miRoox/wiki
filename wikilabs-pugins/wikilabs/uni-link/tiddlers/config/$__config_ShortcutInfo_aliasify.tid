@@ -1,0 +1,4 @@
+title: $:/config/ShortcutInfo/aliasify
+type: text/vnd.tiddlywiki
+
+{{$:/language/Buttons/Aliasify/Hint}}

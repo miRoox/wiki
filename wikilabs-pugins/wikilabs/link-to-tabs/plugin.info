@@ -1,0 +1,11 @@
+{
+	"title": "$:/plugins/wikilabs/link-to-tabs",
+	"name": "Link to Tabs",
+	"description": "Internal links are added to tabs if selected",
+	"author": "Mario Pietsch",
+	"core-version": ">=5.3.3",
+	"icon": "$:/plugins/wikilabs/link-to-tabs/icon",
+	"version": "3.0.1",
+	"list": "readme settings license history",
+	"stability": "STABILITY_2_STABLE"
+}

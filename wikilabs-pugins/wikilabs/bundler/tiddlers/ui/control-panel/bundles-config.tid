@@ -1,0 +1,157 @@
+caption: Bundler
+created: 20170602132707785
+modified: 20170612095528115
+tags: $:/tags/ControlPanel/WikiLabs
+title: $:/plugins/wikilabs/bundler/ui/ControlPanel/bundler-config
+type: text/vnd.tiddlywiki
+
+\define deleteTiddlerInfoDefault()
+<$action-deletetiddler $tiddler="$:/config/TiddlerInfo/Default"/>
+\end
+
+The full documentation can be found at [[bundler plugin|https://wikilabs.github.io/editions/bundler/]] main page.
+
+!! Tiddler Info Button
+
+<$vars tv-config-toolbar-icons="yes" tv-config-toolbar-text="yes">
+
+><$checkbox tiddler="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/info" field="text" checked="show" unchecked="hide" default="show"/> <span class="tc-icon-wrapper"> {{$:/core/ui/Buttons/info}} -- {{$:/core/ui/Buttons/info!!description}}</span>
+
+</$vars>
+
+!! {{$:/core/ui/ControlPanel/Settings/InfoPanelMode!!caption}}
+
+<<<
+{{$:/core/ui/ControlPanel/Settings/InfoPanelMode}}
+<<<
+
+!! Import Bundle
+
+<<<
+<$checkbox tiddler="$:/config/wikilabs/enableImportBundle" field="text" checked="yes" unchecked="no" default="no"> Enable Import Bundle</$checkbox>
+
+Everytime you import content, an [[import.bundle]] tiddler will be created. If the tiddler already exists, the new imported titles will be appended. 
+
+You can rename or delete the tiddler, to store the setting or get rid of it. 
+
+<<<
+
+!! List Bundles
+
+<<<
+
+!!! {{$:/plugins/wikilabs/bundler/icon|1em}} Enable Drag Button
+
+><$checkbox tiddler="$:/config/wikilabs/enableDragListButton" field="text" checked="yes" unchecked="no" default="yes"> Enable Drag List Button</$checkbox>
+
+>This sidebar button {{$:/plugins/wikilabs/bundler/icon|1em}} allows you to drag the bundle + all tiddlers into a different wiki, to be imported
+
+!!! {{$:/core/images/export-button|1em}} Enable Export Filter Button
+
+><$checkbox tiddler="$:/config/wikilabs/enableExportListButton" field="text" checked="yes" unchecked="no" default="yes"> Enable Export List Button</$checkbox>
+
+>This sidebar button {{$:/core/images/export-button|1em}} allows you to export the bundle + all filtered tiddlers into a JSON file
+
+<<<
+
+!! Filtered Bundles
+
+<<<
+
+<$checkbox tiddler="$:/config/wikilabs/enableBundles" field="text" checked="enabled" unchecked="disabled" default="disabled"> Enable Filtered Bundles</$checkbox>
+
+Bundle filters are already used by the "More" dropdown in the $:/AdvancedSearch - Filter tab. The filtered bundle settings provide a slightly different UI to export sets of tiddlers, configured by the user. 
+
+The "Filter Bundle" button creates compatible configurations. So user created filtered bundles show up in the advanced search panel too! Existing filters can be seen here: $:/plugins/wikilabs/bundler/doc/table-all-filters
+
+!!! {{$:/plugins/wikilabs/bundler/icon|1em}} Enable Drag Filter Button
+
+><$checkbox tiddler="$:/config/wikilabs/enableDragFilterButton" field="text" checked="yes" unchecked="no" default="yes"> Enable Drag Filter Button</$checkbox>
+
+>This sidebar button {{$:/plugins/wikilabs/bundler/icon|1em}} allows you to drag the bundle + all tiddlers into a different wiki, to be imported
+
+!!! {{$:/core/images/export-button|1em}} Enable Export Filter Button
+
+><$checkbox tiddler="$:/config/wikilabs/enableExportFilterButton" field="text" checked="yes" unchecked="no" default="yes"> Enable Export Filter Button</$checkbox>
+
+>This sidebar button {{$:/core/images/export-button|1em}} allows you to export the bundle + all filtered tiddlers into a JSON file
+
+<<<
+
+!! Rename on Import from Clipboard
+
+<<<
+
+<$checkbox tiddler="$:/config/wikilabs/enableImportRename" field="text" checked="yes" unchecked="no" default="no"> [[Enable Automatic Import Renaming from Clipboard|$:/config/wikilabs/enableImportRename]]</$checkbox>
+
+This feature was created to allow users to quickly import images from the clipbaord. It can also be used with text content, that is imported from the ''clipboard'', where the browser always uses the same title. Those names depend on the browser language settings. So they can be different in your browser. English: `image.png` for images and `untitled` for text content.
+
+;[[Browser Defined Image Title|$:/config/wikilabs/import/image/default-title]] (eg: image.png)
+:<$edit-text class="wltc-full-width" tiddler="$:/config/wikilabs/import/image/default-title" default="image.png" tag="input"/>
+
+;[[Import Image Title Template|$:/config/wikilabs/import/image/title-template]]
+:<$edit-text class="wltc-full-width" tiddler="$:/config/wikilabs/import/image/title-template" default="image YYYY-0MM-0DD, 0hh:0mm:0XXX.png" tag="input"/>
+
+---
+
+;[[Default Title Prefix|$:/config/wikilabs/import/untitled/default-title]] (eg. prefixed: Untitled)
+:<$edit-text class="wltc-full-width" tiddler="$:/config/wikilabs/import/untitled/default-title" default="Untitled" tag="input"/>
+
+;[[Import Text Title Template|$:/config/wikilabs/import/untitled/title-template]]
+:<$edit-text class="wltc-full-width" tiddler="$:/config/wikilabs/import/untitled/title-template" default="Clipboard  YYYY-0MM-0DD, 0hh:0mm:0XXX" tag="input"/>
+
+<<<
+
+
+!! New Title for Existing Titles
+
+<<<
+
+<$checkbox tiddler="$:/config/wikilabs/enableOverwriteCheck" field="text" checked="yes" unchecked="no" default="no"> Enable Automatic Title Renaming</$checkbox>
+
+By default, the TW import mechanism overwrites existing tiddlers. This option allows you, to activate a mechanism, that automatically creates a new tiddler title. Eg: `HelloThere` will be renamed to `HelloThere 1`. Initially this option is disabled.
+
+<<<
+
+!! {{$:/core/ui/ControlPanel/Settings/MissingLinks!!caption}}
+<<<
+{{$:/core/ui/ControlPanel/Settings/MissingLinks}}
+<<<
+
+!! Set the default ~TiddlerInfo tab
+
+<<<
+<$checkbox tiddler="$:/config/TiddlerInfo/Default" field="text" 
+checked="$:/plugins/wikilabs/ui/TiddlerInfo/BundleTab" 
+unchecked="disabled" 
+default="disabled"
+uncheckactions=<<deleteTiddlerInfoDefault>> > [[Set the default TiddlerInfo tab to TiddlerInfoBundle|$:/config/TiddlerInfo/Default]]</$checkbox>
+<<<
+
+!! Bundle Tab Settings
+
+<<<
+
+Select the position of the bundle tab:
+
+<$tiddler tiddler="$:/plugins/wikilabs/bundler/ui/Bundles">
+<$radio field=tags value="$:/tags/MoreSideBar"> "$:/tags/MoreSideBar"</$radio><br>
+<$radio field=tags value="$:/tags/SideBar"> "$:/tags/SideBar"</$radio>
+</$tiddler>
+
+<<<
+
+!! Filtered Bundles -- Filter Format
+
+<<<
+
+;text
+:contains the documentation text if needed
+
+;filter
+:filter to use eg: `[tag[test]]`
+
+;description
+:descriptive text, that shows up in the AdvancedSearch: Filter: More dropdown
+
+<<<
