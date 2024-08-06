@@ -1,0 +1,15 @@
+created: 20190918115537875
+creator: miRoox
+list: ASCII Unicode
+modified: 20240806085939459
+modifier: miRoox
+tags: 分类 软件工程
+title: 字符编码
+tmap.id: ee68b82d-849e-4e1f-9d4c-3046a611418f
+type: text/vnd.tiddlywiki
+
+! 字符编码
+
+字符编码（Character encoding）、字码、字集码是把[[字符集]]中的[[字符]]为指定[[集合]]中某一对象
+
+<<list-links "[tag<currentTiddler>]">>

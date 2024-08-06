@@ -1,7 +1,7 @@
 caption: δ函数
 created: 20191010113520679
 creator: miRoox
-modified: 20230316103711654
+modified: 20240806095503547
 modifier: miRoox
 tags: TODO 广义函数 函数
 title: 狄拉克δ函数
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 ! δ函数
 
-狄拉克δ函数是一个广义函数，在物理学中常用其表示质点、点电荷等理想模型的密度分布。
+狄拉克δ函数是一个[[广义函数]]，在物理学中常用其表示质点、点电荷等理想模型的密度分布。
 
 !! 定义
 

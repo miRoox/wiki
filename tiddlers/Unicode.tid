@@ -1,11 +1,16 @@
+aliases: 统一码 万国码
 caption: Unicode
 created: 20190918115722123
 creator: miRoox
-modified: 20230316103711667
+modified: 20240806082923778
 modifier: miRoox
-tags: TODO 字符集与字符编码
+tags: TODO 字符编码
 title: Unicode
 tmap.id: 13b79c50-8071-4ce7-b8fd-acda41c20d6d
 type: text/vnd.tiddlywiki
 
-! Unicode
+''Unicode''，全称为''Unicode标准''（The Unicode Standard），其官方机构Unicode联盟所用的中文名称为''统一码''是信息技术领域的业界标准，其整理、编码了世界上大部分的文字系统，使得计算机能以通用划一的[[字符集]]来处理和显示文字，不但减轻在不同编码系统间切换和转换的困扰，更提供了一种跨平台的[[乱码]]问题解决方案。
+
+Unicode标准不仅仅只是为文字指定代码。除了涵盖视觉上的字形、编码方法、标准的[[字符编码]]资料外，联盟官方出版品还包含了关于各书写系统的细节及呈现方式，如规范化的准则、拆分、定序、绘制、双向文本显示、书写方向、字符特性（如大小写字母）等等。此外还提供参考资料和视觉图像，以帮助开发者和设计师正确应用标准。
+
+Unicode编码系统可分为编码方式和实现方式两个层次：

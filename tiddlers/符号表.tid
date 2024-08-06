@@ -1,0 +1,31 @@
+created: 20240806092602846
+creator: miRoox
+modified: 20240806100944308
+modifier: miRoox
+tags: TODO 附录
+title: 符号表
+tmap.id: 0733f7b5-782d-402c-9e8c-220d1767d245
+type: text/vnd.tiddlywiki
+
+本知识库中常用的特殊符号的含义：
+
+|! 符号| !含义 |
+| $$\infty$$ | [[无限]] |
+| $$\mathrm{e}$$ | [[自然底数]] |
+| $$\imath$$ | [[虚数单位]] |
+| $$\jmath$$ |~|
+| $$\pi$$ | [[圆周率]] |
+| $$\delta$$ | [[狄拉克δ函数]] |
+|~| [[克罗内克δ函数]] |
+| $$\mathbb{N}$$ | [[自然数集]] |
+| $$\mathbb{Z}$$ | [[整数集]] |
+| $$\mathbb{Q}$$ | [[有理数集]] |
+| $$\mathbb{A}$$ | [[代数数集]] |
+| $$\mathbb{R}$$ | [[实数集]] |
+| $$\mathbb{C}$$ | [[复数集]] |
+| $$\mathscr{F}$$ | [[傅里叶变换]] |
+| $$\mathscr{L}$$ | [[拉普拉斯变换]] |
+|~| [[线性正则变换]] |
+| $$\mathscr{H}$$ | [[希尔伯特变换]] |
+| $$\ast$$ | [[卷积]] |
+| $$\operatorname{MSE}$$ | [[均方误差]] |

@@ -1,6 +1,7 @@
+aliases: FPM
 created: 20191106072731998
 creator: miRoox
-modified: 20230316103711655
+modified: 20240806053918808
 modifier: miRoox
 tags: TODO 计算光学
 title: 傅里叶叠层成像
@@ -9,6 +10,6 @@ type: text/vnd.tiddlywiki
 
 ! 傅里叶叠层成像
 
-（Fourier ptychographic microscopy, FPM）
+（Fourier ptychographic microscopy, ''FPM''）
 
 ''核心''：照明角度调整改进入变接收面的频谱范围，从而实现''傅里叶域''的[[叠层扫描|叠层扫描成像]]

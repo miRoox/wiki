@@ -1,16 +1,15 @@
+aliases: LCT
 caption: 线性正则变换
 created: 20191010111856920
 creator: miRoox
-modified: 20230316103711662
+modified: 20240806101046411
 modifier: miRoox
-tags: TODO 变换
+tags: TODO 变换 积分变换
 title: 线性正则变换
 tmap.id: c08410cb-a7c4-4d20-aef2-04efefd46f9c
 type: text/vnd.tiddlywiki
 
-! 线性正则变换
-
-线性正则变换（linear canonical transform, LCT）是一种比[[分数阶傅里叶变换]]更加广义的积分变换，对应于时频域中保面积的仿射变换。
+线性正则变换（linear canonical transform, ''LCT''）是一种比[[分数阶傅里叶变换]]更加广义的[[积分变换]]，对应于[[时频域]]中保面积的[[仿射变换]]。
 
 !! 定义
 
