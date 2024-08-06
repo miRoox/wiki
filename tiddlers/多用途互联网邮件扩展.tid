@@ -1,0 +1,19 @@
+aliases: MIME
+caption: MIME
+created: 20240806085521575
+creator: miRoox
+modified: 20240806085803055
+modifier: miRoox
+tags: 应用层协议 电子邮件
+title: 多用途互联网邮件扩展
+tmap.id: ffaa563a-00b9-4239-a294-26c715b0fc07
+type: text/vnd.tiddlywiki
+
+多用途互联网邮件扩展（Multipurpose Internet Mail Extensions，''MIME''）是一个互联网标准，它扩展了电子邮件标准，使其能够支持：
+
+* 非ASCII字符文本；
+* 非文本格式附件（二进位制、声音、图片等）；
+* 由多部分（multiple parts）组成的消息体；
+* 包含非ASCII字符的标头信息（Header information）。
+
+MIME规定了用于表示各种各样的数据类型的符号化方法。此外，在万维网中使用的HTTP协议中也使用了MIME的框架，标准被扩展为互联网媒体形式。

@@ -1,16 +1,16 @@
 caption: 分数阶傅里叶变换
 created: 20191010111804832
 creator: miRoox
-modified: 20230316103711655
+modified: 20240806101023117
 modifier: miRoox
-tags: TODO 傅里叶变换 正交变换 变换
+tags: TODO 傅里叶变换 正交变换 变换 积分变换
 title: 分数阶傅里叶变换
 tmap.id: 4086e380-a4ca-49c9-9065-4951495b5d8e
 type: text/vnd.tiddlywiki
 
 ! 分数阶傅里叶变换
 
-分数阶傅里叶变换（fractional Fourier transform, FrFT）是[[傅里叶变换]]在时频域连续变换的推广，其在时频域的作用相当于一个旋转变换。
+分数阶傅里叶变换（fractional Fourier transform, FrFT）是[[傅里叶变换]]在[[时频域]]连续变换的推广，其在时频域的作用相当于一个[[旋转变换]]。
 
 !! 定义
 

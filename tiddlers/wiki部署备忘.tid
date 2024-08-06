@@ -1,0 +1,16 @@
+created: 20240806103531679
+creator: miRoox
+modified: 20240806104352849
+modifier: miRoox
+tags: $:/internal
+title: wiki部署备忘
+tmap.id: 4b62721e-effe-483a-9884-21480b7c0b56
+type: text/vnd.tiddlywiki
+
+# 安装[[Node.js]]
+# 安装[[PM2]]：`npm install pm2 -g`
+# 命令行进入当前目录，执行
+```sh
+TIDDLYWIKI_PLUGIN_PATH=./wikilabs-pugins WIKIPW=${密码} pm2 start npm -name --  start
+pm2 save
+```

@@ -1,12 +1,12 @@
 created: 20240728091334829
 creator: miRoox
-modified: 20240728093701579
+modified: 20240806055127927
 modifier: miRoox
 tags: 文学 分类 文娱
 title: 作文
 tmap.id: ec35d018-eb3d-469a-8aa5-0b7db541aabc
 type: text/vnd.tiddlywiki
 
-个人作文（包含大量黑历史）：
+个人作文（包含大量~~黑历史~~）：
 
 <<list-links "[tag<currentTiddler>!is[draft]]">>
