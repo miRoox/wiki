@@ -1,10 +1,11 @@
 caption: 自然数
 created: 20191003122121454
-modified: 20230316103711664
+creator: miRoox
+modified: 20240821144553744
 modifier: miRoox
 tags: TODO 数系
 title: 自然数
 tmap.id: 49a73038-2459-4ae2-b6f4-6dddb400dc75
 type: text/vnd.tiddlywiki
 
-! 自然数的构造
+''自然数''（natural numbers）通常是指''非负''[[整数]]（即包含[[0]]），但在一些领域也认为0不[[属于|?]]自然数

@@ -1,7 +1,7 @@
 caption: 最优性条件
 created: 20200102104633410
 creator: miRoox
-modified: 20230316103711661
+modified: 20240821135932898
 modifier: miRoox
 tags: TODO 无约束最优化方法
 title: 无约束的最优性条件
@@ -10,4 +10,4 @@ type: text/vnd.tiddlywiki
 
 ! 最优性条件
 
-对于[[凸规划]]，如果$$\bm x^*$$为$$f(\bm x)$$的驻点，即为最小值点。
+对于[[凸规划|?]]，如果$$\bm x^*$$为$$f(\bm x)$$的驻点，即为最小值点。

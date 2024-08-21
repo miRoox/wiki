@@ -1,0 +1,24 @@
+aliases: 自然常数 自然底数 欧拉数 e
+created: 20240820062444259
+creator: miRoox
+modified: 20240820063948695
+modifier: miRoox
+tags: 无理数 实数 超越数 数学常数
+title: 自然底数e
+tmap.id: 62b4ed2e-d915-4caf-838c-024ab12e6cc3
+type: text/vnd.tiddlywiki
+
+$$\mathrm{e}$$称''自然常数''、''自然底数''，或是''欧拉数''（Euler's number），其经典定义为
+
+$$
+\mathrm{e}=\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n
+$$
+
+等价表示：
+
+$$
+\begin{align*}
+\mathrm{e}&=\lim_{x\to0}\left(1+x\right)^\frac{1}{x}\\
+\mathrm{e}&=\sum_{n=0}^\infty\frac{1}{n!}
+\end{align*}
+$$
