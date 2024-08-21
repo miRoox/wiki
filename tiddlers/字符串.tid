@@ -1,10 +1,11 @@
+aliases: 字串
 created: 20240806091208760
 creator: miRoox
-modified: 20240806091251956
+modified: 20240821144540356
 modifier: miRoox
 tags: 
 title: 字符串
 tmap.id: a08c0d9c-c85d-4075-bb33-ca095037234d
 type: text/vnd.tiddlywiki
 
-字符串（string），是由零个或多个[[字符]]组成的有限[[序列]]。它是[[编程语言]]中表示文本的[[数据类型]]。
+字符串（string），是由[[零|?]]个或多个[[字符]]组成的有限[[序列]]。它是[[编程语言]]中表示文本的[[数据类型]]。

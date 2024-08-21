@@ -1,0 +1,11 @@
+aliases: 属于
+created: 20240820091658875
+creator: miRoox
+modified: 20240820093800551
+modifier: miRoox
+tags: 偏序关系 集合论
+title: 属于关系
+tmap.id: 0285a0a3-3fa9-4d6c-b50f-842e166a3f5f
+type: text/vnd.tiddlywiki
+
+如果$$A$$是''集合''（或类）$$B$$的''元素''，则称$$A$$''属于''$$B$$，记为 $$A\in B$$。

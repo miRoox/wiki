@@ -1,0 +1,11 @@
+aliases: DP
+created: 20240821141044451
+creator: miRoox
+modified: 20240821141216314
+modifier: miRoox
+tags: 运筹学 TODO 算法
+title: 动态规划
+tmap.id: 8f2977ae-e5ff-4c25-83ea-007e47772551
+type: text/vnd.tiddlywiki
+
+''动态规划''（Dynamic programming，DP）是一种通过把原问题分解为相对简单的子问题的方式求解复杂问题的方法。

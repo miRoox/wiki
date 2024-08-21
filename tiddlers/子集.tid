@@ -1,6 +1,7 @@
+aliases: 包含 部分集合
 created: 20240611115855832
 creator: miRoox
-modified: 20240612141758248
+modified: 20240821141833659
 modifier: miRoox
 tags: 集合 偏序关系
 title: 子集
@@ -12,3 +13,5 @@ type: text/vnd.tiddlywiki
 $$
 A\subseteq B := \forall x (x\in A\implies x\in B)
 $$
+
+子集是集合间的一个非严格[[偏序关系]]。

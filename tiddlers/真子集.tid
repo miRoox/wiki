@@ -1,0 +1,12 @@
+created: 20240821141538854
+creator: miRoox
+modified: 20240821141842274
+modifier: miRoox
+tags: 子集 偏序关系
+title: 真子集
+tmap.id: 8a085d70-175d-4c2e-975b-af8712a6ff61
+type: text/vnd.tiddlywiki
+
+真子集即排除了[[集合]]相等情况的[[子集]]。
+
+真子集是集合间的一个严格[[偏序关系]]。

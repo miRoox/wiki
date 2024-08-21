@@ -1,0 +1,13 @@
+aliases: i j
+created: 20240821142137225
+creator: miRoox
+modified: 20240821143322065
+modifier: miRoox
+tags: 复数 数学常数
+title: 虚数单位
+tmap.id: fb471435-6431-4090-9a1b-9aef9ac927c5
+type: text/vnd.tiddlywiki
+
+''虚数单位''是指二次[[方程]]$$x^{2}+1=0$$的解，记作$$\imath$$或者$$\jmath$$。
+
+在[[复平面]]上看，虚数单位$$\imath$$相当于1旋转90°，而$$\imath^2$$相当于旋转两次90°得到180°，即对应-1。
