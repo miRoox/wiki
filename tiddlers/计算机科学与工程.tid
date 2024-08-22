@@ -2,7 +2,7 @@ caption: 计算机
 created: 20190918112451084
 creator: miRoox
 list: 算法 数据结构 编程语言理论 人工智能 计算机视觉 数字图像处理 计算机语言 字符编码 框架-库-工具包 开发工具
-modified: 20240806081714917
+modified: 20240822091155765
 modifier: miRoox
 tags: TableOfContents 分类
 title: 计算机科学与工程
@@ -12,5 +12,3 @@ type: text/vnd.tiddlywiki
 ! 计算机
 
 包括[[计算机科学]]和[[软件工程]]。
-
-<<list-links "[tag<currentTiddler>tag[分类]]">>

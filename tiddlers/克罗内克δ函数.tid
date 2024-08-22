@@ -1,0 +1,28 @@
+aliases: 克罗内克函数 克罗内克δ
+created: 20240822112951755
+creator: miRoox
+modified: 20240822120613553
+modifier: miRoox
+tags: 函数 TODO
+title: 克罗内克δ函数
+tmap.id: 8de5c4c8-c418-46a6-86a6-0dd11cef1ce1
+type: text/vnd.tiddlywiki
+
+克罗内克δ函数是一个二元函数，其自变量一般是两个[[整数]]，如果两者相等，则其结果为[[1]]，否则为[[0]]。
+
+$$
+\delta_{i,j}=\begin{cases}
+1\quad(i=j)\\
+0\quad(i\ne j)
+\end{cases}
+$$
+
+当其中一个变量为0时，常常会被略去，记号变为$$\delta_i$$
+
+$$
+\delta_{i}=\begin{cases}
+1\quad(i=0)\\
+0\quad(i\ne 0)
+\end{cases}
+$$
+

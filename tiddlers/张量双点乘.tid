@@ -1,0 +1,16 @@
+aliases: 双点乘
+caption: 双点乘
+created: 20240822115445453
+creator: miRoox
+modified: 20240822115504691
+modifier: miRoox
+tags: TODO 张量运算 二元运算
+title: 张量双点乘
+tmap.id: 1a4d7a45-79c8-4506-8cc6-ccbb74c4dc9e
+type: text/vnd.tiddlywiki
+
+[[直积|张量直积]]+两次[[缩并|张量缩并]]
+
+$$
+(a\mathbin{:}b)_{i_1,i_2,\cdots,i_{\nu+\mu-4}}=a_{i_1,i_2,\cdots,i_{\nu-2},l_1,l_2}b_{l_2,l_1,i_{\nu-1},\cdots,i_{\nu+\mu-4}}
+$$

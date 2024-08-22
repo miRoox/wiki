@@ -1,16 +1,15 @@
+aliases: 直积
 caption: 直积
 created: 20191114113107011
 creator: miRoox
-modified: 20230316103711663
+modified: 20240822115121549
 modifier: miRoox
-tags: TODO 张量的运算
-title: 张量的直积
+tags: TODO 张量运算 二元运算
+title: 张量直积
 tmap.id: 096ab9e5-19ba-4e0c-8901-7376614229b6
 type: text/vnd.tiddlywiki
 
-! 张量直积
-
-对于两个[[协变的|协变张量]]张量$$a_{i_1,i_2,\cdots,i_\mu}$$和$$b_{i_1,i_2,\cdots,i_\nu}$$，它们的乘积为
+对于两个[[协变张量]]$$a_{i_1,i_2,\cdots,i_\mu}$$和$$b_{i_1,i_2,\cdots,i_\nu}$$，它们的乘积为
 $$
 (a\otimes{}b)_{i_1,i_2,\cdots,i_{\mu+\nu}}=a_{i_1,i_2,\cdots,i_\mu}b_{i_{\mu+1},i_{\mu+2},\cdots,i_{\mu+\nu}}
 $$

@@ -1,7 +1,8 @@
+aliases: 字码 字集码
 created: 20190918115537875
 creator: miRoox
 list: ASCII Unicode
-modified: 20240806085939459
+modified: 20240822093023553
 modifier: miRoox
 tags: 分类 软件工程
 title: 字符编码
@@ -11,5 +12,3 @@ type: text/vnd.tiddlywiki
 ! 字符编码
 
 字符编码（Character encoding）、字码、字集码是把[[字符集]]中的[[字符]]为指定[[集合]]中某一对象
-
-<<list-links "[tag<currentTiddler>]">>

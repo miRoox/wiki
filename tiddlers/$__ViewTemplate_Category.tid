@@ -1,0 +1,30 @@
+created: 20240822060713996
+creator: miRoox
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20240822131532169
+modifier: miRoox
+tags: TODO $:/internal $:/tags/ViewTemplate
+title: $:/ViewTemplate/Category
+type: text/vnd.tiddlywiki
+
+<% if [all[current]tag[分类]] %>
+
+-----
+
+<% if [tag<currentTiddler>!is[draft]tag[分类]] %>
+
+!! ''{{!!title}}''子分类
+
+<div class="tc-table-of-contents threecols">
+<$transclude $variable="toc-selective-expandable" tag=<<currentTiddler>> sort="tag[分类]!is[draft]" missingText="无子分类"/>
+</div>
+
+<% endif %>
+
+!! ''{{!!title}}''分类子页面
+
+<div class="threecols">
+<<list-links "[tag<currentTiddler>!is[draft]!tag[分类]]">>
+</div>
+
+<% endif %>

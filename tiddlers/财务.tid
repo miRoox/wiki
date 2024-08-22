@@ -1,6 +1,6 @@
 created: 20191103002618379
 creator: miRoox
-modified: 20240626145254910
+modified: 20240822090844895
 modifier: miRoox
 tags: 日常生活 分类
 title: 财务
@@ -8,5 +8,3 @@ tmap.id: d41aca1c-36ac-4bc0-a4ea-28a71329333e
 type: text/vnd.tiddlywiki
 
 财务资料信息
-
-<<list-links "[tag<currentTiddler>]">>

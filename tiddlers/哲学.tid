@@ -2,7 +2,7 @@ caption: 哲学
 created: 20190918112657203
 creator: miRoox
 list: 哲学家 西方哲学史 科学哲学
-modified: 20230321072831246
+modified: 20240822093152769
 modifier: miRoox
 tags: TableOfContents 分类
 title: 哲学
@@ -10,5 +10,3 @@ tmap.id: d1f15429-7c8c-435f-b735-a26b2b997af8
 type: text/vnd.tiddlywiki
 
 ! 哲学
-
-<<list-links "[tag<currentTiddler>]">>

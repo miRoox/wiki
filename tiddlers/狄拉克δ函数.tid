@@ -1,16 +1,15 @@
+aliases: 单位脉冲 狄拉克函数 δ函数
 caption: δ函数
 created: 20191010113520679
 creator: miRoox
-modified: 20240806095503547
+modified: 20240822120501237
 modifier: miRoox
 tags: TODO 广义函数 函数
 title: 狄拉克δ函数
 tmap.id: d6e19896-3ed0-4d52-a95e-79363fec3b82
 type: text/vnd.tiddlywiki
 
-! δ函数
-
-狄拉克δ函数是一个[[广义函数]]，在物理学中常用其表示质点、点电荷等理想模型的密度分布。
+狄拉克δ函数是一个[[广义函数]]，在物理学中常用其表示质点、点电荷等理想模型的密度分布。可以看作是[[克罗内克δ函数]]的[[连续|连续函数]]版。
 
 !! 定义
 

@@ -1,6 +1,6 @@
 created: 20240628131100939
 creator: miRoox
-modified: 20240628131148883
+modified: 20240822092436866
 modifier: miRoox
 tags: 分类 TableOfContents
 title: 社会科学
@@ -8,5 +8,3 @@ tmap.id: 5bc011e1-d1ac-498d-a332-393ef7fda755
 type: text/vnd.tiddlywiki
 
 ! 社会科学
-
-<<list-links "[tag<currentTiddler>tag[分类]]">>

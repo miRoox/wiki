@@ -1,6 +1,6 @@
 created: 20191109125858499
 creator: miRoox
-modified: 20230316103711654
+modified: 20240822120629288
 modifier: miRoox
 tags: TODO 信号-系统-控制
 title: 单位脉冲响应
@@ -9,4 +9,4 @@ type: text/vnd.tiddlywiki
 
 ! 单位脉冲响应
 
-由[[单位脉冲|狄拉克δ函数]]激励系统输出的响应信号。
+由[[单位脉冲|?]]激励系统输出的响应信号。

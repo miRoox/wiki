@@ -1,0 +1,37 @@
+created: 20240822100828759
+creator: miRoox
+modified: 20240822131744000
+modifier: miRoox
+tags: 公理 皮亚诺算术
+title: 皮亚诺公理
+tmap.id: e9fb49eb-d803-4357-9a06-e33d7249b354
+type: text/vnd.tiddlywiki
+
+''皮亚诺公理''（Peano axioms）关于[[自然数]]的五条[[公理]]系统。根据这五条公理可以建立起''一阶算术系统''，也称[[皮亚诺算术]]系统。
+
+''戴德金-皮亚诺结构''将自然数描述为满足所有以下条件的三元组 $$(N, s, 0)$$ （自然数[[集合]]，后继[[映射]]，起始元[[0]]）
+
+# $$(0\in N)$$ （起始元0存在）
+# $$\forall x\in N,s(x)\in N$$ （任意自然数的后继依然是自然数）
+# $$\forall x\in N,\forall y\in N,s(x)=s(y)\iff x=y$$ （自然数相等意味着其对应后继也相等，后继映射为[[单射]]）
+# $$\forall x\in N,s(x)\neq 0$$ （起始元没有前驱）
+# $$\forall A\subseteq N,(0\in A\land (\forall x\in A,(s(x)\in A))\implies (A=N))$$ （第一[[数学归纳法]]）
+
+在[[公理化集合论]]中，一切数学对象均为集合，因此，上述皮亚诺公理中的内容被构造性地定义为：
+
+* $$0=\emptyset$$
+* $$s(n)=\{x:x<n\}$$
+
+即
+
+$$
+\begin{align*}
+0&=\emptyset\\
+1&=\{0\}=\{\emptyset\}\\
+2&=\{0,1\}=\{\emptyset,\{\emptyset\}\}\\
+3&=\{0,1,2\}=\{\emptyset,\{\emptyset\},\{\emptyset,\{\emptyset\}\}\}\\
+&\vdots
+\end{align*}
+$$
+
+通过[[无穷公理]]，可以得到存在一个只包含全体自然数的自然数集

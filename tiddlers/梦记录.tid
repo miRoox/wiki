@@ -1,6 +1,6 @@
 created: 20240627051157130
 creator: miRoox
-modified: 20240628034218554
+modified: 20240822091602126
 modifier: miRoox
 tags: 分类 日常生活
 title: 梦记录
@@ -8,5 +8,3 @@ tmap.id: 52aaa6e1-6eeb-44b1-a6d0-ef5413a50c76
 type: text/vnd.tiddlywiki
 
 做过的梦记录：
-
-<<list-links "[tag<currentTiddler>]">>

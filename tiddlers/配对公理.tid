@@ -1,0 +1,19 @@
+created: 20240822144638183
+creator: miRoox
+modified: 20240822145621580
+modifier: miRoox
+tags: 策梅洛-弗兰克尔集合论 公理
+title: 配对公理
+tmap.id: 655a619c-2aff-4cbd-a0f3-e8a8e07dea3f
+type: text/vnd.tiddlywiki
+
+
+$$
+\forall x, \forall y, \exists A,\forall z, (z\in A \iff (z=x\lor z=y))
+$$
+
+这个[[公理]]实际上给出了一种从既有[[集合]]$$x,y$$构造新集合（$$\{x,y\}$$对）的方式。
+
+注意到当$$x=y$$时，实际上给出了单元素集合$$\{x\}$$。
+
+进一步地，配对公理允许定义[[有序对]]$$(x,y):=\{\{x\},\{x,y\}\}$$
