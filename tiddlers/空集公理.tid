@@ -1,0 +1,16 @@
+created: 20240822132034901
+creator: miRoox
+modified: 20240822144515621
+modifier: miRoox
+tags: 策梅洛-弗兰克尔集合论 公理
+title: 空集公理
+tmap.id: 69d57bc6-51d5-4e75-8fa8-2e16ac55b81b
+type: text/vnd.tiddlywiki
+
+空集公理说明了[[空集]]的存在性
+
+$$
+\exists A,\forall x,x\notin A
+$$
+
+空集的唯一性可以由[[外延公理]]导出，因此我们引入符号$$\emptyset$$表示这个唯一的空集。

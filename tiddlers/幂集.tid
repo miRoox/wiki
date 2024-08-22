@@ -1,13 +1,13 @@
 created: 20240611114929656
 creator: miRoox
-modified: 20240612030110387
+modified: 20240822120131423
 modifier: miRoox
 tags: 集合 集合运算
 title: 幂集
 tmap.id: 1eaac18a-1d58-4cb0-94d2-38ef59f74e33
 type: text/vnd.tiddlywiki
 
-集合的幂集（power set），定义为由该集合全部[[子集]]为元素构成的集合。
+[[集合]]的幂集（power set），定义为由该集合全部[[子集]]为元素构成的集合。
 
 给定集合$$S$$，其幂集$$\mathcal{P}(S)$$（或作$$2^{S}$$）以符号表示即
 $$

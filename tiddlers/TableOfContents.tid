@@ -4,7 +4,7 @@ created: 20190917032522795
 creator: miRoox
 list: 数学 自然科学 工程技术 计算机科学与工程 语言 哲学 社会科学 人文艺术 文娱 日常生活 分类 附录
 list-after: $:/core/ui/SideBar/Open
-modified: 20240806093254985
+modified: 20240822062455373
 modifier: miRoox
 tags: $:/tags/SideBar $:/internal
 title: TableOfContents
@@ -13,6 +13,6 @@ type: text/vnd.tiddlywiki
 
 <div class="tc-table-of-contents">
 
-<<toc-selective-expandable 'TableOfContents'>>
+<<toc-selective-expandable tag:'TableOfContents'>>
 
 </div>

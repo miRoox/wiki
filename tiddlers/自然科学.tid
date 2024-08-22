@@ -2,7 +2,7 @@ caption: 自然科学
 created: 20190918112311261
 creator: miRoox
 list: 力学 电磁学 光学 热学 相对论
-modified: 20230321075241406
+modified: 20240822092929353
 modifier: miRoox
 tags: TableOfContents 分类
 title: 自然科学
@@ -10,5 +10,3 @@ tmap.id: 218976c3-aef0-4203-bf0c-7b3f60a38474
 type: text/vnd.tiddlywiki
 
 ! 自然科学
-
-<<list-links "[tag<currentTiddler>tag[分类]]">>

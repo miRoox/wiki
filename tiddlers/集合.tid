@@ -1,8 +1,8 @@
 created: 20240610104358755
 creator: miRoox
-modified: 20240612040910302
+modified: 20240822115939347
 modifier: miRoox
-tags: 集合论 TODO
+tags: 集合论 TODO 分类
 title: 集合
 tmap.id: dc5c8d68-4fb8-4b95-82f4-dd222ba9a634
 type: text/vnd.tiddlywiki
@@ -11,3 +11,4 @@ type: text/vnd.tiddlywiki
 
 在[[朴素集合论]]中，集合是指由许多对象组成，有''明确定义''的搜集（collection）。
 
+在[[公理化集合论]]中，集合由相应[[公理]]严格定义，且不存在集合以外的数学对象。

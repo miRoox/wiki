@@ -1,0 +1,13 @@
+aliases: 指标置换 置换
+caption: 指标置换
+created: 20191114122746460
+creator: miRoox
+modified: 20240822115302632
+modifier: miRoox
+tags: TODO 张量运算
+title: 张量指标置换
+tmap.id: 3a5dfd3b-8518-4de4-a9e1-fee0abb352ce
+type: text/vnd.tiddlywiki
+
+
+将一个[[张量]]的任意两个下标位置互换。

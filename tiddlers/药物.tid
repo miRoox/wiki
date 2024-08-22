@@ -1,6 +1,6 @@
 created: 20240628054841692
 creator: miRoox
-modified: 20240628054933688
+modified: 20240822091643673
 modifier: miRoox
 tags: 分类
 title: 药物
@@ -8,5 +8,3 @@ tmap.id: e64851b3-b246-492d-84e1-40213938ca00
 type: text/vnd.tiddlywiki
 
 ! 药物
-
-<<list-links "[tag<currentTiddler>]">>

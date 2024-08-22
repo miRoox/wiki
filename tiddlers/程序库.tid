@@ -2,7 +2,7 @@ aliases: 程序库 程序包
 caption: 库/包
 created: 20230316102052881
 creator: miRoox
-modified: 20240821141430005
+modified: 20240822090900995
 modifier: miRoox
 tags: 计算机科学与工程 分类
 title: 程序库
@@ -12,5 +12,3 @@ type: text/vnd.tiddlywiki
 ! 库（Library） / 包（Package）
 
 程序库或者程序包通常某一领域，某一[[计算机语言]]。
-
-<<list-links "[tag<currentTiddler>]">>

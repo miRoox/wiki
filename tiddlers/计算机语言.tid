@@ -1,7 +1,7 @@
 caption: 计算机语言
 created: 20190918114307100
 creator: miRoox
-modified: 20230321131725995
+modified: 20240822091245898
 modifier: miRoox
 tags: 计算机科学与工程 分类
 title: 计算机语言
@@ -9,5 +9,3 @@ tmap.id: b7fad7b3-4faa-40e7-96de-473753085b4c
 type: text/vnd.tiddlywiki
 
 ! 计算机语言
-
-<<list-links "[tag<currentTiddler>]">>

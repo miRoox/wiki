@@ -1,0 +1,16 @@
+aliases: 三点乘
+caption: 三点乘
+created: 20240822115514627
+creator: miRoox
+modified: 20240822115542378
+modifier: miRoox
+tags: TODO 张量运算 二元运算
+title: 张量三点乘
+tmap.id: 9a7a3164-b27f-4eff-84f3-ca18f203510c
+type: text/vnd.tiddlywiki
+
+[[直积|张量直积]]+三次[[缩并|张量缩并]]
+
+$$
+(a\mathbin{\vdots{}}b)_{i_1,i_2,\cdots,i_{\nu+\mu-6}}=a_{i_1,i_2,\cdots,i_{\nu-3},l_1,l_2,l_3}b_{l_3,l_2,l_1,i_{\nu-1},\cdots,i_{\nu+\mu-6}}
+$$
