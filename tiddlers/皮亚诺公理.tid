@@ -1,6 +1,6 @@
 created: 20240822100828759
 creator: miRoox
-modified: 20240822131744000
+modified: 20240826103200593
 modifier: miRoox
 tags: 公理 皮亚诺算术
 title: 皮亚诺公理
@@ -20,7 +20,7 @@ type: text/vnd.tiddlywiki
 在[[公理化集合论]]中，一切数学对象均为集合，因此，上述皮亚诺公理中的内容被构造性地定义为：
 
 * $$0=\emptyset$$
-* $$s(n)=\{x:x<n\}$$
+* $$s(n)=n\cup\{n\}$$
 
 即
 
