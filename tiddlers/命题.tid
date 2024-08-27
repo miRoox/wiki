@@ -1,0 +1,12 @@
+created: 20240827053541146
+creator: miRoox
+modified: 20240827053821712
+modifier: miRoox
+tags: TODO
+title: 命题
+tmap.id: 54634f1c-2b23-4e8f-ae82-ff7cdafddd08
+type: text/vnd.tiddlywiki
+
+''命题''（proposition）是一个陈述句所表达的判断，具有真值，即不是真的就是假的。
+
+由其他命题推出命题（前提推出结论）的过程，叫做推论；而这些作为前提和结论的命题的集合，叫做论证。[[命题逻辑]]主要处理命题及其之间的逻辑关系。
