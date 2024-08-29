@@ -1,17 +1,18 @@
 caption: ASCII
 created: 20190918115610996
 creator: miRoox
-modified: 20240806081714919
+modified: 20240828154128357
 modifier: miRoox
-tags: 字符编码
+tags: 字符编码 编码
 title: ASCII
 tmap.id: dc6f2e2b-f1c7-4c9d-99e6-15f3863dc105
 type: text/vnd.tiddlywiki
 
 ! ASCII
 
-|ASCII码表|c
-| 分类 | 十六进制编码 | 字符 (解释) |h
+!! ASCII码表
+
+| !分类 | !十六进制编码 | !字符 (解释) |
 | 控制字符 | 00 |`NUL`(空)|
 |~| 01 |`SOH` (标题开始)|
 |~| 02 |`STX` (正文开始)|

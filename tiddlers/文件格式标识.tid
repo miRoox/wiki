@@ -1,0 +1,10 @@
+created: 20240829141921848
+creator: miRoox
+modified: 20240829144540283
+modifier: miRoox
+tags: TODO 分类
+title: 文件格式标识
+tmap.id: 01392ccb-d18a-41dc-adfa-61c3766021bd
+type: text/vnd.tiddlywiki
+
+从程序的角度来看，[[文件]]是数据流，[[文件系统]]为每一种[[文件格式]]规定了访问的方法。
