@@ -1,0 +1,11 @@
+aliases: UUID
+created: 20240829142946500
+creator: miRoox
+modified: 20240829143231975
+modifier: miRoox
+tags: TODO 识别符
+title: 通用唯一识别码
+tmap.id: f36cf3e8-d229-4adf-a682-beb64d367357
+type: text/vnd.tiddlywiki
+
+通用唯一识别码（Universally Unique Identifier，UUID）是用于计算机体系中以识别信息的一个128位标识符。
