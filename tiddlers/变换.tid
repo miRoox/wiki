@@ -1,13 +1,11 @@
 caption: 变换
 created: 20191010111018304
 creator: miRoox
-modified: 20230316103711653
+modified: 20240829153826087
 modifier: miRoox
-tags: TODO 数学
+tags: TODO 数学 分类
 title: 变换
 tmap.id: df06217b-4a6a-4843-86f8-cdf921202b22
 type: text/vnd.tiddlywiki
 
 ! 变换
-
-<<list-links "[tag<currentTiddler>]">>
