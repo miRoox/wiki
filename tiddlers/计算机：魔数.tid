@@ -1,15 +1,15 @@
 aliases: 魔数 幻数 [[magic number]]
 created: 20240829142320865
 creator: miRoox
-modified: 20240829142943017
+modified: 20240830091550550
 modifier: miRoox
-tags: TODO
+tags: TODO 反面模式
 title: 计算机：魔数
 tmap.id: 04342f3c-72b3-417f-841c-08cc00efc147
 type: text/vnd.tiddlywiki
 
 ''魔术数字''（magic number），又译''魔数''、''幻数''，可能指：
 
-* 乏解释或命名的独特数值。常常在程序中出现多次，并且可以（从规范上而言也应当）被有名字的常量取代。
+* 乏解释或命名的[[硬编码]]数值。常常在程序中出现多次，并且可以（从规范上而言也应当）被有名字的常量取代。
 * 用于识别一个[[文件格式]]或协议类型的一段[[常量]]或[[字符串]]。
 * 不易于其他值混淆的值，例如[[UUID|?]]。
