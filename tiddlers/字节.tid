@@ -1,0 +1,11 @@
+aliases: byte
+created: 20240902145142515
+creator: miRoox
+modified: 20240902145458924
+modifier: miRoox
+tags: TODO 信息单位
+title: 字节
+tmap.id: bb87a6ec-ba9c-4a93-858c-77a3575fb30b
+type: text/vnd.tiddlywiki
+
+''字节''（byte）是通常用在[[电子设备]]上的信息计量单位。从历史的观点上，“字节”表示用于编码单个字符所需要的[[比特]]数量，因此它是许多[[计算机体系结构]]中最小的[[可寻址|地址空间]][[内存]]单元。
