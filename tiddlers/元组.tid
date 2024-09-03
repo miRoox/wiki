@@ -1,10 +1,11 @@
+aliases: 多元组 顺序组 tuple
 created: 20240612030509825
 creator: miRoox
-modified: 20240612031618251
+modified: 20240903061131248
 modifier: miRoox
 tags: TODO
 title: 元组
 tmap.id: c56897dd-a7bd-468a-85ca-b67e642a51db
 type: text/vnd.tiddlywiki
 
-多元组，也称为顺序组（tuple），泛指有限个元素所组成的[[序列]]。
+''多元组''，也称为''顺序组''（tuple），泛指有限个元素所组成的[[序列]]。
