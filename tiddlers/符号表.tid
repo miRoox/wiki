@@ -1,6 +1,6 @@
 created: 20240806092602846
 creator: miRoox
-modified: 20240822115206706
+modified: 20240904144002036
 modifier: miRoox
 tags: TODO 附录
 title: 符号表
@@ -47,6 +47,8 @@ type: text/vnd.tiddlywiki
 | $$|\Box|$$ | [[绝对值]] |
 |~| [[基数]] |
 | $$||\Box||$$ | [[范数]] |
+| $$\bar{\Box}$$ | [[逻辑非]] |
+| $$\lnot$$ | [[逻辑非]] |
 | $$\ast$$ | [[卷积]] |
 | $$\lim$$ | [[极限]] |
 | $$\operatorname{MSE}$$ | [[均方误差]] |

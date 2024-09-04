@@ -1,6 +1,6 @@
 created: 20240612044330258
 creator: miRoox
-modified: 20240624145400283
+modified: 20240904050343899
 modifier: miRoox
 tags: 逻辑运算 二元运算 布尔代数
 title: 实质蕴含
@@ -15,14 +15,14 @@ type: text/vnd.tiddlywiki
 
 这里的$$A$$和$$B$$是陈述变量（可以被语言中任何有意义的可表示的句子所替代）。在这种形式的陈述中，第一项这里的$$A$$，叫做[[前件]]；第二项这里的$$B$$，叫做[[后件]]。
 
-这个算子使用右箭头“$$\rightarrow$$”（有时用符号“$$\Rightarrow$$”或“$$\supset$$”）来符号化，其语义''仅为''“如果$$A$$为真，那么$$B$$亦为真”。
+这个算子使用右箭头“$$\rightarrow$$”（有时用符号“$$\Rightarrow$$”或“$$\supset$$”）来符号化，其语义''仅为''“如果$$A$$为[[真]]，那么$$B$$亦为真”。
 
 !! 真值表
 
-| ! $$A$$ | ! $$B$$ | ! $$A\rightarrow B$$ |
-| F | F |	T |
-| F | T |	T |
-| T | F |	F |
-| T | T |	T |
+| ! $$A$$ | ! $$B$$ |  !  $$A\rightarrow B$$ |
+| F | F |	 T |
+| F | T |	 T |
+| T | F |	 F |
+| T | T |	 T |
 
 由此可见，$$A\rightarrow B$$等价于$$\neg A\lor B$$。
