@@ -1,0 +1,13 @@
+aliases: 像集
+created: 20240905111010044
+creator: miRoox
+modified: 20240905111543871
+modifier: miRoox
+tags: 集合
+title: 值域
+tmap.id: 7a1f42af-2875-499a-93e5-fe7c1517615b
+type: text/vnd.tiddlywiki
+
+[[映射]]的''值域''（Range）是由[[定义域]]中一切元素的[[像|映射的像]]的[[集合]]。给定[[映射]]$$f:A\to B$$，集合$$f(A)=\{x\in A:f(x)\}$$被称为$$f$$的值域。
+
+$$f$$的值域是[[到达域]]的一个[[子集]]。若$$f$$是一个[[满射]]，则其到达域和值域相[[等|外延公理]]。

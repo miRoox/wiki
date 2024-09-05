@@ -1,0 +1,11 @@
+aliases: 像 像点
+caption: 像
+created: 20240905111708799
+creator: miRoox
+modified: 20240905112043543
+modifier: miRoox
+title: 映射的像
+tmap.id: 4bf1fd57-dfcd-451c-b75a-5ebe558b1eea
+type: text/vnd.tiddlywiki
+
+对于[[映射]]$$f:A\to B$$，$$x\in A$$的''像''即$$y=f(x)$$。

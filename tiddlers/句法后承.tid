@@ -1,0 +1,15 @@
+aliases: 句法蕴涵 蕴涵
+created: 20240905145200711
+creator: miRoox
+modified: 20240905151955730
+modifier: miRoox
+tags: TODO 逻辑
+title: 句法后承
+tmap.id: fe632fb7-af54-4fe9-9e20-b6592dacd587
+type: text/vnd.tiddlywiki
+
+''句法后承''（syntactic consequence），也叫''句法蕴涵''。符号为$$\vdash$$。
+
+句法后承的用法和[[语义后承]]类似，也是连接一个[[命题]][[集合]]和一个命题。$$A\vdash x$$表示$$x$$可以通过[[句法证明]]的方式从命题集$$A$$得出。
+
+存在一个[[证明]]，是一个命题[[序列]]，使得每个命题要么是[[公理]]，要么是$$A$$中的命题，要么是要么是有它们作为[[前提]]通过证明规则得到的命题，从而可以得到最终的[[结论]]是$$x$$。

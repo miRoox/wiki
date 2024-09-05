@@ -1,0 +1,19 @@
+aliases: 到上的 盖射
+created: 20240905131549196
+creator: miRoox
+modified: 20240905132656337
+modifier: miRoox
+tags: 映射
+title: 满射
+tmap.id: 71d55de2-a5c5-47be-9f5e-2ea5123f5208
+type: text/vnd.tiddlywiki
+
+[[映射]]$$f:A\to B$$若满足
+
+$$
+\forall y\in B,\exists x\in A, f(x)=y
+$$
+
+则称$$f$$是''满射''或''盖射''（surjection，onto）。
+
+亦即，$$f$$是满射时，其[[值域]]$$f(A)$$和[[到达域]]$$B$$相等。

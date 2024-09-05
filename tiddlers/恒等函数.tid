@@ -1,10 +1,10 @@
 created: 20240821144750663
 creator: miRoox
-modified: 20240822111020818
+modified: 20240905093954312
 modifier: miRoox
-tags: 初等函数 TODO 函数
+tags: 初等函数 TODO 数学：函数
 title: 恒等函数
 tmap.id: ffa1de33-850e-4c84-8a30-5b8391e7a45f
 type: text/vnd.tiddlywiki
 
-''恒等函数''（Identity function）是对于传回和其输入值相同的[[函数]]的称呼，是[[恒等关系]]的一种特例。换句话说，恒等函数即函数$$f(x)=x$$。
+''恒等函数''（Identity function）是对于传回和其输入值相同的[[函数|数学：函数]]的称呼，是[[恒等关系]]的一种特例。换句话说，恒等函数即函数$$f(x)=x$$。

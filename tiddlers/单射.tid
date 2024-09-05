@@ -1,0 +1,17 @@
+aliases: 一对一的
+created: 20240905130905651
+creator: miRoox
+modified: 20240905144141786
+modifier: miRoox
+tags: 映射
+title: 单射
+tmap.id: e55e5e39-e98e-48c1-9530-9e89f00117bb
+type: text/vnd.tiddlywiki
+
+[[映射]]$$f:A\to B$$若满足
+
+$$
+\forall y\in B,\forall x\in A,\forall w\in A, (x,y)\in f\land (w,y)\in f \rightarrow x=w
+$$
+
+则$$f$$被称为是''一对一的''（one-to-one）或者''单射''（injection）

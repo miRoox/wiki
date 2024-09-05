@@ -1,6 +1,6 @@
 created: 20240624141419048
 creator: miRoox
-modified: 20240624145330803
+modified: 20240905140648224
 modifier: miRoox
 tags: 逻辑运算 一元运算 布尔代数
 title: 逻辑非
@@ -14,3 +14,9 @@ type: text/vnd.tiddlywiki
 * $$\bar{A}$$
 * $$\lnot {A}$$
 * ~$${A}$$
+
+!! 真值表
+
+| ! $$A$$ | ! $$\lnot A$$ |
+| F | T |
+| T | F |

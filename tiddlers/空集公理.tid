@@ -1,13 +1,13 @@
 created: 20240822132034901
 creator: miRoox
-modified: 20240822144515621
+modified: 20240905143357361
 modifier: miRoox
 tags: 策梅洛-弗兰克尔集合论 公理
 title: 空集公理
 tmap.id: 69d57bc6-51d5-4e75-8fa8-2e16ac55b81b
 type: text/vnd.tiddlywiki
 
-空集公理说明了[[空集]]的存在性
+空集公理说明了[[空集]]的[[存在|存在量化]]性
 
 $$
 \exists A,\forall x,x\notin A

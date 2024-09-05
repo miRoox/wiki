@@ -1,0 +1,13 @@
+aliases: 任意
+created: 20240905142116609
+creator: miRoox
+modified: 20240905143029677
+modifier: miRoox
+tags: 谓词逻辑 TODO
+title: 全称量化
+tmap.id: 472740ec-4201-41b4-b8cc-04f5c0e9443a
+type: text/vnd.tiddlywiki
+
+在[[谓词逻辑]]中，''全称命题''是对[[论域]]内所有成员的性质或关系的论断结果的陈述。在符号逻辑中，全称量词$$\forall$$是用来指示全称量化的符号（倒立的''A''ll首字母）。
+
+全称量化可以看作是对[[逻辑合取]]的一种泛化。考虑$$\forall x\in A, P(x)$$，可以等价地表示为形式$$\bigwedge_{x\in A}P(x)$$
