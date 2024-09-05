@@ -1,0 +1,13 @@
+aliases: 存在
+created: 20240905135327559
+creator: miRoox
+modified: 20240905143017825
+modifier: miRoox
+tags: 谓词逻辑 TODO
+title: 存在量化
+tmap.id: e8fe317e-f01a-4479-afb0-47774d461f02
+type: text/vnd.tiddlywiki
+
+在[[谓词逻辑]]中，''存在量化''是对[[论域]]内至少一个成员的性质或关系的论断。在符号逻辑中，存在量词$$\exists$$是用来指示存在量化的符号（倒转的''E''xists首字母）。
+
+存在量化可以看作是对[[逻辑析取]]的一种泛化。考虑$$\exists x\in A, P(x)$$，可以等价地表示为形式$$\bigvee_{x\in A}P(x)$$

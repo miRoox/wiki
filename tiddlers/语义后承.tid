@@ -1,0 +1,13 @@
+aliases: 语义蕴涵 逻辑蕴涵 蕴涵
+created: 20240905144506520
+creator: miRoox
+modified: 20240905151411966
+modifier: miRoox
+tags: TODO 逻辑
+title: 语义后承
+tmap.id: 9d3db1b5-e8a5-4c9e-b52e-bb6b22fa4078
+type: text/vnd.tiddlywiki
+
+''语义后承''（semantic consequence），也叫''语义蕴涵''或者''逻辑蕴涵''（logical implication）。符号为$$\models$$。
+
+语义后承在一般情况下是连接一个[[命题]][[集合]]和一个命题。如果，在任何一种语义赋值下，“只要命题集合$$A$$中的每个集合均为真，那么$$x$$就一定为真”，则称$$x$$是$$A$$的语义后承，记作$$A\models x$$

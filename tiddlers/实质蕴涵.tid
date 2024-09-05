@@ -1,9 +1,10 @@
+aliases: 实质条件 蕴涵算子 蕴涵
 created: 20240612044330258
 creator: miRoox
-modified: 20240904050343899
+modified: 20240905144920534
 modifier: miRoox
 tags: 逻辑运算 二元运算 布尔代数
-title: 实质蕴含
+title: 实质蕴涵
 tmap.id: d36d6952-b6a8-495b-89c6-c67f0b39cc56
 type: text/vnd.tiddlywiki
 
@@ -15,7 +16,7 @@ type: text/vnd.tiddlywiki
 
 这里的$$A$$和$$B$$是陈述变量（可以被语言中任何有意义的可表示的句子所替代）。在这种形式的陈述中，第一项这里的$$A$$，叫做[[前件]]；第二项这里的$$B$$，叫做[[后件]]。
 
-这个算子使用右箭头“$$\rightarrow$$”（有时用符号“$$\Rightarrow$$”或“$$\supset$$”）来符号化，其语义''仅为''“如果$$A$$为[[真]]，那么$$B$$亦为真”。
+这个算子使用右箭头“$$\rightarrow$$”（有时用符号“$$\implies$$”或“$$\supset$$”）来符号化，其语义''仅为''“如果$$A$$为[[真]]，那么$$B$$亦为真”。
 
 !! 真值表
 

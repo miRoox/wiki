@@ -1,0 +1,17 @@
+aliases: 唯一量化 唯一存在 唯一
+created: 20240905141402517
+creator: miRoox
+modified: 20240905142409269
+modifier: miRoox
+tags: 谓词逻辑 TODO
+title: 唯一存在量化
+tmap.id: 62b66d29-07bd-4c05-ab4c-2c57f7a79e21
+type: text/vnd.tiddlywiki
+
+''唯一量化''或''唯一存在量化''，尝试形式化对于“精确”的一个事物，或对于精确的特定类型的一个事物为真的某个事物的概念。在符号逻辑中，唯一存在量词$$\exists!$$是用来指示唯一量化的符号。
+
+唯一量化通常被认为是[[全称量化]]、[[存在量化]]和[[恒等关系]]的组合。即$$\exists!x\in A,P(x)$$等价于
+
+$$
+\exist x\in A,P(x)\land(\forall y\in A,P(y)\implies x=y)
+$$

@@ -1,0 +1,19 @@
+aliases: 一一对应
+created: 20240905132939295
+creator: miRoox
+modified: 20240905134357448
+modifier: miRoox
+tags: TODO 映射
+title: 双射
+tmap.id: f70e3bdf-98e0-4f97-bc76-8d2c30d29306
+type: text/vnd.tiddlywiki
+
+[[映射]]$$f:A\to B$$若满足
+
+$$
+(\forall y\in B,\exists! x\in A, f(x)=y)\land(\forall x\in A,\exists! y\in B,f(x)=y)
+$$
+
+则$$f$$是一个''双射''（bijection）。即，双射$$f$$在两[[集合]]间建立了''一一对应''[[关系|?]]。
+
+等价的，双射即满足既是[[单射]]又是[[满射]]。
