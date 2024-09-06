@@ -1,0 +1,10 @@
+created: 20240906090538638
+creator: miRoox
+modified: 20240906090745044
+modifier: miRoox
+tags: 逻辑 TODO 分类
+title: 推理规则
+tmap.id: cccf0aff-a8bc-413a-bf9e-44fa498f021e
+type: text/vnd.tiddlywiki
+
+在[[逻辑]]中，特别是[[数理逻辑]]中，''推理规则''（推论规则）是构造有效推论的方案。这些方案建立在一组叫做''前提''的公式和叫做''结论''的断言之间的句法关系。

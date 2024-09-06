@@ -1,11 +1,10 @@
-aliases: 一阶逻辑
 created: 20240621142210643
 creator: miRoox
-modified: 20240827035612524
+modified: 20240906082206797
 modifier: miRoox
-tags: 数理逻辑 逻辑
+tags: 数理逻辑 逻辑 TODO 分类
 title: 谓词逻辑
 tmap.id: 50f23998-37f7-4df5-861e-d68356dd020c
 type: text/vnd.tiddlywiki
 
-即一阶逻辑。
+''谓词逻辑''通常指[[一阶逻辑]]，有时也是包含[[高阶逻辑]]的泛指。

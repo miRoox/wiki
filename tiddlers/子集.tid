@@ -1,14 +1,14 @@
 aliases: 包含 部分集合
 created: 20240611115855832
 creator: miRoox
-modified: 20240821141833659
+modified: 20240906070934245
 modifier: miRoox
 tags: 集合 偏序关系
 title: 子集
 tmap.id: 352ab59b-7907-4cbf-b555-357180d23fd3
 type: text/vnd.tiddlywiki
 
-子集（subset）亦称''部分集合''，为某[[集合]]中部分元素的集合；关系相反时则称作父集、母集或[[超集]]。子集与父集的关系被称为“包含”。
+子集（subset）亦称''部分集合''，为某[[集合]]中部分元素的集合；关系相反时则称作[[超集]]。子集与超集的关系被称为“包含”。
 
 $$
 A\subseteq B := \forall x (x\in A\implies x\in B)

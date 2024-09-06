@@ -1,0 +1,20 @@
+aliases: iff 反异或 当且仅当
+created: 20240906052941445
+creator: miRoox
+modified: 20240906061338822
+modifier: miRoox
+tags: 逻辑运算 TODO 二元运算 布尔代数
+title: 逻辑双条件
+tmap.id: 2fffef68-de72-47d5-b800-484b75cafc91
+type: text/vnd.tiddlywiki
+
+''当且仅当''（if and only if，iff）也叫''反异或''（exclusive NOR）是一种二元的真值泛函的[[逻辑运算]]符，用$$\leftrightarrow$$（或者$$\iff$$）表示。
+
+
+!! 真值表
+
+| ! $$p$$ | ! $$q$$ |  !  $$p\leftrightarrow q$$ |
+| F | F |	 T |
+| F | T |	 F |
+| T | F |	 F |
+| T | T |	 T |

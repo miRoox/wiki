@@ -1,0 +1,13 @@
+aliases: 有限集
+created: 20240906051924812
+creator: miRoox
+modified: 20240906062900565
+modifier: miRoox
+tags: 集合
+title: 有限集合
+tmap.id: 1c70fdb3-c99b-47d4-99b8-0d8915f5c137
+type: text/vnd.tiddlywiki
+
+''有限集合''是由有限个元素组成的[[集合]]。严格地说，对于集合$$A$$，即存在自然数$$n$$使得$$A$$和集合$$\{i\in\mathbb{N}:0\lt i\le n\}$$之间存在[[双射]]，此时$$A$$的[[基数]]就是$$n$$。
+
+一个集合是有限的[[当且仅当|?]]不存在一个该集合与它的任何一个[[真子集]]之间的双射。
