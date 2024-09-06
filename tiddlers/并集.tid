@@ -1,10 +1,10 @@
 created: 20240610104749584
 creator: miRoox
-modified: 20240822120105115
+modified: 20240906065119128
 modifier: miRoox
 tags: 集合 集合运算 二元运算
 title: 并集
 tmap.id: 1ab022f7-c7fb-4114-a575-2cfe6999288b
 type: text/vnd.tiddlywiki
 
-$$C=A\cap B$$被称为[[集合]]$$A$$和$$B$$的并集，当且仅当$$C=\{x:x\in A \lor x\in B\}$$
+$$C=A\cup B$$被称为[[集合]]$$A$$和$$B$$的并集，当且仅当$$C=\{x:x\in A \lor x\in B\}$$

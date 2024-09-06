@@ -1,8 +1,10 @@
 created: 20240827035520871
 creator: miRoox
-modified: 20240827035549477
+modified: 20240906085916127
 modifier: miRoox
-tags: 逻辑 TODO 数理逻辑
+tags: 逻辑 TODO
 title: 命题逻辑
 tmap.id: bf0de994-ad52-4ade-86aa-8037f0ce6311
 type: text/vnd.tiddlywiki
+
+''命题逻辑''是[[逻辑]]学的一个分支。它也称为''命题演算''、''句子演算''、''句子逻辑''或者''零阶逻辑''。它涉及[[命题]]（可以是真或假）和命题之间的关系，包括基于它们的[[论证]]的构建。

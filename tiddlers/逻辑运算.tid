@@ -1,10 +1,11 @@
+aliases: 逻辑运算符 逻辑联结词
 created: 20240612044341348
 creator: miRoox
-modified: 20240822114347178
+modified: 20240906085856026
 modifier: miRoox
 tags: 数理逻辑 分类 运算
 title: 逻辑运算
 tmap.id: 8e0da7f8-3888-406d-aaff-decbe1317b98
 type: text/vnd.tiddlywiki
 
-''逻辑运算符''或''逻辑联结词''用于把语句连接成更复杂的复杂语句。
+''逻辑运算符''或''逻辑联结词''用于把[[命题]]连接成更复杂的复合命题。

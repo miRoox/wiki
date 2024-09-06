@@ -1,0 +1,12 @@
+created: 20240906093729383
+creator: miRoox
+modified: 20240906093937081
+modifier: miRoox
+tags: 语言学 逻辑
+title: 自指
+tmap.id: a277c194-9b53-4acd-ab6c-53b522157569
+type: text/vnd.tiddlywiki
+
+在自然语言和[[形式语言]]中，如果一句句子直接或间接提及自身，就称为''自指''（Self-reference）。
+
+自指可以是直接的，也可以是通过另外一句句子间接提及自身，还可以是通过某种[[编码]]反应自身，自指的语句常常会造成[[悖论]]。

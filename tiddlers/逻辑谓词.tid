@@ -1,0 +1,11 @@
+aliases: 谓词
+created: 20240906080255350
+creator: miRoox
+modified: 20240906080655895
+modifier: miRoox
+tags: 谓词逻辑 TODO
+title: 逻辑谓词
+tmap.id: 5854c6d8-4c83-492b-a0e4-c25b8314c5f6
+type: text/vnd.tiddlywiki
+
+''谓词''（Predicate）是一个表示属性或者关系的符号，或者说是一个能得到[[真值]]的[[映射]]。

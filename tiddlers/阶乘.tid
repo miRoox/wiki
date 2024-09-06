@@ -1,0 +1,28 @@
+created: 20240906104437851
+creator: miRoox
+modified: 20240906110930941
+modifier: miRoox
+tags: 一元运算 算术运算
+title: 阶乘
+tmap.id: 542e05cd-dc72-4693-856b-6e219a51e2fa
+type: text/vnd.tiddlywiki
+
+正[[整数]]$$n$$的''阶乘''（factorial）是所有小于等于$$n$$的正整数的[[积|?]]，记为$$n!$$，亦即
+
+$$
+n! := \prod_{k=1}^n k
+$$
+
+进一步地，我们定义[[0]]的阶乘为[[1]]，则可以给出[[递推]]定义：
+
+$$
+\begin{align*}
+0!&:=1\\
+n!&:=n\cdot(n-1)!
+\end{align*}
+$$
+
+阶乘可以通过[[Gamma函数]]扩展定义域：
+$$
+n! = \Gamma(n+1)
+$$

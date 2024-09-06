@@ -1,0 +1,15 @@
+aliases: 父集 母集
+created: 20240906065405144
+creator: miRoox
+modified: 20240906065750676
+modifier: miRoox
+tags: 集合 偏序关系
+title: 超集
+tmap.id: 2afab7d1-827a-409e-9fee-3cf67e4f47e2
+type: text/vnd.tiddlywiki
+
+''超集''（superset）是[[子集]]相反的关系。即$$A$$是$$B$$的超集[[当且仅当|?]]$$B$$是$$A$$的子集。
+
+$$
+A\supseteq B \iff B\subseteq A
+$$

@@ -1,19 +1,19 @@
 aliases: 逻辑或 析取 或
 created: 20240905135626940
 creator: miRoox
-modified: 20240905140706183
+modified: 20240906055128105
 modifier: miRoox
 tags: 逻辑运算 二元运算 布尔代数
 title: 逻辑析取
 tmap.id: 16e1ff7d-c606-4e19-b8ea-0280ab7244e4
 type: text/vnd.tiddlywiki
 
-''逻辑析取''（logical disjunction），也叫''逻辑或''（logical or）是一种二元的真值泛函的[[逻辑运算]]符，用$$\lor$$表示。它满足当且仅当其两个变量的[[真值]]都为假时，其结果为假。
+''逻辑析取''（logical disjunction），也叫''逻辑或''（logical or）是一种二元的[[逻辑运算]]符，用$$\lor$$表示。它满足当且仅当其两个变量的[[真值]]都为假时，其结果为假。
 
 
 !! 真值表
 
-| ! $$A$$ | ! $$B$$ |  !  $$A\lor B$$ |
+| ! $$p$$ | ! $$q$$ |  !  $$p\lor q$$ |
 | F | F |	 F |
 | F | T |	 T |
 | T | F |	 T |

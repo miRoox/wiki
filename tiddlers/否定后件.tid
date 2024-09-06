@@ -1,0 +1,14 @@
+created: 20240906091006184
+creator: miRoox
+modified: 20240906091355974
+modifier: miRoox
+tags: 推理规则 TODO
+title: 否定后件
+tmap.id: a463cc06-ad08-4dde-9cd4-150371dde139
+type: text/vnd.tiddlywiki
+
+''否定后件''（modus tollens）有如下论证形式：
+
+$$
+p\to q, \lnot q\vdash \lnot p
+$$
