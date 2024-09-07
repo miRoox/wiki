@@ -1,0 +1,14 @@
+created: 20240907151534863
+creator: miRoox
+modified: 20240907151738387
+modifier: miRoox
+tags: 悖论 自指
+title: 罗素悖论
+tmap.id: f945195d-0da7-4fe9-bd07-f7ecfab7bad2
+type: text/vnd.tiddlywiki
+
+罗素悖论（Russell's paradox），是英国哲学家[[伯特兰·罗素]]于1901年提出的[[悖论]]，是一个关于[[类]]的内涵问题。
+
+!! 内容
+
+考虑$$A=\{x:x\notin x\}$$，那么$$A\in A\iff A\notin A$$

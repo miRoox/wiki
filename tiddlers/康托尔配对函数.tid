@@ -1,0 +1,15 @@
+created: 20240907082500567
+creator: miRoox
+modified: 20240907083309452
+modifier: miRoox
+tags: 数学：函数 TODO
+title: 康托尔配对函数
+tmap.id: ead042ff-145e-42e4-9a79-f49a2cb6fe3e
+type: text/vnd.tiddlywiki
+
+''配对函数''是一种将两个[[自然数]]唯一地编码成一个自然数的[[双射]]。常用于来证明特定[[可数集|?]]和自然数集[[等势]]。
+
+$$
+\pi:\mathbb{N}\times\mathbb{N}\to\mathbb{N}\\
+\pi(k_1,k_2):=\frac{1}{2}(k_1+k_2)(k_1+k_2+1)+k_2
+$$

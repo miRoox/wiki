@@ -1,0 +1,17 @@
+aliases: 繁分数
+created: 20240907084603641
+creator: miRoox
+modified: 20240907143527458
+modifier: miRoox
+tags: TODO 数论 分数
+title: 连分数
+tmap.id: 28b00489-2532-4483-a74c-233c76930777
+type: text/vnd.tiddlywiki
+
+''连分数''即如下表达式：
+
+$$
+{\displaystyle x=a_{0}+{\cfrac {1}{a_{1}+{\cfrac {1}{a_{2}+{\cfrac {1}{a_{3}+{\cfrac {1}{\ddots \,}}}}}}}}}
+$$
+
+这里$$a_0$$是某个[[整数]]，其余$$a_n$$均为正整数。

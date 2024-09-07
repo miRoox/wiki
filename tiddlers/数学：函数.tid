@@ -3,11 +3,11 @@ caption: 函数
 created: 20190930081956510
 creator: miRoox
 list: 初等函数 正交多项式
-modified: 20240905131514688
+modified: 20240907080642375
 modifier: miRoox
 tags: TODO 数学 分类 映射
 title: 数学：函数
 tmap.id: c0e9632a-c1e9-4e3d-8493-632fa9fe1cb2
 type: text/vnd.tiddlywiki
 
-''函数''最初是一个变化的量如何依赖另一个量的理想化。现在多数情况下等同于[[映射]]。
+''函数''（function）最初是一个变化的量如何依赖另一个量的理想化。现在多数情况下等同于[[映射]]。
