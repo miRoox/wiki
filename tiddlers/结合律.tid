@@ -1,0 +1,17 @@
+aliases: 结合性
+created: 20240907080950462
+creator: miRoox
+modified: 20240907081745690
+modifier: miRoox
+tags: 代数学 群论
+title: 结合律
+tmap.id: c3567233-3046-4048-a314-8ae2731ad1cf
+type: text/vnd.tiddlywiki
+
+''结合律''(associative property)是[[二元运算]]可以有的一个性质，意指在一个包含有二个以上的可结合运算子的表示式，只要运算数的位置没有改变，其运算的顺序就不会对运算出来的值有影响。
+
+在[[集合]]$$S$$上的一个二元运算$$\circ$$能够被称为可结合的，若：
+
+$$
+\forall x,y,z\in S, (x\circ y)\circ z=x\circ(y \circ z)
+$$

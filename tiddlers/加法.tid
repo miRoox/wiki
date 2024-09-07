@@ -1,9 +1,22 @@
 aliases: 加 加上 和
 created: 20240821161432680
 creator: miRoox
-modified: 20240822104026640
+modified: 20240907084424394
 modifier: miRoox
 tags: 二元运算 TODO 算术运算
 title: 加法
 tmap.id: 85f9518c-630b-45a4-9d29-8b2647a001cc
 type: text/vnd.tiddlywiki
+
+''加法''（addition，$$+$$）是基本的[[算术运算]]之一。在加法中，要加的数称为''项''（term）或''加数''（addend， summand），结果称为''和''（sum）。
+
+满足：
+
+* [[交换律]]：$$a+b=b+a$$
+* [[结合律]]：$$(a+b)+c=a+(b+c)$$
+
+对于[[数列]]的和，通常通过求和符号表示，下面的公式表示对数列$$\{a_k\}$$，从$$a_1$$开始连续加到$$a_n$$
+
+$$
+\sum_{k=1}^n a_k=\underbrace {a_1+a_2+\cdots +a_n} _{n}
+$$
