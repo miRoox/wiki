@@ -1,0 +1,13 @@
+created: 20240908082209312
+creator: miRoox
+modified: 20240908083252722
+modifier: miRoox
+tags: 超穷基数 基数 无限
+title: Beth数
+tmap.id: cff2ed1c-a39f-4f29-b7bf-8356e98a68d5
+type: text/vnd.tiddlywiki
+
+Beth数是一系列[[超穷基数]]。其标记符号为$$\beth$$加角标序号表示。
+
+* [[可数集|?]]（如[[自然数]]集）的[[基数]]标记为$$\beth_0$$
+* $$\beth_{\alpha+1}=2^{\beth_\alpha}$$ 即对应[[幂集]]的基数。

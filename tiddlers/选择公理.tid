@@ -1,0 +1,15 @@
+aliases: AC
+created: 20240908084353592
+creator: miRoox
+modified: 20240908091949026
+modifier: miRoox
+tags: 策梅洛-弗兰克尔集合论 TODO 公理
+title: 选择公理
+tmap.id: 8996242b-948e-4511-9d5c-eecac7fe5520
+type: text/vnd.tiddlywiki
+
+''选择公理''（Axiom of Choice，AC）表明对于所有的[[集族]]，均存在[[选择函数]]。
+
+$$
+\forall X,(\emptyset\notin X\implies \exists f\in(X\to \bigcup X), \forall A\in X,f(A)\in A)
+$$

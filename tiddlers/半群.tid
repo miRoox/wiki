@@ -1,0 +1,18 @@
+created: 20240908105711816
+creator: miRoox
+modified: 20240908110236515
+modifier: miRoox
+tags: 群论 TODO 代数结构
+title: 半群
+tmap.id: ad7e0a02-79dc-4095-8260-8b72b63b13d7
+type: text/vnd.tiddlywiki
+
+''半群''是闭合于[[结合性|结合律]][[二元运算]]之下的[[集合]]$$S$$ 构成的[[代数结构]]。
+
+对于集合$$S$$和其上的二元运算$$\circ:S\times S\to S$$，若
+
+$$
+\forall x,y,z\in S, (x\circ y)\circ z=x\circ(y \circ z)
+$$
+
+则称[[有序对]]$$(S,\circ)$$为''半群''，$$\circ$$称为该半群上的''乘法''。不引起歧义的情况下，常称“半群$$S$$”

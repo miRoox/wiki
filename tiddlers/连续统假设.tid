@@ -1,0 +1,19 @@
+aliases: CH
+created: 20240908083419644
+creator: miRoox
+modified: 20240908084154364
+modifier: miRoox
+tags: 公理化集合论 TODO
+title: 连续统假设
+tmap.id: ed376238-3a23-4e3a-9c42-142841b25eb2
+type: text/vnd.tiddlywiki
+
+''连续统假设''（Continuum hypothesis，CH）是关于[[无穷集合|?]]的可能大小的猜想：
+
+<<<
+不存在一个[[基数]]绝对大于[[可数集|?]]而绝对小于[[实数]]集的[[集合]]。
+<<<
+
+亦即，不存在集合$$S$$使得$$\aleph_0<|S|<2^{\aleph_0}$$。
+
+假设[[选择公理]]是成立的，那就会有一个最小的基数$$\aleph_1$$，连续统假设也就等价于$$\aleph_1=2^{\aleph_0}$$。
