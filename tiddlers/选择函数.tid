@@ -1,0 +1,10 @@
+created: 20240908091001059
+creator: miRoox
+modified: 20240908091508443
+modifier: miRoox
+tags: 数学：函数
+title: 选择函数
+tmap.id: 84928b94-8979-4c6e-b97b-c64c5f4cf195
+type: text/vnd.tiddlywiki
+
+''选择函数''是一个函数$$f$$，其[[定义域]]$$X$$为一系列非空[[集合]]组成的[[集族]]，且满足$$\forall S\in X, f(S)\in S$$。即选择函数会在其定义域的每个集合中恰好选取一个元素。

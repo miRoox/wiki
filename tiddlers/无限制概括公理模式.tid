@@ -1,0 +1,16 @@
+created: 20240908094650165
+creator: miRoox
+modified: 20240908095338820
+modifier: miRoox
+tags: 朴素集合论 TODO
+title: 无限制概括公理模式
+tmap.id: d08d1693-59d2-4904-9dbf-e36d432c6430
+type: text/vnd.tiddlywiki
+
+[[朴素集合论]]默认蕴含这个[[公理模式]]：
+
+$$
+\exist S,(\forall x,x\in S\iff P(x))
+$$
+
+和[[分类公理模式]]类似，这个公理模式同样蕴涵了[[集合建构式符号]]的可行性，但因为缺少[[论域]]限制，会导致[[罗素悖论]]。

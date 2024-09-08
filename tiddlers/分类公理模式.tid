@@ -1,0 +1,18 @@
+created: 20240908093606234
+creator: miRoox
+modified: 20240908094434181
+modifier: miRoox
+tags: 策梅洛-弗兰克尔集合论 TODO 公理 公理模式
+title: 分类公理模式
+tmap.id: c6e7080e-cbca-4da2-a1e5-6b8588ea9f6c
+type: text/vnd.tiddlywiki
+
+''分类公理模式''（axiom schema of specification）、或''分离公理模式''（axiom schema of seperation）、或''受限概括公理模式''（axiom schema of restricted comprehension）给出了通过[[集合建构式符号]]确定[[集合]]的可行性。
+
+假设$$P$$是任意一个不含符号$$B$$的单变量[[谓词|逻辑谓词]]：
+
+$$
+\forall A,\exists B,\forall x:x\in B\iff x\in A\land P(x)
+$$
+
+基于这一公理，上述定义中，我们可以将$$B$$表示为$$\{x\in A:P(x)\}$$。

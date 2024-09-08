@@ -1,0 +1,17 @@
+aliases: 幺元 恒元 中立元
+created: 20240908112140216
+creator: miRoox
+modified: 20240908123456077
+modifier: miRoox
+tags: 群论
+title: 单位元
+tmap.id: 7ad4d576-2d71-48e1-a954-062f78d2a14c
+type: text/vnd.tiddlywiki
+
+''单位元''（unit element）也称''恒元''（identity element）、''中立元''（neutral element）是[[集合]]里的一种特殊元素，参与[[二元运算]]时，不改变另一个运算数。
+
+设$$S$$上定义了一个二元运算$$\circ:S\times S\to S$$，若$$e\in S$$满足
+
+* $$\forall a\in S, e\circ a=a$$，则$$e$$被称为''左单位元'';
+* $$\forall a\in S, a\circ e=a$$，则$$e$$被称为''右单位元'';
+* 若既是左单位元又是右单位元，则称为''双边单位元''，又简称为''单位元''。

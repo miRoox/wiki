@@ -1,13 +1,13 @@
 created: 20240806092602846
 creator: miRoox
-modified: 20240907075930081
+modified: 20240908082429947
 modifier: miRoox
-tags: TODO 附录
+tags: TODO 附录 表示法
 title: 符号表
 tmap.id: 0733f7b5-782d-402c-9e8c-220d1767d245
 type: text/vnd.tiddlywiki
 
-本知识库中常用的特殊符号的含义。
+本知识库中常用的特殊[[符号|表示法]]的含义，同样的符号在不同语境中往往存在不同的含义。
 
 |! 符号| !含义 |
 | $$\Box$$ | ''占位符'' |
@@ -48,6 +48,9 @@ type: text/vnd.tiddlywiki
 | $$\prod$$ | [[积|乘法]] |
 | $$\pi$$ | [[圆周率]] |
 | $$\sum$$ | [[和|加法]] |
+| ! 希伯来字母衍生 |<|
+| $$\aleph$$ | [[Aleph数]] |
+| $$\beth$$ | [[Beth数]] |
 | ! 箭头 |<|
 | $$\to$$ | [[实质蕴涵]] |
 |~| [[映射]] |
