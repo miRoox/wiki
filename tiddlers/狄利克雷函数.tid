@@ -1,0 +1,32 @@
+created: 20240909131926776
+creator: miRoox
+modified: 20240909133501610
+modifier: miRoox
+tags: 周期函数 TODO
+title: 狄利克雷函数
+tmap.id: 6adc3a58-69a9-4796-8195-d898804a816c
+type: text/vnd.tiddlywiki
+
+''狄利克雷函数''（Dirichlet function）是一个判别自变量是[[有理数]]还是[[无理数]]的[[函数]]，用 $$D(x)$$ 或者 $$\mathbf {1} _{\mathbb {Q} }(x)$$ 表示。
+
+$$
+D:\mathbb{R}\to \{0,1\}\\
+$$
+$$
+D(x)=\begin{cases}
+1 & x\in \mathbb{Q}\\
+0 & x\notin \mathbb{Q}
+\end{cases}
+$$
+
+狄利克雷函数也可以表达为一个[[连续函数]][[序列]]的双重点[[极限|函数极限]]：
+
+$$
+D(x)=\lim_{k\to\infty}\lim_{j\to\infty}(\cos(k!\pi x))^{2j}
+$$
+
+!! 性质
+
+* 以任何正有理数为其[[周期|周期函数]]（从而无最小正周期）。
+* 处处不连续、不可[[导|导数]]。
+* 在任何有界区间上黎曼不可[[积|黎曼积分]]。

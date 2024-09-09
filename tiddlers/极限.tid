@@ -1,9 +1,10 @@
 created: 20191107014703484
-modified: 20230316103711657
+creator: miRoox
+modified: 20240909132308936
 modifier: miRoox
 tags: TODO 微积分
 title: 极限
 tmap.id: c965a682-d8de-40b6-b0a3-4372370d80be
 type: text/vnd.tiddlywiki
 
-! 极限
+''极限''（Limit）是[[函数]]在自变量[[无限]]变大或无限变小或在某个[[区间]]时所接近的值。
