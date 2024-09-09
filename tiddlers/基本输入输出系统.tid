@@ -1,0 +1,11 @@
+aliases: BIOS
+created: 20240909135506178
+creator: miRoox
+modified: 20240909135620754
+modifier: miRoox
+tags: 操作系统 TODO
+title: 基本输入输出系统
+tmap.id: 11be2e5e-7e7d-4109-9d92-5b5f1b26dd56
+type: text/vnd.tiddlywiki
+
+''BIOS''（Basic Input/Output System），即''基本输入输出系统''，亦称为ROM BIOS、System BIOS、PC BIOS，是在通电启动阶段执行硬件初始化，以及为[[操作系统]]提供运行时服务的[[固件]]。

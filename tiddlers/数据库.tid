@@ -1,0 +1,11 @@
+aliases: DB
+created: 20240909035820464
+creator: miRoox
+modified: 20240909040658623
+modifier: miRoox
+tags: 计算机科学与工程 TODO 分类
+title: 数据库
+tmap.id: 6e79148e-f8cf-4377-85c5-d2002d0ef053
+type: text/vnd.tiddlywiki
+
+''数据库''（database），简而言之可视为电子化的文件柜——存储电子[[信息]]的处所，用户可以对[[文件]]中的[[数据]]执行新增、截取、更新、删除等操作

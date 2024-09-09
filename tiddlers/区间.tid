@@ -1,0 +1,19 @@
+created: 20240909124543330
+creator: miRoox
+modified: 20240909125349728
+modifier: miRoox
+tags: 集合 TODO
+title: 区间
+tmap.id: 6a9149ed-cc74-4e8e-87fb-4f9b21c1bd6e
+type: text/vnd.tiddlywiki
+
+''区间''（nterval）通常指某个范围的[[实数]]的[[集合]]，或者更一般地是指某个范围的[[预序集]]元素的集合。
+
+!! 实区间
+
+在赋予通常序的实数集$$\mathbb {R}$$里
+
+* ''开区间''：$$(a,b)=\{x\in \mathbb {R} \colon a<x<b\}$$
+* ''闭区间''：$$[a,b]=\{x\in \mathbb {R} \colon a\leq x\leq b\}$$
+* ''半开区间''：$$(a,b]=\{x\in \mathbb {R} \colon a<x\leq b\}$$
+* ''半开区间''：$$[a,b)=\{x\in \mathbb {R} \colon a\leq x<b\}$$

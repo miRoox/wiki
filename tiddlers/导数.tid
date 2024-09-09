@@ -1,11 +1,11 @@
 caption: 导数
 created: 20191128080814319
 creator: miRoox
-modified: 20230316103711654
+modified: 20240909132337440
 modifier: miRoox
 tags: TODO 微积分
 title: 导数
 tmap.id: 6847b855-6d00-49f1-b97c-aabd30777e3d
 type: text/vnd.tiddlywiki
 
-! 导数
+[[函数]]在某一点的''导数''是指这个函数在这一点附近的变化率（即函数在这一点的[[切线]][[斜率]]）。导数的本质是通过[[极限]]的概念对函数进行局部的线性逼近。

@@ -1,11 +1,19 @@
 caption: 度量空间
 created: 20191111025646732
 creator: miRoox
-modified: 20240908111647698
+modified: 20240909132328483
 modifier: miRoox
-tags: TODO 实分析 数学：空间
+tags: 实分析 数学：空间
 title: 度量空间
 tmap.id: b3b46681-1520-460e-ba6d-98ffbd85c721
 type: text/vnd.tiddlywiki
 
-! 度量空间
+''度量空间''（Metric space）是定义了距离这一个概念的[[集合]]。
+
+对于集合$$S$$，若其上定义了[[函数]]$$d:S\times S\to [0,+\infty)$$，对任意的$$x,y,z\in S$$满足
+
+* 同一性：$$d(x,x)=0$$
+* 对称性：$$d(x,y)=d(y,z)$$
+* [[三角不等式]]：$$d(x,z)\le d(x,y)+d(y,z)$$
+
+则称$$d$$是定义在$$M$$上的''度量''（Metric）或''距离函数''，且称[[有序对]]$$(M,d)$$为''度量空间''。

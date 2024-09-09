@@ -1,0 +1,16 @@
+created: 20240909131412223
+creator: miRoox
+modified: 20240909132217837
+modifier: miRoox
+tags: 函数 分类
+title: 周期函数
+tmap.id: c5ad1b08-5f9e-431a-a8ec-938f23001879
+type: text/vnd.tiddlywiki
+
+''周期函数''是无论任何独立变量上经过一个确定的周期之后数值皆能重复的[[函数]]。对函数$$f:A\to B$$，若满足
+
+$$
+\exists T\in A,\forall x\in A, f(x+T)=f(x)
+$$
+
+则$$f$$为周期为$$T$$的周期函数。

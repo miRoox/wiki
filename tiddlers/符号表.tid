@@ -1,6 +1,6 @@
 created: 20240806092602846
 creator: miRoox
-modified: 20240908082429947
+modified: 20240909140854787
 modifier: miRoox
 tags: TODO 附录 表示法
 title: 符号表
@@ -17,6 +17,7 @@ type: text/vnd.tiddlywiki
 | $$\mathbb{C}$$ | [[复数]][[集|集合]] |
 | $$\complement$$ | [[相对补集]] |
 | $$\Box^\complement$$ | [[绝对补集]] |
+| $$\operatorname{card}$$ | [[基数]] |
 | $$\cos$$ | [[余弦函数]] |
 | $$\cot$$ | [[余切函数]] |
 | $$\mathrm{e}$$ | [[自然底数e]] |
