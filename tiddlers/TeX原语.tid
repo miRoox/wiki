@@ -1,15 +1,14 @@
+aliases: 原语
 caption: 原语
 created: 20190924074104091
 creator: miRoox
-modified: 20190924075313005
+modified: 20240910083909415
 modifier: miRoox
 tags: TeX基础
 title: TeX原语
 tmap.id: cbb69153-7c71-455b-8ed0-0e37879a6ee3
 type: text/vnd.tiddlywiki
 
-! 原语
-
-原语（primitive）：[[引擎|TeX引擎]]所提供的命令。
-是宏语言的基础，就如同其它语言的关键字一般。
+''原语''（primitive）：[[引擎|TeX引擎]]所提供的命令。
+是宏语言的基础，就如同其它语言的[[关键字|保留字]]一般。
 例如：`\def`、`\let`、`\if`等

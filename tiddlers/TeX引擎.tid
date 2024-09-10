@@ -2,17 +2,13 @@ caption: 引擎
 created: 20190924075227969
 creator: miRoox
 list: [[Knuth TeX]] e-TeX pdfTeX LuaTeX XeTeX
-modified: 20191009080602191
+modified: 20240910074337781
 modifier: miRoox
-tags: TeX
+tags: TeX 分类
 title: TeX引擎
 tmap.id: 845dc9ad-0289-479a-bbd9-0fcebbd31a8b
 type: text/vnd.tiddlywiki
 
 ! 引擎
 
-与通常用的编程语言的编译器相对应，$$\TeX$$ 的“编译器”的真名叫做''TeX 引擎''。
-
-常见的有：
-
-<<list-links "[tag<currentTiddler>]">>
+与通常用的[[编程语言]]的[[编译器]]相对应，$$\TeX$$ 的“编译器”的真名叫做''TeX 引擎''。

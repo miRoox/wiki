@@ -1,11 +1,12 @@
+aliases: 注释
 caption: 注释
 created: 20190924124409709
 creator: miRoox
-modified: 20190924125628666
+modified: 20240910081347863
 modifier: miRoox
-tags: TeX类别码
+tags: TeX类别码 计算机：注释
 title: TeX注释
 tmap.id: 990e6950-a80a-4943-9ff3-5b0ee7d59b97
 type: text/vnd.tiddlywiki
 
-如果TeX的源程序中某一行有一个//注释符//（通常为`%`），并且该注释符不是控制序列`\%`的一部分，那么TeX会丢弃该行后面从该注释符开始的全部字符。
+如果[[TeX]]的[[源代码]]中某一行有一个//注释符//（通常为`%`），并且该注释符不是控制序列`\%`的一部分，那么TeX会丢弃该行后面从该注释符开始的全部字符。

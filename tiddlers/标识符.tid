@@ -1,0 +1,13 @@
+aliases: 识别码 ID
+created: 20240910084306592
+creator: miRoox
+modified: 20240910084416678
+modifier: miRoox
+tags: 计算机语言设计元素
+title: 标识符
+tmap.id: 657ce4af-e131-4bb4-afb6-922ecbc5d6c7
+type: text/vnd.tiddlywiki
+
+''标识符''（identifier，ID）又称''识别码''，是一个用来识别对象的名称。
+
+在[[编程语言]]中，标识符就是程序员自己规定的具有特定含义的词，比如类名称，属性名称，变量名等。

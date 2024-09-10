@@ -1,0 +1,10 @@
+created: 20240910094047415
+creator: miRoox
+modified: 20240910113001052
+modifier: miRoox
+tags: TODO 计算模型 计算理论
+title: 图灵机
+tmap.id: 2640ef94-c960-4c43-8eee-5923d5a9b1dc
+type: text/vnd.tiddlywiki
+
+''图灵机''（Turing machine），又称''确定型图灵机''，是英国数学家[[艾伦·图灵]]于1936年提出的一种将人的计算行为抽象化的数学逻辑机，其更抽象的意义为一种[[计算模型]]，可以看作等价于任何有限逻辑数学过程的终极强大逻辑机器。

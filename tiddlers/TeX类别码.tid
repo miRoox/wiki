@@ -1,7 +1,8 @@
+aliases: 类别码
 caption: 类别码
 created: 20190924080012385
 creator: miRoox
-modified: 20190924125216437
+modified: 20240910074959477
 modifier: miRoox
 tags: TeX基础
 title: TeX类别码
@@ -26,7 +27,7 @@ type: text/vnd.tiddlywiki
 | 9 | [[可忽略字符|TeX可忽略字符]] | `NUL` |
 | 10 | 空格 | `SP` |
 | 11 | 字母 | A&#126;Z、a&#126;z |
-| 12 | 其它字符 | 不属于其它类别的字符|
+| 12 | 其它字符 | 不属于其它类别的字符 |
 | 13 | [[活动字符|TeX活动字符]] | &#126; |
 | 14 | [[注释|TeX注释]] | &#37; |
 | 15 | [[无效字符|TeX无效字符]] | `DEL` |

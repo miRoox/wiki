@@ -1,0 +1,11 @@
+aliases: 机器代码 原生码
+created: 20240910082414648
+creator: miRoox
+modified: 20240910082552230
+modifier: miRoox
+tags: 编程语言理论 TODO
+title: 机器语言
+tmap.id: 0fc07825-f36b-4ecd-917d-958c58b9dec2
+type: text/vnd.tiddlywiki
+
+''机器语言''（machine language）是一种[[指令集]]的体系。这种指令集称为''机器代码''（machine code），是计算机的[[CPU|?]]或[[GPU|?]]可直接解读的资料。机器代码有时也被称为''原生码''（Native Code），这个名词比较强调某种编程语言或函数库与执行平台相关的部分。

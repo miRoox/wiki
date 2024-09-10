@@ -1,6 +1,6 @@
 created: 20240806092602846
 creator: miRoox
-modified: 20240909140854787
+modified: 20240910080720909
 modifier: miRoox
 tags: TODO 附录 表示法
 title: 符号表
@@ -23,6 +23,7 @@ type: text/vnd.tiddlywiki
 | $$\mathrm{e}$$ | [[自然底数e]] |
 | $$\exists$$ | [[存在量化]] |
 | $$\exists!$$ | [[唯一存在量化]] |
+| $$\exp$$ | [[指数函数]] |
 | $$\mathscr{F}$$ | [[傅里叶变换]] |
 | $$\mathscr{H}$$ | [[希尔伯特变换]] |
 | $$\imath$$ | [[虚数单位]] |
@@ -30,6 +31,8 @@ type: text/vnd.tiddlywiki
 | $$\mathscr{L}$$ | [[拉普拉斯变换]] |
 |~| [[线性正则变换]] |
 | $$\lim$$ | [[极限]] |
+| $$\log$$ | [[对数函数]] |
+| $$\ln$$ | [[对数函数]] |
 | $$\operatorname{MSE}$$ | [[均方误差]] |
 | $$\mathbb{N}$$ | [[自然数]][[集|集合]] |
 | $$\mathbb{P}$$ | [[质数]][[集|集合]] |

@@ -1,0 +1,11 @@
+aliases: 关键字
+created: 20240910083300891
+creator: miRoox
+modified: 20240910084501011
+modifier: miRoox
+tags: 计算机语言设计元素 TODO
+title: 保留字
+tmap.id: f53d1778-e5fd-446a-86ad-8893884ed24f
+type: text/vnd.tiddlywiki
+
+''保留字''（Reserved word），有时也叫''关键字''（keyword），是[[编程语言]]中的一类语法结构。在特定的编程语言里，这些保留字具有较为特殊的意义，并且在语言的格式说明里被预先定义。保留字通常无法作为[[标识符]]使用。
