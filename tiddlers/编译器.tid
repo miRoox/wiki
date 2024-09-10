@@ -1,0 +1,10 @@
+created: 20240910083035315
+creator: miRoox
+modified: 20240910083138420
+modifier: miRoox
+tags: 翻译程序 TODO
+title: 编译器
+tmap.id: 9e97b408-e2bb-467d-89bf-a442c7fb6dae
+type: text/vnd.tiddlywiki
+
+''编译器''（compiler）是一种计算机程序，它会将某种[[编程语言]]写成的[[源代码]]（原始语言）转换成另一种编程语言（[[目标语言|目标代码]]）。

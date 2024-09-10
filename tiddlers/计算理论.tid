@@ -1,8 +1,10 @@
 created: 20240704092614046
 creator: miRoox
-modified: 20240704092642359
+modified: 20240910113107652
 modifier: miRoox
-tags: 计算机科学与工程 TODO 分类
+tags: TODO 分类 计算机科学 数学
 title: 计算理论
 tmap.id: 590786e5-40ae-4f43-a153-1e8cfecaaae9
 type: text/vnd.tiddlywiki
+
+''计算理论''（Theory of computation）是[[数学]]的一个领域，和计算机有密切关系。

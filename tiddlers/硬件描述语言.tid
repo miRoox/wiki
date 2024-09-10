@@ -1,8 +1,11 @@
+aliases: HDL
 created: 20240822091354902
 creator: miRoox
-modified: 20240822091405875
+modified: 20240910073852807
 modifier: miRoox
 tags: 计算机语言 TODO 分类
 title: 硬件描述语言
 tmap.id: 930ca83c-1787-483f-9e9d-78297ffc8141
 type: text/vnd.tiddlywiki
+
+''硬件描述语言''（hardware description language, HDL）是用来描述[[电子电路]]（特别是[[数字电路]]）功能、行为的语言，可以在寄存器传输级、行为级、[[逻辑门]]级等对数字电路系统进行描述。

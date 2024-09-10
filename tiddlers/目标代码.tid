@@ -1,0 +1,10 @@
+created: 20240910081725103
+creator: miRoox
+modified: 20240910082456893
+modifier: miRoox
+tags: 编程语言理论 TODO 代码类型
+title: 目标代码
+tmap.id: 16f7f6cf-66ef-4bec-9f19-7be07c98886c
+type: text/vnd.tiddlywiki
+
+''目标代码''（Object code）指计算机科学中[[编译器]]或[[汇编器]]处理[[源代码]]后所生成的代码，它一般由[[机器代码|机器语言]]或接近于机器语言的代码（如[[字节码]]）组成。

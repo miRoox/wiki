@@ -1,7 +1,7 @@
 aliases: 加 加上 和
 created: 20240821161432680
 creator: miRoox
-modified: 20240907084424394
+modified: 20240910040627160
 modifier: miRoox
 tags: 二元运算 TODO 算术运算
 title: 加法
@@ -15,7 +15,7 @@ type: text/vnd.tiddlywiki
 * [[交换律]]：$$a+b=b+a$$
 * [[结合律]]：$$(a+b)+c=a+(b+c)$$
 
-对于[[数列]]的和，通常通过求和符号表示，下面的公式表示对数列$$\{a_k\}$$，从$$a_1$$开始连续加到$$a_n$$
+对于[[数列]]的和，通常通过''求和符号''表示，下面的公式表示对数列$$\{a_k\}$$，从$$a_1$$开始连续加到$$a_n$$
 
 $$
 \sum_{k=1}^n a_k=\underbrace {a_1+a_2+\cdots +a_n} _{n}

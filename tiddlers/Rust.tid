@@ -2,7 +2,7 @@ caption: Rust
 created: 20190918114625308
 creator: miRoox
 list: Rust语法
-modified: 20240704132018437
+modified: 20240910034440700
 modifier: miRoox
 tags: TODO 计算机语言 编程语言
 title: Rust
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 ! Rust
 
-Rust 是一门注重安全（safety）、速度（speed）和并发（concurrency）的现代系统编程语言。
+Rust 是一门注重安全（safety）、速度（speed）和[[并发]]（concurrency）的现代系统[[编程语言]]。
 
 !! 外部链接
 
