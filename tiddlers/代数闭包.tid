@@ -1,0 +1,12 @@
+aliases: 闭包
+caption: 闭包
+created: 20240911075219790
+creator: miRoox
+modified: 20240911081422521
+modifier: miRoox
+tags: 代数结构
+title: 代数闭包
+tmap.id: 2ac29001-4b21-4a55-9a7e-1dc86ec4c735
+type: text/vnd.tiddlywiki
+
+当一个[[集合]]$$S$$在某个运算下不[[封闭|封闭性]]的时候，我们通常可以找到[[包含|子集]]$$S$$的最小的封闭集合。这个最小封闭集合被称为$$S$$的（关于这个运算的）''闭包''。

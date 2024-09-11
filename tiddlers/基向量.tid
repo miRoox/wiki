@@ -1,0 +1,11 @@
+aliases: 基 基底
+created: 20240911090141793
+creator: miRoox
+modified: 20240911090637951
+modifier: miRoox
+tags: 线性代数 向量
+title: 基向量
+tmap.id: 79d924d4-4004-4db8-ae8a-5453bd5093bf
+type: text/vnd.tiddlywiki
+
+在[[线性代数]]中，''基''（basis，又称''基底'') 是[[线性空间]]里某一组特殊的[[向量]]（称为''基向量''），使得线性空间中的任意向量，都可以唯一地表示成基向量的[[线性组合]]（或线性组合的[[极限]]）。

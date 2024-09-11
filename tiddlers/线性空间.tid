@@ -1,11 +1,31 @@
+aliases: 向量空间
 caption: 线性空间
 created: 20191111075708413
 creator: miRoox
-modified: 20240908112034721
+modified: 20240911084214946
 modifier: miRoox
-tags: TODO 线性代数 数学：空间
+tags: TODO 线性代数 数学：空间 代数结构
 title: 线性空间
 tmap.id: 7a8fa8b2-d326-4ce5-a7dd-3b3c2d81fc5b
 type: text/vnd.tiddlywiki
 
-! 线性空间
+''线性空间''是一群可缩放和[[相加|加法]]的数学实域（如[[实数]]甚至是[[函数]]）所构成的特殊[[集合]]，其特殊之处在于缩放和相加后仍属于这个集合（[[封闭性]]）。
+
+给定[[域|代数：域]]$$(K,+,\times)$$和某集合$$V$$，具有如下两种[[运算]]：
+
+* ''向量加法 ''$$\oplus : V\times V\to V$$
+* ''标量乘法'' $$\cdot : K\times V\to V$$
+
+且这两种运算满足：
+
+| !名称 |<| ![[量化|逻辑量化]]约束 | !内容 |
+| 向量加法 | [[单位元]] | $$\exists e\in V, \forall u\in V$$ | $$e\oplus u=u\oplus e=u$$ |
+|~| [[逆元]] |~| $$\exists w\in V, w\oplus u=u\oplus w=e$$ |
+|~| [[结合律]] | $$\forall u,v,w\in V$$ | $$u\oplus(v\oplus w)=(w\oplus v)\oplus w$$ |
+|~| [[交换律]] |~| $$u\oplus v=v\oplus u$$ |
+| 标量乘法 | [[单位元]] |  $$1_K\in K$$是$$K$$的乘法单位元，$$\forall u\in V$$ | $$1_K\cdot u=u$$ |
+|~| 对向量加法的[[分配律]] | $$\forall u,v\in K,\forall a\in K$$ | $$a\cdot(u\oplus v)=a\cdot u\oplus a\cdot v$$ |
+|~| 对域加法的[[分配律]] | $$\forall u\in V, \forall a,b\in K$$ | $$(a+b)\cdot u=a\cdot u\oplus b\cdot u$$ |
+|~| 与域乘法(类似结合律) |~| $$a\cdot(b\cdot u)=(a\times b)\cdot u$$ |
+
+则称 $$V$$是定义在$$K$$上的''线性空间''，而$$V$$中的元素被称为[[向量]]，域$$K$$中的元素被称为[[标量]]。

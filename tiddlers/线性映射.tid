@@ -1,0 +1,18 @@
+created: 20240911084843018
+creator: miRoox
+modified: 20240911090311484
+modifier: miRoox
+tags: 线性代数 TODO 映射
+title: 线性映射
+tmap.id: f9ab5415-f316-478c-bba8-a128f91858eb
+type: text/vnd.tiddlywiki
+
+给定两个系数[[域|代数：域]]都是$$K$$的[[线性空间]]$$V,W$$，定义[[映射]]$$f:V\to W$$，满足
+
+$$
+\forall a\in K,\forall u,v\in V, f(u+v)=f(u)+f(v), f(a\cdot v)=a\cdot f(v)
+$$
+
+则称$$f$$是$$V$$到$$W$$的一个[[线性映射]]。
+
+所有线性映射的[[集合]]记为$$\mathcal{L}(V,W)$$，在也是一个系数域为$$K$$的线性空间。在确定了$$V,W$$上各自的一组[[基|基向量]]后，$$\mathcal{L}(V,W)$$中的线性映射可以通过[[矩阵]]表示。

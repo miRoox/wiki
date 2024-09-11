@@ -1,0 +1,11 @@
+aliases: 封闭 封闭律 闭包性质
+created: 20240911074647015
+creator: miRoox
+modified: 20240911075148855
+modifier: miRoox
+tags: 运算性质
+title: 封闭性
+tmap.id: 8de8acef-d50f-4205-8767-5ab5784c4b0e
+type: text/vnd.tiddlywiki
+
+若对某个[[集合]]的成员进行一种[[运算]]，生成的结果仍然是这个集合的成员，则该集合被称为在这个运算下''封闭''。 
