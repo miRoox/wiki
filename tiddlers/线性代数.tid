@@ -1,10 +1,12 @@
+aliases: LA
 caption: 线性代数
 created: 20191010114312095
-modified: 20230316103711661
+creator: miRoox
+modified: 20240911091140392
 modifier: miRoox
-tags: TODO 代数学 数学
+tags: TODO 代数学 分类
 title: 线性代数
 tmap.id: 1312f45c-3d2d-4e42-839c-011a4822cdac
 type: text/vnd.tiddlywiki
 
-! 线性代数
+''线性代数''（linear algebra）是关于[[线性空间]]和[[线性映射]]的一个数学分支。

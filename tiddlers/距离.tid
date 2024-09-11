@@ -1,0 +1,13 @@
+aliases: 度量
+created: 20240911070940456
+creator: miRoox
+modified: 20240911073216578
+modifier: miRoox
+tags: 几何学 TODO
+title: 距离
+tmap.id: beeb9c3d-8855-4ade-86fe-9a1e8039cb76
+type: text/vnd.tiddlywiki
+
+''距离''（distance）是对两个物体或位置间相距多远的数值描述。是个不具方向性的[[标量]]，且不为[[负值|负数]]。
+
+[[度量空间]]通过''度量''（Metric）推广了距离的概念。

@@ -1,0 +1,11 @@
+aliases: 单群 亚群 独异点 具幺半群 四分之三群
+created: 20240908124449428
+creator: miRoox
+modified: 20240911081459990
+modifier: miRoox
+tags: 群论 TODO 代数结构
+title: 幺半群
+tmap.id: b7a14b25-a913-43cb-a772-c5707c26054f
+type: text/vnd.tiddlywiki
+
+''幺半群''，又称为''单群''（Monoid）、''亚群''、''独异点''、''具幺半群''或''四分之三群''，即具有[[幺元|?]]的[[半群]]。

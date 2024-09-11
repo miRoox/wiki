@@ -1,0 +1,13 @@
+aliases: 纯量 数量 无向量
+created: 20240911091711793
+creator: miRoox
+modified: 20240911092006452
+modifier: miRoox
+tags: 解析几何 线性代数 TODO
+title: 标量
+tmap.id: ab00ddfc-0b68-41a5-96ea-0a6f2f67440d
+type: text/vnd.tiddlywiki
+
+''标量''（scalar）又称''纯量''、''数量''、''无向量''，是只有大小、没有方向、可用[[实数]]表示的一个量。实际上标量就是数，这个称法只是为了区别于[[向量]]。
+
+在[[线性代数]]中，标量被扩展为[[线性空间]]的[[域|代数：域]]中的任一元素。
