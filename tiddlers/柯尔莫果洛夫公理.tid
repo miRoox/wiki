@@ -1,0 +1,29 @@
+aliases: 概率公理
+created: 20240912090757012
+creator: miRoox
+modified: 20240912094742137
+modifier: miRoox
+tags: 概率论 TODO 公理
+title: 柯尔莫果洛夫公理
+tmap.id: b182364b-55d5-4011-a87d-136eaab7f4d1
+type: text/vnd.tiddlywiki
+
+''柯尔莫果洛夫公理''（Kolmogorov axioms）是[[概率论]]的[[公理]]，任何[[事件|随机事件]]发生的[[概率]]的定义均满足柯尔莫果洛夫公理。
+
+考虑一个基础集$$\Omega$$，其[[子集]]的[[集族]]$$\mathfrak {F}$$为一个[[σ-代数]]，以及概率函数$$P:\mathfrak {F}\to\mathbb{R}$$。$$\mathfrak {F}$$中的元素被称为[[事件|随机事件]]。
+
+!! 第一公理（非负性）
+
+$$
+\forall A\in\mathfrak {F}, P(A)\ge0
+$$
+
+!! 第二公理（归一化）
+
+$$
+P(\Omega)=1
+$$
+
+!! 第三公理（可加性）
+
+任意[[可数|可数集合]]两两不相交事件$$\{E_n\}$$满足$$P(\bigcup E_i)=\sum P(E_i)$$

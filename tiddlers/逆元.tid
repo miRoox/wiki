@@ -1,0 +1,13 @@
+aliases: 逆元素
+created: 20240912082910713
+creator: miRoox
+modified: 20240912083943384
+modifier: miRoox
+tags: 群论
+title: 逆元
+tmap.id: 4643f261-6a3b-4e8d-97e0-aa751ba4e833
+type: text/vnd.tiddlywiki
+
+''逆元素''（inverse element）又称''逆元''，即可以与另一元素[[运算|二元运算]]得到[[单位元]]的元素。
+
+设$$S$$上定义了一个二元运算$$\circ:S\times S\to S$$，若$$e\in S$$为其上的[[单位元]]，且对$$a,b\in S, a\circ b=e$$，则$$a$$被称为$$b$$的''左逆元''，而$$b$$被称为$$a$$的''右逆元''。若$$x\in S$$同时是$$y\in S$$的左逆元和右逆元，则$$x$$是$$y$$的''两面逆元''，或简称''逆元''，而$$y$$被称为''可逆的''。

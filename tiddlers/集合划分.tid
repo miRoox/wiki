@@ -1,0 +1,12 @@
+aliases: 划分
+caption: 划分
+created: 20240912071901018
+creator: miRoox
+modified: 20240912072807537
+modifier: miRoox
+tags: 集合 TODO 集族
+title: 集合划分
+tmap.id: 2bd4beb3-929c-43b9-a0af-cd40b76417b8
+type: text/vnd.tiddlywiki
+
+[[集合]]$$X$$的''划分''是$$X$$的非[[空|空集]][[子集]]的[[集族]]，使得$$X$$的每个元素$$x$$都只[[包含在|属于关系]]这些子集的其中一个内。

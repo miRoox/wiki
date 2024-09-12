@@ -1,0 +1,14 @@
+created: 20240912075151421
+creator: miRoox
+modified: 20240912122529797
+modifier: miRoox
+tags: 复分析 TODO
+title: 棣莫弗公式
+tmap.id: 51959e21-1109-4cfd-b714-9713d3ce2918
+type: text/vnd.tiddlywiki
+
+''棣莫弗公式''（De Moivre's formula）是一个关于[[复数]]和[[三角函数]]的公式：
+
+$$
+\forall x\in\mathbb{R},n\in\mathbb{N},(\cos(x)+\imath\sin(x))^n=\cos(nx)+\imath\sin(nx)
+$$

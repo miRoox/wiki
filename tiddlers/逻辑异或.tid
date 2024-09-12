@@ -1,0 +1,19 @@
+aliases: 异或 XOR
+created: 20240912131957395
+creator: miRoox
+modified: 20240912132737825
+modifier: miRoox
+tags: 逻辑运算 二元运算
+title: 逻辑异或
+tmap.id: e552403e-0e8a-470e-a669-ac1b393f09f0
+type: text/vnd.tiddlywiki
+
+''逻辑异或''（Exclusive or）是一种二元的[[逻辑运算]]符，用$$\veebar$$表示。它满足当且仅当其两个变量的[[真值]]相同时为假，否则为真。
+
+!! 真值表
+
+| ! $$p$$ | ! $$q$$ |  !  $$p\veebar q$$ |
+| F | F |	 F |
+| F | T |	 T |
+| T | F |	 T |
+| T | T |	 F |

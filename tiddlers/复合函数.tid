@@ -1,0 +1,10 @@
+created: 20240912101603392
+creator: miRoox
+modified: 20240912122426726
+modifier: miRoox
+tags: 二元运算 TODO 函数
+title: 复合函数
+tmap.id: 07dd7103-076a-4fd6-8650-3dccaa01a695
+type: text/vnd.tiddlywiki
+
+''复合函数''（function composition）是指逐点地把一个[[函数]]作用于另一个函数的结果，所得到的第三个函数。即，函数$$f:X\to Y$$和$$g:Y\to Z$$可以复合得到$$X\to Z$$的函数$$x\mapsto g(f(x))$$，这一复合函数记作$$g\circ f:X\to Z$$。

@@ -1,0 +1,12 @@
+aliases: 类
+caption: 类
+created: 20240912074142614
+creator: miRoox
+modified: 20240912074512733
+modifier: miRoox
+tags: 集合论 TODO
+title: 类
+tmap.id: 076ddfef-057e-4659-973e-1a8f8723500f
+type: text/vnd.tiddlywiki
+
+''类''（Class）是一组[[集合]]（或其他数学对象）所构成的整体。有些类是集合（例如由所有偶数构成的类），但有些则不是（如所有集合所构成的类），不是集合的类被称之为[[真类]]。

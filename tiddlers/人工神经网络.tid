@@ -1,12 +1,12 @@
-aliases: NN
+aliases: NN ANN 神经网络
 caption: 神经网络
 created: 20191116084558423
 creator: miRoox
-modified: 20240910091358825
+modified: 20240912143147037
 modifier: miRoox
 tags: TODO 人工智能
 title: 人工神经网络
 tmap.id: 0b4db550-b7e6-44f8-a104-bf929c8bdc74
 type: text/vnd.tiddlywiki
 
-! 神经网络
+''人工神经网络''（artificial neural network，ANNs）又称''类神经网络''，简称''神经网络''（neural network，NNs），在[[机器学习]]和[[认知科学]]领域，是一种[[模仿|仿生学]][[生物神经网络|?]]（动物的[[中枢神经系统]]）的结构和功能的[[数学模型]]或[[计算模型]]，用于对[[函数]]进行估计或近似。

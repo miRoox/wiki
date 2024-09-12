@@ -1,6 +1,6 @@
 created: 20240612024620860
 creator: miRoox
-modified: 20240612031904296
+modified: 20240912070034216
 modifier: miRoox
 tags: 二元关系
 title: 等价关系
@@ -14,4 +14,4 @@ type: text/vnd.tiddlywiki
 * [[对称性|对称关系]]：$$\forall x,y\in S, x\sim y$$则$$y\sim x$$
 * [[传递性|传递关系]]：$$\forall x,y,z\in S, x\sim y \land y\sim z$$则$$x\sim z$$
 
-则称$$\sim$$是$$S$$上的一个'等价关系''。
+则称$$\sim$$是$$S$$上的一个''等价关系''。

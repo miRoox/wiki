@@ -1,0 +1,11 @@
+aliases: 机率 几率 机会率 或然率
+created: 20240912090443598
+creator: miRoox
+modified: 20240912090659841
+modifier: miRoox
+tags: 概率论 TODO
+title: 概率
+tmap.id: e5ff990d-ff0f-4d98-bddd-77f1a7357a92
+type: text/vnd.tiddlywiki
+
+''概率''（Probability，也称''机率''，''几率''，''机会率''，''或然率''），是对[[随机事件]]发生之可能性的度量。概率的取值是一个在[[0]]到[[1]]之间的[[实数]]。
