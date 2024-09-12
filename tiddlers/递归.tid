@@ -1,0 +1,11 @@
+aliases: 递回 递推
+created: 20240912140404669
+creator: miRoox
+modified: 20240912151356088
+modifier: miRoox
+tags: TODO 计算理论
+title: 递归
+tmap.id: 61cd9934-4f06-4542-a306-b81cc39cd129
+type: text/vnd.tiddlywiki
+
+''递归''（Recursion），又译为''递回''，指由一种（或多种）简单的基本情况定义的一类对象或方法，并规定其他所有情况都能被还原为其基本情况。

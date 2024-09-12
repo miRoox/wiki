@@ -1,0 +1,11 @@
+aliases: 事件
+created: 20240912094806762
+creator: miRoox
+modified: 20240912094935625
+modifier: miRoox
+tags: 概率论 TODO
+title: 随机事件
+tmap.id: e4596ee9-9bd8-44a0-b55b-23053248c904
+type: text/vnd.tiddlywiki
+
+在[[概率论]]中，''随机事件''（或简称''事件''）指的是一个被赋与[[概率]]的事物[[集合]]，也就是[[样本空间]]中的一个[[子集]]。

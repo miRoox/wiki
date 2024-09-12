@@ -1,0 +1,11 @@
+aliases: 矩形分布
+created: 20240912090228975
+creator: miRoox
+modified: 20240912090418753
+modifier: miRoox
+tags: 概率分布 TODO
+title: 连续型均匀分布
+tmap.id: ee9297a5-5119-452c-937a-c5f7a5696c4b
+type: text/vnd.tiddlywiki
+
+''连续型均匀分布''（continuous uniform distribution）或''矩形分布''（rectangular distribution）的[[随机变量]]$$X$$在其取值域之内的每个等长[[区间]]上取值的[[概率]]皆相等。

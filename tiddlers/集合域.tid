@@ -1,0 +1,16 @@
+aliases: 域 代数
+caption: 代数
+created: 20240912084800570
+creator: miRoox
+modified: 20240912092903134
+modifier: miRoox
+tags: 集合代数 TODO
+title: 集合域
+tmap.id: 2bec3107-b626-48e9-9138-db14544fa560
+type: text/vnd.tiddlywiki
+
+在[[集合代数]]中，''域''或者''代数''，是指一种[[有序对]]$$(\Omega,\mathcal{F})$$，其中$$\Omega$$是[[集合]]，[[集族]]$$\mathcal{F}\subseteq 2^\Omega$$，且满足：
+
+* $$\Omega\in\mathcal{F}$$
+* $$\forall A,B\in\mathcal{F}, A\cup B\in\mathcal{F}$$（有限[[并|并集]][[封闭|封闭性]]）
+* $$\forall A\in\mathcal{F},A^\complement\in\mathcal{F}$$（[[补集|绝对补集]]封闭）

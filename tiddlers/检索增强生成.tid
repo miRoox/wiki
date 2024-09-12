@@ -1,0 +1,16 @@
+aliases: RAG
+created: 20240912141517835
+creator: miRoox
+modified: 20240912142657507
+modifier: miRoox
+tags: 大语言模型 TODO
+title: 检索增强生成
+tmap.id: dd161197-32a7-4879-8c2e-bd4902298b29
+type: text/vnd.tiddlywiki
+
+''检索增强生成''（Retrieval Augmented Generation, RAG）是一种通过将外部数据传递给[[大语言模型]]来提高答案准确性的机制。可以将RAG的核心理解为“检索+生成”，前者主要是利用[[向量数据库]]的高效存储和检索能力，召回目标知识；后者则是利用大模型和Prompt工程，将召回的知识合理利用，生成目标答案。
+
+完整的RAG应用流程主要包含两个阶段：
+
+* 数据准备阶段：数据提取——>文本分割——>向量化（embedding）——>数据入库
+* 应用阶段：用户提问——>数据检索（召回）——>注入Prompt——>LLM生成答案

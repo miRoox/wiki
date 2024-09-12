@@ -1,0 +1,11 @@
+aliases: 头等对象 头等实体
+created: 20240912141205551
+creator: miRoox
+modified: 20240912141337315
+modifier: miRoox
+tags: 计算机语言设计元素 TODO
+title: 头等公民
+tmap.id: 630e0d79-6b1b-4518-a1e4-062775272707
+type: text/vnd.tiddlywiki
+
+''头等公民''（First-class citizen）或''头等对象''（First-class object），在[[计算机科学]]中，指称支持其他实体通常能获得的所有运算的实体。

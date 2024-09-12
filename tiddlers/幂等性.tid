@@ -1,0 +1,22 @@
+aliases: 幂等
+created: 20240912101306540
+creator: miRoox
+modified: 20240912125655571
+modifier: miRoox
+tags: 运算性质
+title: 幂等性
+tmap.id: 3ab23f3d-60dc-4b7d-a180-172e569cee80
+type: text/vnd.tiddlywiki
+
+''幂等''意味着多次重复的运算和一次是等效的，它在[[一元运算]]和[[二元运算]]上分别有定义。
+
+!! 一元运算
+
+考虑一元运算$$f:X\to X$$，若$$\forall x\in X,f(f(x))=f(x)$$，则称$$f$$是''幂等的''。也可以写作$$f\circ f=f$$
+
+!! 二元运算
+
+考虑$$S$$上的二元运算 $$\star:S\times S\to S$$
+
+* 若$$x\in S$$满足$$x\star x=x$$，则称$$x$$对于$$\star$$是''幂等元素''；
+* 若$$\forall s\in S, s\star s=s$$，则称运算$$\star$$是''幂等的''。

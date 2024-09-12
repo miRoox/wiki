@@ -1,0 +1,13 @@
+aliases: 交换群 可交换群
+created: 20240912081626820
+creator: miRoox
+modified: 20240912082318562
+modifier: miRoox
+tags: 群论 TODO 代数结构 群
+title: 阿贝尔群
+tmap.id: 6fc04caa-4001-4ce1-bdc7-8e7d0b4e372e
+type: text/vnd.tiddlywiki
+
+''阿贝尔群''（Abelian group）也称为''交换群''（commutative group）或''可交换群''，它是满足其元素的[[运算]]不依赖于它们的次序（[[交换律]]）的[[群]]。
+
+群$$(A,\circ)$$，满足$$\forall a,b\in A, a\circ b=b\circ a$$（[[交换律]]），则称$$(A,\circ)$$为阿贝尔群或交换群，否则被称为非阿贝尔群或非交换群。

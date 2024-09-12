@@ -1,0 +1,14 @@
+created: 20240912100323888
+creator: miRoox
+modified: 20240912100823720
+modifier: miRoox
+tags: 运算性质
+title: 分配律
+tmap.id: 51bb51e5-35dd-489a-a1a7-78dbeb8934d9
+type: text/vnd.tiddlywiki
+
+设$$+$$和$$\times$$是定义在[[集合]]$$S$$上的两个[[二元运算]]：
+
+* $$\times$$对于$$+$$满足''左分配律''，如果：$$\forall x,y,z\in S,x\times(y+z)=x\times y+x\times z$$
+* $$\times$$对于$$+$$满足''右分配律''，如果：$$\forall x,y,z\in S,(x+y)\times z=x\times z+y\times z$$
+* $$\times$$对于$$+$$同时满足左分配律和右分配律，则称$$\times$$对于$$+$$满足''分配律''。

@@ -2,7 +2,7 @@ aliases: 域
 caption: 域
 created: 20240911081003936
 creator: miRoox
-modified: 20240911081359808
+modified: 20240912100218178
 modifier: miRoox
 tags: 域论 TODO 代数结构
 title: 代数：域
@@ -10,3 +10,16 @@ tmap.id: 9229f389-29b4-4403-a12d-2378fdb0892e
 type: text/vnd.tiddlywiki
 
 ''域''（Field）是一种具有[[加法]]跟[[乘法]]的[[集合]]。
+
+给定集合$$K$$具有如下两种[[二元运算]]：
+
+* $$+:K\times K\to K$$
+* $$\times:K\times K\to K$$
+
+满足：
+
+* $$(K,+)$$是[[阿贝尔群]]，并将其[[单位元]]记为$$0_K$$
+* $$(K\setminus\{0_K\},\times)$$是[[阿贝尔群]]
+* [[分配律]]：$$\forall a,b,c\in K,a\times(b+c)=a\times b+a\times c$$
+
+则称$$(K,+,\times)$$为一个''域''。
