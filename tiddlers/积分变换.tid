@@ -1,0 +1,18 @@
+created: 20240913145250474
+creator: miRoox
+modified: 20240913150003801
+modifier: miRoox
+tags: 变换 分类
+title: 积分变换
+tmap.id: 1d0938d2-2b17-482f-aec0-7a1dc55f3c9a
+type: text/vnd.tiddlywiki
+
+''积分变换''（integral transform）是作用于[[函数]]的[[算子]]。
+
+函数$$f(x)$$经过一积分变换$$T$$可以表示为
+
+$$
+(Tf)(u)=\int _{t_{1}}^{t_{2}}K(x,u)\,f(x)\dd{x}
+$$
+
+其中 $$K$$ 是个确定的二元函数, 称为此积分变换的''核函数''（kernel function）或''核''（nucleus）。
