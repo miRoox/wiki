@@ -1,10 +1,14 @@
 created: 20240912151632868
 creator: miRoox
-modified: 20240912151639150
+modified: 20240913134656037
 modifier: miRoox
-tags: 点集拓扑学 TODO
+tags: 点集拓扑学 集合 TODO
 title: 拓扑
 tmap.id: 9ea9c558-6fa3-4537-80e1-4805502b65a6
 type: text/vnd.tiddlywiki
 
-集合X上的一个拓扑T乃是X上子集的一个族，满足：空集和X在T中，T中元素的任意并和有限交也在T中。
+[[集合]]$$X$$上的一个''拓扑''（或者''开集系''）$$\tau$$是$$X$$上[[子集]]的一个[[集族]]，满足：
+
+* $$\emptyset\in\tau, X\in\tau$$（[[空集]]和自身是[[开集]]）
+* $$\forall a,b\in\tau, a\cap b\in\tau$$（开集的有限[[交|交集]]是开集）
+* $$\forall U\subseteq\tau, \bigcup U\in\tau$$（开集的任意[[并|并集]]是开集）

@@ -1,0 +1,15 @@
+aliases: 欧拉常数
+created: 20240913140621753
+creator: miRoox
+modified: 20240913142451221
+modifier: miRoox
+tags: 数学常数 TODO 无理数
+title: 欧拉-马斯刻若尼常数
+tmap.id: 7bec2680-0771-4ede-a84c-071470c8e247
+type: text/vnd.tiddlywiki
+
+''欧拉-马斯刻若尼常数''是一个[[数学常数]]，定义为[[调和级数]]与[[自然对数|自然对数函数]][[差|?]]值的[[极限]]：
+
+$$
+\gamma =\lim _{n\rightarrow \infty }\left[\left(\sum _{k=1}^{n}{\frac {1}{k}}\right)-\ln(n)\right]=\int _{1}^{\infty }\left({1 \over \lfloor x\rfloor }-{1 \over x}\right)\dd{x}
+$$
