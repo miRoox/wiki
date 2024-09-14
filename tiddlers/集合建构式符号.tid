@@ -1,10 +1,10 @@
 created: 20240908074528651
 creator: miRoox
-modified: 20240908080022959
+modified: 20240914085740764
 modifier: miRoox
 tags: TODO 集合论 表示法
 title: 集合建构式符号
 tmap.id: 977b0e85-160b-46b1-9f43-b45e5c79ae4f
 type: text/vnd.tiddlywiki
 
-''集合建构式符号''（set-builder notation）是常用于描述[[集合]]的一种记号，这种描述集合的方式一般也称为''集合抽象化''（set abstraction）或''集合推导式''（set comprehension）。即形如$$\{x:P(x)\}$$或者$$\{x\in S:P(x)\}$$的集合记号。
+''集合建构式符号''（set-builder notation）是常用于描述[[集合]]的一种记号，这种描述集合的方式一般也称为''集合抽象化''（set abstraction）或''集合推导式''（set comprehension）。即形如$$\set{x:P(x)}$$或者$$\set{x\in S:P(x)}$$的集合记号。

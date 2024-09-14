@@ -1,7 +1,7 @@
 caption: sinc函数
 created: 20191010113726280
 creator: miRoox
-modified: 20240909132208023
+modified: 20240914083809645
 modifier: miRoox
 tags: 函数
 title: sinc函数
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 ! sinc函数
 
 $$
-\operatorname{sinc}(x)=\begin{cases}
+\sinc(x)=\begin{cases}
     \frac{\sin(x)}{x} & x\ne0 \\
     1 & x=0\\
 \end{cases}

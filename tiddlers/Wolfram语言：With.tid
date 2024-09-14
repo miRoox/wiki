@@ -1,7 +1,7 @@
 caption: With
 created: 20190923091531282
 creator: miRoox
-modified: 20230316080408747
+modified: 20240914133120993
 modifier: miRoox
 tags: Wolfram语言：作用域
 title: Wolfram语言：With
@@ -26,7 +26,7 @@ Unevaluated[expr] /. {HoldPattern[x] -> x0, HoldPattern[y] -> y0}
 可以看到，`With`实质并不会创建变量，相反，在替换的过程中往往还会减少变量。这个性质往往非常有用。
 比如，它可以把值插入到保持（held）表达式中。
 
-借助 `With` 实现[[闭包]]：
+借助 `With` 实现[[闭包|函数闭包]]：
 
 ```mathematica
 Table[With[{i=i}, i+#&], {i, 5}]

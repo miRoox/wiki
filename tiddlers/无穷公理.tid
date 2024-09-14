@@ -1,6 +1,6 @@
 created: 20240823010431759
 creator: miRoox
-modified: 20240826142525573
+modified: 20240914090322540
 modifier: miRoox
 tags: 策梅洛-弗兰克尔集合论 公理
 title: 无穷公理
@@ -10,11 +10,11 @@ type: text/vnd.tiddlywiki
 无穷公理实际上给出了[[自然数]]在[[ZFC|?]]下的具体构造方式：
 
 $$
-\exists\bm{N}:\emptyset\in\bm{N}\land(\forall n\in\bm{N}\implies n\cup\{n\}\in\bm{N})
+\exists\bm{N}:\emptyset\in\bm{N}\land(\forall n\in\bm{N}\implies n\cup\set{n}\in\bm{N})
 $$
 
 对应于[[皮亚诺公理]]即
 
 * $$0=\emptyset$$
-* $$s(n)=n\cup\{n\}$$
+* $$s(n)=n\cup\set{n}$$
 

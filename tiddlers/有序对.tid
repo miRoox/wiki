@@ -1,7 +1,7 @@
 aliases: 二元组 序对 对 pair
 created: 20240612025452005
 creator: miRoox
-modified: 20240905144907312
+modified: 20240914085954466
 modifier: miRoox
 tags: 元组
 title: 有序对
@@ -17,7 +17,7 @@ type: text/vnd.tiddlywiki
 在[[公理化集合论]]中，有序对通常可以用[[集合]]表示。例如''库拉托夫斯基对''表示
 
 $$
-(a,b):=\{\{a\},\{a,b\}\}
+(a,b):=\set{\set{a},\set{a,b}}
 $$
 
 表示“$$x$$是有序对$$p$$的第一个元素”可以公式化为
@@ -30,4 +30,4 @@ $$
 (\exists \ Y\in p:x\in Y)\land (\forall \ Y_{1}\in p,\forall \ Y_{2}\in p:Y_{1}\neq Y_{2}\rightarrow (x\notin Y_{1}\lor x\notin Y_{2}))
 $$
 
-注意这个定义对于有序对$$p = (x,x) = \{ \{x\}, \{x,x\} \} = \{ \{x\}, \{x\} \} = \{ \{x\} \}$$仍是有效的，此时$$\forall \ Y_{1}\in p,\forall \ Y_{2}\in p,Y_{1}\neq Y_{2}$$必定为假，因此[[实质蕴涵]]的结果为真。
+注意这个定义对于有序对$$p = (x,x) = \set{ \set{x}, \set{x,x} } = \set{ \set{x}, \set{x}} = \set{ \set{x} }$$仍是有效的，此时$$\forall \ Y_{1}\in p,\forall \ Y_{2}\in p,Y_{1}\neq Y_{2}$$必定为假，因此[[实质蕴涵]]的结果为真。

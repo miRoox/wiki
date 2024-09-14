@@ -1,11 +1,12 @@
-aliases: 像 像点
+aliases: 像 像点 因变量
 caption: 像
 created: 20240905111708799
 creator: miRoox
-modified: 20240905112043543
+modified: 20240914092739215
 modifier: miRoox
+tags: 变量
 title: 映射的像
 tmap.id: 4bf1fd57-dfcd-451c-b75a-5ebe558b1eea
 type: text/vnd.tiddlywiki
 
-对于[[映射]]$$f:A\to B$$，$$x\in A$$的''像''即$$y=f(x)$$。
+对于[[映射]]$$f:A\to B$$，$$x\in A$$的''像''即$$y=f(x)$$。对于[[函数]]，习惯上把像称为''因变量''。

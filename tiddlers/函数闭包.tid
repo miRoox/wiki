@@ -1,0 +1,11 @@
+aliases: 闭包 词法闭包
+created: 20240914132811808
+creator: miRoox
+modified: 20240914133101168
+modifier: miRoox
+tags: 计算机语言设计元素 TODO
+title: 函数闭包
+tmap.id: 47745e47-3fdf-40ad-ac63-0cb660c2b679
+type: text/vnd.tiddlywiki
+
+在[[计算机科学]]中，''闭包''（Closure），又称''词法闭包''（Lexical Closure）或''函数闭包''（function closures），是在支持头等函数的[[编程语言]]中实现[[词法|静态作用域]][[绑定|名字绑定]]的一种技术。

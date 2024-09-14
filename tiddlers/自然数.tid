@@ -1,7 +1,7 @@
 caption: 自然数
 created: 20191003122121454
 creator: miRoox
-modified: 20240908081915657
+modified: 20240914090612273
 modifier: miRoox
 tags: 数系
 title: 自然数
@@ -12,8 +12,8 @@ type: text/vnd.tiddlywiki
 
 自然数构成的[[集合]]一般记作$$\mathbb{N}$$，是一个[[可数|可数集]]的，无[[上界]]的[[无穷集合|无限集合]]。为了消除是否包含0的歧义，有时通过上、下标的形式表示[[集合]]中是否包含0：
 
-* $$\mathbb{N}_0=\{0,1,2,\ldots\}$$
-* $$\mathbb{N}^{+}=\mathbb{N}_{1}=\{1,2,3,\ldots\}$$
+* $$\mathbb{N}_0=\set{0,1,2,\ldots}$$
+* $$\mathbb{N}^{+}=\mathbb{N}_{1}=\set{1,2,3,\ldots}$$
 
 自然数的[[公理]]化定义通常是通过[[皮亚诺公理]]建立的，基于皮亚诺公理可以进一步定义相关[[算术运算]]，称为[[皮亚诺算术]]。
 

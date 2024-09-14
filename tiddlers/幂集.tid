@@ -1,6 +1,6 @@
 created: 20240611114929656
 creator: miRoox
-modified: 20240908090232046
+modified: 20240914085103957
 modifier: miRoox
 tags: 集合 集合运算
 title: 幂集
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 给定集合$$S$$，其幂集$$\mathcal{P}(S)$$（或作$$2^{S}$$）以符号表示即
 $$
-\mathcal{P}(S)=\{U:U\subseteq S\}
+\mathcal{P}(S)=\set{U:U\subseteq S}
 $$
 
 在[[公理化集合论]]（例如[[ZFC集合论|策梅洛-弗兰克尔集合论]]）中，[[幂集公理]]假定了任何集合的幂集均存在。

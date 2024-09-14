@@ -2,11 +2,13 @@ aliases: 指数
 caption: 指数函数
 created: 20191010113014096
 creator: miRoox
-modified: 20240913142251340
+modified: 20240914101654204
 modifier: miRoox
 tags: TODO 初等函数 函数
 title: 指数函数
 tmap.id: eb18393b-ea8f-4cf0-8531-0870456a51a0
 type: text/vnd.tiddlywiki
 
-! 指数函数
+''指数函数''（Exponential function）是形式为$$f(x)=b^x$$的[[函数]]，其中$$b$$被称为''底数''（或''基数''），而$$x$$是''指数''。
+
+很多时候，指数函数也特指以[[e|自然底数e]]为底数的[[e指数函数]]（$$\exp(x)=\mathrm{e}^x$$）

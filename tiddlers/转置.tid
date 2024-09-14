@@ -1,0 +1,16 @@
+created: 20240914082710123
+creator: miRoox
+modified: 20240914083206808
+modifier: miRoox
+tags: 矩阵运算 一元运算
+title: 转置
+tmap.id: 42624641-1f16-4e56-bd28-432f32d0ff2e
+type: text/vnd.tiddlywiki
+
+$$m\times n$$的[[矩阵]]$$A$$的''转置''（transpose）是一个$$n\times m$$的矩阵$$A^{\mathsf{T}}$$，满足
+
+$$
+A^{\mathsf{T}}_{i,j}=A_{j,i} \quad (1\le i\le n, 1\le j\le m)
+$$
+
+即交换矩阵的行与列。

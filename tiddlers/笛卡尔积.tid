@@ -1,7 +1,7 @@
 aliases: 直积
 created: 20240612024904500
 creator: miRoox
-modified: 20240822113720313
+modified: 20240914085028738
 modifier: miRoox
 tags: 集合 集合运算 二元运算
 title: 笛卡尔积
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 两个集合$$X,Y$$的笛卡儿积（英语：Cartesian product），又称[[直积]]，在集合论中表示为$$X\times Y$$，是所有可能的[[有序对]]组成的集合：
 
 $$
-X\times Y=\{(x,y):x\in X\land y\in Y\}
+X\times Y:=\set{(x,y):x\in X\land y\in Y}
 $$
 
 !! 运算性质

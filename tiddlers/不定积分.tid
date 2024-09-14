@@ -1,0 +1,13 @@
+aliases: 反导函数 原函数
+created: 20240914100354994
+creator: miRoox
+modified: 20240914101918634
+modifier: miRoox
+tags: 积分 TODO 微积分学
+title: 不定积分
+tmap.id: 838e9ce8-ffad-4efc-9c05-a99f1b4d91b9
+type: text/vnd.tiddlywiki
+
+''不定积分''（Indefinite Integration），也可称''反导函数''（Antiderivative）或''原函数''。[[函数]]$$f$$的不定积分是一个[[可微函数]]$$F$$，满足其[[导数]]$$F'=f$$。
+
+不定积分和[[定积分]]间的关系系由[[微积分基本定理]]联系起来。

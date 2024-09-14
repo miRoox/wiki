@@ -1,0 +1,12 @@
+aliases: 值
+caption: 值
+created: 20240914134544852
+creator: miRoox
+modified: 20240914145101327
+modifier: miRoox
+tags: 计算机语言设计元素 TODO
+title: 计算机：值
+tmap.id: 8cda0608-aa3c-4577-9428-098a9e09f98f
+type: text/vnd.tiddlywiki
+
+在[[计算机科学]]中，''值''（Value）是一无法进一步求值的[[表达式|计算机：表达式]]。

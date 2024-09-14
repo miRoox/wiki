@@ -1,0 +1,16 @@
+created: 20240914151409505
+creator: miRoox
+modified: 20240914151843150
+modifier: miRoox
+tags: 策梅洛-弗兰克尔集合论 公理
+title: 并集公理
+tmap.id: 62081ecc-ed2e-4efb-a377-4ce82ab5e049
+type: text/vnd.tiddlywiki
+
+''并集公理''声称对于任何[[集合]]$$A$$有一个集合$$B$$，使得$$B$$的元素正是$$A$$的元素的元素。
+
+$$
+\forall A,\exists B,\forall x:x\in B\iff (\exists y:x\in y\land y\in A)
+$$
+
+这一公理蕴涵了[[并集]]和[[任意并集]]的可行性。

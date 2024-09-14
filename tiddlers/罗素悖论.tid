@@ -1,6 +1,6 @@
 created: 20240907151534863
 creator: miRoox
-modified: 20240908095234869
+modified: 20240914085813630
 modifier: miRoox
 tags: 悖论 自指
 title: 罗素悖论
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 !! 内容
 
-考虑$$A=\{x:x\notin x\}$$，那么$$A\in A\iff A\notin A$$
+考虑$$A=\set{x:x\notin x}$$，那么$$A\in A\iff A\notin A$$
 
 !! 影响
 

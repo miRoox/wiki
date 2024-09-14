@@ -1,7 +1,7 @@
 aliases: 乘 乘以 积
 created: 20240821161600345
 creator: miRoox
-modified: 20240911081307338
+modified: 20240914150636764
 modifier: miRoox
 tags: 二元运算 TODO 算术运算 四则运算
 title: 乘法
@@ -12,4 +12,10 @@ type: text/vnd.tiddlywiki
 
 $$
 \underbrace {a+a+a+\cdots +a} _{n}=a\times n
+$$
+
+对于[[数列]]的积，通常通过''连乘符号''表示，下面的公式表示对数列$$\{a_k\}$$，从$$a_m$$开始连续乘到$$a_n$$
+
+$$
+\prod_{k=m}^n a_k=\underbrace {a_m\cdot a_{m+1}\cdot\ldots\cdot a_{n-1} \cdot a_n} _{n-m+1}
 $$

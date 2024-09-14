@@ -2,7 +2,7 @@ aliases: 域
 caption: 域
 created: 20240911081003936
 creator: miRoox
-modified: 20240912100218178
+modified: 20240914085450808
 modifier: miRoox
 tags: 域论 TODO 代数结构
 title: 代数：域
@@ -19,7 +19,7 @@ type: text/vnd.tiddlywiki
 满足：
 
 * $$(K,+)$$是[[阿贝尔群]]，并将其[[单位元]]记为$$0_K$$
-* $$(K\setminus\{0_K\},\times)$$是[[阿贝尔群]]
+* $$(K\setminus\set{0_K},\times)$$是[[阿贝尔群]]
 * [[分配律]]：$$\forall a,b,c\in K,a\times(b+c)=a\times b+a\times c$$
 
 则称$$(K,+,\times)$$为一个''域''。

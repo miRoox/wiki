@@ -1,12 +1,12 @@
 created: 20240911103213176
 creator: miRoox
-modified: 20240912071445458
+modified: 20240914085009989
 modifier: miRoox
 tags: 集合 TODO
 title: 等价类
 tmap.id: b6696bf5-2caa-4da9-b5bc-db3a1405fce4
 type: text/vnd.tiddlywiki
 
-设在一个[[集合]]$$X$$上定义了一个[[等价关系]]$$\sim$$，则$$a\in X$$的''等价类''即$$[a]:=\{x\in X: x\sim a\}$$。
+设在一个[[集合]]$$X$$上定义了一个[[等价关系]]$$\sim$$，则$$a\in X$$的''等价类''即$$[a]:=\set{x\in X: x\sim a}$$。
 
 $$X$$上全体等价类的集合被称为[[商集]]$$X/\sim$$

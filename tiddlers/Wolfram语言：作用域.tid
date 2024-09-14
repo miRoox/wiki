@@ -2,7 +2,7 @@ caption: 作用域
 created: 20190923090027595
 creator: miRoox
 list: Wolfram语言：Module Wolfram语言：Block Wolfram语言：With DynamicModule（Wolfram语言）
-modified: 20240829153237084
+modified: 20240914134043694
 modifier: miRoox
 tags: Wolfram语言 作用域
 title: Wolfram语言：作用域
@@ -11,9 +11,9 @@ type: text/vnd.tiddlywiki
 
 ! 作用域
 
-Wolfram语言包括两类作用域：[[词法作用域]]和[[动态作用域]]。
+Wolfram语言包括两类作用域：[[静态作用域]]和[[动态作用域]]。
 
-所谓的词法作用域其实是指作用域在词法解析阶段既确定了，不会改变。
+所谓的静态作用域其实是指作用域在词法解析阶段既确定了，不会改变。
 相对地，动态作用域是根据程序的运行时栈来动态地确定的。
 
 {{Wolfram语言：Module}}
