@@ -1,0 +1,10 @@
+created: 20240914124055554
+creator: miRoox
+modified: 20240914124226122
+modifier: miRoox
+tags: 函数 TODO
+title: 连续函数
+tmap.id: 60b2ff7c-5640-4f2a-af18-1aeb51c315c6
+type: text/vnd.tiddlywiki
+
+''连续函数''（continuous function）是指具有''连续性''的[[函数]]。直观上来说，连续函数就是当自变量变化足够小的时候，因变量的变化也会随之足够小的函数。

@@ -1,11 +1,11 @@
 aliases: 差集
 created: 20240906071944455
 creator: miRoox
-modified: 20240906073550596
+modified: 20240914085218914
 modifier: miRoox
 tags: 集合 集合运算 二元运算
 title: 相对补集
 tmap.id: 3349ca3e-46ff-4fa4-a7df-7e61d79ce686
 type: text/vnd.tiddlywiki
 
-$$C=B\setminus A$$被称为[[集合]]$$A$$在$$B$$中的''相对补集''，当且仅当$$C=\{x\in B:x\notin A\}$$。有时也记作$$C=B-A$$或者$$\complement _{B}A$$
+$$C=B\setminus A$$被称为[[集合]]$$A$$在$$B$$中的''相对补集''，当且仅当$$C=\set{x\in B:x\notin A}$$。有时也记作$$C=B-A$$或者$$\complement _{B}A$$

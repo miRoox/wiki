@@ -1,0 +1,11 @@
+aliases: 常值函数
+created: 20240914100803101
+creator: miRoox
+modified: 20240914101016030
+modifier: miRoox
+tags: 函数 TODO
+title: 常数函数
+tmap.id: 78ba031d-f16e-4eec-b0ba-4d3e77caa254
+type: text/vnd.tiddlywiki
+
+''常数函数''（也称''常值函数''）是指值不随[[自变量|映射的原像]]发生改变（即是[[常数|数学常数]]）的[[函数]]。

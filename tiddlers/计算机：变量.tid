@@ -1,0 +1,12 @@
+aliases: 变量
+caption: 变量
+created: 20240914134126208
+creator: miRoox
+modified: 20240914134417453
+modifier: miRoox
+tags: 计算机语言设计元素 TODO
+title: 计算机：变量
+tmap.id: f7ab34d0-53f9-42b3-b983-3f0cd1cbb8bb
+type: text/vnd.tiddlywiki
+
+在[[编程语言]]中，''变量''（Variable，scalar）是指一个抽象的[[内存地址]]，它含有了被称为一个[[值|编程语言：值]]的某种已知或未知的信息量，并且配对了关联的[[符号名称|标识符]]。

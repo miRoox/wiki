@@ -1,6 +1,6 @@
 created: 20240908093606234
 creator: miRoox
-modified: 20240908094434181
+modified: 20240914085632924
 modifier: miRoox
 tags: 策梅洛-弗兰克尔集合论 TODO 公理 公理模式
 title: 分类公理模式
@@ -15,4 +15,4 @@ $$
 \forall A,\exists B,\forall x:x\in B\iff x\in A\land P(x)
 $$
 
-基于这一公理，上述定义中，我们可以将$$B$$表示为$$\{x\in A:P(x)\}$$。
+基于这一公理，上述定义中，我们可以将$$B$$表示为$$\set{x\in A:P(x)}$$。

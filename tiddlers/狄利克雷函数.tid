@@ -1,6 +1,6 @@
 created: 20240909131926776
 creator: miRoox
-modified: 20240909133501610
+modified: 20240914085532339
 modifier: miRoox
 tags: 周期函数 TODO
 title: 狄利克雷函数
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 ''狄利克雷函数''（Dirichlet function）是一个判别自变量是[[有理数]]还是[[无理数]]的[[函数]]，用 $$D(x)$$ 或者 $$\mathbf {1} _{\mathbb {Q} }(x)$$ 表示。
 
 $$
-D:\mathbb{R}\to \{0,1\}\\
+D:\mathbb{R}\to \set{0,1}\\
 $$
 $$
 D(x)=\begin{cases}

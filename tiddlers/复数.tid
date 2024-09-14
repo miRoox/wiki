@@ -1,10 +1,13 @@
 caption: 复数
 created: 20191003122307583
-modified: 20230316103711655
+creator: miRoox
+modified: 20240914130105240
 modifier: miRoox
-tags: TODO 数系
+tags: TODO 数系 复分析
 title: 复数
 tmap.id: b3337b88-2710-4a14-87ef-a83c4f1e8331
 type: text/vnd.tiddlywiki
 
-! 复数
+''复数''（Complex），为[[实数]]的延伸，它使任一[[多项式]][[方程]]都有[[根|零点]]。
+
+复数通常写为如下形式：$$a+b\imath$$，其中$$a,b$$为实数，$$\imath$$为[[虚数单位]]。

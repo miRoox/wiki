@@ -1,7 +1,7 @@
 aliases: 子空间
 created: 20200104124620992
 creator: miRoox
-modified: 20240909125937205
+modified: 20240914090428884
 modifier: miRoox
 tags: 线性空间
 title: 线性子空间
@@ -12,5 +12,5 @@ type: text/vnd.tiddlywiki
 
 由[[向量]]$$\bm x^{(1)},\bm x^{(2)},\dots,\bm x^{(m)}\in\R^n$$构成的子空间
 $$
-L(\bm x^{(1)},\bm x^{(2)},\dots,\bm x^{(m)})\coloneqq\left\{\bm x\in\R^n:\bm x=\sum_{i=1}^m\alpha_i\bm x^{(i)},\alpha_i\in\R,i=1,2,\dots,m\right\}
+L(\bm x^{(1)},\bm x^{(2)},\dots,\bm x^{(m)})\coloneqq\Set{\bm x\in\R^n:\bm x=\sum_{i=1}^m\alpha_i\bm x^{(i)},\alpha_i\in\R,i=1,2,\dots,m}
 $$

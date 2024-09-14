@@ -1,0 +1,16 @@
+aliases: 等式 方程式
+created: 20240914093533880
+creator: miRoox
+modified: 20240914094309755
+modifier: miRoox
+tags: 初等代数 TODO 分类
+title: 方程
+tmap.id: 787fc469-2003-4bcb-acf5-7a7f0862a28d
+type: text/vnd.tiddlywiki
+
+[[数学]]中，''方程式''（equation）或''等式''，是两个[[表达式|数学表达式]]以等号结合这样的形式。
+
+方程式有两种情形：
+
+* 一种是[[恒等式]]（identity）跟[[数学公式]]（formula），未知数可以是其定义域内的任意值，等号依然成立；
+* 另一种是特定条件方程式（conditional equation），用来求解未知数的值，通常解为特定几个数值，而不是未知数定义域的所有数值。

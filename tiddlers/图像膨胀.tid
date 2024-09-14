@@ -1,7 +1,7 @@
 caption: 膨胀
 created: 20191212065152338
 creator: miRoox
-modified: 20230316103711661
+modified: 20240914090755242
 modifier: miRoox
 tags: TODO 形态学处理
 title: 图像膨胀
@@ -10,5 +10,5 @@ type: text/vnd.tiddlywiki
 
 ! 膨胀
 $$
-A\oplus B=\{z:(\hat{B})_z\cap A\ne\varnothing\}
+A\oplus B=\set{z:(\hat{B})_z\cap A\ne\emptyset}
 $$

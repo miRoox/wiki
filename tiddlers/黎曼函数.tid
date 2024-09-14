@@ -1,0 +1,20 @@
+created: 20240914122328796
+creator: miRoox
+modified: 20240914123710915
+modifier: miRoox
+tags: 函数 TODO
+title: 黎曼函数
+tmap.id: ce692b03-9a10-49d1-a445-4a8488b468d2
+type: text/vnd.tiddlywiki
+
+黎曼函数$$R:\Reals\to[0,1]$$
+
+$$
+R(x)=\begin{cases}
+\frac{1}{p} &x=\frac{q}{p}(p\in\N^+,q\in\Z,q\ne0, \operatorname{gcd}(p,q)=1)\\
+1 &x=0\\
+0 &x\in\Reals\setminus\mathbb{Q}
+\end{cases}
+$$
+
+这相当于说，所有[[无理数]]的函数值为[[零|?]]，所有非零[[有理数]]的函数值是其[[最简分数]]的分数单位。

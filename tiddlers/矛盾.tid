@@ -1,0 +1,13 @@
+aliases: 恒假 自相矛盾
+created: 20240914094843360
+creator: miRoox
+modified: 20240914095052944
+modifier: miRoox
+tags: 逻辑 TODO
+title: 矛盾
+tmap.id: 02107cfd-e386-4cf6-85d4-0072a0bd9633
+type: text/vnd.tiddlywiki
+
+在传统逻辑学中，如果一个[[命题]]与自身或既定事实相冲突，则称之为''矛盾''（contradiction，又称''恒假''）。
+
+现在的逻辑学中，''矛盾''、''自相矛盾''或''抵触''（contradiction）被更加特殊化的定义为同时断言一个命题和它的[[否定|逻辑非]]。

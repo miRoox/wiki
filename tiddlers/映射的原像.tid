@@ -1,14 +1,14 @@
-aliases: 原像
+aliases: 原像 自变量
 caption: 原像
 created: 20240905112111278
 creator: miRoox
-modified: 20240905132109439
+modified: 20240914092731852
 modifier: miRoox
-tags: 
+tags: 变量
 title: 映射的原像
 tmap.id: 0c5ef020-fce9-4941-b860-c823f5e85700
 type: text/vnd.tiddlywiki
 
-对于[[映射]]$$f:A\to B$$，$$y\in B$$的''原像''即满足$$y=f(x)$$的$$x$$。
+对于[[映射]]$$f:A\to B$$，$$y\in B$$的''原像''即满足$$y=f(x)$$的$$x$$。对于[[函数]]，习惯上把原像称为''自变量''。
 
 对于$$y\in B$$，可能不存在原像，也可能存在多个原像。

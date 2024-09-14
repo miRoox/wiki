@@ -1,0 +1,11 @@
+aliases: 变数 变项 变元
+created: 20240914092817877
+creator: miRoox
+modified: 20240914093656319
+modifier: miRoox
+tags: 初等代数 TODO
+title: 变量
+tmap.id: 4e95d0f2-d30c-49d3-9007-c92164ece80c
+type: text/vnd.tiddlywiki
+
+''变量''（variable）又称''变数''，是[[表达式|数学表达式]]或[[公式|数学公式]]中，没有固定的值而可以变动的数或量；该数或量可以是随意的，也可能是未指定或未定的。表示变量的字母，统称为''变元''、''元''，即变元是一个用来表示值的[[符号]]。与之相对的概念是[[常数]]。

@@ -2,11 +2,17 @@ aliases: Γ函数 伽马函数
 caption: 伽马函数
 created: 20191010113315944
 creator: miRoox
-modified: 20240909132208017
+modified: 20240914125115506
 modifier: miRoox
 tags: TODO 函数
 title: Gamma函数
 tmap.id: cfe55ea7-1bfa-4d7e-a9c9-a489e71e6cc0
 type: text/vnd.tiddlywiki
 
-$$\Gamma$$函数（伽玛函数；Gamma函数），是[[阶乘]]在[[实数]]与[[复数]]域上的扩展。
+''$$\Gamma$$函数''（伽玛函数；Gamma函数），是[[阶乘]]在[[实数]]与[[复数]]域上的扩展。
+
+$$\Gamma$$函数可以定义在右半[[复平面]]上：
+
+$$
+\Gamma(z)=\int_0^\infty t^{z-1}\exp(-t)\dd{t}, \Re(z)>0
+$$

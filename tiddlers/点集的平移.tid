@@ -1,7 +1,7 @@
 caption: 平移
 created: 20191217060725912
 creator: miRoox
-modified: 20191217064513494
+modified: 20240914085600409
 modifier: miRoox
 tags: 形态学处理
 title: 点集的平移
@@ -11,5 +11,5 @@ type: text/vnd.tiddlywiki
 ! 平移
 
 $$
-(B)_z=\{c:c=b+z,b\in B\}
+(B)_z=\set{c:c=b+z,b\in B}
 $$

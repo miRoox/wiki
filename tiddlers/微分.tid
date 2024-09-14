@@ -1,0 +1,10 @@
+created: 20240914091946826
+creator: miRoox
+modified: 20240914092047743
+modifier: miRoox
+tags: 微积分学 TODO
+title: 微分
+tmap.id: 4da8fff6-473f-433a-818d-8c25b1f35efc
+type: text/vnd.tiddlywiki
+
+[[函数]]的''微分''（Differential of a function）是指对函数的局部变化的一种[[线性|线性映射]]描述。微分可以近似地描述当函数自变量的取值作足够小的改变时，函数的值是怎样改变的。

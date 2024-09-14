@@ -1,6 +1,7 @@
 caption: Markdown
 created: 20191003141515597
-modified: 20230316103711666
+creator: miRoox
+modified: 20240914134858790
 modifier: miRoox
 tags: TODO 计算机语言
 title: Markdown
@@ -9,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 ! Markdown
 
-Markdown 是一个 Web 上使用的文本到[[HTML]]的转换工具，可以通过简单、易读易写的文本格式生成结构化的HTML文档。目前 Github、Stackoverflow 等网站均支持这种格式。
+Markdown 是一个 Web 上使用的文本到[[HTML|?]]的转换工具，可以通过简单、易读易写的文本格式生成结构化的HTML文档。目前 Github、Stackoverflow 等网站均支持这种格式。
 
 !! 宗旨
 

@@ -1,7 +1,7 @@
 aliases: 渐进密度
 created: 20240909122929988
 creator: miRoox
-modified: 20240909141631188
+modified: 20240914090537319
 modifier: miRoox
 tags: 组合数学 TODO 数论
 title: 自然密度
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 ''自然密度''（natural density），又称''渐进密度''（asymptotic density）是度量[[自然数]][[子集]]大小的工具之一。
 
-对于[[集合]]$$A\subset\mathbb{N}^+$$，定义[[函数]]$$a:\mathbb{N}\to\mathbb{N}$$，使得$$a(n)=\operatorname{card}(\{k\in A:k\le n\})$$，那么$$A$$的自然密度$$\alpha$$为
+对于[[集合]]$$A\subset\mathbb{N}^+$$，定义[[函数]]$$a:\mathbb{N}\to\mathbb{N}$$，使得$$a(n)=\card(\set{k\in A:k\le n})$$，那么$$A$$的自然密度$$\alpha$$为
 
 $$
 \alpha=\lim_{n\to\infty}\frac{a(n)}{n}
