@@ -1,8 +1,16 @@
 created: 20240914151155524
 creator: miRoox
-modified: 20240914151334359
+modified: 20240915042402424
 modifier: miRoox
-tags: 并集 TODO 集合 集合运算
+tags: 并集 集合 集合运算
 title: 任意并集
 tmap.id: 38971d01-c1b4-410f-adeb-7954346974ad
 type: text/vnd.tiddlywiki
+
+根据[[并集公理]]，对[[任意|全称量化]][[集合]]$$\mathcal{M}$$，[[存在唯一|唯一存在量化]]的集合$$\bigcup \mathcal{M}$$满足：
+
+$$
+\forall x,\left(x\in\bigcup\mathcal{M}\iff(\exists A, A\in\mathcal{M}\land x\in A)\right)
+$$
+
+直观上看，$$\mathcal{M}$$可以视为一个[[集族]]，而$$\bigcup \mathcal{M}$$相当于对$$\mathcal{M}$$的所有集合元素取[[并集]]，但由于这一公理对$$\mathcal{M}$$下属集合[[数量|基数]]没有限制，因此$$\bigcup \mathcal{M}$$被称为$$\mathcal{M}$$的''任意并集''。

@@ -2,7 +2,7 @@ aliases: 域 代数
 caption: 代数
 created: 20240912084800570
 creator: miRoox
-modified: 20240912092903134
+modified: 20240915042849698
 modifier: miRoox
 tags: 集合代数 TODO
 title: 集合域
@@ -13,4 +13,4 @@ type: text/vnd.tiddlywiki
 
 * $$\Omega\in\mathcal{F}$$
 * $$\forall A,B\in\mathcal{F}, A\cup B\in\mathcal{F}$$（有限[[并|并集]][[封闭|封闭性]]）
-* $$\forall A\in\mathcal{F},A^\complement\in\mathcal{F}$$（[[补集|绝对补集]]封闭）
+* $$\forall A\in\mathcal{F},\Omega\setminus A\in\mathcal{F}$$（[[补集|绝对补集]]封闭）

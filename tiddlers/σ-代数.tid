@@ -1,7 +1,7 @@
 aliases: σ代数
 created: 20240912091052212
 creator: miRoox
-modified: 20240912093609921
+modified: 20240915042917812
 modifier: miRoox
 tags: 集合代数 TODO
 title: σ-代数
@@ -11,5 +11,5 @@ type: text/vnd.tiddlywiki
 ''σ-代数''，是指一种[[有序对]]$$(X,\mathcal{F})$$，其中$$X$$是[[集合]]，[[集族]]$$\mathcal{F}\subseteq 2^X$$，且满足：
 
 * $$X\in\mathcal{F}$$
-* $$\forall A\in\mathcal{F}, A^\complement\in\mathcal{F}$$（[[补集|绝对补集]][[封闭|封闭性]]）
+* $$\forall A\in\mathcal{F}, X\setminus A\in\mathcal{F}$$（[[补集|绝对补集]][[封闭|封闭性]]）
 * $${\displaystyle(\forall k\in\mathbb{N}, A_k\in\mathcal{F})\implies\bigcup_{k\in\mathbb{N}} A_k\in\mathcal{F}}$$（[[可数|可数集合]][[并|并集]]封闭）
