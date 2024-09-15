@@ -1,0 +1,13 @@
+aliases: 索引集
+created: 20240915080147236
+creator: miRoox
+modified: 20240915081246408
+modifier: miRoox
+tags: 集合 TODO
+title: 指标集
+tmap.id: 18a575f7-cf56-4661-960f-8f8db67746e9
+type: text/vnd.tiddlywiki
+
+若[[集合]]$$A$$可以通过另一个集合$$J$$来''索引''（index）或''标定''（label），此时便称集合$$J$$为$$A$$的''指标集''或''索引集''。
+
+对于集合$$J$$与$$A$$，只要满足$$J\cong A$$（[[等势]]），则$$J$$可以称为$$A$$的指标集。进一步的，若$$J\,{\overset {f}{\cong }}\,A$$，则函数$$f$$被称为$$J$$到$$A$$的[[指标函数]]。

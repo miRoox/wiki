@@ -1,6 +1,6 @@
 created: 20240806092602846
 creator: miRoox
-modified: 20240914101634757
+modified: 20240915080702551
 modifier: miRoox
 tags: TODO 附录 表示法
 title: 符号表
@@ -96,6 +96,7 @@ type: text/vnd.tiddlywiki
 | $$\cap$$ | [[交集]] |
 | $$\vdash$$ | [[句法后承]] |
 | $$\models$$ | [[语义后承]] |
+| $$\cong$$ | [[等势]] |
 | $$\in$$ | [[属于关系]] |
 | $$\subseteq$$ | [[子集]] |
 | $$\subset$$ | [[真子集]] |

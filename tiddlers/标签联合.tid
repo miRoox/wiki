@@ -1,0 +1,11 @@
+aliases: 可辨识联合 变体类型
+created: 20240915081533353
+creator: miRoox
+modified: 20240915081705108
+modifier: miRoox
+tags: 计算机语言设计元素 TODO 数据类型
+title: 标签联合
+tmap.id: 3275def8-eceb-4cf5-ba79-5cca651bbf82
+type: text/vnd.tiddlywiki
+
+''标签联合''（tagged union）也称''可辨识联合''（discriminated union）或者''变体类型''（variant type），指的是这样的一种[[数据结构]]，它能够存储一组不同但是固定的[[类型|数据类型]]中某个类型的对象，具体是哪个类型由标签（tag）字段决定。
