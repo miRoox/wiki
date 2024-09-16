@@ -1,0 +1,15 @@
+aliases: 调和数列
+created: 20240916102128617
+creator: miRoox
+modified: 20240916103155446
+modifier: miRoox
+tags: 数列 TODO
+title: 等谐数列
+tmap.id: 2b32d72a-90db-4072-b9fd-5dfcddda1c91
+type: text/vnd.tiddlywiki
+
+''等谐数列''，又名''调和数列''（harmonic sequence 或 harmonic progression），是满足任意相邻两项[[倒数]]的[[差|?]]相等的[[数列]]，该差值的倒数被称为''公谐差''（common harmonic difference）。
+
+$$
+\frac{1}{a_n}-\frac{1}{a_{n-1}}=\frac{1}{h}
+$$

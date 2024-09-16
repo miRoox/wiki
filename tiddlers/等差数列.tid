@@ -1,0 +1,15 @@
+aliases: 算术数列
+created: 20240916101748103
+creator: miRoox
+modified: 20240916103042324
+modifier: miRoox
+tags: 数列 TODO
+title: 等差数列
+tmap.id: d219353a-2c49-4112-a86c-a7fc925d699f
+type: text/vnd.tiddlywiki
+
+''等差数列''，又名''算术数列''（Arithmetic sequence）是一种满足任意相邻两项的[[差|?]]值相等的[[数列]]，这个差值叫做''公差''（common difference）。
+
+$$
+a_{n}-a_{n-1}=d
+$$

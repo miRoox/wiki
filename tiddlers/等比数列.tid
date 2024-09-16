@@ -1,0 +1,14 @@
+created: 20240916101803929
+creator: miRoox
+modified: 20240916102959547
+modifier: miRoox
+tags: 数列 TODO
+title: 等比数列
+tmap.id: a081532b-85bd-4b0c-ac28-563798be49b9
+type: text/vnd.tiddlywiki
+
+''等比数列''，又名''几何数列''（Geometric progression），是满足任意相邻两项的[[比例]]相等的[[数列]]，该比例被称为''公比''（common ratio）。
+
+$$
+\frac{a_{n}}{a_{n-1}}=q \,(q\ne 0)
+$$
