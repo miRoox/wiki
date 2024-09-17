@@ -1,9 +1,11 @@
 aliases: SQL
 created: 20240909035622205
 creator: miRoox
-modified: 20240909035714316
+modified: 20240917104807668
 modifier: miRoox
 tags: 计算机语言 TODO 分类 领域特定语言
 title: 结构化查询语言
 tmap.id: 47d55964-dc92-406f-9db4-9897db09308f
 type: text/vnd.tiddlywiki
+
+''结构化查询语言''（Structured Query Language，SQL）是一种[[领域特定语言]]用于管理[[关系数据库管理系统]]（RDBMS），或在[[关系流数据管理系统]]（RDSMS）中进行流处理。

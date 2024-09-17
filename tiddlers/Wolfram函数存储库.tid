@@ -1,0 +1,13 @@
+aliases: WFR
+created: 20240917132522676
+creator: miRoox
+modified: 20240917133646477
+modifier: miRoox
+tags: Wolfram语言
+title: Wolfram函数存储库
+tmap.id: 33ad6eab-0b20-4889-85cd-d0d247172367
+type: text/vnd.tiddlywiki
+
+''Wolfram 函数存储库''（Wolfram Function Repository, WFR）是一个公共资源，它托管着一个不断扩展的独立函数集合，适合在任何 [[Wolfram语言]]计算环境中立即使用。
+
+链接：[ext[Wolfram Function Repository|https://resources.wolframcloud.com/FunctionRepository/]]

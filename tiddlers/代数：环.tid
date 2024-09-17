@@ -1,0 +1,12 @@
+aliases: 环
+caption: 环
+created: 20240917132106318
+creator: miRoox
+modified: 20240917132207851
+modifier: miRoox
+tags: 代数结构 TODO 环论
+title: 代数：环
+tmap.id: 708e25c9-75ec-49b1-ab26-98b6f01488c3
+type: text/vnd.tiddlywiki
+
+''环''（Ring）是一种带有两个[[二元运算]]（抽象化的“[[加法]]”和“[[乘法]]”）、并且符合特定运算规则的[[集合]]。

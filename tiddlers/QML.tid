@@ -1,15 +1,13 @@
 created: 20191102052351898
 creator: miRoox
-modified: 20230316103711666
+modified: 20240917100331472
 modifier: miRoox
-tags: TODO 计算机语言
+tags: TODO 计算机语言 标记语言 Qt
 title: QML
 tmap.id: 89a1c938-e2b8-444b-ab13-98465f314eca
 type: text/vnd.tiddlywiki
 
-! QML
-
-即 [[Qt]] Modeling Language，用于描述用户界面的声明式语言，其语法类似于[[JSON]]和[[CSS]]。
+''QML'' (Qt Markup Language 或 Qt Meta Language 或 Qt Modeling Language) ，用于描述[[图形用户界面]]的声明式语言，其语法类似于[[JSON]]和[[CSS|层叠样式表]]。
 
 !! 外部链接
 

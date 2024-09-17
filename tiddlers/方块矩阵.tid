@@ -1,7 +1,7 @@
 aliases: 方阵 方矩阵 正方矩阵
 created: 20240914091105043
 creator: miRoox
-modified: 20240914091224605
+modified: 20240917090422817
 modifier: miRoox
 tags: 矩阵 TODO
 title: 方块矩阵
@@ -9,3 +9,5 @@ tmap.id: 39ea8f7d-9244-4fa0-8e5c-03a53a72423b
 type: text/vnd.tiddlywiki
 
 ''方块矩阵''，也称''方阵''、''方矩阵''或''正方矩阵''，是行数与列数相同的[[矩阵]]。
+
+$$n$$行$$n$$列的方阵也叫$$n$$阶方阵。

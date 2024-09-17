@@ -1,0 +1,11 @@
+aliases: XML
+created: 20240917095626991
+creator: miRoox
+modified: 20240917095811649
+modifier: miRoox
+tags: 标记语言 TODO 文件格式
+title: 可扩展标志语言
+tmap.id: 674db06d-53cf-45f7-925b-c158132049a1
+type: text/vnd.tiddlywiki
+
+''可扩展标记语言''（E''x''tensible ''M''arkup ''L''anguage，XML）是一种[[标记语言]]也是用于存储、传输和重构松散数据的[[文件格式]]。
