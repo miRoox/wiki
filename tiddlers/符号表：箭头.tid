@@ -1,0 +1,16 @@
+created: 20240917101200182
+creator: miRoox
+modified: 20240917102103469
+modifier: miRoox
+tags: 符号表 TODO
+title: 符号表：箭头
+tmap.id: fefd1480-dc3a-408b-ab97-ff919e51b023
+type: text/vnd.tiddlywiki
+
+|! 符号| !含义 |
+| $$\to$$ | [[实质蕴涵]] |
+|~| [[映射]]、[[函数]]  |
+| $$\mapsto$$ | [[映射]]、[[函数]]  |
+| $$\leftrightarrow$$ | [[逻辑双条件]] |
+| $$\implies$$ | [[实质蕴涵]] |
+| $$\iff$$ | [[逻辑双条件]] |

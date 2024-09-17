@@ -1,7 +1,7 @@
 aliases: 概率公理
 created: 20240912090757012
 creator: miRoox
-modified: 20240912094742137
+modified: 20240917094324622
 modifier: miRoox
 tags: 概率论 TODO 公理
 title: 柯尔莫果洛夫公理
@@ -26,4 +26,4 @@ $$
 
 !! 第三公理（可加性）
 
-任意[[可数|可数集合]]两两不相交事件$$\{E_n\}$$满足$$P(\bigcup E_i)=\sum P(E_i)$$
+任意[[可数|可数集合]]两两不相[[交|交集]]事件$$\{E_n\}$$满足$$P(\bigcup E_i)=\sum P(E_i)$$

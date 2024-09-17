@@ -1,0 +1,20 @@
+aliases: 逻辑斯谛映射
+created: 20240917092809739
+creator: miRoox
+modified: 20240917093426109
+modifier: miRoox
+tags: 混沌映射 TODO
+title: Logistic映射
+tmap.id: a136d493-d90e-4541-a543-4c6c0ee15a11
+type: text/vnd.tiddlywiki
+
+''Logistic映射''是一种二次[[多项式]]的[[递推关系式]]
+
+$$
+x_{n+1}=rx_n(1-x_n)
+$$
+
+其中
+
+* $$x_n\in[0,1]$$
+* $$r\in[0,4]$$

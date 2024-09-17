@@ -1,11 +1,11 @@
 caption: cargo
 created: 20191017115056599
 creator: miRoox
-modified: 20240704132059627
+modified: 20240917101727293
 modifier: miRoox
-tags: Rust 包管理器 TODO
-title: cargo
+tags: Rust TODO 软件包管理系统
+title: Cargo
 tmap.id: 83b0773d-b19e-42c7-a8f4-58b87cb0948d
 type: text/vnd.tiddlywiki
 
-! cargo
+Cargo是[[Rust]]的软件包管理器，用来下载和构建依赖关系。

@@ -1,0 +1,20 @@
+created: 20240917101105410
+creator: miRoox
+modified: 20240917101918207
+modifier: miRoox
+tags: 符号表 TODO
+title: 符号表：希腊字母衍生
+tmap.id: a6470919-f0e0-4fbe-b154-caed6aaf3eb9
+type: text/vnd.tiddlywiki
+
+|! 符号| !含义 |
+| $$\Beta$$ | [[Beta函数]] |
+| $$\Gamma$$ | [[Gamma函数]] |
+| $$\gamma$$ | [[欧拉-马斯刻若尼常数]] |
+| $$\delta$$ | [[狄拉克δ函数]] |
+|~| [[克罗内克δ函数]] |
+| $$\zeta$$ | [[黎曼ζ函数]] |
+| $$\prod$$ | [[积|乘法]] |
+| $$\pi$$ | [[圆周率]] |
+|~| [[康托尔配对函数]] |
+| $$\sum$$ | [[和|加法]] |

@@ -1,0 +1,10 @@
+created: 20240917103823109
+creator: miRoox
+modified: 20240917103937069
+modifier: miRoox
+tags: 文件系统 TODO
+title: 日志文件系统
+tmap.id: c7c45e91-0045-4b81-b826-b4a156d0b261
+type: text/vnd.tiddlywiki
+
+''日志文件系统''（Journaling file system）是一种[[文件系统]]。在发生变化时，它先把相关的信息写入一个被称为''日志''的区域，然后再把变化写入主文件系统。在文件系统发生故障（如内核崩溃或突然停电）时，日志文件系统更容易保持一致性，并且可以较快恢复。

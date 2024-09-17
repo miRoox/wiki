@@ -1,0 +1,15 @@
+created: 20240917101218557
+creator: miRoox
+modified: 20240917102200132
+modifier: miRoox
+tags: 符号表 TODO
+title: 符号表：定界符
+tmap.id: 57e50b3a-6b26-44ed-91f6-40fc8c3af730
+type: text/vnd.tiddlywiki
+
+|! 符号| !含义 |
+| $$\set{\Box}$$ | [[集合]] |
+| $$|\Box|$$ | [[绝对值]] |
+|~| [[基数]] |
+|~| [[行列式]] |
+| $$||\Box||$$ | [[范数]] |

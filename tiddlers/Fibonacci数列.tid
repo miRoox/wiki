@@ -1,0 +1,19 @@
+aliases: 斐波那契数列
+created: 20240917090657054
+creator: miRoox
+modified: 20240917090913854
+modifier: miRoox
+tags: 数列 TODO
+title: Fibonacci数列
+tmap.id: 93dea279-d1cf-49af-a553-777b7a356410
+type: text/vnd.tiddlywiki
+
+''斐波那契数''是以[[递归]]的方法来定义：
+
+$$
+\begin{align*}
+F_0&=0\\
+F_1&=1\\
+F_n&=F_{n-1}+F_{n-2} &(n\ge2)
+\end{align*}
+$$

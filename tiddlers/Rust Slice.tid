@@ -1,7 +1,7 @@
 caption: Slice
 created: 20191120121125793
 creator: miRoox
-modified: 20230316103711666
+modified: 20240917095039469
 modifier: miRoox
 tags: TODO Rust语法
 title: Rust Slice
@@ -10,4 +10,4 @@ type: text/vnd.tiddlywiki
 
 ! Slice
 
-slice 允许你[[引用|Rust引用]]集合中一段连续的元素序列，而不用[[引用|Rust引用]]整个集合。同样，slice也不获取对象的所有权
+slice 允许你[[引用|Rust引用]]集合中一段连续的元素序列，而不用[[引用|Rust引用]]整个集合。同样，slice也不获取对象的[[所有权|Rust所有权]]

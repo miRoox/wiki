@@ -1,0 +1,12 @@
+created: 20240917101522416
+creator: miRoox
+modified: 20240917102639724
+modifier: miRoox
+tags: 符号表 TODO
+title: 符号表：修饰符
+tmap.id: a488c577-92cf-4066-9fe1-4598c67be334
+type: text/vnd.tiddlywiki
+
+|! 符号| !含义 |
+| $$\bar{\Box}$$ | [[逻辑非]] |
+| $$\overline{\Box\Box}$$ | [[距离]] |

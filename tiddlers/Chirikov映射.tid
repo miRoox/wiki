@@ -1,0 +1,20 @@
+created: 20240917093446141
+creator: miRoox
+modified: 20240917093516907
+modifier: miRoox
+tags: 混沌映射 TODO
+title: Chirikov映射
+tmap.id: c2820c2c-73a3-4aff-87e5-5b1c2c1b7cf7
+type: text/vnd.tiddlywiki
+
+
+
+$$
+\begin{pmatrix}
+x_{n+1} \\ y_{n+1}
+\end{pmatrix}=
+\begin{pmatrix}
+(k\sin y_n+x_n)\mod 2\pi\\
+(x_{n+1}+y_n)\mod 2\pi
+\end{pmatrix}
+$$

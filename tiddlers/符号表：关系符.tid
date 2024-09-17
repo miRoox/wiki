@@ -1,0 +1,16 @@
+created: 20240917101435746
+creator: miRoox
+modified: 20240917102542368
+modifier: miRoox
+tags: 符号表 TODO
+title: 符号表：关系符
+tmap.id: bbaaacad-1bc2-454e-b407-087f9f146f6b
+type: text/vnd.tiddlywiki
+
+|! 符号| !含义 |
+| $$\vdash$$ | [[句法后承]] |
+| $$\models$$ | [[语义后承]] |
+| $$\cong$$ | [[等势]] |
+| $$\in$$ | [[属于关系]] |
+| $$\subseteq$$ | [[子集]] |
+| $$\subset$$ | [[真子集]] |
