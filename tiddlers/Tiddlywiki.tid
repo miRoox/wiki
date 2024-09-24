@@ -1,13 +1,14 @@
+aliases: 太微
 created: 20240625042503477
 creator: miRoox
-modified: 20240723054141577
+modified: 20240924072323416
 modifier: miRoox
-tags: 开发工具
+tags: 开发工具 开放源代码 Wiki引擎
 title: Tiddlywiki
 tmap.id: 2251fef0-cbf5-4f6f-9a38-11aa23fbedcc
 type: text/vnd.tiddlywiki
 
-''Tiddlywiki''，也叫''太微''。就是本网站使用的wiki。
+''Tiddlywiki''，也叫''太微''。就是本网站使用的[[Wiki引擎]]。
 
 * [ext[官网|https://tiddlywiki.com/]]
 * [ext[太微中文站|https://tw-cn.netlify.app/]]

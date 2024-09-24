@@ -1,0 +1,15 @@
+created: 20240924122409052
+creator: miRoox
+modified: 20240924131003196
+modifier: miRoox
+tags: .NET TODO 分类
+title: .NET实现
+tmap.id: 56691e1b-347b-4aef-ab60-002bacddae83
+type: text/vnd.tiddlywiki
+
+[[.NET]] 的实现包括：
+
+* 一个或多个运行时。
+* 实现 [[.NET Standard]] 版本的类库，可以包含其他 API。
+* 可选择包含一个或多个应用程序框架。
+* 可包含开发工具。

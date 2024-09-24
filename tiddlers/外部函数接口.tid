@@ -1,0 +1,11 @@
+aliases: FFI
+created: 20240924130014535
+creator: miRoox
+modified: 20240924130446924
+modifier: miRoox
+tags: 应用程序接口 TODO 软件接口
+title: 外部函数接口
+tmap.id: 9932f039-b185-4398-88c9-238a06f71ddb
+type: text/vnd.tiddlywiki
+
+''外部函数接口''（foreign function interface, FFI）是一种机制，允许程序在不同[[语言|计算机语言]]之间交互。

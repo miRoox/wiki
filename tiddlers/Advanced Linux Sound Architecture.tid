@@ -1,9 +1,11 @@
+aliases: ALSA
+caption: ALSA
 created: 20230317020443397
 creator: miRoox
-modified: 20240417050551708
+modified: 20240924125346714
 modifier: miRoox
-tags: 程序框架
-title: ALSA
+tags: 程序框架 TODO
+title: Advanced Linux Sound Architecture
 tmap.id: 970aa501-923a-4050-a5b6-12455af4f0e1
 type: text/vnd.tiddlywiki
 

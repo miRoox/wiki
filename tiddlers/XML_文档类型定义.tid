@@ -1,0 +1,12 @@
+aliases: 文档类型定义 DTD
+caption: 文档类型定义
+created: 20240924101708998
+creator: miRoox
+modified: 20240924102350970
+modifier: miRoox
+tags: 可扩展标记语言 TODO [[XML schema语言]]
+title: XML:文档类型定义
+tmap.id: 0125c7f9-c237-4e9b-a93b-d5a59d675b07
+type: text/vnd.tiddlywiki
+
+[[XML|可扩展标记语言]]文件的''文档类型定义''（Document Type Definition）可以看成一个或者多个XML文件的模板，在这里可以定义XML文件中的元素、元素的属性、元素的排列方式、元素包含的内容等等。

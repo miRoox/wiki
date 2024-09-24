@@ -1,0 +1,11 @@
+aliases: *nix Unix-like 类Unix
+created: 20240924115049716
+creator: miRoox
+modified: 20240924115411564
+modifier: miRoox
+tags: 操作系统 TODO 分类
+title: 类Unix系统
+tmap.id: 3ec8ed2b-3a90-4842-9eef-c39375b5832b
+type: text/vnd.tiddlywiki
+
+类Unix系统（Unix-like；经常被称为UN*X或*nix）指各种[[Unix]]的派生系统，比如FreeBSD、OpenBSD、SUN的Solaris，以及各种与传统Unix类似的系统，例如Minix、[[Linux]]、[[QNX]]等。

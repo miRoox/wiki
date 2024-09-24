@@ -1,0 +1,12 @@
+aliases: MathML
+caption: MathML
+created: 20240924101047825
+creator: miRoox
+modified: 20240924102136024
+modifier: miRoox
+tags: 可扩展标记语言 TODO 标记语言
+title: 数学标记语言
+tmap.id: 4359f1cd-592c-4746-b159-847b75b4b0f4
+type: text/vnd.tiddlywiki
+
+''数学标记语言''（Mathematical Markup Language，MathML），是一种基于[[XML|可扩展标记语言]]的标准，用来描述数学[[符号|符号表]]和[[公式|数学公式]]。

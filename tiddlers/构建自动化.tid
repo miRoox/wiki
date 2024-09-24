@@ -1,0 +1,10 @@
+created: 20240924124418892
+creator: miRoox
+modified: 20240924124720621
+modifier: miRoox
+tags: 开发工具 TODO 分类
+title: 构建自动化
+tmap.id: b242bf11-f651-4ea4-9f8a-20038a99381e
+type: text/vnd.tiddlywiki
+
+''构建自动化''（Build automation）指自动创建软件构建的一组进程，包括将计算机[[源代码]][[编译]]成二进制码、将二进制码包装成软件包以及运行自动化测试。

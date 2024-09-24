@@ -1,0 +1,12 @@
+aliases: POSIX
+caption: POSIX
+created: 20240924114731100
+creator: miRoox
+modified: 20240924115454930
+modifier: miRoox
+tags: TODO 应用程序接口
+title: 可移植操作系统接口
+tmap.id: 74d294f0-cf98-4a5c-b4c8-580f116cca56
+type: text/vnd.tiddlywiki
+
+''可移植操作系统接口''（Portable Operating System Interface, ''POSIX''）是IEEE为要在各种[[Unix]]操作系统上运行软件，而定义[[API|应用程序接口]]的一系列互相关联的标准的总称

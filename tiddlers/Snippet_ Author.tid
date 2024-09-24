@@ -1,0 +1,11 @@
+caption: 作者作品列表
+created: 20240924091819784
+creator: miRoox
+modified: 20240924091941053
+modifier: miRoox
+tags: $:/tags/TextEditor/Snippet $:/internal
+title: Snippet: Author
+tmap.id: e2abeaf7-a5d6-4842-83be-40bca38f72a2
+type: text/vnd.tiddlywiki
+
+<<list-links "[field:author<currentTiddler>]">>

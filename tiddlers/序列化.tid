@@ -1,0 +1,10 @@
+created: 20240924102626200
+creator: miRoox
+modified: 20240924102911123
+modifier: miRoox
+tags: TODO 编码
+title: 序列化
+tmap.id: c102374f-fdfb-44e6-bec4-334f22e362a2
+type: text/vnd.tiddlywiki
+
+''序列化''（serialization）在[[计算机科学]]的数据处理中，是指将[[数据结构]]或对象状态转换成可取用格式（例如存成[[文件]]，存于缓冲，或经由网络中发送），以留待后续在相同或另一台计算机环境中，能恢复原先状态的过程。依照序列化格式重新获取[[字节]]的结果时，可以利用它来产生与原始对象相同语义的副本。
