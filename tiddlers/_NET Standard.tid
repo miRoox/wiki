@@ -1,0 +1,10 @@
+created: 20240924123226668
+creator: miRoox
+modified: 20240924130829654
+modifier: miRoox
+tags: .NET TODO 应用程序接口
+title: .NET Standard
+tmap.id: 8c033cf7-171e-42f6-9576-4592dfa1932e
+type: text/vnd.tiddlywiki
+
+''.NET Standard'' 是针对多个 [[.NET实现]]推出的一套正式的 [[.NET]] [[API|应用程序接口]] 规范。 推出 .NET Standard 的背后动机是要提高 .NET 生态系统中的一致性。 .NET 5 及更高版本采用不同的方法来建立一致性，这种方法在大多数情况下都不需要 .NET Standard。 但如果要在 [[.NET Framework]] 和其他任何 .NET 实现（例如 .NET Core）之间共享代码，则库必须面向 .NET Standard 2.0。

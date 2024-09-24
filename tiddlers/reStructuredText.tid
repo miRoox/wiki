@@ -1,0 +1,11 @@
+aliases: rst
+created: 20240924115637982
+creator: miRoox
+modified: 20240924115711672
+modifier: miRoox
+tags: 标记语言 TODO 文件格式
+title: reStructuredText
+tmap.id: 64c2bb85-1ef7-4609-a9ce-b7dd88f4753e
+type: text/vnd.tiddlywiki
+
+''reStructuredText''（RST、ReST或reST）是一种用于文本数据的文件格式，主要用于 [[Python]] 编程语言社区的技术文档。

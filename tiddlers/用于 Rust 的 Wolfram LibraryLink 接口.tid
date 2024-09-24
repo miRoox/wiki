@@ -1,0 +1,17 @@
+aliases: wll-rs
+created: 20240924092121847
+creator: miRoox
+modified: 20240924093053533
+modifier: miRoox
+tags: 参与的项目 TODO
+title: 用于 Rust 的 Wolfram LibraryLink 接口
+tmap.id: c4b80923-9f39-4aa5-8350-064924f06d4f
+type: text/vnd.tiddlywiki
+
+用于 [[Rust]] 的 [[Wolfram LibraryLink]] 接口
+
+* [ext[wll-sys|https://crates.io/crates/wll-sys]] 底层接口绑定
+* [ext[wll-macros|https://crates.io/crates/wll-macros]] 提供类属性[[过程宏|Rust过程宏]]（受Rust本身的限制，过程宏必须由单独的包提供）
+* [ext[wll|https://crates.io/crates/wll]] 整合封装给用户使用的包
+
+[img[wll-rs:structure.drawio.svg]]

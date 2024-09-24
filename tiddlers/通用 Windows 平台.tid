@@ -1,0 +1,12 @@
+aliases: UWP
+caption: UWP
+created: 20240924122816823
+creator: miRoox
+modified: 20240924130831357
+modifier: miRoox
+tags: .NET实现 TODO
+title: 通用 Windows 平台
+tmap.id: 8636f5b6-7582-42c2-9f2f-45a1e31ac17c
+type: text/vnd.tiddlywiki
+
+''通用 Windows 平台''（Universal Windows Platform, ''UWP''） 是创建适用于 [[Windows|Microsoft Windows]] 的客户端应用程序的众多方法之一。

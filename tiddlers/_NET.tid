@@ -1,14 +1,20 @@
 caption: .NET
 created: 20191205081703899
 creator: miRoox
-modified: 20240728091033799
+modified: 20240924130821413
 modifier: miRoox
-tags: TODO 程序框架 程序库
+tags: TODO 程序框架 分类
 title: .NET
 tmap.id: 3805d6a8-6508-4e5c-a5d3-080781da90fe
 type: text/vnd.tiddlywiki
 
-! .NET
+''.NET'' 有多个变体，每个变体都支持不同类型的应用。 有多个变体的原因一部分是历史信息相关、一部分是技术相关。
+
+[[.NET实现]]：
+
+* [[.NET Framework]]：原始 .NET。 它提供对 Windows 和 Windows Server 的广泛功能的访问权限。
+* [[Mono|.NET:Mono]]：原始社区和[[开放源代码]] .NET。 一个跨平台 .NET Framework 实现。
+* [[.NET (Core)]]：新式 .NET。 .NET 的一个跨平台开放源代码实现，已针对云时代进行了反思，同时与 .NET Framework 保持极大的兼容。
 
 !! 外部链接
 

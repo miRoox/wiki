@@ -2,13 +2,11 @@ aliases: 框架
 caption: 框架
 created: 20230316102112873
 creator: miRoox
-modified: 20240910092144608
+modified: 20240924125802459
 modifier: miRoox
 tags: 计算机科学与工程 分类
 title: 程序框架
 tmap.id: 44ae614d-d930-4512-87ec-5004ec282b2a
 type: text/vnd.tiddlywiki
 
-! 框架（Framework）
-
-程序框架往往是一系列[[程序库]]的集合，甚至涉及多种[[计算机语言]]。
+程序框架（Framework）往往是一系列[[程序库]]的集合，甚至涉及多种[[计算机语言]]。

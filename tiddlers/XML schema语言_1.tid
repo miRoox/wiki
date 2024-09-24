@@ -1,0 +1,10 @@
+created: 20240924101951080
+creator: miRoox
+modified: 20240924102350959
+modifier: miRoox
+tags: 可扩展标记语言 TODO 标记语言 分类
+title: XML schema语言
+tmap.id: 993a29c0-8dcb-4130-8486-b48c243a78de
+type: text/vnd.tiddlywiki
+
+''XML schema''是指各种[[XML|可扩展标记语言]]文档（称作schema），用于表示在XML一般规则之外的特定文档的结构与内容的约束。

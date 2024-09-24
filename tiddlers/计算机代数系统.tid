@@ -1,11 +1,11 @@
 aliases: CAS
 created: 20240724123148812
 creator: miRoox
-modified: 20240910092842222
+modified: 20240924072435727
 modifier: miRoox
 tags: TODO 软件 分类
 title: 计算机代数系统
 tmap.id: 2691e1ba-ec7d-479d-a44e-787fa25cc3b2
 type: text/vnd.tiddlywiki
 
-''计算机代数系统''（computer algebra system，''CAS''）是进行''符号运算''的软件。这种系统的要件是数学表达式符号运算。
+''计算机代数系统''（computer algebra system，''CAS''）是进行''符号运算''的[[软件]]。这种系统的要件是[[数学表达式]]符号运算。

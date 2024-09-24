@@ -1,11 +1,12 @@
+aliases: 压缩采样 稀疏采样
 caption: 压缩感知
 created: 20191018051229226
 creator: miRoox
-modified: 20191018051252038
+modified: 20240924135144480
 modifier: miRoox
-tags: 信号-系统-控制
+tags: 信号处理
 title: 压缩感知
 tmap.id: 5726d334-6ec7-45e4-b7ef-297e62cb8482
 type: text/vnd.tiddlywiki
 
-! 压缩感知
+''压缩感知''（Compressed sensing），也被称为''压缩采样''（Compressive sampling）或''稀疏采样''（Sparse sampling），是一种寻找欠定线性系统的稀疏解的技术。
