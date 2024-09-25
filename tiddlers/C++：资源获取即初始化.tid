@@ -1,10 +1,11 @@
+aliases: RAII
 caption: RAII
 created: 20190924030056855
 creator: miRoox
-modified: 20230316091619584
+modified: 20240925095558445
 modifier: miRoox
 tags: C++惯用法
-title: 资源获取即初始化
+title: C++：资源获取即初始化
 tmap.id: 2af8fc90-ba81-4bca-8936-1b6207287ed4
 type: text/vnd.tiddlywiki
 

@@ -1,0 +1,13 @@
+aliases: 加速度定律
+created: 20240925124747852
+creator: miRoox
+modified: 20240925131704750
+modifier: miRoox
+tags: 牛顿运动定律 TODO 物理定律
+title: 牛顿第二定律
+tmap.id: 8a148a05-77f6-444b-8bcd-e23b792cc043
+type: text/vnd.tiddlywiki
+
+''牛顿第二定律''（Newton's second law of motion）表明，物体所受到的外[[力]]等于[[动量]]对时间的一阶[[导数]]。
+
+当物体[[质量]]恒定时，牛顿第二定律也可以表示为：物体所受到的外[[力]]等于质量与[[加速度]]的[[乘积|乘法]]。

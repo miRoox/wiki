@@ -1,0 +1,11 @@
+aliases: 即时操作系统 RTOS
+created: 20240925091144441
+creator: miRoox
+modified: 20240925091219962
+modifier: miRoox
+tags: 操作系统 TODO 分类
+title: 实时操作系统
+tmap.id: 466af538-6d34-4826-8256-0a9a25c69cb7
+type: text/vnd.tiddlywiki
+
+''实时操作系统''（Real-time operating system, RTOS），又称''即时操作系统''，它会按照排序执行、管理系统资源，并为开发应用程序提供一致的基础。

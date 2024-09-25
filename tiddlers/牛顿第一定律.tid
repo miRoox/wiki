@@ -1,0 +1,15 @@
+aliases: 惯性定律
+created: 20240925123906690
+creator: miRoox
+modified: 20240925131659374
+modifier: miRoox
+tags: 牛顿运动定律 TODO 物理定律
+title: 牛顿第一定律
+tmap.id: 0a17d2f4-6f20-4b1c-a6a4-d967f62cf53e
+type: text/vnd.tiddlywiki
+
+''牛顿第一定律''（Newton's first law of motion）又称''惯性定律''（law of inertia）：假若施加于某物体的合外[[力]]为[[零|?]]，则该物体的运动速度保持不变。
+
+$$
+\sum\vec{F}=0\implies\frac{\dd{\vec{v}}}{\dd{t}}=\vec{0}
+$$

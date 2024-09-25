@@ -1,6 +1,6 @@
 created: 20200108064042453
 creator: miRoox
-modified: 20230316103711663
+modified: 20240925121936563
 modifier: miRoox
 tags: 数值孔径 TODO 自聚焦
 title: 自聚焦的数值孔径
@@ -10,5 +10,5 @@ type: text/vnd.tiddlywiki
 ! 自聚焦的[[数值孔径]]
 
 $$
-NA=n_0\sin\theta_s=\sqrt{n^2(0)-n^2(R)}=\sqrt{(n_0+\Delta n)^2-n_0^2}\approx\sqrt{2n_0\Delta n}
+\mathrm{NA}=n_0\sin\theta_s=\sqrt{n^2(0)-n^2(R)}=\sqrt{(n_0+\Delta n)^2-n_0^2}\approx\sqrt{2n_0\Delta n}
 $$

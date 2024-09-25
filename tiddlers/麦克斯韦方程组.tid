@@ -1,6 +1,6 @@
 created: 20191017020521813
 creator: miRoox
-modified: 20191017030233373
+modified: 20240925122630353
 modifier: miRoox
 tags: 电磁学
 title: 麦克斯韦方程组
@@ -12,9 +12,6 @@ type: text/vnd.tiddlywiki
 !!! 积分形式
 
 $$
-\def\dd{\mathrm{d}}
-\def\vb{\boldsymbol}
-
 \begin{aligned}
 \oiint\vb{D}\cdot\dd\vb{s}&=Q\\
 \oiint\vb{B}\cdot\dd\vb{s}&=0\\

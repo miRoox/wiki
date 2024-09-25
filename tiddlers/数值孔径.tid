@@ -1,14 +1,15 @@
+aliases: NA
 created: 20191210083713183
 creator: miRoox
-modified: 20230316103711660
+modified: 20240925121854698
 modifier: miRoox
 tags: TODO 几何光学
 title: 数值孔径
 tmap.id: baf1d600-5c3e-4be4-bd3d-a2dc10aff748
 type: text/vnd.tiddlywiki
 
-! 数值孔径
+数值孔径（Numerical aperture, NA）是光学系统的一个无量纲数，用以衡量该系统能够收集的光的角度范围。
 
 $$
-NA=n_0\sin\theta
+\mathrm{NA}=n_0\sin\theta
 $$

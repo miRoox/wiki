@@ -1,14 +1,15 @@
+aliases: ASCII
 caption: ASCII
 created: 20190918115610996
 creator: miRoox
-modified: 20240906075444204
+modified: 20240925094529007
 modifier: miRoox
 tags: 字符编码 编码
-title: ASCII
+title: 美国信息交换标准代码
 tmap.id: dc6f2e2b-f1c7-4c9d-99e6-15f3863dc105
 type: text/vnd.tiddlywiki
 
-! ASCII
+''美国信息交换标准代码''（American Standard Code for Information Interchange, ''ASCII''）是基于[[拉丁字母|Latin script]]的一套[[字符编码]]标准。
 
 !! ASCII码表
 

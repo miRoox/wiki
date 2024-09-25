@@ -1,7 +1,8 @@
+aliases: ABCD矩阵
 caption: ABCD矩阵
 created: 20191106044233596
 creator: miRoox
-modified: 20230316103711656
+modified: 20240925121703418
 modifier: miRoox
 tags: TODO 几何光学
 title: 光线传播矩阵
@@ -33,7 +34,7 @@ $$
     A&B\\ C&D
 \end{bmatrix}
 $$
-叫做光线传播矩阵或者ABCD矩阵。
+叫做''光线传播矩阵''或者''ABCD矩阵''。
 
 [[Collins公式]]从[[积分变换|线性正则变换]]的角度表示了同样的东西。
 

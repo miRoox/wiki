@@ -1,0 +1,11 @@
+aliases: 组合子逻辑
+created: 20240925100654059
+creator: miRoox
+modified: 20240925100835990
+modifier: miRoox
+tags: 计算模型 TODO
+title: 组合子演算
+tmap.id: 772277ba-7a1b-4d04-8918-1ba0a6a173f3
+type: text/vnd.tiddlywiki
+
+组合子演算可以被看作是[[λ演算]]的变体，它把lambda表达式（用来允许函数抽象）替代为组合子的有限集合，它们是不包含自由变量的原始函数。

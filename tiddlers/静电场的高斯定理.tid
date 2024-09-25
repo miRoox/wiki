@@ -1,7 +1,7 @@
 caption: 高斯定理
 created: 20191115073149387
 creator: miRoox
-modified: 20191115073442022
+modified: 20240925122446121
 modifier: miRoox
 tags: 电磁学
 title: 静电场的高斯定理
@@ -13,7 +13,6 @@ type: text/vnd.tiddlywiki
 根据[[库仑定律]]可以导出静电场的高斯定理，这一定律也是[[麦克斯韦方程组]]的一部分
 
 $$
-\newcommand{\dd}{\,\mathrm{d}}
 \begin{aligned}
 \oiint_{S}\bm{E}\cdot\dd\bm{S}
 &=\frac{1}{4\pi\varepsilon_0}\oiint_S\iiint_{V_{\infty}}\frac{\rho(\bm{r}')(\bm{r}-\bm{r}')}{|\bm{r}-\bm{r}'|^3}\dd{V'}\dd\bm{S}\\

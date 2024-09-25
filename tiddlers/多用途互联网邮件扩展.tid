@@ -2,7 +2,7 @@ aliases: MIME
 caption: MIME
 created: 20240806085521575
 creator: miRoox
-modified: 20240831152517145
+modified: 20240925093530546
 modifier: miRoox
 tags: 应用层协议 电子邮件 文件格式元数据
 title: 多用途互联网邮件扩展
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 多用途互联网邮件扩展（Multipurpose Internet Mail Extensions，''MIME''）是一个互联网标准，它扩展了电子邮件标准，使其能够支持：
 
-* 非[[ASCII]]字符文本；
+* 非[[ASCII|美国信息交换标准代码]]字符文本；
 * 非文本格式附件（二进位制、声音、图片等）；
 * 由多部分（multiple parts）组成的消息体；
 * 包含非ASCII字符的标头信息（Header information）。

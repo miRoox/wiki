@@ -1,7 +1,7 @@
 caption: 电荷守恒定律
 created: 20191113075048944
 creator: miRoox
-modified: 20191113081142976
+modified: 20240925122347511
 modifier: miRoox
 tags: 电磁学
 title: 电荷守恒定律
@@ -15,7 +15,6 @@ type: text/vnd.tiddlywiki
 这一原理也可以表示为连续性方程
 
 $$
-\newcommand{\dd}{\,\mathrm{d}}
 \oiint_S\bm{J}\cdot\dd\bm{S}=-\iiint_V\frac{\partial\rho}{\partial t}\dd{V}
 $$
 

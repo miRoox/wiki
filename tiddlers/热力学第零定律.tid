@@ -1,0 +1,17 @@
+aliases: 热平衡定律
+created: 20240925130927528
+creator: miRoox
+modified: 20240925131747876
+modifier: miRoox
+tags: 热力学基本定律 TODO 物理定律
+title: 热力学第零定律
+tmap.id: b9f2c69b-bd9a-4d2d-a53b-e6ce2cca1266
+type: text/vnd.tiddlywiki
+
+''热力学第零定律''（Zeroth Law of Thermodynamics），又称''热平衡定律''，是一个关于互相接触的物体于热平衡时的描述，并为[[温度]]提供了理论基础。
+
+<<<
+若两个热力学系统均与第三个系统处于热平衡状态，此两个系统也必互相处于热平衡。	
+<<<
+
+换句话说，第零定律是指：热平衡是一个[[传递关系]]。

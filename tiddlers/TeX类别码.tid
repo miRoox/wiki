@@ -2,7 +2,7 @@ aliases: 类别码
 caption: 类别码
 created: 20190924080012385
 creator: miRoox
-modified: 20240910074959477
+modified: 20240925093457204
 modifier: miRoox
 tags: TeX基础
 title: TeX类别码
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 ! 类别码
 
-在TeX中，全部的[[ASCII]]字符被分为16个类，每个类对应于一个//类别码（category code）//。
+在TeX中，全部的[[ASCII|美国信息交换标准代码]]字符被分为16个类，每个类对应于一个//类别码（category code）//。
 
 | 字符的分类 |c
 | 类别码 | 含义 | 包含的字符 |h
