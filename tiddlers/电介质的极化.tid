@@ -1,7 +1,7 @@
 caption: 极化
 created: 20191113082544186
 creator: miRoox
-modified: 20230316103711654
+modified: 20240925122425039
 modifier: miRoox
 tags: TODO 电磁学
 title: 电介质的极化
@@ -21,7 +21,6 @@ $$
 考虑通过介质内部的一个闭合曲面$$S$$，有部分偶极子的一极穿出闭合曲面外，这部分电荷为
 
 $$
-\newcommand{\dd}{\,\mathrm{d}}
 \oiint_S nq\bm{l}\dd\bm{S}=\oiint_S n\bm{p}\dd\bm{S}
 =\oiint_S \bm{P}\dd\bm{S}
 $$
@@ -29,7 +28,6 @@ $$
 
 由于介质是电中性的，因此区域内也有等量的极性相反的电荷，即
 $$
-\newcommand{\dd}{\,\mathrm{d}}
 \iiint_V\rho_P\dd{V}=-\oiint_S \bm{P}\dd\bm{S}
 $$
 其中，$$\rho_P$$表示由于极化出现的束缚电荷的密度分布。

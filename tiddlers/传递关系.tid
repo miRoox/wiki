@@ -1,0 +1,11 @@
+aliases: 传递性
+created: 20240925131156113
+creator: miRoox
+modified: 20240925131328494
+modifier: miRoox
+tags: 二元关系
+title: 传递关系
+tmap.id: f329de7e-0b56-4de0-8575-eaaab8a0b1ea
+type: text/vnd.tiddlywiki
+
+给定[[集合]]$$S$$，$$\sim$$是$$S$$上的[[二元关系]]，且满足$$\forall x,y,z\in S, x\sim y\land y\sim z\implies x\sim z$$，则称$$\sim$$是$$S$$上的一个''传递关系''，或者说关系$$\sim$$具有''传递性''。

@@ -1,0 +1,10 @@
+created: 20240925132933213
+creator: miRoox
+modified: 20240925133036711
+modifier: miRoox
+tags: 计算机语言设计元素 TODO
+title: 多态
+tmap.id: 5de64dd7-bfb5-496f-ab64-b9a639f783a9
+type: text/vnd.tiddlywiki
+
+''多态''（polymorphism）指为不同[[数据类型]]的实体提供统一的接口，或使用一个单一的符号来表示多个不同的类型。

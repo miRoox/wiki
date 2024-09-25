@@ -1,6 +1,6 @@
 created: 20240806092602846
 creator: miRoox
-modified: 20240917103643159
+modified: 20240925093948847
 modifier: miRoox
 tags: TODO 附录 表示法
 title: 符号表
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 |! 符号| !含义 |
 | $$\Box$$ | ''占位符'' |
 
-!! [[拉丁字母]]衍生
+!! [[拉丁字母|Latin script]]衍生
 
 {{符号表：拉丁字母衍生}}
 

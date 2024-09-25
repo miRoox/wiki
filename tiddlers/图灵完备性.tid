@@ -1,11 +1,11 @@
 aliases: 图灵完备
 created: 20240910115102741
 creator: miRoox
-modified: 20240910115201086
+modified: 20240925100201358
 modifier: miRoox
 tags: 可计算性理论 TODO
 title: 图灵完备性
 tmap.id: 22898fdd-66a5-447b-82eb-add257508217
 type: text/vnd.tiddlywiki
 
-如果一系列操作数据的规则（如[[指令集]]、[[编程语言]]、[[元胞自动机]]）可以用来模拟任何[[图灵机]]，那么它便符合''图灵完备''（Turing-complete, computationally universal）。
+如果一系列操作数据的规则（如[[指令集|指令集架构]]、[[编程语言]]、[[元胞自动机]]）可以用来模拟任何[[图灵机]]，那么它便符合''图灵完备''（Turing-complete, computationally universal）。

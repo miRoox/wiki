@@ -1,10 +1,10 @@
 created: 20240914133154484
 creator: miRoox
-modified: 20240914133829878
+modified: 20240925133203805
 modifier: miRoox
 tags: 计算机语言设计元素 TODO
 title: 作用域
 tmap.id: 2a14ea78-f93a-432f-9993-9e34cbf1d7ac
 type: text/vnd.tiddlywiki
 
-''作用域''（scope，或译作''有效范''围）是名字（name）与实体（entity）的[[绑定|名字绑定]]（binding）保持有效的那部分程序代码。词法变量的作用域可以是一个函数或一段代码，该变量在这段代码区域内可见（visibility）；在这段区域以外该变量不可见（或无法访问）。
+''作用域''（scope，或译作''有效范''围）是[[名字|标识符]]（name）与实体（entity）的[[绑定|名字绑定]]（binding）保持有效的那部分程序代码。

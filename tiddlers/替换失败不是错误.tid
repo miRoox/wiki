@@ -1,14 +1,15 @@
+aliases: SFINAE
 caption: SFINAE
 created: 20200922104626765
 creator: miRoox
-modified: 20200922113307192
+modified: 20240925095949493
 modifier: miRoox
 tags: C++惯用法 C++语法 替换失败不是错误
 title: 替换失败不是错误
 tmap.id: c1209769-d98f-48e8-aeb4-839c124f4098
 type: text/vnd.tiddlywiki
 
-! “替换失败不是错误” (Substitution Failure Is Not An Error)
+“''替换失败不是错误''” (Substitution Failure Is Not An Error, SFINAE)
 
 在函数模板的重载决议中应用此规则：当将模板形参替换为显式指定的类型或推导的类型失败时，从重载集中丢弃这个特化，而非导致编译失败。
 

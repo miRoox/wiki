@@ -1,0 +1,11 @@
+aliases: 系统结构 体系结构
+created: 20240925091302329
+creator: miRoox
+modified: 20240925100302138
+modifier: miRoox
+tags: TODO 分类 计算机科学与工程
+title: 计算机体系结构
+tmap.id: 6b2d28d7-c664-4fa3-9011-094f9b063602
+type: text/vnd.tiddlywiki
+
+''计算机体系结构''（computer architecture），抽象来说是一个系统在其所处环境中最高层次的概念；它确定一台计算机硬件和软件之间的链接。具体地说计算机系统架构指的是计算机系统设计的观念与架构，描述计算机在实做的设计原则。

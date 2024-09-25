@@ -1,12 +1,12 @@
 aliases: WPF
 caption: WPF
-created: 20240716070652840
+created: 20240925125046954
 creator: miRoox
-modified: 20240924123144153
+modified: 20240925125131069
 modifier: miRoox
-tags: .NET TODO
+tags: 程序框架 TODO
 title: Windows Presentation Foundation
-tmap.id: 4cfefcf3-b05b-433d-a1d2-b4e84495e2c3
+tmap.id: c3208b84-12b4-4c96-8dbf-936e61397f02
 type: text/vnd.tiddlywiki
 
-''Windows Presentation Foundation'' (WPF)
+''Windows Presentation Foundation''（WPF）是一个与分辨率无关的 UI 框架。

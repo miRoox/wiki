@@ -1,6 +1,6 @@
 created: 20240917100921261
 creator: miRoox
-modified: 20240917101009794
+modified: 20240925122052736
 modifier: miRoox
 tags: 符号表 TODO
 title: 符号表：拉丁字母衍生
@@ -34,6 +34,7 @@ type: text/vnd.tiddlywiki
 | $$\ln$$ | [[自然对数函数]] |
 | $$\mse$$ | [[均方误差]] |
 | $$\N$$ | [[自然数]][[集|集合]] |
+| $$\mathrm{NA}$$ | [[数值孔径]] |
 | $$\ob$$ | [[范畴|数学：范畴]]的''对象'' |
 | $$\mathbb{P}$$ | [[质数]][[集|集合]] |
 | $$\mathcal{P}$$ | [[幂集]] |

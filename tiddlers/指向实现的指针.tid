@@ -1,16 +1,15 @@
+aliases: PImpl
 caption: PImpl
 created: 20190924052458686
 creator: miRoox
-modified: 20190924053651248
+modified: 20240925095812260
 modifier: miRoox
 tags: C++惯用法
 title: 指向实现的指针
 tmap.id: 59011c92-11bb-4e1b-921a-fdd4e2a3bd82
 type: text/vnd.tiddlywiki
 
-! 指向实现的指针（PImpl）
-
-//指向实现的指针（Pointer to implementation, pImpl）//是一种 C++ 编程技巧，它将类的实现细节从对象表示中移除，放到一个分离的类中，并以一个不透明的指针进行访问：
+''指向实现的指针''（Pointer to implementation, pImpl）是一种 [[C++]] 编程技巧，它将类的实现细节从对象表示中移除，放到一个分离的类中，并以一个不透明的指针进行访问：
 
 ```cpp
 // widget.h（接口）

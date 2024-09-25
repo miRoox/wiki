@@ -1,0 +1,11 @@
+aliases: 指令集 ISA 指令集体系
+created: 20240925095048962
+creator: miRoox
+modified: 20240925095231457
+modifier: miRoox
+tags: 计算机体系结构 TODO 分类
+title: 指令集架构
+tmap.id: a6d15708-fa06-4f13-86b0-54a4deaea751
+type: text/vnd.tiddlywiki
+
+''指令集架构''（Instruction Set Architecture, ISA），又称''指令集''或''指令集体系''，是[[计算机体系结构]]中与程序设计有关的部分，包含了[[基本数据类型]]，指令集，[[寄存器]]，[[寻址模式]]，[[存储体系]]，[[中断]]，[[异常处理]]以及外部[[I/O|?]]。
