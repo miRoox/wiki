@@ -1,10 +1,10 @@
 created: 20190930083518343
 creator: miRoox
-modified: 20240905090705457
+modified: 20240929085629812
 modifier: miRoox
 tags: TODO 工程光学 分类
 title: 像差
 tmap.id: d79960d2-07fa-4ecc-96f5-5ee3f812744c
 type: text/vnd.tiddlywiki
 
-! 像差
+''像差''（Optical aberration）指的是实际成像与根据单透镜理论确定的理想成像的偏离。

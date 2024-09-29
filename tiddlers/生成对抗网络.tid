@@ -1,0 +1,11 @@
+aliases: GAN
+created: 20240929110515604
+creator: miRoox
+modified: 20240929110703331
+modifier: miRoox
+tags: 人工神经网络 TODO
+title: 生成对抗网络
+tmap.id: a06828a2-180e-494d-a9a4-9c041cf605ee
+type: text/vnd.tiddlywiki
+
+''生成对抗网络''（Generative Adversarial Network, GAN）是[[无监督学习]]的一种方法，通过两个[[神经网络|人工神经网络]]相互[[博弈]]的方式进行学习。

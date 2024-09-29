@@ -1,18 +1,18 @@
 caption: 电荷守恒定律
 created: 20191113075048944
 creator: miRoox
-modified: 20240925122347511
+modified: 20240929104344474
 modifier: miRoox
-tags: 电磁学
+tags: 电磁学 物理定律 守恒定律
 title: 电荷守恒定律
 tmap.id: af9e449a-6085-4c95-8852-a74f39eef898
 type: text/vnd.tiddlywiki
 
 ! 电荷守恒定律
 
-不论发生任何过程，一个系统的总电荷严格保持不变。
+不论发生任何过程，一个系统的总[[电荷]]严格保持不变。
 
-这一原理也可以表示为连续性方程
+这一原理也可以表示为[[连续性方程]]
 
 $$
 \oiint_S\bm{J}\cdot\dd\bm{S}=-\iiint_V\frac{\partial\rho}{\partial t}\dd{V}

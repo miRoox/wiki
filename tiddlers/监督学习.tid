@@ -1,0 +1,10 @@
+created: 20240929110829341
+creator: miRoox
+modified: 20240929110901969
+modifier: miRoox
+tags: 机器学习 TODO
+title: 监督学习
+tmap.id: b1f71cde-2f12-46eb-a7ff-3c2d3393ae50
+type: text/vnd.tiddlywiki
+
+''监督学习''（Supervised learning），又叫''有监督学习''，''监督式学习''，是[[机器学习]]的一种方法，可以由训练资料中学到或建立一个模式（函数 / learning model），并依此模式推测新的实例。

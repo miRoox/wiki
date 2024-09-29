@@ -1,0 +1,12 @@
+aliases: GPT
+caption: GPT
+created: 20240929094717838
+creator: miRoox
+modified: 20240929095002009
+modifier: miRoox
+tags: 人工神经网络 TODO
+title: generative pre-trained transformers
+tmap.id: 5c6bd139-8a21-4eaa-831d-87ad9e513cbc
+type: text/vnd.tiddlywiki
+
+''基于转换器的生成式预训练模型''（generative pre-trained transformers，''GPT''）
