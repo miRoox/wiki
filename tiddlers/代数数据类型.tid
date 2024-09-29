@@ -1,0 +1,11 @@
+aliases: ADT
+created: 20240929113207578
+creator: miRoox
+modified: 20240929113254662
+modifier: miRoox
+tags: 数据类型 TODO
+title: 代数数据类型
+tmap.id: f54d77b6-d7e6-4670-b972-a48f4f34cc9f
+type: text/vnd.tiddlywiki
+
+''代数数据类型''（Algebraic data type, ADT）是一种[[复合类型]]，指由其他数据类型组合而成的类型。

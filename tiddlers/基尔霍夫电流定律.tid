@@ -1,0 +1,19 @@
+created: 20240929103213112
+creator: miRoox
+modified: 20240929103608692
+modifier: miRoox
+tags: 基尔霍夫电路定律 TODO 物理定律
+title: 基尔霍夫电流定律
+tmap.id: 78da2c1c-2deb-40f6-9471-d609614a0ed4
+type: text/vnd.tiddlywiki
+
+
+<<<
+假设进入某节点的[[电流]]为正值，离开这节点的电流为负值，则所有涉及这节点的电流的代数[[和|?]]等于[[零|?]]。
+<<<
+
+以方程表达，对于电路的任意节点，
+
+$$
+\sum i=0
+$$

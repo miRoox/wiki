@@ -1,0 +1,10 @@
+created: 20240929110718309
+creator: miRoox
+modified: 20240929110806922
+modifier: miRoox
+tags: 机器学习 TODO
+title: 无监督学习
+tmap.id: 5920ee1d-547d-463a-bb42-966793bd1c1b
+type: text/vnd.tiddlywiki
+
+''无监督学习''（unsupervised learning），又称''非监督式学习''，是[[机器学习]]的一种方法，没有给定事先标记过的训练示例，自动对输入的资料进行分类或分群。

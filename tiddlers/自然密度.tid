@@ -1,11 +1,11 @@
 aliases: 渐进密度
-created: 20240909122929988
+created: 20240929091207540
 creator: miRoox
-modified: 20240914090537319
+modified: 20240929091301095
 modifier: miRoox
-tags: 组合数学 TODO 数论
+tags: 数论 TODO 组合数学
 title: 自然密度
-tmap.id: a9342e71-4388-4354-bce8-420a3d0aee03
+tmap.id: e0b34b91-f4f0-47f9-8042-606300c7ab29
 type: text/vnd.tiddlywiki
 
 ''自然密度''（natural density），又称''渐进密度''（asymptotic density）是度量[[自然数]][[子集]]大小的工具之一。
