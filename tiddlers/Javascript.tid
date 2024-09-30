@@ -1,16 +1,14 @@
 caption: JavaScript
 created: 20190918115206083
 creator: miRoox
-modified: 20240917100533632
+modified: 20240930062433533
 modifier: miRoox
 tags: TODO 计算机语言 编程语言 脚本语言
 title: JavaScript
 tmap.id: 47392734-19c7-4c51-9304-7a170d948473
 type: text/vnd.tiddlywiki
 
-! JavaScript
-
-JavaScript 是一种具有函数优先的轻量级，解释型或即时编译型的[[编程语言]]。虽然它是作为开发Web页面的脚本语言而出名的，但是它也被用到了很多非浏览器环境中，例如 [[Node.js]]、 Apache CouchDB 和 Adobe Acrobat。
+''JavaScript'' 是一种具有函数优先的轻量级，解释型或即时编译型的[[编程语言]]。虽然它是作为开发Web页面的脚本语言而出名的，但是它也被用到了很多非浏览器环境中，例如 [[Node.js]]、 Apache CouchDB 和 Adobe Acrobat。
 
 !! 外部链接
 

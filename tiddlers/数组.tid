@@ -1,0 +1,10 @@
+created: 20240930061246052
+creator: miRoox
+modified: 20240930061605593
+modifier: miRoox
+tags: 数据结构 TODO 数据类型
+title: 数组
+tmap.id: 4f3ca980-9d64-4ab1-81d9-289f7fdc980a
+type: text/vnd.tiddlywiki
+
+''数组''（array）是一种最常见的[[数据结构]]，是由相同类型的元素（element）的[[序列]]在一块连续的[[内存]]空间中存储的数据结构。

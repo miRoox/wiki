@@ -1,0 +1,17 @@
+aliases: 里氏替换原则
+created: 20240930084249639
+creator: miRoox
+modified: 20240930091925513
+modifier: miRoox
+tags: 面向对象程序设计原则 程序设计原则
+title: Liskov替换原则
+tmap.id: 97c6be9b-9d78-46b8-9122-f06bac4220a0
+type: text/vnd.tiddlywiki
+
+<<<
+派生类（子类）对象可以在程序中代替其基类（超类）对象。
+<<<
+
+$$
+S\subseteq T\implies\forall x:T,\forall y:S, p(x)\implies p(y)
+$$

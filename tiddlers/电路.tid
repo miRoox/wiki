@@ -1,0 +1,11 @@
+aliases: 电力线路 电气回路 回路
+created: 20240930093812061
+creator: miRoox
+modified: 20240930094418364
+modifier: miRoox
+tags: 电子电路 TODO
+title: 电路
+tmap.id: 8bdb8129-202a-425e-9da8-df174d4f770f
+type: text/vnd.tiddlywiki
+
+''电路''（electrical circuit）也称''电力线路''、''电气回路''、''回路''，一般是以[[导线]]将[[电路组件]]用特定方式联结而组成，且至少须有一个封闭路径。

@@ -1,0 +1,11 @@
+aliases: OCP
+created: 20240930084101796
+creator: miRoox
+modified: 20240930085822203
+modifier: miRoox
+tags: 面向对象程序设计原则 TODO 程序设计原则
+title: 开闭原则
+tmap.id: 99b95d30-0e93-43eb-ba23-d599b6ee53af
+type: text/vnd.tiddlywiki
+
+''开闭原则'' (The Open/Closed Principle, OCP) 规定“软件中的对象（类，模块，函数等等）应该对于扩展是开放的，但是对于修改是封闭的”

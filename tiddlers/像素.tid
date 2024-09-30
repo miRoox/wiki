@@ -1,0 +1,11 @@
+aliases: pixel
+created: 20240930061641737
+creator: miRoox
+modified: 20240930061820547
+modifier: miRoox
+tags: 数字图像处理 TODO
+title: 像素
+tmap.id: cba3b2d6-d74d-4ba7-9e3c-523d91e95f66
+type: text/vnd.tiddlywiki
+
+''像素''（pixel），为[[图像]]显示的基本单位。每个这样的信息元素不是一个[[点]]或者一个方块，而是一个抽象的[[采样]]。

@@ -1,13 +1,12 @@
 author: miRoox
 created: 20240613103336173
 creator: miRoox
-modified: 20240704132722684
+modified: 20240930054553669
 modifier: miRoox
 tags: 精神心理
 title: 自我诊断
 tmap.id: deeae009-b5f9-4309-bd45-b1d2143af753
 type: text/vnd.tiddlywiki
-
 
 !! 缺乏安全感
 
@@ -16,3 +15,7 @@ type: text/vnd.tiddlywiki
 !! 否定型思维
 
 {{自我诊断：否定型思维}}
+
+!! 道德感
+
+{{自我诊断：道德感}}

@@ -1,0 +1,11 @@
+aliases: 透明盒测试 结构测试
+created: 20240930060334091
+creator: miRoox
+modified: 20240930060522549
+modifier: miRoox
+tags: 软件测试方法 TODO
+title: 白盒测试
+tmap.id: 02b5e8e9-c62f-4372-a3d0-0e265fe13755
+type: text/vnd.tiddlywiki
+
+''白盒测试''（white-box testing）又称''透明盒测试''（glass box testing）、''结构测试''（structural testing）等，软件测试的主要方法之一。与[[黑盒测试]]相对，测试应用程序的内部结构或运作，而不是测试应用程序的功能。

@@ -1,11 +1,11 @@
 caption: Qt
 created: 20190918115920876
 creator: miRoox
-modified: 20240924125525275
+modified: 20240930092542968
 modifier: miRoox
-tags: TODO 程序库 程序框架
+tags: TODO 程序库 程序框架 C++第三方库 跨平台
 title: Qt
 tmap.id: dae2f826-6d05-446d-809e-e973fd150cff
 type: text/vnd.tiddlywiki
 
-''Qt''是一个跨平台的[[C++]]应用[[程序开发框架|程序框架]]。
+''Qt''是一个[[跨平台]]的[[C++]]应用[[程序开发框架|程序框架]]。
