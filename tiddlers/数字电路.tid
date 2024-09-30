@@ -1,0 +1,10 @@
+created: 20240930093527032
+creator: miRoox
+modified: 20240930094059753
+modifier: miRoox
+tags: 电子电路 TODO 电路
+title: 数字电路
+tmap.id: 92c08650-2770-416f-adf6-1527e5a9d791
+type: text/vnd.tiddlywiki
+
+''数字电路''（Digital electronics）是由[[逻辑门]]和[[触发器]]等组成的[[电路]]，主要进行[[数字信号]]的[[处理|数字信号处理]]。

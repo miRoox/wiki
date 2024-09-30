@@ -1,7 +1,7 @@
 caption: Octave
 created: 20191003084201215
 creator: miRoox
-modified: 20240924071221184
+modified: 20240930063147455
 modifier: miRoox
 tags: 开放源代码 科学计算 TODO 开发工具 软件
 title: Octave
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 ! Octave
 
-高度兼容 [[MATLAB]] 的开源软件。
+高度兼容 [[MATLAB]] 的[[开源|开放源代码]]软件。
 
 !! 外部链接
 

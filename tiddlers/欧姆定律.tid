@@ -1,0 +1,13 @@
+created: 20240930094511846
+creator: miRoox
+modified: 20240930094653961
+modifier: miRoox
+tags: 电子电路 TODO 物理定律 电磁学
+title: 欧姆定律
+tmap.id: 70ed32d8-98e6-4716-9ad6-66c3f17a42fb
+type: text/vnd.tiddlywiki
+
+''欧姆定律''（Ohm's law）表明：[[电导体]]两端的[[电压]]$$V$$与通过电导体的[[电流]]$$I$$成正比:
+$$
+V\propto I
+$$

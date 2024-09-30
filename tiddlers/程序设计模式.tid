@@ -1,0 +1,16 @@
+aliases: 设计模式
+caption: 设计模式
+created: 20240902141139876
+creator: miRoox
+modified: 20240930083432898
+modifier: miRoox
+tags: 分类 TODO 软件工程
+title: 程序设计模式
+tmap.id: ccfee902-5313-4e34-95f3-a1830c4279ae
+type: text/vnd.tiddlywiki
+
+''设计模式''（design pattern）是对程序设计中普遍存在（反复出现）的各种问题，所提出的解决方案。设计模式并不直接用来完成代码的编写，而是描述在各种不同情况下，要怎么解决问题的一种方案。
+
+!! 链接
+
+* [[图说设计模式|https://design-patterns.readthedocs.io/zh-cn/latest/index.html]]

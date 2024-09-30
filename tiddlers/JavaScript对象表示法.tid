@@ -2,11 +2,11 @@ aliases: JSON
 caption: JSON
 created: 20240924113445773
 creator: miRoox
-modified: 20240924124059490
+modified: 20240930062404728
 modifier: miRoox
 tags: 序列化 TODO 标记语言 文件格式
 title: JavaScript对象表示法
 tmap.id: 99af19c5-6562-47c6-941f-5150c1b32138
 type: text/vnd.tiddlywiki
 
-''JavaScript对象表示法''（JavaScript Object Notation,  ''JSON''）是一种轻量级数据交换格式。JSON是[[JavaScript]]的子集，但也可以用于其它[[编程语言]]。
+''JavaScript对象表示法''（JavaScript Object Notation,  ''JSON''）是一种轻量级数据交换格式。JSON是[[JavaScript]]的[[子集]]，但也可以用于其它[[编程语言]]。

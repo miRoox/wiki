@@ -1,0 +1,15 @@
+created: 20240930095043632
+creator: miRoox
+modified: 20240930095438854
+modifier: miRoox
+tags: 热力学基本定律 TODO 物理定律
+title: 热力学第一定律
+tmap.id: ee6123fe-02c6-42cf-ae6b-1a8af469e18c
+type: text/vnd.tiddlywiki
+
+''热力学第一定律''（First Law of Thermodynamics）是[[能量守恒定律]]对[[非孤立系统]]的扩展。此时[[能量]]可以以[[功]]$$W$$或[[热量]]$$Q$$的形式传入或传出系统：
+
+$$
+\Delta E_{\text{int}}=Q-W
+$$
+

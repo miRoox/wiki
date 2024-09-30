@@ -1,11 +1,11 @@
 aliases: 反模式
 created: 20240830091250872
 creator: miRoox
-modified: 20240830091854400
+modified: 20240930082749682
 modifier: miRoox
-tags: TODO 设计模式 分类
+tags: TODO 程序设计模式 分类
 title: 反面模式
 tmap.id: 272f539f-1cc9-41fc-a812-0f30b276fad1
 type: text/vnd.tiddlywiki
 
-反面模式（anti-pattern/antipattern）指的是在实践中经常出现但又低效或是有待优化的[[设计模式]]，是用来解决问题的带有共同性的不良方法。
+''反面模式''（anti-pattern/antipattern）指的是在实践中经常出现但又低效或是有待优化的[[设计模式|程序设计模式]]，是用来解决问题的带有共同性的不良方法。

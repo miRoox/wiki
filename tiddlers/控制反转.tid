@@ -1,0 +1,11 @@
+aliases: IoC
+created: 20240930081532574
+creator: miRoox
+modified: 20240930085841378
+modifier: miRoox
+tags: TODO 面向对象程序设计原则 程序设计原则
+title: 控制反转
+tmap.id: 415a2d4e-5798-466e-8851-f60458bda025
+type: text/vnd.tiddlywiki
+
+''控制反转''（Inversion of Control, IoC），是[[面向对象编程|面向对象程序设计]]中的一种[[设计原则|程序设计原则]]，可以用来减低计算机代码之间的耦合度。

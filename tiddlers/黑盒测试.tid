@@ -1,0 +1,11 @@
+aliases: 黑箱测试
+created: 20240930060223965
+creator: miRoox
+modified: 20240930060355680
+modifier: miRoox
+tags: 软件测试方法 TODO
+title: 黑盒测试
+tmap.id: 3394e076-e786-49eb-b0f4-375b89c800dc
+type: text/vnd.tiddlywiki
+
+''黑盒测试''（black-box testing），也称''黑箱测试''，是[[软件测试方法]]，测试应用程序的功能，而不是其内部结构或运作。测试者不需具备应用程序的代码、内部结构和编程语言的专门知识。测试者只需知道什么是系统应该做的事，即当键入一个特定的输入，可得到一定的输出。

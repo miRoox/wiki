@@ -1,11 +1,10 @@
-caption: 程序包
 created: 20191102060954227
 creator: miRoox
-modified: 20191102061104714
+modified: 20240930080448990
 modifier: miRoox
-tags: Julia语言
+tags: Julia语言 分类 程序库
 title: Julia程序包
 tmap.id: c4b4d8cc-e803-4612-83af-8cc41bfaa166
 type: text/vnd.tiddlywiki
 
-<<list-links "[tag<currentTiddler>]">>
+[[Julia语言]]的程序包

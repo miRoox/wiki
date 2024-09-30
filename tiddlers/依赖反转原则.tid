@@ -1,0 +1,11 @@
+aliases: DIP
+created: 20240930085439283
+creator: miRoox
+modified: 20240930085855758
+modifier: miRoox
+tags: 面向对象程序设计原则 TODO 程序设计原则
+title: 依赖反转原则
+tmap.id: d8f8e1e4-4099-4aa5-9fa3-2f3086a85327
+type: text/vnd.tiddlywiki
+
+''依赖反转原则''（Dependency inversion principle，DIP）是指一种特定的解耦（传统的依赖关系建立在高层次上，而具体的策略设置则应用在低层次的模块上）形式，使得高层次的模块不依赖于低层次的模块的实现细节，依赖关系被颠倒（反转），从而使得低层次模块依赖于高层次模块的需求抽象。
