@@ -1,12 +1,12 @@
-aliases: Shell
+aliases: Shell 壳层
 caption: Shell
 created: 20230316104802146
 creator: miRoox
-modified: 20240910093556788
+modified: 20241011031106551
 modifier: miRoox
 tags: 软件 分类 TODO
 title: 壳层程序
 tmap.id: aa440c9b-cbd1-4c7d-80e0-05c0f0b4717e
 type: text/vnd.tiddlywiki
 
-''Shell''（也称为''壳层''）在[[计算机科学]]中指“为用户提供用户界面”的[[软件]]，与[[内核|系统内核]]（Kernel）相对。
+''Shell''（也称为''壳层''）在[[计算机科学]]中指“为用户提供用户界面”的[[软件]]，与[[内核|操作系统内核]]（Kernel）相对。
