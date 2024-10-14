@@ -1,0 +1,40 @@
+created: 20241012062759816
+creator: miRoox
+modified: 20241012065826054
+modifier: miRoox
+tags: HowTos
+title: 在WSL2内使用Windows宿主机上的代理
+tmap.id: 7209c42c-cba0-435c-8b9e-edfde99a36f8
+type: text/vnd.tiddlywiki
+
+<<<
+如何在[[WSL2|Windows Subsystem for Linux 2]]内使用[[Windows|Microsoft Windows]]宿主机上的代理
+<<<
+
+!! 让代理软件允许来自局域网的连接
+
+我Windows上的代理软件是[[v2rayN]]，默认没有开启“允许来自局域网的连接”，需要打开
+
+!! 在WSL2里获取Windows主机的[[IP|网际协议]]地址
+
+WSL 2 会将 Windows 主机的 IP 地址写入` /etc/resolv.conf` 文件中的 `nameserve`r 字段。 可以使用以下命令提取该 IP 地址：
+
+```sh
+cat /etc/resolv.conf | grep nameserver | awk '{print $2}'
+```
+
+!! 修改代理配置
+
+环境变量(`/etc/environment`)：
+
+```
+http_proxy=http://<proxy_ip>:<proxy_port>
+https_proxy=http://<proxy_ip>:<proxy_port>
+```
+
+APT代理(`/etc/apt/apt.conf.d/proxy.conf`)：
+
+```
+Acquire::http::Proxy "http://<proxy_ip>:<proxy_port>/";
+Acquire::https::Proxy "http://<proxy_ip>:<proxy_port>/";
+```

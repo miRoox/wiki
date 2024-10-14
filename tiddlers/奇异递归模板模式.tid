@@ -1,0 +1,11 @@
+aliases: CRTP
+created: 20241012080951919
+creator: miRoox
+modified: 20241012081131699
+modifier: miRoox
+tags: C++惯用法 TODO
+title: 奇异递归模板模式
+tmap.id: 2187baf1-ee68-46d7-ba0e-b42ec502b065
+type: text/vnd.tiddlywiki
+
+''奇异递归模板模式''（Curiously Recurring Template Pattern, CRTP），通常用来实现[[静态多态]]。

@@ -1,8 +1,7 @@
 aliases: PImpl
-caption: PImpl
 created: 20190924052458686
 creator: miRoox
-modified: 20240930090132817
+modified: 20241012081219912
 modifier: miRoox
 tags: C++惯用法 程序设计模式
 title: 指向实现的指针
