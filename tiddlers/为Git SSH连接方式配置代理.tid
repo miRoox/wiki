@@ -1,0 +1,26 @@
+created: 20241014080955674
+creator: miRoox
+modified: 20241014081934077
+modifier: miRoox
+tags: HowTos TODO
+title: 为Git SSH连接方式配置代理
+tmap.id: 4585afac-dd4e-4dcc-acf6-fd9509843b08
+type: text/vnd.tiddlywiki
+
+!! 全局[[HTTP|?]]代理
+
+```sh
+git config --global http.proxy http://{proxyserver}:{port}
+git config --global https.proxy http://{proxyserver}:{port}
+```
+
+!! 只为特定的主机（例如GitHub）设置代理
+
+
+编辑[[SSH|?]]配置文件（`~\.ssh\config`）
+
+```conf
+Host github.com
+    ProxyCommand "C:/Program Files/Git/mingw64/bin/connect.exe" -H {proxyserver}:{port} %h %p
+```
+

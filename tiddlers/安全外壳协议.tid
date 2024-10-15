@@ -1,0 +1,12 @@
+aliases: SSH
+caption: SSH
+created: 20241014081311569
+creator: miRoox
+modified: 20241014081643388
+modifier: miRoox
+tags: TODO 通信协议
+title: 安全外壳协议
+tmap.id: d3a27b28-bbd8-46bf-8544-584cabb95921
+type: text/vnd.tiddlywiki
+
+''安全外壳协议''（Secure Shell Protocol, ''SSH''）是一种加密的网络[[传输协议|通信协议]]，可在不安全的网络中为网络服务提供安全的传输环境。
