@@ -1,14 +1,12 @@
 caption: 疑难排解
-color: #00fa79
+color: #fae500
 created: 20231019101004841
 creator: miRoox
-modified: 20240628135446463
+modified: 20241014084935852
 modifier: miRoox
 tags: 分类
 title: Troubleshooting
 tmap.id: 5847b887-01fc-492a-bea4-fad32c5d45be
 type: text/vnd.tiddlywiki
 
-! Troubleshooting
-
-<<list-links "[tag<currentTiddler>]">>
+疑难问题的排解方法。

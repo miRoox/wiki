@@ -1,0 +1,15 @@
+created: 20241014084052537
+creator: miRoox
+modified: 20241014084309796
+modifier: miRoox
+tags: Troubleshooting TODO
+title: 开启全局代理后，qBittorrent一直显示DHT:0
+tmap.id: d588a58b-8a60-4266-be63-599faa6f48c0
+type: text/vnd.tiddlywiki
+
+<<<
+开启全局代理后，[[qBittorrent]]一直显示DHT:0
+<<<
+
+# 调整网络设置：确保在qBittorrent的设置中，DHT功能已启用。进入“选项” -> “BitTorrent”，确保“启用DHT”选项被勾选。
+# 保证
