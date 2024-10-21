@@ -1,0 +1,15 @@
+aliases: DOI
+caption: DOI
+created: 20191117065415045
+creator: miRoox
+doi-value: 
+modified: 20241021142629585
+modifier: miRoox
+tags: TODO 文献资源 网站
+title: DOI解析服务
+tmap.id: d6e44f06-cb07-42f2-91e0-bc02e460fb30
+type: text/vnd.tiddlywiki
+
+[[http://dx.doi.org/]]提供了对[[数字对象唯一标识符]]的在线解析服务。
+
+<$edit-text field="doi-value" placeholder="10.nnnnnn/example"/><$set name="doi-link" filter="[get[doi-value]addprefix[https://doi.org/]]"><$button><$action-sendmessage $message="tm-open-external-window" $param=<<doi-link>> />Go!</$button></$set>

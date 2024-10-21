@@ -1,7 +1,7 @@
 caption: 文献
 created: 20191117024832599
 creator: miRoox
-modified: 20191117073146374
+modified: 20241021142626488
 modifier: miRoox
 tags: 在线资源
 title: 文献资源
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 
 ! 文献
 
-* [[DOI解析]]
+* [[DOI解析服务]]
 * [[Sci-Hub]]
 * [[arXiv|https://arxiv.org/]]
 * [[SCI - Web of Science|http://webofknowledge.com/]]
