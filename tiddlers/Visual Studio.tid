@@ -1,9 +1,11 @@
-aliases: VS
+aliases: VS MSVS
 created: 20240910092725965
 creator: miRoox
-modified: 20241024145000597
+modified: 20241026143935253
 modifier: miRoox
 tags: 集成开发环境 TODO 开发工具 软件
 title: Visual Studio
 tmap.id: fdf94c7e-717b-44e0-8b46-260ecb9cc929
 type: text/vnd.tiddlywiki
+
+''Microsoft Visual Studio'' 是一个基本完整的开发工具集，它包括了整个软件生命周期中所需要的大部分工具，如UML工具、代码管控工具、[[集成开发环境]]等等。
