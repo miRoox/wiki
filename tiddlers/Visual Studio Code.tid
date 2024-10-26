@@ -2,14 +2,16 @@ aliases: VSC
 caption: Visual Studio Code
 created: 20191010120745807
 creator: miRoox
-modified: 20241024145113326
+modified: 20241026144118724
 modifier: miRoox
 tags: 开放源代码 开发工具 TODO 软件
 title: Visual Studio Code
 tmap.id: 251d211b-88f2-460e-b30b-ad14b69a0693
 type: text/vnd.tiddlywiki
 
-! Visual Studio Code
+''Visual Studio Code'' 是一款轻量级但功能强大代码编辑器。
+
+它和[[Visual Studio]]事实上是完全不同的产品，只是营销上赋予了这个名称。
 
 !! 外部链接
 
