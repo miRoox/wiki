@@ -1,0 +1,29 @@
+created: 20241110070230904
+creator: miRoox
+modified: 20241110071156908
+modifier: miRoox
+tags: HowTos 转载
+title: Redmi AX6S 解锁 SSH
+tmap.id: 36dc704f-0264-4f0a-b6f4-5bb6d31920ee
+type: text/vnd.tiddlywiki
+
+# 更新系统 ROM 版本到开发版，开发版默认已开启 Telnet<br/>使用浏览器进入小米路由器管理后台，进入 常用设置 -> 系统状态，点击 手动升级，选择下载好的开发版固件点击开始升级。<br/>Redmi AX6S 开发版固件下载地址：[[miwifi_rb03_firmware_stable_1.2.7.bin|https://raw.githubusercontent.com/lemoeo/AX6S/main/miwifi_rb03_firmware_stable_1.2.7.bin]]
+# 获取 Telnet & SSH 登录路由器的 root 用户密码<br/>打开 [[https://miwifi.dev/ssh]] ，输入小米路由器管理后台首页显示的序列号（SN），点击 Calc 即可计算出密码。
+# 使用 Telnet 协议连接路由器，执行下面 开启 SSH 服务 的命令，命令执行成功后就可以使用 SSH 协议连接路由器了。
+```sh
+# Telnet 连接信息
+IP 地址：192.168.31.1
+端口号：23
+用户名：root
+密码：<上一步获取的密码>
+
+# SSH 连接信息
+IP 地址：192.168.31.1
+端口号：22
+用户名：root
+密码：<上一步获取的密码>
+
+# 开启 SSH 服务
+nvram set telnet_en=1 && nvram set ssh_en=1 && nvram set uart_en=1 && nvram set boot_wait=on && nvram commit
+/etc/init.d/dropbear enable & /etc/init.d/dropbear start
+```
