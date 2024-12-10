@@ -1,0 +1,11 @@
+aliases: JWT
+created: 20241210132850903
+creator: miRoox
+modified: 20241210133508683
+modifier: miRoox
+tags: 计算机网络 TODO
+title: JSON Web Token
+tmap.id: 2d3188e7-12cd-41fe-979c-2cd10e633ca8
+type: text/vnd.tiddlywiki
+
+JSON Web Token（''JWT''）是一种基于 [[JSON|JavaScript对象表示法]] 的开放标准（RFC 7519），JWT 会透过 [[HMAC]]、[[RSA]]、[[ECDS]] 等演算法进行加密，而 JWT 是以 Header、Payload、Signature 以 [[Base64]] 做编码，并且以`.`来分隔。
