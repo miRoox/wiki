@@ -1,0 +1,23 @@
+aliases: MVVM
+created: 20241210130941318
+creator: miRoox
+modified: 20241210132752166
+modifier: miRoox
+tags: 程序设计模式
+title: 模型-视图-视图模型
+tmap.id: e4a28774-a3e1-4779-8ca2-86a3b7cbabe2
+type: text/vnd.tiddlywiki
+
+模型-视图-视图模型 (Model-View-ViewModel， ''MVVM'')是一种分离应用程序中用户界面，业务逻辑和数据模型的方法。
+
+!! Model
+
+模型代表应用程序的数据模型，单纯处理数据存取。
+
+!! View
+
+视图是用户界面，用于显示数据和接收用户输入。
+
+!! ViewModel
+
+视图模型是一个绑定模型和视图的中间层，用于处理用户界面交互和将数据从模型传递到视图，主要是负责业务逻辑的部分。
