@@ -1,0 +1,12 @@
+created: 20241211123733600
+creator: miRoox
+modified: 20241211124012593
+modifier: miRoox
+tags: 代码托管 TODO 开放源代码
+title: Gitea
+tmap.id: 612f5386-184f-404f-b4a5-5aa4d3ce89fe
+type: text/vnd.tiddlywiki
+
+''Gitea''是一个使用[[Git]]的软件开发和版本控制平台。
+
+Gitea 支持自托管建立实例，同时也提供一个免费的公共实例 [ext[gitea.com|https://gitea.com/]]

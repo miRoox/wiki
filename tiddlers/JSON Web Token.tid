@@ -1,7 +1,7 @@
 aliases: JWT
 created: 20241210132850903
 creator: miRoox
-modified: 20241210133508683
+modified: 20241211131555715
 modifier: miRoox
 tags: 计算机网络 TODO
 title: JSON Web Token
@@ -9,3 +9,22 @@ tmap.id: 2d3188e7-12cd-41fe-979c-2cd10e633ca8
 type: text/vnd.tiddlywiki
 
 JSON Web Token（''JWT''）是一种基于 [[JSON|JavaScript对象表示法]] 的开放标准（RFC 7519），JWT 会透过 [[HMAC]]、[[RSA]]、[[ECDS]] 等演算法进行加密，而 JWT 是以 Header、Payload、Signature 以 [[Base64]] 做编码，并且以`.`来分隔。
+
+* Header：由 `alg` 和 `typ` 两个字段组成
+** `alg`：Signature 所要使用的[[加密算法]]
+** `typ`：token 种类，基本上是 JWT
+* Payload：又被称为 Claims，主要会分成以下部分
+** Registered Claims：一些标准公认信息
+*** `iss`：发行人
+*** `iat`：发行时间
+*** `exp`：到期日
+*** `sub`：主题
+*** `aud`：收件人
+*** `nbf`：不接受早于…日期/时间
+*** `jti`：唯一识别符
+** Public Claims：向官方申请公开声明
+** Private Claims：自定义讯息，可以放一些非机敏的数据。
+* Signature：由三个部分组成
+** `base64UrlEncode(header)`
+** `base64UrlEncode(payload)`
+** secret
