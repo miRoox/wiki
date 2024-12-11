@@ -1,0 +1,16 @@
+created: 20241211125627101
+creator: miRoox
+modified: 20241211130948721
+modifier: miRoox
+tags: Blender操作 TODO
+title: Blender基础视角操作
+tmap.id: 4d8e4c36-7cad-46c8-a10b-12894850c45e
+type: text/vnd.tiddlywiki
+
+基础视角操作：
+
+* 按住 鼠标中键 并滑动：旋转视场
+* 按住 <kbd>Shift</kbd>+鼠标中键 并滑动：平移视场
+* 滚动 鼠标中键：缩放视场
+* 点击视场区域右上侧的抓手按钮：平移视场
+* 点击视场区域右上侧的

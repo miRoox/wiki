@@ -1,7 +1,7 @@
 caption: 代码托管
 created: 20191130103842789
 creator: miRoox
-modified: 20241014083227196
+modified: 20241211124148716
 modifier: miRoox
 tags: TODO 在线资源 分类
 title: 代码托管
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 ! 代码托管
 
 * [[GitHub]]
-* [[GitLab|https://about.gitlab.com/]]
+* [[GitLab]]
 * [[BitBucket|https://bitbucket.org/]]
 * [[Gitee|https://gitee.com/]]
 * [[Coding.net|https://coding.net/]]

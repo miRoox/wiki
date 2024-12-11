@@ -1,0 +1,44 @@
+created: 20241211124401104
+creator: miRoox
+modified: 20241211124802092
+modifier: miRoox
+tags: HowTos
+title: 利用Docker部署Forgejo
+tmap.id: 4050b921-7a8f-4709-bcca-c05d25f9324f
+type: text/vnd.tiddlywiki
+
+利用[[Docker]]部署[[Forgejo]]
+
+`docker-compose.yml`:
+
+```yaml
+version: '3'
+
+networks:
+  forgejo:
+    external: false
+
+services:
+  server:
+    image: codeberg.org/forgejo/forgejo:latest
+    container_name: forgejo
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+    restart: always
+    networks:
+      - forgejo
+    volumes:
+      - ./forgejo:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - '3000:3000'
+      - '222:22'
+```
+
+然后在目录运行
+
+```sh
+docker-compose up -d
+```
