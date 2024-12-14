@@ -2,14 +2,14 @@ aliases: Ares
 caption: Ares
 created: 20240714040001461
 creator: miRoox
-modified: 20240929070026016
+modified: 20241214080459284
 modifier: miRoox
 tags: TODO 游戏引擎 红色警戒2：Modding
 title: 尤里的复仇：Ares
 tmap.id: 5d43ea0b-4cdb-441f-9129-232b74e4dd5e
 type: text/vnd.tiddlywiki
 
-Ares是[[尤里的复仇]]的一个扩展[[引擎|游戏引擎]]。使用Syringe实现将程序注入到运行中的可执行程序而不修改原始可执行文件。
+''Ares''是[[尤里的复仇]]的一个扩展[[引擎|游戏引擎]]。使用Syringe实现将程序注入到运行中的可执行程序而不修改原始可执行文件。
 
 !! 相关链接：
 
