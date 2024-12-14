@@ -1,10 +1,15 @@
 created: 20241210134717492
 creator: miRoox
-modified: 20241211125532370
+modified: 20241214075355622
 modifier: miRoox
 tags: 三维图形软件 TODO 图形软件 开放源代码 软件
 title: Blender
 tmap.id: fb657cfc-313b-42d4-801b-c3be5f4596f6
 type: text/vnd.tiddlywiki
 
-''Blender''是一款自由和开源的三维计算机[[图形软件]]，它可以用于创建和渲染[[三维模型]]、动画、游戏、视觉效果等。
+''Blender''是一款自由和开源的三维计算机[[图形软件]]，它可以用于创建和渲染[[三维模型]]、[[动画]]、[[游戏|电子游戏]]、视觉效果等。
+
+
+!! 参见：
+
+* [[Blender 3.0 参考手册|https://docs.blender.org/manual/zh-hans/3.0/index.html]]
