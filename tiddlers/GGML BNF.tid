@@ -1,0 +1,11 @@
+aliases: GBNF
+created: 20241222140958724
+creator: miRoox
+modified: 20241222141641049
+modifier: miRoox
+tags: 巴科斯-诺尔范式 TODO 形式文法
+title: GGML BNF
+tmap.id: e2abc66f-d990-4e54-9928-7e922450da3e
+type: text/vnd.tiddlywiki
+
+GGML BNF（GBNF）是一种用于约束[[llama.cpp]]中模型输出的[[形式文法]]。
