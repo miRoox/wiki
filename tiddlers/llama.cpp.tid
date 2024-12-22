@@ -1,0 +1,14 @@
+created: 20241222141254516
+creator: miRoox
+modified: 20241222142156856
+modifier: miRoox
+tags: TODO
+title: llama.cpp
+tmap.id: 6e3cf1a1-6fa1-4625-8700-06ae6a647c3e
+type: text/vnd.tiddlywiki
+
+llama.cpp是一个推理[[LLaMa]]模型的[[C++]]项目
+
+!! 相关链接
+
+- [[项目地址|https://github.com/ggerganov/llama.cpp]]
