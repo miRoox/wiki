@@ -1,0 +1,18 @@
+aliases: 字母表
+caption: 字母表
+created: 20241227145439314
+creator: miRoox
+modified: 20241227145940925
+modifier: miRoox
+tags: 形式文法 TODO
+title: 形式语言理论：字母表
+tmap.id: acd2e134-3af8-4c12-acac-c55076662f85
+type: text/vnd.tiddlywiki
+
+在[[形式语言理论]]中，''字母表''是[[字符]]的[[有限集合]]。
+
+如果$$L$$是一种[[形式语言]]，即一个（可能是无限的）有限长度[[字符串]]的[[集合]]，那么$$L$$的字母表就是$$L$$的任何字符串中出现的所有符号的集合。
+
+!! 符号表示
+
+给定一个字母表$$\Sigma$$，则字母表$$\Sigma$$上所有长度为$$n$$的字符串的集合用$$\Sigma ^{n}$$表示。

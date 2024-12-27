@@ -1,21 +1,21 @@
 created: 20240624140326941
 creator: miRoox
 link-prefix: CSF文件格式：
-modified: 20240624150313167
+modified: 20241227144657671
 modifier: miRoox
 tags: CSF文件格式 CSF文件格式：标签
 title: CSF文件格式：字符串对
 tmap.id: 47e24c2d-da05-4d8f-9045-e44286275c98
 type: text/vnd.tiddlywiki
 
-理论上每个<<plink 标签>>可以包含多个字符串对，不过实际上游戏只会读取第一个。
+理论上每个<<plink 标签>>可以包含多个[[字符串]]对，不过实际上游戏只会读取第一个。
 
 一个字符串对由一个Unicode编码的`Value`和一个ASCII编码的`ExtraValue`组成，一个标签可以包含不止一个这样的字符串对，但实际上只有第一个字符串对的`Value`会被游戏所使用。
 
 |!偏移量 | !类型 | !描述 | !详情 |
 |0x00|`char[4]`| `RTS` 或 `WRTS` 标识符 |`RTS`意味着这个标签 **没有** `ExtraValue`。 <br> `WRTS`意味着在`Value`数据后还跟着`ExtraValue`的数据（见下）。 <br> 其它任何数据都是无效的。 |
 |0x04|`DWORD`| 值长度(`ValueLength`) |它保存后面的[[Unicode]]字符串（`Value`）的长度。 |
-|0x08|`byte[ValueLength*2]`| ''编码后的''标签的值(`Value`)。 |注意它有`ValueLength*2`字节长，因为值是一个Unicode字符串，即每个字符是一个字(word)而不是一个字节(byte)。 <br> 注意将这里的数据解码成Unicode字符串时，需要先[[按位取反|逻辑非]]。 |
+|0x08|`byte[ValueLength*2]`| ''编码后的''标签的值(`Value`)。 |注意它有`ValueLength*2`字节长，因为值是一个Unicode字符串，即每个字符是一个字(word)而不是一个[[字节(byte)|字节]]。 <br> 注意将这里的数据解码成Unicode字符串时，需要先[[按位取反|逻辑非]]。 |
 |0x8+ValueLength*2|`DWORD`| 附加值长度(`ExtraValueLength`) |这里保存了后面跟着的额外数据(ExtraValue)字符串的长度。 <br> 只有上面的标识符为“WRTS”而不是“RTS”时，这个字段以及后面的数据才会存在。 |
 |0x8+ValueLength*2+0x4|`char[ExtraValueLength]`| 额外值(`ExtraValue`) |与标签名相似，这是一个长度为`ExtraValueLength`的''非''[[空终止字符串]]。如果长度超过的话，剩下部分的会被截去。 |
 
@@ -24,7 +24,7 @@ type: text/vnd.tiddlywiki
 一个[[C++]]的示例：
 
 ```cpp
-int ValueDataLength = ValueLength << 1;
+int ValueDataLength = ValueLength * 2;
 for(int i = 0; i < ValueDataLength; ++i) {
   ValueData[i] = ~ValueData[i];
 }

@@ -1,0 +1,47 @@
+aliases: [[Kleene 星号]] 闭包
+created: 20241227142831240
+creator: miRoox
+modified: 20241227152724525
+modifier: miRoox
+tags: TODO 形式语言理论 辨析：闭包 一元运算
+title: Kleene 闭包
+tmap.id: 0b7475fa-94ee-4f9a-a214-1969ebe4d776
+type: text/vnd.tiddlywiki
+
+''Kleene 闭包''（也叫 ''Kleene 星号''）是一种适用于[[字符串]]或符号及字元的[[集合]]的[[一元运算]]。
+
+当 Kleene 星号被应用在一个集合$$V$$时，写法是$$ V^{*}$$。
+
+!! 定义
+
+考虑 $$V$$ 是一个[[形式语言]]，递归定义一组集合$$\{V_i\}$$满足
+
+$$
+\begin{align*}
+V^0&=\{\varepsilon\}\\
+V^{i+1}&=\{wv:w\in V^i, v \in V\} \quad (i\ge 0)
+\end{align*}
+$$
+
+则$$V$$的Kleene 闭包
+$$
+V^*=\bigcup_{i=0}^\infty V^i
+$$
+
+就是说，它是从$$V$$中的符号生成的所有可能的有限长度的字符串的搜集。
+
+!! 例子
+
+Kleene 星号应用于字符串集合的例子：
+
+* {"ab", "c"}* = {ε, "ab", "c", "abab", "abc", "cab", "cc", "ababab", "ababc", "abcab", "abcc", "cabab", "cabc", "ccab", "ccc", ...}
+
+Kleene 星号应用于字元集合的例子：
+
+* {'a', 'b', 'c'}* = {ε, "a", "b", "c", "aa", "ab", "ac", "ba", "bb", "bc", ...}
+
+!! 推广（[[代数闭包]]）
+
+Kleene 闭包经常推广到任何[[幺半群]] $$(M,\circ)$$
+
+如果$$V$$是$$M$$的[[子集]]，则 $$V^*$$ 被定义为包含[[幺元|单位元]]并对运算 $$\circ$$ [[封闭|封闭性]]的$$V$$的最小[[超集]]。

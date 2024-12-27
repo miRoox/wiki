@@ -1,10 +1,10 @@
 created: 20240624145447588
 creator: miRoox
-modified: 20240624145532537
+modified: 20241227145327654
 modifier: miRoox
 tags: 字符串
 title: 空终止字符串
 tmap.id: f82472b8-ade1-41ec-8dc5-b979429505c3
 type: text/vnd.tiddlywiki
 
-以空字符`\0`结尾作为定界符的[[字符串]]。
+以[[空字符]]`\0`结尾作为定界符的[[字符串]]。
