@@ -1,0 +1,12 @@
+created: 20241227150000904
+creator: miRoox
+modified: 20241227150321520
+modifier: miRoox
+tags: TODO 字符串运算 二元运算
+title: 串接
+tmap.id: b6d6c70f-c032-4d3f-a98e-e55ebf95a9de
+type: text/vnd.tiddlywiki
+
+''串接''（Concatenation）指将两个[[字符串]]的首尾相接的操作。例如“foo”和“bar”串接后便成了“foobar”。
+
+''串接''事实上可以用于任何有限长[[序列]]的连接。

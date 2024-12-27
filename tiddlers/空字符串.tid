@@ -1,0 +1,13 @@
+aliases: 空串
+created: 20241227144746812
+creator: miRoox
+modified: 20241227151438626
+modifier: miRoox
+tags: TODO 字符串 形式语言理论 辨析：空值 单位元
+title: 空字符串
+tmap.id: 6e44a5cf-6019-4ee0-8092-87905fb5bd0d
+type: text/vnd.tiddlywiki
+
+[[形式语言理论]]中，''空字符串''（简称''空串''）是指在字母表$$\Sigma$$上，其长度为 [[0]] 的那唯一[[字符串]]，通常以$$\varepsilon$$或$$\lambda$$来标记。
+
+空串可以看作是[[串接]]的[[单位元]]。
