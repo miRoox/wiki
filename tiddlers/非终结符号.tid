@@ -1,0 +1,11 @@
+aliases: 非终结符
+created: 20241228055416734
+creator: miRoox
+modified: 20241228055539720
+modifier: miRoox
+tags: 形式文法 形式语言理论
+title: 非终结符号
+tmap.id: b921f674-8021-4301-a7c7-4cfc387ab69e
+type: text/vnd.tiddlywiki
+
+''非终结符''（Non-terminal）是可以被取代的符号。一个[[形式文法]]中必须有一个起始符号；这个起始符号属于非终结符的[[集合]]。

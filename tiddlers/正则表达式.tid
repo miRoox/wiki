@@ -2,11 +2,13 @@ aliases: RE regex regexp
 caption: 正则表达式
 created: 20190918115454220
 creator: miRoox
-modified: 20240924095945639
+modified: 20241228131735338
 modifier: miRoox
-tags: TODO 计算机语言
+tags: TODO 计算机语言 分类 形式语言
 title: 正则表达式
 tmap.id: 3107dac8-fb6e-4f20-bf96-5e6449109517
 type: text/vnd.tiddlywiki
 
 ''正则表达式''（regular expression，常简写为regex、regexp或RE）是用简单字符串来描述、匹配文中全部匹配指定格式的[[字符串]]
+
+理论上正则表达式对应于[[正则文法]]，实际上一般[[编程语言]]的正则表达式实现都超过正则文法的表达范围。

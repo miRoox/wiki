@@ -1,9 +1,9 @@
 aliases: BNF 巴科斯范式
 created: 20241222105158513
 creator: miRoox
-modified: 20241222141533720
+modified: 20241228061133075
 modifier: miRoox
-tags: TODO 形式语言 形式文法
+tags: TODO 形式文法 表示法
 title: 巴科斯-诺尔范式
 tmap.id: 87eff119-ac22-4427-8b3d-f93aea550b88
 type: text/vnd.tiddlywiki
@@ -12,4 +12,4 @@ type: text/vnd.tiddlywiki
 
 尽管巴科斯范式也能表示一部分[[自然语言]]的语法，它还是更广泛地使用于[[程序设计语言|编程语言]]、[[指令集|指令集架构]]、通信协议的语法表示中。大多数程序设计语言或者形式语义方面的教科书都采用 BNF 。
 
-BNF 由三部分组成：一组[[非终结符]]、一组[[终结符]]以及用符号序列替换非终结符的规则。
+BNF 由三部分组成：一组[[非终结符号]]、一组[[终结符号]]以及用符号序列替换非终结符的规则。
