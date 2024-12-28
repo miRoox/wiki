@@ -1,0 +1,11 @@
+aliases: 终结符
+created: 20241228055156142
+creator: miRoox
+modified: 20241228055528750
+modifier: miRoox
+tags: 形式文法 形式语言理论
+title: 终结符号
+tmap.id: 5acba8e9-0284-497b-9c76-cdea02b95119
+type: text/vnd.tiddlywiki
+
+''终结符''（Terminal）是一个[[形式语言]]的基本符号。就是说，它们能在一个形式语法的推导规则的输入或输出[[字符串]]存在，而且它们不能被分解成更小的单位。

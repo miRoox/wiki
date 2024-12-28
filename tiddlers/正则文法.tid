@@ -1,0 +1,31 @@
+aliases: 3-型文法
+created: 20241228061407121
+creator: miRoox
+modified: 20241228131837508
+modifier: miRoox
+tags: 乔姆斯基谱系 形式文法
+title: 正则文法
+tmap.id: 787dccf7-cd8c-4ead-8c15-b60868709670
+type: text/vnd.tiddlywiki
+
+''正则文法''是产生式规则取下述形式的一种[[形式文法]] $$ (N,\Sigma ,P,S)$$：
+
+* $$A\to a$$，其中$$A\in N, a\in\Sigma$$
+* $$A\to aB$$，其中$$A,B\in N, a\in\Sigma$$
+* $$C\to\varepsilon$$，其中$$C\in N$$
+
+!! 示例
+
+考虑文法$$G= (N,\Sigma ,P,S)$$，其中$$N=\set{S,A},\Sigma=\set{a,b,c}$$，$$P$$包含如下规则：
+
+$$
+\begin{align*}
+S&\to aS\\
+S&\to bA\\
+A&\to\varepsilon\\
+A&\to cA
+\end{align*}
+$$
+
+这个文法描述的语言也可以用[[正则表达式]] `a*bc*` 来表达。
+

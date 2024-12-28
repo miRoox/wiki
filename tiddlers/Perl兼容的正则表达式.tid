@@ -1,0 +1,12 @@
+aliases: PCRE
+caption: PCRE
+created: 20241228062015482
+creator: miRoox
+modified: 20241228062209627
+modifier: miRoox
+tags: 正则表达式 TODO
+title: Perl兼容的正则表达式
+tmap.id: 9d5959ff-4912-4cb2-b6f3-853e63d66748
+type: text/vnd.tiddlywiki
+
+[[Perl]]兼容的正则表达式（Perl Compatible Regular Expressions, ''PCRE''）

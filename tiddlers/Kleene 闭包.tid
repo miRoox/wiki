@@ -1,7 +1,7 @@
 aliases: [[Kleene 星号]] 闭包
 created: 20241227142831240
 creator: miRoox
-modified: 20241227152724525
+modified: 20241228063018768
 modifier: miRoox
 tags: TODO 形式语言理论 辨析：闭包 一元运算
 title: Kleene 闭包
@@ -18,8 +18,8 @@ type: text/vnd.tiddlywiki
 
 $$
 \begin{align*}
-V^0&=\{\varepsilon\}\\
-V^{i+1}&=\{wv:w\in V^i, v \in V\} \quad (i\ge 0)
+V^0&=\set{\varepsilon}\\
+V^{i+1}&=\set{wv:w\in V^i, v \in V} \quad (i\ge 0)
 \end{align*}
 $$
 
