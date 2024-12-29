@@ -2,7 +2,7 @@ aliases: 字母表
 caption: 字母表
 created: 20241227145439314
 creator: miRoox
-modified: 20241228054426519
+modified: 20241229151925082
 modifier: miRoox
 tags: TODO 形式语言理论
 title: 形式语言理论：字母表
@@ -15,4 +15,4 @@ type: text/vnd.tiddlywiki
 
 !! 符号表示
 
-给定一个字母表$$\Sigma$$，则字母表$$\Sigma$$上所有长度为$$n$$的字符串的集合用$$\Sigma ^{n}$$表示。
+给定一个字母表$$\Sigma$$，则字母表$$\Sigma$$上所有长度为$$n$$的字符串的集合用$$\Sigma ^{n}$$表示。我们写 $$\Sigma ^{*}$$ 来指示在字母表$$\Sigma$$上的所有有限字符串的集合([[Kleene闭包]])。
