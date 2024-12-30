@@ -1,0 +1,19 @@
+aliases: chcp
+created: 20241230150103976
+creator: miRoox
+modified: 20241230150411798
+modifier: miRoox
+tags: cmd.exe 命令行程序
+title: chcp.com
+tmap.id: 777b129f-4480-4d88-84db-aa83529fb89f
+type: text/vnd.tiddlywiki
+
+显示或设置活动[[代码页]]编号。
+
+```bat
+CHCP [nnn]
+```
+
+*  `nnn`   指定代码页编号。
+
+不带参数键入 `CHCP` 以显示活动代码页编号。

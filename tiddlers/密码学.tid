@@ -1,0 +1,12 @@
+aliases: Cryptography
+created: 20241230124824205
+creator: miRoox
+modified: 20241230125201172
+modifier: miRoox
+tags: 离散数学 计算机科学 TODO 分类 信息安全
+title: 密码学
+tmap.id: d2870ec3-ee0c-46ec-a120-0e3289a85d14
+type: text/vnd.tiddlywiki
+
+''密码学''（Cryptography）可分为古典密码学和现代密码学。
+古典密码学主要关注[[信息]]的保密书写和传递，以及与其相对应的破译方法。而现代密码学不只关注信息保密问题，还同时涉及信息完整性验证（消息验证码）、信息发布的不可抵赖性（[[数字签名]]）、以及在分布式计算中产生的来源于内部和外部的攻击的所有信息安全问题。

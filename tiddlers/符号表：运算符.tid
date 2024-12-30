@@ -1,6 +1,6 @@
 created: 20240917101424680
 creator: miRoox
-modified: 20240917102530899
+modified: 20241230124131048
 modifier: miRoox
 tags: 符号表 TODO
 title: 符号表：运算符
@@ -31,6 +31,7 @@ type: text/vnd.tiddlywiki
 |~| [[叉乘]] |
 |~| [[笛卡尔积]] |
 | $$\ast$$ | [[卷积]] |
+| $$\Box^{*}$$ | [[Kleene闭包]] |
 | $$\div$$ | [[除法]] |
 | $$/$$ | [[除法]] |
 |~| [[商集]] |
