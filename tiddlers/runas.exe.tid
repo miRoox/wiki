@@ -1,0 +1,46 @@
+aliases: runas
+created: 20241230145057039
+creator: miRoox
+modified: 20241230145925486
+modifier: miRoox
+tags: 命令行程序 cmd.exe
+title: runas.exe
+tmap.id: 9b4ba5ff-cd4b-49c1-8276-a6f18adb42d8
+type: text/vnd.tiddlywiki
+
+`RUNAS` 用法:
+
+```bat
+RUNAS [ [/noprofile | /profile] [/env] [/savecred | /netonly] ]
+        /user:<UserName> program
+
+RUNAS [ [/noprofile | /profile] [/env] [/savecred] ]
+        /smartcard [/user:<UserName>] program
+
+RUNAS /trustlevel:<TrustLevel> program
+```
+
+*  `/noprofile`        指定不应该加载用户的配置文件。这会加速应用程序加载，但可能会造成一些应用程序运行不正常。
+*   `/profile`          指定应该加载用户的配置文件。这是默认值。
+*   `/env`              要使用当前环境，而不是用户的环境。
+*  `/netonly `         只在指定的凭据限于远程访问的情况下才使用。
+*   `/savecred`         用用户以前保存的凭据。Windows 7 家庭版或 Windows 7 简易版上没有这个选项该选项会被忽略。
+*   `/smartcard`        如果凭据是智能卡提供的，则使用这个选项。
+*   `/user   <UserName>` 应使用 `USER@DOMAIN` 或 `DOMAIN\USER` 形式
+*  `/showtrustlevels`  显示可以用作 `/trustleve`l 的参数的信任级别。
+ *  `/trustlevel <Level>` 应该是在 `/showtrustlevel`s 中枚举的一个级别。
+ *  `program`           EXE 的命令行。请参阅下面的例子
+
+示例:
+
+```bat
+runas /noprofile /user:mymachine\administrator cmd
+runas /profile /env /user:mydomain\admin "mmc %windir%\system32\dsa.msc"
+runas /env /user:user@domain.microsoft.com "notepad \"my file.txt\""
+```
+
+注意: 
+
+* 只在得到提示时才输入用户的密码。
+*  `/profile` 跟 `/netonly` 不兼容。
+* `/savecred` 跟` /smartcard` 不兼容。

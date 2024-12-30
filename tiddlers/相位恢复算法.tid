@@ -1,0 +1,12 @@
+aliases: 相位重建
+caption: 相位恢复
+created: 20191018030056571
+creator: miRoox
+modified: 20241230125431823
+modifier: miRoox
+tags: TODO 计算光学 分类 算法
+title: 相位恢复算法
+tmap.id: d700353e-c445-4d41-8702-6cfa510d01c3
+type: text/vnd.tiddlywiki
+
+''相位恢复''（Phase Retrieval）也叫''相位重建''，指在缺失[[相位]]信息时从信号中恢复完整相位信息的方法。

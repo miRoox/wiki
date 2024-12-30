@@ -2,14 +2,14 @@ aliases: GS算法 GS
 caption: GS算法
 created: 20191018045916782
 creator: miRoox
-modified: 20241011033016517
+modified: 20241230125248267
 modifier: miRoox
-tags: TODO 算法 相位恢复
+tags: TODO 算法 相位恢复算法
 title: Gerchberg–Saxton算法
 tmap.id: 0e8cb0cf-a005-4eb3-912d-b4d581811c5c
 type: text/vnd.tiddlywiki
 
-''Gerchberg–Saxton算法''是一种[[相位恢复]]算法，
+''Gerchberg–Saxton算法''是一种[[相位恢复算法]]，
 
 !! 参考文献
 
