@@ -1,9 +1,9 @@
 aliases: GBNF
 created: 20241222140958724
 creator: miRoox
-modified: 20241230124538621
+modified: 20241231120259906
 modifier: miRoox
-tags: 巴科斯-诺尔范式 形式文法
+tags: 巴科斯-诺尔范式 形式文法 领域特定语言
 title: GGML BNF
 tmap.id: e2abc66f-d990-4e54-9928-7e922450da3e
 type: text/vnd.tiddlywiki
@@ -36,3 +36,9 @@ GGML BNF（GBNF）是一种用于约束[[llama.cpp]]中模型输出的[[形式�
 [[注释|计算机：注释]]：可以在行首使用`#`添加注释
 
 在完整语法中，`root`对应规则始终定义文法的起点。换句话说，它指定整个输出必须匹配的内容。
+
+!! 示例
+
+!!! JSON
+
+{{GBNF示例：JSON}}

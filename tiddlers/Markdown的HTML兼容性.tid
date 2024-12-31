@@ -1,12 +1,14 @@
 caption: 兼容HTML
 created: 20191004091658432
-modified: 20191004091749717
+creator: miRoox
+modified: 20241231114217148
+modifier: miRoox
 tags: Markdown
 title: Markdown的HTML兼容性
 tmap.id: 36f1cfdb-f7e4-4b8b-a352-d48b3c237b51
 type: text/vnd.tiddlywiki
 
-!! 兼容 [[HTML]]
+!! 兼容 [[HTML|?]]
 
 Markdown 语法的目标是：成为一种适用于网络的书写语言。
 
