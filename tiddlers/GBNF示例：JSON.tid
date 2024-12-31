@@ -1,0 +1,39 @@
+created: 20241231115058126
+creator: miRoox
+modified: 20241231115925693
+modifier: miRoox
+tags: [[GGML BNF]]
+title: GBNF示例：JSON
+tmap.id: 215b2ddd-7dbd-4557-829a-94e95d76721b
+type: text/vnd.tiddlywiki
+
+[[JSON|?]]的语法用[[GBNF|GGML BNF]]表达的示例：
+
+
+```gbnf
+root   ::= object
+value  ::= object | array | string | number | ("true" | "false" | "null") ws
+
+object ::=
+  "{" ws (
+            string ":" ws value
+    ("," ws string ":" ws value)*
+  )? "}" ws
+
+array  ::=
+  "[" ws (
+            value
+    ("," ws value)*
+  )? "]" ws
+
+string ::=
+  "\"" (
+    [^"\\\x7F\x00-\x1F] |
+    "\\" (["\\bfnrt] | "u" [0-9a-fA-F]{4}) # escapes
+  )* "\"" ws
+
+number ::= ("-"? ([0-9] | [1-9] [0-9]{0,15})) ("." [0-9]+)? ([eE] [-+]? [0-9] [1-9]{0,15})? ws
+
+# Optional space: by convention, applied in this grammar after literal chars when allowed
+ws ::= | " " | "\n" [ \t]{0,20}
+```

@@ -1,14 +1,14 @@
 aliases: where
 created: 20241230150650140
 creator: miRoox
-modified: 20241230152026355
+modified: 20241231113847576
 modifier: miRoox
 tags: cmd.exe 命令行程序
 title: where.exe
 tmap.id: 100be7b5-a9fb-46ba-86a2-bd8f4db6a229
 type: text/vnd.tiddlywiki
 
-```bat
+```dos
 WHERE [/R dir] [/Q] [/F] [/T] pattern...
 ```
 
@@ -29,7 +29,7 @@ WHERE [/R dir] [/Q] [/F] [/T] pattern...
 
 !! 示例:
 
-```bat
+```dos
 WHERE /?
 WHERE myfilename1 myfile????.*
 WHERE $windir:*.*

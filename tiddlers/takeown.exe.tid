@@ -1,6 +1,6 @@
 created: 20241230152545060
 creator: miRoox
-modified: 20241230153003944
+modified: 20241231113947227
 modifier: miRoox
 tags: cmd.exe 命令行程序
 title: takeown.exe
@@ -21,7 +21,7 @@ TAKEOWN [/S system [/U username [/P [password]]]]
 *   `/S  system`          指定要连接到的远程系统。
 *   `/U  [domain\]use`r   指定用户上下文，命令在此上下文中执行。
 *   `/P  [password]`      指定给定用户上下文的密码。如果省略，提示输入。
-*   `/F  filename`        指定文件名或目录名模式。可以用通配符 "*"指定模式。允许共享名\文件名。
+*   `/F  filename`        指定文件名或目录名模式。可以用通配符 `"*"`指定模式。允许共享名\文件名。
 *   `/A`                          将所有权给于管理员组，而不是当前用户。
 *   `/R`                          递归: 指示工具运行于指定的目录和子目录里的文件上。
 *   `/D  prompt`          当前用户在一个目录里没有“列出文件夹”权限时，使用默认答案。当在子目录里进行递归 (/R) 操作时会发生这种情况。用有效值 "Y" 获取所有权或用 "N" 跳过。
@@ -52,4 +52,3 @@ TAKEOWN /S system /U user /P password /F Myshare\*
 TAKEOWN /S system /U user /P password /F Home\Logon /R
 TAKEOWN /S system /U user /P password /F Myshare\directory /R /A
 ```
-
