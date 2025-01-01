@@ -1,14 +1,14 @@
 aliases: fio
 created: 20240417082840348
 creator: miRoox
-modified: 20241230145054601
+modified: 20250101052341787
 modifier: miRoox
 tags: 开发工具 软件 命令行程序
-title: FIO
+title: fio
 tmap.id: 5c3abc0d-4c9c-40ba-ad0b-6177561c2c02
 type: text/vnd.tiddlywiki
 
-FIO是一个灵活的IO性能测试工具
+`fio`是一个灵活的IO性能测试工具
 
 !! 相关链接
 

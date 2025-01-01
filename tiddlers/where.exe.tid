@@ -1,7 +1,7 @@
 aliases: where
 created: 20241230150650140
 creator: miRoox
-modified: 20241231113847576
+modified: 20250101052235216
 modifier: miRoox
 tags: cmd.exe 命令行程序
 title: where.exe
@@ -41,7 +41,7 @@ WHERE /F /T *.dll
 
 !! 关于PowerShell中的使用
 
-在 [[PowerShell]] 中，`where` 是 `Where-Object` cmdlet 的别名。因此，直接使用 `where` 会调用 `Where-Object`，而不是 `where.exe`。
+在 [[PowerShell|Powershell脚本]] 中，`where` 是 `Where-Object` cmdlet 的别名。因此，直接使用 `where` 会调用 `Where-Object`，而不是 `where.exe`。
 
 要使用 `where.exe`，有几种方法：
 

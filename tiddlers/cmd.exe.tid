@@ -1,7 +1,8 @@
-aliases: cmd
+aliases: cmd 命令提示符
+caption: 命令提示符
 created: 20241230145328503
 creator: miRoox
-modified: 20241230145958899
+modified: 20250101052417162
 modifier: miRoox
 tags: 命令行程序 TODO 壳层程序
 title: cmd.exe
