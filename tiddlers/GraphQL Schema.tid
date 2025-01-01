@@ -1,0 +1,11 @@
+aliases: GraphQL架构 Schema
+created: 20250101052906661
+creator: miRoox
+modified: 20250101053249333
+modifier: miRoox
+tags: GraphQL TODO
+title: GraphQL Schema
+tmap.id: c05556d5-d3f5-4786-99b9-718f53f42679
+type: text/vnd.tiddlywiki
+
+[[GraphQL]]  通过[[类型系统]]描述了哪些数据可以通过 [[API|?]] 查询。这些功能统称为服务的''架构''（''Schema''），客户端可以基于该架构向 API 发送查询并返回可预测的结果。

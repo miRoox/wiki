@@ -1,0 +1,28 @@
+aliases: reg
+created: 20250101083455992
+creator: miRoox
+list: 
+modified: 20250101084633242
+modifier: miRoox
+tags: cmd.exe 命令行程序
+title: reg.exe
+tmap.id: 3b6517d7-a005-4dd1-9abd-fe0d390d3170
+type: text/vnd.tiddlywiki
+
+[[注册表|Window注册表]]编辑程序
+
+```bat
+REG Operation [Parameter List]
+
+  Operation  [ QUERY   | ADD    | DELETE  | COPY    |
+               SAVE    | LOAD   | UNLOAD  | RESTORE |
+               COMPARE | EXPORT | IMPORT  | FLAGS ]
+```
+
+<<list-links "[tag<currentTiddler>!is[draft]]">>
+
+返回代码: (除了 `REG COMPARE`)
+
+*  0 - 成功
+*  1 - 失败
+

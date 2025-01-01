@@ -1,17 +1,16 @@
-caption: Wolfram 语言
+aliases: wolfram mathematica wl
+caption: Wolfram
 created: 20190918114653828
 creator: miRoox
 list: Wolfram语言：表达式 Wolfram语言：计算控制 Wolfram语言：模式与规则 Wolfram语言：作用域 上下文（Wolfram语言） Wolfram语言：动态 Wolfram语言：排版 Trott-Strzebonski技巧 Villegas-Gayley技巧
-modified: 20240724123433199
+modified: 20250101054042768
 modifier: miRoox
 tags: 函数式语言 计算机语言 编程语言
 title: Wolfram语言
 tmap.id: 8ae25380-87fc-4763-a7e6-bb080e2dd098
 type: text/vnd.tiddlywiki
 
-! Wolfram 语言
-
-[[Mathematica]]使用的编程语言。
+Wolfram 语言是 [[Mathematica]]使用的编程语言。
 
 <<list-links "[tag<currentTiddler>]">>
 

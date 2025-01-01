@@ -1,10 +1,17 @@
 created: 20241210133235334
 creator: miRoox
-modified: 20241210133355094
+modified: 20250101054914821
 modifier: miRoox
 tags: 计算机语言 TODO 领域特定语言
 title: GraphQL
 tmap.id: 388a9cd9-d68a-4ce5-a154-848cf4c581fe
 type: text/vnd.tiddlywiki
 
-''GraphQL'' 是一种用于 [[API|?]] 的查询语言。它由 Facebook 于 2015 年开发，并在 2018 年开源。 GraphQL 使客户端可以精确地请求它们需要的数据，并且能够减少不必要的数据传输。与传统的 [[REST API]] 不同，GraphQL 使用单个端点来提供所有请求的数据，客户端可以使用 GraphQL 查询语言来描述需要的数据，这使得查询更加灵活和可控。
+''GraphQL'' 是一种用于 [[API|?]] 的查询语言。 GraphQL 使客户端可以精确地请求它们需要的数据，并且能够减少不必要的数据传输。与传统的 [[RESTful API]] 不同，GraphQL 使用单个端点来提供所有请求的数据，客户端可以使用 GraphQL 查询语言来描述需要的数据，这使得查询更加灵活和可控。
+
+* [[Schema|GraphQL Schema]]
+
+!! 相关链接
+
+* [[GraphQL Spec|https://spec.graphql.org/]]
+* [[GraphQL 介绍|https://graphql.org/learn/]]

@@ -1,0 +1,15 @@
+aliases: fio
+created: 20240417082840348
+creator: miRoox
+modified: 20250101052341787
+modifier: miRoox
+tags: 开发工具 软件 命令行程序
+title: fio
+tmap.id: 5c3abc0d-4c9c-40ba-ad0b-6177561c2c02
+type: text/vnd.tiddlywiki
+
+`fio`是一个灵活的IO性能测试工具
+
+!! 相关链接
+
+* [[fio - Flexible I/O tester|https://fio.readthedocs.io/en/latest/fio_doc.html]]
