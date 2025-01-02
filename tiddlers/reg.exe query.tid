@@ -1,9 +1,9 @@
 caption: reg query
 created: 20250101084704529
 creator: miRoox
-modified: 20250101152257529
+modified: 20250102022619364
 modifier: miRoox
-tags: reg.exe TODO
+tags: reg.exe
 title: reg.exe query
 tmap.id: 35a6512d-c6c2-4fe5-a284-052b8ca55f7a
 type: text/vnd.tiddlywiki
@@ -45,22 +45,22 @@ REG QUERY \\ABC\HKLM\Software\Microsoft\ResKit\Nt\Setup /s
 ```
 显示远程机器 ABC 上的、在注册表项设置下的所有子项和值
 
-```
+```bat
 REG QUERY HKLM\Software\Microsoft\ResKit\Nt\Setup /se #
 ```
 用 "#" 作为分隔符，显示类型为 `REG_MULTI_SZ` 的所有值名称的所有子项和值。
 
 ```bat
-  REG QUERY HKLM /f SYSTEM /t REG_SZ /c /e
+REG QUERY HKLM /f SYSTEM /t REG_SZ /c /e
 ```
 以区分大小写的形式显示项、值和数据和数据类型 `REG_SZ` 的、在 `HKLM` 更目录下的、"SYSTEM" 出现的精确次数
 
-```
-  REG QUERY HKCU /f 0F /d /t REG_BINARY
+```bat
+REG QUERY HKCU /f 0F /d /t REG_BINARY
 ```
 显示在 HKCU 根目录下、数据类型为 `REG_BINARY` 的数据的项、值和数据的 "0F" 出现的次数。
 
 ```bat
-  REG QUERY HKLM\SOFTWARE /ve
+REG QUERY HKLM\SOFTWARE /ve
 ```
 显示在 `HKLM\SOFTWARE` 下的项、值和数据(默认)
