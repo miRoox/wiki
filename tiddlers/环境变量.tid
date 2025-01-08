@@ -1,0 +1,13 @@
+created: 20250108130149408
+creator: miRoox
+modified: 20250108130411963
+modifier: miRoox
+tags: TODO
+title: 环境变量
+tmap.id: ede93da9-e61b-4605-8531-bee52142f788
+type: text/vnd.tiddlywiki
+
+''环境变量''（environment variable）是一个[[动态命名|动态作用域]]的值，可以影响计算机上[[进程]]的行为方式。
+
+在所有 [[Unix]] 和 [[类Unix系统]]中, 每个进程都有其各自的环境变量设置。 缺省情况下，当一个进程被创建时， 除了创建过程中的明确更改外，它继承了其父进程的绝大部分环境设置。
+

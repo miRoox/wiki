@@ -1,0 +1,30 @@
+created: 20250108124622287
+creator: miRoox
+modified: 20250108124823257
+modifier: miRoox
+tags: HowTos [[Docker Compose]]
+title: docker compose 镜像tag参数化
+tmap.id: bd0e0a95-9b8d-4acb-bf13-57b7646eb243
+type: text/vnd.tiddlywiki
+
+可以通过[[环境变量]]来参数化 [[Docker Compose]] 中的镜像标签。你可以在 `docker-compose.yml` 文件中使用 `${VARIABLE_NAME}` 语法来引用环境变量。以下是一个示例：
+
+```yaml
+version: '3.8'
+services:
+  app:
+    image: myapp:${IMAGE_TAG:-latest}
+    build:
+      context: .
+```
+
+在这个示例中，`${IMAGE_TAG:-latest}` 表示如果 `IMAGE_TAG` 环境变量未设置，则使用 `latest` 作为默认标签。你可以在运行 Docker Compose 命令时设置这个环境变量：
+
+```bash
+export IMAGE_TAG=0.0.1
+docker compose up --build
+```
+
+这样，构建的镜像将使用 `myapp:0.0.1` 作为标签。如果你不设置 `IMAGE_TAG`，则会使用 `myapp:latest`。
+
+这种方法可以让你在不同的环境中灵活地指定镜像标签，而无需修改 `docker-compose.yml` 文件。
