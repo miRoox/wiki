@@ -1,0 +1,18 @@
+aliases: 编码位置
+created: 20250108125027731
+creator: miRoox
+modified: 20250108125746722
+modifier: miRoox
+tags: 字符编码 TODO 字符集
+title: 码位
+tmap.id: 4cab88a3-5ad2-4894-9d95-17246e9106d5
+type: text/vnd.tiddlywiki
+
+''码位''（code point）或称''编码位置''（code position）是组成[[字符集]]（或[[代码页]]）的数值。例如，ASCII码包含128个码位，范围是0
+
+码位的抽象意涵, 不同于下列概念:
+
+* 作为具体编码的比特流。例如，[[UTF-16]]编码的比特流，既可以是大[[端序]]，也可以是小端序。
+* 具有特定字形的字符。
+* 特定字符集的编码方式。例如，一个[[Unicode]]码空间的码位，可以用[[UTF-8]]编码；也可以用UTF-16编码。
+* 用不同字形显示一个字符，即[[字位]]。
