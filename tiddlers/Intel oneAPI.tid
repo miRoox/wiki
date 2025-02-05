@@ -1,0 +1,26 @@
+aliases: oneAPI
+created: 20250205123736662
+creator: miRoox
+modified: 20250205125614654
+modifier: miRoox
+tags: 程序框架 TODO
+title: Intel oneAPI
+tmap.id: 89dd0359-0d83-4507-91c9-6a2d160285c5
+type: text/vnd.tiddlywiki
+
+oneAPI 是由英特尔推出的一种开放标准，旨在为不同计算加速器（如 GPU、AI 加速器和 FPGA）提供统一的[[应用程序接口]]（API）。其主要目标是消除开发者在不同硬件架构上维护多个代码库和工作流程的需求。
+
+!! 主要特性
+
+# ''跨架构编程'': oneAPI 支持多种硬件架构，允许开发者在同一代码基础上为不同的处理器工作。
+# [[Data Parallel C++]] (DPC++): DPC++ 是一种基于 [[C++]] 的语言实现，结合了 ISO C++ 和 Khronos Group 的 [[SYCL|Khronos SYCL]] 标准，能够实现数据并行编程。
+# 丰富的库支持: oneAPI 提供包括[[线性代数]]、[[深度学习]]和[[视频处理]]等多个领域的库，这些库可以帮助开发者更快速地实现各种功能。例如：
+#* oneAPI 数学内核库（oneMKL）
+#* oneAPI 数据分析库（oneDAL）
+#* oneAPI 深度神经网络库（oneDNN）
+# 低级硬件接口: oneAPI 包含 Level Zero API，定义了硬件加速器与编译运行时和开发工具之间的低级直接接口。
+# [[跨平台]]: oneAPI 是跨平台的，支持在多个[[操作系统]]上进行开发，包括 [[Windows|Microsoft Windows]]、[[Linux]] 和 macOS。
+
+!! 相关链接
+
+* [[oneAPI官网|https://oneapi.io/]]

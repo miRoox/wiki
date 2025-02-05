@@ -1,0 +1,14 @@
+created: 20250205101402005
+creator: miRoox
+modified: 20250205123109039
+modifier: miRoox
+tags: 开发工具 TODO 软件
+title: Ollama
+tmap.id: f99dd6e3-b428-4b48-8821-38ac3dc9a2e8
+type: text/vnd.tiddlywiki
+
+Ollama是一个用于获取和运行[[大语言模型]]的工具。推理主要基于[[llama.cpp]]
+
+!! 相关链接
+
+* [ext[README|https://github.com/ollama/ollama/blob/main/README.md]]

@@ -1,0 +1,28 @@
+created: 20250205125657610
+creator: miRoox
+modified: 20250205125803634
+modifier: miRoox
+tags: 代码片段
+title: SYCL设备识别
+tmap.id: 780775c4-26b8-4080-b6ae-23b8287526a5
+type: text/vnd.tiddlywiki
+
+[[SYCL|Khronos SYCL]]设备识别
+
+```cpp
+#include <CL/sycl.hpp>
+#include <iostream>
+
+int main() {
+    auto platforms = sycl::platform::get_platforms();
+    for (auto& p : platforms) {
+        std::cout << "Platform: " << p.get_info<sycl::info::platform::name>() << "\n";
+        auto devices = p.get_devices();
+        for (auto& d : devices) {
+            std::cout << "  Device: " << d.get_info<sycl::info::device::name>() 
+                      << " (Type: " << static_cast<int>(d.get_info<sycl::info::device::device_type>()) << ")\n";
+        }
+    }
+    return 0;
+}
+```
