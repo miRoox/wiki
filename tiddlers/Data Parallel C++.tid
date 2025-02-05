@@ -1,0 +1,11 @@
+aliases: DPC++ DPCPP
+created: 20250205124948527
+creator: miRoox
+modified: 20250205125404382
+modifier: miRoox
+tags: TODO C++
+title: Data Parallel C++
+tmap.id: 6d973662-3244-478e-b989-2cb048377198
+type: text/vnd.tiddlywiki
+
+''Data Parallel C++''（DPC++）是基于标准[[C++]]的扩展，它设计用于数据并行编程和异构计算。DPC++ 使开发者可以使用 C++ 语法来编写并行代码，并且无缝地支持多种硬件加速器（如 CPU、GPU 和 FPGA）。
