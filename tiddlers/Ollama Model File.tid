@@ -1,0 +1,23 @@
+aliases: Ollama模型文件 模型文件
+caption: 模型文件
+created: 20250206100609442
+creator: miRoox
+modified: 20250206102321984
+modifier: miRoox
+tags: Ollama TODO
+title: Ollama Model File
+tmap.id: 13ffd82a-7ab0-40b0-bec2-7cabf32743a3
+type: text/vnd.tiddlywiki
+
+[[Ollama]]使用模型文件（Model File）作为模型创建和分享的蓝图。
+
+!! 格式
+
+```docker
+# comment
+INSTRUCTION arguments
+```
+
+!! 指令
+
+

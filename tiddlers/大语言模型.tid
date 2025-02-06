@@ -1,11 +1,13 @@
 aliases: LLM 大模型
 created: 20240628063344773
 creator: miRoox
-modified: 20240912142426178
+modified: 20250206103652244
 modifier: miRoox
-tags: 人工智能 TODO
+tags: 人工智能 TODO 自然语言处理
 title: 大语言模型
 tmap.id: dc70ea52-f772-40dd-a1d6-a9dcb497fd26
 type: text/vnd.tiddlywiki
 
-''大语言模型''（Large Language Model，LLM）
+''大语言模型''（Large Language Model，LLM）是一种专门为[[自然语言处理]]任务设计的机器学习模型，能够理解和生成文本内容。它们通常基于深度学习技术，利用庞大的训练数据集来学习语法、语义和上下文关系，从而实现对语言的预测和生成能力。
+
+关于大语言模型的规模，虽然没有一个统一的标准，但一般来说，训练参数数量至少在十亿个以上的模型被认定为大语言模型。
