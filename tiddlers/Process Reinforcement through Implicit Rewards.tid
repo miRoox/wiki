@@ -1,0 +1,13 @@
+aliases: PRIME PRIME-RL
+created: 20250210081801960
+creator: miRoox
+modified: 20250210100319303
+modifier: miRoox
+tags: TODO 机器学习
+title: Process Reinforcement through Implicit Rewards
+tmap.id: babecd2e-c0ed-4280-851a-e92c8978b505
+type: text/vnd.tiddlywiki
+
+[[PRIME-RL/PRIME|https://github.com/PRIME-RL/PRIME]]
+
+PRIME 是一个开源的[[强化学习]]解决方案,旨在提升[[大语言模型]]的高级推理能力。PRIME 的核心思想是利用隐式过程奖励建模(Implicit Process Reward Modeling, Implicit PRM)来实现强化学习。
