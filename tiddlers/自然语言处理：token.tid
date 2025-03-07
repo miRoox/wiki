@@ -1,0 +1,12 @@
+aliases: token 词元
+caption: 词元
+created: 20250307080611455
+creator: miRoox
+modified: 20250307080947296
+modifier: miRoox
+tags: 自然语言处理 TODO
+title: 自然语言处理：token
+tmap.id: cb08a522-3ecc-4a1e-b1b2-30030f3ce51b
+type: text/vnd.tiddlywiki
+
+''token'' 是指文本中被视为单位的基本元素。Token 可以是词、字符或子词等，它们是在文本处理过程中用于进一步分析的基本组成部分。
