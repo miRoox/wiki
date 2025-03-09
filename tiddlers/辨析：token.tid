@@ -1,0 +1,15 @@
+aliases: token
+caption: token
+created: 20250309130854008
+creator: miRoox
+modified: 20250309134032134
+modifier: miRoox
+tags: 辨析 TODO
+title: 辨析：token
+tmap.id: 235e1ceb-6d0b-46a4-a96f-a02145810ffa
+type: text/vnd.tiddlywiki
+
+* 在[[计算机|计算机科学]]相关的''语言''领域，''token''可能翻译为“词元”“标记”
+** [[词元|自然语言处理：token]]：[[自然语言处理]]中被直接[[编码]]的文本内容（可能是字符、单词）
+** [[词元|编程语言理论：token]]：[[编程语言]][[词法分析]]阶段分割的结果，初步确定了每个词法元素的位置和分类。
+* 令牌
