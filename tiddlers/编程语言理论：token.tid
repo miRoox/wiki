@@ -1,0 +1,12 @@
+aliases: token 词元
+caption: token
+created: 20250309133039789
+creator: miRoox
+modified: 20250309133546680
+modifier: miRoox
+tags: 编程语言理论 TODO 辨析：token
+title: 编程语言理论：token
+tmap.id: 5f648a3b-2a8c-467f-8157-50137d596cdd
+type: text/vnd.tiddlywiki
+
+''词元''（token）是一个字符串，是构成[[源代码]]的最小单位。从输入字符流中生成词元的过程叫作分词（tokenization），在这个过程中，[[词法分析器|词法分析]]还会对''词元''进行分类。

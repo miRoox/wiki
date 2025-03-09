@@ -1,0 +1,10 @@
+created: 20250309132909448
+creator: miRoox
+modified: 20250309133732624
+modifier: miRoox
+tags: 编程语言理论 TODO
+title: 词法分析
+tmap.id: 509c53ee-6e97-4704-a88b-217c14f37ca1
+type: text/vnd.tiddlywiki
+
+''词法分析''（lexical analysis）是[[编译过程|翻译程序]]中将[[字符串]]转换为[[词元（token）|编程语言理论：token]]序列的过程。进行词法分析的程序或者函数叫作词法分析器（lexical analyzer, lexer），也叫扫描器（scanner）。词法分析器一般以函数的形式存在，供[[语法分析器|语法分析]]调用。
