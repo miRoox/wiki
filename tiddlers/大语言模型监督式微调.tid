@@ -1,0 +1,11 @@
+aliases: SFT [[LLM SFT]]
+created: 20250310143650389
+creator: miRoox
+modified: 20250310144341916
+modifier: miRoox
+tags: 机器学习 TODO 大语言模型
+title: 大语言模型监督式微调
+tmap.id: 1e6b529e-b89b-44eb-afa2-6565083b4ce7
+type: text/vnd.tiddlywiki
+
+''监督式微调''（Supervised Fine-Tuning, ''SFT''）是一种在[[自然语言处理]]领域中常用的技术，主要用于将预训练的[[大语言模型]]适应特定的下游任务。该过程通过使用带标签的数据集对模型进行微调，以提高其在特定任务上的表现。
