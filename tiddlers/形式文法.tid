@@ -1,14 +1,14 @@
 aliases: 形式语法 文法
 created: 20241227141323179
 creator: miRoox
-modified: 20241228060014119
+modified: 20250313134023200
 modifier: miRoox
 tags: 形式语言理论 TODO
 title: 形式文法
 tmap.id: 6798797e-0e49-4f78-a586-c88c27f5064a
 type: text/vnd.tiddlywiki
 
-在[[形式语言理论]]中，''文法''（formal grammar）是[[形式语言]]中[[字符串]]的一套''产生式规则''（production rule）。这些规则描述了如何用语言的字母表生成符合句法（syntax）的有效的字符串。文法不描述字符串的含义，也不描述在任何上下文中可以用它们做什么——只描述它们应当具有的形式。
+在[[形式语言理论]]中，''文法''（formal grammar）是[[形式语言]]中[[字符串]]的一套''产生式规则''（production rule）。这些规则描述了如何用语言的字母表生成符合句法（syntax）上有效的字符串。文法不描述字符串的含义，也不描述在任何上下文中可以用它们做什么——只描述它们应当具有的形式。
 
 !! 形式定义
 

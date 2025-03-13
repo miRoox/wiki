@@ -1,0 +1,10 @@
+created: 20250313141242200
+creator: miRoox
+modified: 20250313141624149
+modifier: miRoox
+tags: 算法 TODO
+title: 贪心算法
+tmap.id: 645aa7e8-6646-471a-bf88-24c7e5d66bf7
+type: text/vnd.tiddlywiki
+
+''贪心算法''（greedy algorithm）是一种在每一步选择中都采取在当前状态下最好或最优（即最有利）的选择，从而希望导致结果是最好或最优的算法。贪心算法在有[[最优子结构]]的问题中尤为有效。
