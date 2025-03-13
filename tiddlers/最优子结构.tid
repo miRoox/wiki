@@ -1,0 +1,10 @@
+created: 20250313140316647
+creator: miRoox
+modified: 20250313141644538
+modifier: miRoox
+tags: 动态规划
+title: 最优子结构
+tmap.id: d4a6243f-3b03-48b7-aa77-b413fa4fc68e
+type: text/vnd.tiddlywiki
+
+如果问题的最优解所包含的子问题的解也是最优的，我们就称该问题具有''最优子结''构性质（即满足最优化原理）。最优子结构性质为[[贪心算法]]和[[动态规划]]算法解决问题提供了重要线索。

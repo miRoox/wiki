@@ -1,0 +1,10 @@
+aliases: MDP
+created: 20250313133807350
+creator: miRoox
+modified: 20250313134444327
+modifier: miRoox
+title: 马尔可夫决策过程
+tmap.id: 51aac1a4-1e2e-49d8-9771-7ee240aa0147
+type: text/vnd.tiddlywiki
+
+''马尔可夫决策过程''（Markov decision process, MDP）是[[离散时间|离散信号]]随机控制过程。 它提供了一个数学框架，用于在结果部分随机且部分受决策者控制的情况下对决策建模。 

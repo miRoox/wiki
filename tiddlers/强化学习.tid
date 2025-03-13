@@ -1,0 +1,19 @@
+aliases: RL
+created: 20250313133352804
+creator: miRoox
+modified: 20250313141720461
+modifier: miRoox
+tags: 机器学习 TODO
+title: 强化学习
+tmap.id: 5a6d4fea-75dd-41af-a78d-7a84d26c5e50
+type: text/vnd.tiddlywiki
+
+''强化学习''（Reinforcement learning, ''RL''）是[[机器学习]]中的一个领域，强调如何基于环境而行动，以取得最大化的预期利益。
+
+基本的强化学习被建模为[[马尔可夫决策过程]]：
+
+* 环境状态的集合$$S$$
+* 动作的集合$$A$$
+* 在状态之间转换的规则（转移概率矩阵）$$P$$
+* 规定转换后“即时奖励”的规则（奖励函数）$$r$$
+* 描述主体能够观察到什么的规则
