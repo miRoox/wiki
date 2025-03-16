@@ -1,0 +1,12 @@
+aliases: Transformer 变换器
+caption: Transformer
+created: 20250316103534365
+creator: miRoox
+modified: 20250316120533179
+modifier: miRoox
+tags: 人工神经网络 TODO
+title: Transformer模型
+tmap.id: ae484a67-5013-4353-8153-6028feda65e9
+type: text/vnd.tiddlywiki
+
+''Transformer''模型（直译为“变换器”）是一种采用[[注意力机制]]的[[深度学习]]模型，这一机制可以按输入数据各部分重要性的不同而分配不同的权重。

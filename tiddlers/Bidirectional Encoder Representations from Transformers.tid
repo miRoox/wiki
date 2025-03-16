@@ -1,0 +1,12 @@
+aliases: BERT
+caption: BERT
+created: 20250316120123511
+creator: miRoox
+modified: 20250316120339855
+modifier: miRoox
+tags: Transformer模型 TODO 人工神经网络
+title: Bidirectional Encoder Representations from Transformers
+tmap.id: 64e2a9fc-9838-479c-a3c6-b5c93925551f
+type: text/vnd.tiddlywiki
+
+基于变换器的双向编码器表示技术（Bidirectional Encoder Representations from Transformers, ''BERT''）
