@@ -1,13 +1,14 @@
 created: 20191219064836821
 creator: miRoox
-modified: 20230316103711655
+modified: 20250316141954022
 modifier: miRoox
-tags: TODO 人工神经网络
+tags: TODO 人工神经网络 前馈神经网络
 title: 感知机
 tmap.id: 17420298-e452-4a6b-952c-585900429151
 type: text/vnd.tiddlywiki
 
-! 感知机
+''感知器''使用[[特征向量]]来表示的[[前馈神经网络]]，它是一种二元分类器，把[[矩阵]]上的输入$$x$$（实数值向量）映射到输出值$$f(x)$$
+
 
 [[决策函数]]：
 $$

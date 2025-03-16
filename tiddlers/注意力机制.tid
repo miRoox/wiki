@@ -1,0 +1,11 @@
+aliases: attention
+created: 20250316103211505
+creator: miRoox
+modified: 20250316103439124
+modifier: miRoox
+tags: TODO 人工神经网络
+title: 注意力机制
+tmap.id: 48ecdbef-ff84-4a38-aaaa-5f77b424937a
+type: text/vnd.tiddlywiki
+
+''注意力机制''（attention）是[[人工神经网络]]中一种模仿认知注意力的技术。

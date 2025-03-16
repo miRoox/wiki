@@ -1,10 +1,12 @@
 created: 20240906072720701
 creator: miRoox
-modified: 20240906072956861
+modified: 20250316140627766
 modifier: miRoox
-tags: TODO 集合
+tags: 集合
 title: 全集
 tmap.id: f8e456b2-0119-4fd0-8459-377923ce5e87
 type: text/vnd.tiddlywiki
 
-''全集''是一个（在某种程度上）包含了所有的研究对象和[[集合]]。
+''全集''是一个（在某种程度上）包含了（特定领域或者当前关心的）所有的研究对象的[[集合]]。
+
+通常运用于处理[[绝对补集]]的场景。

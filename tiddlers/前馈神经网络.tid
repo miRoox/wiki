@@ -1,0 +1,10 @@
+created: 20250316115710219
+creator: miRoox
+modified: 20250316120022268
+modifier: miRoox
+tags: 人工神经网络
+title: 前馈神经网络
+tmap.id: 7b3ec88b-b7e3-4b78-ba1c-7aec549b4613
+type: text/vnd.tiddlywiki
+
+''前馈神经网络''（Feedforward Neural Network）是一类简单的[[人工神经网络]]架构，在它内部，参数始终从输入层向输出层单向传播。

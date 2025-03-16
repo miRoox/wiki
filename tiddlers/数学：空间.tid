@@ -2,7 +2,7 @@ aliases: 空间
 caption: 空间
 created: 20240908111019949
 creator: miRoox
-modified: 20240911092808532
+modified: 20250316141201325
 modifier: miRoox
 tags: TODO 分类 集合 几何学
 title: 数学：空间
@@ -10,3 +10,7 @@ tmap.id: 2454d40a-fc7f-4084-ad86-4dbc01d5f005
 type: text/vnd.tiddlywiki
 
 ''空间''是指一种具有特殊性质及一些额外结构的[[集合]]（有时称为[[全集]]）。
+
+空间由被视为[[点]]的数学对象和点之间的关系组成。
+
+数学对象应被视为几何“空间”还是代数“[[结构|代数结构]]”，并不总是很清楚。常常取决于我们研究时所采取的视角。

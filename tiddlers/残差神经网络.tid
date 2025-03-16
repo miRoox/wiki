@@ -1,0 +1,11 @@
+aliases: ResNet
+created: 20250316114352654
+creator: miRoox
+modified: 20250316114545308
+modifier: miRoox
+tags: 人工神经网络 TODO
+title: 残差神经网络
+tmap.id: bae72aec-6561-4e9f-b993-2fc278feb5c0
+type: text/vnd.tiddlywiki
+
+残差神经网络（Residual Neural Network, ResNet）属于[[人工神经网络]]的一种，其核心在于让网络的每一层不直接学习预期输出，而是学习其与输入之间的[[残差]]关系。
