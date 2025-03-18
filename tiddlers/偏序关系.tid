@@ -1,8 +1,8 @@
 created: 20240612021842863
 creator: miRoox
-modified: 20240908102354251
+modified: 20250318140447630
 modifier: miRoox
-tags: 二元关系 序关系
+tags: 二元关系 序关系 序理论
 title: 偏序关系
 tmap.id: 006ce120-c9e2-4056-934b-07a88f9db15c
 type: text/vnd.tiddlywiki
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 给定[[集合]]$$S$$，$$\preceq$$是$$S$$上的[[二元关系]]，且满足
 
 * [[自反性|自反关系]]：$$\forall x\in S, x\preceq x$$
-* [[反对称性|反对称关系]]：$$\forall x,y\in S, x\preceq y \land y\preceq x$$则$$x=y$$
+* [[反对称性|反对称关系]]（三歧性）：$$\forall x,y\in S, x\preceq y \land y\preceq x$$则$$x=y$$
 * [[传递性|传递关系]]：$$\forall x,y,z\in S, x\preceq y \land y\preceq z$$则$$x\preceq z$$
 
 则称$$\preceq$$是$$S$$上的一个''非严格偏序''或''自反偏序''。

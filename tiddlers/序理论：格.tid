@@ -1,0 +1,23 @@
+aliases: 格
+caption: 格
+created: 20250316143911624
+creator: miRoox
+modified: 20250318135533977
+modifier: miRoox
+tags: 代数结构 TODO 偏序集 序理论
+title: 序理论：格
+tmap.id: ed1b15a0-74ce-4a12-b3c8-8eeb7155791a
+type: text/vnd.tiddlywiki
+
+''格''（Lattice）是其非[[空|空集]][[有限|有限集合]][[子集]]都有一个[[上确界|最小上界]]（称为''并''）和一个[[下确界|最大下界]]（称为''交''）的[[偏序集]]。
+
+!! 定义
+
+!!! [[序理论]]视角
+
+考虑[[偏序集]]$$(L,\preceq)$$，满足$$\forall  a,b\in L, a\vee b\in L, a\wedge b\in L$$，
+其中，$$a\wedge b$$表示$$a$$和$$b$$的[[最大下界]]，$$a\vee b$$表示$$a$$和$$b$$的[[最小上界]]。则称$$(L,\preceq)$$为一个''格''。
+
+!!! [[代数学]]视角
+
+格是一个代数结构$$(L,\vee ,\wedge )$$
