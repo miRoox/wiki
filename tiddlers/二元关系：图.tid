@@ -1,0 +1,14 @@
+aliases: 图
+caption: 图
+created: 20250318133242249
+creator: miRoox
+modified: 20250318133720364
+modifier: miRoox
+tags: 二元关系
+title: 二元关系：图
+tmap.id: e82140af-f18f-48a5-afa5-8ab3853454ae
+type: text/vnd.tiddlywiki
+
+[[二元关系]]$$R=(A,B,G(R))$$中，$$G(R)\subseteq A\times B$$被称作$$R$$的''图''。
+
+但经常地，我们把关系与其图等价起来，即若$$R\subseteq A\times B$$，称$$R$$为$$A$$到$$B$$的二元关系。或者相似地，将$$(x,y)\in G(R)$$简记作$$(x,y)\in R$$。

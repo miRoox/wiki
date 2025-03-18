@@ -1,13 +1,13 @@
 created: 20240908103413680
 creator: miRoox
-modified: 20240908104028217
+modified: 20250318135850991
 modifier: miRoox
 tags: 二元关系 TODO 序关系
 title: 良基关系
 tmap.id: 64f95c5b-6a5c-444c-a26c-8ea4831cea47
 type: text/vnd.tiddlywiki
 
-集合$$S$$上的[[二元关系]]$$\preceq$$被称为''良基''的，当且仅当所有$$S$$的非空子集都存在一个$$\preceq$$对应的[[极小元]]。
+集合$$S$$上的[[预序关系]]$$\preceq$$被称为''良基''的，当且仅当所有$$S$$的非空子集都存在一个$$\preceq$$对应的[[极小元]]。
 
 $$
 \forall X\subseteq S, X\not=\emptyset\implies \exists m\in X, \forall x\in X, s\not\preceq m
