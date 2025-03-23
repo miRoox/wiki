@@ -1,0 +1,12 @@
+created: 20250323041027271
+creator: miRoox
+modified: 20250323053412050
+modifier: miRoox
+tags: 运算性质 布尔代数
+title: 吸收律
+tmap.id: df2a1927-64bd-46a1-8079-97637355a8d4
+type: text/vnd.tiddlywiki
+
+设 $$\star$$ 和 $$\circ$$ 是定义在[[集合]]$$S$$上的两个[[二元运算]]：
+
+如果$$\forall a,b\in  S, a\circ(a\star b)=a\star(a\circ b)=a$$，则称 $$\star$$ 和 $$\circ$$ 由''吸收律''相关联。

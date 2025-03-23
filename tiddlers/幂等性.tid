@@ -1,7 +1,7 @@
 aliases: 幂等
 created: 20240912101306540
 creator: miRoox
-modified: 20240912125655571
+modified: 20250323054144733
 modifier: miRoox
 tags: 运算性质
 title: 幂等性
@@ -12,7 +12,9 @@ type: text/vnd.tiddlywiki
 
 !! 一元运算
 
-考虑一元运算$$f:X\to X$$，若$$\forall x\in X,f(f(x))=f(x)$$，则称$$f$$是''幂等的''。也可以写作$$f\circ f=f$$
+考虑一元运算$$f:X\to X$$，若$$\forall x\in X,f(f(x))=f(x)$$，则称$$f$$是''幂等的''。也可以写作$$f\circ f=f$$。
+
+也可以看作，$$f$$是对[[函数复合|复合函数]]的幂等元素（见下）。
 
 !! 二元运算
 
