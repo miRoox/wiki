@@ -2,7 +2,7 @@ aliases: 格
 caption: 格
 created: 20250316143911624
 creator: miRoox
-modified: 20250318135533977
+modified: 20250323053258498
 modifier: miRoox
 tags: 代数结构 TODO 偏序集 序理论
 title: 序理论：格
@@ -20,4 +20,13 @@ type: text/vnd.tiddlywiki
 
 !!! [[代数学]]视角
 
-格是一个代数结构$$(L,\vee ,\wedge )$$
+''格''是一个[[代数结构]]$$(L,\vee ,\wedge )$$，$$\vee$$和$$\wedge$$是定义在$$L$$上的[[二元运算]]，对[[任意|全称量化]]$$a,b,c\in L$$满足
+
+| [[交换律]] | $$a\vee b=b\vee a$$ | $$a\wedge b=b\wedge a$$  |
+| [[结合律]] | $$a\vee(b\vee c)=(a\vee b)\vee c$$ | $$a\wedge(b\wedge c)=(a\wedge b)\wedge c$$ |
+| [[吸收律]] | $$a\vee(a \wedge b)=a$$ | $$a\wedge(a\vee b)=a$$ |
+
+从上述三个公理恒等式可以得出重要的：
+
+| [[幂等律|幂等性]] | $$a\vee a=a$$ | $$a\wedge a=a$$ |
+
