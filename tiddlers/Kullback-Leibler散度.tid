@@ -1,0 +1,27 @@
+aliases: KL散度 相对熵
+created: 20250331085404149
+creator: miRoox
+modified: 20250331090012436
+modifier: miRoox
+tags: TODO 概率论
+title: Kullback-Leibler散度
+tmap.id: 2c731764-4c3f-4ee0-9d91-6875a7fdffb2
+type: text/vnd.tiddlywiki
+
+''Kullback-Leibler散度''（Kullback-Leibler Divergence）是一种衡量两个[[概率分布]]之间差异的统计量。它通常用来量化一个概率分布相对另一个参考概率分布的信息丧失。KL散度也被称为''相对熵''。
+
+!! 定义
+
+对于离散概率分布$$P$$和$$Q$$，KL散度定义为：
+
+$$
+D_{KL}(P \parallel Q) = \sum_{x \in X} P(x) \log \left(\frac{P(x)}{Q(x)}\right)
+$$
+
+其中，$$X$$ 是随机变量的可能取值范围，$$P(x)$$是真实分布的概率，$$Q(x)$$ 是用于近似的模型分布的概率。
+
+!! 特性
+
+* 非负性：KL散度总是非负数，且当且仅当$$P$$和$$Q$$完全相同时，KL散度为零。
+* 非对称性：$$D_{KL}(P \parallel Q)$$不等于$$D_{KL}(Q \parallel P)$$，即 KL散度一般不是对称的。
+* 不满足三角不等式：KL散度不是一个[[度量|距离]]，因此它不满足三角不等式的条件。
