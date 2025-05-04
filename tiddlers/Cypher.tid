@@ -1,0 +1,10 @@
+created: 20250504141738732
+creator: miRoox
+modified: 20250504142043083
+modifier: miRoox
+tags: 领域特定语言 TODO 查询语言
+title: Cypher
+tmap.id: e02d1af4-1321-4955-b60e-569a6e1f8d01
+type: text/vnd.tiddlywiki
+
+''Cypher'' 是一种声明式图查询语言，允许在属性图中进行富有表现力和高效的数据查询。

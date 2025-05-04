@@ -1,0 +1,14 @@
+aliases: dg dagster
+created: 20250504130759042
+creator: miRoox
+modified: 20250504131256446
+modifier: miRoox
+tags: 程序框架 TODO
+title: Dagster
+tmap.id: f87f1607-c757-48ab-9e43-20ffbddf0543
+type: text/vnd.tiddlywiki
+
+''Dagster ''是一个为数据工程师构建的数据调度器，具有集成的血统、可观察性、声明式编程模型和一流的可测试性。
+
+* [[Dagster文档|https://docs.dagster.io/]]
+* [[Dagster源码|https://github.com/dagster-io/dagster]]
