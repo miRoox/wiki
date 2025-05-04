@@ -1,0 +1,12 @@
+created: 20250504135451564
+creator: miRoox
+modified: 20250504135551913
+modifier: miRoox
+tags: 程序库 TODO DataFrame
+title: Polars
+tmap.id: 556ea078-28a7-457f-90a7-5a2d1dd28c0e
+type: text/vnd.tiddlywiki
+
+''Polars'' 是一个极其快速的 DataFrame 库，用于处理结构化数据。
+
+* [[Polars文档|https://docs.pola.rs/]]

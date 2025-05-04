@@ -1,0 +1,11 @@
+aliases: GDB
+created: 20250504140024468
+creator: miRoox
+modified: 20250504141611103
+modifier: miRoox
+tags: 数据库 TODO
+title: 图数据库
+tmap.id: d3e4cc85-30c0-491e-aa9d-dc192b14322b
+type: text/vnd.tiddlywiki
+
+''图数据库''（Graph database, GDB）是一种使用[[图|图论：图]]结构进行语义查询的[[数据库]]，它使用节点、边和属性来表示和存储数据。与将数据存储在严格的表结构中的关系数据库不同，图数据库将数据存储为实体和关系的网络。
