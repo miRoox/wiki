@@ -1,11 +1,22 @@
+aliases: neo4j
 created: 20250504142414069
 creator: miRoox
-modified: 20250504143436216
+modified: 20250505061332136
 modifier: miRoox
 tags: 图数据库 TODO
 title: Neo4j
 tmap.id: 24e03dc4-432d-4af2-9634-0df1c9ea006d
 type: text/vnd.tiddlywiki
 
+''Neo4j'' 是一个领先的开源[[图数据库]]管理系统，它以其高性能、可扩展性和灵活的数据模型而闻名 。它使用图结构来表示数据，并提供了强大的查询语言 [[Cypher]]。
+
+核心概念：
+
+* ''节点''（Nodes）： 代表图中的实体，可以有多个标签（Labels）和属性 
+* ''关系''（Relationships）： 代表节点之间的连接，有方向和类型，也可以有属性
+* ''属性''（Properties）： 键值对，用于存储节点和关系的附加信息
+* ''标签''（Labels）： 用于将节点分组，方便查询和管理
+
+!! 链接
 
 * [[Neo4j文档|https://neo4j.com/docs/]]

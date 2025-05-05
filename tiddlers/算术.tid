@@ -1,8 +1,12 @@
 created: 20240911093441431
 creator: miRoox
-modified: 20240911093456667
+modified: 20250505043129802
 modifier: miRoox
-tags: TODO 数学 分类
+tags: TODO 数学 分类 初等代数
 title: 算术
 tmap.id: ef040ddd-e2a9-4d79-9496-acd4785326e1
 type: text/vnd.tiddlywiki
+
+''算术''（arithmetic）是[[数学]]最古老且最简单的一个分支，几乎被每个人使用着，从日常生活上简单的算数到高深的科学及工商业计算都会用到。
+
+专业数学家有时会使用''高等算术''来指[[数论]]，但这不应该和初等算术相搞混。另外，算术也是[[初等代数]]的重要部分之一。

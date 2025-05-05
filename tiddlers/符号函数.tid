@@ -1,0 +1,28 @@
+aliases: sign
+created: 20250505041914193
+creator: miRoox
+modified: 20250505044439312
+modifier: miRoox
+tags: 函数
+title: 符号函数
+tmap.id: ebd7e2a8-0351-4131-b939-bb4628581f2e
+type: text/vnd.tiddlywiki
+
+''符号函数''给出一个[[实数]]的正负性。它被定义为$$\Reals$$到$$\{1,0,-1\}$$的函数：
+
+$$
+\sign(x)=\begin{cases}
+1 & x>0\\
+0 & x=0\\
+-1 & x<0
+\end{cases}
+$$
+
+有时，值域会被简化为二元模型，即$$\Reals$$到$$\{1,-1\}$$的函数：
+
+$$
+\sign(x)=\begin{cases}
+1 & x\ge 0\\
+-1 & x<0
+\end{cases}
+$$

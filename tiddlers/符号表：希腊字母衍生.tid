@@ -1,6 +1,6 @@
 created: 20240917101105410
 creator: miRoox
-modified: 20240917101918207
+modified: 20250505065137103
 modifier: miRoox
 tags: 符号表 TODO
 title: 符号表：希腊字母衍生
@@ -18,3 +18,6 @@ type: text/vnd.tiddlywiki
 | $$\pi$$ | [[圆周率]] |
 |~| [[康托尔配对函数]] |
 | $$\sum$$ | [[和|加法]] |
+| $$\Sigma$$ | [[形式语言理论：字母表]] |
+| $$\sigma$$ | [[Logistic S型函数]] |
+

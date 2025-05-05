@@ -1,13 +1,12 @@
 created: 20191118024329262
 creator: miRoox
-modified: 20230316103711660
+modified: 20250505045928110
 modifier: miRoox
 tags: 凸分析 TODO 凸优化
 title: 凸函数
 tmap.id: 40f8fce6-edb7-4eb0-8ae1-160c192abc7a
 type: text/vnd.tiddlywiki
 
-! 凸函数
 
 ''凸函数''：设$$S\subseteq\Reals^n$$为[[凸集]]，$$f:S\to\Reals$$，若$$\forall \bm{x},\bm{y}\in S, \forall\lambda\in(0,1), f(\lambda \bm{x}+(1-\lambda)\bm{y})\le\lambda f(\bm{x})+(1-\lambda)f(\bm{y})$$，则称$$f(\bm{x})$$为$$S$$上的凸函数。
 

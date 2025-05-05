@@ -1,16 +1,25 @@
 created: 20191219064836821
 creator: miRoox
-modified: 20250318134721723
+modified: 20250505044749879
 modifier: miRoox
 tags: TODO 人工神经网络 前馈神经网络
 title: 感知机
 tmap.id: 17420298-e452-4a6b-952c-585900429151
 type: text/vnd.tiddlywiki
 
-''感知器''使用[[特征向量]]来表示的[[前馈神经网络]]，它是一种二元分类器，把[[矩阵]]上的输入$$x$$（实数值向量）映射到输出值$$f(x)$$
+''感知器''使用[[特征向量]]来表示的[[前馈神经网络]]，它是一种二元分类器。
 
+''定义''：假设输入空间(特征空间)是$$X\subseteq\Reals^n$$，输出空间$$Y=\{+1,-1\}$$，由输入空间到输出空间的如下函数：
+$$
+f(\bm x)=\sign(\bm w\cdot\bm x + b)
+$$
+
+其中：
+
+* $$\bm w\in\Reals^n$$称做''权值''(weight)或权值向量(weight vector)
+* $$b\in\Reals$$叫作''偏置''(bias)
 
 [[决策函数]]：
 $$
-\bm d(\bm x)=\bm w\cdot\bm x+\bm b
+d(\bm x)=\bm w\cdot\bm x+b
 $$

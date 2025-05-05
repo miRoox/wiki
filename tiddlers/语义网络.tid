@@ -1,0 +1,10 @@
+created: 20250505082515404
+creator: miRoox
+modified: 20250505082946739
+modifier: miRoox
+tags: 知识表示法 TODO
+title: 语义网络
+tmap.id: 35333d5e-f414-448e-9eaa-20b087de2fac
+type: text/vnd.tiddlywiki
+
+''语义网络''（Semantic Network）常常用作[[知识表示|?]]的一种形式。它其实是一种[[有向图]]；其中，顶点代表的是概念，而边则表示的是这些概念之间的语义关系。

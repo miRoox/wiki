@@ -1,0 +1,13 @@
+created: 20250505041251726
+creator: miRoox
+modified: 20250505041424337
+modifier: miRoox
+tags: 人工神经网络 TODO 感知机
+title: 数据集的线性可分性
+tmap.id: 30914a6d-34e7-4543-8d31-9922ef1ca315
+type: text/vnd.tiddlywiki
+
+给定一个数据集
+$$
+T=\{(x_1,y_1),),(x_2,y_2),\ldots,(x_N,y_N)\}
+$$

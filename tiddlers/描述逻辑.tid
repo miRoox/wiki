@@ -1,0 +1,14 @@
+created: 20250505144256949
+creator: miRoox
+modified: 20250505144511010
+modifier: miRoox
+tags: 知识表示法 TODO
+title: 描述逻辑
+tmap.id: d99dfa58-0454-4a3c-83fc-d1d4f06ae664
+type: text/vnd.tiddlywiki
+
+''描述逻辑''（description logic）是一种用于[[知识表示|?]]的逻辑语言和以其为对象的推理方法，主要用于描述概念分类及其概念之间的关系。
+
+描述逻辑根据其表达能力的程度不同，形成不同的逻辑子语言。绝大多数的描述逻辑类型都可以被看成对应着一阶逻辑的一个可判定性的片段（fragment），即每个描述逻辑中的命题都可以在有限时间内完成证明或证否。
+
+一个典型的描述逻辑系统中的名字可分为概念（concept），属性（role）和个体（individual）。

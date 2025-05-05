@@ -1,0 +1,12 @@
+aliases: KG
+created: 20250505081259211
+creator: miRoox
+modified: 20250505082908222
+modifier: miRoox
+tags: 人工智能 TODO 知识表示法
+title: 知识图谱
+tmap.id: d1a5238d-c67e-446a-bbf0-42d2269b1ab8
+type: text/vnd.tiddlywiki
+
+''知识图谱''（Knowledge Graph），是结构化的语义知识库，用于以符号形式描述物理世界中的概念及其相互关系。
+其基本组成单位是“实体-关系-实体”三[[元组]]，以及实体及其相关属性-值对，实体间通过关系相互联结，构成网状的知识结构。

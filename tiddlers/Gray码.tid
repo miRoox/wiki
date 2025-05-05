@@ -1,6 +1,6 @@
 created: 20191210072056968
 creator: miRoox
-modified: 20240828154452139
+modified: 20250505085539666
 modifier: miRoox
 tags: 编码 数据结构 TODO
 title: Gray码
@@ -12,6 +12,6 @@ type: text/vnd.tiddlywiki
 $$
 g_i=\begin{cases}
 b_i&i=1\\
-b_{i+1}\xor b_i
+b_{i+1}\lxor b_i
 \end{cases}
 $$

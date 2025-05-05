@@ -1,0 +1,33 @@
+aliases: Logistic
+created: 20250505045146804
+creator: miRoox
+modified: 20250505071920146
+modifier: miRoox
+tags: 函数 S型函数
+title: Logistic S型函数
+tmap.id: 4382aaeb-fbb5-45fc-b908-70643ef05e2d
+type: text/vnd.tiddlywiki
+
+标准的Logistic函数被定义为
+
+$$
+\sigma(x)=\frac{1}{1+\exp(-x)}
+$$
+
+<figure>
+[img[标准Logistic函数|logistic-sigmoid.svg]]
+
+<figcaption>标准 Logistic 函数</figcaption>
+</figure>
+
+!! 微分方程
+
+标准Logistic函数是简单的一阶非线性常微分方程的解：
+
+$$
+\frac{\dd}{\dd x}\sigma(x)=\sigma(x)(1-\sigma(x))
+$$
+
+边界条件为$$\sigma(0)=1/2$$。
+
+该方程是[[Logistic映射]]的连续版本。

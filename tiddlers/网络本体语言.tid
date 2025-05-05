@@ -1,0 +1,15 @@
+aliases: OWL
+created: 20250505144924488
+creator: miRoox
+modified: 20250505145443815
+modifier: miRoox
+tags: 本体语言 TODO
+title: 网络本体语言
+tmap.id: c7415ad2-363a-4d39-98b2-62e8284d0983
+type: text/vnd.tiddlywiki
+
+''网络本体语言''（Web Ontology Language, OWL）旨在提供一种可用于描述网络文档和应用之中所固有的那些类及其之间关系的语言。
+
+!! 链接
+
+* [[OWL Web Ontology Language Guide|https://www.w3.org/TR/2004/REC-owl-guide-20040210/]]

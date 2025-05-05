@@ -1,0 +1,13 @@
+figure {
+  background-color: #eaecf0;
+  display: inline-block;
+  border: 1px solid gray;
+  margin: 0;
+  padding: 2px;
+}
+
+figcaption {
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+}

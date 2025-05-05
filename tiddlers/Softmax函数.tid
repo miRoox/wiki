@@ -1,0 +1,20 @@
+aliases: 归一化指数函数 softmax
+created: 20250505064539969
+creator: miRoox
+modified: 20250505080938229
+modifier: miRoox
+tags: 函数
+title: Softmax函数
+tmap.id: 329436b4-cda0-43dd-8ba0-e695a5fd12ea
+type: text/vnd.tiddlywiki
+
+''Softmax函数''，或称''归一化指数函数''，是[[Logistic函数|Logistic S型函数]]的一种推广。
+
+它能将一个含任意[[实数]]的$$K$$维[[向量]]$$\bm z$$“压缩”到另一个$$K$$维实向量$$\bm\sigma(\bm z)$$，使得每一个元素的范围都在[[区间]]$$(0,1)$$中，并且所有元素的[[和|加法]]为[[1]]。
+该函数的形式通常按下面的式子给出：
+
+$$
+\sigma(\bm z)_j=\frac{\exp(z_j)}{\sum_{k=1}^K\exp(z_k)},\quad \text{for}\ j=1,2,\ldots,K
+$$
+
+Softmax函数实际上是有限项[[离散概率分布]]的梯度对数归一化。

@@ -1,0 +1,17 @@
+asset: sinc.svg
+created: 20250505063914384
+creator: miRoox
+modified: 20250505064014615
+modifier: miRoox
+tags: AssetSource
+title: sinc.wl
+tmap.id: 7cadb785-a67f-40f7-b9d0-b7034b452a41
+type: text/vnd.tiddlywiki
+
+```mathematica
+Plot[{
+  Style[Sinc[x], Bold], Style[1/Abs[x], {Dashed, Thickness[Small]}],
+  Style[-1/Abs[x], {Dashed, Thickness[Small]}]},
+ {x, -20, 20}, PlotRange -> {All, {-1, 1}}]
+```
+ 
