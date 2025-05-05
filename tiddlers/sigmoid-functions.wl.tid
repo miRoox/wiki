@@ -1,0 +1,31 @@
+asset: sigmoid-functions.svg
+created: 20250505074156679
+creator: miRoox
+modified: 20250505075244085
+modifier: miRoox
+tags: AssetSource
+title: sigmoid-functions.wl
+tmap.id: 8302d892-17ef-46ec-bf3b-28ab3acb2429
+type: text/vnd.tiddlywiki
+
+```mathematica
+Show[
+ Plot[{
+   2 LogisticSigmoid[x] - 1,
+   Erf[Sqrt[Pi]/2 x],
+   Tanh[x],
+   2/Pi ArcTan[Pi/2 x],
+   2/Pi Gudermannian[Pi/2 x]
+   }, {x, -3, 3}, PlotRange -> {All, {-1.2, 1.2}},
+  PlotLegends -> Placed[
+    LineLegend["Expressions", 
+     LegendFunction -> (Framed[#1, FrameMargins -> 0] & )], {Left, Top}],
+  PlotTheme -> "Scientific"
+  ],
+ Plot[{
+   Style[1, {Thin}], Style[-1, {Thin}],
+   Style[x, {Dashed, Thickness[Small]}]},
+  {x, -3, 3}, PlotRange -> {All, {-1.2, 1.2}}, PlotStyle -> Gray]
+ ]
+```
+ 

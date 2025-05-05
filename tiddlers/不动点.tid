@@ -1,0 +1,11 @@
+aliases: 定点 fixpoint
+created: 20250505023537999
+creator: miRoox
+modified: 20250505024329713
+modifier: miRoox
+tags: 微积分学 动力系统 TODO
+title: 不动点
+tmap.id: c5bc6805-efed-4b75-ab91-89fef3f979f0
+type: text/vnd.tiddlywiki
+
+一个[[映射]]的''不动点''是指被这个映射映射到自身的一个点。正式的，对于映射$$f:A\to B$$，$$x\in A$$是$$f$$的一个不动点，[[当且仅当|?]]$$f(x)=x$$。

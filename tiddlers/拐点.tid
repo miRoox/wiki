@@ -1,0 +1,11 @@
+aliases: 反曲点
+created: 20250505045731529
+creator: miRoox
+modified: 20250505045848190
+modifier: miRoox
+tags: 微积分学 TODO
+title: 拐点
+tmap.id: f5063a38-dd92-43cc-8e67-2b9b82c6d78d
+type: text/vnd.tiddlywiki
+
+''拐点''（Inflection point）或称''反曲点''，是一条连续曲线由[[凸|凸函数]]转[[凹|凹函数]]，或由凹转凸的点。

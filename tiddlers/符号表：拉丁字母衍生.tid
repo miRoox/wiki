@@ -1,6 +1,6 @@
 created: 20240917100921261
 creator: miRoox
-modified: 20240925122052736
+modified: 20250505043528829
 modifier: miRoox
 tags: 符号表 TODO
 title: 符号表：拉丁字母衍生
@@ -22,6 +22,7 @@ type: text/vnd.tiddlywiki
 | $$\exists!$$ | [[唯一存在量化]] |
 | $$\exp$$ | [[e指数函数]] |
 | $$\mathscr{F}$$ | [[傅里叶变换]] |
+|~| [[分数阶傅里叶变换]] |
 | $$\mathscr{H}$$ | [[希尔伯特变换]] |
 | $$\Box^{\mathsf{H}}$$ | [[共轭转置]] |
 | $$\imath$$ | [[虚数单位]] |
@@ -40,6 +41,7 @@ type: text/vnd.tiddlywiki
 | $$\mathcal{P}$$ | [[幂集]] |
 | $$\mathbb{Q}$$ | [[有理数]][[集|集合]] |
 | $$\Reals$$ | [[实数]][[集|集合]] |
+| $$\sign$$ | [[符号函数]] |
 | $$\sin$$ | [[正弦函数]] |
 | $$\sinc$$ | [[sinc函数]] |
 | $$\Box^{\mathsf{T}}$$ | [[转置]] |

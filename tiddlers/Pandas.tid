@@ -1,0 +1,12 @@
+created: 20250505035521724
+creator: miRoox
+modified: 20250505035717218
+modifier: miRoox
+tags: 程序库 TODO DataFrame
+title: Pandas
+tmap.id: 6244a33b-5c1c-4eb0-a79a-b72570382da4
+type: text/vnd.tiddlywiki
+
+''pandas'' 是一个快速、强大、灵活且易于使用的开源数据分析和处理工具，基于 [[Python]] 编程语言。
+
+* [ext[Pandas文档|https://pandas.pydata.org/docs/]]

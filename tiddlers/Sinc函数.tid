@@ -1,7 +1,7 @@
 caption: sinc函数
 created: 20191010113726280
 creator: miRoox
-modified: 20240914083809645
+modified: 20250505065711855
 modifier: miRoox
 tags: 函数
 title: sinc函数
@@ -18,6 +18,15 @@ $$
 $$
 
 注意到$$\lim_{x->0}\frac{\sin(x)}{x}=1$$，因此该函数[[连续|连续函数]]。
+
+
+<figure>
+[img[sinc函数|sinc.svg]]
+
+<figcaption>sinc 函数</figcaption>
+</figure>
+
+
 
 !!! 参见
 

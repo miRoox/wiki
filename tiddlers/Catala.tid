@@ -1,0 +1,15 @@
+aliases: Catala
+created: 20250505115956866
+creator: miRoox
+modified: 20250505123311373
+modifier: miRoox
+tags: 领域特定语言 TODO 计算机语言
+title: Catala
+tmap.id: b454fc27-a236-4657-bed3-b4c314b895f3
+type: text/vnd.tiddlywiki
+
+''Catala'' 是一种领域特定编程语言，旨在从立法文本中推导出正确构造的实现。
+
+!! 链接
+
+* [[官方网站|https://catala-lang.org/]]

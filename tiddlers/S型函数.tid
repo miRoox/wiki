@@ -1,0 +1,17 @@
+aliases: sigmoid
+created: 20250505045349568
+creator: miRoox
+modified: 20250505075136779
+modifier: miRoox
+tags: 函数 分类
+title: S型函数
+tmap.id: 39da40b4-3092-43f5-a095-09c149f66140
+type: text/vnd.tiddlywiki
+
+''S型函数''（''sigmoid'' function）是一类[[函数]]，因其函数图像形状像字母S得名。S型函数是有界、[[可微|可微函数]]的实函数，在[[实数]]范围内均有取值，且[[导数]]恒为非负，有且只有一个[[拐点]]。
+
+<figure>
+<$image source="sigmoid-functions.svg"  alt="logistic+erf+tanh+arctan+gd" width="720px"/>
+
+<figcaption>各种S型函数对比</figcaption>
+</figure>

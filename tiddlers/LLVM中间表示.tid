@@ -1,10 +1,10 @@
-caption: LLVM
+caption: LLVM IR
 created: 20190918115333660
 creator: miRoox
-modified: 20250101050836050
+modified: 20250505130527868
 modifier: miRoox
 tags: TODO 计算机语言 LLVM
-title: LLVM IR
+title: LLVM中间表示
 tmap.id: 712c44f3-0085-4796-9ddb-eb6b2831afd7
 type: text/vnd.tiddlywiki
 

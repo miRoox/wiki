@@ -1,3 +1,15 @@
+asset: FIR-system-lattice-single.svg
+author: miRoox
+created: 20240627065503701
+creator: miRoox
+modified: 20250505050750233
+modifier: miRoox
+tags: AssetSource
+title: FIR-system-lattice-single.tex
+tmap.id: 99cc43b7-08b0-4c42-be05-262de5b3821d
+type: text/vnd.tiddlywiki
+
+```tex
 % TeX-engine: pdftex
 
 \documentclass[tikz]{standalone}
@@ -50,3 +62,4 @@
 \end{tikzpicture}
 
 \end{document}
+```
