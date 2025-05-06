@@ -1,6 +1,6 @@
 created: 20250504140348482
 creator: miRoox
-modified: 20250505035052723
+modified: 20250506080629254
 modifier: miRoox
 tags: 任务速记资料 TODO
 title: 任务速记资料：税务政策库
@@ -13,3 +13,6 @@ type: text/vnd.tiddlywiki
 * [[Semantic Chunker - LlamaIndex|https://docs.llamaindex.ai/en/stable/examples/node_parsers/semantic_chunking/]]
 * [[大模型微调最佳实践指南 (超简洁版) - karminski-牙医|https://github.com/karminski/one-small-step/blob/main/20250210-LLM-fine-tuning-summary/LLM-fine-tuning-summary.md]]
 * [[DeepSeek：免税、退税、零税率和不征税有什么区别？]]
+* [[Phi Cookbook|https://github.com/microsoft/PhiCookBook/blob/main/translations/zh/README.md]]
+* [[税屋 - 法规解读|https://www.shui5.cn/article/FaGuiJieDu/]]
+** [[垃圾处理的增值税税率相关问题|https://www.shui5.cn/article/c7/137258.html]]
