@@ -1,0 +1,12 @@
+created: 20250506101037308
+creator: miRoox
+modified: 20250506101206123
+modifier: miRoox
+tags: 任务速记资料 TODO
+title: 任务速记资料：数据集自动化工作流
+tmap.id: 43410ae9-c082-4318-a42b-b28cd87d769c
+type: text/vnd.tiddlywiki
+
+
+* [[用Dagster构建ETL管线的教程 - 掘金|https://juejin.cn/post/7116824015859089445]]
+* [[【大数据架构之旅】4 上手实践 dagster - 小土刀3.0|https://wdxtub.com/bigdata/bigdata-04/2023/07/02/]]
