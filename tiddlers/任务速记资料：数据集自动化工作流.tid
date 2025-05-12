@@ -1,6 +1,6 @@
 created: 20250506101037308
 creator: miRoox
-modified: 20250506101206123
+modified: 20250512053125183
 modifier: miRoox
 tags: 任务速记资料 TODO
 title: 任务速记资料：数据集自动化工作流
@@ -8,5 +8,15 @@ tmap.id: 43410ae9-c082-4318-a42b-b28cd87d769c
 type: text/vnd.tiddlywiki
 
 
+* [[Build your first Dagster project|https://docs.dagster.io/getting-started/quickstart]]
+* [[Create and materialize partitioned assets|https://docs.dagster.io/etl-pipeline-tutorial/create-and-materialize-partitioned-asset]]
+* [[Dagster Example|https://github.com/dagster-io/dagster/tree/master/examples]]
 * [[用Dagster构建ETL管线的教程 - 掘金|https://juejin.cn/post/7116824015859089445]]
 * [[【大数据架构之旅】4 上手实践 dagster - 小土刀3.0|https://wdxtub.com/bigdata/bigdata-04/2023/07/02/]]
+* [[Using Delta Lake with Dagster|https://delta-io.github.io/delta-rs/integrations/delta-lake-dagster/]]
+* [[DVC文档|https://dvc.org/doc]]
+* [[机器学习数据编排工具--dagster|https://www.cnblogs.com/lightsong/p/13796008.html]]
+* [[mds-note|https://github.com/wdxtub/mds-note/blob/main/README.md]]
+* [[The Structure of a PDF File|https://medium.com/@jberkenbilt/the-structure-of-a-pdf-file-6f08114a58f6]]
+* [[Ray document|https://docs.ray.io/en/latest/index.html]]
+* [[基于 Ray 的分离式架构：veRL、OpenRLHF 工程设计|https://zhuanlan.zhihu.com/p/26833089345]]

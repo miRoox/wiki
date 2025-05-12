@@ -1,6 +1,6 @@
 created: 20250504140348482
 creator: miRoox
-modified: 20250506080629254
+modified: 20250512032420235
 modifier: miRoox
 tags: 任务速记资料 TODO
 title: 任务速记资料：税务政策库
@@ -16,3 +16,27 @@ type: text/vnd.tiddlywiki
 * [[Phi Cookbook|https://github.com/microsoft/PhiCookBook/blob/main/translations/zh/README.md]]
 * [[税屋 - 法规解读|https://www.shui5.cn/article/FaGuiJieDu/]]
 ** [[垃圾处理的增值税税率相关问题|https://www.shui5.cn/article/c7/137258.html]]
+* [[苏建林的科学空间|https://spaces.ac.cn/]]
+** [[当Batch Size增大时，学习率该如何随之变化？|https://spaces.ac.cn/archives/10542]]
+** [[Transformer升级之路|https://spaces.ac.cn/search/Transformer%E5%8D%87%E7%BA%A7%E4%B9%8B%E8%B7%AF/]]
+** [[重温SSM（一）：线性系统和HiPPO矩阵|https://spaces.ac.cn/archives/10114]]
+** [[低秩近似之路（一）：伪逆|https://spaces.ac.cn/archives/10366]]
+* [[如何理解 LLM 中的 RL 算法？- ybq|https://zhuanlan.zhihu.com/p/22331625359]]
+* [[LLM训练-sft - ybq|https://zhuanlan.zhihu.com/p/809229182]]
+* [[dpo 的局限性 - ybq|https://zhuanlan.zhihu.com/p/1082394115]]
+* [[DPO 是如何简化 RLHF 的|https://zhuanlan.zhihu.com/p/671780768]]
+* [[OpenRLHF document|https://openrlhf.readthedocs.io/en/latest/]]
+* [[OpenRLHF学习笔记-loss篇|https://zhuanlan.zhihu.com/p/6290579087]]
+* [[人人都能看懂的RL-PPO理论知识|https://zhuanlan.zhihu.com/p/7461863937]]
+* [[如何正确复现 Instruct GPT / RLHF?|https://zhuanlan.zhihu.com/p/622134699]]
+* [[蘑菇书EasyRL|https://datawhalechina.github.io/easy-rl/#/]]
+* [[swift - GRPO|https://swift.readthedocs.io/zh-cn/latest/Instruction/GRPO.html]]
+* [[Graph Attention Networks|https://arxiv.org/abs/1710.10903]]
+* [[论文解读：Transformer^2: Self-adaptive LLMs|https://zhuanlan.zhihu.com/p/19269451950]]
+* [[Enhancing the Accuracy of RAG Applications With Knowledge Graphs|https://medium.com/neo4j/enhancing-the-accuracy-of-rag-applications-with-knowledge-graphs-ad5e2ffab663]]
+* [[Combining Knowledge Graphs and Large Language Models|https://arxiv.org/html/2407.06564v1]]
+* [[LMExplainer: Grounding Knowledge and Explaining Language Models|https://arxiv.org/html/2303.16537v3]]
+* [[QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering|https://arxiv.org/pdf/2104.06378]]
+* [[Neo4j API documents|https://neo4j.com/docs/api/python-driver/current/api.html]]
+* [[Neomodel documentation|https://neomodel.readthedocs.io/en/latest/index.html]]
+* [[Qwen3 LLM|https://qwen3.org/]]
