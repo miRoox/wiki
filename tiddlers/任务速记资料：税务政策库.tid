@@ -1,6 +1,6 @@
 created: 20250504140348482
 creator: miRoox
-modified: 20250512032420235
+modified: 20250513050943932
 modifier: miRoox
 tags: 任务速记资料 TODO
 title: 任务速记资料：税务政策库
@@ -40,3 +40,4 @@ type: text/vnd.tiddlywiki
 * [[Neo4j API documents|https://neo4j.com/docs/api/python-driver/current/api.html]]
 * [[Neomodel documentation|https://neomodel.readthedocs.io/en/latest/index.html]]
 * [[Qwen3 LLM|https://qwen3.org/]]
+* [[Rete.js|https://retejs.org/]]
