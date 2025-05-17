@@ -1,7 +1,7 @@
 aliases: attention
 created: 20250316103211505
 creator: miRoox
-modified: 20250505045136678
+modified: 20250517143005783
 modifier: miRoox
 tags: TODO 人工神经网络
 title: 注意力机制
@@ -9,3 +9,5 @@ tmap.id: 48ecdbef-ff84-4a38-aaaa-5f77b424937a
 type: text/vnd.tiddlywiki
 
 ''注意力机制''（attention）是[[人工神经网络]]中一种模仿认知注意力的技术。这种机制可以增强神经网络输入数据中某些部分的权重，同时减弱其他部分的权重，以此将网络的关注点聚焦于数据中最重要的一小部分。
+
+注意力机制的灵活性来自于它的“软权重”特性，即这种权重是可以在运行时改变的，而非像通常的权重一样必须在运行时保持固定。

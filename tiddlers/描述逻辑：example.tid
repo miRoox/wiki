@@ -1,0 +1,15 @@
+created: 20250517143729338
+creator: miRoox
+modified: 20250517143913926
+modifier: miRoox
+tags: 描述逻辑
+title: 描述逻辑：example
+tmap.id: 6b2abdf6-4c6e-4d5b-8ce7-0599e63b6b10
+type: text/vnd.tiddlywiki
+
+
+* 男人⊑人 （男人 是 人）
+* 丈夫 ⊑男人⊓∃婚配于.人 （丈夫是 婚配于 至少一个 人 的 男人）
+* 男人(张三) （张三是一个男人）
+
+其中，“男人”、“人”、“丈夫”是概念，“婚配于”是属性，“张三”是个体。

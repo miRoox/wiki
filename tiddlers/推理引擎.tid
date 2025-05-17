@@ -1,0 +1,13 @@
+created: 20250517143319903
+creator: miRoox
+modified: 20250517144229953
+modifier: miRoox
+tags: TODO 专家系统
+title: 推理引擎
+tmap.id: 859712c9-2c7c-4a90-90ef-9a52c4874f44
+type: text/vnd.tiddlywiki
+
+''推理引擎''（inference engine）是[[人工智能]]系统的软件组件。
+
+在[[专家系统]]的语境中，它将逻辑规则应用于[[知识库]]以推导新信息。
+
