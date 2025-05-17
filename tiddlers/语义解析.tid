@@ -1,0 +1,10 @@
+created: 20250517134925413
+creator: miRoox
+modified: 20250517141400659
+modifier: miRoox
+tags: 自然语言处理 TODO 自然语言处理任务
+title: 语义解析
+tmap.id: 4c24d362-2708-49a4-8952-0828bbd6057d
+type: text/vnd.tiddlywiki
+
+''语义解析''是将[[自然语言]]的话语转换为逻辑形式的任务：一种机器可理解的意义表示形式。因此，语义解析可以理解为提取话语的精确含义。

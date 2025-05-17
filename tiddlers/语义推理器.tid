@@ -1,0 +1,10 @@
+created: 20250517143133739
+creator: miRoox
+modified: 20250517144239494
+modifier: miRoox
+tags: 专家系统 TODO 推理引擎
+title: 语义推理器
+tmap.id: 3123b90d-77a9-4317-8dfe-492c6a414ae4
+type: text/vnd.tiddlywiki
+
+''语义推理器''（semantic reasoner）是一种能够从一组已断言的事实或公理中推导逻辑结果的软件。
