@@ -1,6 +1,6 @@
 created: 20240917100921261
 creator: miRoox
-modified: 20250505043528829
+modified: 20250518110436243
 modifier: miRoox
 tags: 符号表 TODO
 title: 符号表：拉丁字母衍生
@@ -10,6 +10,7 @@ type: text/vnd.tiddlywiki
 |! 符号| !含义 |
 | $$\mathbb{A}$$ | [[代数数]][[集|集合]] |
 | $$\forall$$ | [[全称量化]] |
+| $$C$$ | [[菲涅耳积分C函数]] |
 | $$\Complex$$ | [[复数]][[集|集合]] |
 | $$\complement$$ | [[相对补集]] |
 | $$\Box^\complement$$ | [[绝对补集]] |
@@ -41,6 +42,7 @@ type: text/vnd.tiddlywiki
 | $$\mathcal{P}$$ | [[幂集]] |
 | $$\mathbb{Q}$$ | [[有理数]][[集|集合]] |
 | $$\Reals$$ | [[实数]][[集|集合]] |
+| $$S$$ | [[菲涅耳积分S函数]] |
 | $$\sign$$ | [[符号函数]] |
 | $$\sin$$ | [[正弦函数]] |
 | $$\sinc$$ | [[sinc函数]] |

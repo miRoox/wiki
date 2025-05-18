@@ -1,0 +1,10 @@
+created: 20250518143013555
+creator: miRoox
+modified: 20250518143141529
+modifier: miRoox
+tags: 测度 TODO 测度论
+title: 勒贝格测度
+tmap.id: a832649c-0659-4c9c-b9fd-0cf99ecc8d30
+type: text/vnd.tiddlywiki
+
+在[[测度论]]中，''勒贝格测度''（Lebesgue measure）是[[欧几里得空间]]上的标准[[测度]]。对维数为1，2，3的情况，勒贝格测度就是通常的长度、面积、体积。

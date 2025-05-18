@@ -1,0 +1,20 @@
+created: 20250518135530168
+creator: miRoox
+modified: 20250518142546418
+modifier: miRoox
+tags: 测度论 分类 函数
+title: 测度
+tmap.id: a724186f-4bb6-4169-be35-0c108fd3995c
+type: text/vnd.tiddlywiki
+
+''测度''（Measure）是一种将[[几何空间|欧几里得空间]]的度量（[[长度]]、[[面积]]、[[体积]]）和其他常见概念（如大小、[[质量]]和事件的[[概率]]）广义化后产生的概念。
+
+正式的，考虑[[可测空间]]$$(X,\Sigma)$$，若[[函数]]$$\mu:\Sigma\to[0,\infty)$$满足：
+
+* $$\mu(\emptyset)=0$$
+* ''可数可加性''：若集合序列$$\set{E_n\in\Sigma}_{n\in\N}$$对所有不相等的正整数$$i\ne j$$都有$$E_i\cap E_j=\emptyset$$，则
+$$
+\mu\left(\bigcup_{n\in\N}E_n\right)=\sum_{n\in\N}\mu\left(E_n\right)
+$$
+
+则称$$\mu$$为定义在$$\Sigma$$上的一个''非负测度''，简称''测度''。

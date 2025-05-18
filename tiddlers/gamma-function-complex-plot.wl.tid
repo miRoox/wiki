@@ -1,0 +1,19 @@
+asset: gamma-function-complex-plot.png
+created: 20250518132000797
+creator: miRoox
+modified: 20250518132048865
+modifier: miRoox
+tags: AssetSource
+title: gamma-function-complex-plot.wl
+tmap.id: 280d64aa-07b8-4015-9c86-d5ed17ccd621
+type: text/vnd.tiddlywiki
+
+```mathematica
+ComplexPlot3D[Gamma[z], {z, -4.5 - 2.5 I, 4.5 + 2.5 I}, 
+ Filling -> Bottom, PlotRange -> {0, 6}, PlotPoints -> 50, 
+ Exclusions -> None, 
+ Mesh -> {Join[10^Range[-4, 0, 0.5], Range[0, 6, 0.5]], 
+   Range[-Pi, Pi, Pi/6]}, ViewPoint -> {-.8, -3, 1}, Boxed -> False, 
+ AxesOrigin -> {0, 0, 0}, AxesLabel -> {"x", "y", "z"}]
+```
+ 
