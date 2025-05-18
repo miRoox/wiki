@@ -1,0 +1,14 @@
+created: 20250518135915545
+creator: miRoox
+modified: 20250518142627523
+modifier: miRoox
+tags: 测度论 数学：空间
+title: 可测空间
+tmap.id: 2fa61dac-1762-453c-9172-499a610178fa
+type: text/vnd.tiddlywiki
+
+''可测空间''（measurable space）由一个[[集合]]和基于这个集合定义的[[σ代数|?]]构成。
+
+正式的，若 $$ \Sigma _{X}$$ 是集合 $$X$$ 的σ代数，则有序对 $$ (X,\,\Sigma _{X})$$ 被称为''可测空间''。
+
+可测空间与[[测度空间]]的区别在于，测度空间包含了定义在σ代数上的[[测度]]，而可测空间不包含测度。

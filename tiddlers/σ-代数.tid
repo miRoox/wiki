@@ -1,9 +1,9 @@
 aliases: σ代数
 created: 20240912091052212
 creator: miRoox
-modified: 20240915042917812
+modified: 20250518142905848
 modifier: miRoox
-tags: 集合代数 TODO
+tags: 集合代数 TODO 测度论 实分析 概率论
 title: σ-代数
 tmap.id: 03c70122-058b-40c9-91e4-e21914bb01ed
 type: text/vnd.tiddlywiki
@@ -12,4 +12,4 @@ type: text/vnd.tiddlywiki
 
 * $$X\in\mathcal{F}$$
 * $$\forall A\in\mathcal{F}, X\setminus A\in\mathcal{F}$$（[[补集|绝对补集]][[封闭|封闭性]]）
-* $${\displaystyle(\forall k\in\mathbb{N}, A_k\in\mathcal{F})\implies\bigcup_{k\in\mathbb{N}} A_k\in\mathcal{F}}$$（[[可数|可数集合]][[并|并集]]封闭）
+* $${\left(\forall k\in\mathbb{N}, A_k\in\mathcal{F}\right)\implies\bigcup_{k\in\mathbb{N}} A_k\in\mathcal{F}}$$（[[可数|可数集合]][[并|并集]]封闭）

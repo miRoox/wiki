@@ -1,14 +1,14 @@
 aliases: neo4j
 created: 20250504142414069
 creator: miRoox
-modified: 20250505061332136
+modified: 20250518101611859
 modifier: miRoox
 tags: 图数据库 TODO
 title: Neo4j
 tmap.id: 24e03dc4-432d-4af2-9634-0df1c9ea006d
 type: text/vnd.tiddlywiki
 
-''Neo4j'' 是一个领先的开源[[图数据库]]管理系统，它以其高性能、可扩展性和灵活的数据模型而闻名 。它使用图结构来表示数据，并提供了强大的查询语言 [[Cypher]]。
+''Neo4j'' 是一个领先的开源[[图数据库]]管理系统，它以其高性能、可扩展性和灵活的数据模型而闻名 。它使用[[图|图论：图]]结构来表示数据，并提供了强大的查询语言 [[Cypher]]。
 
 核心概念：
 

@@ -1,12 +1,12 @@
 created: 20250505084051665
 creator: miRoox
-modified: 20250505084331161
+modified: 20250518095918840
 modifier: miRoox
 tags: 计算机语言 TODO
 title: Prolog
 tmap.id: e9c9bf08-ad3e-4250-a53e-78e1a81f55e5
 type: text/vnd.tiddlywiki
 
-Prolog 是一种逻辑编程语言，源于[[ 人工智能]]、[[自动定理证明]] 和 计算语言学。
+''Prolog'' 是一种逻辑编程语言，源于[[人工智能]]、[[自动定理证明]] 和 [[计算语言学]]。
 
 Prolog 的根源在于[[一阶逻辑|谓词逻辑]]，与许多其他 编程语言 不同，Prolog 主要作为一种 声明式编程语言：程序是一组事实和 规则，定义了 关系。通过对程序运行 查询 来启动 计算。

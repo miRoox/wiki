@@ -1,0 +1,10 @@
+created: 20250518133516851
+creator: miRoox
+modified: 20250518133949871
+modifier: miRoox
+tags: 复分析 TODO 函数
+title: 全纯函数
+tmap.id: 840a5258-be59-4003-a8d6-3d641eee13cc
+type: text/vnd.tiddlywiki
+
+''全纯函数''（Holomorphic function）是定义在[[复平面]]$$\Complex$$的[[开|开集]][[子集]]上的，在复平面$$\Complex$$中取值的，在每点上皆复可微的[[函数]]。

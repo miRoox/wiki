@@ -1,0 +1,19 @@
+asset: log-functions.svg
+created: 20250518101141461
+creator: miRoox
+modified: 20250518101203200
+modifier: miRoox
+tags: AssetSource
+title: log-functions.wl
+tmap.id: 7d6a45c2-1119-415b-b810-9689de271dd6
+type: text/vnd.tiddlywiki
+
+```mathematica
+Plot[{Log[x], Log2[x], Log10[x]}, {x, 0, 16},
+ PlotLegends -> 
+  Placed[LineLegend["Expressions", 
+    LegendFunction -> (Framed[#1, FrameMargins -> 0] &)], {Right, 
+    Bottom}],
+ PlotTheme -> "Scientific"]
+```
+ 

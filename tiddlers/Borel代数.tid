@@ -1,0 +1,10 @@
+created: 20250518143409627
+creator: miRoox
+modified: 20250518143944880
+modifier: miRoox
+tags: 点集拓扑学 TODO σ-代数 测度论
+title: Borel代数
+tmap.id: c6d8ddaa-5e42-45fb-80c3-208bba00f92b
+type: text/vnd.tiddlywiki
+
+考虑[[拓扑空间]]$$(X,\tau)$$，[[拓扑]]$$\tau$$的[[最小σ-代数]]$$\sigma (\tau)$$被称为$$X$$的''Borel代数''。任意$$A\in\sigma(\tau)$$则被称为[[Borel集]]。

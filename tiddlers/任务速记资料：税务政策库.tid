@@ -1,6 +1,6 @@
 created: 20250504140348482
 creator: miRoox
-modified: 20250513050943932
+modified: 20250518095625017
 modifier: miRoox
 tags: 任务速记资料 TODO
 title: 任务速记资料：税务政策库
@@ -16,6 +16,7 @@ type: text/vnd.tiddlywiki
 * [[Phi Cookbook|https://github.com/microsoft/PhiCookBook/blob/main/translations/zh/README.md]]
 * [[税屋 - 法规解读|https://www.shui5.cn/article/FaGuiJieDu/]]
 ** [[垃圾处理的增值税税率相关问题|https://www.shui5.cn/article/c7/137258.html]]
+* [[2024年税务师《税法一》备考要点及学习指导|https://www.dongao.com/shuiwushi/ksjy/202406064443374.html]]
 * [[苏建林的科学空间|https://spaces.ac.cn/]]
 ** [[当Batch Size增大时，学习率该如何随之变化？|https://spaces.ac.cn/archives/10542]]
 ** [[Transformer升级之路|https://spaces.ac.cn/search/Transformer%E5%8D%87%E7%BA%A7%E4%B9%8B%E8%B7%AF/]]
@@ -40,4 +41,7 @@ type: text/vnd.tiddlywiki
 * [[Neo4j API documents|https://neo4j.com/docs/api/python-driver/current/api.html]]
 * [[Neomodel documentation|https://neomodel.readthedocs.io/en/latest/index.html]]
 * [[Qwen3 LLM|https://qwen3.org/]]
-* [[Rete.js|https://retejs.org/]]
+* [[Legal expert system|https://en.wikipedia.org/wiki/Legal_expert_system]]
+* [[专家控制系统 - TUP教材|https://www.tup.com.cn/upload/books/yz/082564-01.pdf]]
+* [[中间表示 - 深度学习编译器设计|https://www.tup.com.cn/upload/books/yz/105238-01.pdf]]
+

@@ -1,0 +1,20 @@
+asset: gamma-function.svg
+created: 20250518123144302
+creator: miRoox
+modified: 20250518123338269
+modifier: miRoox
+tags: AssetSource
+title: gamma-function.wl
+tmap.id: b966623e-dc12-4a90-8879-984de5683f7f
+type: text/vnd.tiddlywiki
+
+```mathematica
+Plot[Gamma[x], {x, -4, 4},
+ ExclusionsStyle -> Dashed,
+ PlotLegends -> 
+  Placed[LineLegend[{Gamma[x]}, 
+    LegendFunction -> (Framed[#1, FrameMargins -> 0] &)], {Right, 
+    Bottom}],
+ PlotTheme -> "Scientific"]
+```
+ 

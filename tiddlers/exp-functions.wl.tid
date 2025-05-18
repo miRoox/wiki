@@ -1,0 +1,19 @@
+asset: exp-functions.svg
+created: 20250518102038424
+creator: miRoox
+modified: 20250518102114594
+modifier: miRoox
+tags: AssetSource
+title: exp-functions.wl
+tmap.id: 23fa6e66-2572-4afa-99c7-0aa15b03d91e
+type: text/vnd.tiddlywiki
+
+```mathematica
+Plot[{Exp[x], 2^x, Exp[-x], 2^-x}, {x, -4, 4},
+ PlotLegends -> 
+  Placed[LineLegend["Expressions", 
+    LegendFunction -> (Framed[#1, FrameMargins -> 0] &)], {Center, 
+    Top}],
+ PlotTheme -> "Scientific"]
+```
+ 

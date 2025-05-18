@@ -1,0 +1,10 @@
+created: 20250518133221913
+creator: miRoox
+modified: 20250518133310464
+modifier: miRoox
+tags: 复分析 TODO
+title: 解析延拓
+tmap.id: 52b69331-e335-4f29-bfd2-e3d5b876551f
+type: text/vnd.tiddlywiki
+
+''解析延拓''（Analytic continuation）是将[[解析函数]]从较小[[定义域]]拓展到更大定义域的方法。透过此方法，一些原先发散的[[级数]]在新的定义域可具有迥异而有限的值。

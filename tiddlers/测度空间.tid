@@ -1,0 +1,10 @@
+created: 20250518135306975
+creator: miRoox
+modified: 20250518142542100
+modifier: miRoox
+tags: 数学：空间 实分析 测度论
+title: 测度空间
+tmap.id: 749fd288-2b99-401f-bfc9-6724ba08bf47
+type: text/vnd.tiddlywiki
+
+对于[[可测空间]]$$(X,\Sigma)$$，如果定义了对应的[[测度]]$$\mu$$，则$$(X,\Sigma,\mu)$$被称为''测度空间''。

@@ -1,0 +1,19 @@
+asset: fresnel-help-functions.svg
+created: 20250518110932613
+creator: miRoox
+modified: 20250518110954715
+modifier: miRoox
+tags: AssetSource
+title: fresnel-help-functions.wl
+tmap.id: d238b924-5106-4709-b42e-116020c32459
+type: text/vnd.tiddlywiki
+
+```mathematica
+Plot[{FresnelF[x], FresnelG[x]}, {x, -5, 5},
+ PlotLegends -> 
+  Placed[LineLegend["Expressions", 
+    LegendFunction -> (Framed[#1, FrameMargins -> 0] &)], {Right, 
+    Bottom}],
+ PlotTheme -> "Scientific"]
+```
+ 

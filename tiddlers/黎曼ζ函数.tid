@@ -1,10 +1,16 @@
+aliases: ζ函数 zeta函数 泽塔函数
 caption: ζ函数
 created: 20191010114043463
-modified: 20240909132207974
+creator: miRoox
+modified: 20250518124801928
 modifier: miRoox
-tags: TODO 函数
+tags: TODO 函数 特殊函数
 title: 黎曼ζ函数
 tmap.id: 9c5bf9e4-125e-452f-ace0-f0ce2d6e846c
 type: text/vnd.tiddlywiki
 
-! ζ函数
+黎曼ζ函数最初定义为：
+
+$$
+\zeta(s)=\sum_{n=1}^\infty\frac{1}{n^s}, \ \Re(z)>1
+$$

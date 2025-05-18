@@ -1,7 +1,7 @@
 asset: sigmoid-functions.svg
 created: 20250505074156679
 creator: miRoox
-modified: 20250505075244085
+modified: 20250518111501536
 modifier: miRoox
 tags: AssetSource
 title: sigmoid-functions.wl
@@ -11,7 +11,6 @@ type: text/vnd.tiddlywiki
 ```mathematica
 Show[
  Plot[{
-   2 LogisticSigmoid[x] - 1,
    Erf[Sqrt[Pi]/2 x],
    Tanh[x],
    2/Pi ArcTan[Pi/2 x],
