@@ -1,0 +1,12 @@
+aliases: 十二等程律
+created: 20250522132446154
+creator: miRoox
+modified: 20250522132754704
+modifier: miRoox
+tags: 音乐律式 TODO
+title: 十二平均律
+tmap.id: 774e8b4c-65df-4221-9521-0d5148f8ee1d
+type: text/vnd.tiddlywiki
+
+''十二平均律''（12 equal temperament），又称''十二等程律''，音乐律式的一种，也是当今最主流的律式。将一个[[八度|八度音]]平均分成十二等份，每等分称为[[半音]]，音高八度音指的是[[频率]]乘上二倍。八度音的频率分为十二等分，即是分为十二项的等比数列，也就是每个音的频率为前一个音的$$\sqrt[12]{2}$$倍：
+

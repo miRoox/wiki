@@ -1,0 +1,49 @@
+created: 20250522145058686
+creator: miRoox
+modified: 20250522145147909
+modifier: miRoox
+tags: 代码片段
+title: 绝命时刻繁体中文硬盘版注册表项
+tmap.id: 3a9525ab-48c8-4a75-b19c-98b4072b870a
+type: text/vnd.tiddlywiki
+
+```ini
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Electronic Arts]
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Electronic Arts\EA Games]
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Electronic Arts\EA Games\Command and Conquer Generals Zero Hour]
+"Language"="english"
+"UserDataLeafName"="Command and Conquer Generals Zero Hour Data"
+"Version"=dword:00010004
+"MapPackVersion"=dword:00010000
+"InstallPath"="C:\\Program Files (x86)\\绝命时刻繁体中文硬盘版\\Command and Conquer Generals Zero Hour""
+"Proxy"=""
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Electronic Arts\EA Games\Command and Conquer Generals Zero Hour\ergc]
+@="9FPP-82NZ-TM2U-SGVM-9YE8"
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Electronic Arts\EA Games\Generals]
+"Language"="english"
+"InstallPath"="C:\\Program Files (x86)\\绝命时刻繁体中文硬盘版\\Command and Conquer Generals"
+"MapPackVersion"=dword:00010000
+"Version"=dword:00010007
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Electronic Arts\EA Games\Generals\ergc]
+@="4873-1111216-7741939-5749"
+```

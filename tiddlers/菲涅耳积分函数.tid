@@ -1,21 +1,27 @@
 created: 20250518104139282
 creator: miRoox
-modified: 20250518134520325
+modified: 20250522152113673
 modifier: miRoox
 tags: 特殊函数 函数 TODO 分类
 title: 菲涅耳积分函数
 tmap.id: 7417259a-a323-4d4b-ac18-2e9f27db7399
 type: text/vnd.tiddlywiki
 
-''菲涅耳积分函数''源自[[光学]]中的[[衍射|光的衍射]]问题。
+''菲涅耳积分函数''源自[[光学]]中的[[衍射|光的衍射]]问题。主要是以下两个和[[三角函数]]的平方的[[积分]]：
+
+$$
+\begin{align*}
+S(x)&=\int_0^x \sin(t^2)\dd{t}\\
+C(x)&=\int_0^x \cos(t^2)\dd{t}
+\end{align*}
+$$
+
 
 <figure>
 [img[fresnel-functions.svg]]
 
-
 <figcaption>菲涅耳积分</figcaption>
 </figure>
-
 <figure>
 [img[fresnel-help-functions.svg]]
 
