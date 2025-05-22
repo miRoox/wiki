@@ -1,0 +1,12 @@
+aliases: 主函数 main函数 main
+caption: main函数
+created: 20250522140156556
+creator: miRoox
+modified: 20250522140401945
+modifier: miRoox
+tags: C语法 TODO C函数
+title: C主函数
+tmap.id: 0cc9b7fd-eed5-4ddf-beac-c84dd7e11ec8
+type: text/vnd.tiddlywiki
+
+每个要在宿主环境运行的 [[C|C语言]] 程序都含有称作`main`的函数定义（非原型），它是指定的起始函数。

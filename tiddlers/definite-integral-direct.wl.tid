@@ -1,0 +1,33 @@
+asset: definite-integral-direct.svg
+created: 20250522150506377
+creator: miRoox
+modified: 20250522152203137
+modifier: miRoox
+tags: AssetSource
+title: definite-integral-direct.wl
+tmap.id: d4921cbf-6e09-40dd-a17c-953bb63aa9fd
+type: text/vnd.tiddlywiki
+
+```mathematica
+(*定义函数和积分区间*)f[x_] := x^3 - 2 x
+a = -2;(*积分下限*)
+b = 2;(*积分上限*)
+(*绘制函数曲线并区分正负有向面积*)
+Plot[{f[x], 0}, {x, a, b},
+ PlotStyle -> Black, 
+ PlotRange -> {{a - 0.5, b + 0.5}, {-5, 5}},(*设置绘图范围*)
+ Filling -> {1 -> {{2}, {LightBlue, LightRed}}},(*正负面积不同颜色*)
+ PlotStyle -> Thick,(*加粗曲线*)
+ AxesLabel -> {"x", "y"},(*坐标轴标签*)
+ Ticks -> None, 
+ Epilog -> {(*标记积分区间 a 和 b*)
+ Text[Style["a", 12, Bold], {a, 0.5}], 
+   Text[Style["b", 12, Bold], {b, -0.5}],
+	 (*绘制 a 和 b 的垂直虚线*)Dashed, 
+   Line[{{a, 0}, {a, f[a]}}], Dashed, 
+   Line[{{b, 0}, {b, f[b]}}],
+	 (*标注正负面积*)
+   Text[Style["+", 10, Red], {-1, 1.5}], 
+   Text[Style["-", 10, Blue], {1, -1.5}]}]
+```
+ 

@@ -1,0 +1,12 @@
+aliases: 声明
+caption: 声明
+created: 20250522134719256
+creator: miRoox
+modified: 20250522135330972
+modifier: miRoox
+tags: C语法
+title: C声明
+tmap.id: 1f736a41-e9a6-45d8-a247-1d3afb094159
+type: text/vnd.tiddlywiki
+
+''声明''（Declaration）是一个引入一个或多个[[标识符|C标识符]]到程序中，并指定其含义及属性的 C 语言结构。

@@ -1,0 +1,14 @@
+aliases: 标识符
+caption: 标识符
+created: 20250522134849879
+creator: miRoox
+modified: 20250522135315542
+modifier: miRoox
+tags: C语法 TODO 标识符
+title: C标识符
+tmap.id: 0c74746a-d071-4733-b6f9-33532663bcd2
+type: text/vnd.tiddlywiki
+
+''标识符''（Identifier）是数字、下划线、小写及大写拉丁字母（C99开始还包括以 `\u`和`\U`转义记号指定的 [[Unicode]] 字符）的任意长度序列。合法的标识符必须以非数字字符（拉丁字母、下划线或 Unicode 非数字字符）开始。
+
+标识符大小写敏感（小写和大写字母表示不同标识符）。

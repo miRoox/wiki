@@ -1,11 +1,12 @@
 caption: 语法
 created: 20190924025348186
 creator: miRoox
-modified: 20230316103711664
+modified: 20250522135701855
 modifier: miRoox
 tags: TODO C语言
 title: C语法
 tmap.id: 086139fd-2bdf-4eea-ac26-452bf83251ff
 type: text/vnd.tiddlywiki
 
-! 语法
+[[C|C语言]] 程序是包含[[声明|C声明]]的一系列文本文件（通常是头文件和源文件）。它们会经过[[翻译|C翻译阶段]]变成可执行程序，在操作系统调用其`main`函数时被执行（除非它自己就是操作系统程序或其他独立程序，这种情况下入口点是编译器决定的）。
+

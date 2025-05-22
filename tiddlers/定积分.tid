@@ -1,0 +1,27 @@
+created: 20250522142132448
+creator: miRoox
+modified: 20250522152751478
+modifier: miRoox
+tags: 积分 TODO
+title: 定积分
+tmap.id: 9788d1cf-2182-407a-be0f-73c8f6f3b3de
+type: text/vnd.tiddlywiki
+
+''定积分''，即确定范围的[[积分]]。直观地说，对于一个给定的正[[实函数]]$$f(x)$$在一个实数[[区间]]$$[a,b]$$上的定积分
+
+$$
+\int_a^b f(x)\dd{x}
+$$
+
+可以在数值上理解为在$$Oxy$$坐标平面上，由曲线$$\displaystyle (x,f(x))\left(x\in [a,b]\right)$$，[[直线]]$$x=a$$，直线$$x=b$$以及$$x$$轴围成的曲边[[梯形]]的有向[[面积]]值：
+
+<figure>
+[img[definite-integral-positive.svg]]
+
+<figcaption>曲边梯形</figcaption>
+</figure>
+<figure>
+[img[definite-integral-direct.svg]]
+
+<figcaption>曲边梯形的有向面积（蓝色为负，红色为正）</figcaption>
+</figure>

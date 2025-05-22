@@ -1,0 +1,12 @@
+aliases: 翻译阶段
+caption: 翻译阶段
+created: 20250522135702925
+creator: miRoox
+modified: 20250522140705628
+modifier: miRoox
+tags: C语法 TODO
+title: C翻译阶段
+tmap.id: 7612dd24-fa77-4f70-871b-c4999a85eedb
+type: text/vnd.tiddlywiki
+
+编译器''如同''列阶段以此准确的顺序发生一般处理 C 源文件。实际实现可以组合，或以不同方式处理这些动作，只要行为相同。
