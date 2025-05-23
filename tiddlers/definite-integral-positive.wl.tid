@@ -1,7 +1,7 @@
 asset: definite-integral-positive.svg
 created: 20250522150329583
 creator: miRoox
-modified: 20250522151128168
+modified: 20250523134026820
 modifier: miRoox
 tags: AssetSource
 title: definite-integral-positive.wl
@@ -10,9 +10,9 @@ type: text/vnd.tiddlywiki
 
 ```mathematica
 (*定义函数和积分区间*)
-f[x_] := x^(2/3)
+f[x_] := x^3 - 2 x^2 + 3
 a = 0;(*积分下限*)
-b = 1;(*积分上限*)
+b = 2;(*积分上限*)
 (*绘制函数曲线和曲边梯形*)
 Plot[f[x], {x, a, b}, 
  PlotStyle->Black,
@@ -21,6 +21,7 @@ Plot[f[x], {x, a, b},
  PlotStyle -> Thick,(*加粗曲线*)
  AxesLabel -> {"x", "y"},
  Ticks -> None, 
+ LabelStyle -> Directive[FontSlant -> Italic, FontFamily -> "Times"],
  Epilog -> {(*标记积分区间 a 和 b*)
  Text[Style["a", 12, Bold], {a+0.05, -0.1}], 
    Text[Style["b", 12, Bold], {b, -0.1}],

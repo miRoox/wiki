@@ -1,7 +1,7 @@
 asset: definite-integral-direct.svg
 created: 20250522150506377
 creator: miRoox
-modified: 20250522152203137
+modified: 20250523134158755
 modifier: miRoox
 tags: AssetSource
 title: definite-integral-direct.wl
@@ -20,6 +20,7 @@ Plot[{f[x], 0}, {x, a, b},
  PlotStyle -> Thick,(*加粗曲线*)
  AxesLabel -> {"x", "y"},(*坐标轴标签*)
  Ticks -> None, 
+ LabelStyle -> Directive[FontSlant -> Italic, FontFamily -> "Times"],
  Epilog -> {(*标记积分区间 a 和 b*)
  Text[Style["a", 12, Bold], {a, 0.5}], 
    Text[Style["b", 12, Bold], {b, -0.5}],

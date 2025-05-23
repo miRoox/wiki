@@ -1,0 +1,19 @@
+created: 20250523134935794
+creator: miRoox
+modified: 20250523141117599
+modifier: miRoox
+tags: 微积分基本定理 数学定理
+title: 微积分第一基本定理
+tmap.id: 8a18c618-d3c9-4d91-a24a-c787b33ab928
+type: text/vnd.tiddlywiki
+
+若 $$a,b\in\Reals$$，[[函数|实函数]]$$f:[a,b]\to\Reals$$ 在[[区间]]$$[a,b]$$上[[黎曼可积]]，定义函数 $$F:[a,b]\to\Reals$$ 如下
+
+$$
+F(x)=\int_a^x f(x)\dd{x}
+$$
+
+则
+
+* $$F$$在闭区间$$[a,b]$$上[[连续|连续函数]]
+* 若$$f$$在$$c\in[a,b]$$处连续，则$$F'(x)=f(x)$$

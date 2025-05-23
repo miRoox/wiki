@@ -1,0 +1,17 @@
+aliases: gd
+created: 20250523143927983
+creator: miRoox
+modified: 20250523144717331
+modifier: miRoox
+tags: S型函数 函数
+title: 古德曼函数
+tmap.id: 50844ff8-42ab-4ad9-8667-9ed43c9b0210
+type: text/vnd.tiddlywiki
+
+''古德曼函数''（Gudermannian function）是一个[[S型函数]]。它无须涉及[[复数]]便将[[三角函数]]和[[双曲函数]]连系起来。
+
+古德曼函数$$\operatorname{gd}:\Reals\to(-\frac{\pi}{2},\frac{\pi}{2})$$ 的定义如下：
+
+$$
+\operatorname{gd}(x)=\int_0^x\frac{1}{\cosh t}\dd{t}
+$$
