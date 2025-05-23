@@ -2,14 +2,14 @@ aliases: 范畴
 caption: 范畴
 created: 20240913135227723
 creator: miRoox
-modified: 20240913135713202
+modified: 20250523145237026
 modifier: miRoox
 tags: 范畴论 TODO
 title: 数学：范畴
 tmap.id: 99e6f830-7813-49bf-9f12-7387588c4109
 type: text/vnd.tiddlywiki
 
-在[[范畴论]]中，''范畴''（Category）此一概念代表着一堆数学实体和存在于这些实体间的关系。、
+在[[范畴论]]中，''范畴''（Category）此一概念代表着一堆数学实体和存在于这些实体间的关系。
 
 一个''范畴''$$C$$包括：
 

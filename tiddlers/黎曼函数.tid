@@ -1,13 +1,13 @@
 created: 20240914122328796
 creator: miRoox
-modified: 20240914123710915
+modified: 20250523144824109
 modifier: miRoox
 tags: 函数 TODO
 title: 黎曼函数
 tmap.id: ce692b03-9a10-49d1-a445-4a8488b468d2
 type: text/vnd.tiddlywiki
 
-黎曼函数$$R:\Reals\to[0,1]$$
+''黎曼函数''$$R:\Reals\to[0,1]$$
 
 $$
 R(x)=\begin{cases}

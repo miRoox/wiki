@@ -1,0 +1,27 @@
+aliases: 牛顿-莱布尼茨公式
+caption: 牛顿-莱布尼茨公式
+created: 20250523135143464
+creator: miRoox
+modified: 20250523142046614
+modifier: miRoox
+tags: 微积分基本定理 数学定理 微积分学
+title: 微积分第二基本定理
+tmap.id: 1e5c87f8-9ef1-4740-adca-075cb2b7924f
+type: text/vnd.tiddlywiki
+
+若两函数$$f,F:[a,b]\to\Reals$$上满足
+
+* $$\forall x\in(a,b),F'(x)=f(x)$$（即$$F$$是$$f$$的一个[[原函数|不定积分]]）
+* $$f$$在$$[a,b]$$[[黎曼可积]]
+
+则：
+
+$$
+\int_a^b f(x)\dd{x}=F(b)-F(a)
+$$
+
+简记为：
+
+$$
+{\displaystyle\int_a^b f(x)\dd{x}=\Big.F(x)\Big|_a^b}\ \mathrm{或}\ {\displaystyle\int_a^b f(x)\dd{x}=\Big[F(x)\Big]_a^b}
+$$
