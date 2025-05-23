@@ -1,6 +1,6 @@
 created: 20240917101435746
 creator: miRoox
-modified: 20240917102542368
+modified: 20250523050957709
 modifier: miRoox
 tags: 符号表 TODO
 title: 符号表：关系符
@@ -10,6 +10,7 @@ type: text/vnd.tiddlywiki
 |! 符号| !含义 |
 | $$\vdash$$ | [[句法后承]] |
 | $$\models$$ | [[语义后承]] |
+| $$\sim$$ | [[等价关系]] |
 | $$\cong$$ | [[等势]] |
 | $$\in$$ | [[属于关系]] |
 | $$\subseteq$$ | [[子集]] |

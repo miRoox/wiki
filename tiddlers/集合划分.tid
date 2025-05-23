@@ -2,11 +2,16 @@ aliases: 划分
 caption: 划分
 created: 20240912071901018
 creator: miRoox
-modified: 20240912072807537
+modified: 20250523050703167
 modifier: miRoox
 tags: 集合 TODO 集族
 title: 集合划分
 tmap.id: 2bd4beb3-929c-43b9-a0af-cd40b76417b8
 type: text/vnd.tiddlywiki
 
-[[集合]]$$X$$的''划分''是$$X$$的非[[空|空集]][[子集]]的[[集族]]，使得$$X$$的每个元素$$x$$都只[[包含在|属于关系]]这些子集的其中一个内。
+[[集合]]$$X$$的''划分''是$$X$$的非[[空|空集]][[子集]]的[[集族]]，使得$$X$$的每个元素$$x$$都[[只|唯一存在量化]][[包含在|属于关系]]这些子集的其中一个内。
+
+正式的，$$U$$是$$X$$的一个''划分''，[[当且仅当|?]]
+$$
+(\forall A\in U, \exist x\in X, x\in A)\land\left(\forall x\in X,\exist A\in U, x\in A\land (\forall B\in U,x\in B \implies A=B)\right)
+$$

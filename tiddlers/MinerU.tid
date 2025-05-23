@@ -1,0 +1,13 @@
+aliases: magic-pdf
+created: 20250523052226477
+creator: miRoox
+modified: 20250523085348291
+modifier: miRoox
+tags: Python程序包 TODO 程序库
+title: MinerU
+tmap.id: 23fd1be8-3e29-4b02-8aca-9df26b4c0f12
+type: text/vnd.tiddlywiki
+
+一站式开源高质量数据提取工具，将[[PDF|?]]转换成[[Markdown]]和[[JSON|?]]格式。
+
+* [[源码仓库|https://github.com/opendatalab/MinerU]]
