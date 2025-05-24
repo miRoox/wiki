@@ -1,0 +1,28 @@
+aliases: 拓展中值定理
+created: 20250524070916108
+creator: miRoox
+modified: 20250524072209699
+modifier: miRoox
+tags: 微分中值定理 数学定理
+title: 柯西中值定理
+tmap.id: 73144c6a-f71c-4e0f-9374-75bbec4d11c2
+type: text/vnd.tiddlywiki
+
+''柯西中值定理''，也叫''拓展中值定理''，是[[微分中值定理]]的一般形式。
+
+如果[[函数|实函数]]$$f,g:[a,b]\to\Reals$$都满足：
+
+* 在闭[[区间]]$$[a,b]$$上[[连续|连续函数]]
+* 在开区间$$(a,b)$$内可[[导|导数]]
+
+则
+
+$$
+\exist\xi\in(a,b),\,f'(\xi)(g(b)-g(a))=g'(\xi)(f(b)-f(a))
+$$
+
+当$$g(a)\ne g(b)$$且$$g'(\xi)\ne 0$$时，也可以写作：
+
+$$
+\frac{f'(\xi)}{g'(\xi)}=\frac{f(b)-f(a)}{g(b)-g(a)}
+$$

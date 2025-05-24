@@ -1,0 +1,14 @@
+aliases: sinh
+created: 20250524143347534
+creator: miRoox
+modified: 20250524143504160
+modifier: miRoox
+tags: 双曲函数 TODO
+title: 双曲正弦函数
+tmap.id: d9470b11-72d6-40d5-b3b6-439f98bc1145
+type: text/vnd.tiddlywiki
+
+
+$$
+\sinh=\frac{\exp(x)-\exp(-x)}{2}
+$$

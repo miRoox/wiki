@@ -3,7 +3,7 @@ created: 20190918153119370
 creator: miRoox
 icon: avatar.jpg
 list-before: 
-modified: 20250517143444640
+modified: 20250524081054114
 modifier: miRoox
 tags: $:/DefaultTiddlers
 title: About
@@ -13,3 +13,7 @@ type: text/vnd.tiddlywiki
 ! 关于
 
 这里是[[miRoox]]的个人[[知识库]]Wiki。用于记录各种知识、想法、点子，并逐渐将其系统化。
+
+---
+
+<div style="font-size: 12px; text-align: center">基于[[Tiddlywiki]]</div>

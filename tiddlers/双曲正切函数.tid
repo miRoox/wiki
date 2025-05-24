@@ -1,0 +1,13 @@
+aliases: tanh
+created: 20250524143543663
+creator: miRoox
+modified: 20250524143642657
+modifier: miRoox
+tags: 双曲函数 TODO S型函数
+title: 双曲正切函数
+tmap.id: b23efa71-c33b-4e8d-934c-ae1ae6c8bb8f
+type: text/vnd.tiddlywiki
+
+$$
+\tanh=\frac{\exp(x)-\exp(-x)}{\exp(x)+\exp(-x)}
+$$

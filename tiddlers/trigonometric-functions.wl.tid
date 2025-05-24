@@ -1,0 +1,22 @@
+asset: trigonometric-functions.svg
+created: 20250524141537088
+creator: miRoox
+modified: 20250524142347264
+modifier: miRoox
+tags: AssetSource
+title: trigonometric-functions.wl
+tmap.id: ed2ab055-95bf-4a69-a1e2-a4be030b3124
+type: text/vnd.tiddlywiki
+
+```mathematica
+Plot[
+ {Sin[x], Cos[x], Tan[x], Cot[x], Sec[x], Csc[x]}, {x, -2 Pi, 2 Pi},
+ ImageSize -> Large,
+ PlotTheme -> "Scientific",
+ PlotLegends -> 
+  Placed[LineLegend["Expressions", 
+    LegendFunction -> (Framed[#1, FrameMargins -> 0] &)], {Left, 
+    Bottom}]
+ ]
+```
+ 

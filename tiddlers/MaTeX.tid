@@ -1,13 +1,34 @@
 caption: MaTeX
 created: 20190926093236906
 creator: miRoox
-modified: 20240930080837837
+modified: 20250524100240089
 modifier: miRoox
-tags: Mathematica工具包 程序库
+tags: Mathematica工具包 程序库 [[Szabolcs Horvát]]
 title: MaTeX
 tmap.id: 2673aa76-8d6c-4200-a040-b465c25842a2
 type: text/vnd.tiddlywiki
 
-在[[Mathematica]]中创建[[LaTeX|TeX]]标签。
+在[[Mathematica|Wolfram Mathematica]]中创建[[LaTeX]]标签。
 
-链接： https://github.com/szhorvat/MaTeX
+!! 安装
+
+需要在系统里安装了：
+
+* 一个包含 pdflatex 的 TeX 系统（[[TeX Live]]或[[MiKTeX]]）
+* [[Ghostscript]] 9.15 或更高版本。
+
+在Mathematica 11.3或更高版本中，只需要运行：
+
+```mathematica
+ResourceFunction["MaTeXInstall"][]
+```
+在早期不支持资源函数的Mathematica版本中，[[下载最新版本|https://github.com/szhorvat/MaTeX/releases]]，以`.paclet`文件的形式分发，并使用`PacletInstall` Mathematica 函数进行安装：
+
+```mathematica
+Needs["PacletManager`"]
+PacletInstall["/full/path/to/MaTeX-1.7.9.paclet"]
+```
+
+!! 链接
+
+* [[GitHub仓库|https://github.com/szhorvat/MaTeX]]

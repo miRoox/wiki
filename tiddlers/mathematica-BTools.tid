@@ -1,13 +1,14 @@
+aliases: BTools
 caption: BTools
 created: 20190926094212352
 creator: miRoox
-modified: 20240930080843540
+modified: 20250524095640660
 modifier: miRoox
-tags: Mathematica工具包 程序库
+tags: Mathematica工具包 程序库 b3m2a1
 title: mathematica-BTools
 tmap.id: a50bb4a0-f04d-4380-9b15-c0ec07f0fbcf
 type: text/vnd.tiddlywiki
 
-一套旨在简化开发的[[Mathematica]]工具
+一套旨在简化开发的[[Wolfram Mathematica]]工具，由[[b3m2a1]]制作。
 
-链接： https://github.com/b3m2a1/mathematica-BTools
+链接： [[GitHub仓库|https://github.com/b3m2a1/mathematica-BTools]]
