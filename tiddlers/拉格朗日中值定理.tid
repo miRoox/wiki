@@ -1,0 +1,22 @@
+created: 20250524063757542
+creator: miRoox
+modified: 20250524071854736
+modifier: miRoox
+tags: 微分中值定理 数学定理 微积分学
+title: 拉格朗日中值定理
+tmap.id: 3bdb230d-43fe-4f82-aa7e-089fa09b689b
+type: text/vnd.tiddlywiki
+
+如果[[函数|实函数]]$$f:[a,b]\to\Reals$$满足：
+
+* 在闭[[区间]]$$[a,b]$$上[[连续|连续函数]]
+* 在开区间$$(a,b)$$内可[[导|导数]]
+
+则
+
+$$
+\exist\xi\in(a,b),\,f'(\xi)=\frac{f(b)-f(a)}{b-a}
+$$
+
+
+拉格朗日中值定理可以看作是[[罗尔中值定理]]的推广，以及[[柯西中值定理]]的特殊情况。

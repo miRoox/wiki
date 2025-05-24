@@ -89,7 +89,7 @@ x_{n+1} \\ y_{n+1}
 
 解密流程和加密流程基本一致，只是在上述第③步后对整个数组进行反向排序。
 
-下面是上述流程中进行一维数组置乱部分的[Mathematica](#Mathematica)代码：
+下面是上述流程中进行一维数组置乱部分的[Mathematica](#Wolfram%20Mathematica)代码：
 
 ```mathematica
 (*shuffle list with improved chirikov map*)

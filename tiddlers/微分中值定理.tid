@@ -1,8 +1,10 @@
 created: 20250523135816426
 creator: miRoox
-modified: 20250523135906877
+modified: 20250524070910116
 modifier: miRoox
-tags: 微积分学 TODO 分类 数学定理
+tags: 微积分学 分类 数学定理
 title: 微分中值定理
 tmap.id: 09c116ce-c3f5-420c-a954-bab8602e261f
 type: text/vnd.tiddlywiki
+
+''微分中值定理''分为[[罗尔中值定理]]、[[拉格朗日中值定理]]和[[柯西中值定理]]，内容粗略的说是指平面上一段固定端点的连续可微曲线，两端点之中必然有一点，它的斜率与连接两端点的直线斜率相同。

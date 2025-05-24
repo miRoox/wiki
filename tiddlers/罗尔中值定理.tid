@@ -1,13 +1,13 @@
 created: 20250523142201627
 creator: miRoox
-modified: 20250523142826882
+modified: 20250524070257322
 modifier: miRoox
-tags: 微分中值定理
+tags: 微分中值定理 数学定理
 title: 罗尔中值定理
 tmap.id: a22f1c4a-fe86-4bd4-be47-e57494cb51f1
 type: text/vnd.tiddlywiki
 
-如果[[函数|实函数]]$$f(x)$$满足：
+如果[[函数|实函数]]$$f:[a,b]\to\Reals$$满足：
 
 * 在闭[[区间]]$$[a,b]$$上[[连续|连续函数]]
 * 在开区间$$(a,b)$$内可[[导|导数]]
@@ -15,5 +15,5 @@ type: text/vnd.tiddlywiki
 
 则
 $$
-\exist\xi\in(a,b),f'(\xi)=0
+\exist\xi\in(a,b),\,f'(\xi)=0
 $$

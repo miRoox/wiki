@@ -1,8 +1,8 @@
 created: 20250522142132448
 creator: miRoox
-modified: 20250523134729939
+modified: 20250524063708128
 modifier: miRoox
-tags: 积分 TODO
+tags: 积分
 title: 定积分
 tmap.id: 9788d1cf-2182-407a-be0f-73c8f6f3b3de
 type: text/vnd.tiddlywiki
@@ -23,7 +23,8 @@ $$
 <figure>
 [img[definite-integral-direct.svg]]
 
-<figcaption>曲边梯形的有向面积（蓝色为负，红色为正）</figcaption>
+<figcaption>曲边梯形的有向面积（<span style="background-color: #def0ff;color: #2c2cfc">蓝色</span>为负，<span style="background-color: #ffd9d9;color: #ff0000">红色</span>为正）</figcaption>
 </figure>
 
-积分的一个严格的数学定义由[[伯恩哈德·黎曼|?]]给出，因此习惯上我们常见的积分也称为“[[黎曼积分]]”。
+
+定积分的一个严格的数学定义由[[伯恩哈德·黎曼|?]]给出，因此习惯上我们常见的积分也称为“[[黎曼积分]]”。

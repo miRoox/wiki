@@ -1,0 +1,59 @@
+asset: circle-trigonometric-functions.svg
+created: 20250524140609045
+creator: miRoox
+modified: 20250524142232397
+modifier: miRoox
+tags: AssetSource
+title: circle-trigonometric-functions.wl
+tmap.id: dc8f2af5-b8f2-4bd7-8e44-45d96a033b24
+type: text/vnd.tiddlywiki
+
+```wl
+center = {0, 0};
+radius = 1;
+Manipulate[
+ DynamicModule[{angle = t Degree, 
+   point = {Cos[t Degree], Sin[t Degree]}, sp = {Sec[t Degree], 0}, 
+   cp = {0, Csc[t Degree]}},
+  (*图形绘制*)
+  Graphics[{
+    (*单位圆*){Circle[center, radius]}, 
+    Text[Style["O", 12], {-0.1, -0.1}],
+    (*直角*){Transparent, EdgeForm[Gray], 
+     Rectangle[{point[[1]] - 0.1, 0}, {point[[1]], 0.1}], 
+     Parallelogram[
+      point, {-0.1 point, -0.1 {Sin[t Degree], - Cos[t Degree]}}]},
+    (*角度的弧*){Gray, Circle[center, 0.2, {0, angle}]}, 
+    Text[Style["\[Theta]", 10], 0.15 {Cos[angle/2], Sin[angle/2]}],
+    (*半径线*){Black, Line[{center, point}]}, 
+    Text[Style["1", 12], {point[[1]]/2 - 0.05, point[[2]]/2 + 0.05}],
+    (*正弦线*){Red, Thick, Line[{{point[[1]], 0}, point}]}, 
+    Text[Style["sin \[Theta]", 12, Red], {point[[1]] + 0.15, 
+      point[[2]]/2}],
+    (*余弦线*){Blue, Thick, Line[{center, {point[[1]], 0}}]}, 
+    Text[Style["cos \[Theta]", 12, Blue], {point[[1]]/2, -0.1}],
+    (*正切线*){Brown, Thick, Line[{sp, point}]}, 
+    Text[Style["tan \[Theta]", 12, 
+      Brown], (sp + point)/2 + {0.1, 0.1}],
+    (*余切线*){Orange, Thick, Line[{cp, point}]}, 
+    Text[Style["cot \[Theta]", 12, 
+      Orange], (cp + point)/2 + {0.1, 0.1}],
+    (*正割线*){Pink, {Dashed, Line[{center, center - {0, 0.25}}], 
+      Line[{sp, sp - {0, 0.25}}]}, Thick, Arrowheads[{-.02, .02}], 
+     Arrow[{center - {0, 0.25}, sp - {0, 0.25}}]}, 
+    Text[Style["sec \[Theta]", 12, Pink], sp/2 - {0, 0.35}],
+    (*余割线*){Purple, {Dashed, Line[{center, center - {0.25, 0}}], 
+      Line[{cp, cp - {0.25, 0}}]}, Thick, Arrowheads[{-.02, .02}], 
+     Arrow[{center - {0.25, 0}, cp - {0.25, 0}}]}, 
+    Text[Style["csc \[Theta]", 12, Purple], cp/2 - {0.35, 0}],
+    Text[Style["A", 12], point + {0.1, 0.1}],
+    Text[Style["B", 12], sp + {0, 0.1}],
+    Text[Style["C", 12], cp + {-0.1, 0.05}]
+    },
+   PlotRange -> {{-1.5, Min[Sec[angle] + 0.5, 5]}, {-1.5, 
+      Min[Csc[angle] + 0.5, 5]}},
+   Axes -> True, Ticks -> None, ImageSize -> 640]
+  ],
+ (*交互控制*){{t, 60, "角度 \[Theta] (度)"}, 0.1, 89.9, 1},
+ ControlPlacement -> Bottom]
+```

@@ -1,8 +1,8 @@
 created: 20240917100921261
 creator: miRoox
-modified: 20250518110436243
+modified: 20250524144754902
 modifier: miRoox
-tags: 符号表 TODO
+tags: 符号表
 title: 符号表：拉丁字母衍生
 tmap.id: cf6cd82c-6932-4e4f-92a3-0189182c48c1
 type: text/vnd.tiddlywiki
@@ -16,9 +16,12 @@ type: text/vnd.tiddlywiki
 | $$\Box^\complement$$ | [[绝对补集]] |
 | $$\card$$ | [[基数]] |
 | $$\cos$$ | [[余弦函数]] |
+| $$\cosh$$ | [[双曲余弦函数]] |
 | $$\cot$$ | [[余切函数]] |
+| $$\csc$$ | [[余割函数]] |
+| $$\ctg$$ | [[余切函数]] |
 | $$\det$$ | [[行列式]] |
-| $$\mathrm{e}$$ | [[自然底数e]] |
+| $$\euler$$ | [[自然底数e]] |
 | $$\exists$$ | [[存在量化]] |
 | $$\exists!$$ | [[唯一存在量化]] |
 | $$\exp$$ | [[e指数函数]] |
@@ -46,6 +49,10 @@ type: text/vnd.tiddlywiki
 | $$\sign$$ | [[符号函数]] |
 | $$\sin$$ | [[正弦函数]] |
 | $$\sinc$$ | [[sinc函数]] |
+| $$\sinh$$ | [[双曲正弦函数]] |
+| $$\sec$$ | [[正割函数]] |
 | $$\Box^{\mathsf{T}}$$ | [[转置]] |
 | $$\tan$$ | [[正切函数]] |
+| $$\tanh$$ | [[双曲正切函数]] |
+| $$\tg$$ | [[正切函数]] |
 | $$\Z$$ | [[整数]][[集|集合]] |
