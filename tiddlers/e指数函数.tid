@@ -1,9 +1,9 @@
 aliases: 指数函数
 created: 20240914101504573
 creator: miRoox
-modified: 20240914101648615
+modified: 20250525012749444
 modifier: miRoox
-tags: 指数函数 TODO
+tags: 指数函数
 title: e指数函数
 tmap.id: 88e74554-323a-46c3-878d-acacac24a76a
 type: text/vnd.tiddlywiki
@@ -11,5 +11,5 @@ type: text/vnd.tiddlywiki
 特指以[[e|自然底数e]]为底数的[[指数函数]]
 
 $$
-\exp(x)=\mathrm{e}^x
+\exp(x)=\euler^x
 $$

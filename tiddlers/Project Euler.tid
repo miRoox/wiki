@@ -1,0 +1,15 @@
+created: 20250525083631182
+creator: miRoox
+modified: 20250525084655745
+modifier: miRoox
+tags: 在线题目
+title: Project Euler
+tmap.id: e7243f4e-c97a-4f0a-8be9-b347e917edb1
+type: text/vnd.tiddlywiki
+
+''Project Euler'' 是一系列具有挑战性的数学/计算机编程问题，解决这些问题需要的不仅仅是数学洞察力。虽然数学可以帮助你找到优雅和高效的方法，但解决大多数问题还需要使用计算机和编程技能。
+
+!! 链接
+
+* [[网站|https://projecteuler.net/about]]
+* [[我|?]]的[[题解|https://github.com/miRoox/ProjectEuler]]
