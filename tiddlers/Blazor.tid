@@ -1,0 +1,14 @@
+created: 20250525111807437
+creator: miRoox
+modified: 20250525112122379
+modifier: miRoox
+tags: .NET 程序框架 TODO [[ASP.NET Core]]
+title: Blazor
+tmap.id: ff1e74f6-04e0-4e7e-a650-36a72464ea7c
+type: text/vnd.tiddlywiki
+
+''Blazor''是一个基于[[HTML|?]]、[[CSS|?]]和[[C#]]的现代web应用框架。
+
+!! 链接
+
+* [[Blazor官网|https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor]]

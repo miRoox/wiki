@@ -1,0 +1,16 @@
+created: 20250525122736214
+creator: miRoox
+modified: 20250525123229867
+modifier: miRoox
+tags: 公理 策梅洛-弗兰克尔集合论
+title: 幂集公理
+tmap.id: 8b7f24b0-4309-4648-bf96-7d7655738f1d
+type: text/vnd.tiddlywiki
+
+''幂集公理''断言了[[幂集]]的存在性。正式地，
+
+$$
+\forall A, \exists \;{{\mathcal {P}}(A)},\forall x:x\in {{\mathcal {P}}(A)}\iff (\forall y:y\in x\implies y\in A)
+$$
+
+通过[[外延公理]]可知这个[[集合]]是唯一的。我们可以称集合$$\mathcal {P}(A)$$是$$A$$的''幂集''。
