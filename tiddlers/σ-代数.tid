@@ -1,15 +1,15 @@
 aliases: σ代数
 created: 20240912091052212
 creator: miRoox
-modified: 20250527094828044
+modified: 20250528132946542
 modifier: miRoox
-tags: 集合代数 TODO 测度论 实分析
+tags: 集合代数 TODO 测度论 实分析 集合域
 title: σ-代数
 tmap.id: 03c70122-058b-40c9-91e4-e21914bb01ed
 type: text/vnd.tiddlywiki
 
 ''σ-代数''，是指一种[[有序对]]$$(X,\mathcal{F})$$，其中$$X$$是[[集合]]，[[集族]]$$\mathcal{F}\subseteq 2^X$$，且满足：
 
-* $$X\in\mathcal{F}$$
+* $$X\in\mathcal{F}$$（包含[[全集]]）
 * $$\forall A\in\mathcal{F}, X\setminus A\in\mathcal{F}$$（[[补集|绝对补集]][[封闭|封闭性]]）
 * $${\left(\forall k\in\mathbb{N}, A_k\in\mathcal{F}\right)\implies\bigcup_{k\in\mathbb{N}} A_k\in\mathcal{F}}$$（[[可数|可数集合]][[并|并集]]封闭）
