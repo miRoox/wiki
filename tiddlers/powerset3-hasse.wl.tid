@@ -1,0 +1,27 @@
+asset: powerset3-hasse.svg
+created: 20250529142434304
+creator: miRoox
+modified: 20250529142515002
+modifier: miRoox
+tags: AssetSource
+title: powerset3-hasse.wl
+tmap.id: 2d93dea3-8cf6-4bdb-b64a-472030a7735b
+type: text/vnd.tiddlywiki
+
+```wl
+(*定义集合*)
+set = {a, b, c};
+
+(*生成幂集*)
+powerSet = Subsets[set];
+
+(*定义偏序关系：子集关系*)
+edges = Select[Permutations[powerSet, {2}], 
+    SubsetQ[#[[1]], #[[2]]] &] // Map[DirectedEdge[#[[2]], #[[1]]] &];
+
+(*绘制哈斯图*)
+Graph[edges, VertexShapeFunction -> "Capsule", 
+ VertexLabels -> Placed["Name", Center], GraphStyle -> "DiagramBlack",
+  VertexSize -> 0.6, EdgeStyle -> DirectedEdge[__] -> Arrowheads[0.02],
+ PlotTheme -> "Detailed"]
+```

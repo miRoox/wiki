@@ -1,8 +1,15 @@
 created: 20240912125809650
 creator: miRoox
-modified: 20250518135841375
+modified: 20250528134718239
 modifier: miRoox
 tags: σ-代数 TODO 集合代数 测度论
 title: 最小σ-代数
 tmap.id: 50f7dd33-d56d-404f-a05d-a1931e990e2c
 type: text/vnd.tiddlywiki
+
+对于给定[[集合]]$$X$$的[[子集族|集族]]$$\mathcal{F}\subseteq 2^X$$，该子集族的''最小σ-代数''$$\sigma(\mathcal{F})$$在包含该集族的所有可能[[σ-代数]]中，是（[[包含|子集]]意义下）最小的一个，即
+
+''最小σ-代数''$$\sigma(\mathcal{F})$$需要满足
+
+* $$\mathcal{F}\subseteq\sigma(\mathcal{F})$$
+* 对于[[任一|全称量化]]σ-代数$$\mathcal{G}\supseteq\mathcal{F}$$，那么$$\sigma(\mathcal{F})\subseteq\mathcal{G}$$（包含意义下的最小）

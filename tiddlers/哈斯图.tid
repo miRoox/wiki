@@ -1,0 +1,15 @@
+created: 20250529131501411
+creator: miRoox
+modified: 20250529142809179
+modifier: miRoox
+tags: 序理论 TODO
+title: 哈斯图
+tmap.id: 03a81b4a-3ec6-4b4c-a93a-aed62a16eb5f
+type: text/vnd.tiddlywiki
+
+''哈斯图''（Hasse）是用来表示[[有限|有限集合]][[偏序集]]的一种数学图表，它是一种[[图|图论：图]]形式的对偏序集的传递简约。
+
+<figure>
+[img[powerset3-hasse.svg]]
+<figcaption>$$\set{a,b,c}$$的[[幂集]]按[[包含|子集]][[偏序|偏序关系]]排序</figcaption>
+</figure>
