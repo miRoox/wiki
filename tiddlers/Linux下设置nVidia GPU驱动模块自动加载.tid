@@ -1,0 +1,84 @@
+created: 20250531124510489
+creator: miRoox
+modified: 20250531124755029
+modifier: miRoox
+tags: HowTos
+title: Linux下设置nVidia GPU驱动模块自动加载
+tmap.id: 75dea185-a95b-4b3a-9f63-572f0140e6b0
+type: text/vnd.tiddlywiki
+
+!! `modprobe`
+
+`modprobe` 是一个命令行工具，用于手动或自动加载/卸载 [[Linux]] 内核模块。它会解析 `/etc/modprobe.d/` 目录中的配置文件，处理模块的依赖关系、参数和别名。需要 `/etc/modprobe.d/nvidia.conf` 来定义 NVIDIA 模块（`nvidia`, `nvidia-drm`, `nvidia-modeset`, `nvidia-uvm`）的加载顺序和别名
+
+将以下内容写入 `/etc/modprobe.d/nvidia.conf`
+
+```bash
+# Install commands to load NVIDIA modules with dependencies
+install nvidia modprobe -i nvidia $CMDLINE_OPTS
+install nvidia-modeset modprobe nvidia ; modprobe -i nvidia-modeset $CMDLINE_OPTS
+install nvidia-drm modprobe nvidia-modeset ; modprobe -i nvidia-drm $CMDLINE_OPTS
+install nvidia-uvm modprobe nvidia ; modprobe -i nvidia-uvm $CMDLINE_OPTS
+
+# Unload commands to ensure proper unloading order
+remove nvidia modprobe -r -i nvidia-drm nvidia-modeset nvidia-uvm nvidia
+remove nvidia-modeset modprobe -r -i nvidia-drm nvidia-modeset
+
+# Aliases for NVIDIA devices
+alias char-major-195* nvidia
+alias pci:v000010DEd0000232csv*sd*bc03sc02i00* nvidia
+alias pci:v000010DEd*sv*sd*bc06sc80i00* nvidia
+```
+
+（注：参考 `lspci | grep -i nvidia` 的输出调整 `alias` 部分）
+
+为了禁用开源的 `nouveau` 驱动，创建 `/etc/modprobe.d/blacklist-nouveau.conf` 并添加：
+
+```bash
+blacklist nouveau
+options nouveau modeset=0
+```
+
+更新initramfs，运行
+
+```bash
+sudo update-initramfs -u
+```
+
+!! `/etc/modules-load.d/`
+
+`/etc/modules-load.d/` 是 `systemd-modules-load` 服务使用的目录，专门用于指定系统开机时需要自动加载的内核模块。`systemd` 在启动时会调用 `modprobe` 加载其中给出的模块。
+
+创建 `/etc/modules-load.d/nvidia.conf` 并写入内容：
+
+```
+nvidia
+nvidia-modeset
+nvidia-drm
+nvidia-uvm
+```
+
+!! 验证
+
+重启系统。
+
+检查模块加载：
+
+```bash
+lsmod | grep nvidia
+```
+
+验证驱动：
+
+
+```bash
+nvidia-smi
+```
+
+检查错误：
+
+```bash
+sudo dmesg | grep -i nvidia
+sudo journalctl -xe | grep -i nvidia
+```
+
