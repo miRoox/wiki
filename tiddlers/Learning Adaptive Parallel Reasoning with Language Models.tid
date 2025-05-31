@@ -1,0 +1,11 @@
+created: 20250531125536725
+creator: miRoox
+modified: 20250531130250087
+modifier: miRoox
+tags: 论文 TODO 研究型论文
+title: Learning Adaptive Parallel Reasoning with Language Models
+tmap.id: bb3a4b6c-6bb6-464c-a98d-ae60080acad3
+type: text/vnd.tiddlywiki
+
+* [[arxiv: 2504.15466|https://arxiv.org/abs/2504.15466]]
+* [[GitHub: APR|https://github.com/Parallel-Reasoning/APR]]
