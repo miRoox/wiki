@@ -1,0 +1,12 @@
+created: 20250601045618535
+creator: miRoox
+modified: 20250601050535387
+modifier: miRoox
+tags: TODO 二元运算
+title: 对数
+tmap.id: 0bbae0f9-a0f3-4276-9b33-7cbff6d95df5
+type: text/vnd.tiddlywiki
+
+''对数''（logarithm）可以视为[[乘方]]的逆运算。
+
+如果$$a=b^c$$，则$$c=\log_b a$$

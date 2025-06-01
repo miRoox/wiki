@@ -1,9 +1,15 @@
-aliases: 幂
+aliases: 幂法 幂
 created: 20240822113847025
 creator: miRoox
-modified: 20240822113935252
+modified: 20250601045056437
 modifier: miRoox
 tags: 二元运算 TODO 算术运算
 title: 乘方
 tmap.id: b96f94c6-b9e4-43f1-8699-d199103c45f7
 type: text/vnd.tiddlywiki
+
+''乘方''或''幂法''（power method）是重复连[[乘|乘法]]的运算，乘方的结果被称为''幂''。若 $$n$$ 为正整数，$$n$$ 个相同的数 $$b$$连续相乘，就可将 $$ b^{n}$$ 看作乘方的结果 ——“幂”:
+
+$$
+b^{n}=\underbrace {b\times \cdots \times b} _{n}
+$$
