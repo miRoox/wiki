@@ -1,9 +1,11 @@
 aliases: 除 除以 商
 created: 20240822053515861
 creator: miRoox
-modified: 20240911081313590
+modified: 20250601050402053
 modifier: miRoox
 tags: 二元运算 TODO 算术运算 四则运算
 title: 除法
 tmap.id: d5a9e307-4d02-4c1a-8959-e8a7c4d934cd
 type: text/vnd.tiddlywiki
+
+''除法''（division）可以看成是“[[乘法]]的反运算”，也可以理解为“重复的[[减法]]”。
