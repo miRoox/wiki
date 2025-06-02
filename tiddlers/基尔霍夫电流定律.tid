@@ -1,6 +1,6 @@
 created: 20240929103213112
 creator: miRoox
-modified: 20240929103608692
+modified: 20250602124601879
 modifier: miRoox
 tags: 基尔霍夫电路定律 TODO 物理定律
 title: 基尔霍夫电流定律
@@ -17,3 +17,5 @@ type: text/vnd.tiddlywiki
 $$
 \sum i=0
 $$
+
+这可以看作是[[电荷守恒定律]]在电路里的表现。
