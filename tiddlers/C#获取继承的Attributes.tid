@@ -1,0 +1,50 @@
+created: 20250604083138138
+creator: miRoox
+modified: 20250604083409450
+modifier: miRoox
+tags: 代码片段 TODO
+title: C#获取继承的Attributes
+tmap.id: 363adeea-8aec-4beb-9499-e23ef78e32db
+type: text/vnd.tiddlywiki
+
+```cs
+using System;
+using System.Linq;
+
+// 定义一个允许多次应用且可继承的 Attribute
+[AttributeUsage(AttributeTargets.Class, AllowMultiple = true, Inherited = true)]
+public class MyCustomAttribute : Attribute
+{
+    public string Description { get; }
+
+    public MyCustomAttribute(string description)
+    {
+        Description = description;
+    }
+}
+
+// 基类
+[MyCustomAttribute("Base Attribute 1")]
+[MyCustomAttribute("Base Attribute 2")]
+public class BaseClass { }
+
+// 派生类
+[MyCustomAttribute("Derived Attribute 1")]
+public class DerivedClass : BaseClass { }
+
+class Program
+{
+    static void Main()
+    {
+        // 获取派生类上的所有 MyCustomAttribute
+        var attributes = typeof(DerivedClass).GetCustomAttributes(typeof(MyCustomAttribute), true/* 这里改成 false 即可只获取派生类自身的*/)
+            .Cast<MyCustomAttribute>();
+
+        // 输出结果
+        foreach (var attr in attributes)
+        {
+            Console.WriteLine(attr.Description);
+        }
+    }
+}
+```
