@@ -1,0 +1,26 @@
+created: 20250618104742263
+creator: miRoox
+modified: 20250618104835110
+modifier: miRoox
+tags: 代码片段
+title: PostgreSQL删除数据库的所有表
+tmap.id: 6bbaf3eb-404b-4bc9-a964-9911ab93a81f
+type: text/vnd.tiddlywiki
+
+```sql
+-- 禁用外键触发器
+SET session_replication_role = 'replica';
+
+-- 生成删除表的 SQL 语句
+DO $$ 
+DECLARE
+    r RECORD;
+BEGIN
+    FOR r IN (SELECT tablename FROM pg_tables WHERE schemaname = current_schema()) LOOP
+        EXECUTE 'DROP TABLE IF EXISTS ' || quote_ident(r.tablename) || ' CASCADE';
+    END LOOP;
+END $$;
+
+-- 恢复外键触发器
+SET session_replication_role = 'origin';
+```
