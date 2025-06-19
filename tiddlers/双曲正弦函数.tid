@@ -1,7 +1,7 @@
 aliases: sinh
 created: 20250524143347534
 creator: miRoox
-modified: 20250524143504160
+modified: 20250619044650087
 modifier: miRoox
 tags: 双曲函数 TODO
 title: 双曲正弦函数
@@ -10,5 +10,5 @@ type: text/vnd.tiddlywiki
 
 
 $$
-\sinh=\frac{\exp(x)-\exp(-x)}{2}
+\sinh x=\frac{\exp(x)-\exp(-x)}{2}
 $$

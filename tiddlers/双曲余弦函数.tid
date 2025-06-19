@@ -1,7 +1,7 @@
 aliases: cosh
 created: 20250524143507201
 creator: miRoox
-modified: 20250524143532544
+modified: 20250619044740319
 modifier: miRoox
 tags: 双曲函数 TODO
 title: 双曲余弦函数
@@ -9,5 +9,5 @@ tmap.id: 3c9ecef8-9107-431d-b962-897d7778bb92
 type: text/vnd.tiddlywiki
 
 $$
-\cosh=\frac{\exp(x)+\exp(-x)}{2}
+\cosh x=\frac{\exp(x)+\exp(-x)}{2}
 $$
