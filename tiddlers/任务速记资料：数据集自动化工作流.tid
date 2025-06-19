@@ -1,6 +1,6 @@
 created: 20250506101037308
 creator: miRoox
-modified: 20250518095352775
+modified: 20250619103738173
 modifier: miRoox
 tags: 任务速记资料 TODO
 title: 任务速记资料：数据集自动化工作流
@@ -21,3 +21,4 @@ type: text/vnd.tiddlywiki
 * [[Ray document|https://docs.ray.io/en/latest/index.html]]
 * [[基于 Ray 的分离式架构：veRL、OpenRLHF 工程设计|https://zhuanlan.zhihu.com/p/26833089345]]
 * [[LlamaIndex|https://docs.llamaindex.ai/en/stable/]]
+* [[Wiki.js数据库建模|https://github.com/requarks/wiki/blob/main/server/db/beta/migrations/2.0.0-beta.205.js]]

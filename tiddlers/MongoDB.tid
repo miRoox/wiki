@@ -1,0 +1,15 @@
+aliases: mongo
+created: 20250619063155739
+creator: miRoox
+modified: 20250619063601249
+modifier: miRoox
+tags: 文档数据库 TODO 数据库
+title: MongoDB
+tmap.id: dc4b9bc5-ff78-4ead-8d67-5dff52426a55
+type: text/vnd.tiddlywiki
+
+''MongoDB'' 是一个通用[[文档数据库]]。
+
+!! 链接
+
+* [[数据库手册|https://www.mongodb.com/zh-cn/docs/manual/]]

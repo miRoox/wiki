@@ -1,0 +1,21 @@
+aliases: crontab
+created: 20250619132010733
+creator: miRoox
+modified: 20250619132901512
+modifier: miRoox
+tags: 软件 TODO
+title: Crontab
+tmap.id: 124cc754-38af-4730-9011-31bc1d26e4c7
+type: text/vnd.tiddlywiki
+
+''Crontab'' 用于在类 Unix 操作系统中设置定时任务。它允许你定期自动运行脚本、命令或程序。
+
+!! Crontab组成
+
+* Cron 守护进程 (crond)：是一个在后台运行的守护进程，用于执行定时任务
+* Cron 作业 (cron job)：是由 cron 守护进程调度的任何任务
+* Crontab 文件：是一个包含用户希望定期运行的所有 cron 作业时间表的配置文件
+
+!! 示例
+
+{{Crontab示例}}

@@ -1,0 +1,17 @@
+aliases: Blazor.Diagrams
+caption: Blazor.Diagrams
+created: 20250619061739529
+creator: miRoox
+modified: 20250619062615249
+modifier: miRoox
+tags: 程序库 TODO .NET程序包
+title: Z.Blazor.Diagrams
+tmap.id: 0d1fc926-167b-42e7-9645-23396c7a201a
+type: text/vnd.tiddlywiki
+
+''Blazor.Diagrams'' 是一个可扩展的[[Blazor]]图表库。
+
+!! 链接
+
+* [[官网|https://blazor-diagrams.zhaytam.com/]]
+* [[GitHub：Blazor-Diagrams/Blazor.Diagrams|https://github.com/Blazor-Diagrams/Blazor.Diagrams]]
