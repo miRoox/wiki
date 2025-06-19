@@ -1,6 +1,6 @@
 created: 20250619035948039
 creator: miRoox
-modified: 20250619040503815
+modified: 20250619095729109
 modifier: miRoox
 tags: 软件 TODO 单点登录
 title: Casdoor
@@ -17,6 +17,11 @@ Casdoor 基于 OAuth 2.0 协议构建授权过程
 # 授权授予: 用户在 Casdoor 登录页面输入用户名和密码，Casdoor 验证用户身份，并将 code 和 state 发送回应用程序的回调 URL。
 # 访问令牌: 应用程序使用 code 向 Casdoor 请求 access_token。
 # 受保护的资源: 应用程序使用 access_token 访问资源服务器上的受保护资源。
+
+!! 链接
+
+* [[官方文档|https://casdoor.org/docs/overview]]
+* [[Casdoor RESTful API|https://door.casdoor.com/swagger/]]
 
 ---
 

@@ -1,0 +1,11 @@
+aliases: BRMS
+created: 20250619065051553
+creator: miRoox
+modified: 20250619065534370
+modifier: miRoox
+tags: 软件 TODO 专家系统 分类
+title: 业务规则管理系统
+tmap.id: de688c97-3a3a-44b9-b708-9a6ca2690aef
+type: text/vnd.tiddlywiki
+
+''业务规则管理系统''（business rule management system, ''BRMS''）是一套软件系统，用于定义、部署、执行、监控和维护一个组织里运行系统的大量复杂判断逻辑。

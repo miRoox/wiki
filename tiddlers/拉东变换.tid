@@ -1,0 +1,10 @@
+created: 20250619053833425
+creator: miRoox
+modified: 20250619054945089
+modifier: miRoox
+tags: 变换 TODO 积分变换
+title: 拉东变换
+tmap.id: ea87be50-b58e-4dd4-b78c-bd917e8dde99
+type: text/vnd.tiddlywiki
+
+''拉东变换''（Radon transform）是一种[[积分变换]]。其基本形式可以看作将二维密度函数累积投影（线积分）到一族直线上。

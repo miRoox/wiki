@@ -1,7 +1,7 @@
 aliases: EFcore
 created: 20241210130203185
 creator: miRoox
-modified: 20241210130916621
+modified: 20250619062754985
 modifier: miRoox
 tags: 程序框架 TODO 对象关系映射框架
 title: Entity Framework Core
@@ -9,3 +9,7 @@ tmap.id: c4abd06c-04df-492b-a638-0a17b1953a5c
 type: text/vnd.tiddlywiki
 
 ''Entity Framework Core''是基于[[.NET (Core)]]的[[ORM框架|对象关系映射框架]]
+
+!! 文档
+
+* [[官方文档|https://learn.microsoft.com/en-us/ef/core/]]

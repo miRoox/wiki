@@ -1,11 +1,14 @@
 caption: Gyrator变换
 created: 20191012075040854
 creator: miRoox
-modified: 20230316103711665
+modified: 20250619053822587
 modifier: miRoox
 tags: TODO 变换
 title: Gyrator变换
 tmap.id: 558eb697-21e0-4db4-93fb-9b455544d37e
 type: text/vnd.tiddlywiki
 
-! Gyrator变换
+''Gyrator变换''是一种在空频域上的[[线性正则变换]]
+
+
+TODO: https://opg.optica.org/oe/fulltext.cfm?uri=oe-15-5-2190&id=130574

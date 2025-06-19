@@ -1,7 +1,7 @@
 aliases: magic-pdf MinerU
 created: 20250523052226477
 creator: miRoox
-modified: 20250602124048058
+modified: 20250619062310185
 modifier: miRoox
 tags: Python程序包 TODO 程序库
 title: MinerU
@@ -10,5 +10,6 @@ type: text/vnd.tiddlywiki
 
 一站式开源高质量数据提取工具，将[[PDF|?]]转换成[[Markdown]]和[[JSON|?]]格式。
 
+* [[官方文档|https://mineru.readthedocs.io/en/latest/index.html]]
 * [[源码仓库|https://github.com/opendatalab/MinerU]]
 * 论文：[[MinerU: An Open-Source Solution for Precise Document Content Extraction]]
