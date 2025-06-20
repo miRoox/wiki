@@ -1,0 +1,332 @@
+author: Olaf van der Spek
+created: 20250620130050211
+creator: miRoox
+modified: 20250620130752486
+modifier: miRoox
+tags: SHP文件 TODO 转载
+title: SHP V1 Format
+tmap.id: 26f840fd-611a-4b6e-a233-41511fd19fd2
+type: text/vnd.tiddlywiki
+
+待翻译修正
+
+```
+SHP Version 1 
+===================================================================
+Name    :    ???
+Games   :    TD, RA1
+Desc    :    Contains a graphic unit. { Unit | Structure | Tree | ... } 
+
+
+* 1 Byte = unsigned Byte.
+
+* 'signed?' => No idea. Probably unsigned, but
+  it shouldnt cause any problem if you consider it signed.
+
+
+Structure
+-----------------------------------------
+Header
+    - FrameCount  :    2 Bytes, signed? word
+    - Unknown1    :    2 Bytes, ??
+    - Unknown2    :    2 Bytes, ??
+    - FrameWidth  :    2 Bytes, signed? word
+    - FrameHeight :    2 Bytes, signed? word
+    - Unknown3    :    4 Bytes, ??
+    - FrameHeaders [ FrameCount ]
+        - Offset    :     3 Bytes, signed? word.       // Offset of frame data in file (from the beginning of file)
+        - Format    :     1 Byte                       // Format of frame data
+
+        - RefOffset :     3 Bytes, signed? word.       // Offset of reference frame for Format20/40
+        - RefFormat :     1 Byte                       // Format of reference frame
+
+    - FileSize      :      4 Bytes, signed? double word.
+    - Zero          :     12 Bytes
+-----------------------------------------
+Body
+    - Compressed Frames [ FrameCount ]
+-----------------------------------------
+
+
+
+
+
+Notes
+===================================================================
+* Frame Size < 64KB
+
+* Shadow Color Index         : 0x004        // Bright green
+* Remappable Color Indexes   : 0x0B0-0x0BF  // GDI colors.
+
+
+* Format         :   Values:
+                        - 0x80 = Format 80
+                        - 0x40 = Format 40
+                        - 0x20 = Format 20
+Format40 must be XOR-ed with a Format80    REFERENCED by the RefOffset
+Format20 must be XOR-ed with a Format20/40 PRECEDING it in the File Body.
+
+    ( ??? ... ??? )
+    Considering a Format20 frame, its RefOffset contains the number 
+    of the first Format40 image in the chain and its RefFormat is always 0x48. 
+
+Example:
+
+0.    Off0 0x80 0x000000 0x00
+1.    Off1 0x80 0x000000 0x00
+2.    Off2 0x40 Off1     0x80
+3.    Off3 0x80 0x000000 0x00
+4.    Off4 0x40 Off1     0x80
+5.    Off5 0x20 0x000400 0x48
+6.    Off6 0x20 0x000400 0x48
+7.    Off7 0x40 Off3     0x80
+
+
+* When trying to decode an frame that is based on another frame,
+  the base frame must be decoded beforehands.
+
+
+
+
+
+===================================================================
+ Format80
+===================================================================
+
+Commands have different size: from 1 to 5 Bytes.
+
+The positions always refer to the destination buffer ( uncompressed frame ).
+
+The current  position is one byte beyond the last written byte.
+The relative position is relative to the current position.
+
+
+CMD #1
+-------------------------------------------------------------------
+    - Name : COPY AS IS.
+    - Size : 1 Byte
+    - Desc : Copy next COUNT bytes from Source to Destination.
+
+            1st
+            +---+---+---+---+---+---+---+---+
+            | 1 | 0 |   |   |   |   |   |   |
+            +---+---+---+---+---+---+---+---+
+                    \_______________________/
+                              |
+                            COUNT
+
+
+
+CMD #2
+-------------------------------------------------------------------
+    - Name : REPEAT COPY
+    - Size : 2 Bytes
+    - Desc : Copy next COUNT bytes from Destination ..
+                                                 AT    ( CurrentPosition - RelativePosition )
+                                                 TO CurrentPosition
+
+        1st                                 2nd
+        +---+---+---+---+---+---+---+---+   +---+---+---+---+---+---+---+---+
+        | 0 |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+        +---+---+---+---+---+---+---+---+   +---+---+---+---+---+---+---+---+
+            \___________/\__________________________________________________/
+                  |                             |
+                Count                    Relative Position
+
+
+    * You have to add 3 to the Count to obtain the COUNT. 
+                    i.e. COUNT = Count + 3
+
+    * IF RelativePosition == 1, THEN COPY the previous byte COUNT times.
+
+
+
+CMD #3
+-------------------------------------------------------------------
+    - Name : Large Copy
+    - Size : 3 Bytes
+    - Desc : Copy COUNT bytes FROM Position ( where Position IS ABSOLUTE from the start of the Destination )
+                              AT   Current Position.
+
+        1st                                 3rd             2nd
+        +---+---+---+---+---+---+---+---+   +---------------+---------------+
+        | 1 | 1 |   |   |   |   |   |   |   |               |               |
+        +---+---+---+---+---+---+---+---+   +---------------+---------------+
+                \_______________________/                Position
+                            |
+                          Count
+
+        * You have to add 3 to the Count to obtain the COUNT. 
+                        i.e. COUNT = Count + 3
+
+        * Position is 2 Bytes, => FRAME <= 64K 
+
+
+CMD #4
+-------------------------------------------------------------------
+    - Name : Very Large Copy
+    - Size : 4 Bytes
+    - Desc : Write ColorIndex COUNT times.
+
+        1st                                 3rd     2nd        4th
+        +---+---+---+---+---+---+---+---+   +-------+-------+  +-------+
+        | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 |   |       |       |  |       |
+        +---+---+---+---+---+---+---+---+   +-------+-------+  +-------+
+                                                  COUNT        ColorIndex
+
+        * COUNT      = 2 Bytes
+        * ColorIndex = 1 Byte
+
+
+CMD #5
+-------------------------------------------------------------------
+    - Name : Fill
+    - Size : 5 Bytes
+    - Desc : Copy COUNT bytes from Destination ..
+                                                AT Position ( absolute from the start of Destination )
+
+        1st                                 3rd     2nd        5th     4th
+        +---+---+---+---+---+---+---+---+   +-------+-------+  +-------+-------+
+        | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |   |       |       |  |       |       |
+        +---+---+---+---+---+---+---+---+   +-------+-------+  +-------+-------+
+                                                  COUNT             Position
+
+    * COUNT    = 2 Bytes
+    * Position = 2 Bytes
+
+
+Notes
+-------------------------------------------------------------------
+* All 0x80 Frames end with 0x80 command.
+
+* Frames can all be encoded with this format.
+  The downside is that the file will be larger.
+  The upside is that the encoding will be easier to code.
+
+
+
+
+
+===================================================================
+ Format40
+===================================================================
+
+* Format40 must be XOR-ed over a previous image (or a black screen?).
+* Used when there are only minor changes between an image and the next one.
+
+Destination contains the decoded reference frame.
+
+
+CMD #1
+-------------------------------------------------------------------
+    - Name : Small Skip
+    - Size : 1 Bytes
+    - Desc : Skip COUNT bytes in Destination
+
+        1st
+        +---+---+---+---+---+---+---+---+
+        | 1 |   |   |   |   |   |   |   |
+        +---+---+---+---+---+---+---+---+
+            \___________________________/
+                        |
+                      COUNT
+
+
+
+CMD #2
+-------------------------------------------------------------------
+    - Name : Big Skip
+    - Size : 3 Bytes
+    - Desc : Skip COUNT bytes in Destination.
+
+
+        1st                                3rd       2nd
+        +---+---+---+---+---+---+---+---+  +---+-----+-------+
+        | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | 0 | ... |       |
+        +---+---+---+---+---+---+---+---+  +---+-----+-------+
+                                               \_____________/
+                                                      |
+                                                    COUNT
+
+
+
+CMD #3
+-------------------------------------------------------------------
+    - Name : Big XOR
+    - Size : 3 Bytes
+    - Desc : XOR next COUNT bytes.
+             * i.e. XOR COUNT bytes from Source with bytes from Destination.      
+
+        1st                                3rd           2nd
+        +---+---+---+---+---+---+---+---+  +---+---+-----+-------+
+        | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | 1 | 0 | ... |       |
+        +---+---+---+---+---+---+---+---+  +---+---+-----+-------+
+                                                   \_____________/
+                                                          |
+                                                        COUNT
+
+
+
+CMD #4
+-------------------------------------------------------------------
+    - Name : Big Repeated XOR
+    - Size : 4 Bytes
+    - Desc : XOR next COUNT bytes in Destination with VALUE.
+
+
+        1st                                3rd           2nd        4th
+        +---+---+---+---+---+---+---+---+  +---+---+-----+-------+  +-------+
+        | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | 1 | 1 | ... |       |  |       |
+        +---+---+---+---+---+---+---+---+  +---+---+-----+-------+  +-------+
+                                                   \_____________/    VALUE
+                                                           |
+                                                         COUNT
+
+
+
+CMD #5
+-------------------------------------------------------------------
+    - Name : Copy XOR
+    - Size : 1 Bytes
+    - Desc : XOR next COUNT bytes from Source with Destination. 
+
+        1st
+        +---+---+---+---+---+---+---+---+
+        | 0 |   |   |   |   |   |   |   |
+        +---+---+---+---+---+---+---+---+
+            \___________________________/
+                        |
+                       COUNT
+
+
+
+CMD #6
+-------------------------------------------------------------------
+    - Name : Repeated XOR
+    - Size : 3 Bytes
+    - Desc : XOR next COUNT bytes with VALUE.                         
+
+        1st                                2nd        3rd
+        +---+---+---+---+---+---+---+---+  +-------+  +-------+
+        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  |       |  |       |
+        +---+---+---+---+---+---+---+---+  +-------+  +-------+
+                                             COUNT      VALUE
+
+
+
+-------------------------------------------------------------------
+* All Format40 Frames end with 0x80 0x00 0x00 command.
+
+
+
+
+
+
+
+Credits:
+All credits to Vladan Bato.
+
+References:
+1. COMMAND AND CONQUER FILE FORMATS Revision 4, Vladan Bato
+Found on: http://xhp.xwis.net/  -> Documents  ->  'CPS, MIX, PAL, SHP and WSA File formats'.
+```
