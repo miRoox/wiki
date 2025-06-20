@@ -1,0 +1,215 @@
+author: Olaf van der Spek
+created: 20250620130312769
+creator: miRoox
+modified: 20250620130818779
+modifier: miRoox
+tags: SHP文件 TODO 转载
+title: SHP V2 Format
+tmap.id: 464214f1-9205-4c71-bb23-f53cbd146050
+type: text/vnd.tiddlywiki
+
+待翻译修正
+
+```
+SHP Version 2
+===================================================================
+Name    :    ???
+Games   :    TS, RA2, YR
+Desc    :    Contains unit/structure/tree graphic.
+
+
+* 1 Byte = unsigned Byte.
+
+* 'signed?' => No idea. Probably unsigned, but
+  it shouldnt cause any problem if you consider it signed.
+
+
+Structure
+-----------------------------------------
+Header                                     
+    - A             :    2 Bytes, unsigned word.
+    - FrameWidth    :    2 Bytes, unsigned word.
+    - FrameHeight   :    2 Bytes, unsigned word.
+    - FrameCount    :    2 Bytes, unsigned word.        
+    - Frame Headers [ FrameCount ]
+        - OffsetX    :    2 Bytes, unsigned word.
+        - OffsetY    :    2 Bytes, unsigned word.
+        - CX         :    2 Bytes, unsigned word.
+        - CY         :    2 Bytes, unsigned word.
+        - CType      :    4 Bytes, signed? double word.
+        - RadarColor
+            - Red    :    Byte
+            - Green  :    Byte
+            - Blue   :    Byte
+            - Alpha  :    Byte
+        - Zero       :    4 Bytes, signed? double word.
+        - FileOffset :    4 Bytes, signed? double word.
+-----------------------------------------
+Body
+    - CompressedFrames []
+-----------------------------------------
+
+
+
+Notes
+===================================================================
+* Zero..........Unused.
+* CType.........Compression type.
+                   * CType == 0 -> Frame is Not Encoded.
+                   * CType == 3 -> Frame is Run-length Encoded.
+* CX............Width of the rectangle delimiting the used pixels.
+* CY............Height of the rectangle delimiting the used pixels.
+* OffsetX.......Offset on the X axis of the used pixels rect.
+                relative to the real frame width.
+* OffsetY.......Offset on the Y axis of the used pixels rect.
+                relative to the real frame height.
+* FileOffset:...Offset of the compressed frame relative to
+                the start of the SHP file.
+
+
+* FrameCount....Max  = 65535 frames
+* Frame Header..Size = 24 bytes
+* Shp Header....Size = 24 bytes
+
+
+* Remappable Colors : 0x10-0x1F  (NOD colors, red)
+* Shadow Color      : 0xCC       (??? 0xCC-0xCF ???)
+
+* Shadow Frames start AT : ( FrameCount / 2 ) + 1 .
+* Only certan types of SHPs contain shadows..
+    1. Units
+    2. Buildings
+    3. Animations.
+
+
+
+
+===================================================================
+ Default/Initial Compression
+===================================================================
+All Frames are compressed by delimiting a rectangle
+of used pixels ( pixel > 0 ), and removing the rest.
+
+Ex: 
+* { 0 | 1 } = 1 Byte
+
+Original Frame 
++----------+
+|0000000000|
+|0011100000|
+|0001111100|
+|0001111000|
++----------+
+
+Compressed Frame
++------+
+|111000|    CX         = 6
+|011111|    CY         = 3
+|011110|    OffsetX    = 2
++------+    OffsetY    = 1
+
+
+
+
+
+===================================================================
+Compression 3 : Run-length Encoding
+===================================================================
+
+* Source      : encoded frame buffer.
+* Destination : decoded frame buffer.
+
+Run-length encoded frames were encoded line by line.
+The first 2 bytes of each line contain the length of the encoded line.
+This length includes the 2 bytes used to store its value.
+
+  2nd           1st
+  +-------+-------+           
+  |       |       |           
+  +-------+-------+           
+  \______________/
+          |
+     Line Length
+
+
+After the line length, a byte will either contain 0 or N > 0.
+
+Case: N > 0
+Todo: Copy Byte from Source to Destination.
+
+  1st
+  +-------+
+  |   N   |
+  +-------+
+
+
+Case: 0
+Todo: Copy N times 0 in Destination.
+
+  2nd     1st
+  +-------+-------+              
+  |   N   |   0   |              
+  +-------+-------+    
+  \_______/
+      |          
+  Run-length
+
+
+
+Note
+-------------------------------------------------------------------
+* Run-length Max value = 255.
+  This mean that the max width between one used pixel to another is 255.
+  WHEN encoding, IF Run-Length > 255, simply set it to 255.
+
+
+* OSSB compresses frames with Run-Length Encoding only IF ..
+        EncodedData.Size < OriginalData.Size
+
+
+
+Decoding Original SHPs (from the .mix)
+-------------------------------------------------------------------
+
+When writing the frames on disk, WW made sure the all 
+encoded frames began on a 8-byte boundary.
+
+That means that an encoded frame doesnt necessarily 
+starts where the preceding frame ends.
+
+
+
+
+
+
+
+
+
+Credits:
+All credits to 
+            - Olaf van der Spek for XCC Mixer
+            - Banshee & Stucuk  for OSSB.
+            - ApolloTD for the RadarColor detail.
+
+References:
+1. XCC Mixer's source code, by Olaf van der Spek.
+Found on: 
+          http://sourceforge.net/p/xccu/code/HEAD/tree/trunk/xcc/
+          OR
+          https://code.google.com/p/xcc/source/browse/#svn%2Ftrunk%2Fxcc
+
+Olaf's  : http://xhp.xwis.net/
+
+2. Open Source Shp Builder ( OSSB )'s source code, by Banshee and Stucuk.
+Found on:
+          http://svn.ppmsite.com/listing.php?repname=OS+SHP+Builder
+
+Banshee's:
+          http://www.ppmsite.com
+
+
+3. ApolloTD
+Found on:
+          http://www.ppmsite.com/forum/viewtopic.php?t=36364
+
+```
