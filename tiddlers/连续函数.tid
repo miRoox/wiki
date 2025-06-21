@@ -1,10 +1,29 @@
+aliases: 连续
 created: 20240914124055554
 creator: miRoox
-modified: 20240914124226122
+modified: 20250621143159985
 modifier: miRoox
-tags: 函数 TODO
+tags: 函数 TODO 微积分学 实分析 点集拓扑学
 title: 连续函数
 tmap.id: 60b2ff7c-5640-4f2a-af18-1aeb51c315c6
 type: text/vnd.tiddlywiki
 
 ''连续函数''（continuous function）是指具有''连续性''的[[函数]]。直观上来说，连续函数就是当自变量变化足够小的时候，因变量的变化也会随之足够小的函数。
+
+!! 实值连续函数
+
+考虑[[实值函数]]$$f:X\to Y$$（其中$$X\subseteq\R$$），对$$d\in X$$，若
+
+$$
+\lim_{x\to d}f(x)=f(d)
+$$
+
+则称函数$$f(x)$$在$$d$$处''连续''。
+
+上面这一条件也可以写作
+
+$$
+\forall\varepsilon>0,\exists\delta>0,\forall x\in (d-\varepsilon,d+\varepsilon)\cap\operatorname{Dom}(f), |f(x)-f(d)|<\delta
+$$
+
+若函数$$f(x)$$在其定义域内的所有点均连续，则称函数$$f(x)$$为''连续函数''，或者称函数''处处连续''。

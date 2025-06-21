@@ -1,9 +1,10 @@
+aliases: IIR IIR系统
 caption: IIR系统
 created: 20191123063247672
 creator: miRoox
-modified: 20230316103711661
+modified: 20250621120426855
 modifier: miRoox
-tags: TODO 系统
+tags: TODO 系统 离散时间系统
 title: 无限脉冲响应系统
 tmap.id: d66329a1-0c67-4b6d-ad5f-b288d1f4e152
 type: text/vnd.tiddlywiki

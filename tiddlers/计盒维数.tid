@@ -1,0 +1,12 @@
+created: 20250621135638571
+creator: miRoox
+modified: 20250621135804123
+modifier: miRoox
+tags: 分形维数 TODO
+title: 计盒维数
+tmap.id: 20d384a6-9f35-4ddc-be9e-63accdae1bca
+type: text/vnd.tiddlywiki
+
+''计盒维数''也称为''盒维数''，是一种[[分形维数]]。
+
+要计算[[分形]] S 的维数，可以想象一下把这个分形放在一个均匀分割的网格上，数一数最小需要几个格子来覆盖这个分形。通过对网格的逐步精化，查看所需覆盖数目的变化，从而计算出计盒维数。

@@ -1,7 +1,7 @@
 asset: sinc.svg
 created: 20250505063914384
 creator: miRoox
-modified: 20250505064014615
+modified: 20250621085708921
 modifier: miRoox
 tags: AssetSource
 title: sinc.wl
@@ -10,8 +10,9 @@ type: text/vnd.tiddlywiki
 
 ```mathematica
 Plot[{
-  Style[Sinc[x], Bold], Style[1/Abs[x], {Dashed, Thickness[Small]}],
-  Style[-1/Abs[x], {Dashed, Thickness[Small]}]},
+  Style[Sinc[x], Bold],
+	Style[1/Abs[x], {Dashed, Thickness[Small], Gray}],
+  Style[-1/Abs[x], {Dashed, Thickness[Small], Gray}]},
  {x, -20, 20}, PlotRange -> {All, {-1, 1}}]
 ```
  

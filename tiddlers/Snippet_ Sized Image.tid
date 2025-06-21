@@ -1,0 +1,11 @@
+caption: 包含尺寸的图片
+created: 20250621100150701
+creator: miRoox
+modified: 20250621120011186
+modifier: miRoox
+tags: $:/tags/TextEditor/Snippet
+title: Snippet: Sized Image
+tmap.id: 3c1e00cd-c0d3-45da-86c6-763ee91f9d95
+type: text/vnd.tiddlywiki
+
+[img width=320px [avatar.jpg]]

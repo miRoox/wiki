@@ -1,0 +1,41 @@
+created: 20250621100931922
+creator: miRoox
+modified: 20250621102634365
+modifier: miRoox
+tags: HowTos
+title: 从LaTeX生成SVG
+tmap.id: b41dfa23-c780-41ea-9c34-922c69f740fa
+type: text/vnd.tiddlywiki
+
+要从[[LaTeX]]文件生成[[SVG|?]]图像，首先应该选择	`standalone` 文档类（需要 standalone 宏包）
+
+```tex
+\documentclass{standalone}
+\usepackage{tikz} % 一般用tikz画图
+
+% 导言区
+
+\begin{document}
+
+% 内容
+
+\end{document}
+```
+
+假设保存为 `main.tex`，先编译为 dvi 文件
+
+```pwsh
+latex main.tex
+```
+
+运行 `dvisvgm` （需要安装 dvisvgm 宏包）生成SVG文件
+
+```pwsh
+dvisvgm --font-format=woff --bbox=preview --exact main.dvi
+```
+
+如果不需要嵌入字体（而是把文字当SVG路径绘制），也可以：
+
+```pwsh
+dvisvgm -n main.dvi
+```
