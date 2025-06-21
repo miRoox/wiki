@@ -20,7 +20,7 @@ def get_git_diff():
     """获取当前 git 暂存区的 diff 输出"""
     try:
         result = subprocess.run(
-            ["git", "diff", "--cached"],
+            ["git", "diff", "--cached", "--unified=1"],
             capture_output=True,
             text=True,
             check=True
@@ -29,6 +29,33 @@ def get_git_diff():
     except subprocess.CalledProcessError as e:
         print(f"获取 git diff 失败: {e}", file=sys.stderr)
         return None
+
+def limit_diff_output(diff_output: str, max_chars=1000):
+    """Limits the diff output for each file to a maximum number of characters."""
+    
+    file_diffs = diff_output.split("diff --git")
+    
+    limited_diffs = []
+    for file_diff in file_diffs[1:]:  # Skip the first empty string
+        lines = file_diff.splitlines()
+        
+        if not lines:
+            continue
+        
+        limited_output = lines[0] + "\n"  # Add the diff --git line
+        char_count = 0
+        
+        for line in lines[1:]:
+            if char_count + len(line) + 1 <= max_chars:
+                limited_output += line + "\n"
+                char_count += len(line) + 1
+            else:
+                limited_output += "...<<truncated>>...\n"
+                break
+        
+        limited_diffs.append(limited_output)
+        
+    return "\ndiff --git".join(limited_diffs)
 
 def git_commit(message: str):
     """执行 git commit 命令"""
@@ -77,6 +104,7 @@ def main():
     if not diff_content:
         print("没有检测到 git 暂存区更改", file=sys.stderr)
         return
+    diff_content = limit_diff_output(diff_content)
 
     commit_header = f"Update on {datetime.now(timezone.utc).date()} from {socket.gethostname()}"
     # 生成 commit message
