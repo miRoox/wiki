@@ -1,6 +1,6 @@
 created: 20240920131212383
 creator: miRoox
-modified: 20250518134800591
+modified: 20250621125142579
 modifier: miRoox
 tags: 积分 TODO 反常积分
 title: 柯西主值
@@ -9,6 +9,9 @@ type: text/vnd.tiddlywiki
 
 ''柯西主值''是为某类原来发散的[[反常积分]]指派特定数值的方式
 
+!! [[无穷积分]]
+
 $$
 \PV\int _{-\infty }^{\infty }f(x)\dd{x}=\lim _{R\to +\infty }\int _{-R}^{R}f(x)\dd{x}
 $$
+

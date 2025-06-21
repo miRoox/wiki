@@ -14,8 +14,8 @@ You should have received a copy of the GNU General Public License along with thi
 
 ## Introduction
 
-Written by Olaf van der Spek. This document explains the format of the MIX files used by Command & Conquer: Tiberian Dawn, Red Alert and Tiberian Sun.
-MIX files are used to store other files, in the same way as ZIP files, but without compression. I will use C++ notation in this document.
+Written by [[Olaf van der Spek]]. This document explains the format of the MIX files used by Command & Conquer: Tiberian Dawn, Red Alert and Tiberian Sun.
+MIX files are used to store other files, in the same way as ZIP files, but without compression. I will use [[C++]] notation in this document.
 
 
 ```cpp
@@ -60,7 +60,7 @@ If the MIX has a checksum, it means that there are 20 bytes after the body which
 If the MIX is encrypted, there is a 80 byte block after the flag that is called key_source. It can be used to calculate the key to be used with the blowfish encryption. If the MIX is not encrypted, there is a normal MIX header after the flag.
 Ok, the MIX header is encrypted by the blowfish algo with a 56 byte key. This means that after the key_source, there are a number of 8 byte blocks which should be decrypted. You can find out how many of those blocks there are by decrypting the first block, which contains the MIX header. You then look at how many internal files there are and calculate the size of the header and index.
 
-## IDs
+### IDs
 
 The IDs are used to identify each file. They can be calculated from the original filename. There are two different versions of the ID calculation, one for TD and RA and another for TS. I use the following code to calculate the ID.
 
@@ -110,7 +110,7 @@ int Cmix_file::get_id(t_game game, string name)
 
 The body contains the internal files in an uncompressed and unencrypted format.
 
-## Checksum
+### Checksum
 
 The only thing currently known about the checksum is that it's 20 bytes. You can safely delete it, as long as you change the flag.
 

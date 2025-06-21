@@ -1,6 +1,6 @@
 created: 20250619053833425
 creator: miRoox
-modified: 20250619054945089
+modified: 20250621113832710
 modifier: miRoox
 tags: 变换 TODO 积分变换
 title: 拉东变换
@@ -8,3 +8,11 @@ tmap.id: ea87be50-b58e-4dd4-b78c-bd917e8dde99
 type: text/vnd.tiddlywiki
 
 ''拉东变换''（Radon transform）是一种[[积分变换]]。其基本形式可以看作将二维密度函数累积投影（线积分）到一族直线上。
+
+!! 基本形式
+
+考虑二维密度分布函数 $$f:\R^2\to\R$$，记作$$f(x,y)$$。其''拉东变换'' $$R(\rho,\theta)$$ 的值定义为：沿着一条与原点距离为 $$\rho$$、法线与x轴夹角为 $$θ$$ 的直线 $$L(\rho, \theta)$$，对函数 $$f(x, y)$$ 进行[[线积分]]:
+
+$$
+R(\rho,\theta)=\int_{L(\rho,\theta)}f(x,y)\dd{l}
+$$

@@ -1,0 +1,23 @@
+aliases: 均匀连续
+created: 20250621140809098
+creator: miRoox
+modified: 20250621145042472
+modifier: miRoox
+tags: 连续函数 TODO 微积分学 实分析
+title: 一致连续
+tmap.id: d28b0399-d313-4eeb-8317-7b9aaddab701
+type: text/vnd.tiddlywiki
+
+''一致连续''又称''均匀连续''（uniformly continuous）是比[[连续|连续函数]]更为苛刻的条件。
+
+!! [[实值函数]]的一致连续性
+
+考虑[[实值函数]]$$f:X\to Y$$（其中$$X\subseteq\R$$），若
+
+$$
+\forall\varepsilon>0,\exists\delta>0,\forall a,b\in X,|b-a|<\delta\implies|f(b)-f(a)|<\varepsilon
+$$
+
+则称函数$$f(x)$$在$$X$$上''一致连续''。
+
+''注''：一致连续和[[连续|连续函数]]的区别在于，连续函数的定义中其$$\delta$$依赖于$$\varepsilon$$和每个函数点$$d$$，而一致连续的定义中$$\delta$$并不依赖特定函数点，而仅依赖于$$\varepsilon$$。参见[[连续但是不一致连续的函数|反例：连续但是不一致连续的函数]]。

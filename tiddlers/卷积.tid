@@ -1,13 +1,13 @@
 created: 20240924132614335
 creator: miRoox
-modified: 20240924133006457
+modified: 20250621123727557
 modifier: miRoox
 tags: 复分析 TODO
 title: 卷积
 tmap.id: 17dd4051-6435-4469-a72e-634105e1dbbe
 type: text/vnd.tiddlywiki
 
-给定定义在$$(-\infty,+\infty)$$ 上的[[函数]] $$f_{1}(t)$$ 与 $$f_{2}(t)$$ ，称由含参变量 $$t$$ 的[[广义积分]]所确定的函数
+给定定义在$$(-\infty,+\infty)$$ 上的[[函数]] $$f_{1}(t)$$ 与 $$f_{2}(t)$$ ，称由含参变量 $$t$$ 的[[广义积分|反常积分]]所确定的函数
 
 $$
 g(t) = \int_{-\infty}^{+\infty}f_{1}(\tau)f_{2}(t-\tau)\mathrm{d}\tau

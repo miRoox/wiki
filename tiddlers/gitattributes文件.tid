@@ -1,0 +1,11 @@
+aliases: gitattributes .gitattributes
+created: 20250621103809134
+creator: miRoox
+modified: 20250621103935014
+modifier: miRoox
+tags: Git TODO
+title: gitattributes文件
+tmap.id: 39a71a67-98c0-460c-bbf5-603a662b3dbd
+type: text/vnd.tiddlywiki
+
+''`.gitattributes`'' 是一个纯文本文件，用于定义 [[Git]] 如何对待特定路径（文件或目录）的属性。它允许你为项目中的文件或文件模式指定特殊行为，从而更精细地控制 Git 的功能。

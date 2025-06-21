@@ -1,14 +1,14 @@
 aliases: oneAPI
 created: 20250205123736662
 creator: miRoox
-modified: 20250205125614654
+modified: 20250621120634480
 modifier: miRoox
 tags: 程序框架 TODO
 title: Intel oneAPI
 tmap.id: 89dd0359-0d83-4507-91c9-6a2d160285c5
 type: text/vnd.tiddlywiki
 
-oneAPI 是由英特尔推出的一种开放标准，旨在为不同计算加速器（如 GPU、AI 加速器和 FPGA）提供统一的[[应用程序接口]]（API）。其主要目标是消除开发者在不同硬件架构上维护多个代码库和工作流程的需求。
+''oneAPI'' 是由英特尔推出的一种开放标准，旨在为不同计算加速器（如 GPU、AI 加速器和 FPGA）提供统一的[[应用程序接口]]（API）。其主要目标是消除开发者在不同硬件架构上维护多个代码库和工作流程的需求。
 
 !! 主要特性
 

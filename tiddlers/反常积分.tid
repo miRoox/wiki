@@ -1,10 +1,18 @@
+aliases: 广义积分
 created: 20250518134803209
 creator: miRoox
-modified: 20250518134951390
+modified: 20250621124844615
 modifier: miRoox
-tags: 积分 TODO 黎曼积分
+tags: 积分 TODO 黎曼积分 定积分
 title: 反常积分
 tmap.id: f4cc0915-8cda-43df-81e8-220133139d3a
 type: text/vnd.tiddlywiki
 
-''反常积分''（improper integral）是对[[黎曼积分]]的一种推广。
+''反常积分''（improper integral），又称''广义积分''，是对[[黎曼积分]]的一种推广。
+
+反常积分包括两种：
+
+* 一种是[[积分|定积分]]上限或下限为[[无穷|无限]]的积分，被称为[[无穷积分]]；
+* 一种是在积分[[区间]]中含有[[间断点]]的积分，被称为[[瑕积分]]。有时“反常积分”这个词就是特指瑕积分。
+
+

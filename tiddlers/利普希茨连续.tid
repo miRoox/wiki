@@ -1,0 +1,13 @@
+aliases: Lipschitz连续
+created: 20250621122351634
+creator: miRoox
+modified: 20250621144955501
+modifier: miRoox
+tags: 实分析 TODO 连续函数
+title: 利普希茨连续
+tmap.id: 92bea365-37b4-4ec4-9736-33d218ee6a39
+type: text/vnd.tiddlywiki
+
+''利普希茨连续''（Lipschitz continuity）是一个比[[一致连续]]更强的光滑性条件。直觉上，利普希茨连续函数限制了函数改变的速度，符合利普希茨条件的函数的斜率的绝对值，必小于一个称为利普希茨常数的实数（该常数依函数而定）。
+
+对于在实数集的子集的函数 $$f: D\subseteq\R\to\R$$，若[[存在|存在量化]]常数 $$K\ge0$$，使得$$\forall a,b\in D, \left|f(b)-f(a)\right|\le K\left|b-a\right|$$

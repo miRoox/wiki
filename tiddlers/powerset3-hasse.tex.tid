@@ -1,0 +1,54 @@
+asset: powerset3-hasse.svg
+created: 20250529142434304
+creator: miRoox
+modified: 20250621100018449
+modifier: miRoox
+tags: AssetSource
+title: powerset3-hasse.tex
+tmap.id: 2d93dea3-8cf6-4bdb-b64a-472030a7735b
+type: text/vnd.tiddlywiki
+
+```tex
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\begin{document}
+\begin{tikzpicture}[
+    node distance=1cm and 2.0cm, % v and h
+    every node/.style={draw, circle, minimum size=0.8cm, inner sep=1pt}
+]
+
+% level 0
+\node (empty) {$\emptyset$};
+
+% level 1
+\node [above=of empty] (b) {$\{b\}$};
+\node [left=of b] (a) {$\{a\}$};
+\node [right=of b] (c) {$\{c\}$};
+
+% level 2
+\node [above=of a] (ab) {$\{a,b\}$};
+\node [above=of b] (ac) {$\{a,c\}$};
+\node [above=of c] (bc) {$\{b,c\}$};
+
+% level 3
+\node [above=of ac] (abc) {$\{a,b,c\}$};
+
+% edges
+\draw [->] (empty) -- (a);
+\draw [->] (empty) -- (b);
+\draw [->] (empty) -- (c);
+\draw [->] (a) -- (ab);
+\draw [->] (a) -- (ac);
+\draw [->] (b) -- (ab);
+\draw [->] (b) -- (bc);
+\draw [->] (c) -- (ac);
+\draw [->] (c) -- (bc);
+\draw [->] (ab) -- (abc);
+\draw [->] (ac) -- (abc);
+\draw [->] (bc) -- (abc);
+
+\end{tikzpicture}
+\end{document}
+```

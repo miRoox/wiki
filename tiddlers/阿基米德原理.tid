@@ -1,0 +1,18 @@
+created: 20250621131704266
+creator: miRoox
+modified: 20250621132356267
+modifier: miRoox
+tags: 微积分学 初等代数 公理
+title: 阿基米德原理
+tmap.id: ead0df05-855a-42ea-a65d-72080610a50b
+type: text/vnd.tiddlywiki
+
+''阿基米德原理''，或者''阿基米德公理''，
+
+$$
+\forall a,b>0 \exists n\in\N, an>b
+$$
+
+这公理的粗略意义是，数字系统不存在具有无穷大或无穷小性质的元素。
+
+在现代的[[实分析]]中，这一原理被视为[[实数完备性]]的一个推论，因此不被当作[[公理]]。
