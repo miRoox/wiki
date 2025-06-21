@@ -17,6 +17,8 @@ git add "$FOLDER"
 if git diff --exit-code --staged "$FOLDER"; then
     echo "No updates today"
 else
-    git commit --no-gpg-sign -m "Update on $(date --utc -I) from $(hostname)"
+    # shellcheck source=../.venv/bin/activate
+    source .venv/bin/activate
+    python scripts/git-commit.py
     git push
 fi
