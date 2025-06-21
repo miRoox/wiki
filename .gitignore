@@ -1,4 +1,5 @@
 output
+.venv
 node_modules
 tiddlers/$__StoryList*.tid
 tiddlers/$__Import.tid
