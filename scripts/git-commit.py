@@ -75,12 +75,12 @@ def generate_commit_message(diff_content: str):
 
     # 构造提示词
     prompt = f"""
-你是一个专业的代码提交信息生成助手。
-以下是 git diff 的输出内容，请分析并生成一个简洁、清晰的 commit message (不超过 100 个字符），描述代码更改的主要目的或功能：
+你是一个专业的代码提交信息生成助手。这个仓库是一个基于Tiddlywiki的个人知识管理库，旨在帮助用户高效地记录和管理个人知识。
+以下是 git diff 的输出内容，请分析并生成一个简洁、清晰的 commit message (每行不超过 50 个字符），描述文档或代码更改的主要目的或功能：
 
 {diff_content}
 
-生成的 commit message 应简明扼要，符合 git 提交信息的最佳实践（如使用动词开头，描述更改内容）。
+生成的 commit message 应简明扼要，符合 git 提交信息的最佳实践（如使用动词开头，描述更改内容，多项更改以 Markdown 列表形式列出）。
 注意：使用中文生成 commit message。不要包含任何其他文本或解释，只返回 commit message 本身。
 """
 
@@ -90,7 +90,7 @@ def generate_commit_message(diff_content: str):
             messages=[
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=150,
+            max_tokens=800,
             temperature=0.5
         )
         return response.choices[0].message.content
