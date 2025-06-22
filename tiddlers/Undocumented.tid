@@ -1,0 +1,12 @@
+created: 20250622130631221
+creator: miRoox
+modified: 20250622131732437
+modifier: miRoox
+tags: 分类 软件工程
+title: Undocumented
+tmap.id: 24d32a1f-86f3-4223-9ca6-0c04cf21daf6
+type: text/vnd.tiddlywiki
+
+''Undocumented''，或曰''未见于文档的''，意为未被官方公开的[[接口|应用程序接口]]或者虽然提供了，但未给出详细定义的接口。
+
+这一类接口通常用于系统内部，而且往往依赖于特定版本，并不提供任何行为上的担保。

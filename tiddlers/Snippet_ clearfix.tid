@@ -1,0 +1,11 @@
+caption: 刷浮动体
+created: 20250622050252704
+creator: miRoox
+modified: 20250622050345458
+modifier: miRoox
+tags: $:/tags/TextEditor/Snippet
+title: Snippet: clearfix
+tmap.id: 1bfde652-798a-4cb2-a2ca-b4b87f1b2f4b
+type: text/vnd.tiddlywiki
+
+<div class="clearfix"></div>

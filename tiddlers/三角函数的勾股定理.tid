@@ -1,0 +1,31 @@
+caption: 勾股定理
+created: 20250622043859180
+creator: miRoox
+modified: 20250622050512000
+modifier: miRoox
+tags: 三角恒等式 勾股定理 数学公式 恒等式
+title: 三角函数的勾股定理
+tmap.id: b9ba4f32-43d4-4afc-9188-c15babd10f93
+type: text/vnd.tiddlywiki
+
+<figure class="right-float">
+[img width=480px [单位圆上的三角函数|circle-trigonometric-functions.svg]]
+<figcaption>图像证明</figcaption>
+</figure>
+
+
+$$
+\sin^2\theta + \cos^2\theta =1
+$$
+
+两边同除 $$\cos^2\theta$$ 或 $$\sin^2\theta$$ 可得：
+
+$$
+\begin{align*}
+\tan^2\theta + 1& =\sec^2\theta\\
+1+\cot^2\theta&=\csc^2\theta
+\end{align*}
+$$
+
+
+<div class="clearfix"></div>

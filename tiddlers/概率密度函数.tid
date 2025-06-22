@@ -1,0 +1,11 @@
+aliases: PDF
+created: 20250622140914656
+creator: miRoox
+modified: 20250622141117255
+modifier: miRoox
+tags: 概率论 TODO
+title: 概率密度函数
+tmap.id: 5d3db243-5b6f-4363-8876-bf386d3f1f5b
+type: text/vnd.tiddlywiki
+
+''概率密度函数''（Probability density function, PDF）是描述[[随机变量]]的输出值，在某个确定的取值点附近的可能性的[[函数]]。而随机变量的取值落在某个区域内的[[概率]]为概率密度函数在这个区域上的[[积分|定积分]]。

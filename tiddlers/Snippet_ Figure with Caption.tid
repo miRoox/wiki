@@ -1,0 +1,14 @@
+caption: 有图注的图像
+created: 20250622044154644
+creator: miRoox
+modified: 20250622044344848
+modifier: miRoox
+tags: $:/tags/TextEditor/Snippet
+title: Snippet: Figure with Caption
+tmap.id: 25e1d034-5f20-4c10-b521-77f7aae0ecf2
+type: text/vnd.tiddlywiki
+
+<figure>
+[img width=320px [avatar.jpg]]
+<figcaption>头像</figcaption>
+</figure>

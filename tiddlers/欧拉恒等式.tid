@@ -1,6 +1,6 @@
 created: 20250524144012653
 creator: miRoox
-modified: 20250524144330060
+modified: 20250622042328254
 modifier: miRoox
 tags: 恒等式
 title: 欧拉恒等式
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 $$
 \euler^{\imath \pi}+1=0
 $$
+
+''欧拉恒等式''刻画了[[自然底数e]]、[[虚数单位]]、[[圆周率]]以及[[1]]和[[0]]的关系。

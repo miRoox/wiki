@@ -1,6 +1,6 @@
 created: 20250621143831232
 creator: miRoox
-modified: 20250621145949998
+modified: 20250622035229584
 modifier: miRoox
 tags: 反例
 title: 反例：连续但是不一致连续的函数
@@ -22,13 +22,13 @@ $$
 注意到
 
 $$
-\forall \varepsilon>0,\exists n\in\N,\left|\frac{1}{\left(n-\frac{1}{2}\right)\pi}-\frac{1}{\left(n+\frac{1}{2}\right)\pi}\right|=\frac{1}{\left(n^2-\frac{1}{4}\right)\pi}<\varepsilon
+\forall \varepsilon>0,\exists n\in\N^+,\left|\frac{1}{\left(n-\frac{1}{2}\right)\pi}-\frac{1}{\left(n+\frac{1}{2}\right)\pi}\right|=\frac{1}{\left(n^2-\frac{1}{4}\right)\pi}<\varepsilon
 $$
 
 但
 
 $$
-\forall n\in\N,\left|f\left(\frac{1}{\left(n-\frac{1}{2}\right)\pi}\right)-f\left(\frac{1}{\left(n+\frac{1}{2}\right)\pi}\right)\right|=\left|\sin\left(n-\frac{1}{2}\right)\pi - \sin\left(n+\frac{1}{2}\right)\pi\right|=2
+\forall n\in\N^+,\left|f\left(\frac{1}{\left(n-\frac{1}{2}\right)\pi}\right)-f\left(\frac{1}{\left(n+\frac{1}{2}\right)\pi}\right)\right|=\left|\sin\left(n-\frac{1}{2}\right)\pi - \sin\left(n+\frac{1}{2}\right)\pi\right|=2
 $$
 
 因此，$$f(x)$$在$$(0,+\infty)$$不满足一致连续。
