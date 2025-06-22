@@ -1,14 +1,14 @@
 aliases: 乘 乘以 积
 created: 20240821161600345
 creator: miRoox
-modified: 20240914150636764
+modified: 20250622135841477
 modifier: miRoox
 tags: 二元运算 TODO 算术运算 四则运算
 title: 乘法
 tmap.id: 233bffb8-a0ac-4055-8168-23e3f4050ab4
 type: text/vnd.tiddlywiki
 
-''乘法''（multiplication）是[[加法]]的连续[[运算|二元运算]]，同一数的若干次连加，其运算结果称为积（product）。
+''乘法''（multiplication）是[[加法]]的连续[[运算|二元运算]]，同一数的若干次连加，其运算结果称为''积''（product）。
 
 $$
 \underbrace {a+a+a+\cdots +a} _{n}=a\times n

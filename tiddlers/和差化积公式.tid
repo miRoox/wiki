@@ -1,0 +1,17 @@
+created: 20250622125253783
+creator: miRoox
+modified: 20250622125711131
+modifier: miRoox
+tags: 三角恒等式
+title: 和差化积公式
+tmap.id: f7676291-dc35-402e-a000-96200c571b26
+type: text/vnd.tiddlywiki
+
+$$
+\begin{align*}
+\sin x+\sin y&=2\sin\left(\frac{x+y}{2}\right)\cos\left(\frac{x-y}{2}\right)\\
+\sin x-\sin y&=2\sin\left(\frac{x-y}{2}\right)\cos\left(\frac{x+y}{2}\right)\\
+\cos x+\cos y&=2\cos\left(\frac{x+y}{2}\right)\cos\left(\frac{x-y}{2}\right)\\
+\cos x-\cos y&=-2\sin\left(\frac{x+y}{2}\right)\sin\left(\frac{x-y}{2}\right)\\
+\end{align*}
+$$

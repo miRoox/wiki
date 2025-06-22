@@ -1,0 +1,12 @@
+aliases: GeneralUtilities`
+caption: GeneralUtilities`
+created: 20250622131005347
+creator: miRoox
+modified: 20250622141345653
+modifier: miRoox
+tags: Undocumented [[Wolfram Mathematica]] Wolfram语言 分类
+title: WL：GeneralUtilities`
+tmap.id: b64a9213-e9cb-425b-b8bd-9552a597c484
+type: text/vnd.tiddlywiki
+
+``GeneralUtilities` ``是[[Mathematica|Wolfram Mathematica]]从版本10开始新加入的一个上下文。其中提供了大量的实用函数，包括代码生成、调试、静态分析、迭代器对象等各个领域，一定程度上弥补了Mathematica基础设施不足的状况。

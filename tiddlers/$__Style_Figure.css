@@ -11,3 +11,15 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
+
+.left-float {
+	float: left;
+}
+
+.right-float {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}

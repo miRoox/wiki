@@ -1,0 +1,23 @@
+aliases: 卷积定理
+created: 20250622135642147
+creator: miRoox
+modified: 20250622140037211
+modifier: miRoox
+tags: 卷积定理
+title: 傅里叶变换的卷积定理
+tmap.id: f2a3d61c-de33-4d2d-b8b7-5db86ebe919c
+type: text/vnd.tiddlywiki
+
+给定两个[[函数]]$$f_{1}(t),f_{2}(t)$$，记$$F_{1}(\omega)=\mathscr{F} [f_{1}(t)],F_{2}(\omega)=\mathscr{F} [f_{2}(t)]$$，则
+
+$$
+\mathscr{F} [f_{1}(t) \ast f_{2}(t)] = F_{1}(\omega)\cdot F_{2}(\omega)
+$$
+
+即[[傅里叶变换]]将[[卷积]]变换为[[乘积|乘法]]。
+
+对偶地，[[傅里叶变换]]将乘积变换为卷积：
+
+$$
+\mathscr{F} [f_{1}(t) \cdot f_{2}(t)] = F_{1}(\omega)\ast F_{2}(\omega)
+$$

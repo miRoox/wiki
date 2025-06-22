@@ -1,10 +1,10 @@
 created: 20240907082144570
 creator: miRoox
-modified: 20250522133153188
+modified: 20250622041716090
 modifier: miRoox
 tags: 序列 分类 数学：分析学
 title: 数列
 tmap.id: 47e8ab5f-0f96-4091-b8b3-7e0663705774
 type: text/vnd.tiddlywiki
 
-''数列''即所有元素均为数字的[[序列]]。
+''数列''即所有元素均为数值（通常为[[实数]]或[[复数]]）的[[序列]]。
