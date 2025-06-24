@@ -1,0 +1,15 @@
+aliases: RoBERTa
+created: 20250624024126019
+creator: miRoox
+modified: 20250624025539777
+modifier: miRoox
+tags: 人工神经网络 TODO Transformer模型 [[Bidirectional Encoder Representations from Transformers]]
+title: RoBERTa
+tmap.id: 8622fa6c-16d5-45c4-956e-a66d24ed857e
+type: text/vnd.tiddlywiki
+
+''RoBERTa''是一种基于[[BERT|Bidirectional Encoder Representations from Transformers]]的模型，它调整了一些关键的超参数，移除了预测下一个句子的预训练目标，使用更大的mini-batch和学习率进行训练。
+
+!! 链接
+
+* [[原论文：RoBERTa: A Robustly Optimized BERT Pretraining Approach|https://arxiv.org/abs/1907.11692]]

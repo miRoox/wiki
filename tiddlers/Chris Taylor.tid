@@ -1,0 +1,17 @@
+created: 20250624131558729
+creator: miRoox
+modified: 20250624131648250
+modifier: miRoox
+tags: 人物
+title: Chris Taylor
+tmap.id: 795b800d-6c5e-4012-bf8f-0966858c00ed
+type: text/vnd.tiddlywiki
+
+
+!! Contact
+
+* [[GitHub|https://github.com/chris-taylor]]
+
+!! 作品
+
+<<list-links "[field:author<currentTiddler>]">>
