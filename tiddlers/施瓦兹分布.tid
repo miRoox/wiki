@@ -1,7 +1,7 @@
 aliases: 分布
 created: 20250621140015123
 creator: miRoox
-modified: 20250621140218224
+modified: 20250628051708840
 modifier: miRoox
 tags: 广义函数 TODO
 title: 施瓦兹分布
@@ -10,4 +10,4 @@ type: text/vnd.tiddlywiki
 
 ''分布''（distribution）是[[广义函数]]的一种定义。由法国数学家洛朗·施瓦兹首先于二十世纪五十年代引入，因此又称''施瓦兹分布''（Schwartz distribution）。
 
-分布推广了普通意义上的函数概念：对于普通意义上不可导甚至不连续的函数，可以具备分布意义上的导数。
+分布推广了普通意义上的[[函数]]概念：对于普通意义上不可导甚至不连续的函数，可以具备分布意义上的导数。
