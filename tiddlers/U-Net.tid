@@ -1,0 +1,11 @@
+aliases: U-Net
+created: 20250630083936549
+creator: miRoox
+modified: 20250630085118821
+modifier: miRoox
+tags: 人工神经网络 TODO 卷积神经网络
+title: U-Net
+tmap.id: c50f4f08-ec00-4fef-9235-41a6ae1fa3f8
+type: text/vnd.tiddlywiki
+
+''U-Net''是一个基于全卷积神经网络的模型，用于医学图像分割。因其网络拓扑结构类似一个“U”字形而得名。
