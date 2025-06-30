@@ -1,0 +1,11 @@
+aliases: VAE
+created: 20250630084446492
+creator: miRoox
+modified: 20250630084741677
+modifier: miRoox
+tags: 自编码器 TODO 人工神经网络
+title: 变分自编码器
+tmap.id: c2ee080a-77a8-4d12-8494-7c1c736c050a
+type: text/vnd.tiddlywiki
+
+''变分自编码器''（Variational Autoencoder，VAE）一种[[人工神经网络]]结构。它的抽象结构和[[自编码器]]类似，但在目标和数学表述上有很大区别。

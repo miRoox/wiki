@@ -1,6 +1,6 @@
 created: 20230212133728054
 creator: miRoox
-modified: 20240822094539534
+modified: 20250630103242351
 modifier: miRoox
 tags: 附录
 title: 转载
@@ -25,7 +25,12 @@ type: text/vnd.tiddlywiki
 <$link/>
 </td>
 <td>
-<$link to={{!!author}}/>
+<$list filter="[all[current]has[author]]">
+<$link to={{!!author}}><$view field="author"/></$link>
+</$list>
+<$list filter="[all[current]!has[author]]">
+<$text text="佚名"/>
+</$list>
 </td>
 </tr>
 </$list>
