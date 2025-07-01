@@ -1,6 +1,6 @@
 created: 20240911084843018
 creator: miRoox
-modified: 20240911090311484
+modified: 20250701055643282
 modifier: miRoox
 tags: 线性代数 TODO 映射
 title: 线性映射
@@ -10,7 +10,10 @@ type: text/vnd.tiddlywiki
 给定两个系数[[域|代数：域]]都是$$K$$的[[线性空间]]$$V,W$$，定义[[映射]]$$f:V\to W$$，满足
 
 $$
-\forall a\in K,\forall u,v\in V, f(u+v)=f(u)+f(v), f(a\cdot v)=a\cdot f(v)
+\begin{align*}
+\forall u,v\in V&, f(u+v)=f(u)+f(v)\\
+\forall a\in K,\forall v\in V&, f(a\cdot v)=a\cdot f(v)
+\end{align*}
 $$
 
 则称$$f$$是$$V$$到$$W$$的一个[[线性映射]]。
