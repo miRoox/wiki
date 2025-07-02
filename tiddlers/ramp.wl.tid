@@ -1,0 +1,13 @@
+asset: ramp.svg
+created: 20250702044112012
+creator: miRoox
+modified: 20250702044712181
+modifier: miRoox
+tags: AssetSource
+title: ramp.wl
+tmap.id: 4da303a1-5ef7-493b-878b-68b6174b6712
+type: text/vnd.tiddlywiki
+
+```wl
+Plot[Ramp[x], {x, -3, 3}, PlotTheme -> "Scientific", GridLines -> Automatic]
+```

@@ -1,12 +1,17 @@
 aliases: Ramp
 created: 20250701061020507
 creator: miRoox
-modified: 20250701061324824
+modified: 20250702045037373
 modifier: miRoox
 tags: 函数 整流线性单位函数
 title: 斜坡函数
 tmap.id: f44a7dc0-04e6-4e50-abf8-ff8792b73f63
 type: text/vnd.tiddlywiki
+
+<figure class="right-float">
+[img [ramp.svg]]
+<figcaption>斜坡函数</figcaption>
+</figure>
 
 ''斜坡函数''（Ramp function）是一种一元[[实函数]]，因其图像类似斜坡而得名。
 
@@ -16,3 +21,5 @@ x, &x>0\\
 0, &x\le0
 \end{cases}
 $$
+
+<div class="clearfix"></div>
