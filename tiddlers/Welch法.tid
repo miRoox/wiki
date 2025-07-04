@@ -1,6 +1,6 @@
 created: 20191219104632922
 creator: miRoox
-modified: 20230316103711667
+modified: 20250704141155165
 modifier: miRoox
 tags: TODO 功率谱估计
 title: Welch法
@@ -12,4 +12,4 @@ type: text/vnd.tiddlywiki
 在[[Bartlett法]]的基础上再进行改进：
 
 # 交叠分段
-# 允许使用不是矩形的窗函数
+# 允许使用不是矩形的[[窗函数]]
