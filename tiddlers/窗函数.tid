@@ -1,0 +1,10 @@
+created: 20250704141202931
+creator: miRoox
+modified: 20250704142548063
+modifier: miRoox
+tags: 函数 分类
+title: 窗函数
+tmap.id: 575029bc-9666-46d0-89da-56b9bd75b8c2
+type: text/vnd.tiddlywiki
+
+''窗函数''（Window function）是一类[[函数]]，在特定[[区间]]内其函数值非零，其余值均为[[零|0]]。
