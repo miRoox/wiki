@@ -1,4 +1,4 @@
-BERT（Bidirectional Encoder Representations from Transformers）和GPT（Generative Pre-trained Transformer）是两种不同的Transformer架构，它们的“Encoder-only”和“Decoder-only”特性源于它们的设计目标和结构差异。以下是详细解释：
+[[BERT|Bidirectional Encoder Representations from Transformers]]（Bidirectional Encoder Representations from Transformers）和[[GPT|Generative Pre-trained Transformers]]（Generative Pre-trained Transformer）是两种不同的Transformer架构，它们的“Encoder-only”和“Decoder-only”特性源于它们的设计目标和结构差异。以下是详细解释：
 
 ### 1. **BERT是Encoder-only的原因**
 
