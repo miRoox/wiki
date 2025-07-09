@@ -1,0 +1,16 @@
+aliases: Xinference
+caption: Xinference
+created: 20250709051042530
+creator: miRoox
+modified: 20250709145126128
+modifier: miRoox
+tags: 开发工具 TODO 软件 Python程序包 开放源代码
+title: Xorbits Inference
+tmap.id: 5989ed3c-1003-40d0-bcf3-3b357dc6120c
+type: text/vnd.tiddlywiki
+
+Xorbits Inference (Xinference) 是一个[[开源|?]]平台，用于简化各种 AI 模型的运行和集成。
+
+!! 链接
+
+* [[文档|https://inference.readthedocs.io/en/latest/index.html]]

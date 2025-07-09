@@ -1,0 +1,15 @@
+aliases: Hangfire
+created: 20250709144536355
+creator: miRoox
+modified: 20250709144751881
+modifier: miRoox
+tags: .NET程序包 TODO 程序库
+title: Hangfire
+tmap.id: 0652be5b-2884-4742-9202-4f5f24314031
+type: text/vnd.tiddlywiki
+
+''Hangfire'' 提供了一种简单的方法来在[[.NET]]中执行后台任务
+
+!! 链接
+
+* [[官网|https://www.hangfire.io/]]

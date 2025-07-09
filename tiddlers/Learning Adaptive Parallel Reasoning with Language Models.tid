@@ -1,6 +1,6 @@
 created: 20250531125536725
 creator: miRoox
-modified: 20250531130250087
+modified: 20250709144512525
 modifier: miRoox
 tags: 论文 TODO 研究型论文
 title: Learning Adaptive Parallel Reasoning with Language Models
@@ -9,3 +9,4 @@ type: text/vnd.tiddlywiki
 
 * [[arxiv: 2504.15466|https://arxiv.org/abs/2504.15466]]
 * [[GitHub: APR|https://github.com/Parallel-Reasoning/APR]]
+* [[HuggingFace|https://huggingface.co/Parallel-Reasoning]]

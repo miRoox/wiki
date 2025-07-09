@@ -1,6 +1,6 @@
 created: 20250504123537837
 creator: miRoox
-modified: 20250504123723776
+modified: 20250709144948303
 modifier: miRoox
 tags: 在线大语言模型 TODO 网站
 title: DeepSeek
@@ -9,4 +9,5 @@ type: text/vnd.tiddlywiki
 
 
 * [[DeepSeek聊天|https://chat.deepseek.com/]]
+* [[API 文档|https://api-docs.deepseek.com/zh-cn/]]
 * [[API 平台|https://platform.deepseek.com/]]
