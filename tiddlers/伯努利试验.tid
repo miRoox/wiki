@@ -1,0 +1,17 @@
+created: 20250711141503404
+creator: miRoox
+modified: 20250711142331368
+modifier: miRoox
+tags: 随机试验
+title: 伯努利试验
+tmap.id: 979acf96-b3c2-49a7-a23d-e082f6cdbde5
+type: text/vnd.tiddlywiki
+
+''伯努利试验''（Bernoulli trial）是只有两种可能结果（“成功”或“失败”）的单次[[随机试验]]，即对于一个[[随机变量]]$$X$$而言
+
+$$
+\begin{align*}
+\Pr(X=1)&=p \\
+\Pr(X=0)&=1-p
+\end{align*}
+$$

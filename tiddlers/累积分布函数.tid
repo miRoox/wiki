@@ -1,0 +1,19 @@
+aliases: CDF 分布函数
+created: 20250711135730338
+creator: miRoox
+modified: 20250711141714898
+modifier: miRoox
+tags: 概率论 TODO
+title: 累积分布函数
+tmap.id: 3fb9ed1a-ad7b-420f-a62e-cc61cc98f897
+type: text/vnd.tiddlywiki
+
+''累积分布函数''（cumulative distribution function，CDF）或''概率分布函数''，简称''分布函数''，是[[概率密度函数]]的[[积分]]，能完整描述一个[[实|实数]][[随机变量]]$$X$$的概率分布。
+
+对于所有实数值的随机变量$$X$$ ，累积分布函数定义如下：
+
+$$
+F_X(x)=\Pr(X\le x)
+$$
+
+其中右侧表示随机变量$$X$$取值小于或等于$$X$$的[[概率]]。
