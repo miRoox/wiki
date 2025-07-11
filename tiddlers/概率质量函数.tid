@@ -1,0 +1,25 @@
+aliases: PMF 离散密度函数
+created: 20250711140438188
+creator: miRoox
+modified: 20250711142605254
+modifier: miRoox
+tags: 概率 TODO
+title: 概率质量函数
+tmap.id: 112a0c23-bf35-450a-9801-891284e4d0f9
+type: text/vnd.tiddlywiki
+
+''概率质量函数''（probability mass function，PMF）是离散随机变量在各特定取值上的[[概率]]。它也可以被视为[[概率密度函数]]的离散形式，因此也被称为''离散密度函数''。
+
+假设$$X$$是一个定义在[[可数|可数集合]][[样本空间]]$$S$$上的离散随机变量$$S\subseteq\R$$，其''概率质量函数''为
+
+$$
+f_X(x)=\begin{cases}
+\Pr(X=x) & x\in S\\
+0 & x\in\R\setminus S
+\end{cases}
+$$
+
+概率质量函数和概率密度函数的一个不同之处在于：
+
+* 概率质量函数是对离散随机变量定义的，本身代表该值的概率；
+* 概率密度函数本身不是概率，只有对连续随机变量的概率密度函数必须在某一个[[区间]]内被[[积分|定积分]]后才能产生出概率
