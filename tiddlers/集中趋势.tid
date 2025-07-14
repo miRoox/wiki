@@ -1,0 +1,11 @@
+aliases: 平均 中央趋势
+created: 20250714134758945
+creator: miRoox
+modified: 20250714140240533
+modifier: miRoox
+tags: 数理统计 TODO 分类
+title: 集中趋势
+tmap.id: 7c266312-d79a-4c51-af88-5fe04d06bc47
+type: text/vnd.tiddlywiki
+
+''集中趋势''（central tendency）或''中央趋势''，在口语上也经常被称为''[[平均|平均数]]''，表示一个[[概率分布]]的中间值。集中趋势可以由有限的[[数组]]（如一群[[样本]]）中或理论上的几率分配（如[[正态分布]]）中求得。

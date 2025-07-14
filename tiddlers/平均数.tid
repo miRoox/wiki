@@ -1,10 +1,28 @@
 created: 20250325122752375
 creator: miRoox
-modified: 20250325123306423
+modified: 20250714142053909
 modifier: miRoox
-tags: 数理统计 TODO
+tags: TODO 集中趋势 分类
 title: 平均数
 tmap.id: 67cf4672-a243-415d-ba97-e30f1daa5b0e
 type: text/vnd.tiddlywiki
 
-''平均数''
+''平均数''（mean, average）是[[集中趋势]]的度量。
+
+平均数有很多种计算方式，但它们''通常''都可以看作到$$\R^+$$的[[函数]]$$M$$，并满足如下性质：
+
+* [[线性|线性映射]][[齐次|齐次函数]]：$$
+M(bx_1,\ldots,bx_n)=bM(x_1,\ldots,x_n)
+$$
+* 元素可置换：$$
+\forall i,j \in\set{1,2,\ldots,n}, i\ne j\implies M(\ldots,x_i,\ldots,x_j,\ldots)=M(\ldots,x_j,\ldots,x_i,\ldots)
+$$
+* 单调性：$$
+\forall a\le b,M(a,x_1,\ldots,x_n)= M(b,x_1,\ldots,x_n)
+$$
+* [[幂等性]]：$$
+M(x,x,\ldots,x)=x
+$$
+* 根据单调性和幂等性可以推出：$$
+\min(x_1,\ldots,x_n)=M(x_1,\ldots,x_n)=\max(x_1,\ldots,x_n)
+$$
