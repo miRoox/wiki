@@ -1,6 +1,6 @@
 created: 20240912095037408
 creator: miRoox
-modified: 20240914093027324
+modified: 20250714145057472
 modifier: miRoox
 tags: 概率论 TODO 变量
 title: 随机变量
@@ -8,3 +8,12 @@ tmap.id: af8d4289-ad74-4fca-8cbc-cd30a8dc9f5e
 type: text/vnd.tiddlywiki
 
 ''随机变量''是用来表示[[随机试验]]结果的[[变量]]。
+
+正式地，$$X:S\to\R$$是定义在[[样本空间]]$$S$$上[[实函数]]，而$$\mathcal {E}\subseteq \mathcal {P}(S)$$ 为 $$S$$ 的某事件族，若满足
+$$
+\forall r\in\R, \set{s\in S| X(s)\le\mathcal{E}}\in\mathcal{E}
+$$
+则称函数$$X$$是一个（在$$\mathcal{E}$$意义下）定义在$$S$$上的''随机变量''。
+
+直观上，随机变量为一种特殊的实函数，其值不大于某数的状况都是[[事件|随机事件]]。所以一个函数是不是随机变量也跟“怎样的子集合算事件”有密不可分的关系。
+

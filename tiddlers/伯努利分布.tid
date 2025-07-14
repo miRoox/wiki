@@ -1,7 +1,7 @@
 aliases: 两点分布 0-1分布
 created: 20250711141208404
 creator: miRoox
-modified: 20250712030958286
+modified: 20250714134443753
 modifier: miRoox
 tags: 离散概率分布 TODO 概率分布
 title: 伯努利分布
@@ -9,3 +9,14 @@ tmap.id: ecbda659-2b63-46ba-b065-2f3b9db61420
 type: text/vnd.tiddlywiki
 
 ''伯努利分布''（Bernoulli distribution），又名''两点分布''或者''0-1分布''，用于对只有两种可能结果的试验（[[伯努利试验]]）进行建模。若伯努利试验成功，则伯努利[[随机变量]]取值为[[1]]。若伯努利试验失败，则伯努利随机变量取值为[[0]]。
+
+记其成功[[概率]]为$$p\in[0,1]$$，则失败概率为$$1-p$$
+
+其[[概率质量函数]]：
+
+$$
+f_X(x)=p^x(1-p)^{1-x}=\begin{cases}
+p & x=1\\
+1-p & x=0
+\end{cases}
+$$
