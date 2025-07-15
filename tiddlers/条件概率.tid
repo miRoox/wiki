@@ -1,0 +1,10 @@
+created: 20250715133245151
+creator: miRoox
+modified: 20250715145456445
+modifier: miRoox
+tags: 概率 TODO 概率论
+title: 条件概率
+tmap.id: 744e9dd6-87a6-4ab3-86cd-b326241a12be
+type: text/vnd.tiddlywiki
+
+''条件概率''（conditional probability）就是[[事件|随机事件]]$$B$$发生的条件下事件$$A$$发生的[[概率]]。

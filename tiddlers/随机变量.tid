@@ -1,6 +1,6 @@
 created: 20240912095037408
 creator: miRoox
-modified: 20250714145057472
+modified: 20250715133043783
 modifier: miRoox
 tags: 概率论 TODO 变量
 title: 随机变量
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 正式地，$$X:S\to\R$$是定义在[[样本空间]]$$S$$上[[实函数]]，而$$\mathcal {E}\subseteq \mathcal {P}(S)$$ 为 $$S$$ 的某事件族，若满足
 $$
-\forall r\in\R, \set{s\in S| X(s)\le\mathcal{E}}\in\mathcal{E}
+\forall r\in\R, \set{s\in S| X(s)\le r}\in\mathcal{E}
 $$
 则称函数$$X$$是一个（在$$\mathcal{E}$$意义下）定义在$$S$$上的''随机变量''。
 
