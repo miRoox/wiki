@@ -1,0 +1,14 @@
+aliases: 康托尔集
+created: 20250716124445639
+creator: miRoox
+modified: 20250716131938035
+modifier: miRoox
+tags: 集合 TODO 测度论 分形几何
+title: 康托尔三分集
+tmap.id: ce3b21d0-1254-4fe2-808a-22ccdb1f738b
+type: text/vnd.tiddlywiki
+
+''康托尔三分集''，简称''康托尔集''，是一种从[[线段]]递归去掉三分之一导出的[[集合]]。
+
+康托尔三分集可以看作是[[区间]]$$[0,1]$$的三进制数中，去掉所有包含$$1$$的数组成的集合。
+
