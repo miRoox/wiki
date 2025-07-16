@@ -1,10 +1,10 @@
-created: 20240822110241800
+created: 20250716125815753
 creator: miRoox
-modified: 20240912131709844
+modified: 20250716125845019
 modifier: miRoox
-tags: 代数学 离散数学 分类 TODO
+tags: 布尔代数学 TODO 代数结构
 title: 布尔代数
-tmap.id: 66227f5a-6c87-49d9-b115-cbefeb850f48
+tmap.id: 9f68875f-8b5c-4be1-8372-92388e25ea91
 type: text/vnd.tiddlywiki
 
 ''布尔代数''（Boolean algebra）是指捕获了[[集合运算]]和[[逻辑运算]]二者的根本性质的一个[[代数结构]]。
