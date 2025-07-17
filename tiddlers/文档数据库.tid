@@ -1,8 +1,10 @@
 created: 20250619063147331
 creator: miRoox
-modified: 20250619063154730
+modified: 20250717134109459
 modifier: miRoox
-tags: 数据库 TODO 分类
+tags: 数据库 TODO 分类 非关系型数据库
 title: 文档数据库
 tmap.id: f6c55e35-7304-4e54-a191-ef3179cdfe56
 type: text/vnd.tiddlywiki
+
+''文档数据库''是一类[[非关系型数据库]]

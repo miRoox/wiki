@@ -1,0 +1,13 @@
+aliases: KV数据库
+created: 20250717132330480
+creator: miRoox
+modified: 20250717134848750
+modifier: miRoox
+tags: 数据库 非关系型数据库 TODO 分类
+title: 键值数据库
+tmap.id: da4e9c97-4d3d-4703-a3ac-54657e269cb5
+type: text/vnd.tiddlywiki
+
+键值数据库（Key-value database）是一类基于[[键值对]]的[[非关系型数据库]]。
+
+这类数据库的核心数据模型都很简单
