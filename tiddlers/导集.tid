@@ -1,10 +1,10 @@
 created: 20250716125146198
 creator: miRoox
-modified: 20250716125321426
+modified: 20250717025429163
 modifier: miRoox
 tags: 点集拓扑学 TODO 集合
 title: 导集
 tmap.id: a6feb17f-2875-47ec-979a-86bce72843ca
 type: text/vnd.tiddlywiki
 
-[[拓扑空间]]的[[子集]]$$S$$的''导集''是$$S$$的所有[[极限点]]构成的集合 ，记作$$S'$$。
+考虑[[拓扑空间]]的[[子集]]$$S$$，$$S$$的''导集''是$$S$$的所有[[极限点]]构成的集合 ，记作$$S'$$。

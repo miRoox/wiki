@@ -1,0 +1,14 @@
+created: 20250717051811629
+creator: miRoox
+modified: 20250717052052747
+modifier: miRoox
+tags: 向量数据库 TODO 数据库
+title: Milvus
+tmap.id: ad7b42ee-3d2e-49b1-a304-6855cc38099e
+type: text/vnd.tiddlywiki
+
+''Milvus''是一款高性能的[[向量数据库]]。
+
+!! 链接
+
+* [[官网|https://milvus.io/]]

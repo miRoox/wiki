@@ -1,0 +1,14 @@
+created: 20250717132402030
+creator: miRoox
+modified: 20250717132642537
+modifier: miRoox
+tags: 键值数据库 TODO 数据库
+title: Garnet
+tmap.id: 3df1a1d1-869b-4b54-a675-fc2078490550
+type: text/vnd.tiddlywiki
+
+''Garnet''是一款高性能的[[键值数据库]]，兼容[[Redis]]的很多[[API|?]]
+
+!! 链接
+
+* [[官网|https://microsoft.github.io/garnet/]]

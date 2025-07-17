@@ -1,0 +1,10 @@
+created: 20250717051721658
+creator: miRoox
+modified: 20250717134717372
+modifier: miRoox
+tags: 数据库 TODO 键值数据库 非关系型数据库
+title: Redis
+tmap.id: ccccb869-b1bb-4319-b5e0-2645150f6d30
+type: text/vnd.tiddlywiki
+
+''REmote DIctionary Server'' (''Redis'') 是一个高性能的[[ key-value 存储系统|键值数据库]]，是跨平台的[[非关系型数据库]]。
