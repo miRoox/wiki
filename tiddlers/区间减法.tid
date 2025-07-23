@@ -1,0 +1,14 @@
+created: 20250723132355243
+creator: miRoox
+modified: 20250723132444025
+modifier: miRoox
+tags: 区间算术 TODO 减法
+title: 区间减法
+tmap.id: a8a8ddd7-b0ef-49bc-b0b7-4727bb69c1c6
+type: text/vnd.tiddlywiki
+
+[[区间算术]]中，[[区间]]的[[减法]]计算方法如下：
+
+$$
+[a,b]+[c,d]=[a-d,b-c]
+$$
