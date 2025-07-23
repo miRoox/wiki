@@ -1,0 +1,14 @@
+created: 20250723124143857
+creator: miRoox
+modified: 20250723124359378
+modifier: miRoox
+tags: 区间算术 TODO 加法
+title: 区间加法
+tmap.id: 45f1b769-5b72-4a45-8d21-25c993e14a38
+type: text/vnd.tiddlywiki
+
+[[区间算术]]中，[[区间]]的[[加法]]计算方法如下：
+
+$$
+[a,b]+[c,d]=[a+c,b+d]
+$$

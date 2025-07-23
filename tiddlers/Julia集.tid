@@ -1,0 +1,14 @@
+created: 20250723132618681
+creator: miRoox
+modified: 20250723133801388
+modifier: miRoox
+tags: 分形 集合
+title: Julia集
+tmap.id: 05e2c8e7-fc2e-4604-b534-c177bd281002
+type: text/vnd.tiddlywiki
+
+''Julia集''是一系列在[[复平面]]形成[[分形]]的点的[[集合]]。
+
+一般地，对于任意[[复函数]]$$f$$，考虑[[递推|递推关系式]][[数列]] $$\set{z_n}$$ 满足 $$z_{n+1}=f(z_n)$$，则$$f$$对应的''Julia集''为所有不让 $$\lim_{n\to\infty}z_n$$ 发散的$$z_0$$构成的集合。
+
+我们一般所说的''Julia集''是指函数$$f_c(z)=z^2+c$$所对应的Julia集。
