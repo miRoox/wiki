@@ -1,0 +1,15 @@
+aliases: MCP
+created: 20250729082331718
+creator: miRoox
+modified: 20250729082534313
+modifier: miRoox
+tags: TODO
+title: 模型上下文协议
+tmap.id: 0c45938b-cfa2-4773-a6cc-498ded3f20bc
+type: text/vnd.tiddlywiki
+
+模型上下文协议（Model Context Protocol, MCP）定义了一种标准的方式将应用程序的上下文提供给[[大语言模型]]。
+
+!! 链接
+
+* [[官方文档|https://modelcontextprotocol.io]]
