@@ -1,0 +1,10 @@
+created: 20250802134230363
+creator: miRoox
+modified: 20250802134653084
+modifier: miRoox
+tags: 平面几何 TODO
+title: 圆锥曲线的离心率
+tmap.id: 83fb1ef3-e43a-4fe3-a797-3801d105f4bc
+type: text/vnd.tiddlywiki
+
+''离心率''（eccentricity， $$e$$）又称''偏心率''，是指“[[圆锥曲线]]上任一点 $$M$$ 到其[[焦点|圆锥曲线的焦点]]的[[距离]]”与“$$M$$ 到[[准线]]的距离”之比。
