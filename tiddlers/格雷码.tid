@@ -1,0 +1,39 @@
+aliases: Gray码
+created: 20191210072056968
+creator: miRoox
+modified: 20250803073806045
+modifier: miRoox
+tags: 编码 数据结构 TODO
+title: 格雷码
+tmap.id: 043f1130-571e-4a74-838f-7856e89d7c1a
+type: text/vnd.tiddlywiki
+
+格雷码（Gray Code）是一种二值编码方式，它确保相邻两个数的编码只有一位不同。
+
+格雷码可以通过对[[二进制]]数逐位运算转换得到：
+
+$$
+g_i=\begin{cases}
+b_i&i=1\\
+b_{i+1}\lxor b_i
+\end{cases}
+$$
+
+相应地，将格雷码还原为二进制码，只需要从最高位开始反向运算
+
+$$
+b_i=\begin{cases}
+g_i&i=N\\
+g_{i}\lxor b_{i+1}
+\end{cases}
+$$
+
+| !十进制 | !二进制 | !格雷码 |
+| 0      | 000    | 000    |
+| 1      | 001    | 001    |
+| 2      | 010    | 011    |
+| 3      | 011    | 010    |
+| 4      | 100    | 110    |
+| 5      | 101    | 111    |
+| 6      | 110    | 101    |
+| 7      | 111    | 100    |
