@@ -1,0 +1,12 @@
+created: 20250809103445842
+creator: miRoox
+modified: 20250809140155227
+modifier: miRoox
+tags: 曲线 拉梅曲线
+title: 次椭圆
+tmap.id: bc19dfd4-7b43-4b8e-b732-aa792649b40f
+type: text/vnd.tiddlywiki
+
+$$p<2$$的[[拉梅曲线]]被称作''次椭圆''（hypoellipse）
+
+[img[hypoellipse.svg]]

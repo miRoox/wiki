@@ -40,7 +40,7 @@ nano ansible/hosts
 ```
 
 ansible/hosts（注意时间同步服务器填主节点的ip）:
-```conf
+```ini
 [nodes]
 172.20.10.147
 172.20.10.205

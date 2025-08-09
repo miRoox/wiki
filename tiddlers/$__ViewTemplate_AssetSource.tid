@@ -1,0 +1,20 @@
+created: 20250809140959862
+creator: miRoox
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20250809141122192
+modifier: miRoox
+tags: $:/internal $:/tags/ViewTemplate
+title: $:/ViewTemplate/AssetSource
+type: text/vnd.tiddlywiki
+
+<% if [all[current]tag[AssetSource]] %>
+
+-----
+
+!! ''{{!!title}}''对应资源
+
+<div class="threecols">
+<<list-links "[tag<currentTiddler>]">>
+</div>
+
+<% endif %>
