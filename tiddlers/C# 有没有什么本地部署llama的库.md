@@ -1,4 +1,4 @@
-> C# 有没有什么本地部署llama的库
+> # C# 有没有什么本地部署llama的库
 
 在C#中，有一个名为 **LLamaSharp** 的库，可以用于本地部署 LLaMA 模型。LLamaSharp 是一个跨平台的库，基于 C++ 的 llama.cpp，旨在使用户能够在本地设备上高效运行大型语言模型（LLM）。
 
@@ -172,7 +172,7 @@ class Program
 
 通过这种方式，你可以将 LLaMA 模型与 Kernel Memory 集成，实现 RAG 功能，增强你的应用程序的智能和响应能力。
 
-> kernel-memory能导入更结构化的数据吗？
+> # kernel-memory能导入更结构化的数据吗？
 
 是的，Kernel Memory 可以导入更结构化的数据。除了支持常见的文档格式（如 PDF 和 Word 文档）外，Kernel Memory 还可以处理结构化数据，例如 JSON、CSV 或其他自定义格式。
 
@@ -224,7 +224,7 @@ class Program
 
 Kernel Memory 不仅支持文档格式的导入，还可以处理结构化数据，如 JSON 和 CSV。这使得它在构建智能应用程序时具有更大的灵活性和能力。通过适当的解析和导入方法，你可以将各种类型的数据集成到 Kernel Memory 中，以实现更复杂的查询和生成任务。
 
-> kernel-memory能自定义检索的方式吗？
+> # kernel-memory能自定义检索的方式吗？
 
 是的，Kernel Memory 允许用户自定义检索的方式。这种灵活性使得开发者可以根据特定的需求和应用场景来优化数据检索过程。以下是一些自定义检索的方式和功能：
 
@@ -276,7 +276,7 @@ Console.WriteLine($"检索结果: {answer.Result}");
 
 Kernel Memory 提供了多种自定义检索的方式，包括自定义查询参数、自定义检索算法和自定义数据索引等。这种灵活性使得开发者能够根据具体需求优化数据检索过程，从而提高应用的智能性和响应能力。通过这些自定义功能，你可以构建出更符合业务需求的智能应用。
 
-> Kernel Memory能和我已有的sqlite数据库以及lucent数据库集成吗？
+> # Kernel Memory能和我已有的sqlite数据库以及lucent数据库集成吗？
 
 是的，Kernel Memory 可以与现有的 SQLite 数据库和 Lucent 数据库集成。通过这种集成，你可以利用 Kernel Memory 的强大功能，同时保留已有数据库中的数据和结构。以下是如何实现这种集成的基本步骤和示例。
 
@@ -355,7 +355,7 @@ class Program
 
 Kernel Memory 可以与现有的 SQLite 数据库直接集成，并通过自定义代码与 Lucent 数据库集成。这种集成方式使得你能够充分利用已有的数据，同时享受 Kernel Memory 提供的强大功能。通过适当的连接和数据导入策略，你可以构建出更智能和高效的应用程序。
 
-> 有点好奇Kernel Memory底层是怎么利用这些数据库的数据的？
+> # 有点好奇Kernel Memory底层是怎么利用这些数据库的数据的？
 
 Kernel Memory 的底层架构设计旨在高效地利用各种数据源，包括 SQLite 和 Lucent 数据库。它通过一系列的连接器和适配器来实现与不同数据库的集成，以下是一些关键的工作原理和机制：
 
@@ -466,7 +466,7 @@ var answer = await memoryClient.AskAsync(customQuery.ToString());
 
 你可以自定义查询解析的方式，以更好地符合项目的实际情况。通过实现自定义查询解析器和查询逻辑，你可以灵活地处理用户的查询，优化系统的性能，并增强用户体验。这种灵活性使得 Kernel Memory 能够适应各种不同的应用场景和需求。
 
-> 我还有一个数据库，它不是普通的数据库，但是暴露的RESTful API接口，我应该实现哪些部分来让kernel memory对接它？
+> # 我还有一个数据库，它不是普通的数据库，但是暴露的RESTful API接口，我应该实现哪些部分来让kernel memory对接它？
 
 要将 Kernel Memory 与一个暴露 RESTful API 接口的数据库对接，你需要实现几个关键部分，以确保数据能够顺利地从该 API 获取并导入到 Kernel Memory。以下是实现的步骤和建议：
 
@@ -576,7 +576,7 @@ class Program
 
 要将 Kernel Memory 与一个暴露 RESTful API 接口的数据库对接，你需要实现 API 客户端、数据提取和转换逻辑、定义数据模型，并将这些部分集成到 Kernel Memory 中。通过这些步骤，你可以有效地从 RESTful API 获取数据并将其导入到 Kernel Memory，以便进行后续的查询和处理。
 
-> 这个是要全部导入吗？还是可以做成查询时按需导入？
+> # 这个是要全部导入吗？还是可以做成查询时按需导入？
 
 你可以根据项目的需求选择是全部导入数据还是按需导入数据。两种方法各有优缺点，以下是它们的详细说明：
 

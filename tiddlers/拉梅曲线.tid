@@ -1,0 +1,26 @@
+aliases: 超椭圆
+created: 20250809102043561
+creator: miRoox
+modified: 20250809140819565
+modifier: miRoox
+tags: 曲线 TODO
+title: 拉梅曲线
+tmap.id: a1f18da4-8ede-4c62-985d-36537e8fc314
+type: text/vnd.tiddlywiki
+
+''拉梅曲线''（Lamé curve），也叫''超椭圆''（superellipse），是[[椭圆]]的一种推广。在[[笛卡尔坐标系]]下，拉梅曲线是满足如下[[方程式|方程]]式的[[点]]的[[集合]]：
+
+$$
+\left|\frac{x}{a}\right|^p+\left|\frac{x}{b}\right|^p=1
+$$
+
+其中，$$a,b,p$$均为[[正数]]。
+
+
+| ! $$p$$ 取值范围 | !形状 | !图像 |
+| $$0<p<1$$ |  图形类似一个曲线的四角星，四边的曲线往内凹 | [img[superellipse-0.5.svg]] |
+| $$p=1$$ | [[菱形]] | [img[superellipse-1.svg]] |
+| $$1<p<2$$ | [[次椭圆]] | [img[hypoellipse.svg]] |
+| $$p=2$$ | [[椭圆]] | [img[superellipse-2.svg]] |
+| $$p>2$$ | [[过椭圆]] | [img[hyperellipse.svg]] |
+| $$p=4$$ | [[方圆形]]（特殊的过椭圆） | [img[squircle.svg]] |

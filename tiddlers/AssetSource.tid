@@ -1,7 +1,7 @@
 caption: 资产源码
 created: 20240627061720117
 creator: miRoox
-modified: 20250525082858138
+modified: 20250809140852121
 modifier: miRoox
 tags: 附录
 title: AssetSource
@@ -26,7 +26,7 @@ type: text/vnd.tiddlywiki
 <$link/>
 </td>
 <td>
-<$link to={{!!asset}}/>
+<<list-links "[tag<currentTiddler>]">>
 </td>
 </tr>
 </$list>

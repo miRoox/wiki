@@ -1,11 +1,13 @@
 created: 20240417082945413
 creator: miRoox
-modified: 20250101052341797
+modified: 20250809115224131
 modifier: miRoox
-tags: fio HowTos
+tags: HowTos
 title: FIO典型性能测试方法
 tmap.id: 6084a1b1-2c78-4aa3-b5b1-72f1ecafc92a
 type: text/vnd.tiddlywiki
+
+利用[[fio]]测试存储性能
 
 随机写IOPS:
 
