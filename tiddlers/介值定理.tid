@@ -1,0 +1,14 @@
+created: 20250810085720509
+creator: miRoox
+modified: 20250810090125062
+modifier: miRoox
+tags: 数学定理 TODO 微积分学 实分析
+title: 介值定理
+tmap.id: a0433de5-197d-4123-8fc8-3e513ce954d6
+type: text/vnd.tiddlywiki
+
+对于[[闭区间|区间]]$$[a,b]$$上的[[连续函数]]$$f:[a,b]\to\Reals$$，若$$f(a)<u<f(b)$$或者$$f(a)>u>f(b)$$，则
+
+$$
+\exists \xi\in(a,b),\,f(\xi)=u
+$$

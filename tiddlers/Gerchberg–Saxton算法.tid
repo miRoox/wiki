@@ -2,14 +2,27 @@ aliases: GS算法 GS
 caption: GS算法
 created: 20191018045916782
 creator: miRoox
-modified: 20241230125248267
+modified: 20250810143507342
 modifier: miRoox
 tags: TODO 算法 相位恢复算法
 title: Gerchberg–Saxton算法
 tmap.id: 0e8cb0cf-a005-4eb3-912d-b4d581811c5c
 type: text/vnd.tiddlywiki
 
-''Gerchberg–Saxton算法''是一种[[相位恢复算法]]，
+''Gerchberg–Saxton算法''是一种迭代式[[相位恢复算法]]，核心思想是通过在两个域（通常是空间域和傅里叶域）之间来回迭代，利用已知的强度信息和约束条件逐步逼近正确的相位分布。
+
+!! 算法步骤
+
+已知测量所得的空间域强度分布为 $$|A(x,y)|^2$$，傅里叶域强度分布为 $$|F(u,v)|^2$$
+
+# 初始化空间域相位分布 $$\varphi(x,y)$$（通常是随机初始化）
+# 迭代过程
+## ''正向传播''：在空间域，基于已知的振幅 $$|A(x,y)|$$ 和当前估计的相位 $$\varphi(x,y)$$，构建复振幅 $$A(x,y)=|A(x,y)|\exp(\imath\varphi(x,y))$$。通过[[傅里叶变换]]将其传播到傅里叶域，得到复振幅估计 $$\hat{F}(u,v)=|\hat{F}(u,v)|\exp(\imath\hat{\psi}(u,v))$$；
+## ''傅里叶域约束''：保留计算得到的相位 $$\hat{\psi}(u,v)$$，用已知的傅里叶域强度替换振幅 $$|F(u,v)|$$，得到新的复振幅 $$F(u,v)=|F(u,v)|\exp(\imath\hat{\psi}(u,v))$$；
+## ''逆向传播''：通过傅里叶逆变换将 $$F(u,v)$$ 转换回空间域，得到新的复振幅 $$\hat{A}(x,y)=|\hat{A}(x,y)|\exp(\imath\hat{\varphi}(x,y))$$；
+## ''空间域约束''：保留计算得到的新相位 $$\hat{\varphi}(x,y)$$，用已知的空间域强度替换振幅 $$|A(x,y)|$$，得到得到更新后的复振幅  $$A(x,y)=|A(x,y)|\exp(\imath\hat{\varphi}(x,y))$$；
+# 重复上述步骤，直到相位分布收敛（通常通过误差函数判断，如[[均方误差]]）或达到预设的迭代次数。
+
 
 !! 参考文献
 

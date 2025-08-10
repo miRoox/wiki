@@ -1,0 +1,20 @@
+created: 20250810043715842
+creator: miRoox
+modified: 20250810044337041
+modifier: miRoox
+tags: 微积分学 TODO 数学定理 引理
+title: 费马引理
+tmap.id: c256b773-49d0-4755-a3d1-d9ed2ac2ae9f
+type: text/vnd.tiddlywiki
+
+若[[函数|实函数]]$$f(x)$$在点$$x_0$$的[[邻域]]$$U(x_0)$$内有定义，且在$$x_0$$处[[可导]]
+
+$$
+\forall x\in U(x_0), f(x)\le f(x_0) \implies f'(x_0)=0
+$$
+
+对偶地，
+
+$$
+\forall x\in U(x_0), f(x)\ge f(x_0) \implies f'(x_0)=0
+$$

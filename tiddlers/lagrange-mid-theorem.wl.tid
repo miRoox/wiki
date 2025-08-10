@@ -1,0 +1,35 @@
+created: 20250810075728442
+creator: miRoox
+modified: 20250810075851874
+modifier: miRoox
+tags: AssetSource
+title: lagrange-mid-theorem.wl
+tmap.id: 68273fda-15cd-440f-b71c-30a1dbd4e375
+type: text/vnd.tiddlywiki
+
+```wl
+(*定义函数和区间*)
+f[x_] := x^2;
+a = 1;
+b = 3;
+c = Solve[D[f[x], x] == (f[b] - f[a])/(b - a), x, Reals][[1, 1, 2]];
+
+(*计算关键点和方程*)
+tangentLine[x_] := f[c] + f'[c] (x - c);
+secantLine[x_] := f[a] + ((f[b] - f[a])/(b - a)) (x - a);
+
+(*绘制图形*)
+Show[Plot[f[x], {x, 0.5, 3.5}, PlotStyle -> {Blue}, 
+  PlotRange -> {{0, 4}, {0, 10}}, AxesLabel -> {"x", "y"}, 
+  GridLines -> Automatic, ImageSize -> 600, 
+  Epilog -> {{Dashed, Red, 
+     Line[{{a, f[a]}, {b, f[b]}}]}, {PointSize[0.01], 
+     Point[{{a, f[a]}, {b, f[b]}, {c, f[c]}}]}, {Text[
+      Style["a", 16, Black], {a, f[a]}, {-1.5, -2}]}, {Text[
+      Style["b", 16, Black], {b, f[b]}, {1.5, -2}]}, {Text[
+      Style["c", 16, Black], {c, f[c]}, {0, 2}]}}, 
+  PlotLabel -> Style["拉格朗日中值定理示意图", Bold, 18],
+  PlotTheme -> "Scientific"], 
+ Plot[secantLine[x], {x, 0, 4}, PlotStyle -> {Red, Dashed}], 
+ Plot[tangentLine[x], {x, 0.5, 3.5}, PlotStyle -> {Black, Dotted}]]
+```

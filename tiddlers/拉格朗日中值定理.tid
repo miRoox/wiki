@@ -1,11 +1,16 @@
 created: 20250524063757542
 creator: miRoox
-modified: 20250524071854736
+modified: 20250810084436069
 modifier: miRoox
 tags: 微分中值定理 数学定理 微积分学
 title: 拉格朗日中值定理
 tmap.id: 3bdb230d-43fe-4f82-aa7e-089fa09b689b
 type: text/vnd.tiddlywiki
+
+<figure class="right-float">
+[img width=480px [lagrange-mid-theorem.svg]]
+<figcaption>拉格朗日中值定理示意图</figcaption>
+</figure>
 
 如果[[函数|实函数]]$$f:[a,b]\to\Reals$$满足：
 
@@ -19,4 +24,22 @@ $$
 $$
 
 
+
 拉格朗日中值定理可以看作是[[罗尔中值定理]]的推广，以及[[柯西中值定理]]的特殊情况。
+
+!! 证明
+
+构造辅助函数
+
+$$
+g(x)=f(x)-\frac{f(b)-f(a)}{b-a}(x-a)
+$$
+
+显然$$g(a)=g(b)=f(a)$$
+
+对$$g(x)$$应用[[罗尔中值定理]]即得
+
+$$
+\exist\xi\in(a,b),\,g'(\xi)=f'(\xi)-\frac{f(b)-f(a)}{b-a}=0
+$$
+
