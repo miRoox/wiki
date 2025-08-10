@@ -1,7 +1,7 @@
 asset: rolle-theorem.svg
 created: 20250810060507101
 creator: miRoox
-modified: 20250810060712944
+modified: 20250810150510185
 modifier: miRoox
 tags: AssetSource
 title: rolle-theorem.wl
@@ -30,7 +30,7 @@ tangentLine[x_] := f[c]
 Plot[{f[x], tangentLine[x]}, {x, a - 0.5, b + 0.5},(*绘制函数和切线*)
  PlotRange -> {{a - 1, b + 1}, Automatic},(*调整纵轴范围*)
  PlotStyle -> {{Thick, Blue}, {Dashed, Red}},(*函数为蓝色实线，切线为红色虚线*)
- AxesLabel -> {"x", "y"},(*坐标轴标签*)PlotLabel -> "罗尔中值定理示意图",(*标题*)
+ AxesLabel -> {"x", "y"},(*坐标轴标签*)
  Epilog -> {(*绘制端点 (a,f(a)) 和 (b,
    f(b))*){PointSize[0.02], Black, Point[{a, fa}], 
     Point[{b, fb}]},(*绘制点 c*){PointSize[0.02], Green, 
