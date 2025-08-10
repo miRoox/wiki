@@ -1,11 +1,16 @@
 created: 20250523142201627
 creator: miRoox
-modified: 20250524070257322
+modified: 20250810095510650
 modifier: miRoox
 tags: 微分中值定理 数学定理
 title: 罗尔中值定理
 tmap.id: a22f1c4a-fe86-4bd4-be47-e57494cb51f1
 type: text/vnd.tiddlywiki
+
+<figure class="right-float">
+[img width=480px [rolle-theorem.svg]]
+<figcaption>罗尔中值定理示意图</figcaption>
+</figure>
 
 如果[[函数|实函数]]$$f:[a,b]\to\Reals$$满足：
 
@@ -17,3 +22,15 @@ type: text/vnd.tiddlywiki
 $$
 \exist\xi\in(a,b),\,f'(\xi)=0
 $$
+
+!! 证明
+
+首先考虑$$f(x)$$为[[常函数|常数函数]]的情况，显然区间$$(a,b)$$任意一点导数均为0。
+
+如果$$f(x)$$不为常函数，则区间$$(a,b)$$内至少存在一点其函数值不等于$$f(a)$$，不妨假设该值大于$$f(a)$$（小于时证法类似），则$$f(x)$$在$$[a,b]$$的[[上确界|最小上界]]大于$$f(a)$$，根据[[最值定理|闭区间连续函数的最值定理]]，
+
+$$
+\exists\xi\in(a,b),\,\forall x\in[a,b],\, f(x)\le f(\xi)
+$$
+
+再根据[[费马引理]]，$$f'(\xi)=0$$

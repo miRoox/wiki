@@ -1,0 +1,16 @@
+created: 20250810085405291
+creator: miRoox
+modified: 20250810090101944
+modifier: miRoox
+tags: 数学定理 微积分学
+title: 零点存在定理
+tmap.id: d5592d4f-94ec-4fe2-af89-4b55d91d55a4
+type: text/vnd.tiddlywiki
+
+对于[[闭区间|区间]]$$[a,b]$$上的[[连续函数]]$$f:[a,b]\to\Reals$$，若$$f(a)\cdot f(b)<0$$，则
+
+$$
+\exists \xi\in(a,b),\,f(\xi)=0
+$$
+
+零点存在定理是[[介值定理]]的特殊情况。

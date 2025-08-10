@@ -1,6 +1,6 @@
 created: 20240909124543330
 creator: miRoox
-modified: 20240914085134548
+modified: 20250810093527714
 modifier: miRoox
 tags: 集合 TODO
 title: 区间
@@ -17,3 +17,5 @@ type: text/vnd.tiddlywiki
 * ''闭区间''：$$[a,b]=\set{x\in \mathbb {R} \colon a\leq x\leq b}$$
 * ''半开区间''：$$(a,b]=\set{x\in \mathbb {R} \colon a<x\leq b}$$
 * ''半开区间''：$$[a,b)=\set{x\in \mathbb {R} \colon a\leq x<b}$$
+
+实区间上可以定义相应的算术运算，被称为[[区间算术]]。

@@ -1,0 +1,15 @@
+aliases: 有界性定理 有界定理
+created: 20250810090327116
+creator: miRoox
+modified: 20250810090844831
+modifier: miRoox
+tags: 数学定理 TODO 实分析 微积分学
+title: 闭区间连续函数的有界定理
+tmap.id: a46037bd-d2b1-4954-9db9-d55e64039f63
+type: text/vnd.tiddlywiki
+
+[[闭区间|区间]]$$[a,b]$$上的[[连续函数]]$$f:[a,b]\to\Reals$$，在该区间上必定有界，亦即：
+
+$$
+\exists m,M\in\Reals,\,\forall x\in[a,b],\,m\le f(x)\le M
+$$

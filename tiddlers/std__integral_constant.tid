@@ -1,6 +1,6 @@
 created: 20200922114835041
 creator: miRoox
-modified: 20230316092128323
+modified: 20250810115157681
 modifier: miRoox
 tags: C++类型特性 C++类型支持库
 title: std::integral_constant
@@ -16,13 +16,13 @@ struct integral_constant;
 
 成员类型：
 
-| 类型 | 定义 |h
+| !类型 | !定义 |
 | `value_type` | `T` |
 | `type` | `std::integral_constant<T,v>` |
 
 成员常量：
 
-| 名称 | 值 |h
+| !名称 | !值 |
 | `constexpr T value` | `v` |
 
 成员函数：

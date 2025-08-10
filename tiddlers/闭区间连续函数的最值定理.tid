@@ -1,0 +1,15 @@
+aliases: 最值定理
+created: 20250810091034445
+creator: miRoox
+modified: 20250810093048473
+modifier: miRoox
+tags: 数学定理 微积分学 实分析
+title: 闭区间连续函数的最值定理
+tmap.id: 89ae1f92-1968-4e97-8138-fec7cc0669af
+type: text/vnd.tiddlywiki
+
+[[闭区间|区间]]$$[a,b]$$上的[[连续函数]]$$f:[a,b]\to\Reals$$，
+
+$$
+\exists c,d\in[a,b],\,\forall x\in[a,b],\,f(c)\le f(x)\le f(d)
+$$

@@ -1,0 +1,44 @@
+asset: rolle-theorem.svg
+created: 20250810060507101
+creator: miRoox
+modified: 20250810060712944
+modifier: miRoox
+tags: AssetSource
+title: rolle-theorem.wl
+tmap.id: ece4fe08-8faf-4b30-ad91-eaad99b1ec87
+type: text/vnd.tiddlywiki
+
+```wl
+Solve[x^3 + x^2 - 4 x + 1 == 1, x, Reals]
+
+(*定义函数，例如 f(x)=x^3-3x+1*)f[x_] := x^3 + x^2 - 4 x + 1
+
+(*定义区间[a,b] 和端点值*)
+a = 1/2 (-1 - Sqrt[17]); b = 0;
+fa = f[a]; fb = f[b];
+
+(*验证 f(a)=f(b)*)
+If[fa != fb, Print["f(a) \[NotEqual] f(b), 不满足罗尔定理条件！"]];
+
+(*寻找导数为零的点 c，满足 f'(c)=0*)
+fprime = D[f[x], x];(*求导*)c = 
+ x /. FindRoot[
+   fprime == 0, {x, a}];(*假设 c 接近 0，求解 f'(x)=0*)(*在点 c 处的切线：y=f(c)*)
+tangentLine[x_] := f[c]
+
+(*绘制图形*)
+Plot[{f[x], tangentLine[x]}, {x, a - 0.5, b + 0.5},(*绘制函数和切线*)
+ PlotRange -> {{a - 1, b + 1}, Automatic},(*调整纵轴范围*)
+ PlotStyle -> {{Thick, Blue}, {Dashed, Red}},(*函数为蓝色实线，切线为红色虚线*)
+ AxesLabel -> {"x", "y"},(*坐标轴标签*)PlotLabel -> "罗尔中值定理示意图",(*标题*)
+ Epilog -> {(*绘制端点 (a,f(a)) 和 (b,
+   f(b))*){PointSize[0.02], Black, Point[{a, fa}], 
+    Point[{b, fb}]},(*绘制点 c*){PointSize[0.02], Green, 
+    Point[{c, f[c]}]},(*添加标签*)
+   Text[Style["a", 12, Black], {a, fa}, {0, -1.5}], 
+   Text[Style["b", 12, Black], {b, fb}, {0, -1.5}], 
+   Text[Style["c", 12, Green], {c, f[c]}, {0, 
+     1.5}],(*绘制水平线连接 f(a) 和 f(b)*){Gray, Dashed, 
+    Line[{{a, fa}, {b, fb}}]}},
+ PlotTheme -> "Scientific"]
+```
