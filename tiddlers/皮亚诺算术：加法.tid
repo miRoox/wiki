@@ -1,0 +1,17 @@
+created: 20250816044252036
+creator: miRoox
+modified: 20250816113859184
+modifier: miRoox
+tags: 皮亚诺算术 TODO 加法
+title: 皮亚诺算术：加法
+tmap.id: 9d3e788b-8e78-4fad-aadd-094fde3c9c3b
+type: text/vnd.tiddlywiki
+
+在[[皮亚诺公理]]定义的[[自然数]][[集|集合]] $$\mathbb{N}$$ 上，定义[[加法]] $$+:\mathbb{N}\times\mathbb{N}\to\mathbb{N}$$，它满足：
+
+* $$
+\forall n\in\mathbb{N},\,n+0=n
+$$
+* $$
+\forall m,n\in\mathbb{N},\,n+S(m)=S(n+m)
+$$

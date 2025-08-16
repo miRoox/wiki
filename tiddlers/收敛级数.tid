@@ -1,0 +1,10 @@
+created: 20250816113141688
+creator: miRoox
+modified: 20250816121949683
+modifier: miRoox
+tags: 级数 无穷级数
+title: 收敛级数
+tmap.id: 1112ed56-019a-45dd-959b-1d488d15f982
+type: text/vnd.tiddlywiki
+
+考虑[[序列]]$$\{a_n\}$$的[[部分和|级数]]$$\{S_n\}$$，若该部分和序列$$\{S_n\}$$收敛于[[极限|数列的极限]]$$S=\lim_{n\to\infty}S_n$$，则称$$\{a_n\}$$的[[无穷级数]]是''收敛''的。

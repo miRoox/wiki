@@ -1,0 +1,21 @@
+aliases: 极限
+created: 20250816113627310
+creator: miRoox
+modified: 20250816115323964
+modifier: miRoox
+tags: 极限 TODO 微积分学
+title: 数列的极限
+tmap.id: 75959793-2b15-4c64-8244-17fe2d13eac0
+type: text/vnd.tiddlywiki
+
+考虑[[数列]]$$\{a_n\}$$，若
+
+$$
+\forall\varepsilon>0,\,\exists N\in\mathbb{N},\,\forall n\ge N,\,|a_n-\alpha|<\varepsilon
+$$
+
+则称数列$$\{a_n\}$$当$$n\to\infty$$时，''收敛''于$$\alpha$$。也称数列$$\{a_n\}$$有''极限''$$\alpha$$，记作
+
+$$
+\lim_{n\to\infty}a_n=\alpha
+$$
