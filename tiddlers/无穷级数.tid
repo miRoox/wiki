@@ -1,0 +1,27 @@
+aliases: 级数
+created: 20250816105751069
+creator: miRoox
+modified: 20250816121835975
+modifier: miRoox
+tags: 级数 无限
+title: 无穷级数
+tmap.id: 16e96221-4023-479f-8191-e7a834e81fc4
+type: text/vnd.tiddlywiki
+
+''无穷级数''（infinite series）指的是[[无穷|?]]项[[序列]]之[[和|加法]]，形式上，对于序列$$\{a_n\}$$，其无穷级数即和式
+
+$$
+\sum_{i=1}^\infty a_i=a_1+a_2+a_3+\cdots
+$$
+
+实际上，无穷级数一般看作其[[部分和|级数]]的[[极限]]，即对于序列$$\{a_n\}$$，先给出其部分和序列$$\{S_n\}$$
+
+$$
+S_n=\sum_{i=1}^n a_i
+$$
+
+则，序列$$\{a_n\}$$的无穷级数被定义为
+
+$$
+\sum_{i=1}^\infty a_i=\lim_{n\to\infty}S_n=\lim_{n\to\infty}\sum_{i=1}^n a_i
+$$

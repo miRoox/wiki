@@ -1,0 +1,18 @@
+created: 20250816124847519
+creator: miRoox
+modified: 20250816125515092
+modifier: miRoox
+tags: 可和法
+title: 切萨罗求和法
+tmap.id: b13d7662-cd20-47d2-9dd3-f9996da2f63e
+type: text/vnd.tiddlywiki
+
+''切萨罗求和''（Cesàro summation）是一种推广了的计算[[无穷级数]]的求和方式。
+
+考虑[[数列]]$$\{a_n\}$$，其前$$k$$项[[部分和|级数]]记作$$S_k$$，若以下[[极限]]存在
+
+$$
+\lim_{n\to\infty}\frac{\sum_{k=1}^n S_k}{n}=\alpha
+$$
+
+则]$$\{a_n\}$$的''切萨罗和''为$$\alpha$$。

@@ -1,8 +1,21 @@
+aliases: 部分和
 created: 20240914101833708
 creator: miRoox
-modified: 20240914101841612
+modified: 20250816125719572
 modifier: miRoox
-tags: 微积分学 TODO
+tags: 微积分学 序列 分类
 title: 级数
 tmap.id: 1503352f-137b-4886-b7b2-ff95646a3780
 type: text/vnd.tiddlywiki
+
+''级数''（Series）表示某[[序列]]之[[和|加法]]。对于序列$$\{a_n\}$$，其级数是一个新序列$$\{S_n\}$$，满足
+
+$$
+S_n=\sum_{i=1}^n a_i
+$$
+
+有时，级数一词特指[[无穷级数]]，而上述定义中的$$S_n$$被称为前$$n$$项的''部分和''，$$\{S_n\}$$被称为''部分和序列''。
+
+!! 无穷级数
+
+{{无穷级数}}

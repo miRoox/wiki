@@ -2,7 +2,7 @@ aliases: 常数 定数
 caption: 常数
 created: 20240820065013971
 creator: miRoox
-modified: 20240912074615454
+modified: 20250816104642455
 modifier: miRoox
 tags: 数学 分类 常数
 title: 数学常数
@@ -12,3 +12,5 @@ type: text/vnd.tiddlywiki
 ! 数学常数
 
 ''常数''（constant）又称''定数''，是指一个数值固定不变的数。
+
+这个分类下主要收集一些特殊的数学常数。

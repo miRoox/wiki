@@ -1,0 +1,10 @@
+created: 20250816103644209
+creator: miRoox
+modified: 20250816122258092
+modifier: miRoox
+tags: 红色警戒2：Modding TODO
+title: except.txt
+tmap.id: a31798a1-40ce-4253-a431-8b7565fb9bf6
+type: text/vnd.tiddlywiki
+
+如果游戏因为内部错误崩溃，游戏文件夹中会生成一个名为 `except.txt` 的文件。这个文件是游戏在发生错误时的某些运行时数据的转储，可能会在你了解引擎代码的情况下，准确告诉你出了什么问题。
