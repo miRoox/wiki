@@ -1,0 +1,29 @@
+created: 20250817145728448
+creator: miRoox
+modified: 20250817145937624
+modifier: miRoox
+tags: 代码片段 TODO DeepSeek：万米高空自由落体时间计算
+title: DeepSeek：万米高空自由落体时间计算：Wolfram代码
+tmap.id: 6d64ad55-fbd4-4739-8d74-23c937124b8b
+type: text/vnd.tiddlywiki
+
+复刻[[DeepSeek：万米高空自由落体时间计算]]公式
+
+```wl
+h = 10000;
+g = 9.8;
+Sqrt[2*h/g]
+```
+
+```wl
+m = 75;
+c = 1;
+a = 0.5;
+\[Rho][h_] := 1.225 Exp[-h/9000]
+```
+
+```wl
+r = NDSolve[{m y''[t] == m g - 1/2 c*a*\[Rho][h - y[t]] y'[t]^2, 
+   y[0] == 0, y'[0] == 0}, y, {t, 0, 600}]
+```
+
