@@ -1,19 +1,23 @@
 created: 20250817145728448
 creator: miRoox
-modified: 20250817145937624
+modified: 20250817151211955
 modifier: miRoox
-tags: 代码片段 TODO DeepSeek：万米高空自由落体时间计算
+tags: 代码片段 DeepSeek：万米高空自由落体时间计算
 title: DeepSeek：万米高空自由落体时间计算：Wolfram代码
 tmap.id: 6d64ad55-fbd4-4739-8d74-23c937124b8b
 type: text/vnd.tiddlywiki
 
-复刻[[DeepSeek：万米高空自由落体时间计算]]公式
+用[[Mathematica|Wolfram Mathematica]]复刻[[DeepSeek：万米高空自由落体时间计算]]公式，进行数值计算
+
+!!! 忽略空气阻力的情况
 
 ```wl
 h = 10000;
 g = 9.8;
 Sqrt[2*h/g]
 ```
+
+!!! 考虑空气阻力的情况
 
 ```wl
 m = 75;
@@ -23,7 +27,19 @@ a = 0.5;
 ```
 
 ```wl
-r = NDSolve[{m y''[t] == m g - 1/2 c*a*\[Rho][h - y[t]] y'[t]^2, 
-   y[0] == 0, y'[0] == 0}, y, {t, 0, 600}]
+r = NDSolve[{m y''[t] == m g - 1/2 c*a*\[Rho][h - y[t]] y'[t]^2, y[0] == 0, y'[0] == 0}, y, {t, 0, 600}]
+ry = y /. r[[1]]
+FindRoot[ry[t] == h, {t, 10}
 ```
 
+```wl
+Manipulate[
+ Plot[{ry[t], 1/2 g t^2}, {t, 0, tm},
+  PlotRange -> {All, 1.2 ry[tm]},
+  PlotLegends -> {"考虑空气阻力", "忽略空气阻力"},
+  PlotTheme -> "Scientific"
+  ],
+ {{tm, 161}, 1, 200}]
+```
+
+[img[10km-fall.gif]]

@@ -1,7 +1,7 @@
 aliases: 极限
 created: 20250816113627310
 creator: miRoox
-modified: 20250816115323964
+modified: 20250818130548505
 modifier: miRoox
 tags: 极限 TODO 微积分学
 title: 数列的极限
@@ -19,3 +19,5 @@ $$
 $$
 \lim_{n\to\infty}a_n=\alpha
 $$
+
+$$\alpha=\lim_{n\to\infty}a_n$$的含义是：任给一个误差范围$$\varepsilon>0$$，便有$$N\in\mathbb{N}$$（这个$$N$$依赖于给定的误差范围$$\varepsilon$$，一般来说，误差范围越小（即精度越高），$$N$$就需要取的越大），数列$$\{a_n\}$$从第$$N$$项之后的项与$$\alpha$$之间的误差均可以控制在这一范围内。
