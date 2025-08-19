@@ -1,8 +1,8 @@
 created: 20250817145728448
 creator: miRoox
-modified: 20250817151211955
+modified: 20250819143121042
 modifier: miRoox
-tags: 代码片段 DeepSeek：万米高空自由落体时间计算
+tags: 代码片段 AssetSource
 title: DeepSeek：万米高空自由落体时间计算：Wolfram代码
 tmap.id: 6d64ad55-fbd4-4739-8d74-23c937124b8b
 type: text/vnd.tiddlywiki
@@ -15,6 +15,9 @@ type: text/vnd.tiddlywiki
 h = 10000;
 g = 9.8;
 Sqrt[2*h/g]
+```
+```
+45.1754
 ```
 
 !!! 考虑空气阻力的情况
@@ -29,17 +32,22 @@ a = 0.5;
 ```wl
 r = NDSolve[{m y''[t] == m g - 1/2 c*a*\[Rho][h - y[t]] y'[t]^2, y[0] == 0, y'[0] == 0}, y, {t, 0, 600}]
 ry = y /. r[[1]]
-FindRoot[ry[t] == h, {t, 10}
+rt = FindRoot[ry[t] == h, {t, 10}]
+tm = t /. rt
+```
+```
+160.798
 ```
 
 ```wl
-Manipulate[
- Plot[{ry[t], 1/2 g t^2}, {t, 0, tm},
-  PlotRange -> {All, 1.2 ry[tm]},
-  PlotLegends -> {"考虑空气阻力", "忽略空气阻力"},
-  PlotTheme -> "Scientific"
-  ],
- {{tm, 161}, 1, 200}]
+Plot[{h - ry[t], h - 1/2 g t^2}, {t, 0, tm}, 
+ PlotRange -> {All, {0, h}},
+ FrameLabel -> {"时间/秒", "高度/米"}, 
+ PlotLegends -> 
+  Placed[LineLegend[{"考虑空气阻力", "忽略空气阻力"}, 
+    LegendFunction -> (Framed[#1, FrameMargins -> 0] &)], {Right, Top}],
+ PlotTheme -> "Scientific"
+ ]
 ```
 
-[img[10km-fall.gif]]
+[img[10km-fall.svg]]

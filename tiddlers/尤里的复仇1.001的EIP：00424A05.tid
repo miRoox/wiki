@@ -1,0 +1,12 @@
+aliases: 00424A05
+caption: 00424A05
+created: 20250819135256307
+creator: miRoox
+modified: 20250819135750364
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：00424A05
+tmap.id: d5c87522-4f5d-4965-bf36-9dbccb28dc1c
+type: text/vnd.tiddlywiki
+
+一个指定了`MakeInfantry=`的动画播放了，但是指定的索引值（0起始）超过了`AnimToInfantry`的列表范围。

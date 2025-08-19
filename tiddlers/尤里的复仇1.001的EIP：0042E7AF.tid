@@ -1,0 +1,12 @@
+aliases: 0042E7AF
+caption: 0042E7AF
+created: 20250819140356542
+creator: miRoox
+modified: 20250819141842437
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：0042E7AF
+tmap.id: d9e1bcef-dd2d-4827-a512-5b9ae6a4b1ea
+type: text/vnd.tiddlywiki
+
+一个阵营的AI出现在游戏里，但是它的建造场却不允许AI建造（没有`AIBuildThis=yes`）
