@@ -1,0 +1,14 @@
+created: 20250819083555276
+creator: miRoox
+modified: 20250819090110907
+modifier: miRoox
+tags: .NET程序包 TODO [[Entity Framework Core]] 程序库
+title: Npgsql.EntityFrameworkCore.PostgreSQL
+tmap.id: 2e9afc4b-f002-4119-8f5b-4b7dc08fd2d6
+type: text/vnd.tiddlywiki
+
+`Npgsql.EntityFrameworkCore.PostgreSQL` 是一个在[[EF Core|Entity Framework Core]]中提供 [[PostgreSQL]] 交互的库。
+
+!! 链接
+
+* [[Npgsql Entity Framework Core Provider|https://www.npgsql.org/efcore/index.html]]
