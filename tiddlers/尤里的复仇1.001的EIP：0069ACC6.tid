@@ -1,0 +1,12 @@
+aliases: 0069ACC6
+caption: 0069ACC6
+created: 20250820131718071
+creator: miRoox
+modified: 20250820132853948
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：0069ACC6
+tmap.id: 8fe50575-512b-4b95-a455-88aa7d6acbed
+type: text/vnd.tiddlywiki
+
+一个[[PKT文件|PKT文件格式]]的`[MultiMaps]`部分声明了一个没有自己的参数定义部分的地图，或者缺少该部分中的`CD`条目。

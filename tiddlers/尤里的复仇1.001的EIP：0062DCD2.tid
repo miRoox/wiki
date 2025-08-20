@@ -1,0 +1,15 @@
+aliases: 0062DCD2
+caption: 0062DCD2
+created: 20250820131226573
+creator: miRoox
+modified: 20250820131545264
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：0062DCD2
+tmap.id: d544d556-565e-4749-8f19-a83754108c4d
+type: text/vnd.tiddlywiki
+
+可能有两种情况：
+
+* 具有 `Explodes=yes` 设置的覆盖物被摧毁，正决定选择`BarrelParticle`中指定的粒子进行播放，但是`BarrelParticle`为空或者指定的粒子系统无效
+* 你正在使用 `UseSparkParticles=yes`/`UseFireParticles=yes`/`IsRailgun=yes` 的武器开火，但没有设置有效的 `AttachedParticleSystem=`。

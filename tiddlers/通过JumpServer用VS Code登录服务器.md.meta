@@ -1,0 +1,10 @@
+aliases: 参考SSH向导编辑你的SSH配置
+created: 20250820125204790
+creator: miRoox
+description: <Jumpserver用户名>@<目标主机用户名>@<目标主机名>作为用户名
+modified: 20250820130028585
+modifier: miRoox
+tags: HowTos JumpServer
+title: 通过JumpServer用VS Code登录服务器
+tmap.id: 126abc30-5783-4563-a95b-ad35794b2f37
+type: text/markdown

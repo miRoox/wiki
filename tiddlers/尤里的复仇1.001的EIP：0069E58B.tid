@@ -1,0 +1,15 @@
+aliases: 0069E58B
+caption: 0069E58B
+created: 20250820132919144
+creator: miRoox
+modified: 20250820133142001
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：0069E58B
+tmap.id: d5cb248b-2387-41f8-a0a2-97f0d808c948
+type: text/vnd.tiddlywiki
+
+一个矿石类型的覆盖物，
+
+* `CellAnim= `引用了一个不存在的动画；或者
+* 该动画具有`MakeInfantry=`设置。
