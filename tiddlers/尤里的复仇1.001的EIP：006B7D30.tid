@@ -1,0 +1,12 @@
+aliases: 006B7D30
+caption: 006B7D30
+created: 20250820133616023
+creator: miRoox
+modified: 20250820133935797
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：006B7D30
+tmap.id: ca9742a7-e983-4269-b31c-77e94ee3be32
+type: text/vnd.tiddlywiki
+
+单位的武器有子机发射器（`Spawner=yes`），但是该单位没指定子机类型`Spawns=`

@@ -1,6 +1,6 @@
 created: 20250819131732688
 creator: miRoox
-modified: 20250819134942744
+modified: 20250820125045334
 modifier: miRoox
 tags: 开发工具 TODO 软件
 title: JumpServer
@@ -11,13 +11,7 @@ type: text/vnd.tiddlywiki
 
 !!! 通过JumpServer用SSH登录服务器
 
-# 将公钥上传到JumpServer平台： 在“用户”→“认证设置”→“登录SSH公钥”，点击“创建”
-#* 若自己机器上已有SSH密钥：“创建类型”选择“导入已有密钥对”并将本地SSH公钥贴入
-#* 若自己机器上尚没有SSH密钥：“创建类型”选择“自动创建密钥对”并在完成后下载私钥
-# 通过SSH登录服务器：用`<Jumpserver用户名>@<目标主机用户名>@<目标主机名>`作为用户名，登录堡垒机，例如：
-```sh
-ssh miroox@root@server1@jumpserver -p 2222
-```
+{{通过JumpServer用SSH登录服务器}}
 
 !! 链接
 

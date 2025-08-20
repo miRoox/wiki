@@ -1,0 +1,12 @@
+aliases: 0062EE56
+caption: 0062EE56
+created: 20250820131617119
+creator: miRoox
+modified: 20250820131704378
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：0062EE56
+tmap.id: b020f7c0-009c-4213-9bb2-ce831b45d56a
+type: text/vnd.tiddlywiki
+
+由 烟雾粒子系统（`BehavesLike=Smoke`）生成的粒子在设置了 `NextParticle` 后播放完毕。
