@@ -1,0 +1,12 @@
+aliases: 载具
+caption: 载具
+created: 20250823105720396
+creator: miRoox
+modified: 20250823110425107
+modifier: miRoox
+tags: 红色警戒2：单位 TODO 红色警戒2：物体类型
+title: 红色警戒2：载具
+tmap.id: a71b42dc-1d01-4573-869b-cf971451d98d
+type: text/vnd.tiddlywiki
+
+''载具''（Vehicle）需要注册于`[VehicleTypes]`节中
