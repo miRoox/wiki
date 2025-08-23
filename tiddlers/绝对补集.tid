@@ -1,11 +1,11 @@
-aliases: 补集
+aliases: 补集 余集
 created: 20240906073122073
 creator: miRoox
-modified: 20240912091558993
+modified: 20250823104708318
 modifier: miRoox
 tags: TODO 集合 集合运算 一元运算
 title: 绝对补集
 tmap.id: 5ddab7fb-036a-483f-9ba0-93775754b87a
 type: text/vnd.tiddlywiki
 
-若给定[[全集]]$$U$$，则[[集合]]$$A$$在$$U$$中的[[相对补集]]也被称为$$A$$的''绝对补集''，记作$$A^\complement$$。
+若给定[[全集]]$$U$$，则[[集合]]$$A$$在$$U$$中的[[相对补集]]也被称为$$A$$的''绝对补集''（或''余集''），记作$$A^\complement$$。
