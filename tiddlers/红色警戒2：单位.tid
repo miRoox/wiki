@@ -1,9 +1,9 @@
 caption: 单位
 created: 20230205060529691
 creator: miRoox
-modified: 20250823110301436
+modified: 20250824124752199
 modifier: miRoox
-tags: 红色警戒2：物体类型 TODO 红色警戒2：Modding 分类
+tags: 红色警戒2：物体类型 TODO 红色警戒2：Modding 分类 红色警戒2：所有物体类型关联
 title: 红色警戒2：单位
 tmap.edges: {"0bb5bdfe-079d-4d92-9bca-64d9773d2c7b":{"to":"b0a165a6-6f84-433b-bfc5-4f324c649a8f","type":"RA2UWW:单位-武器"},"501f375f-0b7e-4048-b7d2-905e202709d4":{"to":"0f88522b-03aa-4b19-b07f-6f557527a09f","type":"RA2UWW:单位-动画"},"1ee82059-d1ea-4818-9994-3ef712a5aec2":{"to":"deb7d5ac-da7f-41b9-b45d-90023b41f7bb","type":"RA2UWW:单位-覆盖物"},"d0d95a10-0a35-4b83-885d-1855a4adf095":{"to":"13a75dc8-1dcf-4535-a486-a6760a937290","type":"RA2UWW:单位-碎片"},"65220ddc-e65d-4430-b47c-fbe89f09d817":{"to":"392879fb-f82a-4b22-aaa0-bd102b059d3c","type":"RA2UWW:单位-地形"}}
 tmap.id: c69ae910-e8b5-4342-a61b-b9949ed40d9b

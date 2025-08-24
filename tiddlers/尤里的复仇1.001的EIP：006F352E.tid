@@ -1,0 +1,12 @@
+aliases: 006F352E
+caption: 006F352E
+created: 20250824122852952
+creator: miRoox
+modified: 20250824123720754
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：006F352E
+tmap.id: 5f779489-a774-449e-ab6a-15454b5554b0
+type: text/vnd.tiddlywiki
+
+一个单位刚刚晋升为精英状态，并且指定了精英主武器（`ElitePrimary`），然而该[[武器|红色警戒2：武器]]不存在，或者武器的 `Warhead` 标签缺失或为空。
