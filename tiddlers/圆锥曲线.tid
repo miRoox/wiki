@@ -1,7 +1,7 @@
 aliases: 二次平面曲线 圆锥截面 圆锥截痕
 created: 20240912080327026
 creator: miRoox
-modified: 20250810134100047
+modified: 20250824145856415
 modifier: miRoox
 tags: 平面图形 TODO 分类 曲线 平面解析几何
 title: 圆锥曲线
@@ -9,3 +9,10 @@ tmap.id: d31f5fad-1f57-42f7-b9d9-a53128f5c4a8
 type: text/vnd.tiddlywiki
 
 ''圆锥曲线''（conic section）又称''圆锥截痕''、''圆锥截面''、''二次平面曲线''，是透过平切[[圆锥]]（严格为一个正圆锥面和一个平面完整相切）得到的[[曲线]]。
+
+| !名称 | !圆锥与截面 | !平面曲线 | !离心率 | !截面位置 |
+| ![[圆]] | [img[cone-circle.png]] | [img[conic-circle.svg]] | $$e=0$$ | 不通过顶点 |
+| ![[椭圆]] | [img[cone-ellipse.png]] | [img[conic-ellipse.svg]] | $$0<e<1$$ | 不通过顶点 |
+| ![[抛物线]] | [img[cone-parabola.png]] | [img[conic-parabola.svg]] | $$e=1$$ | 不通过顶点 |
+| ![[双曲线]] | [img[cone-hyperbola.png]] | [img[conic-hyperbola.svg]] | $$e>1$$ | 不通过顶点 |
+| !双[[直线]] | [img[cone-cross.png]] | [img[conic-cross.svg]] | $$e>1$$ | 通过顶点（退化） |

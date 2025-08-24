@@ -1,0 +1,14 @@
+aliases: 006C1D28
+caption: 006C1D28
+created: 20250824122716815
+creator: miRoox
+modified: 20250824122801218
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：006C1D28
+tmap.id: 81628d67-05e7-442f-bff8-cfdce7b297dc
+type: text/vnd.tiddlywiki
+
+一个单位具有 `Turret=yes`，尽管 `unittur.vxl` 不存在
+
+有趣的是，如果该单位完全没有 VXL 或 HVA 文件，游戏不会因此崩溃。

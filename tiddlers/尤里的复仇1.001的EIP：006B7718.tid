@@ -1,12 +1,14 @@
 aliases: 006B7718
 caption: 006B7718
-created: 20250820134021065
+created: 20250824112448983
 creator: miRoox
-modified: 20250820134757718
+modified: 20250824122620515
 modifier: miRoox
-tags: 尤里的复仇1.001的EIP TODO
+tags: 尤里的复仇1.001的EIP
 title: 尤里的复仇1.001的EIP：006B7718
-tmap.id: 8054b14d-3e41-49ab-89e0-d8e9cb31f7bb
+tmap.id: 1b6f12c8-d91a-41e3-9e5a-41c68bfcc508
 type: text/vnd.tiddlywiki
 
-一个子机（`Spawned=yes`）试图飞跃地图边界而不着陆。
+一个 `Spawned=yes` 的单位试图飞越地图边界而不是着陆
+
+一个已知的原因是`Selectable=no`出现在一个使用飞行器运动方式（`Locomotor={4A582746-9839-11d1-B709-00A024DDAFD1}`）的[[飞行器|红色警戒2：飞行器]]上。

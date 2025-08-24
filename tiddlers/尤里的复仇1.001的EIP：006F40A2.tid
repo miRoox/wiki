@@ -1,0 +1,14 @@
+aliases: 006F40A2
+caption: 006F40A2
+created: 20250824123240380
+creator: miRoox
+modified: 20250824123710418
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：006F40A2
+tmap.id: b12aeaee-6b3d-46ae-a678-c4ff9e438eab
+type: text/vnd.tiddlywiki
+
+开始建造一个单位，然而其主武器（`Primary`）不存在，或者[[武器|红色警戒2：武器]]的 `Warhead` 标签缺失或为空。
+
+这也适用于炮塔更换器，例如 `Weapon1` 不是有效的武器。

@@ -1,0 +1,12 @@
+aliases: 006FC655
+caption: 006FC655
+created: 20250824123337334
+creator: miRoox
+modified: 20250824123727747
+modifier: miRoox
+tags: 尤里的复仇1.001的EIP
+title: 尤里的复仇1.001的EIP：006FC655
+tmap.id: b1662360-c4ff-4294-ae84-41657e420ace
+type: text/vnd.tiddlywiki
+
+一个单位刚刚晋升为精英状态，并且指定了精英武器（`EliteWeapon*`），然而该[[武器|红色警戒2：武器]]不存在，或者武器的 `Warhead` 标签缺失或为空。
