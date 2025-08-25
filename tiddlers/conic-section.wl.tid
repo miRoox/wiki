@@ -1,6 +1,6 @@
 created: 20250824143952843
 creator: miRoox
-modified: 20250824144509461
+modified: 20250824151543146
 modifier: miRoox
 tags: AssetSource
 title: conic-section.wl
@@ -31,8 +31,7 @@ Manipulate[
     plot3D = Show[
     ContourPlot3D[
      x^2 + y^2 - z^2 == 0, {x, -5, 5}, {y, -5, 5}, {z, -5, 5}, 
-     Mesh -> None, ContourStyle -> Opacity[0.5, Cyan], 
-     PlotLabel -> "3D Cone and Plane"], 
+     Mesh -> None, ContourStyle -> Opacity[0.5, Cyan]], 
     ContourPlot3D[
      z == offset + slope*x, {x, -5, 5}, {y, -5, 5}, {z, -5, 5}, 
      Mesh -> None, ContourStyle -> Opacity[0.5, Red]],
@@ -46,7 +45,7 @@ Manipulate[
      Sqrt[(offset + slope*x)^2 - x^2], 
      -Sqrt[(offset + slope*x)^2 - x^2]
      }, {x, -5, 5}, 
-     PlotLabel -> "2D Conic Section: " <> curveType, 
+     AspectRatio -> 1, 
      AxesLabel -> {"x", "y"}, PlotRange -> {{-5, 5}, {-5, 5}}, 
      PlotPoints -> 100, PlotStyle -> {Blue, Blue}, 
      ImageSize -> Medium], 
