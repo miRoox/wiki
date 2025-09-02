@@ -20,7 +20,7 @@ def get_git_diff():
     """获取当前 git 暂存区的 diff 输出"""
     try:
         result = subprocess.run(
-            ["git", "diff", "--cached", "--unified=1"],
+            ["git", "diff", "--cached", "--unified=3"],
             capture_output=True,
             text=True,
             check=True
