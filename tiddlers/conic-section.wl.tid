@@ -1,62 +1,90 @@
 created: 20250824143952843
 creator: miRoox
-modified: 20250824151543146
+modified: 20250906082840049
 modifier: miRoox
 tags: AssetSource
 title: conic-section.wl
 tmap.id: 680c0f32-c6e4-4c60-81ab-97e214b4f895
 type: text/vnd.tiddlywiki
 
+理论推导：[[圆锥曲线绘制圆锥截面曲线推导]]
+
 ```wl
-Manipulate[
- DynamicModule[{curveType, intersectionCurve, plot3D, plot2D},
-  (*根据 slope 和 offset 判断曲线类型*)
-  curveType = 
-   Which[slope == 0 && offset != 0, "Circle", 
-    Abs[slope] < 1 && offset != 0, "Ellipse", 
-    Abs[slope] == 1 && offset != 0, "Parabola", 
-    Abs[slope] > 1 && offset != 0, "Hyperbola",
-   offset == 0, "Degenerate (Double Line or Point)",
-   True, "Undefined"];
-  intersectionCurve = 
-   If[curveType != "Undefined", 
-    ParametricPlot3D[{
-     {t, Sqrt[(offset + slope*t)^2 - t^2], offset + slope*t},
-     {t, -Sqrt[(offset + slope*t)^2 - t^2], offset + slope*t}},
-     {t, -5, 5}, PlotStyle -> {Blue, Blue}, 
-     PlotRange -> {{-5, 5}, {-5, 5}, {-5, 5}}, PlotPoints -> 100], 
-    Graphics3D[Text["Degenerate case", {0, 0, 0}]]
-  ];
-  (*三维图形：圆锥和截平面*)
-    plot3D = Show[
-    ContourPlot3D[
-     x^2 + y^2 - z^2 == 0, {x, -5, 5}, {y, -5, 5}, {z, -5, 5}, 
-     Mesh -> None, ContourStyle -> Opacity[0.5, Cyan]], 
-    ContourPlot3D[
-     z == offset + slope*x, {x, -5, 5}, {y, -5, 5}, {z, -5, 5}, 
-     Mesh -> None, ContourStyle -> Opacity[0.5, Red]],
-    intersectionCurve,
-    PlotRange -> {{-5, 5}, {-5, 5}, {-5, 5}}, 
-    AxesLabel -> {"x", "y", "z"}, BoxRatios -> {1, 1, 1}, 
-    ViewPoint -> {200, -240, 200.}, ImageSize -> Medium];
-  (*二维平面曲线*)
-  plot2D = If[curveType != "Undefined", 
-    Plot[{
-     Sqrt[(offset + slope*x)^2 - x^2], 
-     -Sqrt[(offset + slope*x)^2 - x^2]
-     }, {x, -5, 5}, 
-     AspectRatio -> 1, 
-     AxesLabel -> {"x", "y"}, PlotRange -> {{-5, 5}, {-5, 5}}, 
-     PlotPoints -> 100, PlotStyle -> {Blue, Blue}, 
-     ImageSize -> Medium], 
-    Graphics[Text["Degenerate case or no valid curve", {0, 0}]]];
-  (*显示三维和二维图形*)
-  Grid[{{plot3D, plot2D}}]],
-(*控制参数*)
- {{offset, 1, "Plane Offset (a)"}, -5, 5, 0.1, 
-  Appearance -> "Labeled"}, 
- {{slope, 0.5, "Plane Slope (tan \[Theta])"}, -2, 2, 0.1, 
-  Appearance -> "Labeled"}, 
- Button["Reset", {offset = 1; slope = 0.5}],
- ControlPlacement -> Top]
+DynamicModule[{oldCurveType = initCurveType, oldD = initD, 
+  oldTheta = initTheta}, 
+ Manipulate[
+  DynamicModule[{t = theta*Degree, a = -Sin[theta*Degree], 
+    b = Cos[theta*Degree], k = Cot[theta*Degree], intersectionCurve, 
+    plot3D, plot2D},
+   (*判断曲线类型, 按需更新*)
+   Which[oldD != d || oldTheta != theta,
+    curveType = Which[
+      theta == 0 && d != 0, "Circle",
+      Abs[theta] < 45 && d != 0, "Ellipse",
+      Abs[theta] == 45 && d != 0, "Parabola",
+      Abs[theta] > 45 && d != 0, "Hyperbola",
+      d == 0 && Abs[theta] > 45, "Double Line",
+      True, "Undefined"
+      ];
+    {oldD, oldTheta} = {d, theta};
+    oldCurveType = curveType;,
+    curveType != oldCurveType,
+    Switch[curveType,
+     "Circle", {d, theta} = {-2, 0},
+     "Ellipse", {d, theta} = {-1.5, -30},
+     "Parabola", {d, theta} = {-1, -45},
+     "Hyperbola", {d, theta} = {-2, 90},
+     "Double Line", {d, theta} = {0, -60},
+     _, {d, theta} = {0, 0}
+     ];
+    {oldD, oldTheta} = {d, theta};
+    oldCurveType = curveType;
+    ];
+   (*三维曲线：圆锥和截平面的交线*)
+   intersectionCurve = If[d != 0,
+     ParametricPlot3D[
+      {d*Cos[w]/(a*Cos[w] + b), d*Sin[w]/(a*Cos[w] + b), 
+       d/(a*Cos[w] + b)}, {w, 0, 2 Pi},
+      PlotStyle -> Blue, PlotRange -> {{-5, 5}, {-5, 5}, {-5, 5}}, 
+      PlotPoints -> 100],
+     ParametricPlot3D[{
+       {k*s, s*Sqrt[1 - k^2], s},
+       {k*s, -s*Sqrt[1 - k^2], s}
+       }, {s, -5, 5},
+      PlotStyle -> {Blue, Blue}, 
+      PlotRange -> {{-5, 5}, {-5, 5}, {-5, 5}}, PlotPoints -> 100]];
+   (*三维图形：圆锥和截平面*)
+   plot3D = Show[
+     ContourPlot3D[
+      x^2 + y^2 == z^2, {x, -5, 5}, {y, -5, 5}, {z, -5, 5}, 
+      Mesh -> None, ContourStyle -> Opacity[0.5, Cyan]], 
+     ContourPlot3D[d == a*x + b*z, {x, -5, 5}, {y, -5, 5}, {z, -5, 5},
+       Mesh -> None, ContourStyle -> Opacity[0.5, Red]],
+     intersectionCurve,
+     PlotRange -> {{-5, 5}, {-5, 5}, {-5, 5}}, 
+     AxesLabel -> {"x", "y", "z"}, BoxRatios -> {1, 1, 1}, 
+     ViewPoint -> {200, -240, 200.}, ImageSize -> Medium];
+   (*二维平面曲线*)
+   plot2D = If[curveType != "Degenerate",
+     ContourPlot[(a*d + b*u)^2 + v^2 == (b*d - a*u)^2,
+      {u, -5 trange[t], 5 trange[t]}, {v, -5 trange[t], 5 trange[t]},
+      ContourStyle -> Blue, AspectRatio -> 1, AxesLabel -> {"x", "y"},
+       PlotPoints -> 100, ImageSize -> Medium, 
+      PlotTheme -> "Scientific"],
+     Graphics[Text["Degenerate case or no valid curve", {0, 0}]]];
+   (*显示三维和二维图形*)
+   Grid[{{plot3D, plot2D}}, ItemSize -> Full, Frame -> All]],
+  (*控制参数*)
+  {{d, initD, "截平面距离 (d)"}, -5, 5, 0.1, Appearance -> "Labeled"},
+  {{theta, initTheta, "截平面倾角 (\[Theta]\[Degree])"}, -90, 90, 1, 
+   Appearance -> "Labeled"},
+  {{curveType, initCurveType, "曲线类型"}, {"Circle", "Ellipse", 
+    "Parabola", "Hyperbola", "Double Line", "Degenerate"}, 
+   ControlType -> SetterBar},
+  ControlPlacement -> Top, AutorunSequencing -> {2, 1},
+  Initialization :> (trange[t_] := 
+     Min[Abs@Quiet@Sec[t], Abs@Quiet@Csc[t]])],
+ Initialization :> ({initD = -1.5, initTheta = -30, 
+    initCurveType = "Ellipse"})
+ ]
 ```
