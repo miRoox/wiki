@@ -1,0 +1,11 @@
+aliases: 系统抽样
+created: 20250906100113794
+creator: miRoox
+modified: 20250906100156406
+modifier: miRoox
+tags: 抽样
+title: 等距抽样
+tmap.id: 925e4fc9-bca6-4b7a-87a5-d352fb6518d4
+type: text/vnd.tiddlywiki
+
+''等距抽样''，也叫''系统抽样''（systematic sampling）。将总体中的所有单位按一定顺序排列，在规定的范围内随机地抽取一个单位作为初始单位，然后按事先规定好的规则确定其他样本单位。

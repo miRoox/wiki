@@ -1,0 +1,10 @@
+created: 20250906100006573
+creator: miRoox
+modified: 20250906111800196
+modifier: miRoox
+tags: 数理统计 TODO
+title: 抽样
+tmap.id: 3ffcf66a-94f5-427c-a17b-57e0b0d684c7
+type: text/vnd.tiddlywiki
+
+''抽样''（Sampling）是一种推论统计方法，它是指从目标总体（Population，或称为母群）中抽取一部分个体作为[[样本]]（Sample），通过观察样本的某一或某些属性，依据所获得的数据对总体的数量特征得出具有一定可靠性的估计判断，从而达到对总体的认识。

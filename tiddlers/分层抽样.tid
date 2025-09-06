@@ -1,0 +1,10 @@
+created: 20250906095858634
+creator: miRoox
+modified: 20250906100244004
+modifier: miRoox
+tags: TODO 抽样
+title: 分层抽样
+tmap.id: 7fef479f-bace-47ea-aa5c-5147a48c478c
+type: text/vnd.tiddlywiki
+
+''分层抽样''（stratified sampling）是一种从统计总体[[抽取样本|抽样]]的方法。将抽样单位按某种特征或某种规则划分为不同的层，然后从不同的层中独立、随机地抽取样本。保证样本的结构与总体的结构比较相近，从而提高估计的精度。
