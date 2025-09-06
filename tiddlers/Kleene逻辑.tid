@@ -1,0 +1,10 @@
+created: 20250906090603296
+creator: miRoox
+modified: 20250906090800249
+modifier: miRoox
+tags: 三值逻辑 TODO
+title: Kleene逻辑
+tmap.id: 82fa207e-5559-4afd-b99d-fa5a81a8c2f3
+type: text/vnd.tiddlywiki
+
+''Kleene逻辑''是一种[[三值逻辑]]系统，由美国数学家斯蒂芬·科尔·克林（Stephen Cole Kleene）提出，主要用于处理不确定性或不完全信息的情况。它扩展了经典的二值逻辑（真、假），引入了第三个值——“未定义”（通常表示为 U 或 I），用于表示信息不足以判断真假的情况。

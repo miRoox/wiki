@@ -1,0 +1,18 @@
+created: 20250906100940448
+creator: miRoox
+modified: 20250906101105302
+modifier: miRoox
+tags: 分层抽样 TODO
+title: Dalenius-Hodges 方法
+tmap.id: 06b35cf4-2fc2-4659-ae9b-cf4e56020594
+type: text/vnd.tiddlywiki
+
+''Dalenius-Hodges 方法''是一种用于最优分层（Optimal Stratification）的统计方法，广泛应用于[[分层抽样]]中，旨在通过优化分层边界来最小化抽样估计的方差，从而提高抽样效率。该方法特别适用于连续变量的分层，尤其当目标是基于某一关键变量（如收入、销售额等）进行分层时。
+
+Dalenius-Hodges 方法的目标是将连续变量的分布划分为若干层，使得：
+
+* 层内方差（within-stratum variance）尽可能小；
+* 层间方差（between-stratum variance）尽可能大。
+
+通过这种方式，分层抽样可以更精确地代表总体分布，减少抽样误差。
+
