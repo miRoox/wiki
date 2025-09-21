@@ -1,0 +1,20 @@
+created: 20250921105523597
+creator: miRoox
+modified: 20250921124604165
+modifier: miRoox
+tags: 级数 TODO
+title: 巴塞尔问题
+tmap.id: 68a7a844-352a-4c4e-9860-51e4f8eac6c0
+type: text/vnd.tiddlywiki
+
+这个问题是精确计算所有平方数的[[倒数]]的[[和|加法]]，即如下[[级数]]：
+
+$$
+\sum_{n=1}^\infty \frac{1}{n^2}=1+\frac{1}{4}+\frac{1}{9}+\cdots
+$$
+
+可以[[证明|巴塞尔问题的证明]]，其结果为
+
+$$
+\sum_{n=1}^\infty \frac{1}{n^2}=\frac{\pi^2}{6}
+$$

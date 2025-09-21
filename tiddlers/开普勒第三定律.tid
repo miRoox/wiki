@@ -1,0 +1,15 @@
+aliases: 周期定律
+created: 20250921110149259
+creator: miRoox
+modified: 20250921110423260
+modifier: miRoox
+tags: 开普勒定律 TODO 物理定律
+title: 开普勒第三定律
+tmap.id: a4d3e301-3f81-4d71-8ea7-c1ba2b50e817
+type: text/vnd.tiddlywiki
+
+''开普勒第三定律''，也称为''周期定律''：各个行星绕太阳公转周期的平方及其[[椭圆]]轨道的半长轴的立方成正比。用公式表示为
+
+$$
+\frac{a^3}{t^2}=k
+$$
