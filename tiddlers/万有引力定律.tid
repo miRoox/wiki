@@ -1,0 +1,17 @@
+created: 20250921121550897
+creator: miRoox
+modified: 20250921122228724
+modifier: miRoox
+tags: TODO 物理定律
+title: 万有引力定律
+tmap.id: 313cf394-4fb0-47c4-a69d-ad4040b233b6
+type: text/vnd.tiddlywiki
+
+''牛顿的万有引力定律''（Newton's law of universal gravitation），通称''万有引力定律''。
+
+任意两个质点由通过连心线方向上的力相互吸引。该吸引力的大小与它们的[[质量]]乘积成正比，与它们距离的平方成反比，与两物体的化学本质或物理状态以及中介物质无关。可以写作：
+
+$$
+\vb{F}_{1,2}=-G\frac{m_1 m_2}{r^2}\cdot\frac{\vb{r}_{1,2}}{r}
+$$
+
