@@ -1,0 +1,55 @@
+created: 20250923125443725
+creator: miRoox
+modified: 20250923135948797
+modifier: miRoox
+tags: 棣莫弗公式 TODO 数学证明
+title: 棣莫弗公式的证明
+tmap.id: 5224faed-f3cd-46c8-9d03-719051a68e92
+type: text/vnd.tiddlywiki
+
+[[棣莫弗公式]]的证明思路是用[[数学归纳法]]证明[[自然数]]的情形，并推广到负[[整数]]。
+
+令：
+
+$$
+P(n):\:(\cos(x)+\imath\sin(x))^n=\cos(nx)+\imath\sin(nx)
+$$
+
+!!! 当$$n=0$$时
+
+$$1=1$$，显然成立
+
+!!! 当$$n=1$$时
+
+显然
+
+!!! 当$$n>1$$时，
+
+假设$$P(k)$$成立，即$$(\cos(x)+\imath\sin(x))^n=\cos(nx)+\imath\sin(nx)$$
+
+当$$n=k+1$$时，
+
+$$
+\begin{aligned} (\cos(x)+\imath\sin(x))^{k+1}
+&=(\cos(x)+\imath\sin(x))^k\cdot (\cos(x)+\imath\sin(x))\\
+&=(\cos(kx)+\imath\sin(kx))\cdot (\cos(x)+\imath\sin(x))\\
+&=\cos(kx)\cos(x)+\imath\cos(kx)\sin(x)+\imath\sin(kx)\cos(x)-\sin(kx)\sin(x)\\
+&=(\cos(kx)\cos(x)-\sin(kx)\sin(x))+\imath(\sin(kx)\cos(x)+\cos(kx)\sin(x))\\
+&=\cos(kx+x)+\imath\sin(kx+x) &\text{(和角公式)}\\
+&=\cos((k+1)x)+\imath\sin((k+1)x)
+\end{aligned}
+$$
+
+即$$P(k+1)$$也成立
+
+根据数学归纳法，$$\forall n\in\N,\,P(n)$$成立
+
+!!! 负整数的情况
+
+同样使用[[和角公式|三角函数和角公式]]，可得
+
+$$
+(\cos(nx)+\imath\sin(nx))(\cos(-nx)+\imath\sin(-nx))=1
+$$
+
+对上式变形可知，公式对于负整数情况也成立。
