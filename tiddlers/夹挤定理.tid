@@ -1,0 +1,11 @@
+created: 20250923143134489
+creator: miRoox
+modified: 20250923143316623
+modifier: miRoox
+tags: 数学定理 TODO 微积分学
+title: 夹挤定理
+tmap.id: dd5c1415-e556-416d-86d9-f8ed43cffd13
+type: text/vnd.tiddlywiki
+
+''夹挤定理''（squeeze theorem），又称''夹逼定理''、''夹极限定理''、''迫敛定理''等。它指出若有两个[[函数]]在某点的[[极限]]相同，且有第三个函数的值在这两个函数之间，则第三个函数在该点的极限也相同。
+

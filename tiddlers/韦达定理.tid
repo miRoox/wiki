@@ -1,0 +1,31 @@
+created: 20250923134419024
+creator: miRoox
+modified: 20250923143131170
+modifier: miRoox
+tags: 数学定理 TODO 数学公式 初等代数
+title: 韦达定理
+tmap.id: 2e87c154-b7a3-4b60-8df1-8c2673e12c2b
+type: text/vnd.tiddlywiki
+
+''韦达定理''（Vieta's formulas），给出了[[多项式]][[方程]]的[[根|方程的根]]与[[系数]]的关系。它能够不用把根直接解出来就能计算根之间的关系。
+
+考虑一个一元 $$n$$ 次多项式$$P_n(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0$$ （$$a_n\ne0$$），记$$P_n(x)$$的$$n$$个根为$$x_1,x_2,\ldots,x_n$$，则根$$\{x_i\}$$和系数$$\{a_i\}$$的满足，对任意不大于$$n$$的正整数$$k$$，系数比$$\frac{a_{n-k}}{a_n}$$是所有任取 k 个根的[[乘积|乘法]]的[[和|加法]]的$$(-1)^k$$倍：
+
+$$
+\sum _{1\leq i_{1}<i_{2}<\cdots <i_{k}\leq n}\left(\prod _{j=1}^{k}x_{i_{j}}\right)=(-1)^{k}{\frac {a_{n-k}}{a_{n}}}
+$$
+
+其中 $$ i_{1}<i_{2}<\cdots <i_{k}$$ 是要让所有的根的组合都恰好出现一次。
+
+展开表示：
+
+$$
+\left\{
+\begin{aligned}
+x_{1}+x_{2}+\dots +x_{n-1}+x_{n}&=-{\dfrac {a_{n-1}}{a_{n}}}\\
+(x_{1}x_{2}+x_{1}x_{3}+\cdots +x_{1}x_{n})+(x_{2}x_{3}+x_{2}x_{4}+\cdots +x_{2}x_{n})+\cdots +x_{n-1}x_{n}&={\dfrac {a_{n-2}}{a_{n}}}\\
+{}&\enspace\vdots \\
+x_{1}x_{2}\dots x_{n}&=(-1)^{n}{\dfrac {a_{0}}{a_{n}}}
+\end{aligned}
+\right.
+$$

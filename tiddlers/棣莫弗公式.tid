@@ -1,8 +1,8 @@
 created: 20240912075151421
 creator: miRoox
-modified: 20240912122529797
+modified: 20250923131804182
 modifier: miRoox
-tags: 复分析 TODO
+tags: 复分析 数学公式 公式
 title: 棣莫弗公式
 tmap.id: 51959e21-1109-4cfd-b714-9713d3ce2918
 type: text/vnd.tiddlywiki
@@ -12,3 +12,7 @@ type: text/vnd.tiddlywiki
 $$
 \forall x\in\mathbb{R},n\in\mathbb{N},(\cos(x)+\imath\sin(x))^n=\cos(nx)+\imath\sin(nx)
 $$
+
+!! 证明
+
+{{棣莫弗公式的证明}}

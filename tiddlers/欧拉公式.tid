@@ -1,0 +1,15 @@
+created: 20250923123834478
+creator: miRoox
+modified: 20250923125155071
+modifier: miRoox
+tags: 数学公式 TODO 公式 复分析
+title: 欧拉公式
+tmap.id: 5c76cf32-7d94-40c4-b8a0-b1cafa331179
+type: text/vnd.tiddlywiki
+
+''欧拉公式''（Euler's formula）将[[三角函数]]与复[[指数函数]]关联起来，即：
+
+$$
+\forall x\in\Reals,\,\euler^{\imath x}=\cos x+\imath\sin x
+$$
+
