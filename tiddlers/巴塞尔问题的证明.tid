@@ -1,10 +1,13 @@
 created: 20250921124528892
 creator: miRoox
-modified: 20250923131743861
+modified: 20250925145417203
 modifier: miRoox
 tags: 数学证明 TODO 分类 巴塞尔问题
 title: 巴塞尔问题的证明
 tmap.id: d53d8bbb-12bd-492f-ae90-e3ff4773a55a
 type: text/vnd.tiddlywiki
 
-[[巴塞尔问题]]的证明
+[[巴塞尔问题]]的证明有很多种方式：
+
+* [[三角函数夹逼法|巴塞尔问题的证明：三角函数夹逼法]]
+* [[傅里叶级数法|巴塞尔问题的证明：傅里叶级数法]]
