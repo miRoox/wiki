@@ -1,0 +1,12 @@
+created: 20250925135504381
+creator: miRoox
+modified: 20250925140116654
+modifier: miRoox
+tags: 级数 微积分学 TODO
+title: 傅里叶级数
+tmap.id: 29e0ffbd-284b-475b-adc0-3f234f78cd7f
+type: text/vnd.tiddlywiki
+
+''傅里叶级数''（Fourier series）是把类似波的函数表示成简单[[谐波]]的方式。
+
+较为正式地，对于满足[[狄利克雷条件|傅里叶级数的狄利克雷条件]]的[[周期函数]]，其傅里叶级数是由一组[[正弦|正弦函数]]与[[余弦函数]]的加权和表示的方法。

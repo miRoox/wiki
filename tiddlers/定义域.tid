@@ -1,11 +1,11 @@
 aliases: 原像集 Domain
 created: 20240905093021296
 creator: miRoox
-modified: 20250525042235618
+modified: 20250925141804074
 modifier: miRoox
 tags: 集合
 title: 定义域
 tmap.id: 0319722a-dbd1-4952-9baa-1e9e9a8ecf21
 type: text/vnd.tiddlywiki
 
-''定义域''（Domain），是[[映射]]自变量所有可取值的[[集合]]。给定$$f:A\to B$$，其中$$A$$被称为$$f$$的定义域，通常记作$$D(f)$$或者$$\operatorname{Dom}{f}$$。
+''定义域''（Domain），是[[映射]]自变量所有可取值的[[集合]]。给定$$f:A\to B$$，其中$$A$$被称为$$f$$的定义域，通常记作$$D(f)$$或者$$\dom{f}$$。

@@ -1,0 +1,19 @@
+aliases: 有界变差
+created: 20250925140151911
+creator: miRoox
+modified: 20250925141153953
+modifier: miRoox
+tags: 函数 微积分学
+title: 有界变差函数
+tmap.id: 708da4ef-8977-4571-afd4-30bde83cc046
+type: text/vnd.tiddlywiki
+
+''有界变差''（Bounded variation）函数是指总变差为有限的[[函数]]。
+
+考虑[[区间]]上的[[实函数]]$$f:[a,b]\to\Reals$$，记区间$$[a,b]$$上的所有分划构成的集合为$$\mathcal{P}$$，若满足
+
+$$
+\exists M>0,\,\sup_{P\in\mathcal{P}}\sum_{i=0}^{n_P-1}\left|f(x_{i+1})-f(x_i)\right|\le M
+$$
+
+则称$$f(x)$$在区间$$[a,b]$$上是''有界变差''函数

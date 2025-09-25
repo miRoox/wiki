@@ -1,0 +1,18 @@
+created: 20250925140132130
+creator: miRoox
+modified: 20250925141945599
+modifier: miRoox
+tags: 函数 实函数
+title: 偶函数
+tmap.id: 9dbaa631-680a-4bea-8040-9b38c20b109e
+type: text/vnd.tiddlywiki
+
+设$$f(x)$$为一[[实函数]]，若
+
+$$
+\forall x\in \dom{f},\, f(x)=f(-x)
+$$
+
+则$$f$$为''偶函数''（Even function）
+
+几何上，一个偶函数会关于y轴[[对称|轴对称]]

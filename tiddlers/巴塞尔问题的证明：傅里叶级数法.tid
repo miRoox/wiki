@@ -1,0 +1,45 @@
+created: 20250925134507221
+creator: miRoox
+modified: 20250925145202620
+modifier: miRoox
+tags: 巴塞尔问题的证明 数学证明
+title: 巴塞尔问题的证明：傅里叶级数法
+tmap.id: f5c7543a-8f27-4ff7-af8c-3241f464d410
+type: text/vnd.tiddlywiki
+
+考虑周期为$$2\pi$$的[[函数|周期函数]]$$f:\Reals\to\Reals$$，满足：
+
+$$
+\forall x\in[-\pi,\pi],\, f(x)=x^2
+$$
+
+注意到该函数满足[[狄利克雷条件|傅里叶级数的狄利克雷条件]]，尝试将 $$f(x)$$展开为[[傅里叶级数]]。由于$$f(x)$$为[[偶函数]]，因而没有[[正弦|正弦函数]]项
+
+$$
+\begin{aligned}
+a_0&=\frac{1}{2\pi}\int_{-\pi}^{\pi}x^2\dd{x}=\frac{\pi^2}{3}\\
+a_k&=\frac{1}{\pi}\int_{-\pi}^{\pi}x^2\cos kx\dd{x}\\
+&=\frac{2}{\pi}\int_{0}^{\pi}x^2\cos kx\dd{x}\\
+&=\frac{2}{\pi}\left(\left[\frac{1}{k}x^2\sin kx\right]_0^\pi-\frac{2}{k}\int_{0}^{\pi}x\sin kx\dd{x}\right)\\
+&=\frac{4}{k\pi}\left(\left[\frac{1}{k}x\cos kx\right]_0^\pi-\frac{2}{k}\int_{0}^{\pi}\cos kx\dd{x}\right)\\
+&=(-1)^k\frac{4}{k^2}
+\end{aligned}
+$$
+
+因此$$f(x)$$的傅里叶级数为
+
+$$
+\tilde{f}(x)=\frac{\pi^2}{3}+\sum_{k=1}^\infty (-1)^k\frac{4}{k^2}\cos kx
+$$
+
+代入$$x=\pi$$，
+
+$$
+\pi^2=f(\pi)=\tilde{f}(x)=\frac{\pi^2}{3}+\sum_{k=1}^\infty\frac{4}{k^2}
+$$
+
+变形可得
+
+$$
+\sum_{k=1}^\infty\frac{1}{k^2}=\frac{\pi^2}{6}
+$$
