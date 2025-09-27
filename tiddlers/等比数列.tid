@@ -1,6 +1,6 @@
 created: 20240916101803929
 creator: miRoox
-modified: 20240916102959547
+modified: 20250927145245649
 modifier: miRoox
 tags: 数列 TODO
 title: 等比数列
@@ -11,4 +11,10 @@ type: text/vnd.tiddlywiki
 
 $$
 \frac{a_{n}}{a_{n-1}}=q \,(q\ne 0)
+$$
+
+如果一个等比数列的首项记作$$a$$，公比记作$$q$$，则通项公式可以写作
+
+$$
+a_n=aq^{n-1}
 $$

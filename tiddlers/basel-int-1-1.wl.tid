@@ -1,0 +1,22 @@
+created: 20250927140723781
+creator: miRoox
+modified: 20250927140743071
+modifier: miRoox
+tags: AssetSource
+title: basel-int-1-1.wl
+tmap.id: f9d25e8c-c45e-4840-9c1b-d5616c442b46
+type: text/vnd.tiddlywiki
+
+```wl
+{
+  {LightBlue, Parallelogram[{0, 0}, {{1/2, -1/2}, {1/2, 1/2}}]},
+  {Dashed, Line[{{1/2, 0}, {1/2, 1/2}}]},
+  Text["\!\(\*SubscriptBox[\(I\), \(1\)]\)", {3/8, 1/8}],
+  Text["\!\(\*SubscriptBox[\(I\), \(2\)]\)", {5/8, 1/8}]
+  },
+ Axes -> True,
+ AxesLabel -> {"u", "v"},
+ Ticks -> {{0, 1/2, 1}, {0, 1/2}},
+ ImageSize -> Small
+ ]
+```

@@ -1,0 +1,21 @@
+created: 20250927135936498
+creator: miRoox
+modified: 20250927135956696
+modifier: miRoox
+tags: AssetSource
+title: basel-int-1-0.wl
+tmap.id: c083e9a4-1330-4488-8cfe-9e79b63e041d
+type: text/vnd.tiddlywiki
+
+```wl
+Graphics[{
+  {LightBlue, Rectangle[{0, 0}, {1, 1}]}, {Dashed, 
+   Arrow[{{-0.1, -0.1}, {1.1, 1.1}}], Text["u", {1.02, 1.1}]},
+  {Dashed, Arrow[{{0.2, -0.2}, {-0.2, 0.2}}], Text["v", {-0.12, 0.2}]}
+  },
+ Axes -> True,
+ AxesLabel -> {"x", "y"},
+ Ticks -> {{0, 1}, {0, 1}},
+ ImageSize -> Small
+ ]
+```

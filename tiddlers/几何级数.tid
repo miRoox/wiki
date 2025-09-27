@@ -1,0 +1,28 @@
+created: 20250927144123540
+creator: miRoox
+modified: 20250927145221435
+modifier: miRoox
+tags: 级数 TODO
+title: 几何级数
+tmap.id: 49640683-1f43-4aa1-a56f-2ecfa4e133c8
+type: text/vnd.tiddlywiki
+
+''几何级数''（Geometric series）是项为[[等比数列]]的[[级数]]
+
+对于首项为$$a$$，公比为$$q$$的等比数列，其部分和的通项公式为
+
+$$
+S_n
+=\sum_{k=1}^n aq^{k-1}
+=\begin{cases}
+\displaystyle\frac{a\left(1-q^n\right)}{1-q} & q\ne 1\\
+an & q=1
+\end{cases}
+$$
+
+当$$|q|<1$$时，[[无穷级数]]
+
+$$
+\sum_{k=1}^\infty aq^{k-1}=\frac{a}{1-q}
+$$
+
