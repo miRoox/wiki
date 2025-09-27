@@ -1,0 +1,111 @@
+created: 20250927132053937
+creator: miRoox
+modified: 20250927144216766
+modifier: miRoox
+tags: 巴塞尔问题的证明 数学证明
+title: 巴塞尔问题的证明：二重积分法之一
+tmap.id: 441cd7a8-a557-485d-8a25-f5ddab04b646
+type: text/vnd.tiddlywiki
+
+考虑积分
+
+$$
+I=\int_0^1\int_0^1\frac{1}{1-xy}\dd{x}\dd{y}
+$$
+
+在 $$x\in[0,1],\,y\in[0,1]$$ 的范围内，可以展开为一致收敛的[[级数|几何级数]]
+
+$$
+\frac{1}{1-xy}=\sum_{n=0}^\infty (xy)^n
+$$
+
+因而可以拆分并交换级数和积分的顺序
+
+$$
+\begin{aligned}
+I&=\int_0^1\int_0^1\sum_{n=0}^\infty (xy)^n\dd{x}\dd{y}\\
+&=\sum_{n=0}^\infty \left(\int_0^1 x^n \dd{x}\right)\left(\int_0^1 y^n \dd{y}\right)\\
+&=\sum_{n=0}^\infty  \left(\frac{1}{1+n}\right)^2\\
+&=\sum_{k=1}^\infty \frac{1}{k^2}
+\end{aligned}
+$$
+
+| <figure>[img[basel-int-1-0.svg]] <figcaption>图1：换元</figcaption></figure> | <figure>[img[basel-int-1-1.svg]]<figcaption>图2：切分区域</figcaption></figure> |
+
+如图1
+
+取
+
+$$
+\begin{bmatrix}
+x \\y
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & -1 \\ 1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+u \\v
+\end{bmatrix}
+$$
+
+则
+
+$$
+\begin{bmatrix}
+u \\v
+\end{bmatrix}
+=
+\frac{1}{2}
+\begin{bmatrix}
+1 & 1 \\ -1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+x \\y
+\end{bmatrix}
+$$
+
+此时有
+
+$$
+\frac{1}{1-xy}=\frac{1}{1-u^2+v^2}
+$$
+
+$$
+\dd{x}\dd{y}=2\dd{u}\dd{v}
+$$
+
+注意此时的积分区域与积分函数都关于$$u$$轴对称，并将区域从$$u=\frac{1}{2}$$切开（如图2），则有
+
+$$
+\begin{aligned}
+I
+&=2\left(\int_0^{\frac{1}{2}}\int_0^u\frac{2}{1-u^2+v^2}\dd{v}\dd{u}+\int_{\frac{1}{2}}^1\int_0^{1-u}\frac{2}{1-u^2+v^2}\dd{v}\dd{u}\right)\\
+&=4\left(\int_0^{\frac{1}{2}}\frac{1}{\sqrt{1-u^2}}\arctan\frac{u}{\sqrt{1-u^2}}\dd{u}+\int_{\frac{1}{2}}^1\frac{1}{\sqrt{1-u^2}}\arctan\frac{1-u}{\sqrt{1-u^2}}\dd{u}\right)
+\end{aligned}
+$$
+
+注意到
+
+$$
+\begin{aligned}
+\frac{\dd}{\dd{u}}\arctan\frac{u}{\sqrt{1-u^2}}&=\frac{1}{\sqrt{1-u^2}}\\
+\frac{\dd}{\dd{u}}\arctan\frac{1-u}{\sqrt{1-u^2}}&=-\frac{1}{2\sqrt{1-u^2}}
+\end{aligned}
+$$
+
+
+$$
+\begin{aligned}
+I
+&=4\left(\int_0^{\frac{1}{2}}\arctan\frac{u}{\sqrt{1-u^2}}\dd{\left(\arctan\frac{u}{\sqrt{1-u^2}}\right)}-2\int_{\frac{1}{2}}^1\arctan\frac{1-u}{\sqrt{1-u^2}}\dd{\left(\arctan\frac{1-u}{\sqrt{1-u^2}}\right)}\right)\\
+&=2\left[\arctan^2\frac{u}{\sqrt{1-u^2}}\right]_0^{\frac{1}{2}}-4\left[\arctan^2\frac{1-u}{\sqrt{1-u^2}}\right]_{\frac{1}{2}}^1\\
+&=\frac{\pi^2}{6}
+\end{aligned}
+$$
+
+得证
+
+$$
+\sum_{k=1}^\infty\frac{1}{k^2}=\frac{\pi^2}{6}
+$$

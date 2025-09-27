@@ -1,7 +1,7 @@
 created: 20190930081956510
 creator: miRoox
 list: 初等函数 正交多项式
-modified: 20250523144907452
+modified: 20250927145454739
 modifier: miRoox
 tags: 数学 分类 映射
 title: 函数
@@ -9,3 +9,5 @@ tmap.id: c0e9632a-c1e9-4e3d-8493-632fa9fe1cb2
 type: text/vnd.tiddlywiki
 
 ''函数''（function）最初是一个变化的量如何依赖另一个量的理想化。现在多数情况下等同于[[映射]]。
+
+根据上下文不同，经常指[[实函数]]或者[[复函数]]。
