@@ -1,0 +1,97 @@
+created: 20250928125859140
+creator: miRoox
+modified: 20250928135251265
+modifier: miRoox
+tags: 巴塞尔问题的证明 数学证明
+title: 巴塞尔问题的证明：二重积分法之二
+tmap.id: 392dd7a9-0abf-44b4-b896-e7fc21063340
+type: text/vnd.tiddlywiki
+
+考虑积分
+
+$$
+I=\int_0^1\int_0^1\frac{1}{1-x^2y^2}\dd{x}\dd{y}
+$$
+
+在 $$x\in[0,1],\,y\in[0,1]$$ 的范围内，可以展开为一致收敛的[[级数|几何级数]]
+
+$$
+\frac{1}{1-x^2y^2}=\sum_{n=0}^\infty (xy)^{2n}
+$$
+
+因而可以拆分并交换级数和积分的顺序
+
+$$
+\begin{aligned}
+I&=\int_0^1\int_0^1\sum_{n=0}^\infty (xy)^{2n}\dd{x}\dd{y}\\
+&=\sum_{n=0}^\infty \left(\int_0^1 x^{2n} \dd{x}\right)\left(\int_0^1 y^{2n} \dd{y}\right)\\
+&=\sum_{n=0}^\infty  \frac{1}{(2n+1)^2}
+\end{aligned}
+$$
+
+这部分即[[奇数]]平方的[[倒数]][[和|级数]]。
+
+由于去除边界对重积分无影响，考虑$$0<x<1,\,0<y<1$$，引入映射$$F:\Reals^2\to\Reals^2$$
+
+$$
+\begin{cases}
+u=\arctan \left(x\sqrt {\dfrac {1-y^{2}}{1-x^{2}}}\right)\\
+v=\arctan \left(y\sqrt {\dfrac {1-x^{2}}{1-y^{2}}}\right)
+\end{cases}
+\iff 
+\begin{cases}
+x={\dfrac {\sin u}{\cos v}}\\
+y={\dfrac {\sin v}{\cos u}}
+\end{cases}
+$$
+
+而
+
+$$
+\begin{aligned}
+\cos\left(\frac{\pi}{2}-u\right)=\sin u=x\cos v <\cos v &\implies u+v<\frac{\pi}{2}\\
+\cos\left(\frac{\pi}{2}-v\right)=\sin v=y\cos u <\cos u &\implies u+v<\frac{\pi}{2}
+\end{aligned}
+$$
+
+所以变换后的区域在$$u>0,\,v>0,\,u+v<\frac{\pi}{2}$$里
+
+可见这个变换是将单位正方形区域 $$S=\set{(x,y):0<x<1\land 0<y<1}$$ 到三角形区域 $$T=\set{(u,v):u>0\land v>0\land u+v<\frac{\pi}{2}}$$ 的[[双射]]。
+
+而它的[[雅可比行列式]]为
+
+$$
+\begin{vmatrix}
+\displaystyle\frac{\partial x}{\partial u} & \displaystyle\frac{\partial x}{\partial v}\\
+\displaystyle\frac{\partial y}{\partial u} & \displaystyle\frac{\partial y}{\partial v}
+\end{vmatrix}=
+\begin{vmatrix}
+\displaystyle\frac{\cos u}{\cos v} & \displaystyle\frac{\sin u\sin v}{\cos^2 v}\\
+\displaystyle\frac{\sin u\sin v}{\cos^2 v} & \displaystyle\frac{\cos v}{\cos u}
+\end{vmatrix}=
+1-\frac{\sin^2 u\sin^2 v}{\cos^2 u\cos^2 v}=1-x^2y^2
+$$
+
+因而
+
+$$
+I=\iint_{\begin{subarray}{c}u,v>0\\u+v<\frac{\pi}{2}\end{subarray}} \dd{u}\dd{v}=\frac{1}{2}\cdot\left(\frac{\pi}{2}\right)=\frac{\pi^2}{8}
+$$
+
+即
+
+$$
+\sum_{n=0}^\infty  \frac{1}{(2n+1)^2}=\frac{\pi^2}{8}
+$$
+
+按奇数和[[偶数]]分开计算
+
+$$
+\sum_{n=1}^\infty  \frac{1}{n^2}=\sum_{n=0}^\infty  \frac{1}{(2n+1)^2}+\sum_{n=1}^\infty  \frac{1}{(2n)^2}=\sum_{n=0}^\infty  \frac{1}{(2n+1)^2}+\frac{1}{4}\sum_{n=1}^\infty  \frac{1}{n^2}
+$$
+
+移项可得
+
+$$
+\sum_{n=1}^\infty  \frac{1}{n^2}=\frac{4}{3}\cdot\frac{\pi^2}{8}=\frac{\pi^2}{6}
+$$
