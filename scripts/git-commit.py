@@ -70,8 +70,6 @@ def git_commit(message: str):
 
 def check_for_draft_content(diff_content: str):
     """检查 diff 内容中是否包含草稿标记"""
-    if not diff_content:
-        return False
     
     lines = diff_content.splitlines()
     for line in lines:
