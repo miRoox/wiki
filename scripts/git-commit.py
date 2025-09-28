@@ -68,6 +68,18 @@ def git_commit(message: str):
     except subprocess.CalledProcessError as e:
         print(f"Git 提交失败: {e}", file=sys.stderr)
 
+def check_for_draft_content(diff_content: str):
+    """检查 diff 内容中是否包含草稿标记"""
+    if not diff_content:
+        return False
+    
+    lines = diff_content.splitlines()
+    for line in lines:
+        # 检查新增的行（以 + 开头）是否包含 "draft.of:" 开头的内容
+        if line.startswith('+') and line.lstrip('+').strip().startswith('draft.of:'):
+            return True
+    return False
+
 def generate_commit_message(diff_content: str):
     """使用 OpenAI API 根据 diff 生成 commit message"""
     if not diff_content:
@@ -104,6 +116,12 @@ def main():
     if not diff_content:
         print("没有检测到 git 暂存区更改", file=sys.stderr)
         return
+    
+    # 检查是否包含草稿内容
+    if check_for_draft_content(diff_content):
+        print("检测到草稿内容（包含 'draft.of:' 开头的行），禁止提交", file=sys.stderr)
+        return
+    
     diff_content = limit_diff_output(diff_content)
 
     commit_header = f"Update on {datetime.now(timezone.utc).date()} from {socket.gethostname()}"
