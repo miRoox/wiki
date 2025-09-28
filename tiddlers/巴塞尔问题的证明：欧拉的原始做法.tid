@@ -1,0 +1,42 @@
+created: 20250928135420229
+creator: miRoox
+modified: 20250928144204177
+modifier: miRoox
+tags: 巴塞尔问题的证明
+title: 巴塞尔问题的证明：欧拉的原始做法
+tmap.id: 10f8bcda-5114-4285-bf8e-e98789276bb0
+type: text/vnd.tiddlywiki
+
+由
+
+$$
+\sin x=\sum_{n=0}^\infty \frac{(-1)^{n}}{(2n+1)!}x^{2n+1}
+$$
+
+可得
+
+$$
+\frac{\sin\sqrt x}{\sqrt x}=\sum_{n=0}^\infty \frac{(-1)^{n}}{(2n+1)!}x^n
+$$
+
+注意到，上述函数的根为$$x_k=k^2\pi^2$$（$$k=1,\,2,\,3,\,\ldots$$）
+
+根据[[韦达定理]]，在有限次多项式的情况下
+
+$$
+\sum_{k=1}^m\frac{1}{x_k}=\frac{\sum_{j=1}^m\prod_{k\ne j}x_k}{\prod_{k=1}^m x_k}=-\frac{a_1}{a_0}
+$$
+
+应用到上述函数，有
+
+$$
+\sum_{k=1}^\infty\frac{1}{x_k}=\sum_{k=1}^\infty\frac{1}{k^2\pi^2}=-\left(\frac{1}{6}\right)=\frac{1}{6}
+$$
+
+即可得到
+
+$$
+\sum_{k=1}^\infty\frac{1}{k^2}=\frac{\pi^2}{6}
+$$
+
+值得注意的是韦达定理作为有限次多项式根的性质在无限次时并不总是成立（实际上，大多数情况下不成立），因此欧拉的求解''并不严谨''，但他巧妙的技法还是值得学习的。
