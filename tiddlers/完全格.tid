@@ -1,15 +1,20 @@
 created: 20250926085158297
 creator: miRoox
-modified: 20250927131421691
+modified: 20250928110558359
 modifier: miRoox
 tags: 序理论：格 序理论 代数结构 布尔代数学
 title: 完全格
 tmap.id: 789d055f-66a6-4e3b-b542-4a8c2d813bcd
 type: text/vnd.tiddlywiki
 
-''完全格''（Complete Lattice）是一类特殊的[[格|序理论：格]]，它要求其任意[[子集]]（无论是有限的还是[[无限]]的）都有一个[[上确界|最小上界]]（称为''并''）和一个[[下确界|最大下界]]（称为''交''）。
+''完全格''（Complete Lattice）是一类特殊的[[格|序理论：格]]，它要求其任意[[子集]]（无论是有限的还是[[无限]]的）都有一个[[上确界|最小上界]]和一个[[下确界|最大下界]]。
 
 考虑[[偏序集]]$$(L,\preceq)$$，如果对于$$L$$的任意子集$$S\subseteq L$$
 
-* $$S$$的上确界（记作 $$\sup S$$ 或者 $$\bigvee S$$）是$$L$$的子集
-* $$S$$的下确界（记作 $$\inf S$$ 或者 $$\bigwedge S$$）是$$L$$的子集
+* $$S$$的上确界（记作 $$\sup S$$ 或者 $$\bigvee S$$）是$$L$$的元素
+* $$S$$的下确界（记作 $$\inf S$$ 或者 $$\bigwedge S$$）是$$L$$的元素
+
+特别的，对于[[空集]]
+
+* 其上确界$$\bigvee\emptyset$$是整个$$L$$的最小元，被称作底（Bottom）$$\bot$$
+* 其下确界$$\bigwedge\emptyset$$是整个$$L$$的最大元，被称作顶（Top）$$\top$$
