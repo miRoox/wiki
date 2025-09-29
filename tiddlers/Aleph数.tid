@@ -2,7 +2,7 @@ aliases: 阿列夫数
 caption: 阿列夫数
 created: 20240908080857790
 creator: miRoox
-modified: 20240908081659324
+modified: 20250929123414103
 modifier: miRoox
 tags: 超穷基数 TODO 基数 无限
 title: Aleph数
@@ -11,4 +11,4 @@ type: text/vnd.tiddlywiki
 
 ''阿列夫数''（Aleph）是一连串[[超穷基数]]。其标记符号为$$\aleph$$加角标序号表示。
 
-[[可数集|?]]（包括[[自然数]]）的[[基数]]标记为$$\aleph_0$$，为最小的超穷基数。下一个较大的基数为$$\aleph_1$$
+[[可数集|可数集合]]（包括[[自然数]]）的[[基数]]标记为$$\aleph_0$$，为最小的超穷基数。下一个较大的基数为$$\aleph_1$$
