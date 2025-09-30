@@ -1,7 +1,8 @@
-caption: ARMR模型
+aliases: ARMA模型
+caption: ARMA模型
 created: 20200104084052733
 creator: miRoox
-modified: 20230316103711663
+modified: 20250930075030156
 modifier: miRoox
 tags: 随机信号的参数模型 TODO
 title: 自回归-移动平均模型

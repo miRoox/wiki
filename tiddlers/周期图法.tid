@@ -1,6 +1,6 @@
 created: 20191212103520121
 creator: miRoox
-modified: 20230316103711663
+modified: 20250930074609953
 modifier: miRoox
 tags: 经典功率谱估计 TODO 功率谱估计
 title: 周期图法
@@ -10,7 +10,6 @@ type: text/vnd.tiddlywiki
 ! 周期图法
 
 $$
-\newcommand{\euler}{\mathrm{e}}
 \begin{aligned}
 X_N(\euler^{\jmath\omega})=\sum_{n=0}^{N-1}x(n)\euler^{-\jmath\omega n}
 &\Rightarrow
