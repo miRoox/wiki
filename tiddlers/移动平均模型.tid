@@ -1,7 +1,8 @@
-caption: MR模型
+aliases: MA模型
+caption: MA模型
 created: 20200104084024664
 creator: miRoox
-modified: 20230316103711662
+modified: 20250930075016984
 modifier: miRoox
 tags: 随机信号的参数模型 TODO
 title: 移动平均模型
