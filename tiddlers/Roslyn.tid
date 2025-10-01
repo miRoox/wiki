@@ -1,0 +1,15 @@
+created: 20251001144222522
+creator: miRoox
+modified: 20251001144724517
+modifier: miRoox
+tags: .NET TODO
+title: Roslyn
+tmap.id: 88293563-211d-4cf8-95aa-27d122112188
+type: text/vnd.tiddlywiki
+
+''Roslyn''是现代的[[.NET]][[编译器]]平台，提供[[C#]]和[[Visual Basic|Visual Basic .NET]]的编译和代码分析工具。
+
+!! 链接
+
+* [[Roslyn代码仓库|https://github.com/dotnet/roslyn]]
+* [[Roslyn SDK文档|https://learn.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/]]
