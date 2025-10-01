@@ -1,0 +1,20 @@
+aliases: 分划 划分
+caption: 分划
+created: 20251001040457984
+creator: miRoox
+modified: 20251001040811386
+modifier: miRoox
+tags: 集合
+title: 区间分划
+tmap.id: 6c8bce75-3e37-4922-b94c-e6424889b463
+type: text/vnd.tiddlywiki
+
+[[区间]]的''分划''（或''划分''）指的是将一个闭区间分成若干个小区间，常用于[[黎曼积分]]的定义中。
+
+设 $$[a, b]$$ 是一个闭区间，其中 $$a, b \in \mathbb{R}$$ 且 $$a < b$$。一个''分划'' $$P$$ 是一个有限点集 $$\{x_0, x_1, x_2, \dots, x_n\}$$，满足：
+$$
+a = x_0 < x_1 < x_2 < \dots < x_n = b.
+$$
+
+这个分划将区间 $$[a, b]$$ 分成 $$n$$ 个闭子区间 $$[x_{i-1}, x_i]$$，其中 $$i = 1, 2, \dots, n$$。
+
