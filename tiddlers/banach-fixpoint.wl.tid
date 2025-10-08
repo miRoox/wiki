@@ -1,6 +1,6 @@
 created: 20251008085253426
 creator: miRoox
-modified: 20251008085454837
+modified: 20251008092113090
 modifier: miRoox
 tags: AssetSource
 title: banach-fixpoint.wl
@@ -16,7 +16,7 @@ rx = Reduce[Abs[f'[x]] < 1, {x}, Reals]
 c = (x /. Solve[f[x] == x && rx, {x}])[[1]]
 
 (* 设置初始点 *)
-x0 = 1/8;
+x0 = 1/10;
 
 (* 计算若干次迭代 *)
 n = 5; (* 迭代次数 *)
