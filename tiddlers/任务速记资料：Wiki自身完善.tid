@@ -1,0 +1,12 @@
+created: 20251008121047401
+creator: miRoox
+modified: 20251008121752752
+modifier: miRoox
+tags: 任务速记资料 TODO
+title: 任务速记资料：Wiki自身完善
+tmap.id: 3dda488b-77e8-4fae-bedf-b7bcec4a2e2f
+type: text/vnd.tiddlywiki
+
+* [[矩阵分解|https://reference.wolfram.com/language/guide/MatrixDecompositions.html]]
+* [[决策树 - 机器学习方法|https://reference.wolfram.com/language/ref/method/DecisionTree.html]]
+* [[Fetching and Sharing Data Between Components with Blazor's Auto Render Mode|https://www.telerik.com/blogs/fetching-sharing-data-between-components-blazor-auto-render-mode]]
