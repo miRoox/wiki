@@ -1,0 +1,12 @@
+aliases: 完备空间
+caption: 完备度量空间
+created: 20251008070937901
+creator: miRoox
+modified: 20251008071143024
+modifier: miRoox
+tags: 实分析 数学：空间 度量空间
+title: 完备度量空间
+tmap.id: a54eb65b-abab-4d58-aa67-0ee20f5ec985
+type: text/vnd.tiddlywiki
+
+''完备度量空间''（Complete metric space）是一种特殊的[[度量空间]]，它满足空间中的任何[[柯西序列]]都收敛在该空间之内。

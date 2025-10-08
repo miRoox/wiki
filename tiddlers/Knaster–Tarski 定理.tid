@@ -1,0 +1,19 @@
+aliases: Tarski不动点定理
+created: 20251008074505668
+creator: miRoox
+modified: 20251008075140465
+modifier: miRoox
+tags: 不动点定理 TODO 数学定理
+title: Knaster–Tarski 定理
+tmap.id: a703bad2-dd72-4f53-901b-6d06b082fe90
+type: text/vnd.tiddlywiki
+
+''Knaster–Tarski 定理''，也叫 ''Tarski 不动点定理''，是关于[[完全格]]的[[不动点定理]]
+
+考虑完全格$$(L,\preceq)$$，若 $$f:L\to L$$ 是一个[[单调函数]]，即
+
+$$
+\forall x,y\in L,\, x\preceq y\iff f(x)\preceq f(y)
+$$
+
+则 $$f$$在$$L$$上的所有[[不动点]]构成的[[集合]]也是完全格。

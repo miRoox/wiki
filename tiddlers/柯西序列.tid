@@ -1,0 +1,44 @@
+created: 20251008054107792
+creator: miRoox
+modified: 20251008070901057
+modifier: miRoox
+tags: 序列 实分析 微积分学
+title: 柯西序列
+tmap.id: 3ef95a10-af84-46ad-a2d4-38f7c52072bb
+type: text/vnd.tiddlywiki
+
+''柯西序列''、''柯西列''（Cauchy sequence），也称为''基本列''，是指一个元素随着序数的增加而愈发靠近的[[序列]]
+
+!! [[实数]]的柯西列
+
+一个实数列  $$\{a_n\}$$，满足
+
+$$
+\forall \delta>0,\,\exists N\in\N,\,\forall m,n\le N,\,\left|a_n-a_m\right|<\delta
+$$
+
+则 $$\{a_n\}$$ 被称为''柯西列''。
+
+!! [[复数]]的柯西列
+
+和实数的情况类似，只是换成复数列和复数的模：
+
+一个复数列  $$\{z_n\}$$，满足
+
+$$
+\forall \delta>0,\,\exists N\in\N,\,\forall m,n\le N,\,\left|z_n-z_m\right|<\delta
+$$
+
+则 $$\{z_n\}$$ 被称为''柯西列''。
+
+!! [[度量空间]]中的柯西列
+
+将模换为度量空间中推广的[[度量|距离]]。
+
+给定度量空间 $$(M,d)$$，其上的一个序列 $$\{x_n\}$$，若满足
+
+$$
+\forall \delta>0,\,\exists N\in\N,\,\forall m,n\le N,\,d\left(x_n,x_m\right)<\delta
+$$
+
+则 $$\{x_n\}$$ 被称为''柯西列''。
