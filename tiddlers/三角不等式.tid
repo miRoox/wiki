@@ -1,0 +1,31 @@
+created: 20251008090743741
+creator: miRoox
+modified: 20251008091743975
+modifier: miRoox
+tags: 几何不等式 TODO 不等式 数学定理
+title: 三角不等式
+tmap.id: d8752251-d5a5-4638-a57d-870dd25b76b6
+type: text/vnd.tiddlywiki
+
+''三角不等式''表示从A到B再到C的距离永不少于从A到C的距离。
+
+!! [[欧式几何|欧几里得几何]]
+
+任意[[三角形]]$$\Delta ABC$$都满足
+
+$$
+\left|\overline{AB}-\overline{BC}\right|<\overline{AC}<\overline{AB}+\overline{BC}
+$$
+
+* 两边之和大于第三边
+* 两边之差小于第三边
+
+!! [[度量空间]]
+
+三角不等式是[[度量|距离]]基本性质：
+
+考虑度量空间 $$(M,d)$$
+
+$$
+\forall x,y,z\in M,\,d(x,z)\le d(x,y)+d(y,z)
+$$

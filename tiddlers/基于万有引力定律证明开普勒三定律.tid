@@ -1,0 +1,50 @@
+created: 20251008093448550
+creator: miRoox
+modified: 20251008094956709
+modifier: miRoox
+tags: 物理题目 TODO
+title: 基于万有引力定律证明开普勒三定律
+tmap.id: b4a223ce-6937-4476-ba66-059b29a232c7
+type: text/vnd.tiddlywiki
+
+! 基于[[万有引力定律]]证明[[开普勒三定律|开普勒定律]]
+
+为简化系统，不妨先假设 $$M\gg m$$ （恒星[[质量]]远大于行星质量）
+
+$$M$$ 静止的[[参考系]]近似为[[惯性系|惯性参考系]]，以此为参考系，考察$$m$$
+
+以恒星质心为原点，行星的矢径为$$\vb{r}$$
+
+由万有引力定律
+
+$$
+m\frac{\dd^2\vb{r}}{\dd{t}^2}=-\frac{GMm}{r^3}\vb{r}
+$$
+
+注意 $$\vb{r}$$ 和 $$\frac{\dd^2\vb{r}}{\dd{t}^2}$$ 在同一直线上，则
+
+$$
+\frac{\dd}{\dd{t}}\left(\vb{r}\times\frac{\dd{\vb{r}}}{\dd{t}}\right)=\frac{\dd{\vb{r}}}{\dd{t}}\times\frac{\dd{\vb{r}}}{\dd{t}}+\vb{r}\times\frac{\dd^2\vb{r}}{\dd{t}^2}=\vb{0}
+$$
+
+故
+
+$$
+\vb{r}\times\frac{\dd{\vb{r}}}{\dd{t}}=\vb{C}
+$$
+
+即行星始终在一个过恒星质心并与 $$\vb{C}$$ 垂直的平面内运动
+
+另一方面，由于轨道上的点 $$A,\,B$$ 位置间矢径扫过的面积
+
+$$
+\vb{S}_{AB}=\frac{1}{2}\int_{AB}\vb{r}\times\dd{\vb{r}}
+$$
+
+故单位时间扫过的面积，即面积速度
+
+$$
+\frac{\dd{\vb{S}}}{\dd{t}}=\frac{1}{2}\vb{r}\times\frac{\dd{\vb{r}}}{\dd{t}}=\frac{\vb{C}}{2}
+$$
+
+是个定值（[[开普勒第二定律]]）
