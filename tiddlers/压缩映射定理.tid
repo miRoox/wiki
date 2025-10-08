@@ -1,11 +1,53 @@
 aliases: 巴拿赫不动点定理
 created: 20250505022942905
 creator: miRoox
-modified: 20250518135415315
+modified: 20251008074338135
 modifier: miRoox
-tags: 实分析 TODO 不动点定理 数学定理
+tags: 实分析 不动点定理 数学定理
 title: 压缩映射定理
 tmap.id: b33954e0-70bd-4a9d-a6cd-9b7bee6b0c11
 type: text/vnd.tiddlywiki
 
-''压缩映射定理''，又称巴拿赫[[不动点定理]]，是[[度量空间]]理论的一个重要工具。
+''压缩映射定理''，又称''巴拿赫[[不动点定理]]''，是[[度量空间]]理论的一个重要工具。
+
+!! [[实函数]]的压缩映射定理
+
+定义在[[区间]]$$I$$上的函数$$f:\Reals\to\Reals$$，满足
+
+$$
+\exists\alpha\in[0,1),\,\forall x,y\in I,\,\left|f(x)-f(y)\right|\le\alpha|x-y|
+$$
+
+而[[数列]]$$\left\{a_n\right\}$$，满足[[递推关系式]]
+
+$$
+a_{n+1}=f\left(a_n\right)
+$$
+
+则[[存在唯一|唯一存在量化]]的 $$\xi\in I$$，使得 $$f(\xi)=\xi$$（$$\xi$$ 是 $$f$$ 的[[不动点]]），且
+
+$$
+\lim_{n\to\infty}a_n=\xi
+$$
+
+!! [[完备度量空间]]上的压缩映射定理
+
+考虑非空的完备度量空间 $$(M,d)$$，$$f:M\to M$$是其上的一个[[压缩映射]]，即
+
+$$
+\exists k\in[0,1),\,\forall x,y\in M,\,d(f(x),f(y))\le k\:d(x,y)
+$$
+
+则[[存在唯一|唯一存在量化]]的 $$\xi\in M$$，使得 $$f(\xi)=\xi$$（$$\xi$$ 是 $$f$$ 的[[不动点]]）
+
+进一步地，若$$M$$上的递推序列$$\left\{x_n\right\}$$，满足[[递推关系式]]
+
+$$
+x_{n+1}=f\left(x_n\right)
+$$
+
+那么
+
+$$
+\lim_{n\to\infty}x_n=\xi
+$$

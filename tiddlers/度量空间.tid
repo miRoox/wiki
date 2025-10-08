@@ -1,7 +1,7 @@
 caption: 度量空间
 created: 20191111025646732
 creator: miRoox
-modified: 20240911072433760
+modified: 20251008053352749
 modifier: miRoox
 tags: 实分析 数学：空间
 title: 度量空间
@@ -16,4 +16,4 @@ type: text/vnd.tiddlywiki
 * [[对称性|交换律]]：$$d(x,y)=d(y,z)$$
 * [[三角不等式]]：$$d(x,z)\le d(x,y)+d(y,z)$$
 
-则称$$d$$是定义在$$M$$上的''度量''（Metric）或''距离函数''，且称[[有序对]]$$(M,d)$$为''度量空间''。
+则称$$d$$是定义在$$S$$上的''度量''（Metric）或''距离函数''，且称[[有序对]]$$(S,d)$$为''度量空间''。
