@@ -1,0 +1,50 @@
+created: 20251008085253426
+creator: miRoox
+modified: 20251008085454837
+modifier: miRoox
+tags: AssetSource
+title: banach-fixpoint.wl
+tmap.id: f43f5ceb-30f0-4e5b-8f9a-fa62ecefd169
+type: text/vnd.tiddlywiki
+
+```wl
+(* 定义压缩映射函数 *)
+f[x_] := 1/2 + x - x^2/5
+
+rx = Reduce[Abs[f'[x]] < 1, {x}, Reals]
+
+c = (x /. Solve[f[x] == x && rx, {x}])[[1]]
+
+(* 设置初始点 *)
+x0 = 1/8;
+
+(* 计算若干次迭代 *)
+n = 5; (* 迭代次数 *)
+iterations = NestList[f, x0, n];
+
+(* 迭代点 *)
+ps = Table[Unevaluated@Sequence[{p, p}, {p, f[p]}], {p, iterations}];
+ps[[1]] = {x0, 0};
+
+(* 绘制函数图像、y=x 线和迭代轨迹 *)
+Plot[{f[x], x}, {x, -1, 3}, 
+  PlotStyle -> {{Thick, Blue}, {Thick, Black, DotDashed}}, 
+  PlotRange -> {{-1/2, 5/2}, {-1/2, 5/2}}, 
+  AspectRatio -> 1, 
+  AxesLabel -> {"x", "y"}, 
+  Epilog -> {
+      (* 绘制迭代点 *)
+      Red, PointSize[0.02], 
+      Point[ps], 
+      (* 绘制迭代路径 *)
+      Arrowheads[0.02],
+      Arrow /@ Partition[ps, 2, 1],
+      (* 标出固定点 *)
+      Orange, PointSize[0.025], Point[{c, f[c]}],
+      Text[
+    Style[StringTemplate["Fixed Point (`x`,`x`)"][<|
+       "x" -> ToString[c, TraditionalForm]|>], 12], {c, f[c] + 0.5}]
+    },
+ ImageSize -> Medium
+ ]
+```
