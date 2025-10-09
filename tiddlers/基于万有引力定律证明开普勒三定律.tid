@@ -1,6 +1,6 @@
 created: 20251008093448550
 creator: miRoox
-modified: 20251008094956709
+modified: 20251009153240408
 modifier: miRoox
 tags: 物理题目 TODO
 title: 基于万有引力定律证明开普勒三定律
@@ -18,19 +18,19 @@ $$M$$ 静止的[[参考系]]近似为[[惯性系|惯性参考系]]，以此为�
 由万有引力定律
 
 $$
-m\frac{\dd^2\vb{r}}{\dd{t}^2}=-\frac{GMm}{r^3}\vb{r}
+m\frac{\dd^2\vb{r}}{\dd{t}^2}=-\frac{GMm}{r^3}\vb{r} \tag{1}
 $$
 
 注意 $$\vb{r}$$ 和 $$\frac{\dd^2\vb{r}}{\dd{t}^2}$$ 在同一直线上，则
 
 $$
-\frac{\dd}{\dd{t}}\left(\vb{r}\times\frac{\dd{\vb{r}}}{\dd{t}}\right)=\frac{\dd{\vb{r}}}{\dd{t}}\times\frac{\dd{\vb{r}}}{\dd{t}}+\vb{r}\times\frac{\dd^2\vb{r}}{\dd{t}^2}=\vb{0}
+\frac{\dd}{\dd{t}}\paren{\vb{r}\times\frac{\dd{\vb{r}}}{\dd{t}}}=\frac{\dd{\vb{r}}}{\dd{t}}\times\frac{\dd{\vb{r}}}{\dd{t}}+\vb{r}\times\frac{\dd^2\vb{r}}{\dd{t}^2}=\vb{0}
 $$
 
 故
 
 $$
-\vb{r}\times\frac{\dd{\vb{r}}}{\dd{t}}=\vb{C}
+\vb{r}\times\frac{\dd{\vb{r}}}{\dd{t}}=\vb{C} \tag{2}
 $$
 
 即行星始终在一个过恒星质心并与 $$\vb{C}$$ 垂直的平面内运动
@@ -48,3 +48,78 @@ $$
 $$
 
 是个定值（[[开普勒第二定律]]）
+
+在行星运动平面引入[[极坐标|极坐标系]] $$(\rho,\theta)$$，有
+
+$$
+\begin{aligned}
+\vb{r}&=\paren{\rho,\theta}\\
+\frac{\dd{\vb{r}}}{\dd{t}}&=\paren{\frac{\dd{\rho}}{\dd{t}},\rho\frac{\dd{\theta}}{\dd{t}}}
+\end{aligned}
+$$
+
+对 $$\paren{2}$$ 式[[乘|乘法]] $$m$$ 取[[模|绝对值]]，则可化为
+
+$$
+m\rho^2\frac{\dd{\theta}}{\dd{t}}=L \tag{3}
+$$
+
+即[[角动量守恒|角动量守恒定律]]
+
+由[[能量守恒|能量守恒定律]]（[[动能]]+[[引力]][[势能]]）
+
+$$
+\begin{align*}
+&\quad&\frac{1}{2}m\paren{\frac{\dd\vb{r}}{\dd{t}}}^2-\frac{GMm}{\rho}&=E \tag{4}\\
+&\implies&\frac{m}{2}\paren{\paren{\frac{\dd{\rho}}{\dd{t}}}^2+\paren{\rho\frac{\dd{\theta}}{\dd{t}}}^2}-\frac{GMm}{\rho}&=E\\
+&\implies&\frac{m}{2}\paren{\frac{\dd{\rho}}{\dd{t}}}^2+\frac{L^2}{2m\rho^2}-\frac{GMm}{\rho}&=E\\
+&\implies&\frac{m}{2}\paren{\frac{\dd{\rho}}{\dd{\theta}}\cdot\frac{\dd{\theta}}{\dd{t}}}^2&=E-\frac{L^2}{2m\rho^2}+\frac{GMm}{\rho}\\
+&\implies&\paren{\frac{\dd{\rho}}{\dd{\theta}}}^2&=\frac{2m\rho^4}{L^2}\paren{E-\frac{L^2}{2m\rho^2}+\frac{GMm}{\rho}} \tag{5}
+\end{align*}
+$$
+
+记$$\rho_1$$为近日点，即
+
+$$
+\rho_1=\min_{t\in\Reals}\rho(t)
+$$
+
+显然，在到达 $$\rho_1$$ 之前，$$\frac{\dd{\rho}}{\dd{\theta}}<0$$ ，在通过 $$\rho_1$$之后，$$\frac{\dd{\rho}}{\dd{\theta}}>0$$
+
+将 $$\paren{5}$$ 式开方可得：
+
+$$
+\frac{\dd{\theta}}{\dd{\rho}}=\mp\frac{L}{\sqrt{2m}\rho^2}\paren{E-\frac{L^2}{2m\rho^2}+\frac{GMm}{\rho}}^{-\frac{1}{2}} \tag{6}
+$$
+
+我们选取适当的坐标，使 $$\theta$$在$$\rho_1$$处取 $$0$$
+
+对 $$\paren{6}$$ 式换元 $$u=\frac{L}{m\rho}$$，再做积分可得
+
+$$
+\begin{aligned}
+\theta&=\mp\int_{\frac{L}{m\rho_1}}^{\frac{L}{m\rho}}\paren{-u^2+\frac{2GMm}{L}m+\frac{2E}{m}}^{-\frac{1}{2}}\dd{u}\\
+&=\mp\left[\arccos\frac{u-\frac{GMm}{L}}{\paren{\frac{G^2M^2m^2}{L^2}+\frac{2E}{m}}^{\frac{1}{2}}}\right]_{u=\frac{L}{m\rho_1}}^{u=\frac{L}{m\rho}}
+\end{aligned}
+$$
+
+根据 $$\theta$$在$$\rho_1$$处取 $$0$$，上式化简可得
+
+$$
+\rho=\frac{L^2}{GMm}\paren{\paren{1+\frac{2EL^2}{G^2M^2m^3}}\cos\theta+1}^{-1}
+$$
+
+与极坐标下的[[圆锥曲线]]具有相同形式
+
+$$
+\rho=\frac{ep}{1+e\cos\theta}
+$$
+
+（其中 $$e$$ 为离心率，$$p$$ 为焦点到准线的距离）
+
+即
+
+* 当总机械能 $$E<0$$时，离心率 $$e<1$$，轨道为[[椭圆]]（[[开普勒第一定律]]）
+* 当总机械能 $$E=0$$时，离心率 $$e=1$$，轨道为[[抛物线]]
+* 当总机械能 $$E>0$$时，离心率 $$e>1$$，轨道为[[双曲线]]的一支
+

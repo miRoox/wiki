@@ -1,0 +1,1 @@
+\left\lparen{#1}\right\rparen
