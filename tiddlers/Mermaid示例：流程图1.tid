@@ -1,0 +1,24 @@
+created: 20251010042355761
+creator: miRoox
+modified: 20251010042549044
+modifier: miRoox
+tags: TODO Mermaid示例 代码片段
+title: Mermaid示例：流程图1
+tmap.id: 024c8c82-dddb-408b-b756-9623fefc37b9
+type: text/vnd.tiddlywiki
+
+```
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+$$$text/vnd.tiddlywiki.mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+$$$

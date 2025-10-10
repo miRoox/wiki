@@ -1,0 +1,36 @@
+created: 20251010042501713
+creator: miRoox
+modified: 20251010042529660
+modifier: miRoox
+tags: TODO Mermaid示例 代码片段
+title: Mermaid示例：时序图1
+tmap.id: 14ad0ae3-58a3-4057-838d-8d8e5c15b69e
+type: text/vnd.tiddlywiki
+
+```
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop HealthCheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+$$$text/vnd.tiddlywiki.mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop HealthCheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+$$$
