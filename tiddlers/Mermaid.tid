@@ -1,0 +1,14 @@
+created: 20251010032348651
+creator: miRoox
+modified: 20251010032511229
+modifier: miRoox
+tags: 计算机语言 TODO 领域特定语言
+title: Mermaid
+tmap.id: 5ba3dc14-1c64-4bb1-8b76-4f236d2aebd7
+type: text/vnd.tiddlywiki
+
+''Mermaid''是使用文本和代码创建可视化图表的工具语言
+
+!! 链接
+
+* [[文档|https://mermaid.js.org/intro/]]
