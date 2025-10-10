@@ -1,7 +1,7 @@
 aliases: 巴拿赫不动点定理
 created: 20250505022942905
 creator: miRoox
-modified: 20251008085727422
+modified: 20251010140726467
 modifier: miRoox
 tags: 实分析 不动点定理 数学定理
 title: 压缩映射定理
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 ''压缩映射定理''，又称''巴拿赫[[不动点定理]]''，是[[度量空间]]理论的一个重要工具。
 
 <figure class="right-float">
-[img[banach-fixpoint.svg]]
+[img[对 1/2+x-x^2/5 迭代|banach-fixpoint.svg]]
 <figcaption>实函数压缩映射迭代示意</figcaption>
 </figure>
 
