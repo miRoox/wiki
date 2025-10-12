@@ -1,10 +1,11 @@
+aliases: 牛顿法
 caption: 牛顿法
 created: 20191018021331339
 creator: miRoox
-modified: 20240831152717499
+modified: 20251012024925548
 modifier: miRoox
 tags: 算法 TODO 计算数学
-title: 牛顿法
+title: 牛顿迭代法
 tmap.id: 040cbf32-f70b-4fd6-aa94-825345350538
 type: text/vnd.tiddlywiki
 
