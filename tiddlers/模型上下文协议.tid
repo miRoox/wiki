@@ -1,14 +1,35 @@
 aliases: MCP
 created: 20250729082331718
 creator: miRoox
-modified: 20250729082534313
+modified: 20251012041951237
 modifier: miRoox
-tags: TODO
+tags: TODO 通信协议
 title: 模型上下文协议
 tmap.id: 0c45938b-cfa2-4773-a6cc-498ded3f20bc
 type: text/vnd.tiddlywiki
 
-模型上下文协议（Model Context Protocol, MCP）定义了一种标准的方式将应用程序的上下文提供给[[大语言模型]]。
+''模型上下文协议''（Model Context Protocol, MCP）定义了一种标准的方式将应用程序的上下文提供给[[大语言模型]]。MCP 的核心目标是实现双向通信：AI 不仅能检索数据，还能执行操作（如更新文档或自动化工作流），并维护跨工具的上下文连续性。
+
+!! 整体架构
+
+MCP 采用客户端-服务器（Client-Server）架构，支持多种传输方式。整个系统包含3个部分：
+
+| !组件       | !描述                                                                 | !示例应用场景                          | !关键特性                              |
+| Host（主机） | 用户交互的应用程序层，集成 AI 代理并管理多个 Client 连接。它是整个系统的入口，负责用户查询的处理和上下文维护。 | Claude Desktop、Cursor IDE、自定义聊天 App | 支持多 Client 并发；处理用户提示和模型推理。 |
+| Client（客户端） | 嵌入在 Host 中的轻量级模块，与单个 Server 建立 1:1 连接。负责发起请求、协商协议版本，并将外部数据注入 AI 模型的上下文中。 | AI 代理在 IDE 中调用工具时 | 维护会话状态；支持工具调用、资源检索和提示模板。 |
+| Server（服务器） | 外部程序，暴露工具（Tools，用于执行操作）、资源（Resources，用于数据检索）和提示（Prompts，用于预定义模板）。开发者可自定义 Server 以连接特定数据源。 | 数据库服务器、API 网关、文件系统 | 提供标准化 API；支持安全边界（如认证）；可扩展到多种数据源。 |
+
+$$$text/vnd.tiddlywiki.mermaid
+graph TD;
+    subgraph Host
+		  Client1
+			Client2
+			Client3
+		end
+		Client1-->Server1
+		Client2-->Server2
+		Client3-->Server3
+$$$
 
 !! 链接
 
