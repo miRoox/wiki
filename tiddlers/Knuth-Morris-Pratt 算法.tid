@@ -1,0 +1,71 @@
+aliases: KMP算法 KMP
+caption: KMP算法
+created: 20251015123541946
+creator: miRoox
+modified: 20251015130303285
+modifier: miRoox
+tags: 算法
+title: Knuth-Morris-Pratt 算法
+tmap.id: f5cb2763-2d58-40e6-9293-83f69a8edd32
+type: text/vnd.tiddlywiki
+
+''Knuth-Morris-Pratt 算法''（KMP算法）是一种高效的[[字符串]]匹配算法，用于在主串中查找子串的出现位置。相比朴素的暴力匹配算法（逐一比较每个字符），KMP算法通过利用子串的内部结构信息，避免不必要的重复比较，从而将时间复杂度从 $$O(mn)$$ 降低到 $$O(m+n)$$，其中 $$m$$ 是子串长度，$$n$$ 是主串长度。
+
+KMP算法的关键是构建子串的''部分匹配表''（Partial Match Table），也称为 ''next数组''。这个表记录了子串中每个位置的前缀和后缀的最长公共长度（即“最长 proper 前缀也是后缀”的长度）。当匹配失败时，next数组指导主串的指针如何移动，以跳过已经匹配过的部分，避免回溯。
+
+!! 算法步骤
+
+# 构建next数组
+#* 对于子串的每个位置 i，计算以第 i 个字符结尾的子串的最长公共前后缀长度。
+#* next[i] 表示当第 i 个字符匹配失败时，子串的指针应该回退到的位置。
+# 匹配过程
+#* 遍历主串和子串，比较字符。
+#* 如果字符匹配成功，两个指针都向前移动。
+#* 如果匹配失败，利用 next数组 将子串指针回退到合适位置，主串指针无需回溯。
+#* 重复直到找到匹配或主串遍历结束。
+
+!! KMP算法示意代码
+
+```py
+def kmp_search(text: str, pattern: str):
+    if not pattern:
+        return 0
+    
+    # 构建next数组
+    def get_next(pattern: str):
+        next = [-1] * len(pattern)
+        i, j = 0, -1
+        while i < len(pattern) - 1:
+            if j == -1 or pattern[i] == pattern[j]:
+                i += 1
+                j += 1
+                next[i] = j
+            else:
+                j = next[j]
+        return next
+    
+    # 匹配过程
+    next = get_next(pattern)
+    i = 0  # 主串指针
+    j = 0  # 子串指针
+    while i < len(text) and j < len(pattern):
+        if j == -1 or text[i] == pattern[j]:
+            i += 1
+            j += 1
+        else:
+            j = next[j]
+    
+    # 如果j达到子串末尾，说明匹配成功
+    if j == len(pattern):
+        return i - j
+    return -1  # 未找到匹配
+```
+
+!! 复杂度分析
+
+* 时间复杂度：
+** 构建 next数组：$$O(m)$$，$$m$$ 是子串长度。
+** 匹配过程：$$O(n)$$，$$n$$ 是主串长度。
+** 总时间复杂度：$$O(m + n)$$。
+* 空间复杂度：$$O(m)$$，用于存储 next数组。
+
