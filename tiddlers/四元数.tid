@@ -1,0 +1,25 @@
+created: 20251022150621425
+creator: miRoox
+modified: 20251022151128050
+modifier: miRoox
+tags: 数系 TODO
+title: 四元数
+tmap.id: 7f6f2d75-8555-4ce7-8fa5-b5c4729aabe3
+type: text/vnd.tiddlywiki
+
+''四元数''（Quaternions）被视为类似[[复数]]的一种进一步扩展。它有3个虚单位，记作$$\bm{i},\bm{j},\bm{k}$$，满足
+
+$$
+\begin{gathered}
+\bm{i}^2=\bm{j}^2=\bm{k}^2=-1\\
+\bm{ijk}=-1
+\end{gathered}
+$$
+
+这样，任意一个四元数 $$q$$ 可以记作
+
+$$
+q=a\bm{1}+b\bm{i}+c\bm{j}+d\bm{k}
+$$
+
+其中，$$a,b,c\in\Reals$$，$$\bm{1}$$即普通[[实数]][[1]]
