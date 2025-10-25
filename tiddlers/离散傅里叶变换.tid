@@ -1,7 +1,7 @@
 caption: 离散傅里叶变换
 created: 20191014132558541
 creator: miRoox
-modified: 20230316103711658
+modified: 20251025053739761
 modifier: miRoox
 tags: 正交变换 傅里叶变换 TODO
 title: 离散傅里叶变换
@@ -13,13 +13,11 @@ type: text/vnd.tiddlywiki
 离散傅里叶变换即在[[离散时间傅里叶变换]]的基础上再对频率有限离散采样。
 
 $$
-\newcommand{\euler}{\mathrm{e}}
 X(k)=\left.X(\euler^{\jmath\omega})\right|_{\omega=\frac{2\pi}{N}k}
 $$
 
 亦即
 
 $$
-\newcommand{\euler}{\mathrm{e}}
 X(k)=\operatorname{DFT}[x(n)]=\sum_{n=0}^{N-1}x(n)\euler^{\jmath\frac{2\pi}{N}k},\quad k=0,1,\dots,N-1
 $$
