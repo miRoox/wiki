@@ -2,7 +2,7 @@ aliases: DTFT
 caption: 离散时间傅里叶变换
 created: 20191122071922677
 creator: miRoox
-modified: 20240806094558310
+modified: 20251025053749180
 modifier: miRoox
 tags: 变换 TODO 傅里叶变换
 title: 离散时间傅里叶变换
@@ -12,6 +12,5 @@ type: text/vnd.tiddlywiki
 ! DTFT
 
 $$
-\newcommand{\euler}{\mathrm{e}}
 X(\euler^{\jmath\omega})=\operatorname{FT}[x(n)]=\sum_{n=-\infty}^{\infty}x(n)\euler^{-\jmath\omega n}
 $$
