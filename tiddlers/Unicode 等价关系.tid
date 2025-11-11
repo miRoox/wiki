@@ -1,0 +1,13 @@
+created: 20251111125400347
+creator: miRoox
+modified: 20251111131254104
+modifier: miRoox
+tags: Unicode 等价关系 TODO
+title: Unicode 等价关系
+tmap.id: 38261c9e-56f0-4952-b813-c7fddf175b2f
+type: text/vnd.tiddlywiki
+
+[[Unicode]]规范中定义了两种字符[[等价关系]]：
+
+* [[规范等价|Unicode 规范等价]]（Canonical Equivalence）： 只涉及 Unicode 官方定义的“同一字符”的不同表示法；
+* [[兼容等价|Unicode 兼容等价]]（Compatibility Equivalence）：包括视觉/功能相似的变体。

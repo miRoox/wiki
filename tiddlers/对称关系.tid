@@ -1,0 +1,11 @@
+aliases: 对称性
+created: 20251111130432409
+creator: miRoox
+modified: 20251111130522677
+modifier: miRoox
+tags: 二元关系
+title: 对称关系
+tmap.id: 12d83c72-5a34-43e6-a423-4905c3179e50
+type: text/vnd.tiddlywiki
+
+给定[[集合]]$$S$$，$$\sim$$是$$S$$上的[[二元关系]]，且满足$$\forall x,y\in S, x\sim y\iff y\sim x$$，则称$$\sim$$是$$S$$上的一个''对称关系''，或者说关系$$\sim$$具有''对称性''。
