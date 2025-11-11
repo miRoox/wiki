@@ -1,0 +1,27 @@
+created: 20251111124824857
+creator: miRoox
+modified: 20251111135536395
+modifier: miRoox
+tags: Unicode TODO
+title: Unicode 规范化形式
+tmap.id: 66e2ba05-4d2a-4787-88dd-747df709308c
+type: text/vnd.tiddlywiki
+
+''Unicode 规范化形式''（Unicode Normalization Forms）是将[[等价|Unicode 等价关系]]的字符串统一为规范的字符串形式。
+
+
+| !操作\等价关系 | ![[规范等价|Unicode 规范等价]] | ![[兼容等价|Unicode 兼容等价]] |
+| !只分解 | [[NFD|Unicode 规范化形式 D]] |  [[NFKD|Unicode 规范化形式 KD]] |
+| !先分解再组合 |  [[NFC|Unicode 规范化形式 C]] | [[NFKC|Unicode 规范化形式 KC]] |
+
+!! 应用场景
+
+| !场景 | !推荐形式 | !理由 |
+| 存储/传输（希望最紧凑） | [[NFC|Unicode 规范化形式 C]] | 预组合字符占位少，多数系统默认支持。 |
+| 文本搜索/比较（忽略组合标记顺序） | [[NFD|Unicode 规范化形式 D]] | 所有组合标记都被拆开，比较子串更完整 |
+| 去噪/统一格式（全角半角、上下标等） | [[NFKC|Unicode 规范化形式 KC]] | 兼容变体被标准化，搜索命中率高。 |
+| 最大化拆分（需要逐个码点分析） | [[NFKD|Unicode 规范化形式 KD]] | 所有兼容变体都被拆开，便于算法处理。 |
+
+!! 链接
+
+* [[Unicode Standard Annex #15: Unicode Normalization Forms|https://unicode.org/reports/tr15/]]

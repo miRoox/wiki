@@ -1,0 +1,17 @@
+aliases: 规范等价
+created: 20251111125206438
+creator: miRoox
+modified: 20251111132707988
+modifier: miRoox
+tags: [[Unicode 等价关系]]
+title: Unicode 规范等价
+tmap.id: 6a32aace-ebda-450e-99c0-02fd17a73122
+type: text/vnd.tiddlywiki
+
+''规范等价''（Canonical Equivalence） 是字符或字符序列的基本等价关系，用于表示完全相同的抽象字符，并且正确的渲染实现应该保证它们之间具有完全一样的视觉外观和行为。
+
+| !子类型 | !示例 |
+| 组合序列 | Ç	↔	C+◌̧ |
+| 组合标记的顺序 | q+◌̇+◌̣	↔	q+◌̣+◌̇ |
+| 韩语连接字符 | 가	↔	ᄀ +ᅡ |
+| 单体等价 | Ω	↔	Ω |

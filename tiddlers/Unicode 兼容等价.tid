@@ -1,0 +1,29 @@
+aliases: 兼容等价
+created: 20251111130324284
+creator: miRoox
+modified: 20251111133654427
+modifier: miRoox
+tags: [[Unicode 等价关系]]
+title: Unicode 兼容等价
+tmap.id: 6e6fa525-f1c3-4d81-9baf-d5d477e8bc6a
+type: text/vnd.tiddlywiki
+
+''兼容等价''（Compatibility Equivalence）是一种弱类型的等价关系，和规范等价类似要求相同的抽象字符，但允许有不同的视觉表现或行为。
+
+| !子类型 | !示例 |
+| 字体变体 | ℌ	→	H |
+|~| ℍ	→	H |
+| 断行差异 | [NBSP]	→	[SPACE] |
+| 位置变体形式 | ﻉ	→	‌ع‌ |
+|~| ﻊ	→	‌ع‌ |
+|~| ﻋ	→	‌ع‌ |
+|~| ﻌ	→	‌ع‌ |
+| 带圈变体 | ①	→	1 |
+| 宽度变体 | ｶ	→	カ |
+| 旋转变体 | ︷	→	{ |
+|~| ︸	→	} |
+| 上标下标 | i⁹	→	i9 |
+|~| i₉	→	i9 |
+| 方形字符 | ㌀	→	アパート |
+| 分数 | ¼	→	1/4 |
+| 其它 | ǆ	→	dž |
