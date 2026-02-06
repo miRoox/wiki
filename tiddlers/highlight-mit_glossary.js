@@ -13,14 +13,14 @@ hljs.registerLanguage('mit-glossary', function(hljs) {
 
   const TARGET_TERM = {
     className: 'target-term',
-    begin: /(?<=[ \t])(?!\s*[#\/])/,
-    end: /(?=\s*[#\/]|$)/,
+    begin: /(?<=[ \t])(?!^\s*(#|\/\/))/,
+    end: /(?=[ \t]*(#|\/\/|$))/,
     relevance: 5
   };
 
   const COMMENT = {
     className: 'comment',
-    begin: /[#\/]/,
+    begin: /#|\/\//,
     end: /$/,
     contains: []
   };
