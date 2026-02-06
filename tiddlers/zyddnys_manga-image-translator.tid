@@ -1,0 +1,32 @@
+aliases: 漫画/图片翻译器 manga-image-translator
+caption: manga-image-translator
+created: 20260206123027018
+creator: miRoox
+modified: 20260206123731047
+modifier: miRoox
+tags: 软件 TODO
+title: zyddnys/manga-image-translator
+tmap.id: 2b5086d5-408a-4fa9-bab2-8e2e926be3df
+type: text/vnd.tiddlywiki
+
+''漫画/图片翻译器''旨在翻译那些不太可能有人专门翻译的图片，例如各种群聊、图站上的漫画/图片，让像我这样的日语小白也能大致理解图片内容。
+主要支持日语，同时也支持简繁中文、英文及其他20种小语言。
+支持图片修复（去字）和嵌字。
+
+!! 安装
+
+!!! Docker
+
+要求：
+
+* [[Docker]] (使用 CUDA / GPU 加速需要 19.03+ 版本)
+* [[Docker Compose]] (可选，如果您想使用 demo/doc 文件夹中的文件)
+* Nvidia Container Runtime (可选，如果您想使用 CUDA)
+
+镜像为 `zyddnys/manga-image-translator:main`
+
+
+
+!! 链接
+
+* [[GitHub|https://github.com/zyddnys/manga-image-translator/]]
