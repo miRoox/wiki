@@ -5,7 +5,7 @@ created: 20190926103757903
 creator: miRoox
 icon: avatar.jpg
 list-before: 
-modified: 20250524102037942
+modified: 20260206143852347
 modifier: miRoox
 tags: 人物
 title: miRoox
@@ -40,3 +40,12 @@ type: text/vnd.tiddlywiki
 * 知乎：[ext[miroox|https://www.zhihu.com/people/lu-yong-8-79]]
 * 爱发电：[ext[miRoox|https://afdian.com/a/miRoox]]
 * ~~永硕网盘：[ext[magus|http://magus.ys168.com/]]~~
+
+
+<details>
+
+!! 作品
+
+<<list-links "[field:author<currentTiddler>]">>
+
+</details>

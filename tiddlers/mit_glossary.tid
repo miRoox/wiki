@@ -1,0 +1,16 @@
+created: 20260206144348390
+creator: miRoox
+modified: 20260206144550199
+modifier: miRoox
+tags: 文件格式 文本文件
+title: mit_glossary
+tmap.id: 55b78c5f-dce9-4dca-b37b-c3f26d5884ec
+type: text/vnd.tiddlywiki
+
+[[manga-image-translator|zyddnys/manga-image-translator]] 支持的一种翻译术语表格式
+
+```
+# MIT 格式术语表 (格式：源词[至少一个Tab/空格]目标词[至少一个Tab/空格][#注释 或 //注释])  
+# MIT Format Glossary (Format: source term[at least one Tab/Space]target term[at least one Tab/Space][#comment or //comment])  
+# 使用“_”连接左侧单词使得它们作为一个源词的整体（Use "_" to join words so that they form a single entity as a source term）
+```
