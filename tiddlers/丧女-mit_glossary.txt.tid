@@ -1,3 +1,13 @@
+created: 20260206144018381
+creator: miRoox
+modified: 20260206154822926
+modifier: miRoox
+tags: mit_glossary 文本文件
+title: 丧女-mit_glossary.txt
+tmap.id: ddbbcf9d-a14b-4c46-8096-d731fb380876
+type: text/vnd.tiddlywiki
+
+```mit-glossary
 # MIT 格式术语表 (格式：源词[至少一个Tab/空格]目标词[至少一个Tab/空格][#注释 或 //注释])  
 # MIT Format Glossary (Format: source term[at least one Tab/Space]target term[at least one Tab/Space][#comment or //comment])  
 # 使用“_”连接左侧单词使得它们作为一个源词的整体（Use "_" to join words so that they form a single entity as a source term）
@@ -11,7 +21,6 @@ Ruo	Ruo #同人作者
 ともこ	智子 #黑木智子名字读音
 くろきともこ	黑木智子 #黑木智子全名读音
 もこっち	小丧 #成濑优对的智子昵称，常译为小丧（玩梗もじょ丧女）
-もつこすちん	智子亲 #motsukosuchin
 黒木さん	黑木同学 #同学称呼黑木智子/黑木智贵
 黒木さ—ん	黑木—同学 #同学称呼黑木智子/黑木智贵
 くろ	小黑 #根元阳菜对黑木智子的昵称
@@ -52,7 +61,7 @@ Ruo	Ruo #同人作者
 ねもとひな	根元阳菜 #读音
 ねもと	根元 #姓氏
 ひな	阳菜 #简称
-ネモ	尼姆 #智子对阳菜的昵称
+ネモ	尼姆 #智子对根元阳菜的昵称
 
 内笑美莉	内笑美莉 #同学，脸像颜文字一样简洁
 内	内 #内笑美莉的姓
@@ -133,6 +142,8 @@ Ruo	Ruo #同人作者
 きーちゃん	小希心 # 里崎希心的昵称
 
 南小陽	南小阳
+南	南
+小陽	小阳
 キバコ	虎牙妹 #智子对南小阳的外号
 キバ子	虎牙妹 #智子对南小阳的外号
 小陽ちゃん	小阳阳 #南小阳的外号
@@ -171,3 +182,4 @@ Ruo	Ruo #同人作者
 伊志嶺潤	伊志岭润 #声优
 
 涌井美月	涌井美月 #新学生会长
+```
