@@ -1,0 +1,9 @@
+/* highlight.js MIT Glossary 样式 */
+.hljs-source-term {
+  color: #22863a; /* 绿色 - 源词 */
+  font-weight: bold;
+}
+
+.hljs-target-term {
+  color: #005cc5; /* 蓝色 - 目标词 */
+}
