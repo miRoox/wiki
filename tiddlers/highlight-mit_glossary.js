@@ -1,39 +1,28 @@
 /*
 MIT Glossary Format Syntax Highlighting for highlight.js
+Simple and effective version
 */
 
 hljs.registerLanguage('mit-glossary', function(hljs) {
-  const SOURCE_TERM = {
-    className: 'source-term',
-    begin: /^[^\s#\/]+/,
-    end: /(?=\s)/,
-    excludeEnd: true,
-    relevance: 10
-  };
-
-  const TARGET_TERM = {
-    className: 'target-term',
-    begin: /(?<=[ \t])(?!^\s*(#|\/\/))/,
-    end: /(?=[ \t]*(#|\/\/|$))/,
-    relevance: 5
-  };
-
-  const COMMENT = {
-    className: 'comment',
-    begin: /#|\/\//,
-    end: /$/,
-    contains: []
-  };
-
   return {
     name: 'MIT Glossary Format',
     case_insensitive: false,
     contains: [
-      SOURCE_TERM,
-      TARGET_TERM,
-      COMMENT
-    ],
-    // 支持续行符（如果一行太长）
-    disableAutodetect: false
+      // 源词
+      {
+        className: 'source-term',
+        match: /^[^\s#\/]+/
+      },
+      // 目标词（确保不匹配到注释或跨行）
+      {
+        className: 'target-term',
+        match: /(?<=\s)(?![#\/])(?:[^\s#\/]+(?:\s+[^\s#\/]+)*)/
+      },
+      // 注释
+      {
+        className: 'comment',
+        match: /[#\/].*$/
+      }
+    ]
   };
 });
