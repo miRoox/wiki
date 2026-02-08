@@ -1,0 +1,11 @@
+aliases: 模块
+created: 20260208131512837
+creator: miRoox
+modified: 20260208131811821
+modifier: miRoox
+tags: WebAssembly TODO
+title: WebAssembly：模块
+tmap.id: 5aad1a03-18e0-4350-a272-da796ed0c8c0
+type: text/vnd.tiddlywiki
+
+''模块''（Module）表示一个已经被浏览器编译为可执行机器码的 [[WebAssembly]] 二进制代码。一个模块是无状态的，并且像一个二进制大对象（`Blob`）一样在 Window 和 Worker 之间进行共享（通过 `postMessage()` 函数）。一个模块能够像一个 ES 的模块一样声明导入和导出。

@@ -1,6 +1,7 @@
+aliases: S表达式
 created: 20260208125853228
 creator: miRoox
-modified: 20260208125956108
+modified: 20260208132319649
 modifier: miRoox
 tags: WebAssembly文本格式 TODO
 title: WebAssembly文本格式：S表达式
@@ -9,4 +10,22 @@ type: text/vnd.tiddlywiki
 
 不论是二进制还是文本格式，[[WebAssembly]] 代码中的基本单元是一个模块。在[[文本格式|WebAssembly文本格式]]中，一个模块被表示为一个大的 [[S表达式]]。
 
+!! 示例
 
+一个最简单的模块：
+
+```wasm
+(module)
+```
+
+一个包含一个导出函数的模块：
+
+```wasm
+(module
+  (func $add (param $lhs i32) (param $rhs i32) (result i32)
+    local.get $lhs
+    local.get $rhs
+    i32.add)
+  (export "add" (func $add))
+)
+```

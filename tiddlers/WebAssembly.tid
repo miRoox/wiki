@@ -1,8 +1,9 @@
+aliases: WebAssembly wasm
 created: 20260208122709084
 creator: miRoox
-modified: 20260208125515628
+modified: 20260208132313349
 modifier: miRoox
-tags: TODO 计算机语言
+tags: TODO 计算机语言 汇编语言
 title: WebAssembly
 tmap.id: 31078adf-2ef4-473e-b35c-8a3c581bd35d
 type: text/vnd.tiddlywiki
@@ -13,7 +14,7 @@ WebAssembly 的模块可以被导入的到一个 Web（或 [[Node.js]]）App 中
 
 !! 核心概念
 
-* ''模块''：表示一个已经被浏览器编译为可执行机器码的 WebAssembly 二进制代码。一个模块是无状态的，并且像一个二进制大对象（`Blob`）一样在 Window 和 Worker 之间进行共享（通过 `postMessage()` 函数）。一个模块能够像一个 ES 的模块一样声明导入和导出。
+* [[模块|WebAssembly：模块]]：表示一个已经被浏览器编译为可执行机器码的 WebAssembly 二进制代码。一个模块是无状态的，并且像一个二进制大对象（`Blob`）一样在 Window 和 Worker 之间进行共享（通过 `postMessage()` 函数）。一个模块能够像一个 ES 的模块一样声明导入和导出。
 * ''内存''：一个可变长的 ArrayBuffer。本质上是连续的字节数组，WebAssembly 的低级内存存取指令可以对它进行读写操作。
 * ''表格''：一个可变长的类型化数组。表格中的项存储了不能作为原始字节存储在内存里的对象的引用（为了安全和可移植性的原因）。
 * ''实例''：一个模块及其在运行时使用的所有状态，包括内存、表格和一系列导入值。一个实例就像一个已经被加载到一个拥有一组特定导入的特定的全局变量的 ES 模块。

@@ -1,0 +1,19 @@
+aliases: 函数
+created: 20260208132326422
+creator: miRoox
+modified: 20260208133932302
+modifier: miRoox
+tags: WebAssembly文本格式 TODO
+title: WebAssembly文本格式：函数
+tmap.id: 5c689867-fdbf-4769-858c-4e9743cbb6cb
+type: text/vnd.tiddlywiki
+
+''函数''（function）是[[模块|WebAssembly：模块]]的主要组成成分，函数具有下列的伪代码结构：
+
+```wasm
+( func <signature> <locals> <body> )
+```
+
+* [[签名|WebAssembly文本格式：函数签名]]（signature）声明函数需要的参数以及函数的返回值。
+* [[局部变量|WebAssembly文本格式：局部变量]]（locals）像 JavaScript 中的变量，但是显式的声明了类型。
+* ''函数体''（body）是一个低级指令的线性列表。
