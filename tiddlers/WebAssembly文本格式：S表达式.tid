@@ -1,0 +1,12 @@
+created: 20260208125853228
+creator: miRoox
+modified: 20260208125956108
+modifier: miRoox
+tags: WebAssembly文本格式 TODO
+title: WebAssembly文本格式：S表达式
+tmap.id: a984a531-f7ca-49f3-b041-0efb49b9435b
+type: text/vnd.tiddlywiki
+
+不论是二进制还是文本格式，[[WebAssembly]] 代码中的基本单元是一个模块。在[[文本格式|WebAssembly文本格式]]中，一个模块被表示为一个大的 [[S表达式]]。
+
+

@@ -1,0 +1,13 @@
+aliases: WebAssembly wasm
+created: 20260208122237008
+creator: miRoox
+modified: 20260208125649161
+modifier: miRoox
+tags: 计算机语言 TODO WebAssembly
+title: WebAssembly文本格式
+tmap.id: c48c8e79-22af-4d6e-b19b-2c071a7ca28a
+type: text/vnd.tiddlywiki
+
+为了能够让人类阅读和编辑 [[WebAssembly]]，wasm 二进制格式提供了相应的文本表示。这是一种用来在文本编辑器、浏览器开发者工具等工具中显示的中间形式。本质上，这种文本形式更类似于处理器的汇编指令。
+
+

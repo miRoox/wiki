@@ -1,0 +1,14 @@
+created: 20260208124214182
+creator: miRoox
+modified: 20260208124351147
+modifier: miRoox
+tags: 编译器 TODO 开放源代码
+title: Emscripten
+tmap.id: afd40b76-1158-403e-a47e-fcbc45b74ff4
+type: text/vnd.tiddlywiki
+
+''Emscripten''是一个到[[WebAssembly]]的开源编译工具链
+
+!! 链接
+
+* [[文档|https://emscripten.org/docs/index.html]]
