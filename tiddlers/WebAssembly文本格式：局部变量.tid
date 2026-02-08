@@ -1,0 +1,35 @@
+aliases: 局部变量
+created: 20260208133825147
+creator: miRoox
+modified: 20260208134221506
+modifier: miRoox
+tags: WebAssembly文本格式：函数 TODO
+title: WebAssembly文本格式：局部变量
+tmap.id: 457fa94c-b702-4ea3-9961-dde921269a6a
+type: text/vnd.tiddlywiki
+
+在[[签名|WebAssembly文本格式：函数签名]]的后面是带有类型的''局部变量''，格式为 `(local <类型>)`。函数调用可以通过参数实参值对局部变量进行初始化。
+
+局部变量和参数能够在函数体中使用 `local.get` 和 `local.set` 指令进行读写。`local.get`/`local.set` 指令使用数字索引来指向将被存取的条目：按照它们的声明顺序，参数在前，局部变量在后。
+
+
+例如，对于如下函数
+
+```wasm
+(func (param i32) (param f32) (local f64)
+  local.get 0
+  local.get 1
+  local.get 2)
+```
+
+* `local.get 0` 会得到 `i32` 类型的参数（第一个）
+* `local.get 1` 会得到 `f32` 类型的参数（第二个）
+* `local.get 2` 会得到 `f64` 类型的局部变量
+
+由于使用数字索引来指向某个条目容易让人混淆，因此，也可以通过别名的方式来访问它们，方法就是在类型声明的前面添加一个使用美元符号（`$`）作为前缀的名字。例如：
+
+```wasm
+(func (param $p1 i32) (param $p2 f32) (local $loc i32) …)
+```
+
+就可以使用 `local.get $p1` 就可以代替 `local.get 0`

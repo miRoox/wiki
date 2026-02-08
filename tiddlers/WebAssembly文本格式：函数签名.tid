@@ -1,0 +1,29 @@
+aliases: 函数签名
+created: 20260208133630994
+creator: miRoox
+modified: 20260208133746157
+modifier: miRoox
+tags: WebAssembly文本格式：函数 TODO
+title: WebAssembly文本格式：函数签名
+tmap.id: 6f3f3415-e831-44fe-a17a-67de657598e2
+type: text/vnd.tiddlywiki
+
+''签名''是由一系列参数类型声明，及其后面的返回值类型声明列表组成。值得注意的是：
+
+* 没有 (result) 意味着函数不返回任何东西。
+* 在当前版本中，最多拥有一个返回类型，但是以后可能会放开这个限制到任意数量。
+
+每一个参数都有一个显式声明的类型，wasm 当前有四个可用类型：
+
+* `i32`：32 位整数
+* `i64`：64 位整数
+* `f32`：32 位浮点数
+* `f64`：64 位浮点数
+
+参数格式为 `(param <类型>)`，返回值格式为 `(result <类型>)`。
+
+例如，接受两个 32 位整数，返回一个 64 位浮点数的函数可以写作
+
+```wasm
+(func (param i32) (param i32) (result f64) ... )
+```
