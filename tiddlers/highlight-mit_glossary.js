@@ -16,12 +16,12 @@ hljs.registerLanguage('mit-glossary', function(hljs) {
       // 目标词（确保不匹配到注释或跨行）
       {
         className: 'target-term',
-        match: /(?<=\s)(?![#\/])(?:[^\s#\/]+(?:\s+[^\s#\/]+)*)/
+        match: /(?<=[ \t])(?!(#|\/\/))(?:[^\s#\/]+(?:[ \t]+[^\s#\/]+)*)/
       },
       // 注释
       {
         className: 'comment',
-        match: /[#\/].*$/
+        match: /(#|\/\/).*$/
       }
     ]
   };

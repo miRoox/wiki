@@ -8,7 +8,7 @@ const host = process.env.HOST
 const port = process.env.WIKIPORT ?? '7777'
 const password = process.env.WIKIPW
 
-const argv = ['--listen']
+const argv = ['--listen', 'root-tiddler=$:/core/save/lazy-all']
 
 if (host) {
     argv.push('host='+host)
