@@ -1,0 +1,31 @@
+created: 20260208122709084
+creator: miRoox
+modified: 20260208125515628
+modifier: miRoox
+tags: TODO 计算机语言
+title: WebAssembly
+tmap.id: 31078adf-2ef4-473e-b35c-8a3c581bd35d
+type: text/vnd.tiddlywiki
+
+''WebAssembly'' 是一种运行在现代 Web 浏览器中的新型代码，不仅提供新的性能特性，同时还在性能方面有着巨大提升。可以在现代的 Web 浏览器中运行——它是一种低级的类汇编语言，具有紧凑的二进制格式，可以接近原生的性能运行，并为诸如 [[C|C语言]]/[[C++]]、[[C#]] 和 [[Rust]] 等语言提供编译目标，以便它们可以在 Web 上运行。它也被设计为可以与 [[JavaScript]] 共存，允许两者一起工作。
+
+WebAssembly 的模块可以被导入的到一个 Web（或 [[Node.js]]）App 中，并且暴露出供 JavaScript 使用的 WebAssembly 函数。JavaScript 框架不但可以使用 WebAssembly 获得巨大性能优势和新特性，而且还能使得各种功能保持对 Web 开发者的易用性。
+
+!! 核心概念
+
+* ''模块''：表示一个已经被浏览器编译为可执行机器码的 WebAssembly 二进制代码。一个模块是无状态的，并且像一个二进制大对象（`Blob`）一样在 Window 和 Worker 之间进行共享（通过 `postMessage()` 函数）。一个模块能够像一个 ES 的模块一样声明导入和导出。
+* ''内存''：一个可变长的 ArrayBuffer。本质上是连续的字节数组，WebAssembly 的低级内存存取指令可以对它进行读写操作。
+* ''表格''：一个可变长的类型化数组。表格中的项存储了不能作为原始字节存储在内存里的对象的引用（为了安全和可移植性的原因）。
+* ''实例''：一个模块及其在运行时使用的所有状态，包括内存、表格和一系列导入值。一个实例就像一个已经被加载到一个拥有一组特定导入的特定的全局变量的 ES 模块。
+
+!! 如何使用 WebAssembly
+
+* 直接使用[[WebAssembly文本格式]]编写，并使用 `wat2wasm` 工具转换为二进制；
+* 使用[[Emscripten]] 移植一个 C/C++ 应用程序；
+* 编写以 WebAssembly 为目标的 Rust 代码；
+* 使用 AssemblyScript；
+
+!! 链接
+
+* [[官网|https://webassembly.org/]]
+* [[MDN WebAssembly 介绍|https://developer.mozilla.org/zh-CN/docs/WebAssembly/Guides]]
