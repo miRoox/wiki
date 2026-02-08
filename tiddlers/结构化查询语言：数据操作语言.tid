@@ -1,0 +1,12 @@
+aliases: 数据操作语言 DML
+caption: 数据操作语言
+created: 20260208023937915
+creator: miRoox
+modified: 20260208024218879
+modifier: miRoox
+tags: 结构化查询语言 TODO
+title: 结构化查询语言：数据操作语言
+tmap.id: 966a8edb-a059-43a0-8b1d-7ad43a28e61b
+type: text/vnd.tiddlywiki
+
+''数据操作语言''（Data Manipulation Language, DML）指的是[[SQL|结构化查询语言]]中的查询和更新指令

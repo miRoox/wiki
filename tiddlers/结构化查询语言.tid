@@ -1,7 +1,7 @@
 aliases: SQL
 created: 20240909035622205
 creator: miRoox
-modified: 20250517135028161
+modified: 20260208023914203
 modifier: miRoox
 tags: 计算机语言 TODO 分类 领域特定语言 查询语言 信息检索
 title: 结构化查询语言
@@ -9,3 +9,5 @@ tmap.id: 47d55964-dc92-406f-9db4-9897db09308f
 type: text/vnd.tiddlywiki
 
 ''结构化查询语言''（Structured Query Language，SQL）是一种[[领域特定语言]]用于管理[[关系数据库管理系统]]（RDBMS），或在[[关系流数据管理系统]]（RDSMS）中进行流处理。
+
+SQL 是一门 ANSI 标准下的[[计算机语言]]，用来访问和操作[[数据库]]系统。SQL 语句用于取回和更新数据库中的数据。不幸地是，存在着很多不同版本的 SQL 语言，但是为了与 ANSI 标准相兼容，它们通常以相同的方式支持 ANSI 标准规定的语法语义作为[[子集]]。

@@ -1,0 +1,12 @@
+aliases: 数据定义语言 DDL
+caption: 数据定义语言
+created: 20260208024351740
+creator: miRoox
+modified: 20260208024512973
+modifier: miRoox
+tags: 结构化查询语言 TODO
+title: 结构化查询语言：数据定义语言
+tmap.id: 7ed71d14-567e-4286-9bd1-fdbc78acb97d
+type: text/vnd.tiddlywiki
+
+''数据定义语言''（Data Definition Language, DDL）指的是[[SQL|结构化查询语言]]中的定义关系模式、删除关系、修改关系模式以及创建数据库中的各种对象的部分。
