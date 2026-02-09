@@ -22,15 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          submodules: false   # 先安全拉下來
-      - name: Workaround - Remove broken nested submodule reference
-        run: |
-          cd wikilabs-pugins
-          git rm --cached wikilabs/tw5-checklist || true   # 移除 git index 裡的 gitlink
-          rm -rf wikilabs/tw5-checklist                    # 刪掉目錄（如果已存在）
-          git config --local --unset submodule.tw5-checklist.url || true
-          git config --local --unset submodule.tw5-checklist.active || true
-          git submodule update --init
+          submodules: true
       - name: Use Node.js
         uses: actions/setup-node@v6
         with:
