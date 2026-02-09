@@ -1,8 +1,8 @@
 caption: 作用域
 created: 20190923090027595
 creator: miRoox
-list: Wolfram语言：Module Wolfram语言：Block Wolfram语言：With DynamicModule（Wolfram语言）
-modified: 20240914134043694
+list: Wolfram语言：Module Wolfram语言：Block Wolfram语言：With Wolfram语言：DynamicModule
+modified: 20260209123028109
 modifier: miRoox
 tags: Wolfram语言 作用域
 title: Wolfram语言：作用域
@@ -19,4 +19,4 @@ Wolfram语言包括两类作用域：[[静态作用域]]和[[动态作用域]]�
 {{Wolfram语言：Module}}
 {{Wolfram语言：Block}}
 {{Wolfram语言：With}}
-{{DynamicModule（Wolfram语言）}}
+{{Wolfram语言：DynamicModule}}
