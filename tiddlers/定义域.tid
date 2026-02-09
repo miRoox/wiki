@@ -1,9 +1,10 @@
 aliases: 原像集 Domain
 created: 20240905093021296
 creator: miRoox
-modified: 20250925141804074
+modified: 20260209153312260
 modifier: miRoox
-tags: 集合
+parent: 映射
+tags: 集合 映射
 title: 定义域
 tmap.id: 0319722a-dbd1-4952-9baa-1e9e9a8ecf21
 type: text/vnd.tiddlywiki

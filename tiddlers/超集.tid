@@ -1,8 +1,9 @@
 aliases: 父集 母集
 created: 20240906065405144
 creator: miRoox
-modified: 20240906065750676
+modified: 20260209153143230
 modifier: miRoox
+parent: 集合
 tags: 集合 偏序关系
 title: 超集
 tmap.id: 2afab7d1-827a-409e-9fee-3cf67e4f47e2

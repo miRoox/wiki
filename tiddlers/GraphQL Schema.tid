@@ -1,8 +1,9 @@
 aliases: GraphQL架构 Schema
 created: 20250101052906661
 creator: miRoox
-modified: 20250101053249333
+modified: 20260209150052193
 modifier: miRoox
+parent: GraphQL
 tags: GraphQL TODO
 title: GraphQL Schema
 tmap.id: c05556d5-d3f5-4786-99b9-718f53f42679

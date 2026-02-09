@@ -1,8 +1,9 @@
 aliases: RDF
 created: 20250505143202846
 creator: miRoox
-modified: 20250505143428477
+modified: 20260209150610553
 modifier: miRoox
+parent: 本体语言
 tags: 本体语言 TODO 可扩展标记语言
 title: 资源描述框架
 tmap.id: fcf8982a-9bb4-453c-9733-598dec4c2ac0

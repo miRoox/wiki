@@ -1,7 +1,8 @@
 created: 20250618104742263
 creator: miRoox
-modified: 20250619064247122
+modified: 20260209142715873
 modifier: miRoox
+parent: PostgreSQL
 tags: 代码片段 PostgreSQL
 title: PostgreSQL删除数据库的所有表
 tmap.id: 6bbaf3eb-404b-4bc9-a964-9911ab93a81f

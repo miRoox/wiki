@@ -1,8 +1,9 @@
 aliases: iff 反异或 当且仅当
 created: 20240906052941445
 creator: miRoox
-modified: 20240912131853622
+modified: 20260209130810047
 modifier: miRoox
+parent: 逻辑运算
 tags: 逻辑运算 TODO 二元运算
 title: 逻辑双条件
 tmap.id: 2fffef68-de72-47d5-b800-484b75cafc91

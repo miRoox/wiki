@@ -2,8 +2,9 @@ aliases: JSON
 caption: JSON
 created: 20240924113445773
 creator: miRoox
-modified: 20241210133901677
+modified: 20260209152534611
 modifier: miRoox
+parent: 文件格式
 tags: 序列化 TODO 标记语言 文件格式
 title: JavaScript对象表示法
 tmap.id: 99af19c5-6562-47c6-941f-5150c1b32138

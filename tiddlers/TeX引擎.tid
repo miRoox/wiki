@@ -2,8 +2,9 @@ caption: 引擎
 created: 20190924075227969
 creator: miRoox
 list: [[Knuth TeX]] e-TeX pdfTeX LuaTeX XeTeX
-modified: 20240910074337781
+modified: 20260209151418786
 modifier: miRoox
+parent: TeX
 tags: TeX 分类
 title: TeX引擎
 tmap.id: 845dc9ad-0289-479a-bbd9-0fcebbd31a8b

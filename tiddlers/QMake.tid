@@ -1,9 +1,10 @@
 caption: QMake
 created: 20191205081227805
 creator: miRoox
-modified: 20250604023548190
+modified: 20260209152612114
 modifier: miRoox
-tags: TODO 计算机语言 构建自动化 开发工具
+parent: Qt
+tags: TODO 计算机语言 构建自动化 开发工具 Qt
 title: QMake
 tmap.id: 7716dad2-0394-4725-800c-3b4c42a34a51
 type: text/vnd.tiddlywiki

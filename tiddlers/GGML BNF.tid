@@ -1,8 +1,9 @@
 aliases: GBNF
 created: 20241222140958724
 creator: miRoox
-modified: 20241231120259906
+modified: 20260209150213482
 modifier: miRoox
+parent: 巴科斯-诺尔范式
 tags: 巴科斯-诺尔范式 形式文法 领域特定语言
 title: GGML BNF
 tmap.id: e2abc66f-d990-4e54-9928-7e922450da3e

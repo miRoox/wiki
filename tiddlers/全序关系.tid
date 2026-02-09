@@ -1,8 +1,9 @@
 aliases: 线性顺序 全序
 created: 20240612033817121
 creator: miRoox
-modified: 20250318132930712
+modified: 20260209133703832
 modifier: miRoox
+parent: 序关系
 tags: 二元关系 序关系 序理论
 title: 全序关系
 tmap.id: 4fbd3164-e690-4187-9ee2-7821b7072aeb

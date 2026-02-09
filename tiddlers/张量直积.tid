@@ -2,8 +2,9 @@ aliases: 直积
 caption: 直积
 created: 20191114113107011
 creator: miRoox
-modified: 20240822115121549
+modified: 20260209132414243
 modifier: miRoox
+parent: 张量运算
 tags: TODO 张量运算 二元运算
 title: 张量直积
 tmap.id: 096ab9e5-19ba-4e0c-8901-7376614229b6

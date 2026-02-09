@@ -2,8 +2,9 @@ aliases: 文档类型定义 DTD
 caption: 文档类型定义
 created: 20240924101708998
 creator: miRoox
-modified: 20240924102350970
+modified: 20260209152425303
 modifier: miRoox
+parent: [[XML schema语言]]
 tags: 可扩展标记语言 TODO [[XML schema语言]]
 title: XML:文档类型定义
 tmap.id: 0125c7f9-c237-4e9b-a93b-d5a59d675b07

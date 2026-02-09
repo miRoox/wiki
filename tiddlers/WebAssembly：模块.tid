@@ -1,8 +1,10 @@
 aliases: 模块
+caption: 模块
 created: 20260208131512837
 creator: miRoox
-modified: 20260208131811821
+modified: 20260209152003265
 modifier: miRoox
+parent: WebAssembly
 tags: WebAssembly TODO
 title: WebAssembly：模块
 tmap.id: 5aad1a03-18e0-4350-a272-da796ed0c8c0

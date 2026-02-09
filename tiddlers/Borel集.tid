@@ -1,9 +1,10 @@
 aliases: 博雷尔集
 created: 20250518143830518
 creator: miRoox
-modified: 20250522132858287
+modified: 20260209153744800
 modifier: miRoox
-tags: 集合 Borel代数
+parent: 测度论
+tags: 集合 Borel代数 测度论
 title: Borel集
 tmap.id: 5ca2ee14-fdb7-4e9d-83f4-eddcd8541f52
 type: text/vnd.tiddlywiki

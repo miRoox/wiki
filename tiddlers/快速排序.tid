@@ -1,8 +1,9 @@
 caption: 快速排序
 created: 20191114123511316
 creator: miRoox
-modified: 20240912140210309
+modified: 20260209154401122
 modifier: miRoox
+parent: 排序算法
 tags: TODO 算法 排序算法
 title: 快速排序
 tmap.id: 7acbb7e2-e4e2-42d1-af13-2f15ac50f2f4

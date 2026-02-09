@@ -1,9 +1,10 @@
 caption: 正交多项式
 created: 20191122085248335
 creator: miRoox
-modified: 20240909132207995
+modified: 20260209125525547
 modifier: miRoox
-tags: TODO 函数 分类
+parent: 多项式
+tags: TODO 函数 分类 多项式
 title: 正交多项式
 tmap.id: 05726760-7787-455a-a4f8-6516da324047
 type: text/vnd.tiddlywiki

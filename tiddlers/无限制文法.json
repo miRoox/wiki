@@ -4,11 +4,12 @@
         "creator": "miRoox",
         "text": "在[[形式语言理论]]中，''无限制文法''是对文法的产生式左右两侧都没有限制的[[形式文法]]，又称作''0-型文法''。",
         "title": "无限制文法",
-        "modified": "20250730025151359",
+        "modified": "20260209131520434",
         "modifier": "miRoox",
         "tags": "乔姆斯基谱系 形式文法 TODO",
         "type": "text/vnd.tiddlywiki",
         "aliases": "0-型文法 ",
-        "tmap.id": "79af413a-1156-46dd-8442-be8170ffa638"
+        "tmap.id": "79af413a-1156-46dd-8442-be8170ffa638",
+        "parent": "乔姆斯基谱系"
     }
 ]

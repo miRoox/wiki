@@ -1,9 +1,10 @@
 caption: 数系
 created: 20190918113844565
 creator: miRoox
-list: 自然数 整数 有理数 实数 复数
-modified: 20240828153917917
+list: 自然数 整数 正数 负数 偶数 奇数 质数 有理数 无理数 代数数 超越数 实数 虚数 复数 四元数
+modified: 20260209125925394
 modifier: miRoox
+parent: 数学
 tags: 数学 分类
 title: 数系
 tmap.id: 3935221a-26e5-4dae-81ee-a294d5c1e0c5

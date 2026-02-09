@@ -1,8 +1,9 @@
 aliases: 细胞自动机
 created: 20240925120155287
 creator: miRoox
-modified: 20240925120224941
+modified: 20260209131721844
 modifier: miRoox
+parent: 复杂性理论
 tags: 计算模型 TODO 复杂性理论
 title: 元胞自动机
 tmap.id: cfb4b7db-9895-4364-9505-e5526c19ed19

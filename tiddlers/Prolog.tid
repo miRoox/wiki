@@ -1,8 +1,9 @@
 created: 20250505084051665
 creator: miRoox
-modified: 20250518095918840
+modified: 20260209150852117
 modifier: miRoox
-tags: 计算机语言 TODO
+parent: 编程语言
+tags: 计算机语言 TODO 编程语言
 title: Prolog
 tmap.id: e9c9bf08-ad3e-4250-a53e-78e1a81f55e5
 type: text/vnd.tiddlywiki

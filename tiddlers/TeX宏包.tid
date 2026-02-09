@@ -2,8 +2,9 @@ caption: 宏包
 created: 20190926095150664
 creator: miRoox
 list: Beamer BibTeX BibLaTeX [[PGF & TikZ]]
-modified: 20240910074313766
+modified: 20260209151429578
 modifier: miRoox
+parent: TeX
 tags: TeX 分类
 title: TeX宏包
 tmap.id: 4f571d16-6975-44e6-9048-80520ff036e4

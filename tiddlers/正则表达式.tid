@@ -2,8 +2,9 @@ aliases: RE regex regexp
 caption: 正则表达式
 created: 20190918115454220
 creator: miRoox
-modified: 20241228131735338
+modified: 20260209131601905
 modifier: miRoox
+parent: 计算机语言
 tags: TODO 计算机语言 分类 形式语言
 title: 正则表达式
 tmap.id: 3107dac8-fb6e-4f20-bf96-5e6449109517

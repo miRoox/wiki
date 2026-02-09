@@ -1,10 +1,38 @@
 created: 20250624132755970
 creator: miRoox
-modified: 20250624132810301
+modified: 20260209143405768
 modifier: miRoox
-tags: 分类
+parent: 附录
+tags: 附录
 title: 翻译作品
 tmap.id: 2281450e-b963-451e-bddc-f42fc7e2e6c4
 type: text/vnd.tiddlywiki
 
-翻译的作品
+
+<table>
+<thead>
+<th>
+文章
+</th>
+<th>
+原作者
+</th>
+</thead>
+<tbody>
+<$list filter="[tag[翻译作品]]">
+<tr>
+<td>
+<$link/>
+</td>
+<td>
+<$list filter="[all[current]has[author]]">
+<$link to={{!!author}}><$view field="author"/></$link>
+</$list>
+<$list filter="[all[current]!has[author]]">
+<$text text="佚名"/>
+</$list>
+</td>
+</tr>
+</$list>
+</tbody>
+</table>

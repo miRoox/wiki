@@ -1,8 +1,9 @@
 aliases: wll-rs
 created: 20240924092121847
 creator: miRoox
-modified: 20240930062017307
+modified: 20260209145244285
 modifier: miRoox
+parent: 参与的项目
 tags: 参与的项目
 title: 用于 Rust 的 Wolfram LibraryLink 接口
 tmap.id: c4b80923-9f39-4aa5-8350-064924f06d4f

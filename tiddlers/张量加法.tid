@@ -2,8 +2,9 @@ aliases: 加法 直和
 caption: 加法
 created: 20191114112521771
 creator: miRoox
-modified: 20240822115405165
+modified: 20260209132341143
 modifier: miRoox
+parent: 张量运算
 tags: 张量运算 二元运算 加法
 title: 张量加法
 tmap.id: f3069049-9a6b-44d7-b9fb-933888acd852

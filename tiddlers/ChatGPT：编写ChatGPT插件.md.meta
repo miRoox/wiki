@@ -1,8 +1,9 @@
 created: 20241010092224220
 creator: miRoox
-modified: 20241014083718598
+modified: 20260209143736766
 modifier: miRoox
-tags: 大语言模型会话 速记信息 HowTos ChatGPT
+parent: ChatGPT
+tags: 速记信息 HowTos ChatGPT
 title: ChatGPT：编写ChatGPT插件
 tmap.id: cce4c7fd-96a2-492b-a096-696dd475835f
 type: text/markdown

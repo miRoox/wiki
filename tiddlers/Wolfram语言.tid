@@ -3,8 +3,9 @@ caption: Wolfram
 created: 20190918114653828
 creator: miRoox
 list: Wolfram语言：表达式 Wolfram语言：计算控制 Wolfram语言：模式与规则 Wolfram语言：作用域 上下文（Wolfram语言） Wolfram语言：动态 Wolfram语言：排版 Trott-Strzebonski技巧 Villegas-Gayley技巧
-modified: 20250524100344687
+modified: 20260209145452895
 modifier: miRoox
+parent: 编程语言
 tags: 函数式语言 计算机语言 编程语言 [[Stephen Wolfram]]
 title: Wolfram语言
 tmap.id: 8ae25380-87fc-4763-a7e6-bb080e2dd098

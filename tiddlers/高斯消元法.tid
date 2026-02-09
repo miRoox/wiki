@@ -1,8 +1,9 @@
 caption: 高斯消元法
 created: 20191018021731701
 creator: miRoox
-modified: 20230316103711655
+modified: 20260209130727639
 modifier: miRoox
+parent: 线性代数
 tags: 算法 线性代数 TODO 计算数学
 title: 高斯消元法
 tmap.id: 11504b6f-394f-42d9-9b21-255d35b4b7c1

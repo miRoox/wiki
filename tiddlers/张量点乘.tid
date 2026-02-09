@@ -2,8 +2,9 @@ aliases: 点乘
 caption: 点乘
 created: 20191115075653655
 creator: miRoox
-modified: 20240822120247297
+modified: 20260209132330192
 modifier: miRoox
+parent: 张量运算
 tags: TODO 张量运算 二元运算
 title: 张量点乘
 tmap.id: 791289af-94d5-4a1a-84ff-d1424be62351

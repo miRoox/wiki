@@ -1,10 +1,11 @@
 created: 20250906090533746
 creator: miRoox
-modified: 20250906091213224
+modified: 20260209140118723
 modifier: miRoox
-tags: 数理逻辑 TODO 分类 逻辑
+parent: 逻辑系统
+tags: 数理逻辑 TODO 分类 逻辑系统
 title: 三值逻辑
 tmap.id: 7c433bde-a23d-4705-ba99-7a16a816cd59
 type: text/vnd.tiddlywiki
 
-''三值逻辑''（Three-Valued Logic, 3VL）是一种逻辑系统，扩展了传统二值逻辑（真、假），加入了第三个值，通常表示“未知”（Unknown, U）、“未定义”或“中间态”。
+''三值逻辑''（Three-Valued Logic, 3VL）是一种[[逻辑系统]]，扩展了传统二值逻辑（真、假），加入了第三个值，通常表示“未知”（Unknown, U）、“未定义”或“中间态”。
