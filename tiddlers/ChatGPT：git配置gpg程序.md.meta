@@ -1,8 +1,9 @@
 created: 20241015052058767
 creator: miRoox
-modified: 20241015052230590
+modified: 20260209143656830
 modifier: miRoox
-tags: HowTos 速记信息 ChatGPT 大语言模型会话
+parent: 大语言模型会话
+tags: HowTos ChatGPT 大语言模型会话
 title: ChatGPT：git配置gpg程序
 tmap.id: 0a345c7f-3619-4ee2-8004-ea85f46a2fb0
 type: text/markdown

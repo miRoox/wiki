@@ -2,8 +2,9 @@ aliases: PCRE
 caption: PCRE
 created: 20241228062015482
 creator: miRoox
-modified: 20241228062209627
+modified: 20260209131615500
 modifier: miRoox
+parent: 正则表达式
 tags: 正则表达式 TODO
 title: Perl兼容的正则表达式
 tmap.id: 9d5959ff-4912-4cb2-b6f3-853e63d66748

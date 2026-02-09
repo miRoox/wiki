@@ -2,8 +2,9 @@ aliases: 数据定义语言 DDL
 caption: 数据定义语言
 created: 20260208024351740
 creator: miRoox
-modified: 20260208024512973
+modified: 20260209150009348
 modifier: miRoox
+parent: 结构化查询语言
 tags: 结构化查询语言 TODO
 title: 结构化查询语言：数据定义语言
 tmap.id: 7ed71d14-567e-4286-9bd1-fdbc78acb97d

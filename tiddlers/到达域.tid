@@ -1,9 +1,10 @@
 aliases: 陪域 余定义域 上域 终域 共变域 目标集
 created: 20240905094300485
 creator: miRoox
-modified: 20240905095048908
+modified: 20260209153331147
 modifier: miRoox
-tags: 集合
+parent: 映射
+tags: 集合 映射
 title: 到达域
 tmap.id: 9b1b6968-896b-4d6d-80aa-79cb1a47cdd9
 type: text/vnd.tiddlywiki

@@ -1,9 +1,11 @@
 aliases: 局部变量
+caption: 局部变量
 created: 20260208133825147
 creator: miRoox
-modified: 20260208134221506
+modified: 20260209152203955
 modifier: miRoox
-tags: WebAssembly文本格式：函数 TODO
+parent: WebAssembly文本格式
+tags: WebAssembly文本格式：函数 TODO WebAssembly文本格式
 title: WebAssembly文本格式：局部变量
 tmap.id: 457fa94c-b702-4ea3-9961-dde921269a6a
 type: text/vnd.tiddlywiki

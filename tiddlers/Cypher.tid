@@ -1,8 +1,9 @@
 aliases: cypher
 created: 20250504141738732
 creator: miRoox
-modified: 20250505061040520
+modified: 20260209150029942
 modifier: miRoox
+parent: 查询语言
 tags: 领域特定语言 TODO 查询语言
 title: Cypher
 tmap.id: e02d1af4-1321-4955-b60e-569a6e1f8d01

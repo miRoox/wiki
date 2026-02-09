@@ -1,9 +1,11 @@
 aliases: 函数签名
+caption: 函数签名
 created: 20260208133630994
 creator: miRoox
-modified: 20260208133746157
+modified: 20260209152132725
 modifier: miRoox
-tags: WebAssembly文本格式：函数 TODO
+parent: WebAssembly文本格式：函数
+tags: WebAssembly文本格式：函数 TODO WebAssembly文本格式
 title: WebAssembly文本格式：函数签名
 tmap.id: 6f3f3415-e831-44fe-a17a-67de657598e2
 type: text/vnd.tiddlywiki

@@ -2,8 +2,9 @@ aliases: NN ANN 神经网络
 caption: 神经网络
 created: 20191116084558423
 creator: miRoox
-modified: 20250505044116459
+modified: 20260209131955707
 modifier: miRoox
+parent: 人工智能
 tags: TODO 人工智能 分类 计算模型
 title: 人工神经网络
 tmap.id: 0b4db550-b7e6-44f8-a104-bf929c8bdc74

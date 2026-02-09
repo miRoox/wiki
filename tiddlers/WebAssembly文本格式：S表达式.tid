@@ -1,8 +1,10 @@
 aliases: S表达式
+caption: S表达式
 created: 20260208125853228
 creator: miRoox
-modified: 20260208132319649
+modified: 20260209152026204
 modifier: miRoox
+parent: WebAssembly文本格式
 tags: WebAssembly文本格式 TODO
 title: WebAssembly文本格式：S表达式
 tmap.id: a984a531-f7ca-49f3-b041-0efb49b9435b

@@ -1,9 +1,10 @@
 aliases: 像集
 created: 20240905111010044
 creator: miRoox
-modified: 20240914085310415
+modified: 20260209153353478
 modifier: miRoox
-tags: 集合
+parent: 映射
+tags: 集合 映射
 title: 值域
 tmap.id: 7a1f42af-2875-499a-93e5-fe7c1517615b
 type: text/vnd.tiddlywiki

@@ -1,8 +1,9 @@
 aliases: 任意 ∀
 created: 20240905142116609
 creator: miRoox
-modified: 20250323040859445
+modified: 20260209135411247
 modifier: miRoox
+parent: 逻辑量化
 tags: 逻辑量化
 title: 全称量化
 tmap.id: 472740ec-4201-41b4-b8cc-04f5c0e9443a

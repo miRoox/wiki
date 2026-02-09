@@ -1,8 +1,9 @@
 aliases: 补集 余集
 created: 20240906073122073
 creator: miRoox
-modified: 20250823104708318
+modified: 20260209132640081
 modifier: miRoox
+parent: 集合运算
 tags: TODO 集合 集合运算 一元运算
 title: 绝对补集
 tmap.id: 5ddab7fb-036a-483f-9ba0-93775754b87a

@@ -1,8 +1,9 @@
 aliases: WebAssembly wasm
 created: 20260208122237008
 creator: miRoox
-modified: 20260208132308831
+modified: 20260209151932435
 modifier: miRoox
+parent: WebAssembly
 tags: 计算机语言 TODO WebAssembly 汇编语言
 title: WebAssembly文本格式
 tmap.id: c48c8e79-22af-4d6e-b19b-2c071a7ca28a

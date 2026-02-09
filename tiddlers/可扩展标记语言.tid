@@ -2,8 +2,9 @@ aliases: XML
 caption: XML
 created: 20240917095626991
 creator: miRoox
-modified: 20250505085859221
+modified: 20260209150940113
 modifier: miRoox
+parent: 标记语言
 tags: 标记语言 TODO 文件格式 序列化 分类
 title: 可扩展标记语言
 tmap.id: 674db06d-53cf-45f7-925b-c158132049a1

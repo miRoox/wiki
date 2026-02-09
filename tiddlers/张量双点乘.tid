@@ -2,8 +2,9 @@ aliases: 双点乘
 caption: 双点乘
 created: 20240822115445453
 creator: miRoox
-modified: 20240822115504691
+modified: 20260209132402116
 modifier: miRoox
+parent: 张量运算
 tags: TODO 张量运算 二元运算
 title: 张量双点乘
 tmap.id: 1a4d7a45-79c8-4506-8cc6-ccbb74c4dc9e

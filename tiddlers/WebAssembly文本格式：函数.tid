@@ -1,8 +1,10 @@
 aliases: 函数
+caption: 函数
 created: 20260208132326422
 creator: miRoox
-modified: 20260208133932302
+modified: 20260209152050453
 modifier: miRoox
+parent: WebAssembly文本格式
 tags: WebAssembly文本格式 TODO
 title: WebAssembly文本格式：函数
 tmap.id: 5c689867-fdbf-4769-858c-4e9743cbb6cb

@@ -2,8 +2,9 @@ aliases: QML
 caption: QML
 created: 20191102052351898
 creator: miRoox
-modified: 20250505084518546
+modified: 20260209151147565
 modifier: miRoox
+parent: Qt
 tags: TODO 计算机语言 标记语言 Qt
 title: Qt标记语言
 tmap.id: 89a1c938-e2b8-444b-ab13-98465f314eca

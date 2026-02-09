@@ -2,8 +2,9 @@ aliases: 缩并
 caption: 缩并
 created: 20191114115126229
 creator: miRoox
-modified: 20240822115102037
+modified: 20260209132238950
 modifier: miRoox
+parent: 张量运算
 tags: 张量运算 一元运算
 title: 张量缩并
 tmap.id: 7954303d-5f72-4150-b4c7-e27b6cbc498c

@@ -2,8 +2,9 @@ aliases: 三点乘
 caption: 三点乘
 created: 20240822115514627
 creator: miRoox
-modified: 20240822115542378
+modified: 20260209132351353
 modifier: miRoox
+parent: 张量运算
 tags: TODO 张量运算 二元运算
 title: 张量三点乘
 tmap.id: 9a7a3164-b27f-4eff-84f3-ca18f203510c

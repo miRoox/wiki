@@ -1,8 +1,9 @@
 created: 20241106153107920
 creator: miRoox
-modified: 20250809114701589
+modified: 20260209143509816
 modifier: miRoox
-tags: 大语言模型会话 速记信息 devv.ai
+parent: 大语言模型会话
+tags: 大语言模型会话 devv.ai
 title: C# 有没有什么本地部署llama的库
 tmap.id: 1bfc9630-7ef7-44fc-8f20-d7911d7ec1bc
 type: text/markdown

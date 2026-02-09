@@ -1,8 +1,9 @@
 aliases: 部分可判定语言 图灵可识别语言 RE
 created: 20241228060510833
 creator: miRoox
-modified: 20241228061020656
+modified: 20260209131445671
 modifier: miRoox
+parent: 乔姆斯基谱系
 tags: 形式语言 乔姆斯基谱系
 title: 递归可枚举语言
 tmap.id: 9687c0cc-bc9a-4d9f-be1d-aa5f05cecba1

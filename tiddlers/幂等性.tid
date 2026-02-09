@@ -1,8 +1,9 @@
 aliases: 幂等
 created: 20240912101306540
 creator: miRoox
-modified: 20250323054144733
+modified: 20260209124530900
 modifier: miRoox
+parent: 运算性质
 tags: 运算性质
 title: 幂等性
 tmap.id: 3ab23f3d-60dc-4b7d-a180-172e569cee80

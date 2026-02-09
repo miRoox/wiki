@@ -1,8 +1,9 @@
 aliases: 单位脉冲 狄拉克函数 δ函数
 created: 20191010113520679
 creator: miRoox
-modified: 20250621140615780
+modified: 20260209125615051
 modifier: miRoox
+parent: 广义函数
 tags: TODO 广义函数 函数
 title: 狄拉克δ函数
 tmap.id: d6e19896-3ed0-4d52-a95e-79363fec3b82

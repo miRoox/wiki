@@ -3,9 +3,10 @@ created: 20240728141448810
 creator: miRoox
 description: 曾投稿至科幻星云网举办的第四届幻想类征文比赛
 icon: <Idea>.png
-modified: 20250528132113119
+modified: 20260209141646223
 modifier: miRoox
-tags: 小说 科幻
+parent: 科幻小说
+tags: 小说 科幻 科幻小说
 title: 《Idea》
 tmap.id: cfe44c85-24cc-4e4b-9b39-39b6236a5bab
 type: text/vnd.tiddlywiki

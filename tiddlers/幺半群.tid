@@ -1,8 +1,9 @@
 aliases: 单群 亚群 独异点 具幺半群 四分之三群
 created: 20240908124449428
 creator: miRoox
-modified: 20240911081459990
+modified: 20260209133200585
 modifier: miRoox
+parent: 群论
 tags: 群论 TODO 代数结构
 title: 幺半群
 tmap.id: b7a14b25-a913-43cb-a772-c5707c26054f

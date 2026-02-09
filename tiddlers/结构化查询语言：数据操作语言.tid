@@ -2,8 +2,9 @@ aliases: 数据操作语言 DML
 caption: 数据操作语言
 created: 20260208023937915
 creator: miRoox
-modified: 20260208024218879
+modified: 20260209145959135
 modifier: miRoox
+parent: 结构化查询语言
 tags: 结构化查询语言 TODO
 title: 结构化查询语言：数据操作语言
 tmap.id: 966a8edb-a059-43a0-8b1d-7ad43a28e61b

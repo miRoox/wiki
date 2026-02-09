@@ -1,8 +1,9 @@
 created: 20241014140224823
 creator: miRoox
-modified: 20241015052047567
+modified: 20260209143644542
 modifier: miRoox
-tags: 大语言模型会话 速记信息 ChatGPT HowTos
+parent: 大语言模型会话
+tags: ChatGPT HowTos 大语言模型会话
 title: ChatGPT：将gpg key迁移到另一台机器上
 tmap.id: 2f228b39-aef4-433b-9a5d-108cbac106bc
 type: text/markdown
