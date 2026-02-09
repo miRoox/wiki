@@ -15,6 +15,8 @@
         "tiddlywiki/codemirror-mode-javascript",
         "tiddlywiki/codemirror-mode-css",
         "tiddlywiki/codemirror-mode-xml",
+        "wikilabs/trails",
+        "wikilabs/remove-states",
         "wikilabs/uni-link"
     ],
     "themes": [
