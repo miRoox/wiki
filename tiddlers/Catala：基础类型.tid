@@ -1,0 +1,17 @@
+caption: 基础类型
+created: 20260210064635396
+creator: miRoox
+modified: 20260210111420755
+modifier: miRoox
+parent: Catala：类型
+tags: TODO Catala：类型
+title: Catala：基础类型
+tmap.id: 04af7ccc-f0c2-4b87-8984-80ea66982e90
+type: text/vnd.tiddlywiki
+
+* `boolean`：布尔类型
+* `integer`：表示任意大小的整数
+* `decimal`：表示任意精度的小数
+* `money`：带单位的金额，内部始终表示为最小金额单位下的整数
+* `date`：日期
+* `duration`：日期区间

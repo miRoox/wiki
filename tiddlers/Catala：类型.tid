@@ -1,0 +1,12 @@
+caption: 类型
+created: 20260210084547195
+creator: miRoox
+modified: 20260210111418637
+modifier: miRoox
+parent: Catala
+tags: Catala TODO
+title: Catala：类型
+tmap.id: 483f743a-aa68-4dda-826d-a9a73eee2515
+type: text/vnd.tiddlywiki
+
+[[Catala]]是一个强类型语言，提供良好的类型系统，支持内置的[[基础类型|Catala：基础类型]]和用户自定义类型
