@@ -1,0 +1,16 @@
+created: 20260210053337220
+creator: miRoox
+modified: 20260210053419919
+modifier: miRoox
+parent: PostgreSQL
+tags: 代码片段 PostgreSQL
+title: PostgreSQL查询表字段大小中位数
+tmap.id: 0ccc9701-5a34-4e05-b2d6-65deddc4bb79
+type: text/vnd.tiddlywiki
+
+假设是`Log`表下的`Content`字段
+
+```sql
+SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY octet_length("Content")) AS median_bytes
+FROM "public"."Log" WHERE "Content" IS NOT NULL;
+```
