@@ -1,9 +1,9 @@
 aliases: tf-idf
 created: 20250517114443519
 creator: miRoox
-modified: 20250517142547541
+modified: 20260210121629096
 modifier: miRoox
-parent: 算法
+parent: 信息检索
 tags: 算法 信息检索
 title: 词频-逆向文件频率算法
 tmap.id: c60c070d-d39e-4fa3-842d-6f0e0fb8c5a8

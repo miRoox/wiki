@@ -1,11 +1,12 @@
-aliases: RTF
+aliases: RTF 富文本格式
+caption: RTF
 created: 20240924115748462
 creator: miRoox
-modified: 20260209151010177
+modified: 20260210131025882
 modifier: miRoox
 parent: 文件格式
 tags: 标记语言 TODO 文本文件 文件格式
-title: 富文本格式
+title: Rich Text Format
 tmap.id: 7559e61a-f4b0-40e3-b76a-32ef4e645c66
 type: text/vnd.tiddlywiki
 

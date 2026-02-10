@@ -1,7 +1,7 @@
 aliases: PNG
 created: 20240930062149866
 creator: miRoox
-modified: 20240930062315085
+modified: 20260210131043176
 modifier: miRoox
 parent: 位图
 tags: 位图 TODO 文件格式
@@ -9,4 +9,4 @@ title: 便携式网络图形
 tmap.id: fa34125a-0622-4c35-b306-2463509c5717
 type: text/vnd.tiddlywiki
 
-''便携式网络图形''（Portable Network Graphics, PNG）是一种支持[[无损压缩]]的[[位图]]图形格式。
+''便携式网络图形''（Portable Network Graphics, ''PNG''）是一种支持[[无损压缩]]的[[位图]]图形格式。

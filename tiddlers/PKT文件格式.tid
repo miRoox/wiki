@@ -1,10 +1,10 @@
 aliases: PKT
 created: 20240625025530504
 creator: miRoox
-modified: 20240924090354233
+modified: 20260210130636814
 modifier: miRoox
-parent: 文件格式
-tags: 文件格式 文本文件 配置文件 INI文件 泰伯利亚之日引擎
+parent: 红色警戒2：Modding
+tags: 文件格式 文本文件 配置文件 INI文件 泰伯利亚之日引擎 红色警戒2：Modding
 title: PKT文件格式
 tmap.id: a433bf7f-b7be-4616-9752-987da9c75f7e
 type: text/vnd.tiddlywiki

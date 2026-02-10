@@ -1,9 +1,9 @@
 caption: 龙贝格积分法
 created: 20191018022258956
 creator: miRoox
-modified: 20230316103711666
+modified: 20260210121751739
 modifier: miRoox
-parent: 算法
+parent: 数值积分
 tags: 算法 数值积分 TODO 计算数学
 title: Romberg积分法
 tmap.id: 44ecc4cb-f612-46e0-b720-009368f8550a
