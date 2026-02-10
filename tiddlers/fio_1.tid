@@ -1,9 +1,9 @@
 aliases: fio
 created: 20240417082840348
 creator: miRoox
-modified: 20250101052341787
+modified: 20260210064854243
 modifier: miRoox
-parent: 开发工具
+parent: 命令行程序
 tags: 开发工具 软件 命令行程序
 title: fio
 tmap.id: 5c3abc0d-4c9c-40ba-ad0b-6177561c2c02

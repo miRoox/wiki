@@ -1,9 +1,9 @@
 created: 20250820125012758
 creator: miRoox
 description: <Jumpserver用户名>@<目标主机用户名>@<目标主机名>作为用户名
-modified: 20250820125144134
+modified: 20260210070926075
 modifier: miRoox
-parent: HowTos
+parent: JumpServer
 tags: HowTos JumpServer
 title: 通过JumpServer用SSH登录服务器
 tmap.id: 8608da95-615e-4dca-acf2-e5be7dd16d6c

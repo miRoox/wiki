@@ -1,7 +1,7 @@
 aliases: Catala
 created: 20250505115956866
 creator: miRoox
-modified: 20260209150154434
+modified: 20260210064631779
 modifier: miRoox
 parent: 领域特定语言
 tags: 领域特定语言 TODO 计算机语言
@@ -14,4 +14,5 @@ type: text/vnd.tiddlywiki
 !! 链接
 
 * [[官方网站|https://catala-lang.org/]]
+* [[官方教程|https://book.catala-lang.org/]]
 * [[官方示例|https://github.com/CatalaLang/catala-examples]]
