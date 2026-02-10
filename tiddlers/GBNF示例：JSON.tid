@@ -2,6 +2,7 @@ created: 20241231115058126
 creator: miRoox
 modified: 20241231115925693
 modifier: miRoox
+parent: [[GGML BNF]]
 tags: [[GGML BNF]]
 title: GBNF示例：JSON
 tmap.id: 215b2ddd-7dbd-4557-829a-94e95d76721b

@@ -4,6 +4,7 @@ created: 20191018021331339
 creator: miRoox
 modified: 20251012024925548
 modifier: miRoox
+parent: 算法
 tags: 算法 TODO 计算数学
 title: 牛顿迭代法
 tmap.id: 040cbf32-f70b-4fd6-aa94-825345350538
@@ -12,4 +13,3 @@ type: text/vnd.tiddlywiki
 ! 牛顿法
 
 用低阶的[[多项式]]函数来近似问题的目标函数，用近似问题代替原问题，迭代求解。
-

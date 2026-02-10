@@ -3,6 +3,7 @@ created: 20240930081949369
 creator: miRoox
 modified: 20240930085524970
 modifier: miRoox
+parent: 程序设计模式
 tags: 程序设计模式 TODO 控制反转 依赖反转原则
 title: 依赖注入
 tmap.id: bc88f0cb-626e-4f14-bd19-af424a85a94d

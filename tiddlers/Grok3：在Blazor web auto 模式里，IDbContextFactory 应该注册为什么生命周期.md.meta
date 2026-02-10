@@ -2,6 +2,7 @@ created: 20250711135050817
 creator: miRoox
 modified: 20250711135318100
 modifier: miRoox
+parent: Grok3
 tags: Grok3 大语言模型会话
 title: Grok3：在Blazor web auto 模式里，IDbContextFactory 应该注册为什么生命周期
 tmap.id: 55d0f7c1-56dc-4343-857e-d2a9f6c92b83

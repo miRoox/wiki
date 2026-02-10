@@ -2,6 +2,7 @@ created: 20240521035545050
 creator: miRoox
 modified: 20240521052355044
 modifier: miRoox
+parent: Clash
 tags: Clash HowTos systemd
 title: 将Clash作为systemd服务
 tmap.id: 6a5dfc00-eb0b-4a8a-8154-f107c7970424

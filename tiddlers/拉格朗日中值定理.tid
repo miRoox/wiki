@@ -2,6 +2,7 @@ created: 20250524063757542
 creator: miRoox
 modified: 20250810084436069
 modifier: miRoox
+parent: 微分中值定理
 tags: 微分中值定理 数学定理 微积分学
 title: 拉格朗日中值定理
 tmap.id: 3bdb230d-43fe-4f82-aa7e-089fa09b689b
@@ -42,4 +43,3 @@ $$
 $$
 \exist\xi\in(a,b),\,g'(\xi)=f'(\xi)-\frac{f(b)-f(a)}{b-a}=0
 $$
-

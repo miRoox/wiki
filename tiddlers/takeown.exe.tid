@@ -2,6 +2,7 @@ created: 20241230152545060
 creator: miRoox
 modified: 20241231113947227
 modifier: miRoox
+parent: cmd.exe
 tags: cmd.exe 命令行程序
 title: takeown.exe
 tmap.id: 24cc3e5e-f93b-4286-9341-2f62655e9688

@@ -4,6 +4,7 @@ created: 20250206100609442
 creator: miRoox
 modified: 20250206102321984
 modifier: miRoox
+parent: Ollama
 tags: Ollama TODO
 title: Ollama Model File
 tmap.id: 13ffd82a-7ab0-40b0-bec2-7cabf32743a3
@@ -19,5 +20,4 @@ INSTRUCTION arguments
 ```
 
 !! 指令
-
 

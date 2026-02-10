@@ -3,6 +3,7 @@ created: 20230514083009435
 creator: miRoox
 modified: 20230514083038907
 modifier: miRoox
+parent: Ansible
 tags: Ansible TODO
 title: Ansible playbook
 tmap.id: e81d06ce-4b32-47c3-a9ef-ee19654fd647

@@ -2,6 +2,7 @@ created: 20191208002639778
 creator: miRoox
 modified: 20241011025420111
 modifier: miRoox
+parent: 组会日志
 tags: 组会日志 日志
 title: 2019年12月08日
 tmap.id: 9e930961-8516-4a76-9be9-9c3736dcf085
@@ -22,4 +23,3 @@ type: text/vnd.tiddlywiki
 ---
 
 * 软件开发，并行方式：层次划分，拆分界面和功能分工。
-

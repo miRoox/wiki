@@ -2,6 +2,7 @@ created: 20250811130255300
 creator: miRoox
 modified: 20250811143403099
 modifier: miRoox
+parent: 大语言模型会话
 tags: 大语言模型会话 Grok3
 title: Grok3：Hangfire 的 Redis 支持：社区版vs官方版
 tmap.id: 4665b31e-933d-40d2-b0b6-ef14509868f4

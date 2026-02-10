@@ -3,6 +3,7 @@ created: 20191224121326405
 creator: miRoox
 modified: 20230316103711657
 modifier: miRoox
+parent: 线性预测器
 tags: TODO 线性预测器
 title: 后向线性预测器
 tmap.id: 8161fa7c-4fab-472a-8bae-db7f02a823bc

@@ -2,6 +2,7 @@ created: 20200103123239889
 creator: miRoox
 modified: 20230316103711655
 modifier: miRoox
+parent: 非线性介质的极化理论
 tags: TODO 非线性介质的极化理论
 title: 非线性介质的极化强度与极化率
 tmap.id: 6d1f2608-ba5d-4f46-bc20-25f58d4df84c
@@ -28,4 +29,3 @@ $$
 \end{aligned}
 $$
 其中，$$\omega_1,\omega_2,\dots,\omega_n$$为入射场的频率，$$\omega$$为极化场的频率。根据能量守恒，有$$\omega=\omega_1+\omega_2+\cdots+\omega_n$$。
-

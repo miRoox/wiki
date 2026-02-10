@@ -2,6 +2,7 @@ created: 20240930095043632
 creator: miRoox
 modified: 20251009133800675
 modifier: miRoox
+parent: 热力学基本定律
 tags: 热力学基本定律 TODO 物理定律 守恒定律
 title: 热力学第一定律
 tmap.id: ee6123fe-02c6-42cf-ae6b-1a8af469e18c
@@ -12,4 +13,3 @@ type: text/vnd.tiddlywiki
 $$
 \Delta E_{\text{int}}=Q-W
 $$
-

@@ -3,6 +3,7 @@ created: 20250714135031958
 creator: miRoox
 modified: 20250714142553130
 modifier: miRoox
+parent: 集中趋势
 tags: 集中趋势 TODO 平均数
 title: 算术平均数
 tmap.id: d3f5f044-122e-49b9-b925-a06a6df111ff
@@ -13,4 +14,3 @@ type: text/vnd.tiddlywiki
 $$
 \bar{x}=\frac{\sum_{i=1}^n x_i}{n}=\frac{x_1+x_2+\cdots+x_n}{n}
 $$
-

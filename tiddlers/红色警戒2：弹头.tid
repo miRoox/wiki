@@ -4,6 +4,7 @@ created: 20230205060630178
 creator: miRoox
 modified: 20250824124703717
 modifier: miRoox
+parent: 红色警戒2：物体类型
 tags: 红色警戒2：物体类型 TODO 红色警戒2：Modding 红色警戒2：所有物体类型关联
 title: 红色警戒2：弹头
 tmap.edges: {"8e7684b4-70e1-4fff-8cdf-07c970c36ed5":{"to":"0f88522b-03aa-4b19-b07f-6f557527a09f","type":"RA2UWW:弹头-动画"},"01a79f86-7361-426e-82d8-6d55afa114b7":{"to":"13a75dc8-1dcf-4535-a486-a6760a937290","type":"RA2UWW:弹头-碎片"},"ec2975e5-be8b-4ae5-b890-e5a820dbea85":{"to":"5cbd07ed-7044-4dfa-a6df-f6e360c5dcf0","type":"RA2UWW:弹头-粒子"}}

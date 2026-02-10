@@ -2,6 +2,7 @@ created: 20200111093726252
 creator: miRoox
 modified: 20250809135659787
 modifier: miRoox
+parent: FIR-system-lattice.tex
 tags: 可缩放矢量图形 FIR-system-lattice.tex
 title: FIR-system-lattice.svg
 tmap.edges: {"ef6d9152-ed2c-4830-bdee-baf833f2af79":{"to":"887c7139-4726-443c-9d3d-132cff2adf37","type":"source:latex"}}

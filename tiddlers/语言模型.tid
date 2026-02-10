@@ -2,6 +2,7 @@ created: 20250316142054129
 creator: miRoox
 modified: 20250517133154722
 modifier: miRoox
+parent: 自然语言处理
 tags: TODO 自然语言处理 自然语言处理任务
 title: 语言模型
 tmap.id: f91eb51c-c8e4-4f8d-bfd9-ff8509e9ca3e
@@ -10,4 +11,3 @@ type: text/vnd.tiddlywiki
 ''语言模型''是指[[自然语言]]的模型。
 
 [[乔姆斯基|Avram Noam Chomsky]]在1950年代开创了语言模型，开发了一种[[形式语言理论]]，该理论成为[[编程语言]]领域的基础。
-

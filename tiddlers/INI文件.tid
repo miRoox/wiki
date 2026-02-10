@@ -3,6 +3,7 @@ created: 20240903054831484
 creator: miRoox
 modified: 20241210133922413
 modifier: miRoox
+parent: 文件格式
 tags: 文件格式 文本文件 配置文件
 title: INI文件
 tmap.id: 85033af9-85fe-4de7-9ed8-ac1f5403c1f3
@@ -22,4 +23,3 @@ name2=value2
 [section2]
 name1=value1
 ```
-

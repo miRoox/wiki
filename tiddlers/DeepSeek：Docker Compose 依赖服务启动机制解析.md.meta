@@ -2,6 +2,7 @@ created: 20250621153505530
 creator: miRoox
 modified: 20250621153651438
 modifier: miRoox
+parent: 大语言模型会话
 tags: 大语言模型会话 DeepSeek
 title: DeepSeek：Docker Compose 依赖服务启动机制解析
 tmap.id: e4c61e8a-4a6c-4d85-91e9-5e45ed5d31ea

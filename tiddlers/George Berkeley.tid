@@ -4,6 +4,7 @@ created: 20190929113922996
 creator: miRoox
 modified: 20240929083939194
 modifier: miRoox
+parent: 哲学家
 tags: 哲学家 TODO 人物
 title: George Berkeley
 tmap.id: ae876751-0eeb-49d1-ae23-ce9451ef8fb3
@@ -18,4 +19,3 @@ type: text/vnd.tiddlywiki
 <<<.tc-big-quote
 物是观念的集合
 <<<
-

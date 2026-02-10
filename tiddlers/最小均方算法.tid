@@ -2,6 +2,7 @@ created: 20200102111355364
 creator: miRoox
 modified: 20230316103711664
 modifier: miRoox
+parent: 自适应滤波器
 tags: TODO 自适应滤波器
 title: 最小均方算法
 tmap.id: 910b4eb6-345c-4e53-ad31-14100b208494
@@ -35,6 +36,5 @@ $$
 # 收敛稳定性
 # 收敛速度
 # 均方误差的超量
-
 
 

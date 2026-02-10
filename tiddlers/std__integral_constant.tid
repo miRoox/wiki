@@ -2,6 +2,7 @@ created: 20200922114835041
 creator: miRoox
 modified: 20250810115157681
 modifier: miRoox
+parent: C++类型特性
 tags: C++类型特性 C++类型支持库
 title: std::integral_constant
 tmap.id: a94db602-fd50-4099-a65d-9ecca7c3dd60

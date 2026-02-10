@@ -3,6 +3,7 @@ created: 20200504134249789
 creator: miRoox
 modified: 20230316103711664
 modifier: miRoox
+parent: 摄像机
 tags: TODO 摄像机
 title: CMOS摄像机
 tmap.id: 8873132c-6bb3-4c4d-b23f-650df142d42d
@@ -26,7 +27,6 @@ CMOS和[[CCD|CCD摄像机]]最大的区别是 CMOS的电荷到电压转换过程
 * ISO 感光度差异：相同像素下，同样大小之感光器尺寸， CCD 的感光度高于CMOS 。
 * 噪点差异：CMOS每个感光二极体旁都搭配一个 放大器，虽然是统一制造，但是每个放大器或多或少都有些微的差异存在，很难达到放大同步的效果，对比单一个放大器的CCD，CMOS的噪点就比较多。
 * 耗电量差异：CMOS驱动电压为3.3V，CCD为12V，高驱动电压使 CCD 的耗电量远高于CMOS。
-
 
 
 

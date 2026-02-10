@@ -3,6 +3,7 @@ created: 20241230150103976
 creator: miRoox
 modified: 20241230150411798
 modifier: miRoox
+parent: cmd.exe
 tags: cmd.exe 命令行程序
 title: chcp.com
 tmap.id: 777b129f-4480-4d88-84db-aa83529fb89f

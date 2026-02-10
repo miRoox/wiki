@@ -2,6 +2,7 @@ created: 20191224103857730
 creator: miRoox
 modified: 20230316103711667
 modifier: miRoox
+parent: 自回归模型
 tags: TODO 自回归模型
 title: Yule-Walker方程
 tmap.id: e4fc3ce4-1082-434c-8641-39c3b811b38b
@@ -47,4 +48,3 @@ a_k&=\alpha_k&k=1,2,\dots,p\\
 \rho_{\rm{min}}&=\sigma^2
 \end{aligned}
 $$
-

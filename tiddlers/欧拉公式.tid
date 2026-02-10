@@ -2,6 +2,7 @@ created: 20250923123834478
 creator: miRoox
 modified: 20250923125155071
 modifier: miRoox
+parent: 数学公式
 tags: 数学公式 TODO 公式 复分析
 title: 欧拉公式
 tmap.id: 5c76cf32-7d94-40c4-b8a0-b1cafa331179
@@ -12,4 +13,3 @@ type: text/vnd.tiddlywiki
 $$
 \forall x\in\Reals,\,\euler^{\imath x}=\cos x+\imath\sin x
 $$
-

@@ -2,6 +2,7 @@ created: 20240419052920319
 creator: miRoox
 modified: 20240419053202146
 modifier: miRoox
+parent: ZStack
 tags: ZStack Ceph 分布式存储 软件
 title: ZStone
 tmap.id: 9f42776b-a0ce-4168-b93a-f433acd2baad

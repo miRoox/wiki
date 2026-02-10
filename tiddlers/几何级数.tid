@@ -2,6 +2,7 @@ created: 20250927144123540
 creator: miRoox
 modified: 20250927145221435
 modifier: miRoox
+parent: 级数
 tags: 级数 TODO
 title: 几何级数
 tmap.id: 49640683-1f43-4aa1-a56f-2ecfa4e133c8
@@ -25,4 +26,3 @@ $$
 $$
 \sum_{k=1}^\infty aq^{k-1}=\frac{a}{1-q}
 $$
-

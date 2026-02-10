@@ -2,6 +2,7 @@ created: 20200103072951196
 creator: miRoox
 modified: 20230316103711665
 modifier: miRoox
+parent: 光学双稳性的不稳定性
 tags: TODO 光学双稳性的不稳定性
 title: Ikeda不稳定性
 tmap.id: 34e8fa60-5dd2-42a3-81da-e230d78e98c5
@@ -10,4 +11,3 @@ type: text/vnd.tiddlywiki
 ! Ikeda不稳定性——延时不稳定性
 
 倍周期分叉，混沌。
-

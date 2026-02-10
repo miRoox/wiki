@@ -3,6 +3,7 @@ created: 20200505131939059
 creator: miRoox
 modified: 20230316103711664
 modifier: miRoox
+parent: 摄像机输出接口
 tags: 摄像机输出接口 TODO
 title: CameraLink接口
 tmap.id: b872d392-8cf3-451a-8fc6-60afbccb5e6f

@@ -2,6 +2,7 @@ created: 20241012062759816
 creator: miRoox
 modified: 20241012065826054
 modifier: miRoox
+parent: HowTos
 tags: HowTos
 title: 在WSL2内使用Windows宿主机上的代理
 tmap.id: 7209c42c-cba0-435c-8b9e-edfde99a36f8

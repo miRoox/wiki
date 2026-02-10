@@ -3,6 +3,7 @@ created: 20191228020420478
 creator: miRoox
 modified: 20240822120903162
 modifier: miRoox
+parent: 现代滤波器
 tags: TODO 现代滤波器 滤波器
 title: Wiener滤波器
 tmap.id: 32d88cf0-1e27-4543-ae55-fd3f9a66ffb5
@@ -50,4 +51,3 @@ $$
 
 # $$x(n)$$要求平稳
 # $$r_{dx}$$未知、时变的话
-

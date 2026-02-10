@@ -3,10 +3,10 @@ created: 20250630085052982
 creator: miRoox
 modified: 20250630085236117
 modifier: miRoox
+parent: 人工神经网络
 tags: 人工神经网络 TODO 卷积神经网络
 title: 全卷积神经网络
 tmap.id: 66a27266-def7-4630-8025-b44dc276d887
 type: text/vnd.tiddlywiki
 
 ''全卷积神经网络''（Fully Convolutional Network, FCN）是一种传统[[卷积神经网络]]（CNN）中的全连接层替换为卷积层的神经网络架构。
-

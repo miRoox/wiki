@@ -2,6 +2,7 @@ created: 20191223000705574
 creator: miRoox
 modified: 20230316103711666
 modifier: miRoox
+parent: 约束最优化方法
 tags: TODO 约束最优化方法
 title: Kuhn-Tucher条件
 tmap.id: 8cea15fc-9f90-44ed-b37e-862d24a21747
@@ -67,4 +68,3 @@ $$
 凸优化：$$f,g_i$$为[[凸函数]]，$$\bm h$$为线性函数。
 
 若$$\bm x^*$$为$$(f\bm g\bm h)$$的(KT)点，则$$\bm x^*$$为问题的全局最优解。
-

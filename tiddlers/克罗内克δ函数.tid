@@ -3,6 +3,7 @@ created: 20240822112951755
 creator: miRoox
 modified: 20240909132207967
 modifier: miRoox
+parent: 函数
 tags: 函数 TODO
 title: 克罗内克δ函数
 tmap.id: 8de5c4c8-c418-46a6-86a6-0dd11cef1ce1
@@ -25,4 +26,3 @@ $$
 0\quad(i\ne 0)
 \end{cases}
 $$
-

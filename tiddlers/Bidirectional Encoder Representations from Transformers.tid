@@ -4,6 +4,7 @@ created: 20250316120123511
 creator: miRoox
 modified: 20250316120339855
 modifier: miRoox
+parent: Transformer模型
 tags: Transformer模型 TODO 人工神经网络
 title: Bidirectional Encoder Representations from Transformers
 tmap.id: 64e2a9fc-9838-479c-a3c6-b5c93925551f

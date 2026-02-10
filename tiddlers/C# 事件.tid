@@ -3,6 +3,7 @@ created: 20200227141139951
 creator: miRoox
 modified: 20230316103711664
 modifier: miRoox
+parent: C#语法
 tags: TODO C#语法
 title: C# 事件
 tmap.id: 16d8a6fb-336b-4f49-8d1a-e957e7c08360
@@ -28,4 +29,3 @@ C# 中使用事件机制实现线程间的通信。
 public delegate void BoilerLogHandler(string status);
 public event BoilerLogHandler BoilerEventLog;
 ```
-

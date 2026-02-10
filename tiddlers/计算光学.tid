@@ -4,6 +4,7 @@ creator: miRoox
 list: 衍射数值计算 Collins公式
 modified: 20240822121049198
 modifier: miRoox
+parent: 工程光学
 tags: 工程光学 TODO 光学 分类
 title: 计算光学
 tmap.id: 56722876-7670-4d8a-847a-cc6958d38b6d
