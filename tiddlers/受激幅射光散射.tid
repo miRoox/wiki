@@ -1,7 +1,7 @@
 caption: 受激幅射光散射
 created: 20191115073858961
 creator: miRoox
-modified: 20230316103711660
+modified: 20260210125137363
 modifier: miRoox
 parent: 散射
 tags: 散射 TODO 非线性光学
@@ -12,7 +12,6 @@ type: text/vnd.tiddlywiki
 ! 受激幅射光散射
 
 $$
-\newcommand{\dd}{\mathrm{d}}
 \frac{\dd m_s}{\dd t}=Dm_L(m_s+1)
 $$
 

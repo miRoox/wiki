@@ -1,8 +1,8 @@
 created: 20250108124622287
 creator: miRoox
-modified: 20250108124823257
+modified: 20260210130336789
 modifier: miRoox
-parent: HowTos
+parent: [[Docker Compose]]
 tags: HowTos [[Docker Compose]]
 title: docker compose 镜像tag参数化
 tmap.id: bd0e0a95-9b8d-4acb-bf13-57b7646eb243

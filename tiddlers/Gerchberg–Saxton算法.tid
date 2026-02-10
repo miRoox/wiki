@@ -2,9 +2,9 @@ aliases: GS算法 GS
 caption: GS算法
 created: 20191018045916782
 creator: miRoox
-modified: 20250810143507342
+modified: 20260210121543193
 modifier: miRoox
-parent: 算法
+parent: 相位恢复算法
 tags: TODO 算法 相位恢复算法
 title: Gerchberg–Saxton算法
 tmap.id: 0e8cb0cf-a005-4eb3-912d-b4d581811c5c

@@ -1,9 +1,9 @@
 aliases: qemu
 created: 20240425025239042
 creator: miRoox
-modified: 20241024145222862
+modified: 20260210130436201
 modifier: miRoox
-parent: 软件
+parent: 虚拟机
 tags: 软件 开放源代码 虚拟机 TODO
 title: QEMU
 tmap.id: cebf6dac-dc45-4978-b23b-01dceff7f628
