@@ -2,6 +2,7 @@ created: 20240523110939972
 creator: miRoox
 modified: 20240527030120236
 modifier: miRoox
+parent: ZStack
 tags: ZStack
 title: ZStack日志
 tmap.id: 42f1cec9-033c-4cca-aa62-d3b689500c56
@@ -25,4 +26,3 @@ type: text/vnd.tiddlywiki
 | Ceph 备份存储日志 | `/var/log/zstack/ceph-backupstorage.log` | Ceph 监控节点 |
 | sharedblock 存储日志 | `/var/log/zstack/zsblk-agent/` | sharedblock |
 | VPC路由器的日志 | `/home/vyos/zvr/zvr.log` | VPC路由器 |
-

@@ -2,6 +2,7 @@ created: 20241014080955674
 creator: miRoox
 modified: 20250619085314820
 modifier: miRoox
+parent: HowTos
 tags: HowTos
 title: 为Git SSH连接方式配置代理
 tmap.id: 4585afac-dd4e-4dcc-acf6-fd9509843b08

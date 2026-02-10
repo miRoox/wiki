@@ -4,6 +4,7 @@ creator: miRoox
 list: 
 modified: 20250101084633242
 modifier: miRoox
+parent: cmd.exe
 tags: cmd.exe 命令行程序
 title: reg.exe
 tmap.id: 3b6517d7-a005-4dd1-9abd-fe0d390d3170
@@ -25,4 +26,3 @@ REG Operation [Parameter List]
 
 *  0 - 成功
 *  1 - 失败
-

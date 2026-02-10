@@ -2,6 +2,7 @@ created: 20241211124401104
 creator: miRoox
 modified: 20241211124802092
 modifier: miRoox
+parent: HowTos
 tags: HowTos
 title: 利用Docker部署Forgejo
 tmap.id: 4050b921-7a8f-4709-bcca-c05d25f9324f

@@ -4,6 +4,7 @@ created: 20251015123541946
 creator: miRoox
 modified: 20251015130303285
 modifier: miRoox
+parent: 算法
 tags: 算法
 title: Knuth-Morris-Pratt 算法
 tmap.id: f5cb2763-2d58-40e6-9293-83f69a8edd32
@@ -68,4 +69,3 @@ def kmp_search(text: str, pattern: str):
 ** 匹配过程：$$O(n)$$，$$n$$ 是主串长度。
 ** 总时间复杂度：$$O(m + n)$$。
 * 空间复杂度：$$O(m)$$，用于存储 next数组。
-

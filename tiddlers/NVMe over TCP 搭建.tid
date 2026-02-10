@@ -2,6 +2,7 @@ created: 20240521035140500
 creator: miRoox
 modified: 20241211124854805
 modifier: miRoox
+parent: HowTos
 tags: HowTos SAN存储 NVMe TODO
 title: NVMe over TCP 搭建
 tmap.id: 6313d27d-27d9-435c-a15a-2e13d3e40c64

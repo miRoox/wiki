@@ -3,6 +3,7 @@ created: 20191127133209750
 creator: miRoox
 modified: 20241230125808609
 modifier: miRoox
+parent: 单纯形法
 tags: TODO 单纯形法
 title: 单纯形法的表格计算
 tmap.id: 3cf21f03-90d6-468e-a3e5-e54a48411d8e
@@ -55,4 +56,3 @@ $$
 \infty&\text{otherwsie}
 \end{cases}
 $$
-

@@ -2,6 +2,7 @@ created: 20250921121550897
 creator: miRoox
 modified: 20250921122228724
 modifier: miRoox
+parent: 物理定律
 tags: TODO 物理定律
 title: 万有引力定律
 tmap.id: 313cf394-4fb0-47c4-a69d-ad4040b233b6
@@ -14,4 +15,3 @@ type: text/vnd.tiddlywiki
 $$
 \vb{F}_{1,2}=-G\frac{m_1 m_2}{r^2}\cdot\frac{\vb{r}_{1,2}}{r}
 $$
-

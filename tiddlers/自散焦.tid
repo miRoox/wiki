@@ -2,6 +2,7 @@ created: 20200108064410322
 creator: miRoox
 modified: 20230316103711664
 modifier: miRoox
+parent: 非线性光折射
 tags: TODO 非线性光折射
 title: 自散焦
 tmap.id: 04d1119c-bdff-4ae4-b1a6-c2cc2ed6f6b9
@@ -12,4 +13,3 @@ type: text/vnd.tiddlywiki
 光束在透明介质中传播时，有自身引起的非线性效应导致光束散焦。
 
 当[[光学克尔效应]]满足$$n_2<0$$即可能发生自散焦现象。
-

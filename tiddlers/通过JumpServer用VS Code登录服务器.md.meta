@@ -4,6 +4,7 @@ creator: miRoox
 description: <Jumpserver用户名>@<目标主机用户名>@<目标主机名>作为用户名
 modified: 20250820130028585
 modifier: miRoox
+parent: HowTos
 tags: HowTos JumpServer
 title: 通过JumpServer用VS Code登录服务器
 tmap.id: 126abc30-5783-4563-a95b-ad35794b2f37

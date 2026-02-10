@@ -3,6 +3,7 @@ created: 20241210130203185
 creator: miRoox
 modified: 20250819090018908
 modifier: miRoox
+parent: 程序框架
 tags: 程序框架 TODO 对象关系映射框架
 title: Entity Framework Core
 tmap.id: c4abd06c-04df-492b-a638-0a17b1953a5c

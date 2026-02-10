@@ -4,6 +4,7 @@ created: 20200104084052733
 creator: miRoox
 modified: 20250930075030156
 modifier: miRoox
+parent: 随机信号的参数模型
 tags: 随机信号的参数模型 TODO
 title: 自回归-移动平均模型
 tmap.id: f05d931c-e01b-43b3-ad58-bef9cca88ace

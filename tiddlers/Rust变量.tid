@@ -3,6 +3,7 @@ created: 20191120114046251
 creator: miRoox
 modified: 20240914134829563
 modifier: miRoox
+parent: Rust语法
 tags: Rust语法 计算机：变量
 title: Rust变量
 tmap.id: 5da112bb-cecc-42a4-888e-40115953ec55
@@ -27,4 +28,3 @@ fn main() {
 ```
 
 隐藏并不改变原先的变量，只是创建了新变量并使之前的变量无法通过原来的名称访问了。
-

@@ -3,6 +3,7 @@ created: 20191209134707928
 creator: miRoox
 modified: 20230316103711666
 modifier: miRoox
+parent: Qt
 tags: TODO Qt
 title: Qt:信号-槽
 tmap.id: 1e54eac2-30e4-45d8-bb53-91bed2b7f489

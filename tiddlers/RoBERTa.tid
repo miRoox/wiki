@@ -3,6 +3,7 @@ created: 20250624024126019
 creator: miRoox
 modified: 20250624025539777
 modifier: miRoox
+parent: 人工神经网络
 tags: 人工神经网络 TODO Transformer模型 [[Bidirectional Encoder Representations from Transformers]]
 title: RoBERTa
 tmap.id: 8622fa6c-16d5-45c4-956e-a66d24ed857e

@@ -4,6 +4,7 @@ creator: miRoox
 list: 前向线性预测器 后向线性预测器
 modified: 20230316103711662
 modifier: miRoox
+parent: 现代滤波器
 tags: 现代滤波器 TODO
 title: 线性预测器
 tmap.id: 929080c0-d0d4-4635-a75c-be96697c4c8d

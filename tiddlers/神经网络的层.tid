@@ -4,6 +4,7 @@ created: 20250701054357623
 creator: miRoox
 modified: 20250701055037261
 modifier: miRoox
+parent: 人工神经网络
 tags: 人工神经网络 TODO 分类
 title: 神经网络的层
 tmap.id: f0e7cd5c-1975-49a9-862b-e3ba9511c802
@@ -19,6 +20,5 @@ type: text/vnd.tiddlywiki
 * ''隐藏层''（Hidden Layer）：位于输入层和输出层之间，负责提取和转换特征。隐藏层的数量和神经元数量决定了网络的复杂度和表达能力。
 * ''输出层''（Output Layer）：生成网络的最终输出，例如分类任务中的类别概率或回归任务中的数值。输出层的神经元数量通常与任务的目标维度相关。
 * ''特殊层''：如卷积层（Convolutional Layer，常见于[[CNN|卷积神经网络]]）、池化层（Pooling Layer）、循环层（Recurrent Layer，常见于[[RNN|循环神经网络]]）或注意力层（Attention Layer，常见于[[Transformer模型]]），这些层针对特定任务设计，具有独特的计算方式。
-
 
 

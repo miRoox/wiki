@@ -3,6 +3,7 @@ created: 20250630082305600
 creator: miRoox
 modified: 20250630084445413
 modifier: miRoox
+parent: 人工神经网络
 tags: 人工神经网络 TODO
 title: 自编码器
 tmap.id: 4f6df380-b49a-4d9d-987a-bf329341ec23
@@ -21,4 +22,3 @@ type: text/vnd.tiddlywiki
 * 潜在空间（Latent Space）：也称为瓶颈层（Bottleneck），是压缩后的特征表示，维度远低于输入数据。
 * 解码器：将潜在空间表示映射回原始数据的维度，尝试重构输入。
 * 输出层：生成与输入数据形状相同的重构数据。
-

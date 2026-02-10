@@ -2,6 +2,7 @@ created: 20200106113327852
 creator: miRoox
 modified: 20230316103711662
 modifier: miRoox
+parent: 线性规划
 tags: TODO 线性规划
 title: 线性规划的灵敏度分析
 tmap.id: e0d32a50-95db-494e-9db0-73ba1d50905f
@@ -36,4 +37,3 @@ TBD
 !! 增加约束条件
 
 检验当前最优解是否满足约束。
-

@@ -4,6 +4,7 @@ creator: miRoox
 list: 线性最小均方误差估计
 modified: 20240924133818563
 modifier: miRoox
+parent: 概率论
 tags: 概率论 信号处理
 title: 随机信号的参数估计
 tmap.id: 6a462dce-4eca-4571-b0ba-00e06ec7b9af

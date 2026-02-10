@@ -2,6 +2,7 @@ created: 20250624060645069
 creator: miRoox
 modified: 20250624061011332
 modifier: miRoox
+parent: 大语言模型会话
 tags: 大语言模型会话 devv.ai
 title: devv.ai：C#是怎么知道类似(double X, double Y)这种ValueTuple里的元素对应的名称的？
 tmap.id: 81119e12-bbb3-4b18-b76d-9bf8bb030120

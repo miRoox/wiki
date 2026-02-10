@@ -2,6 +2,7 @@ created: 20240823010431759
 creator: miRoox
 modified: 20240914090322540
 modifier: miRoox
+parent: 策梅洛-弗兰克尔集合论
 tags: 策梅洛-弗兰克尔集合论 公理
 title: 无穷公理
 tmap.id: 7feea8d8-3750-4546-b475-6e2294b8b8a6
@@ -17,4 +18,3 @@ $$
 
 * $$0=\emptyset$$
 * $$s(n)=n\cup\set{n}$$
-

@@ -3,6 +3,7 @@ created: 20250101083646434
 creator: miRoox
 modified: 20250101084807182
 modifier: miRoox
+parent: reg.exe
 tags: reg.exe
 title: reg.exe add
 tmap.id: 9d38e816-e626-47c0-863f-ccbac48587b2
@@ -48,4 +49,3 @@ REG ADD HKLM\Software\MyCo /v Path /t REG_EXPAND_SZ /d ^%systemroot^%
 ```
 添加一个值(名称: Path，类型: `REG_EXPAND_SZ`，数据: `%systemroot%`)
 注意: 在扩充字符串中使用插入符号 ( `^` )
-

@@ -2,6 +2,7 @@ created: 20250531124510489
 creator: miRoox
 modified: 20250531124755029
 modifier: miRoox
+parent: HowTos
 tags: HowTos
 title: Linux下设置nVidia GPU驱动模块自动加载
 tmap.id: 75dea185-a95b-4b3a-9f63-572f0140e6b0
@@ -81,4 +82,3 @@ nvidia-smi
 sudo dmesg | grep -i nvidia
 sudo journalctl -xe | grep -i nvidia
 ```
-

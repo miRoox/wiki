@@ -2,6 +2,7 @@ created: 20240917101105410
 creator: miRoox
 modified: 20250524145200709
 modifier: miRoox
+parent: 符号表
 tags: 符号表
 title: 符号表：希腊字母衍生
 tmap.id: a6470919-f0e0-4fbe-b154-caed6aaf3eb9
@@ -20,4 +21,3 @@ type: text/vnd.tiddlywiki
 | $$\sum$$ | [[和|加法]] |
 | $$\Sigma$$ | [[形式语言理论：字母表]] |
 | $$\sigma$$ | [[Logistic S型函数]] |
-

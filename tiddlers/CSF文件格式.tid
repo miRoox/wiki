@@ -4,6 +4,7 @@ creator: miRoox
 list: CSF文件格式：数据头 CSF文件格式：标签 CSF文件格式：标签数据头 CSF文件格式：字符串对 CSF文件格式：语言
 modified: 20240924090404347
 modifier: miRoox
+parent: 文件格式
 tags: 文件格式 二进制文件 泰伯利亚之日引擎
 title: CSF文件格式
 tmap.id: 1db12c31-6479-4e29-b341-a22755f28db3

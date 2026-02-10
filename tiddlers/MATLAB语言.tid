@@ -2,8 +2,9 @@ aliases: MATLAB M语言 m
 caption: MATLAB
 created: 20250101053741323
 creator: miRoox
-modified: 20250101054103397
+modified: 20260210062046629
 modifier: miRoox
+parent: MATLAB
 tags: 科学计算 TODO MATLAB
 title: MATLAB语言
 tmap.id: 98ed7435-dc90-45f5-88fd-76ad0f4de05b

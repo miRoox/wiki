@@ -2,6 +2,7 @@ created: 20200504151018978
 creator: miRoox
 modified: 20230316103711663
 modifier: miRoox
+parent: CCD图像读出方式
 tags: TODO CCD图像读出方式 CCD摄像机
 title: 帧转移式CCD
 tmap.id: 3360d615-ed25-4ed5-a020-0d124e91432b

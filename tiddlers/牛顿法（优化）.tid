@@ -2,6 +2,7 @@ created: 20191218031633446
 creator: miRoox
 modified: 20251012024925576
 modifier: miRoox
+parent: 无约束最优化方法
 tags: 无约束最优化方法 TODO 牛顿迭代法
 title: 牛顿法（优化）
 tmap.id: b6083869-cc5a-4f42-898e-dffe3bf80018
@@ -35,4 +36,3 @@ $$
 # 带[[一维搜索]]
 # Goldstein-price方法：以Hesse矩阵是否正定作为开关，选择[[不精确的一维搜索]]或者[[最速下降法]]
 # 强迫Hesse矩阵正定：对Hesse矩阵修正使之正定。
-

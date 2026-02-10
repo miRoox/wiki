@@ -2,6 +2,7 @@ created: 20191211033237089
 creator: miRoox
 modified: 20230316103711653
 modifier: miRoox
+parent: 一维搜索
 tags: TODO 一维搜索
 title: 不精确的一维搜索
 tmap.id: ea7276de-9683-4804-a80c-bf002e12b436
@@ -19,4 +20,3 @@ $$
 # $$\nabla f(\bm{x}+\lambda\bm{d})\bm{d}\ge\beta\nabla f(\bm{x})\bm{d}$$
 
 其中，$$\alpha\in(0,\frac{1}{2}),\beta\in(0,1)$$（常取$$\alpha=0.1,\beta=0.7$$）
-

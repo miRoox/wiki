@@ -4,6 +4,7 @@ created: 20191106044233596
 creator: miRoox
 modified: 20240925121703418
 modifier: miRoox
+parent: 几何光学
 tags: TODO 几何光学
 title: 光线传播矩阵
 tmap.id: 4a61dcec-aa35-42d4-81d7-9c092a71c8f0
@@ -80,4 +81,3 @@ $$
     1&0\\ \frac{n_0}{f}&1
 \end{bmatrix}
 $$
-
