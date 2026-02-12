@@ -4,14 +4,14 @@
     {
       const KEYWORDS = {
         keyword: [
-          'scope', 'declaration', 'context', 'definitions', 'depends', 'on', 'equals',
+          'scope', 'declaration', 'context', 'definitions', 'data', 'depends', 'on', 'equals',
           'rule', 'under', 'condition', 'consequence', 'assertion', 'vary', 'with',
           'content', 'of', 'for', 'all', 'exists', 'in', 'and', 'or', 'xor', 'not',
           'maximum', 'minimum', 'filter', 'map', 'init', 'list', 'reduce', 'sum',
           'product', 'match', 'return'
         ].join(' '),
         type: [
-          'integer', 'decimal', 'money', 'boolean', 'date', 'duration', 'text'
+          'integer', 'decimal', 'money', 'boolean', 'date', 'duration', 'text', 'structure', 'list', 'enumeration'
         ].join(' '),
         literal: [
           'true', 'false'
