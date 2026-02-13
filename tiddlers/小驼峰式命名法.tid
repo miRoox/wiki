@@ -1,0 +1,11 @@
+created: 20260213033314117
+creator: miRoox
+modified: 20260213033433102
+modifier: miRoox
+parent: 驼峰式命名法
+tags: 驼峰式命名法 程序设计：命名规则
+title: 小驼峰式命名法
+tmap.id: 4e3deed7-af90-482a-94ee-52775546fb5f
+type: text/vnd.tiddlywiki
+
+''小驼峰式命名法''（lower camel case），是第一个单字以小写字母开始；第二个单字的首字母大写，例如：`firstName`
