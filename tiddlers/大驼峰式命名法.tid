@@ -1,0 +1,12 @@
+aliases: Pascal命名法
+created: 20260213032848619
+creator: miRoox
+modified: 20260213033441197
+modifier: miRoox
+parent: 驼峰式命名法
+tags: 驼峰式命名法 程序设计：命名规则
+title: 大驼峰式命名法
+tmap.id: 2aef9ab4-c2ba-4359-a4a4-2e9c74559a78
+type: text/vnd.tiddlywiki
+
+''大驼峰式命名法''（upper camel case）也叫''Pascal命名法''（Pascal case），是所有单词首字母均为大写的命名发，例如：`FirstName`

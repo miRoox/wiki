@@ -1,0 +1,13 @@
+aliases: 命名规则
+caption: 命名规则
+created: 20260213031036987
+creator: miRoox
+modified: 20260213033624878
+modifier: miRoox
+parent: 软件工程
+tags: 软件工程 分类
+title: 程序设计：命名规则
+tmap.id: f7fbac20-050d-43ab-867b-9b312f211550
+type: text/vnd.tiddlywiki
+
+''命名规则''（naming convention）一般指[[源代码]]中[[标识符]]的名称而规定的一系列规则。通常是为了提高源代码的易读性、易认性、程序效率以及可维护性。

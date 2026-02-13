@@ -1,7 +1,7 @@
 caption: 结构
 created: 20260212085150272
 creator: miRoox
-modified: 20260212090537743
+modified: 20260213033601614
 modifier: miRoox
 parent: Catala：用户声明类型
 tags: Catala：用户声明类型 TODO Catala：类型
@@ -9,9 +9,9 @@ title: Catala：结构
 tmap.id: e43e9066-230e-4b57-8b3b-7a87cc73719a
 type: text/vnd.tiddlywiki
 
-结构（Structures）将多个数据组合在一起，每块数据是这个结构的一个字段。
+''结构''（Structures）将多个数据组合在一起，每块数据是这个结构的一个字段。
 
-结构类型由用户声明，但其名称应该遵循[[大驼峰命名法]]。
+结构类型由用户声明，但其名称应该遵循[[大驼峰式命名法]]。
 
 结构声明的一个示例
 
