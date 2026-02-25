@@ -16,6 +16,7 @@
         "tiddlywiki/codemirror-mode-css",
         "tiddlywiki/codemirror-mode-xml",
         "wikilabs/cheatsheet",
+        "wikilabs/field-visibility",
         "wikilabs/trails",
         "wikilabs/remove-states",
         "wikilabs/uni-link"
