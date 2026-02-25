@@ -1,0 +1,17 @@
+aliases: 框架
+created: 20260225052243521
+creator: miRoox
+modified: 20260225053443411
+modifier: miRoox
+parent: Kripke语义
+tags: 模态逻辑 Kripke语义
+title: Kripke框架
+tmap.id: 5ffb6e9b-b2c9-4f52-a624-4ec3902ad67f
+type: text/vnd.tiddlywiki
+
+''Kripke框架''（Kripke frame）是现代[[模态逻辑]]（特别是命题模态逻辑）中最核心的语义结构，由Saul Kripke在1959–1963年间提出。它是[[Kripke语义]]（也叫关系语义或可能世界语义）的基石。
+
+一个Kripke框架是一个[[有序对]]$$(W,R)$$，其中
+
+* $$W$$是一个[[集合]]，其元素被称为''节点''或者''世界''
+* $$R$$是$$W$$上的一个[[二元关系]]，称为[[可达关系]]
