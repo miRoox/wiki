@@ -2,7 +2,7 @@ aliases: 漫画/图片翻译器 manga-image-translator
 caption: manga-image-translator
 created: 20260206123027018
 creator: miRoox
-modified: 20260206123731047
+modified: 20260326105452149
 modifier: miRoox
 parent: 软件
 tags: 软件 TODO
@@ -31,3 +31,4 @@ type: text/vnd.tiddlywiki
 !! 链接
 
 * [[GitHub|https://github.com/zyddnys/manga-image-translator/]]
+* [[Cotrans在线版|https://cotrans.touhou.ai/]]

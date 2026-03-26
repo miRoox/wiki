@@ -1,7 +1,7 @@
 color: #db6a00
 created: 20250624132755970
 creator: miRoox
-modified: 20260210132653090
+modified: 20260326110558311
 modifier: miRoox
 parent: 附录
 tags: 附录
@@ -18,6 +18,9 @@ type: text/vnd.tiddlywiki
 <th>
 原作者
 </th>
+<th>
+原文链接
+</th>
 </thead>
 <tbody>
 <$list filter="[tag[翻译作品]]">
@@ -31,6 +34,14 @@ type: text/vnd.tiddlywiki
 </$list>
 <$list filter="[all[current]!has[author]]">
 <$text text="佚名"/>
+</$list>
+</td>
+<td>
+<$list filter="[all[current]has[origin-url]]">
+<a href="{{!!origin-url}}"><$view field="origin-url"/></a>
+</$list>
+<$list filter="[all[current]!has[origin-url]]">
+<$text text="-"/>
 </$list>
 </td>
 </tr>
